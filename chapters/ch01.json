@@ -1,0 +1,5896 @@
+{
+ "id": "ch01",
+ "num": 1,
+ "title": "Present and Past",
+ "subtitle": "Simple and Progressive",
+ "icon": "🌋",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Air is consisting of oxygen, nitrogen, and other gases.",
+    "answer": "wrong",
+    "fix": "Air consists of oxygen, nitrogen, and other gases.",
+    "why": "consist is stative, and this is a fact → simple present.",
+    "rule": "1-3"
+   },
+   {
+    "type": "judge",
+    "text": "I am working overtime this week.",
+    "answer": "correct",
+    "why": "Only this week = temporary → progressive is right.",
+    "rule": "1-1"
+   },
+   {
+    "type": "judge",
+    "text": "Does the copy machine working right now?",
+    "answer": "wrong",
+    "fix": "Is the copy machine working right now?",
+    "why": "-ing needs am / is / are, not does.",
+    "rule": "1-2"
+   },
+   {
+    "type": "judge",
+    "text": "We aren't knowing Sami's wife.",
+    "answer": "wrong",
+    "fix": "We don't know Sami's wife.",
+    "why": "know is stative → no -ing.",
+    "rule": "1-3"
+   },
+   {
+    "type": "judge",
+    "text": "My cell phone network is always dropping calls.",
+    "answer": "correct",
+    "why": "always + -ing can complain about an annoying habit.",
+    "rule": "1-1"
+   },
+   {
+    "type": "judge",
+    "text": "Gloria canceled her doctor's appointment because she felt better.",
+    "answer": "correct",
+    "why": "Two finished past events → simple past.",
+    "rule": "1-4"
+   },
+   {
+    "type": "judge",
+    "text": "I turned on the stove, am boiling the water, and forget to put in the rice.",
+    "answer": "wrong",
+    "fix": "I turned on the stove, boiled the water, and forgot to put in the rice.",
+    "why": "A series of actions keeps the same tense.",
+    "rule": "1-4"
+   },
+   {
+    "type": "judge",
+    "text": "A few children drawed some pictures this morning while the teacher was talking.",
+    "answer": "wrong",
+    "fix": "A few children drew some pictures this morning while the teacher was talking.",
+    "why": "draw is irregular: draw → drew.",
+    "rule": "1-4"
+   },
+   {
+    "type": "judge",
+    "text": "When I turned the key, the car wasn't starting.",
+    "answer": "wrong",
+    "fix": "When I turned the key, the car didn't start.",
+    "why": "Two quick events, one after the other → simple past.",
+    "rule": "1-5"
+   },
+   {
+    "type": "judge",
+    "text": "I was going to call you, but my phone died.",
+    "answer": "correct",
+    "why": "was going to = a plan that didn't happen.",
+    "rule": "1-6"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "1-1",
+   "tag": "1-1",
+   "t": "prog",
+   "title": "Now vs. always",
+   "full": "Simple Present and Present Progressive",
+   "rule": {
+    "lines": [
+     "Simple present: facts and habits.",
+     "Present progressive: happening now, or just for now."
+    ],
+    "timeline": [
+     "simple-present",
+     "present-progressive"
+    ],
+    "examples": [
+     {
+      "text": "I get up at seven every morning.",
+      "hl": [
+       [
+        "get up",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I need an umbrella because it is raining.",
+      "hl": [
+       [
+        "is raining",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Fact, habit, or now?",
+     "icon": "🔭",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I look at the stars every night.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "every night → a habit → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "I'm looking at an astronomy textbook.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "am + -ing → in progress right now."
+      },
+      {
+       "type": "choice",
+       "text": "The earth revolves around the sun.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Always true → general truth → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "Water consists of hydrogen and oxygen.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A science fact → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "I always eat a salad for lunch.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "always → a habit."
+      },
+      {
+       "type": "choice",
+       "text": "The students are sitting at their desks right now.",
+       "options": [
+        "Happening now",
+        "General truth",
+        "Habit"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "right now + are sitting → in progress."
+      }
+     ]
+    },
+    {
+     "title": "Shower, seat, shift",
+     "icon": "🚿",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Kristin is in the shower. She ___ her hair.",
+       "verb": "wash",
+       "accept": [
+        "is washing"
+       ],
+       "why": "She's in the shower now → is washing."
+      },
+      {
+       "type": "fill",
+       "text": "Kristin ___ her hair every other day or so.",
+       "verb": "wash",
+       "accept": [
+        "washes"
+       ],
+       "why": "every other day = habit. wash → washes."
+      },
+      {
+       "type": "fill",
+       "text": "Tony usually ___ in the front row during class.",
+       "verb": "sit",
+       "accept": [
+        "sits"
+       ],
+       "why": "usually = habit → sits."
+      },
+      {
+       "type": "fill",
+       "text": "Today he ___ in the last row.",
+       "verb": "sit",
+       "accept": [
+        "is sitting"
+       ],
+       "why": "Only today = temporary → is sitting."
+      },
+      {
+       "type": "fill",
+       "text": "Lars ___ the night shift on weekends.",
+       "verb": "work",
+       "accept": [
+        "works"
+       ],
+       "why": "on weekends = habit → works."
+      },
+      {
+       "type": "fill",
+       "text": "He's not home now. He ___ a double shift.",
+       "verb": "work",
+       "accept": [
+        "is working"
+       ],
+       "why": "now → in progress → is working."
+      }
+     ]
+    },
+    {
+     "title": "Sun, babies, homework",
+     "icon": "🌞",
+     "items": [
+      {
+       "type": "fill",
+       "text": "After six days of rain, I'm glad that the sun ___.",
+       "verb": "shine",
+       "accept": [
+        "is shining"
+       ],
+       "why": "It's happening right now → is shining."
+      },
+      {
+       "type": "fill",
+       "text": "Every morning, the sun ___ in my bedroom window.",
+       "verb": "shine",
+       "accept": [
+        "shines"
+       ],
+       "why": "Every morning = habit → shines."
+      },
+      {
+       "type": "fill",
+       "ctx": "Every morning, the sun shines in my bedroom window and…",
+       "text": "…and ___ me up.",
+       "verb": "wake",
+       "accept": [
+        "wakes"
+       ],
+       "why": "Same habit. the sun = it → wakes."
+      },
+      {
+       "type": "fill",
+       "text": "Babies ___ very quickly. Newborns are very different from three-month-olds.",
+       "verb": "grow",
+       "accept": [
+        "grow"
+       ],
+       "why": "True for all babies → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "Your baby ___ so fast. She isn't a newborn anymore!",
+       "verb": "grow",
+       "accept": [
+        "is growing"
+       ],
+       "why": "Changing in this period → is growing."
+      },
+      {
+       "type": "fill",
+       "text": "Please be quiet. I ___ to concentrate on my math homework.",
+       "verb": "try",
+       "accept": [
+        "am trying"
+       ],
+       "why": "Right now → am trying."
+      },
+      {
+       "type": "fill",
+       "text": "Each day, our math teacher ___ to explain the material clearly.",
+       "verb": "try",
+       "accept": [
+        "tries"
+       ],
+       "why": "Each day = habit. try → tries (y → ies)."
+      }
+     ]
+    },
+    {
+     "title": "Sets or is setting?",
+     "icon": "🌅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "In early summer, the sun ___ around 9:00 P.M. in my hometown.",
+       "options": [
+        "sets",
+        "is setting",
+        "Both are possible"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A fact about every early summer → sets."
+      },
+      {
+       "type": "choice",
+       "text": "It's a beautiful evening. I'm sitting outside. The sun ___ behind the mountains.",
+       "options": [
+        "sets",
+        "is setting",
+        "Both are possible"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I'm watching it now → is setting."
+      },
+      {
+       "type": "choice",
+       "text": "Rice ___ in about 15 minutes.",
+       "options": [
+        "cooks",
+        "is cooking",
+        "Both are possible"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general fact about cooking time → cooks."
+      },
+      {
+       "type": "choice",
+       "text": "Hurry! The rice ___ over onto the stove.",
+       "options": [
+        "boils",
+        "is boiling",
+        "Both are possible"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Hurry! = it's happening now."
+      },
+      {
+       "type": "choice",
+       "text": "Dr. Costa ___ his hospital patients before office hours.",
+       "options": [
+        "visits",
+        "is visiting",
+        "Both are possible"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "His habit, or what he's doing right now. Both work."
+      },
+      {
+       "type": "choice",
+       "text": "Leo ___ his bike through downtown traffic every day to work.",
+       "options": [
+        "rides",
+        "is riding",
+        "Both are possible"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every day = habit → rides."
+      },
+      {
+       "type": "choice",
+       "text": "Jenna ___ for her grandparents at their hotel.",
+       "options": [
+        "works",
+        "is working",
+        "Both are possible"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Her usual job, or a job for now. Both fit."
+      },
+      {
+       "type": "choice",
+       "text": "Francine and Marco ___ each other several times a day.",
+       "options": [
+        "text",
+        "are texting",
+        "Both are possible"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "several times a day = habit → text."
+      }
+     ]
+    },
+    {
+     "title": "Ear training",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The sun is shining.",
+       "ask": "Which ending fits?",
+       "options": [
+        "right now.",
+        "every day.",
+        "in the summer."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is shining → happening now."
+      },
+      {
+       "type": "listen",
+       "say": "It snows a lot.",
+       "ask": "Choose all endings that fit.",
+       "options": [
+        "today.",
+        "in the winter.",
+        "every April."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "snows = a regular fact → regular times."
+      },
+      {
+       "type": "listen",
+       "say": "The birds are singing.",
+       "ask": "Choose all endings that fit.",
+       "options": [
+        "every year.",
+        "right now.",
+        "this week."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "are singing → now, or this period only."
+      },
+      {
+       "type": "listen",
+       "say": "We go skiing.",
+       "ask": "Which ending fits?",
+       "options": [
+        "right now.",
+        "today.",
+        "every winter."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "go (simple present) → a habit: every winter."
+      },
+      {
+       "type": "listen",
+       "say": "The flowers bloom.",
+       "ask": "Choose all endings that fit.",
+       "options": [
+        "every summer.",
+        "right now.",
+        "in the spring."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "bloom = a regular fact → regular times."
+      },
+      {
+       "type": "listen",
+       "say": "We are camping by the lake.",
+       "ask": "Which ending fits?",
+       "options": [
+        "this week.",
+        "every January.",
+        "every winter."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "are camping → temporary: this week."
+      }
+     ]
+    },
+    {
+     "title": "Our amazing heart",
+     "icon": "❤️",
+     "items": [
+      {
+       "type": "choice",
+       "ctx": "The heart is an amazing organ.",
+       "text": "It ___ 100,000 times a day.",
+       "options": [
+        "beat",
+        "beats"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it (he / she / it) → add -s."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ 2,000 gallons of blood through our blood vessels.",
+       "options": [
+        "pump",
+        "pumps"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it → pumps."
+      },
+      {
+       "type": "choice",
+       "text": "Blood ___ fresh oxygen from our lungs to the body.",
+       "options": [
+        "carry",
+        "carrys",
+        "carries"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Consonant + y → -ies: carries."
+      },
+      {
+       "type": "choice",
+       "text": "It also ___ waste from our tissues.",
+       "options": [
+        "remove",
+        "removes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it → removes."
+      },
+      {
+       "type": "choice",
+       "text": "When we ___, more blood moves through our body.",
+       "options": [
+        "laugh",
+        "laughs"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "we → no -s."
+      },
+      {
+       "type": "choice",
+       "text": "When we laugh, up to 20% more blood ___ through our body.",
+       "options": [
+        "go",
+        "gos",
+        "goes"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "go → goes (add -es)."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Habit, now, truth",
+     "task": "Tell Claude one daily habit, one thing happening around you right now, and one general truth.",
+     "claudePrompt": "You are a friendly English speaking partner. I am practicing the simple present (habits, facts) and the present progressive (happening now). Ask me, one at a time: 1) a daily habit I have, 2) something happening around me right now, 3) a general truth about the world. After each answer, check my tense. Then ask a follow-up question."
+    },
+    {
+     "title": "What's happening at home?",
+     "task": "Imagine a house with six rooms. Tell Claude what each person is doing right now.",
+     "claudePrompt": "You are a friendly English speaking partner. I am practicing the present progressive. Imagine a house with six rooms and one person in each room. Name one room at a time and give a tiny clue (for example: 'The kitchen: a pot, steam, a spoon'). I must say what the person is doing right now using am / is / are + -ing. Be playful and imaginative."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: now vs. always",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Simple present = always",
+      "visual": [
+       "simple-present"
+      ],
+      "lines": [
+       "Facts and habits: always, usually, every day.",
+       "It was true before, it's true now, it will be true later."
+      ],
+      "examples": [
+       {
+        "text": "The earth revolves around the sun.",
+        "hl": [
+         [
+          "revolves",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "I get up at seven every morning.",
+        "hl": [
+         [
+          "get up",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Present progressive = now",
+      "visual": [
+       "present-progressive"
+      ],
+      "lines": [
+       "am / is / are + verb-ing.",
+       "It started, it's going on now, and it will stop."
+      ],
+      "examples": [
+       {
+        "text": "The students are sitting at their desks right now.",
+        "hl": [
+         [
+          "are sitting",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "I am taking five courses this semester.",
+        "hl": [
+         [
+          "am taking",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Side by side",
+      "left": {
+       "label": "Always / habit",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Kristin washes her hair every day.",
+         "hl": [
+          [
+           "washes",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Tony usually sits in the front row.",
+         "hl": [
+          [
+           "sits",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Now / for now",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Kristin is washing her hair now.",
+         "hl": [
+          [
+           "is washing",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Today Tony is sitting in the last row.",
+         "hl": [
+          [
+           "is sitting",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Signal words: every day, usually, always → simple present. now, right now, today, this week → progressive."
+     },
+     {
+      "type": "choice",
+      "text": "My sister ___ coffee every morning.",
+      "options": [
+       "drinks",
+       "is drinking"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "every morning = habit → simple present."
+     },
+     {
+      "type": "choice",
+      "text": "Look! It ___ outside.",
+      "options": [
+       "snows",
+       "is snowing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Look! = happening now → is snowing."
+     },
+     {
+      "type": "learn",
+      "title": "he / she / it → add -s",
+      "chips": [
+       "work → works",
+       "watch → watches",
+       "go → goes",
+       "carry → carries",
+       "play → plays"
+      ],
+      "lines": [
+       "In simple present, he / she / it gets -s.",
+       "ch, sh, s, x, o → -es. Consonant + y → -ies."
+      ],
+      "examples": [
+       {
+        "text": "She works. He watches. It goes. Blood carries oxygen.",
+        "hl": [
+         [
+          "works",
+          "pres"
+         ],
+         [
+          "watches",
+          "pres"
+         ],
+         [
+          "goes",
+          "pres"
+         ],
+         [
+          "carries",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Water ___ at 100°C.",
+      "options": [
+       "boil",
+       "boils",
+       "is boiling"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A science fact, water = it → boils."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "1-2",
+   "tag": "1-2",
+   "t": "pres",
+   "title": "Do or be?",
+   "full": "Affirmative, Negative, and Question Forms",
+   "rule": {
+    "lines": [
+     "Simple present uses do / does: Does she help? She doesn't help.",
+     "Progressive uses am / is / are: Is she helping? She isn't helping."
+    ],
+    "timeline": [
+     "forms"
+    ],
+    "examples": [
+     {
+      "text": "He does not help.",
+      "hl": [
+       [
+        "does not help",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Are you helping?",
+      "hl": [
+       [
+        "Are",
+        "prog"
+       ],
+       [
+        "helping",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Ready for takeoff",
+     "icon": "🛫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Cold air ___ rise.",
+       "options": [
+        "isn't",
+        "doesn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "rise is a main verb, no -ing → doesn't."
+      },
+      {
+       "type": "choice",
+       "text": "What ___ water consist of?",
+       "options": [
+        "is",
+        "does"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "consist, no -ing → does."
+      },
+      {
+       "type": "choice",
+       "text": "___ the earth spinning rapidly or slowly?",
+       "options": [
+        "Is",
+        "Does"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spinning (-ing) → Is."
+      },
+      {
+       "type": "choice",
+       "ctx": "On an airplane ✈️",
+       "text": "___ you ready for takeoff?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "ready is an adjective → be: Are you."
+      },
+      {
+       "type": "choice",
+       "text": "___ the plane taking off soon?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "taking (-ing), one plane → Is."
+      },
+      {
+       "type": "choice",
+       "text": "___ you nervous?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "nervous is an adjective → Are you."
+      },
+      {
+       "type": "choice",
+       "text": "___ you have your seat belt on?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have is the main verb → Do you."
+      },
+      {
+       "type": "choice",
+       "text": "___ the seats comfortable?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "plural + adjective → Are."
+      }
+     ]
+    },
+    {
+     "title": "Cruising altitude",
+     "icon": "☁️",
+     "items": [
+      {
+       "type": "choice",
+       "ctx": "On an airplane ✈️",
+       "text": "___ your seat comfortable?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "one seat + adjective → Is."
+      },
+      {
+       "type": "choice",
+       "text": "___ the seat go back more?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "go is the main verb; the seat = it → Does."
+      },
+      {
+       "type": "choice",
+       "text": "___ they serve food on this flight?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "serve is the main verb; they → Do."
+      },
+      {
+       "type": "choice",
+       "text": "___ the movie beginning?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "beginning (-ing) → Is."
+      },
+      {
+       "type": "choice",
+       "text": "___ you like to fly?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "like is the main verb → Do you."
+      },
+      {
+       "type": "choice",
+       "text": "___ the co-pilot flying the plane?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "flying (-ing) → Is."
+      },
+      {
+       "type": "choice",
+       "text": "___ the pilot sleep during the flight?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "sleep, one pilot → Does."
+      },
+      {
+       "type": "choice",
+       "text": "___ the pilots sleep during the flight?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "sleep, plural pilots → Do."
+      },
+      {
+       "type": "choice",
+       "text": "___ the plane on autopilot?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "on autopilot = a state, no verb → Is."
+      }
+     ]
+    },
+    {
+     "title": "Trivia: true or false? (1)",
+     "icon": "🧊",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Ice ___ at 32°F (0°C).",
+       "options": [
+        "melts",
+        "doesn't melt"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "At exactly 0°C ice stays ice. It melts when it's warmer."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Cold weather ___ fingernails to grow faster.",
+       "options": [
+        "causes",
+        "doesn't cause"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Nails grow faster in warm weather."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "The average person ___ asleep in seven minutes.",
+       "options": [
+        "falls",
+        "doesn't fall"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True. A general fact → simple present."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Salt water ___ at the same temperature as freshwater.",
+       "options": [
+        "freezes",
+        "doesn't freeze"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Salt water must be colder to freeze."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Our noses ___ longer as we age.",
+       "options": [
+        "grow",
+        "don't grow"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True! Noses keep growing slowly."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Our feet ___ smaller as we age.",
+       "options": [
+        "become",
+        "don't become"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Feet usually get bigger and flatter."
+      }
+     ]
+    },
+    {
+     "title": "Trivia: true or false? (2)",
+     "icon": "🐱",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Red blood cells in our body ___ right now.",
+       "options": [
+        "are dividing",
+        "aren't dividing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Red blood cells can't divide. right now → progressive."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "On average, a person ___ more than 20,000 times a day.",
+       "options": [
+        "blinks",
+        "doesn't blink"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True. A general fact → simple present."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "Honey ___.",
+       "options": [
+        "spoils",
+        "doesn't spoil"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Honey can last for thousands of years."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "A cat ___ its whiskers for hunting.",
+       "options": [
+        "uses",
+        "doesn't use"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True. Whiskers help cats feel things nearby."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "The earth ___ around the moon right now.",
+       "options": [
+        "is revolving",
+        "isn't revolving"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The moon goes around the earth, not the other way."
+      },
+      {
+       "type": "choice",
+       "ask": "Make it TRUE.",
+       "text": "The earth ___ warmer, according to scientists.",
+       "options": [
+        "is getting",
+        "isn't getting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A change in progress now → is getting."
+      }
+     ]
+    },
+    {
+     "title": "Tornado facts",
+     "icon": "🌪️",
+     "items": [
+      {
+       "type": "choice",
+       "ctx": "Tornadoes: general facts",
+       "text": "Tornadoes ___ in most areas of the world.",
+       "options": [
+        "occur",
+        "are occurring"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general fact → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "However, the plains of the United States ___ the most.",
+       "options": [
+        "have",
+        "are having"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have here = own or contain → stative."
+      },
+      {
+       "type": "choice",
+       "text": "Tornado Alley ___ from Texas to North Dakota.",
+       "options": [
+        "stretches",
+        "is stretching"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A fact about a place → stretches."
+      },
+      {
+       "type": "choice",
+       "text": "Tornadoes ___ over flat areas of land.",
+       "options": [
+        "form",
+        "are forming"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general fact → form."
+      },
+      {
+       "type": "choice",
+       "text": "So they ___ so common in the mountains.",
+       "options": [
+        "are not",
+        "do not"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "common is an adjective → be: are not."
+      },
+      {
+       "type": "choice",
+       "text": "Cold air ___ warm air, usually in a thunderstorm.",
+       "options": [
+        "meets",
+        "is meeting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "usually → a general fact."
+      },
+      {
+       "type": "choice",
+       "text": "The winds ___ a spiral or funnel cloud.",
+       "options": [
+        "make",
+        "are making"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "How tornadoes work → a fact."
+      },
+      {
+       "type": "choice",
+       "text": "They ___ cars, trees, and houses.",
+       "options": [
+        "pick up",
+        "are picking up"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general fact about tornadoes."
+      },
+      {
+       "type": "choice",
+       "text": "Sometimes this debris ___ for miles.",
+       "options": [
+        "flies",
+        "is flying"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "sometimes → a general fact."
+      }
+     ]
+    },
+    {
+     "title": "Storm chasers",
+     "icon": "📻",
+     "items": [
+      {
+       "type": "choice",
+       "ctx": "Tornadoes: general facts",
+       "text": "Strong tornadoes ___ a lot of damage.",
+       "options": [
+        "cause",
+        "are causing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general fact → cause."
+      },
+      {
+       "type": "choice",
+       "text": "Surprisingly, the funnel cloud ___ long, usually less than ten minutes.",
+       "options": [
+        "doesn't last",
+        "isn't lasting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "usually → a general fact."
+      },
+      {
+       "type": "choice",
+       "ctx": "Now the story changes: right now…",
+       "text": "Right now a tornado ___ over the plains.",
+       "options": [
+        "forms",
+        "is forming"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Right now → in progress."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ shelter in underground areas such as basements.",
+       "options": [
+        "seek",
+        "are seeking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Happening now in the story → are seeking."
+      },
+      {
+       "type": "choice",
+       "text": "Several storm chasers ___ ready to follow the tornado.",
+       "options": [
+        "get",
+        "are getting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Happening now → are getting."
+      },
+      {
+       "type": "choice",
+       "text": "They ___ to weather radios for storm updates.",
+       "options": [
+        "listen",
+        "are listening"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Happening now → are listening."
+      },
+      {
+       "type": "choice",
+       "ctx": "And you?",
+       "text": "___ familiar with tornadoes?",
+       "options": [
+        "Are you",
+        "Do you"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "familiar is an adjective → Are you."
+      },
+      {
+       "type": "choice",
+       "text": "___ have tornadoes in your area?",
+       "options": [
+        "Are you",
+        "Do you"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have is the main verb → Do you."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Flight attendant",
+     "task": "You're on a plane. Ask Claude questions with Do, Does, Is, or Are. Claude answers as the flight attendant.",
+     "claudePrompt": "You are a friendly flight attendant on a plane, and also my English speaking partner. I am practicing questions with Do / Does / Is / Are. I will ask you questions about the flight. Answer each one in character, briefly. After every 2 questions, ask me one question back using Do, Does, Is, or Are."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: do or be?",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two question machines",
+      "visual": [
+       "forms"
+      ],
+      "lines": [
+       "Main verb is plain (help)? → do / does.",
+       "Verb ends in -ing (helping)? → am / is / are."
+      ],
+      "examples": [
+       {
+        "text": "Does she help?",
+        "hl": [
+         [
+          "Does",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "Is she helping?",
+        "hl": [
+         [
+          "Is",
+          "prog"
+         ],
+         [
+          "helping",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "All the forms",
+      "left": {
+       "label": "Simple present",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "She helps.",
+         "hl": [
+          [
+           "helps",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "She doesn't help.",
+         "hl": [
+          [
+           "doesn't help",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Does she help?",
+         "hl": [
+          [
+           "Does",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Progressive",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "She is helping.",
+         "hl": [
+          [
+           "is helping",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "She isn't helping.",
+         "hl": [
+          [
+           "isn't helping",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Is she helping?",
+         "hl": [
+          [
+           "Is",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "does / doesn't already has the -s, so the verb stays plain: Does she help? (not helps)"
+     },
+     {
+      "type": "learn",
+      "title": "No action verb? Use be",
+      "visual": [
+       "forms"
+      ],
+      "lines": [
+       "Adjectives (ready, nervous) and places have no action verb.",
+       "So use am / is / are: Are you ready? Is the plane on autopilot?"
+      ],
+      "examples": [
+       {
+        "text": "Are you nervous?",
+        "hl": [
+         [
+          "Are",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "Is your seat comfortable?",
+        "hl": [
+         [
+          "Is",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ she like coffee?",
+      "options": [
+       "Do",
+       "Does",
+       "Is",
+       "Are"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "like is the main verb, she → Does."
+     },
+     {
+      "type": "choice",
+      "text": "___ they watching TV?",
+      "options": [
+       "Do",
+       "Does",
+       "Is",
+       "Are"
+      ],
+      "answer": [
+       3
+      ],
+      "why": "watching (-ing), they → Are."
+     },
+     {
+      "type": "choice",
+      "text": "___ you tired?",
+      "options": [
+       "Do",
+       "Does",
+       "Is",
+       "Are"
+      ],
+      "answer": [
+       3
+      ],
+      "why": "tired is an adjective → Are you."
+     },
+     {
+      "type": "choice",
+      "text": "He ___ like fish.",
+      "options": [
+       "doesn't",
+       "isn't"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "like is plain, no -ing → doesn't."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "1-3",
+   "tag": "1-3",
+   "t": "state",
+   "title": "Stative verbs",
+   "full": "Verbs Not Usually Used in the Progressive",
+   "rule": {
+    "lines": [
+     "Stative verbs show states, not actions.",
+     "They usually don't take -ing: I know ✓  I am knowing ✗"
+    ],
+    "timeline": [
+     "stative"
+    ],
+    "examples": [
+     {
+      "text": "I know your cousin.",
+      "hl": [
+       [
+        "know",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I think your cousin is nice. I'm thinking about my trip.",
+      "hl": [
+       [
+        "think",
+        "state"
+       ],
+       [
+        "'m thinking",
+        "prog"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "Usually no -ing",
+      "words": [
+       "know",
+       "believe",
+       "understand",
+       "remember",
+       "like",
+       "love",
+       "prefer",
+       "hate",
+       "want",
+       "need",
+       "own",
+       "belong",
+       "contain",
+       "exist",
+       "seem",
+       "mean",
+       "agree",
+       "resemble"
+      ]
+     },
+     {
+      "label": "Two meanings (state or action)",
+      "words": [
+       "think",
+       "have",
+       "see",
+       "look",
+       "taste",
+       "smell",
+       "feel",
+       "appear",
+       "be"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Chef's kitchen",
+     "icon": "👨‍🍳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The chef is in his kitchen right now. He ___.",
+       "options": [
+        "cooks",
+        "is cooking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "right now + an action → is cooking."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ some soup.",
+       "options": [
+        "tastes",
+        "is tasting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He is doing the action of tasting → -ing."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ too salty.",
+       "options": [
+        "tastes",
+        "is tasting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "How the soup tastes = a state → no -ing."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ it.",
+       "options": [
+        "doesn't like",
+        "isn't liking"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "like is stative → no -ing."
+      },
+      {
+       "type": "choice",
+       "text": "This isn't my book. It ___ to Mai.",
+       "options": [
+        "belongs",
+        "is belonging"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "belong is stative."
+      },
+      {
+       "type": "choice",
+       "text": "Ask Ahmed for your book. He ___ it.",
+       "options": [
+        "has",
+        "is having"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have = own → stative."
+      },
+      {
+       "type": "choice",
+       "text": "Your book is over there. Ahmed ___ it.",
+       "options": [
+        "holds",
+        "is holding"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hold here is an action happening now."
+      }
+     ]
+    },
+    {
+     "title": "State or action?",
+     "icon": "🧠",
+     "items": [
+      {
+       "type": "sort",
+       "word": "know",
+       "buckets": [
+        "State (no -ing)",
+        "Action (-ing OK)"
+       ],
+       "answer": 0,
+       "why": "know = something in your mind, a state."
+      },
+      {
+       "type": "sort",
+       "word": "run",
+       "buckets": [
+        "State (no -ing)",
+        "Action (-ing OK)"
+       ],
+       "answer": 1,
+       "why": "run = an action you do."
+      },
+      {
+       "type": "sort",
+       "word": "belong",
+       "buckets": [
+        "State (no -ing)",
+        "Action (-ing OK)"
+       ],
+       "answer": 0,
+       "why": "belong = who owns it, a state."
+      },
+      {
+       "type": "sort",
+       "word": "cook",
+       "buckets": [
+        "State (no -ing)",
+        "Action (-ing OK)"
+       ],
+       "answer": 1,
+       "why": "cook = an action."
+      },
+      {
+       "type": "sort",
+       "word": "want",
+       "buckets": [
+        "State (no -ing)",
+        "Action (-ing OK)"
+       ],
+       "answer": 0,
+       "why": "want = a desire, a state."
+      },
+      {
+       "type": "choice",
+       "text": "Olga is smiling. She ___ a good time.",
+       "options": [
+        "has",
+        "is having"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have a good time = an experience → -ing is OK."
+      },
+      {
+       "type": "choice",
+       "text": "Relax. Everything is OK. I ___ you.",
+       "options": [
+        "believe",
+        "am believing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "believe is stative."
+      },
+      {
+       "type": "choice",
+       "text": "My computer says my file no longer ___.",
+       "options": [
+        "exists",
+        "is existing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "exist is stative."
+      }
+     ]
+    },
+    {
+     "title": "Two meanings",
+     "icon": "🌹",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "These flowers smell good.",
+       "options": [
+        "They have a nice smell.",
+        "Someone is sniffing them."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "smell + adjective = how it smells (state)."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "Jane is smelling the flowers.",
+       "options": [
+        "They have a nice smell.",
+        "She is sniffing them."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is smelling = the action of sniffing."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "I think this park is beautiful.",
+       "options": [
+        "It's my opinion.",
+        "Thoughts are moving in my head now."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "think = believe → no -ing."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "I am thinking about all the homework I have.",
+       "options": [
+        "It's my opinion.",
+        "Thoughts are moving in my head now."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "am thinking = thoughts in progress."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "Alex is seeing a doctor about his headaches.",
+       "options": [
+        "He notices a doctor.",
+        "He is visiting a doctor."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "see a doctor = visit a doctor (an action)."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "Jack and Ann are seeing each other.",
+       "options": [
+        "They're dating.",
+        "They can see each other's faces."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be seeing someone = dating."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "The children are being awfully quiet.",
+       "options": [
+        "They are quiet kids by nature.",
+        "They're acting quiet right now."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "am / is / are being + adjective = behavior right now."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "I'm not feeling well right now.",
+       "options": [
+        "My body feels sick now.",
+        "It's my opinion."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "feel (health) can take -ing."
+      },
+      {
+       "type": "choice",
+       "ask": "What does it mean?",
+       "text": "I feel that it is important to take care of our parks.",
+       "options": [
+        "I'm touching something.",
+        "It's my opinion."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "feel that… = believe → no -ing."
+      }
+     ]
+    },
+    {
+     "title": "Lilly's internship",
+     "icon": "🧑‍🍳",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Which verb is stative?",
+       "text": "Lilly wants to get a job as a restaurant chef.",
+       "options": [
+        "wants",
+        "get"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "want = a desire → stative."
+      },
+      {
+       "type": "choice",
+       "ask": "Which verb is stative?",
+       "text": "Interns work for a low wage, but they understand that the experience is valuable.",
+       "options": [
+        "work",
+        "understand"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "understand = a state of mind."
+      },
+      {
+       "type": "choice",
+       "ctx": "Benefits of an internship",
+       "text": "An internship ___ classroom knowledge to real-world work.",
+       "options": [
+        "apply",
+        "applys",
+        "applies"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Consonant + y → -ies: applies."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ on-the-job training.",
+       "options": [
+        "provide",
+        "provides"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it → provides."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ important workplace habits.",
+       "options": [
+        "teach",
+        "teachs",
+        "teaches"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "After ch, add -es: teaches."
+      },
+      {
+       "type": "choice",
+       "text": "Interns ___ about various jobs within a company.",
+       "options": [
+        "learn",
+        "learns"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Interns = they → no -s."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ students the chance to network with employees.",
+       "options": [
+        "give",
+        "gives"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it → gives."
+      },
+      {
+       "type": "choice",
+       "text": "The job experience ___ good on a résumé.",
+       "options": [
+        "look",
+        "looks"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "experience = it → looks."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Pizza or stress?",
+     "task": "Act out a short dialog with Claude: tasting a fresh pizza, or helping a stressed friend.",
+     "claudePrompt": "You are my English speaking partner. I am practicing stative verbs (look, taste, smell, seem, need, have) and the present progressive. First ask me to choose a scene: (A) you just baked a pizza and I see it, or (B) I look very stressed at work. Then act out the scene with me, line by line, like a short dialog. Use and encourage verbs like look, taste, smell, need, have, feel."
+    },
+    {
+     "title": "Tell a movie",
+     "task": "Tell Claude the story of a movie you like, in the simple present.",
+     "claudePrompt": "You are my English speaking partner. I want to tell you the story of a movie I like, using the simple present (stories are often told in the present). Ask me for the movie name, then ask me what happens, step by step. Check my -s / -es / -ies endings on he / she / it verbs."
+    },
+    {
+     "title": "Why volunteer?",
+     "task": "Tell Claude 5 benefits of a club or volunteer group you like.",
+     "claudePrompt": "You are my English speaking partner. I want to describe a volunteer organization or club I like and list 5 of its benefits in the simple present (for example: 'It helps people…', 'It gives students…'). Ask me which organization, then ask for one benefit at a time. Check my -s endings."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: stative verbs",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Actions vs. states",
+      "visual": [
+       "stative"
+      ],
+      "lines": [
+       "Actions happen: run, eat, write.",
+       "States just exist: know, like, own. → no -ing."
+      ],
+      "examples": [
+       {
+        "text": "I know your cousin.",
+        "hl": [
+         [
+          "know",
+          "state"
+         ]
+        ]
+       },
+       {
+        "text": "I'm eating lunch.",
+        "hl": [
+         [
+          "'m eating",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The state family",
+      "visual": [
+       "stative"
+      ],
+      "lines": [
+       "These verbs are usually NOT used with -ing.",
+       "Learn them as small groups."
+      ],
+      "chips": [
+       {
+        "label": "🧠 Mind",
+        "words": [
+         "know",
+         "believe",
+         "understand",
+         "remember",
+         "mean"
+        ]
+       },
+       {
+        "label": "❤️ Feelings",
+        "words": [
+         "like",
+         "love",
+         "hate",
+         "prefer",
+         "want",
+         "need"
+        ]
+       },
+       {
+        "label": "🎒 Owning",
+        "words": [
+         "have",
+         "own",
+         "belong",
+         "possess",
+         "contain"
+        ]
+       },
+       {
+        "label": "👀 Seeming",
+        "words": [
+         "seem",
+         "look like",
+         "resemble",
+         "sound",
+         "exist"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ the answer.",
+      "options": [
+       "know",
+       "am knowing"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "know is a state → no -ing."
+     },
+     {
+      "type": "compare",
+      "title": "Same verb, two meanings",
+      "left": {
+       "label": "State (no -ing)",
+       "t": "state",
+       "examples": [
+        {
+         "text": "I think it's a good idea. (= believe)",
+         "hl": [
+          [
+           "think",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "I have a bike. (= own)",
+         "hl": [
+          [
+           "have",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "The soup tastes salty.",
+         "hl": [
+          [
+           "tastes",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Action (-ing OK)",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I'm thinking about my trip. (= in my head now)",
+         "hl": [
+          [
+           "'m thinking",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I'm having a good time. (= enjoying)",
+         "hl": [
+          [
+           "'m having",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "The chef is tasting the soup.",
+         "hl": [
+          [
+           "is tasting",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Ask: is someone DOING it right now? Then -ing is OK."
+     },
+     {
+      "type": "choice",
+      "text": "She ___ a new car.",
+      "options": [
+       "has",
+       "is having"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "have = own → stative."
+     },
+     {
+      "type": "choice",
+      "text": "We ___ a great time at the party.",
+      "options": [
+       "have",
+       "are having"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "have a time = enjoying now → -ing OK."
+     },
+     {
+      "type": "learn",
+      "title": "is being + adjective",
+      "visual": [
+       "present-progressive"
+      ],
+      "lines": [
+       "is being + adjective = acting that way right now.",
+       "It's not how the person usually is."
+      ],
+      "examples": [
+       {
+        "text": "Mary is old and wise.",
+        "hl": [
+         [
+          "is",
+          "state"
+         ]
+        ]
+       },
+       {
+        "text": "Al is ill but won't see a doctor. He is being foolish.",
+        "hl": [
+         [
+          "is being",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "R1",
+   "tag": "Mix",
+   "t": "prog",
+   "title": "Present mix",
+   "full": "Review of Charts 1-1 to 1-3",
+   "rule": {
+    "lines": [
+     "Action happening now → am / is / are + -ing.",
+     "Facts, habits, and states → simple present."
+    ],
+    "timeline": [
+     "simple-present",
+     "present-progressive",
+     "stative"
+    ],
+    "examples": [
+     {
+      "text": "Look! It is beginning to rain. I don't have an umbrella.",
+      "hl": [
+       [
+        "is beginning",
+        "prog"
+       ],
+       [
+        "don't have",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I wear a waterproof hat on rainy days.",
+      "hl": [
+       [
+        "wear",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "You look like your father",
+     "icon": "👨‍👦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A: What ___ at?",
+       "options": [
+        "are you looking",
+        "do you look"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Looking right now = an action → progressive."
+      },
+      {
+       "type": "choice",
+       "text": "B: You! You ___ like your father.",
+       "options": [
+        "look",
+        "are looking"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "look like = resemble → stative."
+      },
+      {
+       "type": "choice",
+       "text": "A: ___ so?",
+       "options": [
+        "Are you thinking",
+        "Do you think"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "think = believe here → no -ing."
+      },
+      {
+       "type": "choice",
+       "text": "A: Many people tell me I ___ my mother.",
+       "options": [
+        "am resembling",
+        "resemble"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "resemble is stative."
+      },
+      {
+       "type": "choice",
+       "text": "B: I ___ your father's face when I look at you.",
+       "options": [
+        "see",
+        "am seeing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "see with your eyes → stative."
+      },
+      {
+       "type": "choice",
+       "text": "A: Why ___?",
+       "options": [
+        "are mosquitos existing",
+        "do mosquitos exist"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "exist is stative."
+      },
+      {
+       "type": "choice",
+       "text": "B: I ___ one reason: they are food for other animals.",
+       "options": [
+        "know",
+        "am knowing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "know is stative."
+      }
+     ]
+    },
+    {
+     "title": "In the cafeteria",
+     "icon": "🥪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Right now I ___ in the cafeteria.",
+       "options": [
+        "sit",
+        "am sitting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Right now → am sitting."
+      },
+      {
+       "type": "choice",
+       "text": "Yoko ___.",
+       "options": [
+        "texts",
+        "is texting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Happening now → is texting."
+      },
+      {
+       "type": "choice",
+       "text": "Ming ___ his lunch.",
+       "options": [
+        "is opening",
+        "opens"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Happening now → is opening."
+      },
+      {
+       "type": "choice",
+       "text": "Jae ___ a bite of his sandwich.",
+       "options": [
+        "is taking",
+        "takes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Happening now → is taking."
+      },
+      {
+       "type": "choice",
+       "text": "Ali ___ off into space.",
+       "options": [
+        "is staring",
+        "stares"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Happening now → is staring."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ to be daydreaming.",
+       "options": [
+        "seems",
+        "is seeming"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "seem is stative."
+      },
+      {
+       "type": "choice",
+       "text": "But perhaps he ___ about the test next hour.",
+       "options": [
+        "thinks",
+        "is thinking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Thoughts going on now → is thinking."
+      },
+      {
+       "type": "choice",
+       "text": "What ___ Ali is doing?",
+       "options": [
+        "do you think",
+        "are you thinking"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "think = your opinion here → do you think."
+      },
+      {
+       "type": "choice",
+       "text": "What do you think Ali ___?",
+       "options": [
+        "is doing",
+        "does"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → is doing."
+      }
+     ]
+    },
+    {
+     "title": "Weather report (1)",
+     "icon": "🎙️",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "Hello, this is your weather reporter.",
+       "text": "Well, it certainly ___ a beautiful day today.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "be is stative here → is."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ here at City Park.",
+       "verb": "stand",
+       "accept": [
+        "am standing"
+       ],
+       "why": "Right now → am standing."
+      },
+      {
+       "type": "fill",
+       "text": "And boy, the sun sure ___!",
+       "verb": "shine",
+       "accept": [
+        "is shining"
+       ],
+       "why": "Right now → is shining."
+      },
+      {
+       "type": "fill",
+       "text": "Hundreds of people ___ the warmer temperatures today.",
+       "verb": "enjoy",
+       "accept": [
+        "are enjoying"
+       ],
+       "why": "Today, in progress → are enjoying."
+      },
+      {
+       "type": "fill",
+       "text": "There ___ not a cloud in the sky.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "a cloud (one) → is."
+      },
+      {
+       "type": "fill",
+       "text": "We ___ at a perfect day right now.",
+       "verb": "look",
+       "accept": [
+        "are looking"
+       ],
+       "why": "right now → are looking."
+      }
+     ]
+    },
+    {
+     "title": "Weather report (2)",
+     "icon": "🌥️",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "We are looking at a perfect day right now, but…",
+       "text": "…it ___ like some clouds are forming.",
+       "verb": "look",
+       "accept": [
+        "looks"
+       ],
+       "why": "look like = seem → stative."
+      },
+      {
+       "type": "fill",
+       "text": "It looks like some clouds ___ over the ocean.",
+       "verb": "form",
+       "accept": [
+        "are forming"
+       ],
+       "why": "Happening now → are forming."
+      },
+      {
+       "type": "fill",
+       "text": "And colder air ___ in.",
+       "verb": "move",
+       "accept": [
+        "is moving"
+       ],
+       "why": "Happening now → is moving."
+      },
+      {
+       "type": "fill",
+       "text": "We ___ cooler temperatures for tomorrow.",
+       "verb": "forecast",
+       "accept": [
+        "are forecasting",
+        "forecast"
+       ],
+       "why": "What we're saying now → are forecasting."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ rain is unlikely, however.",
+       "verb": "think",
+       "accept": [
+        "think"
+       ],
+       "why": "think = believe → no -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I think rain ___ unlikely, however.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "be + adjective → is."
+      }
+     ]
+    },
+    {
+     "title": "Rainy day, careful Martha",
+     "icon": "☔",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Look! It ___ to rain.",
+       "verb": "begin",
+       "accept": [
+        "is beginning"
+       ],
+       "why": "Look! = happening now."
+      },
+      {
+       "type": "fill",
+       "text": "Unfortunately, I ___ an umbrella with me.",
+       "verb": "have, not",
+       "accept": [
+        "don't have",
+        "haven't got"
+       ],
+       "why": "have = own → stative. Negative: don't have."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ an umbrella.",
+       "verb": "own, not",
+       "accept": [
+        "don't own"
+       ],
+       "why": "own is stative → don't own."
+      },
+      {
+       "type": "fill",
+       "text": "Spiro is lucky. He ___ a raincoat.",
+       "verb": "wear",
+       "accept": [
+        "is wearing"
+       ],
+       "why": "Wearing it right now → is wearing."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ a waterproof hat on rainy days.",
+       "verb": "wear",
+       "accept": [
+        "wear"
+       ],
+       "why": "on rainy days = habit → wear."
+      },
+      {
+       "type": "fill",
+       "text": "Martha is in science class. The experiment she ___ is dangerous.",
+       "verb": "do",
+       "accept": [
+        "is doing"
+       ],
+       "why": "Doing it now → is doing."
+      },
+      {
+       "type": "fill",
+       "text": "So right now she ___ very careful.",
+       "verb": "be",
+       "accept": [
+        "is being"
+       ],
+       "why": "is being + adjective = behavior right now."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ to spill any of the chemical.",
+       "verb": "want, not",
+       "accept": [
+        "doesn't want"
+       ],
+       "why": "want is stative → doesn't want."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ careful when she does a chemistry experiment.",
+       "verb": "be, always",
+       "accept": [
+        "is always"
+       ],
+       "why": "A habit with be → is always."
+      }
+     ]
+    },
+    {
+     "title": "Nicole and the soup",
+     "icon": "🍲",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Right now I ___ at Nicole.",
+       "verb": "look",
+       "accept": [
+        "am looking"
+       ],
+       "why": "look at = an action now → am looking."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ angry.",
+       "verb": "look",
+       "accept": [
+        "looks"
+       ],
+       "why": "look + adjective = seem → looks."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ a frown on her face.",
+       "verb": "have",
+       "accept": [
+        "has"
+       ],
+       "why": "have here = a state → has."
+      },
+      {
+       "type": "fill",
+       "text": "She certainly ___ any fun right now.",
+       "verb": "have, not",
+       "accept": [
+        "isn't having"
+       ],
+       "why": "have fun = an experience → -ing OK."
+      },
+      {
+       "type": "fill",
+       "text": "A: How ___ the soup?",
+       "verb": "you, like",
+       "accept": [
+        "do you like"
+       ],
+       "why": "like is stative → do you like."
+      },
+      {
+       "type": "fill",
+       "text": "A: ___ more garlic?",
+       "verb": "it, need",
+       "accept": [
+        "does it need"
+       ],
+       "why": "need is stative → Does it need."
+      },
+      {
+       "type": "fill",
+       "text": "B: No, it ___ delicious.",
+       "verb": "taste",
+       "accept": [
+        "tastes"
+       ],
+       "why": "taste + adjective = a state → tastes."
+      },
+      {
+       "type": "fill",
+       "text": "It ___ me of my mom's soup.",
+       "verb": "remind",
+       "accept": [
+        "reminds"
+       ],
+       "why": "it → reminds."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Be the weather reporter",
+     "task": "Give Claude a live weather report from your city, right now.",
+     "claudePrompt": "You are a TV news host and my English speaking partner. I am the weather reporter. I am practicing the simple present and present progressive. Ask me to describe the weather and what people are doing outside right now in my city. Ask short follow-up questions like a live TV show."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: choose the present",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Your 2-question test",
+      "visual": [
+       "decide-present"
+      ],
+      "lines": [
+       "Ask these two questions, in this order.",
+       "They pick the right present tense for you."
+      ],
+      "examples": [
+       {
+        "text": "I know him.",
+        "hl": [
+         [
+          "know",
+          "state"
+         ]
+        ]
+       },
+       {
+        "text": "He is working now.",
+        "hl": [
+         [
+          "is working",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "He works on weekends.",
+        "hl": [
+         [
+          "works",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Look! The baby ___.",
+      "options": [
+       "walks",
+       "is walking"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Look! = happening now."
+     },
+     {
+      "type": "choice",
+      "text": "This bag ___ to me.",
+      "options": [
+       "belongs",
+       "is belonging"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "belong is a state verb."
+     },
+     {
+      "type": "choice",
+      "text": "I ___ to the gym three times a week.",
+      "options": [
+       "go",
+       "am going"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "three times a week = habit."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "1-4",
+   "tag": "1-4",
+   "t": "past",
+   "title": "Simple past",
+   "full": "Simple Past Tense",
+   "rule": {
+    "lines": [
+     "Simple past: it started and finished at a past time.",
+     "Regular verbs add -ed. Irregular: go → went, see → saw."
+    ],
+    "timeline": [
+     "simple-past"
+    ],
+    "examples": [
+     {
+      "text": "It snowed yesterday.",
+      "hl": [
+       [
+        "snowed",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "Andrew caught the ball, ran down the field, and scored a point.",
+      "hl": [
+       [
+        "caught",
+        "past"
+       ],
+       [
+        "ran",
+        "past"
+       ],
+       [
+        "scored",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Irregular radar",
+     "icon": "📡",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "Jack ___ to work early. (go)",
+       "options": [
+        "went",
+        "goed",
+        "gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "go → went (irregular)."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "I ___ to work late. (come)",
+       "options": [
+        "comed",
+        "came",
+        "come"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "come → came."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "We ___ a great movie last night. (see)",
+       "options": [
+        "seen",
+        "seed",
+        "saw"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "see → saw (seen needs have)."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "Andrew ___ the ball. (catch)",
+       "options": [
+        "catched",
+        "caught",
+        "cought"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "catch → caught."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "He ___ down the field. (run)",
+       "options": [
+        "ran",
+        "runned",
+        "run"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "run → ran."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "The children ___ some pictures. (draw)",
+       "options": [
+        "drawed",
+        "drawn",
+        "drew"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "draw → drew."
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "I ___ a new car three days ago. (buy)",
+       "options": [
+        "buyed",
+        "bought",
+        "brought"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "buy → bought. (brought comes from bring.)"
+      },
+      {
+       "type": "choice",
+       "ask": "Pick the simple past.",
+       "text": "We ___ back last night. (fly)",
+       "options": [
+        "flew",
+        "flied",
+        "flown"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "fly → flew."
+      }
+     ]
+    },
+    {
+     "title": "Online order (1)",
+     "icon": "🖨️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Anders ___ printer ink online last Monday.",
+       "verb": "order",
+       "accept": [
+        "ordered"
+       ],
+       "why": "Finished, last Monday → ordered."
+      },
+      {
+       "type": "fill",
+       "text": "The next morning he ___ he needed colored ink too.",
+       "verb": "realize",
+       "accept": [
+        "realized",
+        "realised"
+       ],
+       "why": "Ends in -e → just add -d."
+      },
+      {
+       "type": "fill",
+       "text": "The next morning he realized he ___ colored ink too.",
+       "verb": "need",
+       "accept": [
+        "needed"
+       ],
+       "why": "Past story → needed."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ to call the company to add more.",
+       "verb": "try",
+       "accept": [
+        "tried"
+       ],
+       "why": "Consonant + y → -ied: tried."
+      },
+      {
+       "type": "fill",
+       "text": "But no one ___.",
+       "verb": "answer",
+       "accept": [
+        "answered"
+       ],
+       "why": "no one is already negative → answered."
+      },
+      {
+       "type": "fill",
+       "text": "And there ___ no voicemail.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "no voicemail (singular) → was."
+      },
+      {
+       "type": "fill",
+       "text": "Anders ___ that the website was fake.",
+       "verb": "worry",
+       "accept": [
+        "worried"
+       ],
+       "why": "Consonant + y → -ied: worried."
+      },
+      {
+       "type": "fill",
+       "text": "Anders worried that the website ___ fake.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "the website (it) → was."
+      }
+     ]
+    },
+    {
+     "title": "Online order (2)",
+     "icon": "📧",
+     "items": [
+      {
+       "type": "fill",
+       "text": "He ___ the company.",
+       "verb": "email",
+       "accept": [
+        "emailed",
+        "e-mailed"
+       ],
+       "why": "Regular verb → emailed."
+      },
+      {
+       "type": "fill",
+       "text": "He emailed the company and ___ his situation.",
+       "verb": "explain",
+       "accept": [
+        "explained"
+       ],
+       "why": "Same tense in a series → explained."
+      },
+      {
+       "type": "fill",
+       "text": "The manager ___ a few hours later.",
+       "verb": "respond",
+       "accept": [
+        "responded"
+       ],
+       "why": "Regular verb → responded."
+      },
+      {
+       "type": "fill",
+       "text": "The manager responded and ___ the order quickly.",
+       "verb": "fix",
+       "accept": [
+        "fixed"
+       ],
+       "why": "fix → fixed (x never doubles)."
+      },
+      {
+       "type": "fill",
+       "text": "Anders ___ when he received a confirmation email.",
+       "verb": "relax",
+       "accept": [
+        "relaxed"
+       ],
+       "why": "Regular verb → relaxed."
+      },
+      {
+       "type": "fill",
+       "text": "Anders relaxed when he ___ a confirmation email.",
+       "verb": "receive",
+       "accept": [
+        "received"
+       ],
+       "why": "Ends in -e → just add -d."
+      }
+     ]
+    },
+    {
+     "title": "Maria gets sick",
+     "icon": "🤒",
+     "items": [
+      {
+       "type": "choice",
+       "ctx": "Maria visited a friend at the hospital. A woman in the elevator had a cold. The next day…",
+       "text": "Maria ___ in the morning with a fever and headache.",
+       "options": [
+        "waked up",
+        "woke up",
+        "wakes up"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wake → woke (irregular)."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ well.",
+       "options": [
+        "didn't feel",
+        "didn't felt",
+        "wasn't feel"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After didn't → base verb: feel."
+      },
+      {
+       "type": "choice",
+       "text": "Her entire body ___.",
+       "options": [
+        "aching",
+        "ache",
+        "ached"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Regular verb → ached."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ her temperature with a thermometer.",
+       "options": [
+        "took",
+        "taked",
+        "take"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "take → took."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ a high fever.",
+       "options": [
+        "haved",
+        "had",
+        "has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have → had."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ the house all day.",
+       "options": [
+        "leaved",
+        "didn't left",
+        "didn't leave"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Sick → negative. didn't + base verb."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ a few spoonfuls of chicken soup.",
+       "options": [
+        "ate",
+        "eated",
+        "eaten"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "eat → ate."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ the nurse at the doctor's office.",
+       "options": [
+        "speaked to",
+        "spoken to",
+        "spoke to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "speak → spoke."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ an appointment for the following day.",
+       "options": [
+        "made",
+        "maked",
+        "make"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "make → made."
+      }
+     ]
+    },
+    {
+     "title": "Ear training: past or present?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Professor Moore spoke too fast.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spoke = past of speak."
+      },
+      {
+       "type": "listen",
+       "say": "We walk to school.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "walk, no -ed → present."
+      },
+      {
+       "type": "listen",
+       "say": "They played soccer.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "played → the -ed sound."
+      },
+      {
+       "type": "listen",
+       "say": "He filled the board with examples.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "filled → the -ed sound (like 'd')."
+      },
+      {
+       "type": "listen",
+       "say": "She needed help.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "needed → the extra 'id' sound."
+      },
+      {
+       "type": "listen",
+       "say": "He needs help.",
+       "ask": "Past or present?",
+       "options": [
+        "Past",
+        "Present"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "needs → -s ending = present."
+      },
+      {
+       "type": "choice",
+       "ctx": "Professor Moore is very hard to follow. Yesterday, he…",
+       "text": "He ___ the material to us quickly.",
+       "options": [
+        "introduced",
+        "introduces",
+        "introducted"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Ends in -e → just add -d."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ time for questions, unfortunately.",
+       "options": [
+        "left",
+        "didn't left",
+        "didn't leave"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "unfortunately → negative. didn't + base verb."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ everyone in the class.",
+       "options": [
+        "confusing",
+        "confused",
+        "confuse"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Regular verb → confused."
+      }
+     ]
+    },
+    {
+     "title": "An incredible runner",
+     "icon": "🏃",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "Fauja Singh ran his first marathon at 89, and one at 100!",
+       "text": "Fauja Singh ___ a marathon runner when he was depressed.",
+       "verb": "become",
+       "accept": [
+        "became"
+       ],
+       "why": "become → became."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ a suit and tie to his first training.",
+       "verb": "wear",
+       "accept": [
+        "wore"
+       ],
+       "why": "wear → wore."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ India after the death of his wife and son.",
+       "verb": "leave",
+       "accept": [
+        "left"
+       ],
+       "why": "leave → left."
+      },
+      {
+       "type": "fill",
+       "text": "At the age of 89, he ___ his first marathon.",
+       "verb": "run",
+       "accept": [
+        "ran"
+       ],
+       "why": "run → ran."
+      },
+      {
+       "type": "fill",
+       "text": "Before he began training, he said he ___ more dead than alive.",
+       "verb": "feel",
+       "accept": [
+        "felt"
+       ],
+       "why": "feel → felt."
+      },
+      {
+       "type": "fill",
+       "text": "His best running time ___ five hours and 40 minutes.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "time (it) → was."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ the Olympic torch in 2012.",
+       "verb": "carry",
+       "accept": [
+        "carried"
+       ],
+       "why": "Consonant + y → -ied: carried."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ from marathon running in 2013.",
+       "verb": "retire",
+       "accept": [
+        "retired"
+       ],
+       "why": "Ends in -e → just add -d."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Back from Greece",
+     "task": "You just came back from a trip to Greece. Claude is your curious friend asking about it.",
+     "claudePrompt": "You are my curious friend and English speaking partner. I just came back from a vacation in Greece. Ask me simple past questions one at a time, like 'Did you eat in Greek restaurants?' or 'Were you sad to leave?'. I answer with full sentences in the simple past. Check my irregular verbs (flew, ate, bought, took…)."
+    },
+    {
+     "title": "My family's past",
+     "task": "Tell Claude about your great-grandparents or grandparents: where they lived and grew up.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the simple past. Ask me about my grandparents or great-grandparents: where they lived, where they grew up, what work they did, and one interesting story. One question at a time."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: simple past",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Finished in the past",
+      "visual": [
+       "simple-past"
+      ],
+      "lines": [
+       "It started and finished at a past time.",
+       "Signals: yesterday, last night, ago, in 2013."
+      ],
+      "examples": [
+       {
+        "text": "It snowed yesterday.",
+        "hl": [
+         [
+          "snowed",
+          "past"
+         ]
+        ]
+       },
+       {
+        "text": "I bought a new car three days ago.",
+        "hl": [
+         [
+          "bought",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Regular verbs: + -ed",
+      "visual": [
+       "simple-past"
+      ],
+      "chips": [
+       "walk → walked",
+       "live → lived",
+       "try → tried",
+       "stop → stopped",
+       "play → played"
+      ],
+      "lines": [
+       "Most verbs add -ed.",
+       "Ends in e → +d. Consonant + y → -ied. stop → stopped."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Irregular verbs: learn by heart",
+      "visual": [
+       "simple-past"
+      ],
+      "chips": [
+       "go → went",
+       "come → came",
+       "see → saw",
+       "eat → ate",
+       "buy → bought",
+       "catch → caught",
+       "run → ran",
+       "take → took",
+       "fly → flew",
+       "feel → felt"
+      ],
+      "lines": [
+       "These don't use -ed.",
+       "Tap a chip to hear it."
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Negatives and questions",
+      "left": {
+       "label": "Positive",
+       "t": "past",
+       "examples": [
+        {
+         "text": "She worked.",
+         "hl": [
+          [
+           "worked",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "She ate.",
+         "hl": [
+          [
+           "ate",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Negative / question",
+       "t": "past",
+       "examples": [
+        {
+         "text": "She didn't work. Did she work?",
+         "hl": [
+          [
+           "didn't work",
+           "past"
+          ],
+          [
+           "Did",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "She didn't eat. Did she eat?",
+         "hl": [
+          [
+           "didn't eat",
+           "past"
+          ],
+          [
+           "Did",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "After did / didn't → the plain verb. Did you go? (not went)"
+     },
+     {
+      "type": "learn",
+      "title": "be in the past",
+      "visual": [
+       "simple-past"
+      ],
+      "lines": [
+       "I / he / she / it → was.",
+       "you / we / they → were."
+      ],
+      "examples": [
+       {
+        "text": "Emily was at the office this morning.",
+        "hl": [
+         [
+          "was",
+          "past"
+         ]
+        ]
+       },
+       {
+        "text": "You were tired yesterday.",
+        "hl": [
+         [
+          "were",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We ___ a great movie last night.",
+      "options": [
+       "seen",
+       "saw",
+       "seed"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "see → saw."
+     },
+     {
+      "type": "choice",
+      "text": "Did you ___ to work early?",
+      "options": [
+       "go",
+       "went"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After did → plain verb."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "1-5",
+   "tag": "1-5",
+   "t": "pastprog",
+   "title": "Past interrupted",
+   "full": "Simple Past vs. Past Progressive",
+   "rule": {
+    "lines": [
+     "Simple past: a finished event (X).",
+     "Past progressive (was / were + -ing): already in progress when the X happened."
+    ],
+    "timeline": [
+     "past-progressive"
+    ],
+    "examples": [
+     {
+      "text": "I was walking down the street when it began to rain.",
+      "hl": [
+       [
+        "was walking",
+        "pastprog"
+       ],
+       [
+        "began",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "When it began to rain, Rita stood under a tree.",
+      "hl": [
+       [
+        "began",
+        "past"
+       ],
+       [
+        "stood",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What started first?",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Which sentence matches?",
+       "text": "First: Rita stood under a tree. Then: it began to rain.",
+       "options": [
+        "Rita was standing under a tree when it began to rain.",
+        "Rita stood under a tree when it began to rain."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She was already there → was standing."
+      },
+      {
+       "type": "choice",
+       "ask": "Which sentence matches?",
+       "text": "First: it began to rain. Then: Rita went under a tree.",
+       "options": [
+        "Rita was standing under a tree when it began to rain.",
+        "Rita stood under a tree when it began to rain."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "when + two simple pasts → the when-part happens first."
+      },
+      {
+       "type": "order",
+       "text": "Hi Mom. I was leaving you a voicemail when you picked up.",
+       "events": [
+        "I was leaving you a voicemail.",
+        "You picked up."
+       ],
+       "first": 0,
+       "why": "was leaving was already in progress."
+      },
+      {
+       "type": "order",
+       "text": "When the storm started, I was coming home from work.",
+       "events": [
+        "The storm started.",
+        "I was coming home."
+       ],
+       "first": 1,
+       "why": "was coming = already in progress."
+      },
+      {
+       "type": "order",
+       "text": "A painter next door was climbing a ladder when lightning hit the house.",
+       "events": [
+        "A painter was climbing a ladder.",
+        "Lightning hit the house."
+       ],
+       "first": 0,
+       "why": "was climbing = already in progress."
+      },
+      {
+       "type": "order",
+       "text": "I heard him yell while I was running for cover.",
+       "events": [
+        "I heard him yell.",
+        "I was running for cover."
+       ],
+       "first": 1,
+       "why": "was running = already in progress."
+      },
+      {
+       "type": "order",
+       "text": "He fell off the ladder when he saw the flash.",
+       "events": [
+        "He fell off the ladder.",
+        "He saw the flash."
+       ],
+       "first": 1,
+       "why": "when + two simple pasts → the when-part first."
+      }
+     ]
+    },
+    {
+     "title": "Last night (1)",
+     "icon": "🌙",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Between 5:00 and 7:00 P.M., I ___ in class.",
+       "verb": "sit",
+       "accept": [
+        "was sitting"
+       ],
+       "why": "In progress during that time → was sitting."
+      },
+      {
+       "type": "fill",
+       "text": "I had a lot on my mind. I ___ about some family issues.",
+       "verb": "think",
+       "accept": [
+        "was thinking"
+       ],
+       "why": "Thoughts in progress → was thinking."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to the teacher.",
+       "verb": "listen, not",
+       "accept": [
+        "wasn't listening"
+       ],
+       "why": "In progress (not) → wasn't listening."
+      },
+      {
+       "type": "fill",
+       "text": "I walked home. The moon ___ over the water.",
+       "verb": "shine",
+       "accept": [
+        "was shining"
+       ],
+       "why": "Background scene → was shining."
+      },
+      {
+       "type": "fill",
+       "text": "And a warm breeze ___.",
+       "verb": "blow",
+       "accept": [
+        "was blowing"
+       ],
+       "why": "Background scene → was blowing."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ by a friend's apartment, but he wasn't home.",
+       "verb": "stop",
+       "accept": [
+        "stopped"
+       ],
+       "why": "stop → stopped (double the p)."
+      },
+      {
+       "type": "fill",
+       "text": "I stopped by a friend's apartment, but he ___ home.",
+       "verb": "be, not",
+       "accept": [
+        "wasn't"
+       ],
+       "why": "he → wasn't."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ in heavy traffic.",
+       "verb": "sit",
+       "accept": [
+        "was sitting"
+       ],
+       "why": "In progress at that time → was sitting."
+      }
+     ]
+    },
+    {
+     "title": "Last night (2)",
+     "icon": "🎁",
+     "items": [
+      {
+       "type": "fill",
+       "text": "He ___ home until 10:00.",
+       "verb": "get, not",
+       "accept": [
+        "didn't get"
+       ],
+       "why": "A finished event → didn't get."
+      },
+      {
+       "type": "fill",
+       "text": "My neighbors ___ about something when I walked by them.",
+       "verb": "argue",
+       "accept": [
+        "were arguing"
+       ],
+       "why": "Already in progress → were arguing."
+      },
+      {
+       "type": "fill",
+       "text": "My neighbors were arguing about something when I ___ by them.",
+       "verb": "walk",
+       "accept": [
+        "walked"
+       ],
+       "why": "The short event (X) → walked."
+      },
+      {
+       "type": "fill",
+       "text": "A package ___ for me at home.",
+       "verb": "wait",
+       "accept": [
+        "was waiting"
+       ],
+       "why": "In progress when I arrived → was waiting."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ it and found an early birthday present.",
+       "verb": "open",
+       "accept": [
+        "opened"
+       ],
+       "why": "A finished action → opened."
+      },
+      {
+       "type": "fill",
+       "text": "I opened it and ___ an early birthday present.",
+       "verb": "find",
+       "accept": [
+        "found"
+       ],
+       "why": "find → found."
+      },
+      {
+       "type": "fill",
+       "text": "While I ___ to my nephew, he fell asleep.",
+       "verb": "read",
+       "accept": [
+        "was reading"
+       ],
+       "why": "while + in progress → was reading."
+      },
+      {
+       "type": "fill",
+       "text": "While I was reading to my nephew, he ___ asleep.",
+       "verb": "fall",
+       "accept": [
+        "fell"
+       ],
+       "why": "The event (X) → fell."
+      },
+      {
+       "type": "fill",
+       "text": "So I ___ him up and sneaked out of the room.",
+       "verb": "cover",
+       "accept": [
+        "covered"
+       ],
+       "why": "Finished action → covered."
+      },
+      {
+       "type": "fill",
+       "text": "So I covered him up and ___ out of the room.",
+       "verb": "sneak",
+       "accept": [
+        "sneaked",
+        "snuck"
+       ],
+       "why": "sneak → sneaked (or snuck)."
+      }
+     ]
+    },
+    {
+     "title": "What would you say?",
+     "icon": "💬",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "What would you say next?",
+       "text": "When I went to bed late last night, I noticed the light was on in your bedroom.",
+       "options": [
+        "Were you reading?",
+        "Did you read?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Ask what was in progress at that moment."
+      },
+      {
+       "type": "choice",
+       "ask": "What would you say next?",
+       "text": "Jane's cousin was at the party last night.",
+       "options": [
+        "Were you meeting him?",
+        "Did you meet him?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Meeting someone = one finished event."
+      },
+      {
+       "type": "choice",
+       "ask": "What would you say next?",
+       "text": "A small airplane flew over our house several times last night.",
+       "options": [
+        "We were sitting out on the patio, and it made us nervous.",
+        "We sat out on the patio, and it made us nervous."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Sitting was in progress while the plane flew."
+      },
+      {
+       "type": "choice",
+       "ask": "What would you say next?",
+       "text": "I'm not sure if I met Carol Jones at the party. Describe her for me.",
+       "options": [
+        "What was she wearing?",
+        "What did she wear?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clothes on her at that time → was wearing."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "What were you doing at 5:00 A.M.?",
+       "options": [
+        "I was sleeping.",
+        "I dreamed.",
+        "I was lying in bed."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "were you doing → answer with was + -ing."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "What did you do when you got home last night?",
+       "options": [
+        "I was cooking dinner.",
+        "I made dinner.",
+        "I fixed dinner."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "did you do → answer with simple past."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "What were you thinking about?",
+       "options": [
+        "I was thinking about all the things I need to do today.",
+        "I was thinking about my family.",
+        "I was remembering my wedding day."
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "All answer with was + -ing."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "What did your mom like best about her vacation?",
+       "options": [
+        "She was liking the beach.",
+        "She enjoyed the warm weather.",
+        "She was enjoying the swimming pool."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "did… like → simple past. like is stative."
+      }
+     ]
+    },
+    {
+     "title": "Expected answers",
+     "icon": "🚌",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "Who were you texting just now?",
+       "options": [
+        "I text my mom.",
+        "I am telling my manager I'm sick.",
+        "I was texting a friend."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "were you texting → I was texting."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "What did your friend make for breakfast?",
+       "options": [
+        "He had eggs and coffee.",
+        "He was having rice.",
+        "He was making toast and tea."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "did… make → a simple past answer."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "Where did you live when you were younger?",
+       "options": [
+        "We lived in this town for a while.",
+        "We moved around a lot.",
+        "We were moving from town to town."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "did you live → simple past."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all expected answers.",
+       "text": "Where were you going when I called you?",
+       "options": [
+        "I was walking to the bus.",
+        "I went to the bus stop.",
+        "I was heading downtown."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "were you going → was + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My first day",
+     "task": "Tell Claude about your first day at university: what was happening when you walked in?",
+     "claudePrompt": "You are my English speaking partner. I am practicing the simple past and past progressive. Interview me about my first day at university (or school): What was the teacher doing when I walked in? What were other students doing? How did I feel? Ask one question at a time. Check that I use was / were + -ing for background and simple past for events."
+    },
+    {
+     "title": "Where were you?",
+     "task": "Claude names a time. You say what you were doing then.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the past progressive. Name a specific past time (for example: 'Yesterday at 8 P.M.'), and I say what I was doing. Then ask what happened while I was doing it, so I use the simple past for the event."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: long and short actions",
+    "items": [
+     {
+      "type": "learn",
+      "title": "The long action and the short action",
+      "visual": [
+       "past-progressive"
+      ],
+      "lines": [
+       "was / were + -ing = the long action, already going on.",
+       "Simple past = the short action that interrupts it."
+      ],
+      "examples": [
+       {
+        "text": "I was walking down the street when it began to rain.",
+        "hl": [
+         [
+          "was walking",
+          "pastprog"
+         ],
+         [
+          "began",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "when changes the story",
+      "left": {
+       "label": "was standing",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "Rita was standing under a tree when it began to rain.",
+         "hl": [
+          [
+           "was standing",
+           "pastprog"
+          ]
+         ]
+        },
+        {
+         "text": "She was already there.",
+         "hl": []
+        }
+       ]
+      },
+      "right": {
+       "label": "stood",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Rita stood under a tree when it began to rain.",
+         "hl": [
+          [
+           "stood",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "Rain came first. Then she moved.",
+         "hl": []
+        }
+       ]
+      },
+      "tip": "Two simple pasts with when → the when-part happens first."
+     },
+     {
+      "type": "learn",
+      "title": "while and two long actions",
+      "visual": [
+       "past-progressive"
+      ],
+      "lines": [
+       "while + the long action.",
+       "Two long actions at the same time → both -ing."
+      ],
+      "examples": [
+       {
+        "text": "While I was studying in one room, my roommate was having a party.",
+        "hl": [
+         [
+          "was studying",
+          "pastprog"
+         ],
+         [
+          "was having",
+          "pastprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "order",
+      "text": "I was reading when the phone rang.",
+      "events": [
+       "I was reading.",
+       "The phone rang."
+      ],
+      "first": 0,
+      "why": "was reading = the long action, already going on."
+     },
+     {
+      "type": "choice",
+      "text": "At 8 o'clock last night, I ___.",
+      "options": [
+       "studied",
+       "was studying"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "At an exact time → in progress → was studying."
+     },
+     {
+      "type": "choice",
+      "text": "When I dropped my cup, the coffee ___ on my lap.",
+      "options": [
+       "spilled",
+       "was spilling"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Drop first, then spill → two simple pasts."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "R2",
+   "tag": "Mix",
+   "t": "past",
+   "title": "Past mix",
+   "full": "Review of Charts 1-4 and 1-5",
+   "rule": {
+    "lines": [
+     "Main events → simple past.",
+     "Background already in progress → was / were + -ing."
+    ],
+    "timeline": [
+     "simple-past",
+     "past-progressive"
+    ],
+    "examples": [
+     {
+      "text": "I slipped on the ice while I was crossing the street.",
+      "hl": [
+       [
+        "slipped",
+        "past"
+       ],
+       [
+        "was crossing",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Little dramas (1)",
+     "icon": "🧊",
+     "items": [
+      {
+       "type": "fill",
+       "text": "A: How ___ your arm?",
+       "verb": "you, break",
+       "accept": [
+        "did you break"
+       ],
+       "why": "A question about a past event → did you break."
+      },
+      {
+       "type": "fill",
+       "text": "B: I ___ on the ice…",
+       "verb": "slip",
+       "accept": [
+        "slipped"
+       ],
+       "why": "The event (X). slip → slipped."
+      },
+      {
+       "type": "fill",
+       "text": "…while I ___ the street in front of the dorm.",
+       "verb": "cross",
+       "accept": [
+        "was crossing"
+       ],
+       "why": "while + in progress → was crossing."
+      },
+      {
+       "type": "fill",
+       "ctx": "A: You're a half-hour late. Where were you?",
+       "text": "B: I ___ for a place to park.",
+       "verb": "look",
+       "accept": [
+        "was looking"
+       ],
+       "why": "In progress during that time."
+      },
+      {
+       "type": "fill",
+       "text": "A: ___ one?",
+       "verb": "you, find",
+       "accept": [
+        "did you find"
+       ],
+       "why": "A question about a finished event."
+      },
+      {
+       "type": "fill",
+       "text": "B: Well, yes and no. I ___ my car illegally.",
+       "verb": "park",
+       "accept": [
+        "parked"
+       ],
+       "why": "A finished action → parked."
+      }
+     ]
+    },
+    {
+     "title": "Little dramas (2)",
+     "icon": "🎤",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "A: How did it go?",
+       "text": "___ the manager for a raise?",
+       "verb": "you, ask",
+       "accept": [
+        "did you ask"
+       ],
+       "why": "A finished event → Did you ask."
+      },
+      {
+       "type": "fill",
+       "text": "…when you ___ her yesterday?",
+       "verb": "see",
+       "accept": [
+        "saw"
+       ],
+       "why": "see → saw."
+      },
+      {
+       "type": "fill",
+       "text": "B: No, she ___ on a big presentation for next week.",
+       "verb": "work",
+       "accept": [
+        "was working"
+       ],
+       "why": "In progress when I saw her."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ pretty busy.",
+       "verb": "look",
+       "accept": [
+        "looked"
+       ],
+       "why": "look + adjective → stative → looked."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to wait until later.",
+       "verb": "decide",
+       "accept": [
+        "decided"
+       ],
+       "why": "A finished decision → decided."
+      },
+      {
+       "type": "fill",
+       "text": "A: ___ in the meeting?",
+       "verb": "you, be",
+       "accept": [
+        "were you"
+       ],
+       "why": "Question with be → Were you."
+      },
+      {
+       "type": "fill",
+       "text": "B: No, I ___ the bus.",
+       "verb": "miss",
+       "accept": [
+        "missed"
+       ],
+       "why": "A finished event → missed."
+      },
+      {
+       "type": "fill",
+       "text": "And I ___ to walk into the room…",
+       "verb": "not, want",
+       "accept": [
+        "didn't want"
+       ],
+       "why": "want is stative → didn't want."
+      },
+      {
+       "type": "fill",
+       "text": "…while Dr. Romero ___ his speech.",
+       "verb": "give",
+       "accept": [
+        "was giving"
+       ],
+       "why": "while + in progress → was giving."
+      }
+     ]
+    },
+    {
+     "title": "Red light",
+     "icon": "🚦",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "A: I had a bad day yesterday.",
+       "text": "B: Oh? What ___?",
+       "verb": "happen",
+       "accept": [
+        "happened"
+       ],
+       "why": "A finished event → happened."
+      },
+      {
+       "type": "fill",
+       "text": "A: I ___ a traffic ticket.",
+       "verb": "get",
+       "accept": [
+        "got"
+       ],
+       "why": "get → got."
+      },
+      {
+       "type": "fill",
+       "ctx": "B: That's too bad. What was it for? A: For running a red light.",
+       "text": "I ___ home…",
+       "verb": "drive",
+       "accept": [
+        "was driving"
+       ],
+       "why": "Background in progress → was driving."
+      },
+      {
+       "type": "fill",
+       "text": "…and ___ attention to the road.",
+       "verb": "not, pay",
+       "accept": [
+        "wasn't paying"
+       ],
+       "why": "Background in progress → wasn't paying."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ the red light…",
+       "verb": "not, see",
+       "accept": [
+        "didn't see"
+       ],
+       "why": "see is stative → didn't see."
+      },
+      {
+       "type": "fill",
+       "text": "…and just ___ driving.",
+       "verb": "keep",
+       "accept": [
+        "kept"
+       ],
+       "why": "keep → kept."
+      }
+     ]
+    },
+    {
+     "title": "Night noise",
+     "icon": "🕵️",
+     "items": [
+      {
+       "type": "fill",
+       "ctx": "A short story in the style of Exercise 33 (its audio isn't included here).",
+       "text": "I ___ peacefully…",
+       "verb": "sleep",
+       "accept": [
+        "was sleeping"
+       ],
+       "why": "Background in progress → was sleeping."
+      },
+      {
+       "type": "fill",
+       "text": "…when a loud noise ___ me up.",
+       "verb": "wake",
+       "accept": [
+        "woke"
+       ],
+       "why": "The event (X). wake → woke."
+      },
+      {
+       "type": "fill",
+       "text": "While I ___ in bed, I heard footsteps.",
+       "verb": "lie",
+       "accept": [
+        "was lying"
+       ],
+       "why": "lie → lying (ie → y). In progress."
+      },
+      {
+       "type": "fill",
+       "text": "While I was lying in bed, I ___ footsteps.",
+       "verb": "hear",
+       "accept": [
+        "heard"
+       ],
+       "why": "hear → heard."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ the police…",
+       "verb": "call",
+       "accept": [
+        "called"
+       ],
+       "why": "The event (X) → called."
+      },
+      {
+       "type": "fill",
+       "text": "…while the man ___ through my desk.",
+       "verb": "look",
+       "accept": [
+        "was looking"
+       ],
+       "why": "while + in progress → was looking."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "A scary night",
+     "task": "Tell Claude about a scary or surprising night in your life (real or made up).",
+     "claudePrompt": "You are my English speaking partner. I am practicing the simple past and past progressive by telling a story. Ask me to tell you about a scary or surprising night (real or imaginary). Ask: What were you doing when it started? What happened next? How did you feel? One question at a time."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: tell a story",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Story recipe",
+      "visual": [
+       "past-progressive"
+      ],
+      "lines": [
+       "Set the scene with was / were + -ing.",
+       "Tell the events with the simple past."
+      ],
+      "examples": [
+       {
+        "text": "The sun was shining and birds were singing. Suddenly, a dog ran into the street.",
+        "hl": [
+         [
+          "was shining",
+          "pastprog"
+         ],
+         [
+          "were singing",
+          "pastprog"
+         ],
+         [
+          "ran",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ TV when you called.",
+      "options": [
+       "watched",
+       "was watching"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The long action already going on."
+     },
+     {
+      "type": "choice",
+      "text": "She ___ the door and went out.",
+      "options": [
+       "opened",
+       "was opening"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A series of short events → simple past."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "1-6",
+   "tag": "1-6",
+   "t": "plan",
+   "title": "Broken plans",
+   "full": "Unfulfilled Intentions: Was / Were Going To",
+   "rule": {
+    "lines": [
+     "was / were going to + verb = a plan in the past.",
+     "Usually it didn't happen: I was going to call, but I forgot."
+    ],
+    "timeline": [
+     "was-going-to"
+    ],
+    "examples": [
+     {
+      "text": "Jack was going to go to the movie, but he changed his mind.",
+      "hl": [
+       [
+        "was going to go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I was planning to go, but I didn't.",
+      "hl": [
+       [
+        "was planning",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Plan or not?",
+     "icon": "🗓️",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Is this a plan or intention?",
+       "text": "I am going to call you at 9:00 tomorrow.",
+       "options": [
+        "Yes, a plan",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "am going to = a plan for the future."
+      },
+      {
+       "type": "choice",
+       "ask": "Is this a plan or intention?",
+       "text": "I was going to call you, but I couldn't find your phone number.",
+       "options": [
+        "Yes, a plan",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A past plan that didn't happen."
+      },
+      {
+       "type": "choice",
+       "ask": "Is this a plan or intention?",
+       "text": "I was going to class when I ran into a friend from my childhood.",
+       "options": [
+        "Yes, a plan",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "was going to class = was walking there."
+      },
+      {
+       "type": "choice",
+       "ask": "Is this a plan or intention?",
+       "text": "I was planning to go to college right after high school but then decided to work for a year first.",
+       "options": [
+        "Yes, a plan",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was planning = a past plan that changed."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all that are true.",
+       "text": "I was going to pay you back for the taxi.",
+       "options": [
+        "I paid you back.",
+        "I was planning to pay you back.",
+        "I didn't pay you back."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "was going to = planned, but didn't."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all that are true.",
+       "text": "I was going to stay home on my day off, but I had too much work at the office.",
+       "options": [
+        "I was intending to stay home.",
+        "I worked at the office.",
+        "I had a lot of work, but I stayed home."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "The plan (stay home) didn't happen."
+      }
+     ]
+    },
+    {
+     "title": "Plan or on the way?",
+     "icon": "🚉",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Choose all that are true.",
+       "text": "Jared was going to the hospital to see his mother when he began to feel ill.",
+       "options": [
+        "Jared was on his way to the hospital.",
+        "Jared had plans to see his mother but needed to change them.",
+        "Jared didn't go to the hospital."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was going to the hospital = moving there. We don't know the rest."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all that are true.",
+       "text": "My dad was going to surprise my mom with jewelry for her birthday.",
+       "options": [
+        "He wanted to give her jewelry.",
+        "He gave her some jewelry.",
+        "He didn't surprise her with jewelry."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "was going to + verb = planned, but didn't."
+      },
+      {
+       "type": "choice",
+       "ask": "Choose all that are true.",
+       "text": "I was going to the train station when I remembered your phone call.",
+       "options": [
+        "I was planning to go to the train station, but I didn't.",
+        "I was on my way to the train station.",
+        "I didn't go to the train station."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "going to + a place = moving there."
+      }
+     ]
+    },
+    {
+     "title": "Finish the excuse",
+     "icon": "🙈",
+     "items": [
+      {
+       "type": "choice",
+       "ask": "Which ending makes sense?",
+       "text": "I was going to get up early this morning, but…",
+       "options": [
+        "I got up at 5:00 as planned.",
+        "my alarm didn't ring."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "was going to → it didn't happen."
+      },
+      {
+       "type": "choice",
+       "ask": "Which ending makes sense?",
+       "text": "We were hoping to see that movie in a theater, but…",
+       "options": [
+        "it wasn't playing anymore.",
+        "we saw it there on Friday."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "were hoping to → it didn't happen."
+      },
+      {
+       "type": "choice",
+       "ask": "Which ending makes sense?",
+       "text": "I was going to text you, but…",
+       "options": [
+        "I sent you three texts.",
+        "my phone died."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "was going to → it didn't happen."
+      },
+      {
+       "type": "choice",
+       "ask": "Which ending makes sense?",
+       "text": "We were going to invite Thomas to dinner with us, but…",
+       "options": [
+        "he was out of town.",
+        "he came and had a great time."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "were going to → the plan failed."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Excuses, excuses",
+     "task": "Finish 'I was going to…, but…' sentences with Claude. Be creative!",
+     "claudePrompt": "You are my funny English speaking partner. I am practicing 'was / were going to' and 'was planning / hoping to' for plans that didn't happen. Give me the start of a sentence, like 'I was going to call you on your birthday, but…', and I finish it. React with humor, then give the next one. Sometimes ask me to make my own."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: broken plans",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A plan that broke",
+      "visual": [
+       "was-going-to"
+      ],
+      "lines": [
+       "was / were going to + verb = I had a plan in the past.",
+       "Usually the plan didn't happen."
+      ],
+      "examples": [
+       {
+        "text": "Jack was going to go to the movie, but he changed his mind.",
+        "hl": [
+         [
+          "was going to go",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Other ways to say it",
+      "visual": [
+       "was-going-to"
+      ],
+      "chips": [
+       "was planning to",
+       "was hoping to",
+       "was intending to",
+       "was thinking about + -ing"
+      ],
+      "lines": [
+       "These also mean: a plan that didn't happen."
+      ],
+      "examples": [
+       {
+        "text": "I was hoping to go, but I couldn't.",
+        "hl": [
+         [
+          "was hoping",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Plan or on the way?",
+      "left": {
+       "label": "going to + verb = plan",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "I was going to call you, but I forgot.",
+         "hl": [
+          [
+           "was going to call",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "going to + place = moving",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "I was going to class when I saw Ali.",
+         "hl": [
+          [
+           "was going",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "After to: a verb (call) = plan. A place (class) = on the way there."
+     },
+     {
+      "type": "choice",
+      "ask": "What's true?",
+      "text": "I was going to call you.",
+      "options": [
+       "I called you.",
+       "I didn't call you."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "was going to → the plan didn't happen."
+     }
+    ],
+    "icon": "📖"
+   }
+  },
+  {
+   "id": "G1",
+   "tag": "Bonus",
+   "t": "plan",
+   "title": "to go or going?",
+   "full": "Self-Study: Gerunds and Infinitives 1",
+   "rule": {
+    "lines": [
+     "want, need, decide, can't afford + to + verb.",
+     "enjoy, mind, miss, keep, quit + verb-ing."
+    ],
+    "timeline": [
+     "gerund"
+    ],
+    "examples": [
+     {
+      "text": "I want to go.",
+      "hl": [
+       [
+        "to go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Please keep going.",
+      "hl": [
+       [
+        "going",
+        "prog"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "+ to verb",
+      "words": [
+       "want",
+       "need",
+       "decide",
+       "can't afford"
+      ]
+     },
+     {
+      "label": "+ verb-ing",
+      "words": [
+       "enjoy",
+       "mind",
+       "miss",
+       "keep",
+       "quit"
+      ]
+     },
+     {
+      "label": "Both",
+      "words": [
+       "like",
+       "begin",
+       "can't stand"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Sort the verbs",
+     "icon": "🧩",
+     "items": [
+      {
+       "type": "sort",
+       "word": "want",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "want to go."
+      },
+      {
+       "type": "sort",
+       "word": "enjoy",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "enjoy going."
+      },
+      {
+       "type": "sort",
+       "word": "decide",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "decide to go."
+      },
+      {
+       "type": "sort",
+       "word": "mind",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "mind helping."
+      },
+      {
+       "type": "sort",
+       "word": "like",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 2,
+       "why": "like to go / like going."
+      },
+      {
+       "type": "sort",
+       "word": "miss",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "miss going."
+      },
+      {
+       "type": "sort",
+       "word": "can't afford",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "can't afford to buy."
+      },
+      {
+       "type": "sort",
+       "word": "can't stand",
+       "buckets": [
+        "+ to verb",
+        "+ verb-ing",
+        "Both"
+       ],
+       "answer": 2,
+       "why": "can't stand paying / to pay."
+      }
+     ]
+    },
+    {
+     "title": "Test yourself",
+     "icon": "🎯",
+     "items": [
+      {
+       "type": "choice",
+       "text": "She likes ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "like takes both."
+      },
+      {
+       "type": "choice",
+       "text": "I can't afford ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can't afford + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Do they mind ___?",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "mind + verb-ing."
+      },
+      {
+       "type": "choice",
+       "text": "They can't stand ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "can't stand takes both."
+      },
+      {
+       "type": "choice",
+       "text": "I decided ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "decide + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "He wants ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "want + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "We enjoy ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "enjoy + verb-ing."
+      },
+      {
+       "type": "choice",
+       "text": "They don't like ___.",
+       "options": [
+        "to go",
+        "going",
+        "Both"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "like takes both."
+      }
+     ]
+    },
+    {
+     "title": "Mini dialogs",
+     "icon": "🍽️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A: Would you mind ___ me with the dishes?",
+       "options": [
+        "helping",
+        "to help"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "mind + verb-ing."
+      },
+      {
+       "type": "choice",
+       "text": "B: Sure. I enjoy ___ dishes.",
+       "options": [
+        "to wash",
+        "washing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "enjoy + verb-ing."
+      },
+      {
+       "type": "choice",
+       "text": "Jan and Adam decided ___ off their wedding until next summer.",
+       "options": [
+        "to put",
+        "putting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "decide + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I like those shoes, but I can't afford ___ them.",
+       "options": [
+        "buying",
+        "to buy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't afford + to + verb."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Likes and wants",
+     "task": "Tell Claude 3 things you enjoy doing and 3 things you want to do this year.",
+     "claudePrompt": "You are my English speaking partner. I am practicing verbs + to-infinitive (want, need, decide, can't afford) and verbs + -ing (enjoy, mind, miss, keep, quit). Ask me questions that make me use them, like 'What do you enjoy doing on weekends?' or 'What did you decide to do this year?'. One question at a time."
+    }
+   ],
+   "lesson": {
+    "title": "Learn: to go or going?",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two verbs together",
+      "visual": [
+       "gerund"
+      ],
+      "lines": [
+       "After some verbs: to + verb. After others: verb-ing.",
+       "There's no easy rule. Learn the groups."
+      ],
+      "chips": [
+       {
+        "label": "+ to verb",
+        "words": [
+         "want",
+         "need",
+         "decide",
+         "can't afford"
+        ]
+       },
+       {
+        "label": "+ verb-ing",
+        "words": [
+         "enjoy",
+         "mind",
+         "miss",
+         "keep",
+         "quit"
+        ]
+       },
+       {
+        "label": "Both",
+        "words": [
+         "like",
+         "begin",
+         "can't stand"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Side by side",
+      "left": {
+       "label": "+ to verb",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "I want to go.",
+         "hl": [
+          [
+           "to go",
+           "plan"
+          ]
+         ]
+        },
+        {
+         "text": "Jan decided to wait.",
+         "hl": [
+          [
+           "to wait",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "+ verb-ing",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Please keep going.",
+         "hl": [
+          [
+           "going",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I enjoy washing dishes.",
+         "hl": [
+          [
+           "washing",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Some take both: It began to rain = It began raining."
+     },
+     {
+      "type": "choice",
+      "text": "I enjoy ___.",
+      "options": [
+       "to swim",
+       "swimming"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "enjoy + verb-ing."
+     }
+    ],
+    "icon": "📖"
+   }
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Mistake Monster",
+  "icon": "👾",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Breakfast is an important meal. [I'm] always eat a big breakfast.",
+    "options": [
+     "I always eat a big breakfast.",
+     "I'm always ate a big breakfast.",
+     "I always eats a big breakfast."
+    ],
+    "answer": 0,
+    "why": "Habit → simple present. No am.",
+    "rule": "1-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "While I was working in my office yesterday, my cousin [stops] by to visit me.",
+    "options": [
+     "…my cousin was stop by to visit me.",
+     "…my cousin stopped by to visit me.",
+     "…my cousin stopping by to visit me."
+    ],
+    "answer": 1,
+    "why": "Yesterday, a finished event → stopped.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "Yuki [staied] home because she [catched] a bad cold.",
+    "options": [
+     "Yuki stayed home because she catched a bad cold.",
+     "Yuki staied home because she caught a bad cold.",
+     "Yuki stayed home because she caught a bad cold."
+    ],
+    "answer": 2,
+    "why": "stay → stayed (vowel + y). catch → caught.",
+    "rule": "1-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "My brother [is] looks like our father, but I [am resembling] my mother.",
+    "options": [
+     "My brother looks like our father, but I resemble my mother.",
+     "My brother is looking like our father, but I resembling my mother.",
+     "My brother look like our father, but I resemble my mother."
+    ],
+    "answer": 0,
+    "why": "look like and resemble are stative.",
+    "rule": "1-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "Jun, are you [listen] to me? I am [talk] to you!",
+    "options": [
+     "Jun, do you listen to me? I talk to you!",
+     "Jun, are you listening to me? I am talking to you!",
+     "Jun, are you listens to me? I am talks to you!"
+    ],
+    "answer": 1,
+    "why": "am / are + verb-ing.",
+    "rule": "1-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "While I was surfing the Internet yesterday, I [was finding] a really interesting website.",
+    "options": [
+     "…I find a really interesting website.",
+     "…I was found a really interesting website.",
+     "…I found a really interesting website."
+    ],
+    "answer": 2,
+    "why": "Finding = a quick event (X) → found.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "Did you [spoke] English before you [were come] here?",
+    "options": [
+     "Did you speak English before you came here?",
+     "Did you speak English before you come here?",
+     "Did you spoke English before you came here?"
+    ],
+    "answer": 0,
+    "why": "did + base verb. come → came.",
+    "rule": "1-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [am not] agree with your opinion.",
+    "options": [
+     "I am not agreeing with your opinion.",
+     "I don't agree with your opinion.",
+     "I not agree with your opinion."
+    ],
+    "answer": 1,
+    "why": "agree is a verb, not an adjective → don't agree.",
+    "rule": "1-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "My roommate usually [watch] television, [listen] to music, or [going] out in the evening.",
+    "options": [
+     "My roommate usually watches television, listens to music, or goes out in the evening.",
+     "My roommate usually is watching television, listening to music, or going out.",
+     "My roommate usually watch television, listens to music, or goes out in the evening."
+    ],
+    "answer": 0,
+    "why": "Habit, he / she → -s on every verb.",
+    "rule": "1-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Right now [Sally in] the kitchen eating breakfast.",
+    "options": [
+     "Right now Sally in the kitchen eats breakfast.",
+     "Right now Sally is in the kitchen eating breakfast.",
+     "Right now Sally does in the kitchen eating breakfast."
+    ],
+    "answer": 1,
+    "why": "A sentence needs a verb → is.",
+    "rule": "1-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "While [I'm driving] home last night, I [heared] a strange noise in the engine.",
+    "options": [
+     "While I drove home last night, I heared a strange noise.",
+     "While I was driving home last night, I heard a strange noise in the engine.",
+     "While I'm driving home last night, I heard a strange noise in the engine."
+    ],
+    "answer": 1,
+    "why": "last night → past. hear → heard.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Why you] talking about me? I'm [not appreciate] that.",
+    "options": [
+     "Why are you talking about me? I don't appreciate that.",
+     "Why do you talking about me? I'm not appreciating that.",
+     "Why are you talking about me? I'm not appreciate that."
+    ],
+    "answer": 0,
+    "why": "Question needs are. appreciate is stative.",
+    "rule": "1-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "Yesterday, while I was sitting at my computer, Shelley [was suddenly coming] into the room.",
+    "options": [
+     "…Shelley suddenly comes into the room.",
+     "…Shelley suddenly came into the room.",
+     "…Shelley was suddenly come into the room."
+    ],
+    "answer": 1,
+    "why": "suddenly = a quick event (X) → came.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [wasn't knowing] she was there. I was [concentrate] hard on my work.",
+    "options": [
+     "I didn't know she was there. I was concentrating hard on my work.",
+     "I wasn't know she was there. I concentrating hard on my work.",
+     "I didn't knew she was there. I was concentrated hard on my work."
+    ],
+    "answer": 0,
+    "why": "know is stative. was + verb-ing.",
+    "rule": "1-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "When she suddenly [speak], I [am jump]. She [startle] me.",
+    "options": [
+     "When she suddenly spoke, I was jumping. She startles me.",
+     "When she suddenly speaks, I jump. She startle me.",
+     "When she suddenly spoke, I jumped. She startled me."
+    ],
+    "answer": 2,
+    "why": "A story in the past → spoke, jumped, startled.",
+    "rule": "1-4"
+   }
+  ]
+ }
+}

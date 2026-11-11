@@ -1,0 +1,7465 @@
+{
+ "id": "ch02",
+ "num": 2,
+ "title": "Perfect Tenses",
+ "subtitle": "Perfect and Perfect Progressive",
+ "icon": "🏔️",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "How long have you know my sister?",
+    "answer": "wrong",
+    "why": "After have → past participle: known.",
+    "fix": "How long have you known my sister?",
+    "rule": "2-2"
+   },
+   {
+    "type": "judge",
+    "text": "We have been in this meeting since 7:00 A.M.",
+    "answer": "correct",
+    "why": "since 7:00, still true → have been.",
+    "rule": "2-3"
+   },
+   {
+    "type": "judge",
+    "text": "Did you ever seen a ghost?",
+    "answer": "wrong",
+    "why": "ever + seen → Have you ever seen.",
+    "fix": "Have you ever seen a ghost?",
+    "rule": "2-4"
+   },
+   {
+    "type": "judge",
+    "text": "How you been? I haven't seen you for a while.",
+    "answer": "wrong",
+    "why": "The helping verb have is missing.",
+    "fix": "How have you been? I haven't seen you for a while.",
+    "rule": "2-5"
+   },
+   {
+    "type": "judge",
+    "text": "Jonas owned his home since last year, but his parents helped him buy it.",
+    "answer": "wrong",
+    "why": "since last year, still true → has owned.",
+    "fix": "Jonas has owned his home since last year, but his parents helped him buy it.",
+    "rule": "2-6"
+   },
+   {
+    "type": "judge",
+    "text": "How long you have been waiting for me?",
+    "answer": "wrong",
+    "why": "Question: have comes before you.",
+    "fix": "How long have you been waiting for me?",
+    "rule": "2-7"
+   },
+   {
+    "type": "judge",
+    "text": "I am watching TV since I got home.",
+    "answer": "wrong",
+    "why": "since … → have been watching.",
+    "fix": "I have been watching TV since I got home.",
+    "rule": "2-7"
+   },
+   {
+    "type": "judge",
+    "text": "I had felt sick after dinner, so I went to bed.",
+    "answer": "wrong",
+    "why": "One past event after another → simple past.",
+    "fix": "I felt sick after dinner, so I went to bed.",
+    "rule": "2-8"
+   },
+   {
+    "type": "judge",
+    "text": "We'd wanted to go out to breakfast, but we overslept.",
+    "answer": "correct",
+    "why": "We'd wanted = We had wanted.",
+    "rule": "2-9"
+   },
+   {
+    "type": "judge",
+    "text": "Toni's eyes were itchy and red because she had been working in a dusty room.",
+    "answer": "correct",
+    "why": "Before a past moment → had been working.",
+    "rule": "2-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "2-1",
+   "tag": "2-1",
+   "t": "perf",
+   "title": "Four verb parts",
+   "full": "Regular and Irregular Verbs",
+   "lesson": {
+    "title": "Learn: the 4 parts of a verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Every verb has 4 parts",
+      "lines": [
+       "Simple, past, past participle, -ing.",
+       "Perfect tenses need part 3: the past participle."
+      ],
+      "visual": [
+       "parts"
+      ],
+      "examples": [
+       {
+        "text": "I have gone to London many times.",
+        "hl": [
+         [
+          "gone",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Regular: add -ed",
+      "lines": [
+       "Part 2 and part 3 are the same."
+      ],
+      "chips": [
+       "hope → hoped → hoped",
+       "stop → stopped → stopped",
+       "study → studied → studied",
+       "listen → listened → listened"
+      ],
+      "tip": "Spelling: stop → stopped (double p). study → studied (y → i)."
+     },
+     {
+      "type": "learn",
+      "title": "Irregular: no -ed",
+      "lines": [
+       "These verbs change in their own way.",
+       "You learn them by heart. The missions help!"
+      ],
+      "chips": [
+       "find → found → found",
+       "swim → swam → swum",
+       "break → broke → broken",
+       "wear → wore → worn",
+       "hit → hit → hit"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which one is the past participle of break?",
+      "options": [
+       "broke",
+       "broken",
+       "breaked"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "break, broke, broken. Part 3 = broken."
+     },
+     {
+      "type": "learn",
+      "title": "have + part 3",
+      "lines": [
+       "Perfect tenses = have / has / had + past participle."
+      ],
+      "visual": [
+       "have-pp"
+      ],
+      "examples": [
+       {
+        "text": "I've lived in London all my life.",
+        "hl": [
+         [
+          "lived",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "I've done extreme sports since I was a teenager.",
+        "hl": [
+         [
+          "done",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I have ___ English for more than a year.",
+      "options": [
+       "spoke",
+       "spoken",
+       "speaking"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After have → part 3: speak, spoke, spoken."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Verbs have 4 parts: go · went · gone · going.",
+     "have / has / had + part 3 (the past participle)."
+    ],
+    "timeline": [
+     "parts"
+    ],
+    "examples": [
+     {
+      "text": "I've spoken English for more than a year.",
+      "hl": [
+       [
+        "spoken",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "The rain has stopped.",
+      "hl": [
+       [
+        "stopped",
+        "perf"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "Regular",
+      "words": [
+       "hope → hoped → hoped",
+       "study → studied → studied"
+      ]
+     },
+     {
+      "label": "Irregular",
+      "words": [
+       "do → did → done",
+       "speak → spoke → spoken"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Regular or irregular?",
+     "icon": "🔀",
+     "items": [
+      {
+       "type": "sort",
+       "word": "hope",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 0,
+       "why": "hope, hoped, hoped."
+      },
+      {
+       "type": "sort",
+       "word": "find",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 1,
+       "why": "find, found, found. No -ed."
+      },
+      {
+       "type": "sort",
+       "word": "study",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 0,
+       "why": "study, studied, studied."
+      },
+      {
+       "type": "sort",
+       "word": "swim",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 1,
+       "why": "swim, swam, swum."
+      },
+      {
+       "type": "sort",
+       "word": "listen",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 0,
+       "why": "listen, listened, listened."
+      },
+      {
+       "type": "sort",
+       "word": "wear",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 1,
+       "why": "wear, wore, worn."
+      },
+      {
+       "type": "sort",
+       "word": "start",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 0,
+       "why": "start, started, started."
+      },
+      {
+       "type": "sort",
+       "word": "hit",
+       "buckets": [
+        "Regular (-ed)",
+        "Irregular"
+       ],
+       "answer": 1,
+       "why": "hit, hit, hit. It never changes."
+      }
+     ]
+    },
+    {
+     "title": "Find part 3",
+     "icon": "3️⃣",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I've ___ in London all my life.",
+       "options": [
+        "live",
+        "lived",
+        "living"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have + part 3: lived."
+      },
+      {
+       "type": "choice",
+       "text": "I've ___ English for more than a year.",
+       "options": [
+        "spoke",
+        "spoken"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "speak, spoke, spoken."
+      },
+      {
+       "type": "choice",
+       "text": "I've ___ extreme sports since I was a teenager.",
+       "options": [
+        "did",
+        "done"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "do, did, done."
+      },
+      {
+       "type": "choice",
+       "text": "Which is the past participle of swim?",
+       "options": [
+        "swam",
+        "swum",
+        "swimmed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "swim, swam, swum."
+      },
+      {
+       "type": "choice",
+       "text": "Which is the past participle of wear?",
+       "options": [
+        "wore",
+        "weared",
+        "worn"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "wear, wore, worn."
+      },
+      {
+       "type": "choice",
+       "text": "Which is the past participle of find?",
+       "options": [
+        "found",
+        "finded",
+        "founded"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "find, found, found."
+      },
+      {
+       "type": "choice",
+       "text": "Which is the present participle of stop?",
+       "options": [
+        "stoping",
+        "stopped",
+        "stopping"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Present participle = -ing: stopping."
+      },
+      {
+       "type": "choice",
+       "text": "Which part goes after have?",
+       "options": [
+        "Part 2: went",
+        "Part 3: gone",
+        "Part 4: going"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have + past participle: have gone."
+      }
+     ]
+    },
+    {
+     "title": "Spelling -ed",
+     "icon": "✍️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The rain has ___.",
+       "verb": "stop",
+       "accept": [
+        "stopped"
+       ],
+       "why": "Short vowel + p → double p: stopped."
+      },
+      {
+       "type": "fill",
+       "text": "We have ___ for the test.",
+       "verb": "study",
+       "accept": [
+        "studied"
+       ],
+       "why": "y after a consonant → ied."
+      },
+      {
+       "type": "fill",
+       "text": "I have ___ to this song many times.",
+       "verb": "listen",
+       "accept": [
+        "listened"
+       ],
+       "why": "Regular: just add -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The movie has ___.",
+       "verb": "start",
+       "accept": [
+        "started"
+       ],
+       "why": "Regular: start + ed."
+      },
+      {
+       "type": "fill",
+       "text": "She has ___ a party for Friday.",
+       "verb": "plan",
+       "accept": [
+        "planned"
+       ],
+       "why": "Short vowel + n → double n."
+      },
+      {
+       "type": "fill",
+       "text": "They have ___ sushi before.",
+       "verb": "try",
+       "accept": [
+        "tried"
+       ],
+       "why": "y after a consonant → ied."
+      },
+      {
+       "type": "fill",
+       "text": "He has ___ chess since 2015.",
+       "verb": "play",
+       "accept": [
+        "played"
+       ],
+       "why": "y after a vowel: just add -ed."
+      },
+      {
+       "type": "fill",
+       "text": "I have always ___ for peace.",
+       "verb": "hope",
+       "accept": [
+        "hoped"
+       ],
+       "why": "Ends in e → just add d."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2-2",
+   "tag": "2-2",
+   "t": "perf",
+   "title": "Irregular families",
+   "full": "Irregular Verb List",
+   "lesson": {
+    "title": "Learn: irregular verb families",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Learn them in families",
+      "lines": [
+       "Don't learn one long list.",
+       "Small families change the same way."
+      ],
+      "chips": [
+       {
+        "label": "🟰 All three the same",
+        "words": [
+         "cut → cut → cut",
+         "put → put → put",
+         "hit → hit → hit",
+         "let → let → let"
+        ]
+       },
+       {
+        "label": "🔚 Part 3 ends in -en",
+        "words": [
+         "eat → ate → eaten",
+         "speak → spoke → spoken",
+         "write → wrote → written",
+         "choose → chose → chosen"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The i · a · u family",
+      "lines": [
+       "The vowel changes: i, then a, then u."
+      ],
+      "chips": [
+       "begin → began → begun",
+       "drink → drank → drunk",
+       "sing → sang → sung",
+       "swim → swam → swum",
+       "ring → rang → rung"
+      ],
+      "tip": "Say it like a song: sing, sang, sung."
+     },
+     {
+      "type": "learn",
+      "title": "The twins family",
+      "lines": [
+       "The biggest family.",
+       "Part 2 and part 3 are twins."
+      ],
+      "chips": [
+       "buy → bought → bought",
+       "catch → caught → caught",
+       "feel → felt → felt",
+       "make → made → made",
+       "win → won → won",
+       "think → thought → thought"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I have never ___ a snake.",
+      "options": [
+       "hold",
+       "held",
+       "holden"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Twins: hold, held, held."
+     },
+     {
+      "type": "learn",
+      "title": "The -n family",
+      "lines": [
+       "Part 3 ends in -n."
+      ],
+      "chips": [
+       "know → knew → known",
+       "grow → grew → grown",
+       "blow → blew → blown",
+       "see → saw → seen",
+       "do → did → done",
+       "wear → wore → worn"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The odd ones",
+      "lines": [
+       "A few verbs don't fit any family."
+      ],
+      "chips": [
+       {
+        "label": "Part 1 = part 3",
+        "words": [
+         "come → came → come",
+         "become → became → become",
+         "run → ran → run"
+        ]
+       },
+       {
+        "label": "Very different",
+        "words": [
+         "be → was / were → been",
+         "go → went → gone"
+        ]
+       },
+       {
+        "label": "Two forms are OK",
+        "words": [
+         "dream → dreamed / dreamt",
+         "learn → learned / learnt",
+         "burn → burned / burnt"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "She has ___ to the store.",
+      "options": [
+       "went",
+       "gone",
+       "goed"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "go, went, gone. After has → gone."
+     },
+     {
+      "type": "choice",
+      "text": "Yesterday the phone ___ three times.",
+      "options": [
+       "rang",
+       "rung"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Yesterday = simple past → part 2: rang."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Irregular verbs come in families.",
+     "Part 3 goes after have / has / had."
+    ],
+    "timeline": [
+     "parts"
+    ],
+    "examples": [
+     {
+      "text": "I have seen that movie twice.",
+      "hl": [
+       [
+        "seen",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "Our team has won every game.",
+      "hl": [
+       [
+        "won",
+        "perf"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "All the same",
+      "words": [
+       "cut",
+       "put",
+       "let",
+       "hit",
+       "bet"
+      ]
+     },
+     {
+      "label": "-en",
+      "words": [
+       "broken",
+       "chosen",
+       "driven",
+       "spoken",
+       "taken",
+       "written"
+      ]
+     },
+     {
+      "label": "i · a · u",
+      "words": [
+       "begun",
+       "drunk",
+       "sung",
+       "swum"
+      ]
+     },
+     {
+      "label": "Twins",
+      "words": [
+       "caught",
+       "felt",
+       "led",
+       "made",
+       "stung",
+       "thought",
+       "won"
+      ]
+     },
+     {
+      "label": "-n",
+      "words": [
+       "blown",
+       "grown",
+       "known",
+       "seen",
+       "done"
+      ]
+     },
+     {
+      "label": "Odd",
+      "words": [
+       "been",
+       "gone",
+       "come",
+       "run"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Family sort",
+     "icon": "👨‍👩‍👧",
+     "items": [
+      {
+       "type": "sort",
+       "word": "cut",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 0,
+       "why": "cut, cut, cut."
+      },
+      {
+       "type": "sort",
+       "word": "eat",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 1,
+       "why": "eat, ate, eaten."
+      },
+      {
+       "type": "sort",
+       "word": "sing",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 2,
+       "why": "sing, sang, sung."
+      },
+      {
+       "type": "sort",
+       "word": "put",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 0,
+       "why": "put, put, put."
+      },
+      {
+       "type": "sort",
+       "word": "write",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 1,
+       "why": "write, wrote, written."
+      },
+      {
+       "type": "sort",
+       "word": "swim",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 2,
+       "why": "swim, swam, swum."
+      },
+      {
+       "type": "sort",
+       "word": "hurt",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 0,
+       "why": "hurt, hurt, hurt."
+      },
+      {
+       "type": "sort",
+       "word": "break",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 1,
+       "why": "break, broke, broken."
+      },
+      {
+       "type": "sort",
+       "word": "begin",
+       "buckets": [
+        "All three the same",
+        "Part 3 ends in -en",
+        "i · a · u"
+       ],
+       "answer": 2,
+       "why": "begin, began, begun."
+      }
+     ]
+    },
+    {
+     "title": "Partner drill 1",
+     "icon": "🏓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "They have ___ home.",
+       "verb": "go",
+       "accept": [
+        "gone"
+       ],
+       "why": "go, went, gone."
+      },
+      {
+       "type": "fill",
+       "text": "I have ___ that movie twice.",
+       "verb": "see",
+       "accept": [
+        "seen"
+       ],
+       "why": "see, saw, seen."
+      },
+      {
+       "type": "fill",
+       "text": "Ouch! A bee has ___ me.",
+       "verb": "sting",
+       "accept": [
+        "stung"
+       ],
+       "why": "sting, stung, stung."
+      },
+      {
+       "type": "fill",
+       "text": "I have ___ about it a lot.",
+       "verb": "think",
+       "accept": [
+        "thought"
+       ],
+       "why": "think, thought, thought."
+      },
+      {
+       "type": "fill",
+       "text": "She has ___ the team for years.",
+       "verb": "lead",
+       "accept": [
+        "led"
+       ],
+       "why": "lead, led, led."
+      },
+      {
+       "type": "fill",
+       "text": "The wind has ___ the door open.",
+       "verb": "blow",
+       "accept": [
+        "blown"
+       ],
+       "why": "blow, blew, blown."
+      },
+      {
+       "type": "fill",
+       "text": "He has ___ ten dollars on the game.",
+       "verb": "bet",
+       "accept": [
+        "bet"
+       ],
+       "why": "bet, bet, bet. No change."
+      },
+      {
+       "type": "fill",
+       "text": "We have ___ a name for the baby.",
+       "verb": "choose",
+       "accept": [
+        "chosen"
+       ],
+       "why": "choose, chose, chosen."
+      }
+     ]
+    },
+    {
+     "title": "Partner drill 2",
+     "icon": "🏓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Where have you ___ my keys?",
+       "verb": "put",
+       "accept": [
+        "put"
+       ],
+       "why": "put, put, put. No change."
+      },
+      {
+       "type": "fill",
+       "text": "She has ___ three books.",
+       "verb": "write",
+       "accept": [
+        "written"
+       ],
+       "why": "write, wrote, written."
+      },
+      {
+       "type": "fill",
+       "text": "I have never ___ a truck.",
+       "verb": "drive",
+       "accept": [
+        "driven"
+       ],
+       "why": "drive, drove, driven."
+      },
+      {
+       "type": "fill",
+       "text": "I have ___ tired all week.",
+       "verb": "feel",
+       "accept": [
+        "felt"
+       ],
+       "why": "feel, felt, felt."
+      },
+      {
+       "type": "fill",
+       "text": "The class has already ___.",
+       "verb": "begin",
+       "accept": [
+        "begun"
+       ],
+       "why": "begin, began, begun."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ___ to the teacher?",
+       "verb": "speak",
+       "accept": [
+        "spoken"
+       ],
+       "why": "speak, spoke, spoken."
+      },
+      {
+       "type": "fill",
+       "text": "Oh no, I have ___ my finger.",
+       "verb": "cut",
+       "accept": [
+        "cut"
+       ],
+       "why": "cut, cut, cut. No change."
+      },
+      {
+       "type": "fill",
+       "text": "Someone has ___ the window.",
+       "verb": "break",
+       "accept": [
+        "broken"
+       ],
+       "why": "break, broke, broken."
+      }
+     ]
+    },
+    {
+     "title": "Partner drill 3",
+     "icon": "🏓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The police have ___ the thief.",
+       "verb": "catch",
+       "accept": [
+        "caught"
+       ],
+       "why": "catch, caught, caught."
+      },
+      {
+       "type": "fill",
+       "text": "Who has ___ my pen?",
+       "verb": "take",
+       "accept": [
+        "taken"
+       ],
+       "why": "take, took, taken."
+      },
+      {
+       "type": "fill",
+       "text": "Mom has ___ dinner.",
+       "verb": "make",
+       "accept": [
+        "made"
+       ],
+       "why": "make, made, made."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ in the ocean?",
+       "verb": "swim",
+       "accept": [
+        "swum"
+       ],
+       "why": "swim, swam, swum."
+      },
+      {
+       "type": "fill",
+       "text": "The kids have ___ so much!",
+       "verb": "grow",
+       "accept": [
+        "grown"
+       ],
+       "why": "grow, grew, grown."
+      },
+      {
+       "type": "fill",
+       "text": "My parents have ___ me stay out late.",
+       "verb": "let",
+       "accept": [
+        "let"
+       ],
+       "why": "let, let, let. No change."
+      },
+      {
+       "type": "fill",
+       "text": "She has ___ in a band.",
+       "verb": "sing",
+       "accept": [
+        "sung"
+       ],
+       "why": "sing, sang, sung."
+      },
+      {
+       "type": "fill",
+       "text": "Our team has ___ every game.",
+       "verb": "win",
+       "accept": [
+        "won"
+       ],
+       "why": "win, won, won."
+      }
+     ]
+    },
+    {
+     "title": "Part 2 or part 3?",
+     "icon": "⚖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Yesterday I ___ a snake.",
+       "options": [
+        "saw",
+        "seen"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Yesterday → simple past: saw."
+      },
+      {
+       "type": "choice",
+       "text": "I have never ___ a snake.",
+       "options": [
+        "saw",
+        "seen"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After have → part 3: seen."
+      },
+      {
+       "type": "choice",
+       "text": "The phone has ___ three times.",
+       "options": [
+        "rang",
+        "rung"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After has → part 3: rung."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ the race last year.",
+       "options": [
+        "ran",
+        "run"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Last year → simple past: ran."
+      },
+      {
+       "type": "choice",
+       "text": "He has ___ two races this year.",
+       "options": [
+        "ran",
+        "run"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After has → part 3: run."
+      },
+      {
+       "type": "choice",
+       "text": "We ___ to Paris in May.",
+       "options": [
+        "went",
+        "gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In May (finished) → simple past: went."
+      },
+      {
+       "type": "choice",
+       "text": "They have ___ to bed.",
+       "options": [
+        "went",
+        "gone"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After have → part 3: gone."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ my homework an hour ago.",
+       "options": [
+        "did",
+        "done"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An hour ago → simple past: did."
+      }
+     ]
+    },
+    {
+     "title": "How long have you…?",
+     "icon": "⏳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "How long have you ___ glasses?",
+       "verb": "wear",
+       "accept": [
+        "worn"
+       ],
+       "why": "wear, wore, worn."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ English?",
+       "verb": "speak",
+       "accept": [
+        "spoken"
+       ],
+       "why": "speak, spoke, spoken."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ our teacher?",
+       "verb": "know",
+       "accept": [
+        "known"
+       ],
+       "why": "know, knew, known."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ English at school?",
+       "verb": "study",
+       "accept": [
+        "studied"
+       ],
+       "why": "Regular: study, studied."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ a passport?",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "have, had, had."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ a cell phone?",
+       "verb": "own",
+       "accept": [
+        "owned"
+       ],
+       "why": "Regular: own, owned."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ awake?",
+       "verb": "be",
+       "accept": [
+        "been"
+       ],
+       "why": "be, was / were, been."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ in this town?",
+       "verb": "live",
+       "accept": [
+        "lived"
+       ],
+       "why": "Regular: live, lived."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ in sports?",
+       "verb": "participate",
+       "accept": [
+        "participated"
+       ],
+       "why": "Regular: add -d."
+      },
+      {
+       "type": "fill",
+       "text": "How long have you ___ the guitar?",
+       "verb": "play",
+       "accept": [
+        "played"
+       ],
+       "why": "Regular: play, played."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Verb ping-pong",
+     "task": "Claude says a verb. You give the past and the past participle: go → went, gone.",
+     "claudePrompt": "You are my English practice partner. I am practicing irregular verbs. Say one common irregular verb in its simple form (for example: go, see, sting, think, lead, blow, bet, choose, put, write, drive, feel, begin, speak, cut, break, catch, take, make, swim, grow, let, sing, win). I answer with the simple past and the past participle. Tell me if I am right, show the correct forms if I am wrong, then give the next verb."
+    },
+    {
+     "title": "How long have you…?",
+     "task": "Claude asks “How long have you…?” questions. Answer about your real life.",
+     "claudePrompt": "You are my English speaking partner. I am practicing past participles with the question 'How long have you ...?'. Ask me one question at a time, such as: How long have you worn glasses / spoken English / known your best friend / studied English / had a phone / been awake today / lived in your town / played an instrument? I answer with 'I've ... for/since ...' or 'I don't ...'. React in a friendly way and ask the next question."
+    }
+   ]
+  },
+  {
+   "id": "2-3",
+   "tag": "2-3",
+   "t": "perf",
+   "title": "Since or for?",
+   "full": "Present Perfect: Since and For",
+   "lesson": {
+    "title": "Learn: since and for",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Started before, still true",
+      "lines": [
+       "Present perfect = have / has + past participle.",
+       "It started in the past. It is still true now."
+      ],
+      "visual": [
+       "pp-since"
+      ],
+      "examples": [
+       {
+        "text": "Mrs. Oh has been a teacher since 2002.",
+        "hl": [
+         [
+          "has been",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "since or for?",
+      "lines": [
+       "since + the starting point.",
+       "for + how long."
+      ],
+      "visual": [
+       "since-for"
+      ],
+      "chips": [
+       {
+        "label": "since + a point",
+        "words": [
+         "since 2002",
+         "since last May",
+         "since nine o'clock"
+        ]
+       },
+       {
+        "label": "for + a length",
+        "words": [
+         "for two months",
+         "for three years",
+         "for a long time"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I have known him ___ three years.",
+      "options": [
+       "since",
+       "for"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Three years = a length of time → for."
+     },
+     {
+      "type": "choice",
+      "text": "We have been here ___ nine o'clock.",
+      "options": [
+       "since",
+       "for"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Nine o'clock = a point in time → since."
+     },
+     {
+      "type": "compare",
+      "title": "since + a small sentence",
+      "left": {
+       "label": "Before since: present perfect",
+       "t": "perf",
+       "examples": [
+        {
+         "text": "I have known Rob since I was in high school.",
+         "hl": [
+          [
+           "have known",
+           "perf"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "After since: simple past",
+       "t": "past",
+       "examples": [
+        {
+         "text": "I have known Rob since I was in high school.",
+         "hl": [
+          [
+           "was",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "We have lived here since we moved to this city.",
+         "hl": [
+          [
+           "moved",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Pattern: have + part 3 … since … simple past."
+     },
+     {
+      "type": "choice",
+      "text": "She ___ happy since she moved here.",
+      "options": [
+       "was",
+       "has been"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Up to now, before since → present perfect."
+     },
+     {
+      "type": "choice",
+      "text": "I have had this phone since I ___ 18.",
+      "options": [
+       "was",
+       "have been"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After since → simple past: was."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "since + a point in time: since 2002, since May, since I was a child.",
+     "for + a length of time: for two years, for a long time."
+    ],
+    "timeline": [
+     "pp-since",
+     "since-for"
+    ],
+    "examples": [
+     {
+      "text": "I have been here since nine o'clock.",
+      "hl": [
+       [
+        "have been",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "I have known him for three years.",
+      "hl": [
+       [
+        "have known",
+        "perf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Snow day: point or length?",
+     "icon": "❄️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "a long time",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 1,
+       "why": "A length of time → for."
+      },
+      {
+       "type": "sort",
+       "word": "the beginning of March",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "A starting point → since."
+      },
+      {
+       "type": "sort",
+       "word": "two days",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 1,
+       "why": "A length of time → for."
+      },
+      {
+       "type": "sort",
+       "word": "December",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "A starting point → since."
+      },
+      {
+       "type": "sort",
+       "word": "most of the month",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 1,
+       "why": "A length of time → for."
+      },
+      {
+       "type": "sort",
+       "word": "last week",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "A starting point → since."
+      },
+      {
+       "type": "sort",
+       "word": "New Year's Day",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "One day = a starting point → since."
+      },
+      {
+       "type": "sort",
+       "word": "over a week",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 1,
+       "why": "A length of time → for."
+      },
+      {
+       "type": "sort",
+       "word": "yesterday",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "A starting point → since."
+      },
+      {
+       "type": "sort",
+       "word": "you got here",
+       "buckets": [
+        "Snow has been on the ground SINCE …",
+        "It has been cold FOR …"
+       ],
+       "answer": 0,
+       "why": "A small sentence = a point → since."
+      }
+     ]
+    },
+    {
+     "title": "My things, my people",
+     "icon": "📚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I have had this book ___ the first of June.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A date = a point → since.",
+       "ctx": "Today is June 14. I bought this book two weeks ago."
+      },
+      {
+       "type": "choice",
+       "text": "I have had this book ___ two weeks.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two weeks = a length → for.",
+       "ctx": "Today is June 14. I bought this book two weeks ago."
+      },
+      {
+       "type": "choice",
+       "text": "I've been an English student ___ 2020.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A year = a point → since."
+      },
+      {
+       "type": "choice",
+       "text": "I've been an English student ___ six years.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Six years = a length → for."
+      },
+      {
+       "type": "choice",
+       "text": "I've known my best friend ___ I was ten.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A small sentence = a point → since."
+      },
+      {
+       "type": "choice",
+       "text": "I have had this account ___ a few months.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A few months = a length → for."
+      },
+      {
+       "type": "choice",
+       "text": "It has been cold ___ ages.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ages = a very long time → for."
+      },
+      {
+       "type": "choice",
+       "text": "It has been cold ___ days.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "days = a length → for."
+      }
+     ]
+    },
+    {
+     "title": "Trivia: how long?",
+     "icon": "🦖",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Dinosaurs have been extinct ___ about 65 million years.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "65 million years = a length → for."
+      },
+      {
+       "type": "choice",
+       "text": "Humans have used fire ___ the Stone Age.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The Stone Age = the starting point → since."
+      },
+      {
+       "type": "choice",
+       "text": "People have driven cars ___ the 1880s.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The 1880s = the starting point → since."
+      },
+      {
+       "type": "choice",
+       "text": "Cars have had airbags ___ the 1970s.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The 1970s = the starting point → since."
+      },
+      {
+       "type": "choice",
+       "text": "Doctors have treated infections with penicillin ___ the 1940s.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The 1940s = the starting point → since."
+      },
+      {
+       "type": "choice",
+       "text": "People have communicated by email ___ more than 50 years.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "More than 50 years = a length → for."
+      },
+      {
+       "type": "choice",
+       "text": "Jet airplanes have carried airline passengers ___ 1952.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "1952 = the starting point → since."
+      },
+      {
+       "type": "choice",
+       "text": "Satellites have gone into space ___ 1957.",
+       "options": [
+        "since",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "1957 = the starting point → since."
+      }
+     ]
+    },
+    {
+     "title": "A house in the woods",
+     "icon": "🏡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Richard and Sylvia ___ in a log cabin since they moved to Canada.",
+       "options": [
+        "lived",
+        "have lived"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, before since → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "They have lived in a log cabin since they ___ to Canada.",
+       "options": [
+        "moved",
+        "have moved"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Since Sylvia ___ a child, she has loved the outdoors.",
+       "options": [
+        "was",
+        "has been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Since she was a child, Sylvia ___ the outdoors.",
+       "options": [
+        "loved",
+        "has loved"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Still true now → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "Richard ___ to live in the woods since he first went camping.",
+       "options": [
+        "wanted",
+        "has wanted"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, before since → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "He has wanted this since he first ___ camping with his parents.",
+       "options": [
+        "went",
+        "has gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "They ___ a lot of wildlife since they bought their property.",
+       "options": [
+        "saw",
+        "have seen"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "They have seen a lot of wildlife since they ___ their property.",
+       "options": [
+        "bought",
+        "have bought"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Since they ___ the city, they have felt a lot more relaxed.",
+       "options": [
+        "left",
+        "have left"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Since they left the city, they ___ a lot more relaxed.",
+       "options": [
+        "felt",
+        "have felt"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Still true now → present perfect."
+      }
+     ]
+    },
+    {
+     "title": "Still true now",
+     "icon": "📍",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I ___ up since 7:00.",
+       "verb": "be",
+       "accept": [
+        "have been"
+       ],
+       "why": "From 7:00 up to now → have been.",
+       "ctx": "I got up at 7:00 today."
+      },
+      {
+       "type": "fill",
+       "text": "Mrs. Oh ___ a teacher since 2002.",
+       "verb": "be",
+       "accept": [
+        "has been"
+       ],
+       "why": "She is still a teacher → has been."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ him for two months.",
+       "verb": "know",
+       "accept": [
+        "has known"
+       ],
+       "why": "know, knew, known. She → has.",
+       "ctx": "Rita met Rob two months ago."
+      },
+      {
+       "type": "fill",
+       "text": "We ___ in an apartment since we moved to this city.",
+       "verb": "live",
+       "accept": [
+        "have lived"
+       ],
+       "why": "Still living there → have lived."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ in this city since last May.",
+       "verb": "be",
+       "accept": [
+        "have been"
+       ],
+       "why": "Still here → have been."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ him for three years.",
+       "verb": "know",
+       "accept": [
+        "have known"
+       ],
+       "why": "From then up to now → have known.",
+       "ctx": "I met him three years ago."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "How long have you had it?",
+     "task": "Tell Claude about 3 things you own. Say each one with since, then again with for.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the present perfect with since and for. Ask me about things in my life, one at a time: something I own, a person I know, a place I live, something I study. For each one ask 'How long have you ...?'. I answer once with since and once with for (for example: I've had my phone since 2023. I've had it for three years.). Check that I use since + a point in time and for + a length of time."
+    }
+   ]
+  },
+  {
+   "id": "2-4",
+   "tag": "2-4",
+   "t": "perf",
+   "title": "Ever, never, already, yet",
+   "full": "Present Perfect: Unspecified Time and Repeated Events",
+   "lesson": {
+    "title": "Learn: before now",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "When? Not important",
+      "lines": [
+       "It happened (or didn't) some time before now.",
+       "We don't say when."
+      ],
+      "visual": [
+       "pp-unspec"
+      ],
+      "examples": [
+       {
+        "text": "Have you ever seen snow?",
+        "hl": [
+         [
+          "Have",
+          "perf"
+         ],
+         [
+          "seen",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "I've never seen snow.",
+        "hl": [
+         [
+          "'ve never seen",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Its favorite time words",
+      "lines": [
+       "These words love the present perfect."
+      ],
+      "chips": [
+       {
+        "label": "🌍 In your life",
+        "words": [
+         "ever",
+         "never"
+        ]
+       },
+       {
+        "label": "✅ Done or not?",
+        "words": [
+         "already",
+         "yet",
+         "still"
+        ]
+       },
+       {
+        "label": "🕐 Close to now",
+        "words": [
+         "just",
+         "recently",
+         "lately"
+        ]
+       }
+      ],
+      "examples": [
+       {
+        "text": "Jack has already finished his homework.",
+        "hl": [
+         [
+          "has already finished",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "I still haven't finished mine.",
+        "hl": [
+         [
+          "still haven't finished",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I haven't eaten lunch ___.",
+      "options": [
+       "already",
+       "yet",
+       "ever"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Negative sentence → yet, at the end."
+     },
+     {
+      "type": "learn",
+      "title": "just = a moment ago",
+      "lines": [
+       "just or recently: it finished close to now."
+      ],
+      "visual": [
+       "pp-just"
+      ],
+      "examples": [
+       {
+        "text": "Sara has just finished her work.",
+        "hl": [
+         [
+          "has just finished",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Again and again",
+      "lines": [
+       "It happened many times up to now.",
+       "It may happen again."
+      ],
+      "visual": [
+       "pp-repeat"
+      ],
+      "examples": [
+       {
+        "text": "We have had three tests so far this term.",
+        "hl": [
+         [
+          "have had",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "I've met many people since I came here.",
+        "hl": [
+         [
+          "'ve met",
+          "perf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We ___ three tests so far this term.",
+      "options": [
+       "had",
+       "have had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "so far = up to now → present perfect."
+     },
+     {
+      "type": "learn",
+      "title": "Short forms",
+      "lines": [
+       "After I, you, we, they: 've. After he, she, it: 's."
+      ],
+      "visual": [
+       "s-means"
+      ],
+      "chips": [
+       "I have → I've",
+       "you have → you've",
+       "we have → we've",
+       "they have → they've",
+       "he has → he's",
+       "she has → she's",
+       "it has → it's"
+      ],
+      "tip": "He's there = he is. He's been there = he has."
+     },
+     {
+      "type": "choice",
+      "text": "He's been there many times. He's = ?",
+      "options": [
+       "He is",
+       "He has"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "'s + past participle (been) = has."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Present perfect: some time before now. The exact time is not said.",
+     "Time words: ever, never, already, yet, still, just, recently, lately, so far."
+    ],
+    "timeline": [
+     "pp-unspec",
+     "pp-repeat"
+    ],
+    "examples": [
+     {
+      "text": "Have you ever seen snow?",
+      "hl": [
+       [
+        "Have",
+        "perf"
+       ],
+       [
+        "seen",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "I haven't finished my homework yet.",
+      "hl": [
+       [
+        "haven't finished",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "We have had three tests so far.",
+      "hl": [
+       [
+        "have had",
+        "perf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Time words",
+     "icon": "🕰️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I have ___ had lunch. I'm not hungry.",
+       "options": [
+        "already",
+        "yet",
+        "ever"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Done before now → already."
+      },
+      {
+       "type": "choice",
+       "text": "I haven't finished my homework for this class ___.",
+       "options": [
+        "already",
+        "yet",
+        "never"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Negative + not done → yet."
+      },
+      {
+       "type": "choice",
+       "text": "I have ___ been late to class. Not one time!",
+       "options": [
+        "ever",
+        "yet",
+        "never"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Zero times in my life → never."
+      },
+      {
+       "type": "choice",
+       "text": "I have felt tired ___.",
+       "options": [
+        "lately",
+        "yet",
+        "ever"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In the last days or weeks → lately."
+      },
+      {
+       "type": "choice",
+       "text": "Have you ___ seen snow?",
+       "options": [
+        "never",
+        "ever",
+        "still"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Question about your whole life → ever."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ haven't finished mine.",
+       "options": [
+        "yet",
+        "already",
+        "still"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "still goes before haven't."
+      },
+      {
+       "type": "choice",
+       "text": "Sara has ___ finished her work. One minute ago!",
+       "options": [
+        "just",
+        "yet",
+        "ever"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A moment ago → just."
+      },
+      {
+       "type": "choice",
+       "text": "We have had three tests ___ this term.",
+       "options": [
+        "ever",
+        "so far",
+        "yet"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, maybe more → so far."
+      }
+     ]
+    },
+    {
+     "title": "At work: tick all that fit",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Where have your colleagues ___ so far?",
+       "options": [
+        "been",
+        "went",
+        "traveled",
+        "living"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "After have → past participle: been, traveled."
+      },
+      {
+       "type": "choice",
+       "text": "Where have your colleagues ___ so far?",
+       "options": [
+        "worked",
+        "drove",
+        "taught",
+        "ran"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "worked, taught = part 3. drove, ran = part 2."
+      },
+      {
+       "type": "choice",
+       "text": "We still haven't ___ the project.",
+       "options": [
+        "finished",
+        "did",
+        "worked on",
+        "starting"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "After haven't → part 3: finished, worked on."
+      },
+      {
+       "type": "choice",
+       "text": "We still haven't ___ the project.",
+       "options": [
+        "complete",
+        "spent time on",
+        "see",
+        "looked at"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "Part 3: spent, looked. Not the simple form."
+      },
+      {
+       "type": "choice",
+       "text": "What hasn't your team ___ yet?",
+       "options": [
+        "done",
+        "wrote",
+        "discussed",
+        "presenting"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "Part 3: done, discussed. wrote = part 2."
+      },
+      {
+       "type": "choice",
+       "text": "What hasn't your team ___ yet?",
+       "options": [
+        "ridden",
+        "flown",
+        "stay",
+        "began"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Part 3: ridden, flown. began → begun."
+      },
+      {
+       "type": "choice",
+       "text": "What hasn't your team ___ yet?",
+       "options": [
+        "study",
+        "decided",
+        "viewing",
+        "tried"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "Part 3: decided, tried."
+      },
+      {
+       "type": "choice",
+       "text": "What hasn't your team ___ yet?",
+       "options": [
+        "saw",
+        "paid for",
+        "gotten",
+        "understanding"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "Part 3: paid, gotten. saw → seen."
+      },
+      {
+       "type": "choice",
+       "text": "What hasn't your team ___ yet?",
+       "options": [
+        "researched",
+        "communicated",
+        "bought",
+        "spend"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "spend is the simple form. Part 3 = spent."
+      }
+     ]
+    },
+    {
+     "title": "Have you ever…?",
+     "icon": "🎤",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Have you ever ___ in English?",
+       "verb": "dream",
+       "accept": [
+        "dreamed",
+        "dreamt"
+       ],
+       "why": "dream, dreamed / dreamt. Both are OK."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ in a tent?",
+       "verb": "sleep",
+       "accept": [
+        "slept"
+       ],
+       "why": "sleep, slept, slept."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ someone a skill?",
+       "verb": "teach",
+       "accept": [
+        "taught",
+        "shown",
+        "showed"
+       ],
+       "why": "teach, taught, taught."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ an unusual pet?",
+       "verb": "own",
+       "accept": [
+        "owned"
+       ],
+       "why": "Regular: own, owned."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ a crime?",
+       "verb": "witness",
+       "accept": [
+        "witnessed"
+       ],
+       "why": "Regular: witness, witnessed."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ a test?",
+       "verb": "ace",
+       "accept": [
+        "aced"
+       ],
+       "why": "ace = do very well. Regular: aced."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ in a rock band?",
+       "verb": "play",
+       "accept": [
+        "played"
+       ],
+       "why": "Regular: play, played."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ someone around your city?",
+       "verb": "show",
+       "accept": [
+        "shown",
+        "showed"
+       ],
+       "why": "show, showed, shown."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ software?",
+       "verb": "develop",
+       "accept": [
+        "developed"
+       ],
+       "why": "Regular: develop, developed."
+      },
+      {
+       "type": "fill",
+       "text": "Have you ever ___ seasick?",
+       "verb": "become",
+       "accept": [
+        "become"
+       ],
+       "why": "become, became, become."
+      }
+     ]
+    },
+    {
+     "title": "At a party: what time frame?",
+     "icon": "🥳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I haven't attended many parties since I came to this city.",
+       "options": [
+        "haven't attended",
+        "came"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have + part 3 = present perfect.",
+       "ask": "Which verb is present perfect?"
+      },
+      {
+       "type": "choice",
+       "text": "Have you ever met my cousin, Mark?",
+       "options": [
+        "Judy's whole life up to now",
+        "Only today",
+        "Last week"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ever = any time in your life.",
+       "ask": "What is the time frame?"
+      },
+      {
+       "type": "choice",
+       "text": "I haven't watched the DVD yet. I haven't had time.",
+       "options": [
+        "Before she got the DVD",
+        "From when she got the DVD up to now"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "not … yet = from then up to now.",
+       "ask": "What is the time frame?"
+      },
+      {
+       "type": "choice",
+       "text": "This week has been crazy so far. I've had two tests and a quiz.",
+       "options": [
+        "From the start of this week up to now",
+        "Last week",
+        "Next week"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so far = from the start up to now.",
+       "ask": "What is the time frame?"
+      },
+      {
+       "type": "choice",
+       "text": "This food looks delicious! I haven't eaten all day.",
+       "options": [
+        "Yesterday",
+        "From this morning up to now"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "all day = from morning up to now.",
+       "ask": "What is the time frame?"
+      },
+      {
+       "type": "choice",
+       "text": "Hmmm. I've never had lobster. I'll try it.",
+       "options": [
+        "This week",
+        "Tonight",
+        "My whole life up to now"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "never = not in my whole life.",
+       "ask": "What is the time frame?"
+      }
+     ]
+    },
+    {
+     "title": "Gabriel at Oxford",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "He ___ a student at Oxford University for the past year.",
+       "verb": "be",
+       "accept": [
+        "has been"
+       ],
+       "why": "For the past year, still true → has been.",
+       "ctx": "Gabriel is the first person in his family to study abroad."
+      },
+      {
+       "type": "fill",
+       "text": "No one in the family ___ a scholarship before.",
+       "verb": "receive, ever",
+       "accept": [
+        "has ever received"
+       ],
+       "why": "No one → has. ever goes before part 3."
+      },
+      {
+       "type": "fill",
+       "text": "Gabriel ___ to study overseas since his family took a trip to Asia.",
+       "verb": "want",
+       "accept": [
+        "has wanted"
+       ],
+       "why": "Up to now, before since → present perfect."
+      },
+      {
+       "type": "fill",
+       "text": "He has wanted this since his family ___ a trip to Asia.",
+       "verb": "take",
+       "accept": [
+        "took"
+       ],
+       "why": "After since → simple past: took."
+      },
+      {
+       "type": "fill",
+       "text": "Since he ___ to Oxford, he has met many students.",
+       "verb": "come",
+       "accept": [
+        "came"
+       ],
+       "why": "After since → simple past: came."
+      },
+      {
+       "type": "fill",
+       "text": "Since he came to Oxford, he ___ students from around the world.",
+       "verb": "meet",
+       "accept": [
+        "has met"
+       ],
+       "why": "Up to now → has met."
+      },
+      {
+       "type": "fill",
+       "text": "During this time, he ___ common interests among his classmates.",
+       "verb": "discover",
+       "accept": [
+        "has discovered"
+       ],
+       "why": "Up to now, no exact time → has discovered."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ a variety of opinions very different from his.",
+       "verb": "hear, also",
+       "accept": [
+        "has also heard"
+       ],
+       "why": "also goes between has and part 3."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ much about the world, inside and outside the classroom.",
+       "verb": "learn",
+       "accept": [
+        "has learned",
+        "has learnt"
+       ],
+       "why": "Up to now → has learned."
+      }
+     ]
+    },
+    {
+     "title": "Monica's bucket list",
+     "icon": "🪣",
+     "items": [
+      {
+       "type": "fill",
+       "text": "She ___ in a hot-air balloon already.",
+       "verb": "ride",
+       "accept": [
+        "has ridden"
+       ],
+       "why": "ride, rode, ridden.",
+       "ctx": "✅ Done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ how to write computer code yet.",
+       "verb": "not / learn",
+       "accept": [
+        "hasn't learned",
+        "hasn't learnt"
+       ],
+       "why": "Not done + yet → hasn't learned.",
+       "ctx": "⬜ Not done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ at a 5-star restaurant already.",
+       "verb": "eat",
+       "accept": [
+        "has eaten"
+       ],
+       "why": "eat, ate, eaten.",
+       "ctx": "✅ Done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ a job she never wants to quit yet.",
+       "verb": "not / find",
+       "accept": [
+        "hasn't found"
+       ],
+       "why": "find, found, found.",
+       "ctx": "⬜ Not done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ in front of a live audience yet.",
+       "verb": "not / sing",
+       "accept": [
+        "hasn't sung"
+       ],
+       "why": "sing, sang, sung.",
+       "ctx": "⬜ Not done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ a cure for her insomnia yet.",
+       "verb": "not / discover",
+       "accept": [
+        "hasn't discovered"
+       ],
+       "why": "Regular: discovered.",
+       "ctx": "⬜ Not done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ on a beach under the stars yet.",
+       "verb": "not / sleep",
+       "accept": [
+        "hasn't slept"
+       ],
+       "why": "sleep, slept, slept.",
+       "ctx": "⬜ Not done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ with dolphins already.",
+       "verb": "swim",
+       "accept": [
+        "has swum"
+       ],
+       "why": "swim, swam, swum.",
+       "ctx": "✅ Done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ to Antarctica already.",
+       "verb": "travel",
+       "accept": [
+        "has traveled",
+        "has travelled"
+       ],
+       "why": "Regular: traveled.",
+       "ctx": "✅ Done"
+      },
+      {
+       "type": "fill",
+       "text": "She ___ an interesting conversation with a famous person already.",
+       "verb": "have",
+       "accept": [
+        "has had"
+       ],
+       "why": "have, had, had → has had.",
+       "ctx": "✅ Done"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Have you ever…?",
+     "task": "Claude interviews you with “Have you ever…?”. If you say yes, give one more detail.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the present perfect with ever and never. Interview me with 'Have you ever ...?' questions, one at a time (for example: slept in a tent, taught someone a skill, owned an unusual pet, aced a test, played in a band, been seasick, ridden an elephant, won a contest, lost your ID). I answer 'Yes, I have' or 'No, I've never ...'. If I say yes, ask one follow-up question."
+    },
+    {
+     "title": "I've never…",
+     "task": "Chain game: say what you have done before, or have never done.",
+     "claudePrompt": "You are my English practice partner in a chain game. Give me one phrase at a time (for example: buy a car, break a window, drive a truck, teach a class, win a contest, ride an elephant, fall off a ladder, lose my ID, grow my own vegetables, catch a big fish). I must make a true sentence with 'I've ... before' or 'I've never ...'. Then you repeat my sentence with 'You've ...' and give me the next phrase. Check my past participles."
+    },
+    {
+     "title": "My bucket list",
+     "task": "Write 5 things on your bucket list. Say which you have already done and which you haven't done yet.",
+     "claudePrompt": "You are my English writing partner. A bucket list is a list of things a person wants to do in their life. Ask me to write 5 things from my bucket list. Then ask me about each one: have I done it already or not yet? I answer with 'I have already ...' or 'I haven't ... yet'. Check my use of already, yet and the past participle."
+    }
+   ]
+  },
+  {
+   "id": "2-5",
+   "tag": "2-5",
+   "t": "perf",
+   "title": "Is it is or has?",
+   "full": "Have and Has in Spoken English",
+   "lesson": {
+    "title": "Learn: short have and has",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Fast English squeezes words",
+      "lines": [
+       "In fast speech, have and has get very short.",
+       "Tap each one to hear it."
+      ],
+      "chips": [
+       "How've you been?",
+       "Where've you been?",
+       "Jane's already eaten lunch.",
+       "Mike's quit his job."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "'s = is or has?",
+      "lines": [
+       "Look at the next word."
+      ],
+      "visual": [
+       "s-means"
+      ],
+      "examples": [
+       {
+        "text": "Jane's eaten.",
+        "hl": [
+         [
+          "Jane's eaten",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "Jane's here.",
+        "hl": [
+         [
+          "Jane's",
+          "prog"
+         ]
+        ]
+       }
+      ],
+      "tip": "Past participle next → has. -ing or adjective next → is."
+     },
+     {
+      "type": "choice",
+      "text": "Mike's quit his job. Mike's = ?",
+      "options": [
+       "Mike is",
+       "Mike has"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "quit is a past participle here → has."
+     },
+     {
+      "type": "choice",
+      "text": "The coffee's fresh. coffee's = ?",
+      "options": [
+       "coffee is",
+       "coffee has"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "fresh is an adjective → is."
+     },
+     {
+      "type": "learn",
+      "title": "Writing is more careful",
+      "lines": [
+       "With names and nouns, write the full word.",
+       "With pronouns, short forms are fine: I've, she's."
+      ],
+      "chips": [
+       "✍️ Jane has eaten.",
+       "✍️ She's eaten.",
+       "✍️ I've eaten."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "In fast speech: has sounds like 's, have sounds like 've.",
+     "'s + past participle = has. 's + -ing or adjective = is."
+    ],
+    "timeline": [
+     "s-means"
+    ],
+    "examples": [
+     {
+      "text": "Jane's already eaten lunch.",
+      "hl": [
+       [
+        "Jane's already eaten",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "Jane's here.",
+      "hl": [
+       [
+        "Jane's",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Question sounds",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "How've you been?",
+       "ask": "How've = How ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "you → have: How have you been?"
+      },
+      {
+       "type": "listen",
+       "say": "How long've you been here?",
+       "ask": "long've = long ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "you → have: How long have you been here?"
+      },
+      {
+       "type": "listen",
+       "say": "What's happened?",
+       "ask": "What's = What ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "happened is part 3 → What has happened?"
+      },
+      {
+       "type": "listen",
+       "say": "What've you done?",
+       "ask": "What've = What ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "you → have: What have you done?"
+      },
+      {
+       "type": "listen",
+       "say": "When've I said that?",
+       "ask": "When've = When ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "I → have: When have I said that?"
+      },
+      {
+       "type": "listen",
+       "say": "Where've you been?",
+       "ask": "Where've = Where ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "you → have: Where have you been?"
+      }
+     ]
+    },
+    {
+     "title": "At home with roommates",
+     "icon": "🏠",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Finally! The mail's come.",
+       "ask": "The mail's = The mail ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "come is part 3 here → has come."
+      },
+      {
+       "type": "listen",
+       "say": "Someone's phone's ringing. It's not mine.",
+       "ask": "phone's = phone ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ringing (-ing) → is."
+      },
+      {
+       "type": "listen",
+       "say": "Your girlfriend's just left a message.",
+       "ask": "girlfriend's = girlfriend ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "left is part 3 → has left."
+      },
+      {
+       "type": "listen",
+       "say": "Her friends've canceled, so she's free tonight.",
+       "ask": "friends've = friends ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "friends = they → have canceled."
+      },
+      {
+       "type": "listen",
+       "say": "The coffee's fresh. Have some.",
+       "ask": "coffee's = coffee ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "fresh is an adjective → is."
+      },
+      {
+       "type": "listen",
+       "say": "It looks like your package's arrived.",
+       "ask": "package's = package ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "arrived is part 3 → has arrived."
+      },
+      {
+       "type": "listen",
+       "say": "Your sister's downstairs. She's borrowing some boxes.",
+       "ask": "sister's = sister ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "downstairs = a place → is."
+      },
+      {
+       "type": "listen",
+       "say": "Our neighbors've planned a party for next weekend.",
+       "ask": "neighbors've = neighbors ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "neighbors = they → have planned."
+      },
+      {
+       "type": "listen",
+       "say": "What've we told them? Are we going?",
+       "ask": "What've = What ___",
+       "options": [
+        "is",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "we → have: What have we told them?"
+      }
+     ]
+    },
+    {
+     "title": "Read it: is or has?",
+     "icon": "🔎",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Jane's already eaten lunch.",
+       "options": [
+        "Jane is",
+        "Jane has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "eaten is part 3 → has.",
+       "ask": "Jane's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "Jane's here.",
+       "options": [
+        "Jane is",
+        "Jane has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "here = a place → is.",
+       "ask": "Jane's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "Mike's quit his job.",
+       "options": [
+        "Mike is",
+        "Mike has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "quit is part 3 here → has.",
+       "ask": "Mike's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "Mike's here.",
+       "options": [
+        "Mike is",
+        "Mike has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "here = a place → is.",
+       "ask": "Mike's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "It's been interesting.",
+       "options": [
+        "It is",
+        "It has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "been is part 3 → has.",
+       "ask": "It's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "He's there.",
+       "options": [
+        "He is",
+        "He has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "there = a place → is.",
+       "ask": "He's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "He's been there.",
+       "options": [
+        "He is",
+        "He has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "been is part 3 → has.",
+       "ask": "He's = ?"
+      },
+      {
+       "type": "choice",
+       "text": "She's borrowing some boxes.",
+       "options": [
+        "She is",
+        "She has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "borrowing (-ing) → is.",
+       "ask": "She's = ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2-6",
+   "tag": "2-6",
+   "t": "perf",
+   "title": "Finished or still true?",
+   "full": "Present Perfect vs. Simple Past",
+   "lesson": {
+    "title": "Learn: present perfect or simple past?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "compare",
+      "title": "Is the time said?",
+      "left": {
+       "label": "Present perfect: no time",
+       "t": "perf",
+       "examples": [
+        {
+         "text": "I've met Linda.",
+         "hl": [
+          [
+           "'ve met",
+           "perf"
+          ]
+         ]
+        },
+        {
+         "text": "Have you met her husband?",
+         "hl": [
+          [
+           "Have",
+           "perf"
+          ],
+          [
+           "met",
+           "perf"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Simple past: time is said",
+       "t": "past",
+       "examples": [
+        {
+         "text": "I met Helen yesterday at a party.",
+         "hl": [
+          [
+           "met",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "Did you meet him at the party?",
+         "hl": [
+          [
+           "Did",
+           "past"
+          ],
+          [
+           "meet",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "A finished time (yesterday, last year, in 2015, ago) → simple past."
+     },
+     {
+      "type": "learn",
+      "title": "Time word? Simple past!",
+      "lines": [
+       "You say when → simple past.",
+       "You don't say when → present perfect."
+      ],
+      "visual": [
+       "pp-vs-past"
+      ],
+      "chips": [
+       {
+        "label": "🛑 Simple past signals",
+        "words": [
+         "yesterday",
+         "last night",
+         "last year",
+         "in 2015",
+         "two years ago",
+         "at 9:25",
+         "when I was a child"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ one of her classes last year.",
+      "options": [
+       "took",
+       "have taken"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "last year = finished time → simple past."
+     },
+     {
+      "type": "compare",
+      "title": "Still true, or over?",
+      "left": {
+       "label": "Present perfect: still true",
+       "t": "perf",
+       "examples": [
+        {
+         "text": "Sam has been a teacher for ten years.",
+         "hl": [
+          [
+           "has been",
+           "perf"
+          ]
+         ]
+        },
+        {
+         "text": "He loves teaching.",
+         "hl": []
+        }
+       ]
+      },
+      "right": {
+       "label": "Simple past: over",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Jim was a teacher for ten years.",
+         "hl": [
+          [
+           "was",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "Now he is an engineer.",
+         "hl": []
+        }
+       ]
+      },
+      "tip": "has been = he is still a teacher. was = not now."
+     },
+     {
+      "type": "learn",
+      "title": "One picture to remember",
+      "lines": [
+       "has been → the line reaches now.",
+       "was → the line stops in the past."
+      ],
+      "visual": [
+       "still-or-over"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Ms. Lee ___ here for ten years. She still works here.",
+      "options": [
+       "worked",
+       "has worked"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Still true now → present perfect."
+     },
+     {
+      "type": "choice",
+      "text": "Jim was a teacher for ten years. Is he a teacher now?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "was = it began and ended in the past."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Time is said (yesterday, in 2015, ago) or it's over → simple past.",
+     "No time, or still true now → present perfect."
+    ],
+    "timeline": [
+     "pp-vs-past",
+     "still-or-over"
+    ],
+    "examples": [
+     {
+      "text": "I've met Linda, but I haven't met her husband.",
+      "hl": [
+       [
+        "'ve met",
+        "perf"
+       ],
+       [
+        "haven't met",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "I met Helen yesterday at a party.",
+      "hl": [
+       [
+        "met",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Professor Stevens",
+     "icon": "👩‍🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I ___ a lot of good things about Professor Stevens.",
+       "options": [
+        "heard",
+        "'ve heard"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No time is said → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "But I ___ any of her classes. Have you?",
+       "options": [
+        "didn't take",
+        "haven't taken"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, no time → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "Yes. I ___ one of her classes last year.",
+       "options": [
+        "took",
+        "have taken"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "last year → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ it.",
+       "options": [
+        "loved",
+        "have loved"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "That class is finished → simple past.",
+       "ctx": "About the class last year"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ Helen yesterday at a party.",
+       "options": [
+        "met",
+        "have met"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "yesterday → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Her husband was there too, but I ___ him.",
+       "options": [
+        "didn't meet",
+        "haven't met"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "At that party (finished) → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "I've met Linda, but I ___ her husband.",
+       "options": [
+        "didn't meet",
+        "haven't met"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, no time → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "Jim ___ a teacher from 2000 to 2010. Now he is an engineer.",
+       "options": [
+        "was",
+        "has been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It ended in 2010 → simple past."
+      }
+     ]
+    },
+    {
+     "title": "Jin's timeline",
+     "icon": "📅",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Jin's parents ___ in Australia since 1990.",
+       "verb": "be",
+       "accept": [
+        "have been"
+       ],
+       "why": "Still there → have been.",
+       "ctx": "1990: Jin's parents moved from Hong Kong to Australia."
+      },
+      {
+       "type": "fill",
+       "text": "They ___ Hong Kong in 1990.",
+       "verb": "leave",
+       "accept": [
+        "left"
+       ],
+       "why": "in 1990 = finished time → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "They ___ in Sydney since 1991.",
+       "verb": "live",
+       "accept": [
+        "have lived",
+        "have been living"
+       ],
+       "why": "Still living there → present perfect.",
+       "ctx": "1991: They settled in Sydney."
+      },
+      {
+       "type": "fill",
+       "text": "They ___ a restaurant business in 1992.",
+       "verb": "start",
+       "accept": [
+        "started"
+       ],
+       "why": "in 1992 → simple past.",
+       "ctx": "1992: They opened a restaurant."
+      },
+      {
+       "type": "fill",
+       "text": "They ___ at their restaurant since 1992.",
+       "verb": "work",
+       "accept": [
+        "have worked",
+        "have been working"
+       ],
+       "why": "Still working there → present perfect.",
+       "ctx": "Now: His parents are working at their restaurant."
+      },
+      {
+       "type": "fill",
+       "text": "Jin ___ university in 2013.",
+       "verb": "start",
+       "accept": [
+        "started"
+       ],
+       "why": "in 2013 → simple past.",
+       "ctx": "2013: Jin entered the University of Melbourne."
+      },
+      {
+       "type": "fill",
+       "text": "Jin ___ Australia in 2015.",
+       "verb": "leave",
+       "accept": [
+        "left"
+       ],
+       "why": "in 2015 → simple past.",
+       "ctx": "2015: He went to Hong Kong to study Chinese."
+      },
+      {
+       "type": "fill",
+       "text": "Jin ___ in Hong Kong since 2015.",
+       "verb": "be",
+       "accept": [
+        "has been"
+       ],
+       "why": "Still there → has been.",
+       "ctx": "Now: Jin is studying in Hong Kong."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ Chinese since 2015.",
+       "verb": "study",
+       "accept": [
+        "has studied",
+        "has been studying"
+       ],
+       "why": "Still studying → present perfect.",
+       "ctx": "Now: Jin is studying in Hong Kong."
+      }
+     ]
+    },
+    {
+     "title": "Snow and free time",
+     "icon": "⛄",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Noor is from a hot, dry country. She ___ snow.",
+       "verb": "see, never",
+       "accept": [
+        "has never seen"
+       ],
+       "why": "In her whole life → has never seen."
+      },
+      {
+       "type": "fill",
+       "text": "Last January, I ___ snow for the first time in my life.",
+       "verb": "see",
+       "accept": [
+        "saw"
+       ],
+       "why": "Last January → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "Last night my friend and I ___ some free time.",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "Last night → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "So we ___ to a show.",
+       "verb": "go",
+       "accept": [
+        "went"
+       ],
+       "why": "Still last night → simple past.",
+       "ctx": "Last night we had some free time."
+      },
+      {
+       "type": "fill",
+       "text": "Since classes began, I ___ much free time.",
+       "verb": "have, not",
+       "accept": [
+        "haven't had"
+       ],
+       "why": "since … up to now → present perfect."
+      },
+      {
+       "type": "fill",
+       "text": "Ming Won ___ in this class for three months. He plans to stay until May.",
+       "verb": "be",
+       "accept": [
+        "has been"
+       ],
+       "why": "He is still in the class → has been."
+      },
+      {
+       "type": "fill",
+       "text": "Mrs. Perez ___ in our class for three months, but then she left school.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "She left. It's over → was."
+      }
+     ]
+    },
+    {
+     "title": "Breaking news",
+     "icon": "📰",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Late-breaking news! A major earthquake ___ in southern California.",
+       "verb": "occur, just",
+       "accept": [
+        "has just occurred"
+       ],
+       "why": "News, just now → has just occurred."
+      },
+      {
+       "type": "fill",
+       "text": "It ___ at 9:25 A.M.",
+       "verb": "occur",
+       "accept": [
+        "occurred"
+       ],
+       "why": "Exact time (9:25) → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "Greg Adams? Yes, I know him. I ___ him since college.",
+       "verb": "know",
+       "accept": [
+        "have known"
+       ],
+       "why": "I still know him → have known."
+      },
+      {
+       "type": "fill",
+       "text": "Joe North passed away? I ___ him well when we were in college.",
+       "verb": "know",
+       "accept": [
+        "knew"
+       ],
+       "why": "when we were in college → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "I admit that I ___ older since I last saw you.",
+       "verb": "get",
+       "accept": [
+        "have gotten",
+        "have got"
+       ],
+       "why": "since … up to now → present perfect."
+      },
+      {
+       "type": "fill",
+       "text": "I have gotten older since I last ___ you.",
+       "verb": "see",
+       "accept": [
+        "saw"
+       ],
+       "why": "After since → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "But with any luck at all, I ___ wiser.",
+       "verb": "get, also",
+       "accept": [
+        "have also gotten",
+        "have also got"
+       ],
+       "why": "also goes between have and part 3."
+      }
+     ]
+    },
+    {
+     "title": "Flashcards and fish",
+     "icon": "🃏",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Have you ever used flashcards to study grammar?",
+       "options": [
+        "Any time in your life. No exact time.",
+        "It happened yesterday."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ever = any time before now.",
+       "ask": "Why present perfect?"
+      },
+      {
+       "type": "choice",
+       "text": "…the past participle forms that you saw at the beginning of this chapter.",
+       "options": [
+        "It is still happening.",
+        "A finished time: the beginning of the chapter."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A finished time → simple past.",
+       "ask": "Why simple past?"
+      },
+      {
+       "type": "choice",
+       "text": "Research has shown that flashcards work very well.",
+       "options": [
+        "No time is given. The result matters now.",
+        "The research was done last year."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No time is said → present perfect.",
+       "ask": "Why present perfect?"
+      },
+      {
+       "type": "choice",
+       "text": "…the past participles that we have studied in this chapter.",
+       "options": [
+        "A finished time long ago.",
+        "From the start of the chapter up to now."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now → present perfect.",
+       "ask": "Why present perfect?"
+      },
+      {
+       "type": "fill",
+       "text": "Who has ___ a big fish?",
+       "verb": "catch",
+       "accept": [
+        "caught"
+       ],
+       "why": "catch, caught, caught."
+      },
+      {
+       "type": "choice",
+       "text": "“I have.” — “Where ___ it?”",
+       "options": [
+        "did you catch",
+        "have you caught"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Now we ask about one finished event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "Who has ___ Turkish coffee?",
+       "verb": "drink",
+       "accept": [
+        "drunk"
+       ],
+       "why": "drink, drank, drunk."
+      },
+      {
+       "type": "fill",
+       "text": "Who has ___ hands with someone famous?",
+       "verb": "shake",
+       "accept": [
+        "shaken"
+       ],
+       "why": "shake, shook, shaken."
+      },
+      {
+       "type": "fill",
+       "text": "Who has accidentally ___ a shirt?",
+       "verb": "shrink",
+       "accept": [
+        "shrunk"
+       ],
+       "why": "shrink, shrank, shrunk."
+      }
+     ]
+    },
+    {
+     "title": "Carolina's letter: 8 mistakes",
+     "icon": "✉️",
+     "items": [
+      {
+       "type": "errorfix",
+       "text": "My friend Robert Shaw [has deciding] to leave his position as tour guide.",
+       "options": [
+        "My friend Robert Shaw has decide to leave his position as tour guide.",
+        "My friend Robert Shaw has decided to leave his position as tour guide.",
+        "My friend Robert Shaw is deciding to leave his position as tour guide."
+       ],
+       "answer": 1,
+       "why": "has + past participle: has decided.",
+       "rule": "2-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "I [have come] to this city two years ago to study at Columbia University.",
+       "options": [
+        "I came to this city two years ago to study at Columbia University.",
+        "I have came to this city two years ago to study at Columbia University.",
+        "I had come to this city two years ago to study at Columbia University."
+       ],
+       "answer": 0,
+       "why": "two years ago → simple past: came.",
+       "rule": "2-6"
+      },
+      {
+       "type": "errorfix",
+       "text": "I [am] a student in history and economics since that time.",
+       "options": [
+        "I was a student in history and economics since that time.",
+        "I am being a student in history and economics since that time.",
+        "I have been a student in history and economics since that time."
+       ],
+       "answer": 2,
+       "why": "since that time, still true → have been.",
+       "rule": "2-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "My father is an English professor, and I [have learned] to speak English as a child.",
+       "options": [
+        "My father is an English professor, and I learn to speak English as a child.",
+        "My father is an English professor, and I learned to speak English as a child.",
+        "My father is an English professor, and I have been learning to speak English as a child."
+       ],
+       "answer": 1,
+       "why": "as a child = finished time → learned.",
+       "rule": "2-6"
+      },
+      {
+       "type": "errorfix",
+       "text": "When I lived in Mexico, I [have worked] at my uncle's hotel.",
+       "options": [
+        "When I lived in Mexico, I worked at my uncle's hotel.",
+        "When I lived in Mexico, I have been working at my uncle's hotel.",
+        "When I lived in Mexico, I work at my uncle's hotel."
+       ],
+       "answer": 0,
+       "why": "When I lived in Mexico = finished → worked.",
+       "rule": "2-6"
+      },
+      {
+       "type": "errorfix",
+       "text": "At the hotel in Mexico, I [help] tourists with their travel arrangements.",
+       "options": [
+        "At the hotel in Mexico, I have helped tourists with their travel arrangements.",
+        "At the hotel in Mexico, I am helping tourists with their travel arrangements.",
+        "At the hotel in Mexico, I helped tourists with their travel arrangements."
+       ],
+       "answer": 2,
+       "why": "That job is over → simple past: helped.",
+       "rule": "2-6"
+      },
+      {
+       "type": "errorfix",
+       "text": "I also [give] city tours in both Spanish and English, and my tours were a lot of fun.",
+       "options": [
+        "I also gave city tours in both Spanish and English, and my tours were a lot of fun.",
+        "I also have given city tours in both Spanish and English, and my tours were a lot of fun.",
+        "I also giving city tours in both Spanish and English, and my tours were a lot of fun."
+       ],
+       "answer": 0,
+       "why": "Same finished time as “were” → gave.",
+       "rule": "2-6"
+      },
+      {
+       "type": "errorfix",
+       "text": "Because of my history background, I [am] very interested in this city since I arrived.",
+       "options": [
+        "Because of my history background, I was very interested in this city since I arrived.",
+        "Because of my history background, I have been very interested in this city since I arrived.",
+        "Because of my history background, I had been very interested in this city since I arrived."
+       ],
+       "answer": 1,
+       "why": "since I arrived, still true → have been.",
+       "rule": "2-3"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Who has…?",
+     "task": "Claude asks “Have you ever…?”. When you say yes, the follow-up questions are in the simple past.",
+     "claudePrompt": "You are my English speaking partner. I am practicing present perfect vs. simple past. Ask me 'Have you ever ...?' (for example: written a blog, lost a credit card, climbed a mountain, given a speech, told a lie, sung in public, ridden a motorcycle, drunk Turkish coffee, taken a cooking class, held a snake, fallen on ice). If I say yes, ask follow-up wh-questions in the simple past (When did you ...? Where did you ...?). Check that I use present perfect for 'ever' answers and simple past for the details."
+    },
+    {
+     "title": "My timeline",
+     "task": "Give Claude 4 dates from your life. Make simple past and present perfect sentences about them.",
+     "claudePrompt": "You are my English writing partner. Ask me for 4 important years in my life and what happened (for example: 2019: I started university). Then ask me to write one simple past sentence and one present perfect sentence (with since or for) about each. Check that I use simple past with a finished time and present perfect for things that are still true."
+    }
+   ]
+  },
+  {
+   "id": "2-7",
+   "tag": "2-7",
+   "t": "perfprog",
+   "title": "How long? Still going",
+   "full": "Present Perfect Progressive",
+   "lesson": {
+    "title": "Learn: have been + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Started before, still going",
+      "lines": [
+       "have / has been + verb-ing.",
+       "It tells how long an activity has been going on."
+      ],
+      "visual": [
+       "ppp"
+      ],
+      "examples": [
+       {
+        "text": "I have been sitting here for two hours.",
+        "hl": [
+         [
+          "have been sitting",
+          "perfprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Right now vs. how long",
+      "left": {
+       "label": "Present progressive: right now",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I am sitting at my desk.",
+         "hl": [
+          [
+           "am sitting",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Present perfect progressive: how long",
+       "t": "perfprog",
+       "examples": [
+        {
+         "text": "I have been sitting at my desk since seven o'clock.",
+         "hl": [
+          [
+           "have been sitting",
+           "perfprog"
+          ]
+         ]
+        },
+        {
+         "text": "It's been raining all day.",
+         "hl": [
+          [
+           "'s been raining",
+           "perfprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "since / for / all day → have been + -ing. Never: I am sitting here for two hours."
+     },
+     {
+      "type": "choice",
+      "text": "She ___ for the bus for 15 minutes.",
+      "options": [
+       "is waiting",
+       "has been waiting"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "for 15 minutes = how long → has been waiting."
+     },
+     {
+      "type": "learn",
+      "title": "No -ing for state verbs",
+      "lines": [
+       "know, have (own), like, be: no -ing.",
+       "Use the present perfect."
+      ],
+      "visual": [
+       "stative"
+      ],
+      "examples": [
+       {
+        "text": "I've known Alex since he was a child.",
+        "hl": [
+         [
+          "'ve known",
+          "perf"
+         ]
+        ]
+       }
+      ],
+      "tip": "❌ I've been knowing Alex."
+     },
+     {
+      "type": "choice",
+      "text": "Joe ___ the same bike for 20 years.",
+      "options": [
+       "has had",
+       "has been having"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "have = own is a state verb → has had."
+     },
+     {
+      "type": "learn",
+      "title": "Sometimes both are OK",
+      "lines": [
+       "live, work, teach, study, wear, play: habits.",
+       "Both forms mean the same."
+      ],
+      "visual": [
+       "been-ing"
+      ],
+      "examples": [
+       {
+        "text": "How long have you lived here?",
+        "hl": [
+         [
+          "have",
+          "perf"
+         ],
+         [
+          "lived",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "How long have you been living here?",
+        "hl": [
+         [
+          "have",
+          "perfprog"
+         ],
+         [
+          "been living",
+          "perfprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "No time word = lately",
+      "lines": [
+       "No since or for? It means recently."
+      ],
+      "chips": [
+       "lately",
+       "recently",
+       "all day",
+       "all morning",
+       "all week"
+      ],
+      "examples": [
+       {
+        "text": "I've been thinking about looking for a different job.",
+        "hl": [
+         [
+          "'ve been thinking",
+          "perfprog"
+         ]
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "have / has been + -ing: how long an activity has been going on.",
+     "State verbs (know, have, like, be): have + past participle."
+    ],
+    "timeline": [
+     "ppp",
+     "been-ing"
+    ],
+    "examples": [
+     {
+      "text": "It's been raining all day.",
+      "hl": [
+       [
+        "'s been raining",
+        "perfprog"
+       ]
+      ]
+     },
+     {
+      "text": "I've known Alex since he was a child.",
+      "hl": [
+       [
+        "'ve known",
+        "perf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Bus stop and reviews",
+     "icon": "🚏",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Anita is at the bus stop.",
+       "options": [
+        "She is waiting for the bus.",
+        "She is waiting for the bus for 15 minutes.",
+        "She has been waiting for the bus for 15 minutes."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "for 15 minutes needs has been waiting.",
+       "ask": "Tick the 2 correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "Tarik is at the bus stop too.",
+       "options": [
+        "He is standing beside Anita.",
+        "He is standing there since five o'clock.",
+        "He has been standing there since five o'clock."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "since five o'clock needs has been standing.",
+       "ask": "Tick the 2 correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "It's been raining all day. It's = ?",
+       "options": [
+        "It is",
+        "It has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "'s + been = has."
+      },
+      {
+       "type": "choice",
+       "text": "It's still raining right now. It's = ?",
+       "options": [
+        "It is",
+        "It has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "'s + -ing (no been) = is."
+      },
+      {
+       "type": "choice",
+       "text": "I've ___ Alex since he was a child.",
+       "options": [
+        "known",
+        "been knowing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "know is a state verb. No -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ this camera for 8 months now.",
+       "options": [
+        "have had",
+        "have been having"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have = own is a state verb.",
+       "ctx": "⭐ Product review"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ these vitamins since last year.",
+       "options": [
+        "am taking",
+        "have been taking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "since last year = how long → have been taking.",
+       "ctx": "⭐ Product review"
+      },
+      {
+       "type": "choice",
+       "text": "I have lost weight and I ___!",
+       "options": [
+        "am not even trying",
+        "haven't even been trying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An activity up to now → haven't been trying.",
+       "ctx": "⭐ Product review"
+      }
+     ]
+    },
+    {
+     "title": "Right now or all morning?",
+     "icon": "⏱️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Mr. and Mrs. Jones ___ sitting outside on their porch right now.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "right now + they → are."
+      },
+      {
+       "type": "choice",
+       "text": "They ___ sitting there since after dinner.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "since … + they → have been."
+      },
+      {
+       "type": "choice",
+       "text": "Sara is at the library. She ___ reviewing her notes right now.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "right now + she → is."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ reviewing her notes all morning.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "all morning + she → has been."
+      },
+      {
+       "type": "choice",
+       "text": "Marco wants to buy a pair of jeans. He ___ waiting for a cashier right now.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "right now + he → is."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ standing there for over five minutes.",
+       "options": [
+        "is",
+        "are",
+        "has been",
+        "have been"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "for … + he → has been."
+      }
+     ]
+    },
+    {
+     "title": "Family update email",
+     "icon": "📧",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My brother ___ for a new job.",
+       "verb": "look",
+       "accept": [
+        "has been looking"
+       ],
+       "why": "My brother = he → has been looking.",
+       "ctx": "Our family's activities for the past month"
+      },
+      {
+       "type": "fill",
+       "text": "My sister ___ my parents find a new place to live.",
+       "verb": "help",
+       "accept": [
+        "has been helping"
+       ],
+       "why": "My sister = she → has been helping."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ 80-hour weeks at my new job.",
+       "verb": "work",
+       "accept": [
+        "have been working"
+       ],
+       "why": "I → have been working."
+      },
+      {
+       "type": "fill",
+       "text": "And I ___ much sleep.",
+       "verb": "get, not",
+       "accept": [
+        "haven't been getting"
+       ],
+       "why": "not goes after have: haven't been getting."
+      },
+      {
+       "type": "fill",
+       "text": "My grandparents ___ overseas.",
+       "verb": "travel",
+       "accept": [
+        "have been traveling",
+        "have been travelling"
+       ],
+       "why": "They → have been traveling."
+      },
+      {
+       "type": "fill",
+       "text": "My grandmother ___ research for her travel blog.",
+       "verb": "do",
+       "accept": [
+        "has been doing"
+       ],
+       "why": "She → has been doing."
+      }
+     ]
+    },
+    {
+     "title": "What have you been doing?",
+     "icon": "🥶",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Why are you shivering? — I've ___ outside in the cold.",
+       "verb": "stand",
+       "accept": [
+        "been standing"
+       ],
+       "why": "'ve + been + -ing: been standing."
+      },
+      {
+       "type": "fill",
+       "text": "What took you so long? — I got lost. I've ___ around the city.",
+       "verb": "drive",
+       "accept": [
+        "been driving"
+       ],
+       "why": "drive → driving (drop the e)."
+      },
+      {
+       "type": "fill",
+       "text": "You have a milk mustache! — Oops. I've ___ a milkshake.",
+       "verb": "drink",
+       "accept": [
+        "been drinking"
+       ],
+       "why": "'ve + been + -ing: been drinking."
+      },
+      {
+       "type": "fill",
+       "text": "When are you going to take a break? — Soon. I've ___ for six hours straight.",
+       "verb": "work",
+       "accept": [
+        "been working"
+       ],
+       "why": "for six hours → been working."
+      },
+      {
+       "type": "fill",
+       "text": "Why are you under the kitchen sink? — I've ___ to fix a leak.",
+       "verb": "try",
+       "accept": [
+        "been trying"
+       ],
+       "why": "try → trying."
+      },
+      {
+       "type": "fill",
+       "text": "Didn't you hear me? — No, I've ___ to music with my headphones on.",
+       "verb": "listen",
+       "accept": [
+        "been listening"
+       ],
+       "why": "'ve + been + -ing: been listening."
+      },
+      {
+       "type": "fill",
+       "text": "Why are you looking at me like that? — I've just ___ your new hairstyle.",
+       "verb": "admire",
+       "accept": [
+        "been admiring"
+       ],
+       "why": "admire → admiring (drop the e)."
+      },
+      {
+       "type": "fill",
+       "text": "Your eyes are really red. — I've ___ in the pool.",
+       "verb": "swim",
+       "accept": [
+        "been swimming"
+       ],
+       "why": "swim → swimming (double m)."
+      }
+     ]
+    },
+    {
+     "title": "One form or both?",
+     "icon": "🎾",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I'm trying to study. I ___ to study for the last hour.",
+       "verb": "try",
+       "accept": [
+        "have been trying"
+       ],
+       "why": "An activity in progress → have been trying."
+      },
+      {
+       "type": "fill",
+       "text": "Joe has an old bike. He ___ the same bike for 20 years.",
+       "verb": "have",
+       "accept": [
+        "has had"
+       ],
+       "why": "have = own is a state verb → has had."
+      },
+      {
+       "type": "fill",
+       "text": "Matt works at ABC Appliances. He ___ there since 2005.",
+       "verb": "work",
+       "accept": [
+        "has worked",
+        "has been working"
+       ],
+       "why": "work = a habit. Both forms are OK."
+      },
+      {
+       "type": "fill",
+       "text": "Toshi is waiting for his friend. He ___ for her since five o'clock.",
+       "verb": "wait",
+       "accept": [
+        "has been waiting"
+       ],
+       "why": "An activity in progress now → has been waiting."
+      },
+      {
+       "type": "fill",
+       "text": "I like funny TV shows. I ___ comedies ever since I was a child.",
+       "verb": "like",
+       "accept": [
+        "have liked"
+       ],
+       "why": "like is a state verb → have liked."
+      },
+      {
+       "type": "fill",
+       "text": "Susie is watching her favorite comedy. She ___ episodes all afternoon without a break.",
+       "verb": "watch",
+       "accept": [
+        "has been watching"
+       ],
+       "why": "In progress all afternoon → has been watching."
+      },
+      {
+       "type": "fill",
+       "text": "Dr. Chang teaches math. He ___ math at this school for more than 25 years.",
+       "verb": "teach",
+       "accept": [
+        "has taught",
+        "has been teaching"
+       ],
+       "why": "teach = a habit. Both forms are OK."
+      },
+      {
+       "type": "fill",
+       "text": "Don't wake Nora up. She ___ all morning.",
+       "verb": "sleep",
+       "accept": [
+        "has been sleeping"
+       ],
+       "why": "In progress all morning → has been sleeping."
+      },
+      {
+       "type": "fill",
+       "text": "Sue and Rick are playing tennis. They ___ since nine o'clock this morning.",
+       "verb": "play",
+       "accept": [
+        "have been playing"
+       ],
+       "why": "This game, in progress → have been playing."
+      },
+      {
+       "type": "fill",
+       "text": "Sue is the better player. She ___ tennis since she was ten.",
+       "verb": "play",
+       "accept": [
+        "has played",
+        "has been playing"
+       ],
+       "why": "A habit over years. Both forms are OK."
+      }
+     ]
+    },
+    {
+     "title": "It's been a while! (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Good to see you! So what've you been up to lately?",
+       "ask": "What did you hear?",
+       "options": [
+        "what have you been up to",
+        "what are you up to",
+        "what were you up to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "what've = what have."
+      },
+      {
+       "type": "listen",
+       "say": "Not too much. I've been taking it easy.",
+       "ask": "What did you hear?",
+       "options": [
+        "I'm taking it easy",
+        "I've been taking it easy",
+        "I was taking it easy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I've been + -ing = lately."
+      },
+      {
+       "type": "listen",
+       "say": "Glad to hear you haven't been working too hard.",
+       "ask": "What did you hear?",
+       "options": [
+        "aren't working",
+        "weren't working",
+        "haven't been working"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "haven't been + -ing = lately."
+      },
+      {
+       "type": "listen",
+       "say": "By the way, how are your parents? I haven't seen them for a while.",
+       "ask": "What did you hear?",
+       "options": [
+        "I haven't seen them",
+        "I didn't see them",
+        "I don't see them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "for a while, up to now → haven't seen."
+      },
+      {
+       "type": "listen",
+       "say": "They're doing great. They've been traveling a lot now that they're retired.",
+       "ask": "What have the parents been doing?",
+       "options": [
+        "They traveled once.",
+        "They've been traveling a lot.",
+        "They're going to travel."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They've been + -ing = lately, many times."
+      },
+      {
+       "type": "listen",
+       "say": "How long have they been retired?",
+       "ask": "What did you hear?",
+       "options": [
+        "How long are they retired",
+        "How long were they retired",
+        "How long have they been retired"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "How long … up to now → have they been."
+      },
+      {
+       "type": "listen",
+       "say": "Gosh, I don't know. It's been a couple of years now.",
+       "ask": "It's = ?",
+       "options": [
+        "It is",
+        "It has"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "'s + been = has."
+      },
+      {
+       "type": "listen",
+       "say": "They've been spending their winters in warm, sunny places.",
+       "ask": "What did you hear?",
+       "options": [
+        "They've been spending",
+        "They're spending",
+        "They spent"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They've been + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What have you been doing?",
+     "task": "Claude asks why you look tired, wet, happy… Answer with “I've been …-ing”.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the present perfect progressive. Ask me short questions one at a time, such as: Why are you shivering? Why are you so tired? What took you so long? Why are your hands dirty? Why are you smiling? I must invent an answer with 'I've been + verb-ing' (for example: I've been standing outside in the cold). Check that I use have been + -ing."
+    },
+    {
+     "title": "Write a product review",
+     "task": "Write a short review of something you own. Use “I have had…” and “I have been …-ing”.",
+     "claudePrompt": "You are my English writing partner. Ask me to write a short product review (3-4 sentences) of something I own, like a phone, shoes or headphones. I must use the present perfect at least once (I have had it for ...) and the present perfect progressive at least once (I have been using it ...). Check those two tenses and tell me one thing I did well."
+    }
+   ]
+  },
+  {
+   "id": "2-8",
+   "tag": "2-8",
+   "t": "pastperf",
+   "title": "The earlier past",
+   "full": "Past Perfect",
+   "lesson": {
+    "title": "Learn: had + past participle",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two past events. Which was first?",
+      "lines": [
+       "had + past participle = the earlier one."
+      ],
+      "visual": [
+       "past-perfect"
+      ],
+      "examples": [
+       {
+        "text": "Sam came at 10:00. Ann had already left.",
+        "hl": [
+         [
+          "came",
+          "past"
+         ],
+         [
+          "had already left",
+          "pastperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "order",
+      "text": "By the time Sam came, Ann had already left.",
+      "events": [
+       "Sam came",
+       "Ann left"
+      ],
+      "first": 1,
+      "why": "had left = the earlier event."
+     },
+     {
+      "type": "learn",
+      "title": "by the time",
+      "lines": [
+       "by the time + simple past → the other verb takes had."
+      ],
+      "chips": [
+       "by the time",
+       "already",
+       "never … before",
+       "when"
+      ],
+      "examples": [
+       {
+        "text": "By the time Sam came, Ann had already left.",
+        "hl": [
+         [
+          "came",
+          "past"
+         ],
+         [
+          "had already left",
+          "pastperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "before / after: both are OK",
+      "left": {
+       "label": "Past perfect",
+       "t": "pastperf",
+       "examples": [
+        {
+         "text": "Sam had left before Ann came.",
+         "hl": [
+          [
+           "had left",
+           "pastperf"
+          ]
+         ]
+        },
+        {
+         "text": "After the guests had left, I went to bed.",
+         "hl": [
+          [
+           "had left",
+           "pastperf"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Simple past",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Sam left before Ann came.",
+         "hl": [
+          [
+           "left",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "After the guests left, I went to bed.",
+         "hl": [
+          [
+           "left",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "before and after already show the order. So simple past is fine too."
+     },
+     {
+      "type": "choice",
+      "text": "I was late. When I got to class, the quiz ___.",
+      "options": [
+       "already started",
+       "had already started"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It started before I got there → had started."
+     },
+     {
+      "type": "learn",
+      "title": "Telling what someone said",
+      "lines": [
+       "She said it in the past? Go one step back."
+      ],
+      "visual": [
+       "have-pp"
+      ],
+      "examples": [
+       {
+        "text": "“I lost my keys.”",
+        "hl": [
+         [
+          "lost",
+          "past"
+         ]
+        ]
+       },
+       {
+        "text": "Jenny said that she had lost her keys.",
+        "hl": [
+         [
+          "had lost",
+          "pastperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Short form: 'd",
+      "lines": [
+       "had → 'd after I, you, he, she, it, we, they."
+      ],
+      "visual": [
+       "d-means"
+      ],
+      "chips": [
+       "I had → I'd",
+       "you had → you'd",
+       "she had → she'd",
+       "we had → we'd",
+       "they had → they'd"
+      ],
+      "tip": "I'd left = I had left. I'd like to leave = I would like."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "had + past participle: finished before another past time.",
+     "With before / after, simple past is OK too."
+    ],
+    "timeline": [
+     "past-perfect",
+     "have-pp"
+    ],
+    "examples": [
+     {
+      "text": "By the time Sam came, Ann had already left.",
+      "hl": [
+       [
+        "came",
+        "past"
+       ],
+       [
+        "had already left",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "Jenny said that she had lost her keys.",
+      "hl": [
+       [
+        "had lost",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which happened first?",
+     "icon": "🥇",
+     "items": [
+      {
+       "type": "order",
+       "text": "The teacher stood up. Someone had knocked on the classroom door.",
+       "events": [
+        "The teacher stood up",
+        "Someone knocked on the door"
+       ],
+       "first": 1,
+       "why": "had knocked = the earlier event."
+      },
+      {
+       "type": "order",
+       "text": "I looked at the board. The teacher had written my name there.",
+       "events": [
+        "I looked at the board",
+        "The teacher wrote my name"
+       ],
+       "first": 1,
+       "why": "had written = the earlier event."
+      },
+      {
+       "type": "order",
+       "text": "Sam came at 10:00. Ann had already left.",
+       "events": [
+        "Ann left",
+        "Sam came"
+       ],
+       "first": 0,
+       "why": "had left = the earlier event."
+      },
+      {
+       "type": "order",
+       "text": "Sam had left before Ann came.",
+       "events": [
+        "Ann came",
+        "Sam left"
+       ],
+       "first": 1,
+       "why": "had left + before → Sam was first."
+      },
+      {
+       "type": "order",
+       "text": "After the guests had left, I went to bed.",
+       "events": [
+        "The guests left",
+        "I went to bed"
+       ],
+       "first": 0,
+       "why": "after + had left → the guests were first."
+      },
+      {
+       "type": "order",
+       "text": "Bill felt great that evening. Earlier in the day, he had caught three fish.",
+       "events": [
+        "Bill felt great",
+        "Bill caught three fish"
+       ],
+       "first": 1,
+       "why": "had caught = earlier in the day."
+      }
+     ]
+    },
+    {
+     "title": "How was your day?",
+     "icon": "🌧️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I woke up with a headache, but I ___ better after I took some medicine.",
+       "verb": "feel",
+       "accept": [
+        "felt"
+       ],
+       "why": "The later event → simple past: felt."
+      },
+      {
+       "type": "fill",
+       "text": "I felt better after I ___ some medicine.",
+       "verb": "take",
+       "accept": [
+        "took",
+        "had taken"
+       ],
+       "why": "With after, both took and had taken are OK."
+      },
+      {
+       "type": "fill",
+       "text": "I was late for my first class. The teacher ___ a quiz when I got to class.",
+       "verb": "give, already",
+       "accept": [
+        "had already given"
+       ],
+       "why": "Before I got there → had already given."
+      },
+      {
+       "type": "fill",
+       "text": "The teacher had already given a quiz when I ___ to class.",
+       "verb": "get",
+       "accept": [
+        "got"
+       ],
+       "why": "The later event → simple past: got."
+      },
+      {
+       "type": "fill",
+       "text": "It was raining really hard when I ___ home this morning.",
+       "verb": "leave",
+       "accept": [
+        "left"
+       ],
+       "why": "A finished event this morning → left."
+      },
+      {
+       "type": "fill",
+       "text": "My shoes were soaked when I ___ to work.",
+       "verb": "get",
+       "accept": [
+        "got"
+       ],
+       "why": "A finished event → simple past: got."
+      },
+      {
+       "type": "fill",
+       "text": "Fortunately, by the time I ___ ready to leave, they had dried.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "by the time + simple past: was."
+      },
+      {
+       "type": "fill",
+       "text": "By the time I was ready to leave, my shoes ___.",
+       "verb": "dry, already",
+       "accept": [
+        "had already dried"
+       ],
+       "why": "by the time … → had already dried."
+      }
+     ]
+    },
+    {
+     "title": "The stolen lunch",
+     "icon": "🥪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I ___ a fantastic lunch to take to work.",
+       "verb": "make",
+       "accept": [
+        "made"
+       ],
+       "why": "The story's events → simple past: made."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ it in the staff fridge this morning.",
+       "verb": "put",
+       "accept": [
+        "put"
+       ],
+       "why": "this morning → simple past: put, put, put."
+      },
+      {
+       "type": "fill",
+       "text": "I never ___ a chance to eat it.",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "Simple past of have = had."
+      },
+      {
+       "type": "fill",
+       "text": "When I went to the fridge, someone ___ it.",
+       "verb": "eat, already",
+       "accept": [
+        "had already eaten"
+       ],
+       "why": "Before I went there → had already eaten."
+      },
+      {
+       "type": "choice",
+       "text": "Jenny: “I lost my keys.” → Jenny said that she ___ her keys.",
+       "options": [
+        "has lost",
+        "had lost"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Reported in the past → one step back: had lost."
+      },
+      {
+       "type": "fill",
+       "text": "Bill felt great that evening. Earlier in the day, he ___ three fish.",
+       "verb": "catch",
+       "accept": [
+        "had caught"
+       ],
+       "why": "Earlier than “felt” → had caught."
+      },
+      {
+       "type": "fill",
+       "text": "They ___ a delicious picnic near the lake earlier that day.",
+       "verb": "have",
+       "accept": [
+        "had had"
+       ],
+       "why": "had + part 3 of have = had had."
+      },
+      {
+       "type": "choice",
+       "text": "I'd left before you called. I'd = ?",
+       "options": [
+        "I had",
+        "I would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "'d + past participle (left) = had."
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to leave now. I'd = ?",
+       "options": [
+        "I had",
+        "I would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "'d + simple verb (like) = would."
+      }
+     ]
+    },
+    {
+     "title": "Wallet and museum",
+     "icon": "👛",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I got ready to pay the bill, but when I ___ in my purse…",
+       "verb": "look",
+       "accept": [
+        "looked"
+       ],
+       "why": "The story's event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "…I discovered that I ___ my wallet.",
+       "verb": "forget",
+       "accept": [
+        "had forgotten"
+       ],
+       "why": "It happened before I looked → had forgotten."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ so embarrassed.",
+       "verb": "feel",
+       "accept": [
+        "felt"
+       ],
+       "why": "The story's event → simple past: felt."
+      },
+      {
+       "type": "fill",
+       "text": "My friend generously ___ to pay my part of the bill.",
+       "verb": "offer",
+       "accept": [
+        "offered"
+       ],
+       "why": "The story's event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "During my lunch break, I ___ to go to the art museum.",
+       "verb": "decide",
+       "accept": [
+        "decided"
+       ],
+       "why": "The story's event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ any of Picasso's paintings before I went there.",
+       "verb": "see, never",
+       "accept": [
+        "had never seen"
+       ],
+       "why": "Before that visit → had never seen."
+      },
+      {
+       "type": "fill",
+       "text": "I had never seen any of Picasso's paintings before I ___ there.",
+       "verb": "go",
+       "accept": [
+        "went"
+       ],
+       "why": "The later event → simple past: went."
+      }
+     ]
+    },
+    {
+     "title": "Airport surprise",
+     "icon": "🛬",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Yesterday at the airport, I ___ into Rick Collins, an old friend of mine.",
+       "verb": "run",
+       "accept": [
+        "ran"
+       ],
+       "why": "Yesterday → simple past: ran."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to him in years.",
+       "verb": "talk, not",
+       "accept": [
+        "hadn't talked"
+       ],
+       "why": "Before yesterday's meeting → hadn't talked."
+      },
+      {
+       "type": "fill",
+       "text": "At first, I ___ him.",
+       "verb": "recognize, not",
+       "accept": [
+        "didn't recognize"
+       ],
+       "why": "At that moment → simple past: didn't recognize."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't recognize him because he ___ a great deal of weight.",
+       "verb": "lose",
+       "accept": [
+        "had lost"
+       ],
+       "why": "It happened before the meeting → had lost."
+      },
+      {
+       "type": "fill",
+       "text": "By the time Sam came, Ann ___.",
+       "verb": "leave, already",
+       "accept": [
+        "had already left"
+       ],
+       "why": "by the time … → had already left."
+      },
+      {
+       "type": "fill",
+       "text": "After the guests ___, I went to bed.",
+       "verb": "leave",
+       "accept": [
+        "had left",
+        "left"
+       ],
+       "why": "With after, both had left and left are OK."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "A terrible day",
+     "task": "Tell Claude about a bad day (real or invented). Use “had already…” two times.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the past perfect. Ask me to tell a short story about a day when things went wrong (real or invented). Help me with questions like: What had already happened when you arrived? What had you forgotten? I should use the simple past for the main events and 'had + past participle' for things that happened earlier. Check that tense choice."
+    }
+   ]
+  },
+  {
+   "id": "2-9",
+   "tag": "2-9",
+   "t": "pastperf",
+   "title": "Had or would?",
+   "full": "Had in Spoken English",
+   "lesson": {
+    "title": "Learn: short had",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "had gets tiny",
+      "lines": [
+       "In fast speech, had sounds like 'd.",
+       "Tap to hear it."
+      ],
+      "chips": [
+       "Joe'd already heard the story.",
+       "Who'd been there before you?"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "'d = had or would?",
+      "lines": [
+       "Look at the next verb."
+      ],
+      "visual": [
+       "d-means"
+      ],
+      "examples": [
+       {
+        "text": "I'd gotten sick the day before.",
+        "hl": [
+         [
+          "I'd gotten",
+          "pastperf"
+         ]
+        ]
+       },
+       {
+        "text": "I'd like to try that.",
+        "hl": [
+         [
+          "I'd like",
+          "plan"
+         ]
+        ]
+       }
+      ],
+      "tip": "Past participle next → had. Simple verb next → would."
+     },
+     {
+      "type": "choice",
+      "text": "We'd misread the bus schedule. We'd = ?",
+      "options": [
+       "We had",
+       "We would"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "misread is a past participle here → had."
+     },
+     {
+      "type": "learn",
+      "title": "Main verb had stays long",
+      "lines": [
+       "had = owned or ate? Never short."
+      ],
+      "chips": [
+       "✅ The dog had a bone.",
+       "❌ The dog'd a bone."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'd kind of like to try that. I'd = ?",
+      "options": [
+       "I had",
+       "I would"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "like is a simple verb → would."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "'d + past participle = had. 'd + simple verb = would.",
+     "Main verb had is never short: The dog had a bone."
+    ],
+    "timeline": [
+     "d-means"
+    ],
+    "examples": [
+     {
+      "text": "Joe had already heard the story.",
+      "hl": [
+       [
+        "had already heard",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "I'd like to try that.",
+      "hl": [
+       [
+        "I'd like",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Excuses (listening)",
+     "icon": "🙈",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I'm sorry I missed the appointment. I'd written down the wrong date.",
+       "ask": "I'd = ?",
+       "options": [
+        "I had",
+        "I would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "written is part 3 → had."
+      },
+      {
+       "type": "listen",
+       "say": "We knew we were running late. We'd misread the bus schedule.",
+       "ask": "We'd = ?",
+       "options": [
+        "We had",
+        "We would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "misread is part 3 here → had."
+      },
+      {
+       "type": "listen",
+       "say": "Sorry. I wanted to come to your party, but my family'd already made other plans.",
+       "ask": "family'd = ?",
+       "options": [
+        "family had",
+        "family would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "made is part 3 → had."
+      },
+      {
+       "type": "listen",
+       "say": "Thanks for asking! I'd love to come next time.",
+       "ask": "I'd = ?",
+       "options": [
+        "I had",
+        "I would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "love is a simple verb → would."
+      },
+      {
+       "type": "listen",
+       "say": "She'd already eaten when I called.",
+       "ask": "She'd = ?",
+       "options": [
+        "She had",
+        "She would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "eaten is part 3 → had."
+      },
+      {
+       "type": "listen",
+       "say": "We'd like to see you soon.",
+       "ask": "We'd = ?",
+       "options": [
+        "We had",
+        "We would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "like is a simple verb → would."
+      }
+     ]
+    },
+    {
+     "title": "A base jumper",
+     "icon": "🪂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My friend Tom ___ a base jumper. He jumps off buildings for fun.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A fact about now → is."
+      },
+      {
+       "type": "choice",
+       "text": "Last year he jumped off a skyscraper. Tom and his team ___ planned it for over a year.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before the jump → had planned."
+      },
+      {
+       "type": "choice",
+       "text": "Family and friends ___ told him he was crazy, but that didn't change his mind.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before the jump → had told."
+      },
+      {
+       "type": "choice",
+       "text": "I wanted to watch, but I ___ gotten sick the day before.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The day before → had gotten."
+      },
+      {
+       "type": "choice",
+       "text": "Tom said it was the most thrilling experience he ___ ever had.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had + had (part 3 of have)."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ kind of like to try something like that, but I'm afraid of heights.",
+       "options": [
+        "is",
+        "had",
+        "would"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "like is a simple verb → would like."
+      }
+     ]
+    },
+    {
+     "title": "Short sounds 1 (listening)",
+     "icon": "🔉",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The kids'd stayed up too late. They were late for school.",
+       "ask": "kids'd = kids ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "stayed (part 3) + a past story → had."
+      },
+      {
+       "type": "listen",
+       "say": "The kids'd like to stay up late. There's no school tomorrow.",
+       "ask": "kids'd = kids ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "like is a simple verb → would."
+      },
+      {
+       "type": "listen",
+       "say": "You're a new student, aren't you? How long've you been in this country?",
+       "ask": "long've = long ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Up to now, with you → have."
+      },
+      {
+       "type": "listen",
+       "say": "You left your job? How long'd you been there?",
+       "ask": "long'd = long ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before you left (past) → had."
+      },
+      {
+       "type": "listen",
+       "say": "You're looking for Jack? Jack's left. He isn't here.",
+       "ask": "Jack's = Jack ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "left is part 3, result now → has."
+      },
+      {
+       "type": "listen",
+       "say": "We were looking for Sam, but he'd left by the time we got there.",
+       "ask": "he'd = he ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "by the time we got there → had."
+      }
+     ]
+    },
+    {
+     "title": "Short sounds 2 (listening)",
+     "icon": "🔊",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The kids've stayed up too late. They need to go to bed.",
+       "ask": "kids've = kids ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "'ve = have. The result is now."
+      },
+      {
+       "type": "listen",
+       "say": "Since we're teachers, we have the summers off. We'd like to travel to Africa next.",
+       "ask": "We'd = We ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "like is a simple verb → would."
+      },
+      {
+       "type": "listen",
+       "say": "We'd wanted to travel with my parents on our last trip, but they became ill.",
+       "ask": "We'd = We ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "wanted (part 3), before a past event → had."
+      },
+      {
+       "type": "listen",
+       "say": "Unfortunately, my phone died when we were lost. I'd forgotten to recharge it.",
+       "ask": "I'd = I ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "forgotten is part 3, before it died → had."
+      },
+      {
+       "type": "listen",
+       "say": "My phone's dead, and I've forgotten to bring the charger.",
+       "ask": "I've = I ___",
+       "options": [
+        "had",
+        "would",
+        "has",
+        "have"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "'ve = have. The result is now."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2-10",
+   "tag": "2-10",
+   "t": "pastperfprog",
+   "title": "How long before then?",
+   "full": "Past Perfect Progressive",
+   "lesson": {
+    "title": "Learn: had been + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Going on before a past moment",
+      "lines": [
+       "had been + verb-ing.",
+       "How long, before something else in the past."
+      ],
+      "visual": [
+       "past-perfect-prog"
+      ],
+      "examples": [
+       {
+        "text": "Eric finally came at six o'clock. I had been waiting for him since four-thirty.",
+        "hl": [
+         [
+          "came",
+          "past"
+         ],
+         [
+          "had been waiting",
+          "pastperfprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Up to now vs. up to then",
+      "left": {
+       "label": "have been -ing: up to now",
+       "t": "perfprog",
+       "examples": [
+        {
+         "text": "I have been waiting for Jack since 5:00. And I'm still here.",
+         "hl": [
+          [
+           "have been waiting",
+           "perfprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "had been -ing: up to a past time",
+       "t": "pastperfprog",
+       "examples": [
+        {
+         "text": "I had been waiting for Jack since 5:00. Then I left.",
+         "hl": [
+          [
+           "had been waiting",
+           "pastperfprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Is the story in the past (came, got, was)? → had been."
+     },
+     {
+      "type": "choice",
+      "text": "The police ___ for the criminal for two years before they caught him.",
+      "options": [
+       "have been looking",
+       "had been looking"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Before a past event (caught) → had been looking."
+     },
+     {
+      "type": "learn",
+      "title": "You could still see it",
+      "lines": [
+       "The activity had just stopped.",
+       "The result was still there."
+      ],
+      "visual": [
+       "been-ing"
+      ],
+      "examples": [
+       {
+        "text": "Her hair was still wet because she had been swimming.",
+        "hl": [
+         [
+          "had been swimming",
+          "pastperfprog"
+         ]
+        ]
+       },
+       {
+        "text": "His eyes were red because he had been crying.",
+        "hl": [
+         [
+          "had been crying",
+          "pastperfprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It's hot. I ___ outside for almost an hour. I think I'll go inside.",
+      "options": [
+       "have been working",
+       "had been working"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The story is now (It's hot) → have been."
+     },
+     {
+      "type": "learn",
+      "title": "Telling what someone said",
+      "lines": [
+       "have been -ing → had been -ing."
+      ],
+      "chips": [
+       "have been waiting → had been waiting"
+      ],
+      "examples": [
+       {
+        "text": "“I have been waiting for you.”",
+        "hl": [
+         [
+          "have been waiting",
+          "perfprog"
+         ]
+        ]
+       },
+       {
+        "text": "Lia told me that she had been waiting for me.",
+        "hl": [
+         [
+          "had been waiting",
+          "pastperfprog"
+         ]
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "had been + -ing: how long, before another past time.",
+     "have been + -ing: how long, up to now."
+    ],
+    "timeline": [
+     "past-perfect-prog",
+     "been-ing"
+    ],
+    "examples": [
+     {
+      "text": "I had been waiting for him since four-thirty.",
+      "hl": [
+       [
+        "had been waiting",
+        "pastperfprog"
+       ]
+      ]
+     },
+     {
+      "text": "Her hair was wet because she had been swimming.",
+      "hl": [
+       [
+        "had been swimming",
+        "pastperfprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What comes next?",
+     "icon": "➡️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I have been waiting for Jack since 5:00.",
+       "options": [
+        "Then I left.",
+        "And I'm still here."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have been = up to now. Still waiting.",
+       "ask": "Which sentence comes next?"
+      },
+      {
+       "type": "choice",
+       "text": "I had been waiting for Jack since 5:00.",
+       "options": [
+        "Then I left.",
+        "And I'm still here."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had been = up to a past moment.",
+       "ask": "Which sentence comes next?"
+      },
+      {
+       "type": "choice",
+       "text": "I have been working outside for almost an hour.",
+       "options": [
+        "It's hot. I think I'll go inside.",
+        "But I got too hot and came inside."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have been = up to now.",
+       "ask": "Which sentence comes next?"
+      },
+      {
+       "type": "choice",
+       "text": "I had been working outside for almost an hour.",
+       "options": [
+        "It's hot. I think I'll go inside.",
+        "But I got too hot and came inside."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had been = before a past event.",
+       "ask": "Which sentence comes next?"
+      },
+      {
+       "type": "choice",
+       "text": "When Judy got home, her hair was still wet because she ___.",
+       "options": [
+        "has been swimming",
+        "had been swimming"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before she got home (past) → had been swimming."
+      },
+      {
+       "type": "choice",
+       "text": "I went to Ed's house after the funeral. His eyes were red because he ___.",
+       "options": [
+        "had been crying",
+        "has been crying"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before I saw him (past) → had been crying."
+      },
+      {
+       "type": "choice",
+       "text": "Lia: “I have been waiting for you.” → Lia told me that she ___ for me.",
+       "options": [
+        "has been waiting",
+        "had been waiting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Reported in the past → had been waiting."
+      }
+     ]
+    },
+    {
+     "title": "Ryan's thesis",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ryan has been researching a topic for his thesis since the beginning of the year.",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has been -ing = still going now.",
+       "ask": "Is he still researching now?"
+      },
+      {
+       "type": "choice",
+       "text": "Ryan had been researching a topic when he decided to change majors.",
+       "options": [
+        "He is researching now.",
+        "The research was going on before a past event."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had been -ing = before “decided”.",
+       "ask": "What do we know?"
+      },
+      {
+       "type": "choice",
+       "text": "Ryan researched several different topics for his thesis.",
+       "options": [
+        "Finished in the past",
+        "Still going on"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Simple past = finished.",
+       "ask": "Finished or still going?"
+      },
+      {
+       "type": "order",
+       "text": "Ryan had researched several different topics, but then he decided to change majors.",
+       "events": [
+        "He decided to change majors",
+        "He researched the topics"
+       ],
+       "first": 1,
+       "why": "had researched = the earlier event."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence shows HOW LONG?",
+       "options": [
+        "Ryan researched several different topics.",
+        "Ryan has been researching a topic since the beginning of the year."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "-ing + since = how long."
+      },
+      {
+       "type": "choice",
+       "text": "Which two sentences have two past events, one before the other?",
+       "options": [
+        "Ryan had been researching a topic when he decided to change majors.",
+        "Ryan researched several different topics.",
+        "Ryan had researched several topics, but then he decided to change majors.",
+        "Ryan has researched several different topics."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "had … + decided = two past events."
+      }
+     ]
+    },
+    {
+     "title": "Updates on the family",
+     "icon": "👪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My brother Jose ___ majors again. He's not sure what he wants to be.",
+       "options": [
+        "has changed",
+        "had changed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The result is now (He's not sure) → has changed."
+      },
+      {
+       "type": "choice",
+       "text": "Until Uncle Rudi went to the doctor, he ___ well.",
+       "options": [
+        "has not been sleeping",
+        "had not been sleeping"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a past event (went) → had not been."
+      },
+      {
+       "type": "choice",
+       "text": "The twins ___ on a science project all semester. It's taking a lot of time.",
+       "options": [
+        "have been working",
+        "had been working"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Still going (It's taking) → have been."
+      },
+      {
+       "type": "choice",
+       "text": "Jill damaged her knee. She ___ trouble walking, so she had surgery on it.",
+       "options": [
+        "has been having",
+        "had been having"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before the surgery (past) → had been having."
+      },
+      {
+       "type": "choice",
+       "text": "Our nieces are going to be in the school play. They ___ a lot.",
+       "options": [
+        "had been rehearsing",
+        "have been rehearsing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now (the play is next week) → have been."
+      }
+     ]
+    },
+    {
+     "title": "Now or then?",
+     "icon": "⌛",
+     "items": [
+      {
+       "type": "fill",
+       "text": "We ___ for Nancy for the last two hours, but she still hasn't arrived.",
+       "verb": "wait",
+       "accept": [
+        "have been waiting"
+       ],
+       "why": "Up to now (still hasn't arrived) → have been."
+      },
+      {
+       "type": "fill",
+       "text": "We ___ for Nancy for over three hours before she finally arrived yesterday.",
+       "verb": "wait",
+       "accept": [
+        "had been waiting"
+       ],
+       "why": "Before she arrived (past) → had been."
+      },
+      {
+       "type": "fill",
+       "text": "It is midnight. I ___ for five straight hours. No wonder I'm getting tired.",
+       "verb": "study",
+       "accept": [
+        "have been studying"
+       ],
+       "why": "It is midnight = now → have been."
+      },
+      {
+       "type": "fill",
+       "text": "It was midnight. I ___ for five straight hours. No wonder I was getting tired.",
+       "verb": "study",
+       "accept": [
+        "had been studying"
+       ],
+       "why": "It was midnight = past → had been."
+      },
+      {
+       "type": "fill",
+       "text": "Jack couldn't answer the teacher because he ___ for the last ten minutes.",
+       "verb": "daydream",
+       "accept": [
+        "had been daydreaming"
+       ],
+       "why": "Before a past moment (couldn't) → had been."
+      },
+      {
+       "type": "fill",
+       "text": "Jack ___ a lot. I wonder if he's in love.",
+       "verb": "daydream",
+       "accept": [
+        "has been daydreaming"
+       ],
+       "why": "Lately, up to now → has been."
+      },
+      {
+       "type": "fill",
+       "text": "Wake up! You ___ long enough. It's time to get up.",
+       "verb": "sleep",
+       "accept": [
+        "have been sleeping"
+       ],
+       "why": "Up to now → have been sleeping."
+      },
+      {
+       "type": "fill",
+       "text": "When I woke up, I didn't know where I was. I ___ soundly.",
+       "verb": "sleep",
+       "accept": [
+        "had been sleeping"
+       ],
+       "why": "Before I woke up (past) → had been."
+      },
+      {
+       "type": "fill",
+       "text": "Sofia ___ as a software engineer when her company transferred her.",
+       "verb": "work",
+       "accept": [
+        "had been working"
+       ],
+       "why": "Before a past event (transferred) → had been."
+      },
+      {
+       "type": "fill",
+       "text": "Sofia ___ long hours since she got the IT position.",
+       "verb": "work",
+       "accept": [
+        "has been working"
+       ],
+       "why": "since … up to now → has been working."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "I had been …-ing when…",
+     "task": "Finish Claude's story starters with “had been + -ing”.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the past perfect progressive. Give me one situation at a time in the past, such as: 'When I saw Sara, her eyes were red. Why?' or 'Tom was very tired when he got home. Why?' I answer with 'had been + verb-ing' (for example: She had been crying). Check that I use had been + -ing."
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "tag": "Mix",
+   "t": "perf",
+   "title": "Tense mix",
+   "full": "Review of Chapters 1 and 2",
+   "lesson": {
+    "title": "Learn: all the tenses together",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two perfect machines",
+      "lines": [
+       "have / has + part 3 → up to now.",
+       "had + part 3 → before a past time."
+      ],
+      "visual": [
+       "have-pp"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Add been + -ing for how long",
+      "lines": [
+       "have been + -ing → how long, up to now.",
+       "had been + -ing → how long, up to then."
+      ],
+      "visual": [
+       "been-ing"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Small word, big clue",
+      "left": {
+       "label": "Still true now",
+       "t": "perf",
+       "examples": [
+        {
+         "text": "Mr. Sanchez has taught at this school for nine years.",
+         "hl": [
+          [
+           "has taught",
+           "perf"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Finished",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Ms. Lincoln taught at this school for nine years.",
+         "hl": [
+          [
+           "taught",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "has taught → he is still there. taught → she is not there now."
+     },
+     {
+      "type": "choice",
+      "text": "Carlos has been living in Chicago for five years. Does he live there now?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "has been living = still true now."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "have / has + part 3: up to now. had + part 3: before a past time.",
+     "been + -ing: how long. Simple past: finished."
+    ],
+    "timeline": [
+     "have-pp",
+     "been-ing"
+    ],
+    "examples": [
+     {
+      "text": "Mr. Sanchez has taught here for nine years.",
+      "hl": [
+       [
+        "has taught",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "Sam had left the room when I walked in.",
+      "hl": [
+       [
+        "had left",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Who did it?",
+     "icon": "🕵️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When the rain stopped, Gloria was riding her bike to work. When the rain stopped, Paul jumped on his bike and rode to work.",
+       "options": [
+        "Gloria",
+        "Paul"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was riding = already on the bike in the rain.",
+       "ask": "Who got wet on the way to work?",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "Ms. Lincoln taught at this school for nine years. Mr. Sanchez has taught at this school for nine years.",
+       "options": [
+        "Ms. Lincoln",
+        "Mr. Sanchez"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has taught = still true now.",
+       "ask": "Who is teaching at this school now?",
+       "rule": "2-6"
+      },
+      {
+       "type": "choice",
+       "text": "Alice was opening the door when the doorbell rang. George walked to the door after the doorbell rang.",
+       "options": [
+        "Alice",
+        "George"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was opening = already at the door before the bell.",
+       "ask": "Who had been expecting a visitor?",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "Donna lived in Chicago for five years. Carlos has been living in Chicago for five years.",
+       "options": [
+        "Donna",
+        "Carlos"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has been living = up to now.",
+       "ask": "Who still lives in Chicago?",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "Jane drank some lemonade because she had been working outside. Sue drank some lemonade because she was working outside.",
+       "options": [
+        "Jane",
+        "Sue"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had been working = the work was before.",
+       "ask": "Who drank lemonade after she finished working?",
+       "rule": "2-10"
+      },
+      {
+       "type": "choice",
+       "text": "I looked across the street. Mr. Fox was waving at me. Mrs. Cook waved at me.",
+       "options": [
+        "Mr. Fox",
+        "Mrs. Cook"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was waving = already in progress.",
+       "ask": "Who began to wave before I looked?",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "Dan was leaving the room when I walked in. Sam had left the room when I walked in.",
+       "options": [
+        "Dan",
+        "Sam"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had left = Sam was already gone.",
+       "ask": "Who did I see when I came into the room?",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "Ken went to the store because he was running out of food. Ann went to the store because she had run out of food.",
+       "options": [
+        "Ken",
+        "Ann"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was running out = he still had some food.",
+       "ask": "Who is better at planning ahead?",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "Jack had been studying Spanish since elementary school when he moved to Peru. Robert has been studying Spanish since elementary school.",
+       "options": [
+        "Jack",
+        "Robert"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has been studying = up to now.",
+       "ask": "Who is studying Spanish now?",
+       "rule": "2-10"
+      }
+     ]
+    },
+    {
+     "title": "Travel experiences 1",
+     "icon": "✈️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You need to stay calm now. The plane ___ just hitting some turbulence.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "now + -ing → is.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "Oh, no! I ___ lost my passport! It's not in my bag.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The result is now → have lost.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "While we ___ traveling in Europe last summer, we met people from around the world.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        5
+       ],
+       "why": "In progress in the past, we → were.",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ never tried frog legs. Let's try them at this cafe.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In my life up to now → have never tried.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ never tried frog legs until I visited France.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Before a past event (visited) → had.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ getting worried when you texted.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        4
+       ],
+       "why": "In progress in the past, I → was.",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "I was afraid you ___ taken the wrong subway.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Before a past moment (was afraid) → had.",
+       "rule": "2-8"
+      }
+     ]
+    },
+    {
+     "title": "Travel experiences 2",
+     "icon": "🧳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "People are saying that the weather ___ never been so hot and humid.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now, the weather = it → has.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "The first person I saw in Tokyo was a student I ___ taught several years before.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "several years before that → had taught.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "William ___ planned to leave for Asia on Tuesday when his sister called with bad news.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Before she called (past) → had planned.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "Their parents ___ been in a car accident.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Before the call (past) → had been.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "Travel ___ becoming harder for my grandfather now.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "now + -ing → is.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "He ___ lost his ability to walk and needs to use a wheelchair.",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The result is now, he → has.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ just found the tour podcasts you mentioned. Do you want to subscribe?",
+       "options": [
+        "have",
+        "has",
+        "had",
+        "is",
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "just, result now, I → have.",
+       "rule": "2-4"
+      }
+     ]
+    },
+    {
+     "title": "New careers? (listening)",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Kristi and her husband have had several conversations in the past few months about changing careers.",
+       "ask": "Which is true?",
+       "options": [
+        "They have thought about changing careers.",
+        "They changed careers a few months ago."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have had conversations = up to now. Nothing changed yet.",
+       "rule": "2-4"
+      },
+      {
+       "type": "listen",
+       "say": "Kristi has been taking a web design class since January.",
+       "ask": "Which is true?",
+       "options": [
+        "Kristi knows how to design websites.",
+        "Kristi is learning how to design websites."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has been taking = still in the class.",
+       "rule": "2-7"
+      },
+      {
+       "type": "listen",
+       "say": "Her husband, Eric, had already learned web design before they got married.",
+       "ask": "Which is true?",
+       "options": [
+        "Her husband knows how to design websites.",
+        "Her husband is learning how to design websites."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had learned = finished long ago.",
+       "rule": "2-8"
+      },
+      {
+       "type": "listen",
+       "say": "Kristi worked as a nurse for ten years, but it was too stressful.",
+       "ask": "Which is true?",
+       "options": [
+        "Kristi is working as a nurse now.",
+        "Kristi has experience as a nurse."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "worked = finished. Not a nurse now.",
+       "rule": "2-6"
+      },
+      {
+       "type": "listen",
+       "say": "Eric has been designing websites for small companies since last year.",
+       "ask": "Which is true?",
+       "options": [
+        "Eric is designing websites now.",
+        "Eric designed websites only in college."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has been designing = up to now.",
+       "rule": "2-7"
+      },
+      {
+       "type": "listen",
+       "say": "Eric's parents have helped him part-time a few times this year.",
+       "ask": "Which is true?",
+       "options": [
+        "Eric wants his parents to start working for him.",
+        "His parents have already done work for Eric."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have helped = it already happened.",
+       "rule": "2-4"
+      }
+     ]
+    },
+    {
+     "title": "A different world",
+     "icon": "📻",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My parents ___ in the 1950s.",
+       "options": [
+        "were born",
+        "have been born"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in the 1950s = finished time → simple past.",
+       "rule": "2-6"
+      },
+      {
+       "type": "choice",
+       "text": "Since then, the world ___ through extraordinary changes.",
+       "options": [
+        "went",
+        "has gone"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Since then, up to now → present perfect.",
+       "rule": "2-3"
+      },
+      {
+       "type": "choice",
+       "text": "There ___ no Internet until the 1990s.",
+       "options": [
+        "was",
+        "has been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "until the 1990s = finished → simple past.",
+       "rule": "2-6"
+      },
+      {
+       "type": "choice",
+       "text": "In my parents' time, students ___ to the library to do research.",
+       "options": [
+        "went",
+        "have gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In my parents' time = finished → simple past.",
+       "rule": "2-6"
+      },
+      {
+       "type": "choice",
+       "text": "Since the 1980s, computers and the Internet ___ communication dramatically.",
+       "options": [
+        "changed",
+        "have changed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Since the 1980s, up to now → present perfect.",
+       "rule": "2-3"
+      },
+      {
+       "type": "choice",
+       "text": "Cell phones ___ available since the 1990s.",
+       "options": [
+        "were",
+        "have been"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "since … and still true → have been.",
+       "rule": "2-3"
+      },
+      {
+       "type": "choice",
+       "text": "Texting ___ so popular that it has replaced phone calls for many people.",
+       "options": [
+        "became",
+        "has become"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No time, result now → has become.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "The first part of the story is about the 1950s. Why is it in the simple past?",
+       "options": [
+        "That time is finished.",
+        "It is still true now."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A finished time → simple past.",
+       "rule": "2-6"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Then and now",
+     "task": "Write about how life has changed since your parents were young. Use simple past for then, present perfect for the changes.",
+     "claudePrompt": "You are my English writing partner. I am practicing simple past vs. present perfect. Ask me to choose one topic (communication, fashion, entertainment, transportation, or the environment) and write 3-4 sentences about how it was when my parents were young (simple past) and how it has changed since then (present perfect). Check that tense choice and help me keep sentences simple."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Tense Tangler",
+  "icon": "🐙",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Since I came to this country, I [am learning] a lot about the way of life here.",
+    "options": [
+     "Since I came to this country, I have learned a lot about the way of life here.",
+     "Since I came to this country, I learn a lot about the way of life here.",
+     "Since I came to this country, I had learned a lot about the way of life here."
+    ],
+    "answer": 0,
+    "why": "Since … up to now → present perfect.",
+    "rule": "2-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [arrive] here only a short time ago.",
+    "options": [
+     "I have arrived here only a short time ago.",
+     "I arrived here only a short time ago.",
+     "I am arriving here only a short time ago."
+    ],
+    "answer": 1,
+    "why": "ago → simple past: arrived.",
+    "rule": "1-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [am] here since last Friday.",
+    "options": [
+     "I was here since last Friday.",
+     "I am being here since last Friday.",
+     "I have been here since last Friday."
+    ],
+    "answer": 2,
+    "why": "since last Friday, still true → have been.",
+    "rule": "2-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "How long [you are living] here?",
+    "options": [
+     "How long are you living here?",
+     "How long have you been living here?",
+     "How long you have lived here?"
+    ],
+    "answer": 1,
+    "why": "How long, up to now → have you been living.",
+    "rule": "2-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [been] here for almost two years.",
+    "options": [
+     "I have been here for almost two years.",
+     "I am here for almost two years.",
+     "I being here for almost two years."
+    ],
+    "answer": 0,
+    "why": "been needs have: I have been.",
+    "rule": "2-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "Why [you no have been] in class for the last couple of days?",
+    "options": [
+     "Why you haven't been in class for the last couple of days?",
+     "Why didn't you been in class for the last couple of days?",
+     "Why haven't you been in class for the last couple of days?"
+    ],
+    "answer": 2,
+    "why": "Question: haven't comes before you.",
+    "rule": "2-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [am coaching] a soccer team for the last two months.",
+    "options": [
+     "I have been coaching a soccer team for the last two months.",
+     "I was coaching a soccer team for the last two months.",
+     "I coach a soccer team for the last two months."
+    ],
+    "answer": 0,
+    "why": "for the last two months → have been coaching.",
+    "rule": "2-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I was a child, I [had lived] with my aunt instead of my parents.",
+    "options": [
+     "When I was a child, I have lived with my aunt instead of my parents.",
+     "When I was a child, I lived with my aunt instead of my parents.",
+     "When I was a child, I had been living with my aunt instead of my parents."
+    ],
+    "answer": 1,
+    "why": "One finished past time → simple past: lived.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My uncle [has die] before I [am] born, so I never knew him.",
+    "options": [
+     "My uncle died before I am born, so I never knew him.",
+     "My uncle has died before I was born, so I never knew him.",
+     "My uncle had died before I was born, so I never knew him."
+    ],
+    "answer": 2,
+    "why": "Earlier past: had died. Then: was born.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "[I'm living] in my cousin's apartment since I [have arrived] here.",
+    "options": [
+     "I've been living in my cousin's apartment since I arrived here.",
+     "I'm living in my cousin's apartment since I arrived here.",
+     "I've been living in my cousin's apartment since I have arrived here."
+    ],
+    "answer": 0,
+    "why": "have been living … since + simple past.",
+    "rule": "2-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "[It very] small, and we are sharing the bedroom.",
+    "options": [
+     "It very small, and we share the bedroom.",
+     "It is very small, and we are sharing the bedroom.",
+     "It has very small, and we are sharing the bedroom."
+    ],
+    "answer": 1,
+    "why": "A sentence needs a verb: It is.",
+    "rule": "1-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [am needing] my own place, but I [don't find] one so far.",
+    "options": [
+     "I need my own place, but I haven't found one so far.",
+     "I am needing my own place, but I haven't found one so far.",
+     "I need my own place, but I didn't find one so far."
+    ],
+    "answer": 0,
+    "why": "need = state verb. so far → haven't found.",
+    "rule": "2-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "My grandfather [had lived] in a small village in Italy when he was a child.",
+    "options": [
+     "My grandfather has lived in a small village in Italy when he was a child.",
+     "My grandfather had been living in a small village in Italy when he was a child.",
+     "My grandfather lived in a small village in Italy when he was a child."
+    ],
+    "answer": 2,
+    "why": "One finished past time → simple past: lived.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "At 19, he [had moved] to Rome, where he [had met] and [had married] my grandmother in 1957.",
+    "options": [
+     "At 19, he moved to Rome, where he met and married my grandmother in 1957.",
+     "At 19, he has moved to Rome, where he has met and has married my grandmother in 1957.",
+     "At 19, he had moved to Rome, where he met and married my grandmother in 1957."
+    ],
+    "answer": 0,
+    "why": "Events in time order → simple past.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My father [had been] born in Rome in 1960. I [am] born in Rome in 1989.",
+    "options": [
+     "My father has been born in Rome in 1960. I was born in Rome in 1989.",
+     "My father was born in Rome in 1960. I was born in Rome in 1989.",
+     "My father was born in Rome in 1960. I am born in Rome in 1989."
+    ],
+    "answer": 1,
+    "why": "in 1960 / in 1989 → simple past: was born.",
+    "rule": "1-4"
+   }
+  ]
+ }
+}

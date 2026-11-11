@@ -1,0 +1,22 @@
+[
+  {"id": "ch01", "num": 1, "title": "Present and Past", "file": "chapters/ch01.json"},
+  {"id": "ch02", "num": 2, "title": "Perfect Tenses", "file": "chapters/ch02.json"},
+  {"id": "ch03", "num": 3, "title": "Future Time"},
+  {"id": "ch04", "num": 4, "title": "Review of Verb Tenses"},
+  {"id": "ch05", "num": 5, "title": "Subject-Verb Agreement"},
+  {"id": "ch06", "num": 6, "title": "Nouns"},
+  {"id": "ch07", "num": 7, "title": "Articles"},
+  {"id": "ch08", "num": 8, "title": "Pronouns"},
+  {"id": "ch09", "num": 9, "title": "Modals, Part 1"},
+  {"id": "ch10", "num": 10, "title": "Modals, Part 2"},
+  {"id": "ch11", "num": 11, "title": "The Passive"},
+  {"id": "ch12", "num": 12, "title": "Noun Clauses"},
+  {"id": "ch13", "num": 13, "title": "Adjective Clauses"},
+  {"id": "ch14", "num": 14, "title": "Gerunds and Infinitives, Part 1"},
+  {"id": "ch15", "num": 15, "title": "Gerunds and Infinitives, Part 2"},
+  {"id": "ch16", "num": 16, "title": "Coordinating Conjunctions"},
+  {"id": "ch17", "num": 17, "title": "Adverb Clauses"},
+  {"id": "ch18", "num": 18, "title": "Reducing Adverb Clauses"},
+  {"id": "ch19", "num": 19, "title": "Cause, Contrast, and Condition"},
+  {"id": "ch20", "num": 20, "title": "Conditionals and Wishes"}
+]
