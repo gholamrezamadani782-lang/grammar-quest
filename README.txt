@@ -9,7 +9,7 @@ PUT IT ONLINE ONCE (on a computer, about 5 minutes)
    and drag it all into the page. Click "Commit changes".
 3. Go to Settings > Pages. Under "Branch" choose "main" and "/ (root)". Save.
 4. Wait 1-2 minutes. Your address is:
-   https://YOUR-USERNAME.github.io/grammar-quest/
+   https://gholamrezamadani782-lang.github.io/grammar-quest/
 
 INSTALL ON THE IPAD (once, with internet)
 1. Open that address in Safari (not Chrome).
