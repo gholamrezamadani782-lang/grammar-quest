@@ -1,0 +1,2418 @@
+{
+ "id": "ch04",
+ "num": 4,
+ "title": "Review of Verb Tenses",
+ "subtitle": "Present, past and future together",
+ "icon": "🎡",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "It's so noisy right now. Everyone shouting and making a lot of noise in the halls.",
+    "answer": "wrong",
+    "why": "right now → is shouting. The verb be is missing.",
+    "fix": "It's so noisy right now. Everyone is shouting and making a lot of noise in the halls.",
+    "rule": "1-1"
+   },
+   {
+    "type": "judge",
+    "text": "I haven't been in this town very long. I just get here two weeks ago.",
+    "answer": "wrong",
+    "why": "two weeks ago → simple past: got.",
+    "fix": "I haven't been in this town very long. I just got here two weeks ago.",
+    "rule": "2-6"
+   },
+   {
+    "type": "judge",
+    "text": "I'm really glad you to come to my hometown next year.",
+    "answer": "wrong",
+    "why": "next year → are going to come / will come.",
+    "fix": "I'm really glad you are going to come to my hometown next year.",
+    "rule": "3-1"
+   },
+   {
+    "type": "judge",
+    "text": "Why were you deciding to become a nurse?",
+    "answer": "wrong",
+    "why": "One finished decision → Why did you decide.",
+    "fix": "Why did you decide to become a nurse?",
+    "rule": "1-5"
+   },
+   {
+    "type": "judge",
+    "text": "I am in Australia for the last four months. During this time, I had done many things and saw many places.",
+    "answer": "wrong",
+    "why": "Up to now → have been, have done, (have) seen.",
+    "fix": "I have been in Australia for the last four months. During this time, I have done many things and seen many places.",
+    "rule": "2-4"
+   },
+   {
+    "type": "judge",
+    "text": "By the time I graduate from college, I will have taken out several student loans.",
+    "answer": "correct",
+    "why": "Before a future time → will have taken.",
+    "rule": "3-6"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "4-1",
+   "tag": "Mix",
+   "t": "pres",
+   "title": "Malia's busy schedule",
+   "full": "Review of Chapters 1 to 3 (Exercises 1 and 3)",
+   "lesson": {
+    "title": "Learn: find the time clue",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "First find the time",
+      "lines": [
+       "Every sentence has a time clue.",
+       "The clue picks the tense."
+      ],
+      "visual": [
+       "all-tenses"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Clue words",
+      "lines": [
+       "Tap the clues. Each one calls a tense."
+      ],
+      "chips": [
+       {
+        "label": "🔵 Simple present",
+        "words": [
+         "every evening",
+         "always",
+         "usually"
+        ]
+       },
+       {
+        "label": "🟠 Present progressive",
+        "words": [
+         "right now",
+         "this semester"
+        ]
+       },
+       {
+        "label": "🟢 Simple past",
+        "words": [
+         "yesterday",
+         "an hour ago",
+         "on Saturday"
+        ]
+       },
+       {
+        "label": "🟣 In progress then",
+        "words": [
+         "at that time",
+         "when I got there"
+        ]
+       },
+       {
+        "label": "🚀 Future",
+        "words": [
+         "tomorrow night",
+         "after she has dinner"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Her classes ___ at 6:00 every evening.",
+      "options": [
+       "begin",
+       "are beginning",
+       "began"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "every evening = a habit → simple present."
+     },
+     {
+      "type": "compare",
+      "title": "Finished, or in progress?",
+      "left": {
+       "label": "One finished event",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Yesterday I called her at 6:30.",
+         "hl": [
+          [
+           "called",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "In progress at that time",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "She was attending class at that time.",
+         "hl": [
+          [
+           "was attending",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "A long action in the middle + a short event = was -ing + simple past."
+     },
+     {
+      "type": "choice",
+      "text": "I called at 6:30, but she didn't answer because she ___ class at that time.",
+      "options": [
+       "attended",
+       "was attending"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "In progress at 6:30 → was attending."
+     },
+     {
+      "type": "learn",
+      "title": "How long? Add have / had",
+      "lines": [
+       "Up to now → has been -ing.",
+       "Up to a past moment → had been -ing."
+      ],
+      "visual": [
+       "been-ing"
+      ],
+      "examples": [
+       {
+        "text": "She has been sleeping for an hour.",
+        "hl": [
+         [
+          "has been sleeping",
+          "perfprog"
+         ]
+        ]
+       },
+       {
+        "text": "She had been sleeping for 15 minutes by the time I got there.",
+        "hl": [
+         [
+          "had been sleeping",
+          "pastperfprog"
+         ]
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Find the time clue first. It picks the tense.",
+     "How long? up to now → has been -ing. Up to then → had been -ing."
+    ],
+    "timeline": [
+     "all-tenses",
+     "been-ing"
+    ],
+    "examples": [
+     {
+      "text": "Her classes begin at 6:00 every evening.",
+      "hl": [
+       [
+        "begin",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "She was attending class at that time.",
+      "hl": [
+       [
+        "was attending",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "She has been sleeping for an hour.",
+      "hl": [
+       [
+        "has been sleeping",
+        "perfprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Classes and breakfast",
+     "icon": "🍳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Malia is in my evening speech class. She ___ speech this semester.",
+       "verb": "study",
+       "accept": [
+        "is studying"
+       ],
+       "why": "this semester = around now → is studying."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ some other night classes.",
+       "verb": "take, also",
+       "accept": [
+        "is also taking"
+       ],
+       "why": "also goes after is.",
+       "ctx": "This semester"
+      },
+      {
+       "type": "fill",
+       "text": "Her classes ___ at 6:00 every evening.",
+       "verb": "begin",
+       "accept": [
+        "begin"
+       ],
+       "why": "every evening = a habit → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "Yesterday Malia woke up at 5:00 A.M. She ___ when her alarm clock rang.",
+       "verb": "get up, already",
+       "accept": [
+        "had already gotten up",
+        "had already got up"
+       ],
+       "why": "Before the alarm rang → had already gotten up."
+      },
+      {
+       "type": "fill",
+       "text": "She had already gotten up when her alarm clock ___.",
+       "verb": "ring",
+       "accept": [
+        "rang"
+       ],
+       "why": "The later past event → simple past: rang."
+      },
+      {
+       "type": "fill",
+       "text": "Malia ___ at the mall during the day.",
+       "verb": "work",
+       "accept": [
+        "works"
+       ],
+       "why": "Her regular job → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ a big breakfast before she leaves.",
+       "verb": "eat, always",
+       "accept": [
+        "always eats"
+       ],
+       "why": "always + simple present."
+      },
+      {
+       "type": "fill",
+       "text": "She always eats a big breakfast before she ___.",
+       "verb": "leave",
+       "accept": [
+        "leaves"
+       ],
+       "why": "A habit → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ time for a lunch break.",
+       "verb": "have, not, usually",
+       "accept": [
+        "doesn't usually have",
+        "usually doesn't have"
+       ],
+       "why": "A habit, negative → doesn't usually have."
+      }
+     ]
+    },
+    {
+     "title": "Phone calls and a nap",
+     "icon": "📞",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Malia is in class every evening from 6:00 to 9:00. Yesterday I ___ her at 6:30.",
+       "verb": "call",
+       "accept": [
+        "called"
+       ],
+       "why": "Yesterday, one event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "But she ___.",
+       "verb": "answer, not",
+       "accept": [
+        "didn't answer"
+       ],
+       "why": "Yesterday, negative → didn't answer.",
+       "ctx": "Yesterday I called her at 6:30."
+      },
+      {
+       "type": "fill",
+       "text": "She didn't answer because she ___ class at that time.",
+       "verb": "attend",
+       "accept": [
+        "was attending"
+       ],
+       "why": "In progress at 6:30 → was attending."
+      },
+      {
+       "type": "fill",
+       "text": "I can't call her tomorrow night because she ___ class then.",
+       "verb": "attend",
+       "accept": [
+        "will be attending",
+        "is going to be attending"
+       ],
+       "why": "In progress at a future time → will be attending."
+      },
+      {
+       "type": "fill",
+       "text": "She took a nap from 10:00 to 10:30. I arrived at 10:15. When I ___ there, Malia was sleeping.",
+       "verb": "get",
+       "accept": [
+        "got"
+       ],
+       "why": "A finished past event → got."
+      },
+      {
+       "type": "fill",
+       "text": "When I got there at 10:15, Malia ___.",
+       "verb": "sleep",
+       "accept": [
+        "was sleeping"
+       ],
+       "why": "In progress when I arrived → was sleeping."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ for 15 minutes by the time I got there.",
+       "verb": "sleep",
+       "accept": [
+        "had been sleeping"
+       ],
+       "why": "How long before a past moment → had been sleeping."
+      }
+     ]
+    },
+    {
+     "title": "Asleep now, dinner tomorrow",
+     "icon": "😴",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Right now Malia ___.",
+       "verb": "sleep",
+       "accept": [
+        "is sleeping"
+       ],
+       "why": "Right now → is sleeping."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ asleep an hour ago.",
+       "verb": "fall",
+       "accept": [
+        "fell"
+       ],
+       "why": "an hour ago → simple past: fell."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ for an hour.",
+       "verb": "sleep",
+       "accept": [
+        "has been sleeping"
+       ],
+       "why": "How long up to now → has been sleeping.",
+       "ctx": "She fell asleep an hour ago. She is still asleep."
+      },
+      {
+       "type": "fill",
+       "text": "Tomorrow is her first day off. After she ___ dinner, Malia is going to meet me.",
+       "verb": "have",
+       "accept": [
+        "has",
+        "has had"
+       ],
+       "why": "After after (future) → present, not will."
+      },
+      {
+       "type": "fill",
+       "text": "After she has dinner, Malia ___ me and a friend.",
+       "verb": "meet",
+       "accept": [
+        "is going to meet",
+        "will meet"
+       ],
+       "why": "The main part → future."
+      },
+      {
+       "type": "fill",
+       "text": "In other words, she ___ dinner by the time she meets us.",
+       "verb": "have",
+       "accept": [
+        "will have had"
+       ],
+       "why": "Finished before a future time → will have had."
+      },
+      {
+       "type": "fill",
+       "text": "She will have had dinner by the time she ___ us.",
+       "verb": "meet",
+       "accept": [
+        "meets"
+       ],
+       "why": "After by the time (future) → simple present."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Now, yesterday, tonight",
+     "task": "Claude asks about right now, yesterday at this time, and tonight at midnight.",
+     "claudePrompt": "You are my English speaking partner. I am reviewing all the verb tenses. Ask me these questions one at a time and wait for my answer: What are you doing right now? How long have you been doing that? What were you doing at this time yesterday? What did you do after that? What will you be doing tonight at midnight? What places have you visited in your life, and when did you visit one of them? I answer in complete sentences. Check that my tense matches the tense of your question."
+    }
+   ]
+  },
+  {
+   "id": "4-2",
+   "tag": "Mix",
+   "t": "past",
+   "title": "Story time",
+   "full": "Review of Chapters 1 to 3 (Exercises 7, 9, 10 and 13)",
+   "lesson": {
+    "title": "Learn: telling a story",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Stories walk in the simple past",
+      "lines": [
+       "One event after another → simple past."
+      ],
+      "visual": [
+       "simple-past"
+      ],
+      "chips": [
+       "I got home.",
+       "I took out my key.",
+       "I put it in the lock."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Step back with had",
+      "lines": [
+       "Something happened even earlier? Use had + part 3."
+      ],
+      "visual": [
+       "past-perfect"
+      ],
+      "examples": [
+       {
+        "text": "I felt very stupid about what I had done.",
+        "hl": [
+         [
+          "felt",
+          "past"
+         ],
+         [
+          "had done",
+          "pastperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I felt very stupid about what I ___.",
+      "options": [
+       "have done",
+       "had done"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It happened before “felt” → had done."
+     },
+     {
+      "type": "compare",
+      "title": "Finished or up to now?",
+      "left": {
+       "label": "Finished time → simple past",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Three weeks ago, Vanessa started the book.",
+         "hl": [
+          [
+           "started",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Up to now → present perfect",
+       "t": "perf",
+       "examples": [
+        {
+         "text": "She hasn't finished it yet.",
+         "hl": [
+          [
+           "hasn't finished",
+           "perf"
+          ]
+         ]
+        },
+        {
+         "text": "She has read many famous novels.",
+         "hl": [
+          [
+           "has read",
+           "perf"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "ago, yesterday → simple past. yet, in her lifetime, since → present perfect."
+     },
+     {
+      "type": "choice",
+      "text": "Since the beginning of the summer, Vanessa ___ three other books.",
+      "options": [
+       "finished",
+       "has finished"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Since … up to now → has finished."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A story: events in the simple past. Earlier events: had + part 3.",
+     "Up to now (yet, since, so far, just) → present perfect."
+    ],
+    "timeline": [
+     "past-perfect",
+     "pp-vs-past"
+    ],
+    "examples": [
+     {
+      "text": "I felt very stupid about what I had done.",
+      "hl": [
+       [
+        "felt",
+        "past"
+       ],
+       [
+        "had done",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "She hasn't finished it yet.",
+      "hl": [
+       [
+        "hasn't finished",
+        "perf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A silly mistake (1)",
+     "icon": "🔑",
+     "items": [
+      {
+       "type": "fill",
+       "text": "When I ___ home to my apartment last night, I took out my key.",
+       "verb": "get",
+       "accept": [
+        "got",
+        "came"
+       ],
+       "why": "last night → simple past.",
+       "ctx": "A story about last night"
+      },
+      {
+       "type": "fill",
+       "text": "I ___ out my key to open the door as usual.",
+       "verb": "take",
+       "accept": [
+        "took"
+       ],
+       "why": "take, took, taken."
+      },
+      {
+       "type": "fill",
+       "text": "As always, I ___ it in the lock.",
+       "verb": "put",
+       "accept": [
+        "put"
+       ],
+       "why": "put, put, put."
+      },
+      {
+       "type": "fill",
+       "text": "But the door ___.",
+       "verb": "open, not",
+       "accept": [
+        "didn't open"
+       ],
+       "why": "Past, negative → didn't open."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ my key again and again with no luck.",
+       "verb": "try",
+       "accept": [
+        "tried"
+       ],
+       "why": "try → tried."
+      },
+      {
+       "type": "fill",
+       "text": "So I ___ on the door for my wife to let me in.",
+       "verb": "knock",
+       "accept": [
+        "knocked"
+       ],
+       "why": "Regular: knocked."
+      },
+      {
+       "type": "fill",
+       "text": "Finally the door ___.",
+       "verb": "open",
+       "accept": [
+        "opened"
+       ],
+       "why": "The next event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "But I ___ my wife on the other side.",
+       "verb": "see, not",
+       "accept": [
+        "didn't see"
+       ],
+       "why": "Past, negative → didn't see."
+      }
+     ]
+    },
+    {
+     "title": "A silly mistake (2)",
+     "icon": "🚪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I ___ a stranger.",
+       "verb": "see",
+       "accept": [
+        "saw"
+       ],
+       "why": "see, saw, seen.",
+       "ctx": "The door opened…"
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to get into the wrong apartment!",
+       "verb": "try",
+       "accept": [
+        "had been trying",
+        "had tried",
+        "was trying"
+       ],
+       "why": "All that time before the door opened → had been trying."
+      },
+      {
+       "type": "fill",
+       "text": "I quickly ___.",
+       "verb": "apologize",
+       "accept": [
+        "apologized"
+       ],
+       "why": "The next event → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "And I ___ to my own apartment.",
+       "verb": "go",
+       "accept": [
+        "went"
+       ],
+       "why": "go, went, gone."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ very stupid.",
+       "verb": "feel",
+       "accept": [
+        "felt"
+       ],
+       "why": "feel, felt, felt."
+      },
+      {
+       "type": "fill",
+       "text": "I felt very stupid about what I ___.",
+       "verb": "do",
+       "accept": [
+        "had done"
+       ],
+       "why": "Before “felt” → had done."
+      },
+      {
+       "type": "choice",
+       "text": "The man broke the lock on the door.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The key just didn't work. Wrong door!",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "The man saw a stranger in the apartment.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A stranger opened the door.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "The man's wife opened the door.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A stranger opened it, not his wife.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "The man felt he had done something stupid.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He felt very stupid about it.",
+       "ask": "True or false?"
+      }
+     ]
+    },
+    {
+     "title": "Tom's busy day",
+     "icon": "🧹",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Tom has had a busy day so far. He ___ the floor.",
+       "verb": "vacuum",
+       "accept": [
+        "has been vacuuming"
+       ],
+       "why": "What has he been doing? → has been + -ing.",
+       "ctx": "Right now Tom is taking a break. What has he been doing?"
+      },
+      {
+       "type": "fill",
+       "text": "He ___ dinner.",
+       "verb": "cook",
+       "accept": [
+        "has been cooking"
+       ],
+       "why": "An activity up to now → has been cooking.",
+       "ctx": "What has Tom been doing?"
+      },
+      {
+       "type": "fill",
+       "text": "Yesterday Tom ___ the car.",
+       "verb": "wash",
+       "accept": [
+        "washed"
+       ],
+       "why": "Yesterday → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "Yesterday he ___ some flowers.",
+       "verb": "plant",
+       "accept": [
+        "planted"
+       ],
+       "why": "Yesterday → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "Look! Tom ___ the bike. It works again.",
+       "verb": "fix, just",
+       "accept": [
+        "has just fixed"
+       ],
+       "why": "just + result now → has just fixed."
+      },
+      {
+       "type": "fill",
+       "text": "Tom was tired last night because he ___ English words all day.",
+       "verb": "memorize",
+       "accept": [
+        "had been memorizing"
+       ],
+       "why": "How long before a past moment → had been memorizing."
+      }
+     ]
+    },
+    {
+     "title": "Vanessa's reading list",
+     "icon": "📚",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Three weeks ago, Vanessa ___ to read War and Peace.",
+       "verb": "start",
+       "accept": [
+        "started"
+       ],
+       "why": "Three weeks ago → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ it because her literature teacher recommended it.",
+       "verb": "read",
+       "accept": [
+        "is reading"
+       ],
+       "why": "She is in the middle of it now → is reading."
+      },
+      {
+       "type": "fill",
+       "text": "It is a very long novel, and it ___ many characters.",
+       "verb": "have",
+       "accept": [
+        "has"
+       ],
+       "why": "A fact; have = state verb → has."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ reading it yet.",
+       "verb": "finish, not",
+       "accept": [
+        "hasn't finished"
+       ],
+       "why": "not … yet → hasn't finished."
+      },
+      {
+       "type": "fill",
+       "text": "Since the beginning of the summer, Vanessa ___ three other books.",
+       "verb": "finish",
+       "accept": [
+        "has finished"
+       ],
+       "why": "Since … up to now → has finished."
+      },
+      {
+       "type": "fill",
+       "text": "In her lifetime, she ___ many famous novels.",
+       "verb": "read",
+       "accept": [
+        "has read"
+       ],
+       "why": "In her life up to now → has read."
+      },
+      {
+       "type": "fill",
+       "text": "This is the first Tolstoy novel she ___.",
+       "verb": "read, ever",
+       "accept": [
+        "has ever read"
+       ],
+       "why": "the first … she has ever read."
+      },
+      {
+       "type": "fill",
+       "text": "After she finishes this book, she ___ another Tolstoy novel.",
+       "verb": "read",
+       "accept": [
+        "is going to read",
+        "will read"
+       ],
+       "why": "Her next plan → future."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What has Tom been doing?",
+     "task": "Imagine a busy day. Tell Claude what you have been doing, then say it again with yesterday and with just.",
+     "claudePrompt": "You are my English writing partner. I am reviewing present perfect progressive, simple past and present perfect. Ask me to imagine a busy day at home and write four sentences about what I have been doing (present perfect progressive), using verbs like cook, fix, vacuum, memorize, plant, wash. Then ask me to rewrite them with 'yesterday' (simple past), and then with 'just' (present perfect). Check each tense."
+    },
+    {
+     "title": "Make up a story",
+     "task": "Scene: a kitchen full of smoke, a dog with a cake, a surprised family at the door. Tell what happened.",
+     "claudePrompt": "You are my English speaking partner. Describe this scene to me and ask me to invent the story: a family opens their front door and finds the kitchen full of smoke, the dog eating a birthday cake, and water on the floor. Ask me one question at a time: What had happened before they came home? What was the dog doing when they opened the door? What did they do next? What are they going to do now? Check my verb tenses."
+    },
+    {
+     "title": "About this course",
+     "task": "Claude asks about your studies: what you have studied, will have studied, and are going to do.",
+     "claudePrompt": "You are my English speaking partner. Ask me these questions one at a time: What have you been studying lately? What is one tense you have studied, and when did you study it? What will you have studied by the end of this month? Had you studied verb tenses before this year? Where are you going to be living next year? What has happened in the news recently? I answer in complete sentences. Check that my tense matches your question."
+    }
+   ]
+  },
+  {
+   "id": "4-3",
+   "tag": "Mix",
+   "t": "perf",
+   "title": "Pick the right tense",
+   "full": "Review of Chapters 1 to 3 (Exercises 2, 4, 11 and 12)",
+   "lesson": {
+    "title": "Learn: helper verbs tell the tense",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Look at the next word",
+      "lines": [
+       "The helper verb matches the word after it."
+      ],
+      "chips": [
+       {
+        "label": "+ -ing",
+        "words": [
+         "is snowing",
+         "was driving",
+         "has been raining"
+        ]
+       },
+       {
+        "label": "+ past participle",
+        "words": [
+         "has seen",
+         "had started",
+         "have been"
+        ]
+       },
+       {
+        "label": "+ simple verb",
+        "words": [
+         "will be",
+         "will stop"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "have or had?",
+      "lines": [
+       "Now is the end point → have / has.",
+       "A past moment is the end point → had."
+      ],
+      "visual": [
+       "have-pp"
+      ],
+      "examples": [
+       {
+        "text": "Billy has never seen snow before.",
+        "hl": [
+         [
+          "has never seen",
+          "perf"
+         ]
+        ]
+       },
+       {
+        "text": "I had never been in such hot weather before that trip.",
+        "hl": [
+         [
+          "had never been",
+          "pastperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It ___ been raining sideways all morning. When will it stop?",
+      "options": [
+       "has",
+       "had",
+       "is"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Up to now + been → has."
+     },
+     {
+      "type": "learn",
+      "title": "State verbs stay simple",
+      "lines": [
+       "like, want, know, believe: no -ing."
+      ],
+      "visual": [
+       "stative"
+      ],
+      "chips": [
+       "✅ I believe he is right.",
+       "❌ I am believing he is right.",
+       "✅ We want to see it again.",
+       "❌ We are wanting to see it again."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I don't like my job. I ___ my brother is right.",
+      "options": [
+       "am believing",
+       "believe"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "believe is a state verb. No -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "-ing after is / was / been. Past participle after has / have / had.",
+     "Now is the end point → have. A past moment is the end point → had."
+    ],
+    "timeline": [
+     "have-pp",
+     "been-ing"
+    ],
+    "examples": [
+     {
+      "text": "Billy has never seen snow before.",
+      "hl": [
+       [
+        "has never seen",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "I had never been in such hot weather before.",
+      "hl": [
+       [
+        "had never been",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A stay in Canada",
+     "icon": "🍁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When I was in my country…",
+       "options": [
+        "When I was in my country, I want to come to Canada for my studies.",
+        "When I was in my country, I wanted to come to Canada for my studies.",
+        "When I was in my country, I have wanted to come to Canada for my studies."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "When I was … = finished time → wanted.",
+       "ask": "Choose the correct sentence",
+       "rule": "1-4"
+      },
+      {
+       "type": "choice",
+       "text": "I had cousins in Canada, so…",
+       "options": [
+        "I wasn't nervous because I had cousins in Canada.",
+        "I didn't be nervous because I had cousins in Canada.",
+        "I not nervous because I had cousins in Canada."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be in the past, negative → wasn't.",
+       "ask": "Choose the correct sentence",
+       "rule": "1-4"
+      },
+      {
+       "type": "choice",
+       "text": "Three months, and I'm still here.",
+       "options": [
+        "I had been here for three months and I like it.",
+        "I have been here for three months and I like it.",
+        "I am here for three months and I like it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Up to now → have been.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-3"
+      },
+      {
+       "type": "choice",
+       "text": "My plan for the year",
+       "options": [
+        "I study here for a year.",
+        "I will studying here for a year.",
+        "I am going to study here for a year."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A plan → am going to + study.",
+       "ask": "Choose the correct sentence",
+       "rule": "3-2"
+      },
+      {
+       "type": "choice",
+       "text": "When I go home…",
+       "options": [
+        "When I return to my country, I will have been away for 15 months.",
+        "When I return to my country, I am going to be away for 15 months.",
+        "When I return to my country, I was away for 15 months."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "How long by a future time → will have been.",
+       "ask": "Choose the correct sentence",
+       "rule": "3-6"
+      }
+     ]
+    },
+    {
+     "title": "The weather (1)",
+     "icon": "🌨️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It ___ snowing again.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Now + -ing, it → is.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "It is snowing again. The roads ___ be slippery.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        7
+       ],
+       "why": "A prediction + be → will.",
+       "rule": "3-1"
+      },
+      {
+       "type": "choice",
+       "text": "Billy ___ never seen snow before. He likes trying to catch the flakes.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In his life up to now, he → has.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "It ___ been raining sideways all morning. When will it stop?",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Up to now + been raining → has.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "Shhh! I ___ trying to listen to the forecast.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        4
+       ],
+       "why": "Right now, I → am.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "It sounds like a heat advisory ___ be in effect later this week.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        7
+       ],
+       "why": "later this week + be → will.",
+       "rule": "3-1"
+      },
+      {
+       "type": "choice",
+       "text": "When we ___ visiting my in-laws in India last month, there was a heat wave.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        6
+       ],
+       "why": "In progress in the past, we → were.",
+       "rule": "1-5"
+      }
+     ]
+    },
+    {
+     "title": "The weather (2)",
+     "icon": "🌪️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It was like an oven. I ___ never been in such hot weather before.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Before that past time → had.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "The lack of rain this month ___ made the smog really bad.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Result now, it → has.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "My eyes ___ been watering since I got here.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "since … up to now, eyes = they → have.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "When I ___ driving on the freeway, freezing rain had just started to fall.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        5
+       ],
+       "why": "In progress in the past, I → was.",
+       "rule": "1-5"
+      },
+      {
+       "type": "choice",
+       "text": "When I was driving on the freeway, freezing rain ___ just started to fall. It was scary.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Just before that past moment → had.",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "It ___ been a colder than normal winter. I'm ready for spring.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Up to now, it → has.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ never experienced such violent weather until I came here.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "is",
+        "am",
+        "was",
+        "were",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "until I came (past) → had.",
+       "rule": "2-8"
+      }
+     ]
+    },
+    {
+     "title": "Best sentence (1)",
+     "icon": "🏆",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Since last January",
+       "options": [
+        "I am studying here since last January.",
+        "I was studying here since last January.",
+        "I have been studying here since last January."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "since … up to now → have been studying.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "Hassan went home.",
+       "options": [
+        "By the time Hassan returned to his country, he had been away from home for more than three years.",
+        "By the time Hassan returned to his country, he has been away from home for more than three years.",
+        "By the time Hassan returned to his country, he is away from home for more than three years."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a past time → had been.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "Neil's plan",
+       "options": [
+        "After Neil will graduate, he is going to return to his hometown.",
+        "After Neil graduate, he going to return to his hometown.",
+        "After Neil graduates, he is going to return to his hometown."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "After after → graduates. Main part: is going to.",
+       "ask": "Choose the correct sentence",
+       "rule": "3-3"
+      },
+      {
+       "type": "choice",
+       "text": "Still single",
+       "options": [
+        "I want to get married, but I don't meet the right person yet.",
+        "I want to get married, but I haven't met the right person yet.",
+        "I want to get married, but I hadn't met the right person yet."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "not … yet, up to now → haven't met.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "A great movie",
+       "options": [
+        "We have been seeing that movie twice, and now we want to see it again.",
+        "We have seen that movie twice, and now we are wanting to see it again.",
+        "We have seen that movie twice, and now we want to see it again."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "twice → have seen. want = state verb.",
+       "ask": "Choose the correct sentence",
+       "rule": "1-3"
+      }
+     ]
+    },
+    {
+     "title": "Best sentence (2)",
+     "icon": "🥇",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My job",
+       "options": [
+        "I don't like my job. My brother wants me to quit. I believe he is right.",
+        "I am not like my job. My brother wants me to quit. I am believing he is right.",
+        "I don't like my job. My brother want me to quit. I believed he is right."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "like, want, believe: state verbs, simple present.",
+       "ask": "Choose the correct sentence",
+       "rule": "1-3"
+      },
+      {
+       "type": "choice",
+       "text": "After dinner",
+       "options": [
+        "We cleaned up the kitchen after our dinner guests were leaving.",
+        "We cleaned up the kitchen after our dinner guests are going to leave.",
+        "We cleaned up the kitchen after our dinner guests left."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A past story: after + simple past.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-8"
+      },
+      {
+       "type": "choice",
+       "text": "My neighbors",
+       "options": [
+        "I know my neighbors Mr. and Mrs. Sanchez ever since I was a child.",
+        "I have known my neighbors Mr. and Mrs. Sanchez ever since I was a child.",
+        "I knew my neighbors Mr. and Mrs. Sanchez ever since I have been a child."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ever since … up to now → have known.",
+       "ask": "Choose the correct sentence",
+       "rule": "2-3"
+      },
+      {
+       "type": "choice",
+       "text": "An earthquake",
+       "options": [
+        "Many scientists believe there will be a major earthquake in California in the near future.",
+        "Many scientists believe there going to be a major earthquake in California in the near future.",
+        "Many scientists believe there will to be a major earthquake in California in the near future."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will + be. No to.",
+       "ask": "Choose the correct sentence",
+       "rule": "3-1"
+      },
+      {
+       "type": "choice",
+       "text": "The common cold",
+       "options": [
+        "By the end of the 21st century, man will had discovered the cure for the common cold.",
+        "By the end of the 21st century, man will have discovered the cure for the common cold.",
+        "By the end of the 21st century, man will discovered the cure for the common cold."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "By a future time → will have discovered.",
+       "ask": "Choose the correct sentence",
+       "rule": "3-6"
+      }
+     ]
+    },
+    {
+     "title": "What comes next? (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The plane has just landed.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "Now the passengers are waiting in the baggage claim area.",
+        "After the plane lands, the passengers will be waiting in the baggage claim area."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has just landed = it is on the ground now.",
+       "rule": "2-4"
+      },
+      {
+       "type": "listen",
+       "say": "Bill has been lying on the beach all afternoon.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "Then his boss called.",
+        "He's finding it very relaxing."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has been lying = still there now.",
+       "rule": "2-7"
+      },
+      {
+       "type": "listen",
+       "say": "It's been raining for three days.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "When did it stop?",
+        "When's it going to stop?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's been raining = it is still raining.",
+       "rule": "2-7"
+      },
+      {
+       "type": "listen",
+       "say": "The movie had already started when we got to the theater.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "People said “Shhh” as we sat down.",
+        "We missed the first half hour."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had already started = we were late.",
+       "rule": "2-8"
+      },
+      {
+       "type": "listen",
+       "say": "Maya has finished her last flying lesson.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "Her training is finished.",
+        "She's going to take another lesson."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has finished her last lesson = no more lessons.",
+       "rule": "2-4"
+      },
+      {
+       "type": "listen",
+       "say": "The police have been looking for the bank robber for ten years.",
+       "ask": "Which sentence comes next?",
+       "options": [
+        "They never caught him.",
+        "They'll never catch him."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have been looking = still looking now.",
+       "rule": "2-7"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "The nosy reporter",
+     "task": "Pretend to be a famous person. Claude is a reporter asking about your past, present and future.",
+     "claudePrompt": "You are a friendly but nosy newspaper reporter and I am a famous living person (I will tell you my name first; I can invent answers). Interview me with one question at a time about my past (When did you ...?), my life up to now (How long have you ...? Have you ever ...?), my present (What are you working on now?) and my future (What are you going to do next year?). Check that the tense of my answer matches your question."
+    }
+   ]
+  },
+  {
+   "id": "4-4",
+   "tag": "Mix",
+   "t": "prog",
+   "title": "Yoko's 3 A.M. email",
+   "full": "Review of Chapters 1 to 3 (Exercises 14 to 16)",
+   "lesson": {
+    "title": "Learn: tenses in a real email",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "An email mixes tenses",
+      "lines": [
+       "News up to now, things that happened, plans.",
+       "Each part has its own tense."
+      ],
+      "chips": [
+       {
+        "label": "Up to now",
+        "words": [
+         "lately",
+         "since last Thursday",
+         "in the past two weeks"
+        ]
+       },
+       {
+        "label": "Finished",
+        "words": [
+         "two weeks ago",
+         "yesterday"
+        ]
+       },
+       {
+        "label": "This moment",
+        "words": [
+         "right now"
+        ]
+       },
+       {
+        "label": "Next",
+        "words": [
+         "in a few hours",
+         "after I get back"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "lately vs. yesterday",
+      "left": {
+       "label": "lately, since → have been",
+       "t": "perfprog",
+       "examples": [
+        {
+         "text": "I have been very busy lately.",
+         "hl": [
+          [
+           "have been",
+           "perf"
+          ]
+         ]
+        },
+        {
+         "text": "A friend has been staying with me since last Thursday.",
+         "hl": [
+          [
+           "has been staying",
+           "perfprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "yesterday, ago → simple past",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Yesterday we went to a park.",
+         "hl": [
+          [
+           "went",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "I got your email two weeks ago.",
+         "hl": [
+          [
+           "got",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Ask: is the time finished, or does it reach now?"
+     },
+     {
+      "type": "choice",
+      "text": "A friend ___ with me since last Thursday.",
+      "options": [
+       "stayed",
+       "has been staying"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "since … up to now → has been staying."
+     },
+     {
+      "type": "learn",
+      "title": "Now and next",
+      "lines": [
+       "right now → am -ing.",
+       "A timetable → simple present. After + present."
+      ],
+      "visual": [
+       "present-future"
+      ],
+      "examples": [
+       {
+        "text": "Right now I am sitting at my desk.",
+        "hl": [
+         [
+          "am sitting",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "My friend's plane leaves in a few hours.",
+        "hl": [
+         [
+          "leaves",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm going to take a nap after I ___ back from the airport.",
+      "options": [
+       "get",
+       "will get"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After after → simple present."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "lately / since / in the past two weeks → have (been) …",
+     "yesterday / ago → simple past. Right now → am -ing."
+    ],
+    "timeline": [
+     "pp-vs-past",
+     "present-future"
+    ],
+    "examples": [
+     {
+      "text": "I have been very busy lately.",
+      "hl": [
+       [
+        "have been",
+        "perf"
+       ]
+      ]
+     },
+     {
+      "text": "Yesterday we went to a park.",
+      "hl": [
+       [
+        "went",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "Right now I am sitting at my desk.",
+      "hl": [
+       [
+        "am sitting",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Busy weeks",
+     "icon": "📬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I ___ your long email about two weeks ago.",
+       "options": [
+        "get",
+        "got"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "two weeks ago → simple past.",
+       "rule": "1-4"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ to find time to write you back ever since.",
+       "options": [
+        "was trying",
+        "have been trying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ever since, up to now → have been trying.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ very busy lately.",
+       "options": [
+        "am",
+        "have been"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "lately → have been.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "In the past two weeks, I ___ four tests.",
+       "options": [
+        "was having",
+        "have had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "In the past two weeks, up to now → have had.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "A friend ___ with me since last Thursday.",
+       "options": [
+        "stayed",
+        "has been staying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "since … still here → has been staying.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "She wanted to see the city, so we ___ a lot of time visiting interesting places.",
+       "options": [
+        "were spending",
+        "have been spending"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "This visit, up to now → have been spending.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "We ___ to the zoo, the art museum, and the waterfront.",
+       "options": [
+        "have been",
+        "were going"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No time said, up to now → have been.",
+       "rule": "2-4"
+      }
+     ]
+    },
+    {
+     "title": "Yesterday and tonight",
+     "icon": "🎈",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Yesterday we ___ to a park.",
+       "options": [
+        "went",
+        "have gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Yesterday → simple past.",
+       "rule": "2-6"
+      },
+      {
+       "type": "choice",
+       "text": "And we ___ a hot-air balloon race.",
+       "options": [
+        "watch",
+        "watched"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Still yesterday → simple past.",
+       "ctx": "Yesterday at the park",
+       "rule": "1-4"
+      },
+      {
+       "type": "choice",
+       "text": "Between the city and my exams, I ___ enough time to breathe.",
+       "options": [
+        "am barely having",
+        "have barely had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "These weeks up to now → have barely had.",
+       "rule": "2-4"
+      },
+      {
+       "type": "choice",
+       "text": "Right now it ___ 3:00 A.M.",
+       "options": [
+        "is",
+        "has been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now, a fact → is.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "And I ___ at my desk.",
+       "options": [
+        "am sitting",
+        "was sitting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → am sitting.",
+       "ctx": "Right now it is 3:00 A.M.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ here for five hours doing my studying.",
+       "options": [
+        "am sitting",
+        "have been sitting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "for five hours, up to now → have been sitting.",
+       "rule": "2-7"
+      },
+      {
+       "type": "choice",
+       "text": "My friend's plane ___ in a few hours.",
+       "options": [
+        "leaves",
+        "leave"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A timetable; plane = it → leaves.",
+       "rule": "3-4"
+      }
+     ]
+    },
+    {
+     "title": "Almost morning",
+     "icon": "🌅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "So I ___ not to go to bed.",
+       "options": [
+        "decided",
+        "am deciding"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The decision is made → simple past.",
+       "ctx": "My friend's plane leaves in a few hours.",
+       "rule": "1-4"
+      },
+      {
+       "type": "choice",
+       "text": "That's why I ___ to you at such an early hour.",
+       "options": [
+        "write",
+        "am writing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Right now → am writing.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ a little sleepy, but I would rather stay up.",
+       "options": [
+        "am getting",
+        "get"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Changing right now → am getting.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ a nap after I get back from the airport.",
+       "options": [
+        "take",
+        "am going to take"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A plan → am going to take.",
+       "rule": "3-2"
+      },
+      {
+       "type": "choice",
+       "text": "I am going to take a nap after I ___ back.",
+       "options": [
+        "get",
+        "will get"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After after → simple present.",
+       "rule": "3-3"
+      },
+      {
+       "type": "choice",
+       "text": "How ___ along?",
+       "options": [
+        "do you get",
+        "are you getting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "These days → are you getting.",
+       "rule": "1-1"
+      },
+      {
+       "type": "choice",
+       "text": "How ___ your classes going?",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "classes = they + going → are.",
+       "rule": "1-2"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Write your own email",
+     "task": "Write a short email to a friend: what you're doing now, did yesterday, have done lately, and will do next.",
+     "claudePrompt": "You are my English writing partner. Ask me to write a short email (5-7 sentences) to a friend about my life: what I am doing right now, what I do every day, what I have been doing lately, something I did at a specific time, and something I am going to do. Then check all my verbs for correct tense, show me the corrections one at a time, and tell me what I did well."
+    },
+    {
+     "title": "News report",
+     "task": "Tell Claude about a recent news event in 4-5 sentences. Claude asks two questions.",
+     "claudePrompt": "You are my English speaking partner. Ask me to summarize a recent news event in 4-5 sentences. Then ask me two follow-up questions about it (one about the past, one about what will happen next). Check my verb tenses, especially simple past for finished events and present perfect for recent news with no time."
+    },
+    {
+     "title": "Beat procrastination",
+     "task": "The Pomodoro idea: work 25 minutes, rest 5. Tell Claude about your own study habits.",
+     "claudePrompt": "You are my English speaking partner. The Pomodoro technique means working for 25 minutes without interruption and then taking a 5-minute break. Ask me one question at a time: Do you have problems with procrastination? What have you tried so far? Have you ever used a timer to study? Are you going to try the Pomodoro technique this week? Check my verb tenses."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Time Twister",
+  "icon": "🌀",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "In 1985, my parents [were emigrating] to the United States from Brazil.",
+    "options": [
+     "In 1985, my parents have emigrated to the United States from Brazil.",
+     "In 1985, my parents emigrated to the United States from Brazil.",
+     "In 1985, my parents emigrate to the United States from Brazil."
+    ],
+    "answer": 1,
+    "why": "In 1985, one finished event → emigrated.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "Before that, they [have never traveled] outside of Brazil.",
+    "options": [
+     "Before that, they had never traveled outside of Brazil.",
+     "Before that, they never travel outside of Brazil.",
+     "Before that, they are never traveling outside of Brazil."
+    ],
+    "answer": 0,
+    "why": "Before a past time → had never traveled.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "Eventually, they [settle] in California.",
+    "options": [
+     "Eventually, they have settled in California.",
+     "Eventually, they are settling in California.",
+     "Eventually, they settled in California."
+    ],
+    "answer": 2,
+    "why": "A finished event in the story → settled.",
+    "rule": "1-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "My twin sister and I were born ten years later and [are growing] up there.",
+    "options": [
+     "My twin sister and I were born ten years later and grew up there.",
+     "My twin sister and I were born ten years later and grow up there.",
+     "My twin sister and I were born ten years later and have been growing up there."
+    ],
+    "answer": 0,
+    "why": "Childhood is finished → grew up.",
+    "rule": "1-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Last year, I [had gone] to Brazil for the first time to meet extended family.",
+    "options": [
+     "Last year, I have gone to Brazil for the first time to meet extended family.",
+     "Last year, I went to Brazil for the first time to meet extended family.",
+     "Last year, I was going to Brazil for the first time to meet extended family."
+    ],
+    "answer": 1,
+    "why": "Last year, one event → went.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "I had always [want] to learn more about my family's background.",
+    "options": [
+     "I had always wanting to learn more about my family's background.",
+     "I had always wants to learn more about my family's background.",
+     "I had always wanted to learn more about my family's background."
+    ],
+    "answer": 2,
+    "why": "had + past participle: wanted.",
+    "rule": "2-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My dreams finally [were coming] true.",
+    "options": [
+     "My dreams finally came true.",
+     "My dreams finally come true.",
+     "My dreams finally have been coming true."
+    ],
+    "answer": 0,
+    "why": "One finished event → came true.",
+    "rule": "1-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "It's so noisy right now. Everyone [shouting] in the halls.",
+    "options": [
+     "It's so noisy right now. Everyone shouts in the halls.",
+     "It's so noisy right now. Everyone is shouting in the halls.",
+     "It's so noisy right now. Everyone shouted in the halls."
+    ],
+    "answer": 1,
+    "why": "right now → is shouting.",
+    "rule": "1-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "I haven't been in this town very long. I just [get] here two weeks ago.",
+    "options": [
+     "I haven't been in this town very long. I just got here two weeks ago.",
+     "I haven't been in this town very long. I have just gotten here two weeks ago.",
+     "I haven't been in this town very long. I am just getting here two weeks ago."
+    ],
+    "answer": 0,
+    "why": "two weeks ago → simple past: got.",
+    "rule": "2-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "Why [were you deciding] to become a nurse?",
+    "options": [
+     "Why you decided to become a nurse?",
+     "Why have you been deciding to become a nurse?",
+     "Why did you decide to become a nurse?"
+    ],
+    "answer": 2,
+    "why": "One finished decision → did you decide.",
+    "rule": "1-5"
+   }
+  ]
+ }
+}

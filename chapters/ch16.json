@@ -1,0 +1,2741 @@
+{
+ "id": "ch16",
+ "num": 16,
+ "title": "Coordinating Conjunctions",
+ "subtitle": "and, but, or · both… and · either… or",
+ "icon": "🐍",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "By obeying the speed limit, we can save energy, lives, and it costs us less.",
+    "answer": "wrong",
+    "why": "noun, noun, and noun.",
+    "fix": "By obeying the speed limit, we can save energy, lives, and money.",
+    "rule": "16-1"
+   },
+   {
+    "type": "judge",
+    "text": "My home offers me a feeling of security, warm, and love.",
+    "answer": "wrong",
+    "why": "All nouns: warmth.",
+    "fix": "My home offers me a feeling of security, warmth, and love.",
+    "rule": "16-1"
+   },
+   {
+    "type": "judge",
+    "text": "On my vacation, I lost a suitcase, broke my glasses, and I missed my flight home.",
+    "answer": "wrong",
+    "why": "verb, verb, and verb. No extra I.",
+    "fix": "On my vacation, I lost a suitcase, broke my glasses, and missed my flight home.",
+    "rule": "16-1"
+   },
+   {
+    "type": "judge",
+    "text": "My sister brother-in-law, and I wanted to see a movie.",
+    "answer": "wrong",
+    "why": "Comma after the first item too.",
+    "fix": "My sister, brother-in-law, and I wanted to see a movie.",
+    "rule": "16-2"
+   },
+   {
+    "type": "judge",
+    "text": "I appreciate your help, I was feeling overwhelmed by all the work I had to do.",
+    "answer": "wrong",
+    "why": "Two sentences → period.",
+    "fix": "I appreciate your help. I was feeling overwhelmed by all the work I had to do.",
+    "rule": "16-3"
+   },
+   {
+    "type": "judge",
+    "text": "I refused Alicia's help, she became very angry and shouted at me.",
+    "answer": "wrong",
+    "why": "Add and after the comma.",
+    "fix": "I refused Alicia's help, and she became very angry and shouted at me.",
+    "rule": "16-3"
+   },
+   {
+    "type": "judge",
+    "text": "Either the sales clerk or the manager have your refund.",
+    "answer": "wrong",
+    "why": "the manager is closer → has.",
+    "fix": "Either the sales clerk or the manager has your refund.",
+    "rule": "16-4"
+   },
+   {
+    "type": "judge",
+    "text": "Both the bride and the groom were late for their wedding.",
+    "answer": "correct",
+    "why": "both … and → plural.",
+    "rule": "16-4"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "16-1",
+   "tag": "16-1",
+   "t": "state",
+   "title": "Same shape, both sides",
+   "full": "Parallel Structure",
+   "lesson": {
+    "title": "Learn: and, but, or join the same kind of word",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "and, but, or, nor",
+      "lines": [
+       "They join words with the SAME job."
+      ],
+      "visual": [
+       "parallel"
+      ],
+      "chips": [
+       "Steve and his friend are coming to dinner. (noun + noun)",
+       "Susan raised her hand and snapped her fingers. (verb + verb)",
+       "These shoes are old but comfortable. (adjective + adjective)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My roommate is friendly and ___.",
+      "options": [
+       "kindness",
+       "kind"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "adjective + and + adjective."
+     },
+     {
+      "type": "learn",
+      "title": "You can drop the repeat",
+      "lines": [
+       "The second helping verb or to can go."
+      ],
+      "chips": [
+       "He is waving his arms and (is) shouting at us.",
+       "He wants to watch TV or (to) listen to some music."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Kate studies by listening to music and ___ at the same time.",
+      "options": [
+       "sing",
+       "singing",
+       "sings"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "listening and singing: -ing + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Check every item in a list",
+      "lines": [
+       "All three must match."
+      ],
+      "chips": [
+       "✅ We can save energy, lives, and money.",
+       "❌ We can save energy, lives, and it costs us less."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My home offers me a feeling of security, ___, and love.",
+      "options": [
+       "warm",
+       "warmth"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "noun, noun, and noun."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "and / but / or / nor join the same forms: noun + noun, verb + verb, adjective + adjective.",
+     "In a list, every item has the same form."
+    ],
+    "timeline": [
+     "parallel"
+    ],
+    "examples": [
+     {
+      "text": "These shoes are old but comfortable.",
+      "hl": [
+       [
+        "old",
+        "state"
+       ],
+       [
+        "comfortable",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Susan raised her hand and snapped her fingers.",
+      "hl": [
+       [
+        "raised",
+        "pres"
+       ],
+       [
+        "snapped",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A birthday adventure",
+     "icon": "🌉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We hiked to a WATERFALL and a BRIDGE.",
+       "options": [
+        "nouns",
+        "verbs",
+        "adjectives",
+        "infinitives"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Things → nouns.",
+       "ask": "The two words are…"
+      },
+      {
+       "type": "choice",
+       "text": "The bridge was extremely HIGH and SCARY.",
+       "options": [
+        "nouns",
+        "verbs",
+        "adjectives",
+        "infinitives"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "They describe the bridge → adjectives.",
+       "ask": "The two words are…"
+      },
+      {
+       "type": "choice",
+       "text": "I felt SHAKY but EXCITED when I got on it.",
+       "options": [
+        "nouns",
+        "verbs",
+        "adjectives",
+        "infinitives"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "They describe I → adjectives.",
+       "ask": "The two words are…"
+      },
+      {
+       "type": "choice",
+       "text": "The bridge ROCKED and SWAYED.",
+       "options": [
+        "nouns",
+        "verbs",
+        "adjectives",
+        "infinitives"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Actions → verbs.",
+       "ask": "The two words are…"
+      },
+      {
+       "type": "choice",
+       "text": "I tried not TO HURRY or TO LOOK down.",
+       "options": [
+        "nouns",
+        "verbs",
+        "adjectives",
+        "infinitives"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "to + verb → infinitives.",
+       "ask": "The two words are…"
+      },
+      {
+       "type": "choice",
+       "text": "to watch",
+       "options": [
+        "hearing",
+        "to listen",
+        "saw",
+        "to decide",
+        "having thought"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "Infinitives: to + verb.",
+       "ask": "Tap ALL the parallel forms"
+      },
+      {
+       "type": "choice",
+       "text": "beautiful",
+       "options": [
+        "friendly",
+        "nice",
+        "honest",
+        "happily",
+        "goodness"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "Adjectives. (happily = adverb, goodness = noun)",
+       "ask": "Tap ALL the parallel forms"
+      },
+      {
+       "type": "choice",
+       "text": "texting",
+       "options": [
+        "contacted",
+        "to type",
+        "chatting",
+        "email",
+        "sending"
+       ],
+       "answer": [
+        2,
+        4
+       ],
+       "why": "-ing forms.",
+       "ask": "Tap ALL the parallel forms"
+      },
+      {
+       "type": "choice",
+       "text": "rapidly",
+       "options": [
+        "difficult",
+        "fast",
+        "good",
+        "slowly",
+        "wild"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "Adverbs: fast, slowly.",
+       "ask": "Tap ALL the parallel forms"
+      }
+     ]
+    },
+    {
+     "title": "My roommate",
+     "icon": "🛋️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My roommate, Kate, is friendly and ___.",
+       "options": [
+        "helpful",
+        "kind",
+        "kindness"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "adjective + and + adjective.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Friendliness and ___ are admirable qualities in a roommate.",
+       "options": [
+        "kind",
+        "kindness",
+        "kindly"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "noun + and + noun."
+      },
+      {
+       "type": "choice",
+       "text": "We are opposites. She likes to be busy and ___.",
+       "options": [
+        "actively",
+        "activity",
+        "active"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "adjective + and + adjective."
+      },
+      {
+       "type": "choice",
+       "text": "I'm a quieter type. I prefer to stay home or ___ time with a few friends.",
+       "options": [
+        "spending",
+        "spend",
+        "to spending"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "to stay or (to) spend."
+      },
+      {
+       "type": "choice",
+       "text": "Kate studies by listening to music and ___ at the same time.",
+       "options": [
+        "sing",
+        "singing",
+        "sings"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "-ing + and + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I sit at the library and ___ in silence.",
+       "options": [
+        "work",
+        "working",
+        "worked"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "sit and work: same tense."
+      },
+      {
+       "type": "choice",
+       "text": "We get along well, though. We're both very neat and ___.",
+       "options": [
+        "tidy",
+        "tidily",
+        "have tidiness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "adjective + and + adjective."
+      },
+      {
+       "type": "choice",
+       "text": "We take turns cleaning our apartment and ___ the cooking.",
+       "options": [
+        "do",
+        "to do",
+        "doing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "cleaning and doing."
+      }
+     ]
+    },
+    {
+     "title": "Road rage",
+     "icon": "🚦",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The driver ran a stop sign and ___ down the street.",
+       "verb": "he was driving at a high speed",
+       "accept": [
+        "sped"
+       ],
+       "why": "ran and sped: verb + verb, past.",
+       "ctx": "Use ONE word."
+      },
+      {
+       "type": "fill",
+       "text": "A pedestrian was shocked and ___ that she was almost hit in the crosswalk.",
+       "verb": "her feelings were upset",
+       "accept": [
+        "upset"
+       ],
+       "why": "shocked and upset: adjectives."
+      },
+      {
+       "type": "fill",
+       "text": "The driver spoke impatiently and ___.",
+       "verb": "his words were rude",
+       "accept": [
+        "rudely"
+       ],
+       "why": "impatiently and rudely: adverbs."
+      },
+      {
+       "type": "fill",
+       "text": "He walked toward the officer. He was tall and ___.",
+       "verb": "has a lot of strength",
+       "accept": [
+        "strong"
+       ],
+       "why": "tall and strong: adjectives."
+      },
+      {
+       "type": "fill",
+       "text": "Another police officer arrived and ___ him into custody.",
+       "verb": "she took",
+       "accept": [
+        "took"
+       ],
+       "why": "arrived and took: verbs, past."
+      },
+      {
+       "type": "judge",
+       "text": "By obeying the speed limit, we can save energy, lives, and it costs us less.",
+       "answer": "wrong",
+       "why": "noun, noun, and noun.",
+       "fix": "By obeying the speed limit, we can save energy, lives, and money."
+      },
+      {
+       "type": "judge",
+       "text": "My home offers me a feeling of security, warm, and love.",
+       "answer": "wrong",
+       "why": "All nouns: warmth.",
+       "fix": "My home offers me a feeling of security, warmth, and love."
+      },
+      {
+       "type": "judge",
+       "text": "On my vacation, I lost a suitcase, broke my glasses, and I missed my flight home.",
+       "answer": "wrong",
+       "why": "verb, verb, and verb. No extra I.",
+       "fix": "On my vacation, I lost a suitcase, broke my glasses, and missed my flight home."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "16-2",
+   "tag": "16-2",
+   "t": "plan",
+   "title": "Commas in a list",
+   "full": "Parallel Structure: Using Commas",
+   "lesson": {
+    "title": "Learn: two things or three?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two items: no comma",
+      "lines": [
+       "A and B."
+      ],
+      "visual": [
+       "commas-list"
+      ],
+      "chips": [
+       "✅ Steve and Joe are in class.",
+       "❌ Steve, and Joe are in class."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Three or more: commas",
+      "lines": [
+       "A, B, and C. The comma before and is your choice."
+      ],
+      "chips": [
+       "Steve, Joe and Rita are in class.",
+       "Steve, Joe, and Rita are in class.",
+       "Steve, Joe, Rita, Jan, and Kim are in class."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "Oranges, and lemons are high in vitamin C.",
+       "Oranges and lemons are high in vitamin C."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Two items → no comma."
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "Oranges lemons and broccoli are high in vitamin C.",
+       "Oranges, lemons, and broccoli are high in vitamin C."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Three items → commas."
+     },
+     {
+      "type": "learn",
+      "title": "No comma after the last item",
+      "lines": [
+       "The list ends. The sentence goes on."
+      ],
+      "chips": [
+       "✅ Oranges, lemons, and broccoli are high in vitamin C.",
+       "❌ Oranges, lemons, and broccoli, are high in vitamin C."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Two items: A and B (no comma).",
+     "Three or more: A, B, and C. (The comma before and is optional.)"
+    ],
+    "timeline": [
+     "commas-list"
+    ],
+    "examples": [
+     {
+      "text": "Steve and Joe are in class.",
+      "hl": [
+       [
+        "Steve and Joe",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Steve, Joe, and Rita are in class.",
+      "hl": [
+       [
+        "Steve, Joe, and Rita",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Oranges and lemons",
+     "icon": "🍊",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Oranges, and lemons are high in vitamin C.",
+       "answer": "wrong",
+       "why": "Two items → no comma.",
+       "fix": "Oranges and lemons are high in vitamin C."
+      },
+      {
+       "type": "judge",
+       "text": "Oranges and lemons are high in vitamin C.",
+       "answer": "correct",
+       "why": "Two items → no comma."
+      },
+      {
+       "type": "judge",
+       "text": "Oranges, lemons, and broccoli are high in vitamin C.",
+       "answer": "correct",
+       "why": "Three items → commas."
+      },
+      {
+       "type": "judge",
+       "text": "Oranges, lemons and broccoli are high in vitamin C.",
+       "answer": "correct",
+       "why": "The comma before and is optional."
+      },
+      {
+       "type": "judge",
+       "text": "Oranges lemons and broccoli are high in vitamin C.",
+       "answer": "wrong",
+       "why": "Three items need commas.",
+       "fix": "Oranges, lemons, and broccoli are high in vitamin C."
+      },
+      {
+       "type": "judge",
+       "text": "Oranges, lemons, and broccoli, are high in vitamin C.",
+       "answer": "wrong",
+       "why": "No comma after the last item.",
+       "fix": "Oranges, lemons, and broccoli are high in vitamin C."
+      },
+      {
+       "type": "judge",
+       "text": "My sister brother-in-law, and I wanted to see a movie.",
+       "answer": "wrong",
+       "why": "Comma after the first item too.",
+       "fix": "My sister, brother-in-law, and I wanted to see a movie."
+      }
+     ]
+    },
+    {
+     "title": "At a hotel",
+     "icon": "🏨",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The price of the room includes Wi-Fi buffet breakfast and use of the exercise room.",
+       "options": [
+        "Wi-Fi buffet breakfast, and use of the exercise room",
+        "Wi-Fi, buffet breakfast, and use of the exercise room",
+        "Wi-Fi, buffet breakfast, and, use of the exercise room"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three items → commas.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The price of the room includes Wi-Fi and buffet breakfast.",
+       "options": [
+        "Wi-Fi and buffet breakfast",
+        "Wi-Fi, and buffet breakfast"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two items → no comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "We got an adjoining room for our son his wife and their daughter.",
+       "options": [
+        "our son his wife, and their daughter",
+        "our son, his wife, and their daughter"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three items → commas.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Our son's wife and daughter met us at the rooftop pool.",
+       "options": [
+        "Our son's wife and daughter met us",
+        "Our son's wife, and daughter met us"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two items → no comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "My wife called room service asked about vegetarian options and ordered a meal.",
+       "options": [
+        "called room service asked about vegetarian options, and ordered a meal",
+        "called room service, asked about vegetarian options, and ordered a meal"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three verbs → commas.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "We searched for an on-demand movie with action adventure and suspense.",
+       "options": [
+        "action, adventure, and suspense",
+        "action adventure and, suspense"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Three items → commas.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "We enjoy action and adventure films.",
+       "options": [
+        "action, and adventure films",
+        "action and adventure films"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two items → no comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The front-desk clerk the bellhop the concierge and the housekeeping staff were very attentive and courteous.",
+       "options": [
+        "The front-desk clerk, the bellhop, the concierge, and the housekeeping staff were very attentive and courteous.",
+        "The front-desk clerk, the bellhop, the concierge, and the housekeeping staff, were very attentive, and courteous."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Four subjects → commas. Two adjectives → none.",
+       "ask": "Choose the correct punctuation"
+      }
+     ]
+    },
+    {
+     "title": "Molly's party",
+     "icon": "💐",
+     "items": [
+      {
+       "type": "choice",
+       "text": "She is opening the door. She is greeting her guests.",
+       "options": [
+        "She is opening the door, and greeting her guests.",
+        "She is opening the door and greeting her guests."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two verbs → and, no comma.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "She is taking their coats. She is hanging them up in the closet.",
+       "options": [
+        "She is taking their coats and hanging them up in the closet.",
+        "She is taking their coats and hangs them up in the closet."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "taking and hanging: same form.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Molly is kind. Molly is generous. Molly is trustworthy.",
+       "options": [
+        "Molly is kind and generous, trustworthy.",
+        "Molly is kind, generous, and trustworthy."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three adjectives: A, B, and C.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Please try to speak loudly. Please try to speak clearly.",
+       "options": [
+        "Please try to speak loudly and clearly.",
+        "Please try to speak loudly and clear."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "adverb + and + adverb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Her boyfriend has come with flowers. He has come with candy. He has come with a ring.",
+       "options": [
+        "Her boyfriend has come with flowers and candy and with a ring.",
+        "Her boyfriend has come with flowers, candy, and a ring."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three nouns: A, B, and C.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "He has knelt down in front of her. He has taken her hand. He has asked her to marry him.",
+       "options": [
+        "He has knelt down in front of her, taken her hand, and asked her to marry him.",
+        "He has knelt down in front of her, took her hand, and asking her to marry him."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has + knelt, taken, and asked.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Molly is calm enough to listen. Molly is calm enough to say yes.",
+       "options": [
+        "Molly is calm enough to listen and saying yes.",
+        "Molly is calm enough to listen and say yes."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "to listen and (to) say.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "They talked about getting married in June. Or they could get married in August.",
+       "options": [
+        "They talked about getting married in June or August.",
+        "They talked about getting married in June or to marry in August."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "June or August: noun + or + noun.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Molly was surprised. She was not shocked.",
+       "options": [
+        "Molly was surprised but not shock.",
+        "Molly was surprised but not shocked."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "adjective + but not + adjective.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "They had discussed getting married at some point. They had not discussed getting married this year.",
+       "options": [
+        "They had discussed getting married at some point but not this year.",
+        "They had discussed getting married at some point, not but this year."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "… but not …",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "Finish and combine",
+     "icon": "🏝️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The mountain road was curvy. It was steep. It was narrow.",
+       "options": [
+        "The mountain road was curvy, steep, and narrowly.",
+        "The mountain road was curvy, steep, and narrow."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three adjectives.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I dislike living in a city because of the air pollution, the crime, and ___.",
+       "options": [
+        "it is noisy",
+        "noisy",
+        "the noise"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "noun, noun, and noun."
+      },
+      {
+       "type": "choice",
+       "text": "Hawaii has a warm climate, beautiful beaches, and many interesting tropical ___.",
+       "options": [
+        "trees and flowers",
+        "trees and flowering",
+        "trees and to see flowers"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "noun + and + noun."
+      },
+      {
+       "type": "choice",
+       "text": "Mary Hart would make a good president because she works effectively with others, has a reputation for integrity, and ___.",
+       "options": [
+        "independent thinking",
+        "thinks independently",
+        "to think independently"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "works, has, and thinks: three verbs."
+      },
+      {
+       "type": "choice",
+       "text": "A good friend needs to be honest and ___.",
+       "options": [
+        "kindness",
+        "kindly",
+        "kind"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "adjective + and + adjective."
+      },
+      {
+       "type": "choice",
+       "text": "In my free time, I like to read, watch movies, and ___.",
+       "options": [
+        "play soccer",
+        "playing soccer",
+        "soccer playing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to read, watch, and play."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Three things",
+     "task": "Finish Claude's sentences with three things: “A good friend needs to be …, …, and ….”",
+     "claudePrompt": "You are my English speaking partner. Give me one sentence to complete at a time, and I must give two or three parallel items: A good friend needs to be ___ and ___. / English teachers should have these qualities: ___, ___, and ___. / Three easy ways for me to relax are ___, ___, and ___. / In my free time, I like to ___, ___, and ___. / Three activities I don't enjoy are .... Check that my items have the same form (all adjectives, all -ing, all nouns) and that I use commas for three items."
+    }
+   ]
+  },
+  {
+   "id": "16-3",
+   "tag": "16-3",
+   "t": "plan",
+   "title": "Two sentences, one comma?",
+   "full": "Punctuation for Independent Clauses; Connecting Them with And and But",
+   "lesson": {
+    "title": "Learn: period, or comma + and / but",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A comma alone is not enough",
+      "lines": [
+       "Two full sentences need a period."
+      ],
+      "visual": [
+       "clauses-punct"
+      ],
+      "chips": [
+       "✅ It was raining hard. There was a strong wind.",
+       "❌ It was raining hard, there was a strong wind.",
+       "✅ It was raining hard; there was a strong wind."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "Thunder clouds rolled by, flashes of lightning lit the sky.",
+       "Thunder clouds rolled by. Flashes of lightning lit the sky."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Two sentences → period, not just a comma."
+     },
+     {
+      "type": "learn",
+      "title": "Or: comma + and / but",
+      "lines": [
+       "The comma goes BEFORE and / but."
+      ],
+      "chips": [
+       "It was raining hard, and there was a strong wind.",
+       "It was late, but he didn't care."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "I refused Alicia's help, she became very angry.",
+       "I refused Alicia's help, and she became very angry."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "comma + and joins two sentences."
+     },
+     {
+      "type": "learn",
+      "title": "Informal choices",
+      "lines": [
+       "You may start a sentence with And / But. Very short? The comma can go."
+      ],
+      "chips": [
+       "It was raining hard. And there was a strong wind.",
+       "It was late. But he didn't care.",
+       "It was raining hard and there was a strong wind."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Two complete sentences: use a period (or a semicolon). Never only a comma.",
+     "Or join them: sentence + , and / , but + sentence."
+    ],
+    "timeline": [
+     "clauses-punct"
+    ],
+    "examples": [
+     {
+      "text": "It was raining hard. There was a strong wind.",
+      "hl": [
+       [
+        "hard. There",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "It was raining hard, and there was a strong wind.",
+      "hl": [
+       [
+        ", and",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "It was late, but he didn't care.",
+      "hl": [
+       [
+        ", but",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Correct punctuation?",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Thunder clouds rolled by. Flashes of lightning lit the sky.",
+       "answer": "correct",
+       "why": "Two sentences, a period."
+      },
+      {
+       "type": "judge",
+       "text": "Thunder clouds rolled by, flashes of lightning lit the sky.",
+       "answer": "wrong",
+       "why": "A comma alone can't join sentences.",
+       "fix": "Thunder clouds rolled by. Flashes of lightning lit the sky."
+      },
+      {
+       "type": "judge",
+       "text": "Thunder clouds rolled by, and flashes of lightning lit the sky.",
+       "answer": "correct",
+       "why": "comma + and."
+      },
+      {
+       "type": "judge",
+       "text": "Thunder clouds rolled by. And flashes of lightning lit the sky.",
+       "answer": "correct",
+       "why": "Informal: a sentence can start with And."
+      },
+      {
+       "type": "judge",
+       "text": "I'd like to help, let me know what you need.",
+       "answer": "wrong",
+       "why": "Two sentences → period.",
+       "fix": "I'd like to help. Let me know what you need."
+      },
+      {
+       "type": "judge",
+       "text": "I'll be happy to come. Thank you for inviting me.",
+       "answer": "correct",
+       "why": "Two sentences, a period."
+      },
+      {
+       "type": "judge",
+       "text": "It's really hard to know what to do, we don't have much information yet.",
+       "answer": "wrong",
+       "why": "Two sentences → period.",
+       "fix": "It's really hard to know what to do. We don't have much information yet."
+      },
+      {
+       "type": "judge",
+       "text": "I'll pay you back. I get paid tomorrow.",
+       "answer": "correct",
+       "why": "Two sentences, a period."
+      },
+      {
+       "type": "judge",
+       "text": "Let's wait to see what happens, we don't want to make a decision prematurely.",
+       "answer": "wrong",
+       "why": "Two sentences → period.",
+       "fix": "Let's wait to see what happens. We don't want to make a decision prematurely."
+      },
+      {
+       "type": "judge",
+       "text": "I appreciate your help, I was feeling overwhelmed by all the work I had to do.",
+       "answer": "wrong",
+       "why": "Two sentences → period.",
+       "fix": "I appreciate your help. I was feeling overwhelmed by all the work I had to do."
+      }
+     ]
+    },
+    {
+     "title": "Athletic conditioning class",
+     "icon": "🏋️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "some members did push-ups some members lifted weights",
+       "options": [
+        "Some members did push-ups, some members lifted weights.",
+        "Some members did push-ups. Some members lifted weights."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "some members did push-ups and some members lifted weights",
+       "options": [
+        "Some members did push-ups, and some members lifted weights.",
+        "Some members did push-ups and, some members lifted weights."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The comma goes before and.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "the teacher demonstrated correct form a group of new members watched",
+       "options": [
+        "The teacher demonstrated correct form, a group of new members watched.",
+        "The teacher demonstrated correct form. A group of new members watched."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "the teacher demonstrated correct form and a group of new members watched",
+       "options": [
+        "The teacher demonstrated correct form, and a group of new members watched.",
+        "The teacher demonstrated correct form. and a group of new members watched."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "comma + and.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "an assistant was available to help but only a few people needed him",
+       "options": [
+        "An assistant was available to help but, only a few people needed him.",
+        "An assistant was available to help, but only a few people needed him."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The comma goes before but.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "an assistant was available to help only a few people needed him",
+       "options": [
+        "An assistant was available to help. Only a few people needed him.",
+        "An assistant was available to help, only a few people needed him."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "judge",
+       "text": "I refused Alicia's help, she became very angry and shouted at me.",
+       "answer": "wrong",
+       "why": "Add and after the comma.",
+       "fix": "I refused Alicia's help, and she became very angry and shouted at me."
+      }
+     ]
+    },
+    {
+     "title": "An email to Majda",
+     "icon": "📧",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We are still hoping we can get a bus, we will know later today.",
+       "options": [
+        "We are still hoping we can get a bus we will know later today.",
+        "We are still hoping we can get a bus. We will know later today."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "The first race starts at 4:00 the boys will be leaving school around 1:15",
+       "options": [
+        "The first race starts at 4:00. The boys will be leaving school around 1:15.",
+        "The first race starts at 4:00, the boys will be leaving school around 1:15."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "the boys will be leaving school around 1:15 the girls can leave at 1:30",
+       "options": [
+        "The boys will be leaving school around 1:15, the girls can leave at 1:30.",
+        "The boys will be leaving school around 1:15, and the girls can leave at 1:30."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "comma + and joins them.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "We always appreciate parent volunteers, thanks again for contacting me",
+       "options": [
+        "We always appreciate parent volunteers. Thanks again for contacting me.",
+        "We always appreciate parent volunteers thanks again, for contacting me."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "thanks again for contacting me, I will be back in touch soon",
+       "options": [
+        "Thanks again for contacting me, I will be back in touch soon.",
+        "Thanks again for contacting me. I will be back in touch soon."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      }
+     ]
+    },
+    {
+     "title": "Ziplining",
+     "icon": "🧗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ziplining began as a way to get people across impassible places like canyons and ___.",
+       "options": [
+        "rivers",
+        "crossing rivers",
+        "to cross rivers"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "canyons and rivers: noun + noun."
+      },
+      {
+       "type": "choice",
+       "text": "The concept is very simple, a cable is strung across a scenic area.",
+       "options": [
+        "The concept is very simple a cable is strung across a scenic area.",
+        "The concept is very simple. A cable is strung across a scenic area."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "…a lush forest or fast-moving river one end of the cable is higher than the other.",
+       "options": [
+        "…a lush forest or fast-moving river. One end of the cable is higher than the other.",
+        "…a lush forest or fast-moving river, one end of the cable is higher than the other."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A new sentence → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "A harness for the rider hangs from the cable, riders are strapped tightly into the harness.",
+       "options": [
+        "A harness for the rider hangs from the cable riders, are strapped tightly into the harness.",
+        "A harness for the rider hangs from the cable. Riders are strapped tightly into the harness."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "They climb to a platform, jump off, and ___ through the air.",
+       "options": [
+        "flying",
+        "fly",
+        "to fly"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "climb, jump, and fly."
+      },
+      {
+       "type": "choice",
+       "text": "Ziplining's popularity has spread worldwide, the longest zipline is in Sun City, South Africa.",
+       "options": [
+        "Ziplining's popularity has spread worldwide the longest zipline, is in Sun City, South Africa.",
+        "Ziplining's popularity has spread worldwide. The longest zipline is in Sun City, South Africa."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "Not all zipline rides are as hair-raising, companies strive to provide rides for all ages.",
+       "options": [
+        "Not all zipline rides are as hair-raising. Companies strive to provide rides for all ages.",
+        "Not all zipline rides are as hair-raising companies. Strive to provide rides for all ages."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Fix it"
+      },
+      {
+       "type": "choice",
+       "text": "Companies strive to provide exciting and ___ rides.",
+       "options": [
+        "safety",
+        "safe",
+        "safely"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "exciting and safe: adjectives."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "16-4",
+   "tag": "16-4",
+   "t": "plan",
+   "title": "Both… and, either… or",
+   "full": "Paired Conjunctions: Both … And; Not Only … But Also; Either … Or; Neither … Nor",
+   "lesson": {
+    "title": "Learn: four pairs",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Four pairs",
+      "lines": [
+       "They add emphasis."
+      ],
+      "chips": [
+       "both … and … (A + B)",
+       "not only … but also … (A + B, surprise!)",
+       "either … or … (A or B)",
+       "neither … nor … (not A, not B)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Which verb?",
+      "lines": [
+       "both … and → plural. The others → look at the closer subject."
+      ],
+      "visual": [
+       "paired"
+      ],
+      "chips": [
+       "Both my mother and my sister are here.",
+       "Not only my mother but also my sister is here.",
+       "Neither my sister nor my parents are here."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Either the sales clerk or the manager ___ your refund.",
+      "options": [
+       "has",
+       "have"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "the manager is closer → has."
+     },
+     {
+      "type": "choice",
+      "text": "Both the bride and the groom ___ late for their wedding.",
+      "options": [
+       "was",
+       "were"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "both … and → plural."
+     },
+     {
+      "type": "learn",
+      "title": "Keep it parallel",
+      "lines": [
+       "The same form after each half."
+      ],
+      "chips": [
+       "The research project will take both time and money.",
+       "I'll take either chemistry or physics next quarter.",
+       "That book is neither interesting nor accurate."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Sue saw not only a fox in the woods ___ a bear.",
+      "options": [
+       "but also",
+       "and also"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "not only … but also."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "both A and B + plural verb.",
+     "not only A but also B / either A or B / neither A nor B: the verb agrees with B."
+    ],
+    "timeline": [
+     "paired"
+    ],
+    "examples": [
+     {
+      "text": "Both my mother and my sister are here.",
+      "hl": [
+       [
+        "Both",
+        "plan"
+       ],
+       [
+        "and",
+        "plan"
+       ],
+       [
+        "are",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Neither my mother nor my sister is here.",
+      "hl": [
+       [
+        "Neither",
+        "plan"
+       ],
+       [
+        "nor",
+        "plan"
+       ],
+       [
+        "is here",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I'll take either chemistry or physics next quarter.",
+      "hl": [
+       [
+        "either",
+        "plan"
+       ],
+       [
+        "or",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "is or are?",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Both the teacher and the student ___ here.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Neither the teacher nor the student ___ here.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the student is closer → is."
+      },
+      {
+       "type": "choice",
+       "text": "Not only the teacher but also the student ___ here.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the student is closer → is."
+      },
+      {
+       "type": "choice",
+       "text": "Not only the teacher but also the students ___ here.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the students is closer → are."
+      },
+      {
+       "type": "choice",
+       "text": "Either the students or the teacher ___ planning to come.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the teacher is closer → is."
+      },
+      {
+       "type": "choice",
+       "text": "Either the teacher or the students ___ planning to come.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the students is closer → are."
+      },
+      {
+       "type": "choice",
+       "text": "Both the students and the teachers ___ planning to come.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Both the students and the teacher ___ planning to come.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → always plural."
+      },
+      {
+       "type": "judge",
+       "text": "Either the sales clerk or the manager have your refund.",
+       "answer": "wrong",
+       "why": "the manager is closer → has.",
+       "fix": "Either the sales clerk or the manager has your refund."
+      },
+      {
+       "type": "judge",
+       "text": "Both the bride and the groom were late for their wedding.",
+       "answer": "correct",
+       "why": "both … and → plural."
+      }
+     ]
+    },
+    {
+     "title": "In the news",
+     "icon": "🗞️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The homeless received food. Did they receive clothing?",
+       "options": [
+        "Yes. The homeless received both food and clothing.",
+        "Yes. The homeless received both food or clothing."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both … and.",
+       "ask": "Answer with both … and"
+      },
+      {
+       "type": "choice",
+       "text": "Passengers were injured in the bus accident. Was the driver injured?",
+       "options": [
+        "Yes. Both the driver and the passengers was injured.",
+        "Yes. Both the driver and the passengers were injured."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural verb.",
+       "ask": "Answer with both … and"
+      },
+      {
+       "type": "choice",
+       "text": "The government is increasing taxes. Is it increasing spending too?",
+       "options": [
+        "Yes. The government is increasing both taxes and spending.",
+        "Yes. The government is both increasing taxes and spending."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both + noun + and + noun.",
+       "ask": "Answer with both … and"
+      },
+      {
+       "type": "choice",
+       "text": "The city suffers from air pollution. Does it suffer from water pollution?",
+       "options": [
+        "Yes. The city suffers both from air pollution and water pollution.",
+        "Yes. The city suffers from both air pollution and water pollution."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Same form after both and after and.",
+       "ask": "Answer with both … and"
+      },
+      {
+       "type": "choice",
+       "text": "Crime is growing in the cities. Is crime growing in the suburbs?",
+       "options": [
+        "Yes. Crime is growing not only in the cities but also in the suburbs.",
+        "Yes. Crime is growing not only in the cities and also in the suburbs."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not only … but also.",
+       "ask": "Answer with not only … but also"
+      },
+      {
+       "type": "choice",
+       "text": "Our team lost its first game. Did it also lose its second game?",
+       "options": [
+        "Yes. Our team not only lost its first game but also its second game.",
+        "Yes. Our team lost not only its first game but also its second game."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Same form after each half.",
+       "ask": "Answer with not only … but also"
+      },
+      {
+       "type": "choice",
+       "text": "Some tech companies need more workers. Do they need more office space too?",
+       "options": [
+        "Yes. They need not only more workers but also more office space.",
+        "Yes. They need not only more workers but more also office space."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not only … but also.",
+       "ask": "Answer with not only … but also"
+      },
+      {
+       "type": "choice",
+       "text": "The city is building a new freeway. Is it also building a new subway?",
+       "options": [
+        "Yes. It is building not a new freeway only but also a new subway.",
+        "Yes. It is building not only a new freeway but also a new subway."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "not only … but also.",
+       "ask": "Answer with not only … but also"
+      }
+     ]
+    },
+    {
+     "title": "At our apartment building",
+     "icon": "📦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The manager has my package, or Mrs. Ramirez has it. Right?",
+       "options": [
+        "Yes. Either the manager or Mrs. Ramirez has your package.",
+        "Yes. Either the manager or Mrs. Ramirez have your package."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Mrs. Ramirez is closer → has.",
+       "ask": "Answer with either … or"
+      },
+      {
+       "type": "choice",
+       "text": "Jonas or William is going to take care of the neighbor's cat. Right?",
+       "options": [
+        "Yes. Either Jonas nor William is going to take care of the neighbor's cat.",
+        "Yes. Either Jonas or William is going to take care of the neighbor's cat."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either … or.",
+       "ask": "Answer with either … or"
+      },
+      {
+       "type": "choice",
+       "text": "Your sister or your brother is driving Ms. Androv to the airport. Right?",
+       "options": [
+        "Yes. Either my sister or my brother is driving her to the airport.",
+        "Yes. Either my sister or my brother are driving her to the airport."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "my brother is closer → is.",
+       "ask": "Answer with either … or"
+      },
+      {
+       "type": "choice",
+       "text": "We can use the front stairs, or we can use the back stairs. Right?",
+       "options": [
+        "Yes. We can either use the front stairs or the back stairs.",
+        "Yes. We can use either the front stairs or the back stairs."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either + noun + or + noun.",
+       "ask": "Answer with either … or"
+      },
+      {
+       "type": "choice",
+       "text": "The mail carrier isn't friendly. Is she unfriendly?",
+       "options": [
+        "No. She is neither friendly nor unfriendly.",
+        "No. She is neither friendly or unfriendly."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "neither … nor.",
+       "ask": "Answer with neither … nor"
+      },
+      {
+       "type": "choice",
+       "text": "Her children don't speak English. Does her husband speak English?",
+       "options": [
+        "No. Neither her children nor her husband speak English.",
+        "No. Neither her children nor her husband speaks English."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "her husband is closer → speaks.",
+       "ask": "Answer with neither … nor"
+      },
+      {
+       "type": "choice",
+       "text": "They don't have an air conditioner. Do they have a fan?",
+       "options": [
+        "No. They have neither an air conditioner nor a fan.",
+        "No. They don't have neither an air conditioner nor a fan."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "neither is already negative.",
+       "ask": "Answer with neither … nor"
+      },
+      {
+       "type": "choice",
+       "text": "The window washers weren't fast. Were they slow?",
+       "options": [
+        "No. They were neither fast and slow.",
+        "No. They were neither fast nor slow."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "neither … nor.",
+       "ask": "Answer with neither … nor"
+      }
+     ]
+    },
+    {
+     "title": "At the mall",
+     "icon": "🛒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I do not have my credit card. I do not have cash.",
+       "options": [
+        "I have neither my credit card nor cash.",
+        "I don't have neither my credit card nor cash."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "neither … nor is already negative.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Rika enjoys shopping during sales. Bettina enjoys shopping during sales.",
+       "options": [
+        "Both Rika and Bettina enjoys shopping during sales.",
+        "Both Rika and Bettina enjoy shopping during sales."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural verb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Matt is not joining us. Taka is not joining us.",
+       "options": [
+        "Neither Matt nor Taka is joining us.",
+        "Neither Matt nor Taka are not joining us."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Taka is closer → is. No second not.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Matt is sick. Taka is sick.",
+       "options": [
+        "Both Matt and Taka is sick.",
+        "Both Matt and Taka are sick."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural verb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "This store doesn't have the size I need. That store doesn't have the size I need.",
+       "options": [
+        "Neither this store nor that store has the size I need.",
+        "Neither this store nor that store have the size I need."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that store is closer → has.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We can eat lunch here, or we can look for other restaurants.",
+       "options": [
+        "We can either eat lunch here or looking for other restaurants.",
+        "We can either eat lunch here or look for other restaurants."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either + verb + or + verb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The manager was helpful. The assistant manager was helpful.",
+       "options": [
+        "Both the manager and the assistant manager were helpful.",
+        "Both the manager and the assistant manager was helpful."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both … and → plural verb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "You need your receipt for a return, or you need your credit card.",
+       "options": [
+        "You need either your receipt and your credit card for a return.",
+        "You need either your receipt or your credit card for a return."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either … or.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The stores close at 10:00. The food court closes at 10:00.",
+       "options": [
+        "Both the stores and the food court close at 10:00.",
+        "Both the stores and the food court closes at 10:00."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both … and → plural verb.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We can take the bus home, or we can take the subway.",
+       "options": [
+        "We can take either the bus nor the subway home.",
+        "We can take either the bus or the subway home."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either … or.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "Listen: one or both?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Sarah is working on both a degree in biology and a degree in chemistry.",
+       "ask": "Same meaning?",
+       "options": [
+        "Sarah is working on only one degree.",
+        "Sarah is working on two degrees."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and = two."
+      },
+      {
+       "type": "listen",
+       "say": "Ben will call either Mary or Bob.",
+       "ask": "Same meaning?",
+       "options": [
+        "Ben will call Mary and Bob.",
+        "Ben will call one of them but not both."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either … or = one of them."
+      },
+      {
+       "type": "listen",
+       "say": "Both my mother and my father talked to my teacher.",
+       "ask": "Same meaning?",
+       "options": [
+        "My mother and my father talked to my teacher.",
+        "Either my mother or my father talked to my teacher."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both … and = the two of them."
+      },
+      {
+       "type": "listen",
+       "say": "Simon saw not only a whale but also a dolphin.",
+       "ask": "Same meaning?",
+       "options": [
+        "Simon saw both a whale and a dolphin.",
+        "Simon didn't see a whale, but he did see a dolphin."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not only … but also = both."
+      },
+      {
+       "type": "listen",
+       "say": "Our neighborhood had neither electricity nor water after the storm.",
+       "ask": "Same meaning?",
+       "options": [
+        "Our neighborhood had electricity but not water.",
+        "Our neighborhood didn't have electricity or water."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "neither … nor = not this, not that."
+      },
+      {
+       "type": "listen",
+       "say": "Either Mr. Anderson or Ms. Wiggins is going to teach our class today.",
+       "ask": "Same meaning?",
+       "options": [
+        "We will have two teachers today.",
+        "We will have one teacher today."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "either … or = one of them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R16",
+   "tag": "Mix",
+   "t": "state",
+   "title": "Parallel mix",
+   "full": "Chapter 16 Review: Bats, Famous Words",
+   "lesson": {
+    "title": "Learn: parallel structure in real writing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Parallel structure sounds strong",
+      "lines": [
+       "Great speakers use it."
+      ],
+      "chips": [
+       "…dedicated to justice, peace, and brotherhood.",
+       "…not the words of our enemies but the silence of our friends."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Bats are symbols of both happiness and ___.",
+      "options": [
+       "lucky",
+       "luck"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "happiness and luck: noun + noun."
+     },
+     {
+      "type": "learn",
+      "title": "Check the form, then the commas",
+      "lines": [
+       "1. Same form? 2. Two items or three? 3. Two full sentences?"
+      ],
+      "visual": [
+       "commas-list"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Bats help plants by pollinating plants, spreading seeds, and ___ insects.",
+      "options": [
+       "to eat",
+       "eating"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "pollinating, spreading, and eating."
+     },
+     {
+      "type": "choice",
+      "text": "Derek made many promises ___ he had no intention of keeping any of them.",
+      "options": [
+       ", but",
+       "but,"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Two sentences: comma before but."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Same form on each side of and / but / or.",
+     "Lists: A, B, and C. Two sentences: period, or comma + and / but."
+    ],
+    "timeline": [
+     "parallel"
+    ],
+    "examples": [
+     {
+      "text": "Bats are both gentle and trainable pets.",
+      "hl": [
+       [
+        "gentle",
+        "state"
+       ],
+       [
+        "trainable",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Bats help by pollinating plants, spreading seeds, and eating insects.",
+      "hl": [
+       [
+        "pollinating",
+        "prog"
+       ],
+       [
+        "spreading",
+        "prog"
+       ],
+       [
+        "eating",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Bats",
+     "icon": "🦇",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Are bats mean and scary creatures, or are they symbols of both happiness and ___?",
+       "options": [
+        "luck",
+        "lucky"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "noun + and + noun."
+      },
+      {
+       "type": "choice",
+       "text": "According to Dr. Horowitz, bats are not only ___ …",
+       "options": [
+        "harm",
+        "harmless"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An adjective after are."
+      },
+      {
+       "type": "choice",
+       "text": "…but also ___ mammals.",
+       "options": [
+        "benefit",
+        "beneficial"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "harmless … beneficial: adjectives."
+      },
+      {
+       "type": "choice",
+       "text": "“I believed that a bat would attack me and ___ itself in my hair.”",
+       "options": [
+        "tangle",
+        "tangled"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would attack and (would) tangle."
+      },
+      {
+       "type": "choice",
+       "text": "Contrary to popular Western myths, bats do not ___ humans.",
+       "options": [
+        "attack",
+        "attacking"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "do not + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "Bats help natural plant life by pollinating plants, spreading seeds, and ___ insects.",
+       "options": [
+        "to eat",
+        "eating"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "-ing, -ing, and -ing."
+      },
+      {
+       "type": "choice",
+       "text": "If you get rid of bats, fruit flies can flourish and ___ the fruit industry.",
+       "options": [
+        "destroy",
+        "destruction"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can flourish and destroy: verbs."
+      },
+      {
+       "type": "choice",
+       "text": "According to Dr. Horowitz, bats are both gentle and ___ pets.",
+       "options": [
+        "train",
+        "trainable"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "gentle and trainable: adjectives."
+      }
+     ]
+    },
+    {
+     "title": "Powerful words",
+     "icon": "🕊️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“…disciplined nonconformists who are dedicated to justice, peace, and brotherhood.”",
+       "options": [
+        "justice, peace, and brotherhood (three nouns)",
+        "disciplined nonconformists"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Three nouns in a list.",
+       "ask": "Which part is parallel?",
+       "ctx": "Words of Dr. Martin Luther King, Jr., leader of the 1960s civil rights movement."
+      },
+      {
+       "type": "choice",
+       "text": "“…not where he stands in moments of comfort and convenience but where he stands at times of challenge and controversy.”",
+       "options": [
+        "not where he stands… but where he stands…",
+        "The ultimate measure of a man"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not + clause + but + clause.",
+       "ask": "Which part is parallel?"
+      },
+      {
+       "type": "choice",
+       "text": "“In the end, we will remember not the words of our enemies but the silence of our friends.”",
+       "options": [
+        "not the words of… but the silence of…",
+        "In the end, we will remember"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not + noun phrase + but + noun phrase.",
+       "ask": "Which part is parallel?"
+      },
+      {
+       "type": "choice",
+       "text": "“…a method which rejects revenge, aggression, and retaliation.”",
+       "options": [
+        "three nouns",
+        "three verbs",
+        "three adjectives"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "revenge, aggression, retaliation = nouns.",
+       "ask": "The list has…"
+      },
+      {
+       "type": "choice",
+       "text": "He was assassinated in 1968, but his powerful and inspiring words live on.",
+       "options": [
+        "two adjectives",
+        "two nouns"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "powerful and inspiring describe words.",
+       "ask": "“powerful and inspiring” ="
+      },
+      {
+       "type": "choice",
+       "text": "He was assassinated in 1968, but his powerful and inspiring words live on.",
+       "options": [
+        "It joins two complete sentences.",
+        "It is a list of three items."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "sentence + , but + sentence.",
+       "ask": "Why is there a comma before but?"
+      }
+     ]
+    },
+    {
+     "title": "Quick mix",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I am a college student and am very neat, clean, and ___.",
+       "options": [
+        "quiet",
+        "quietly",
+        "quietness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Three adjectives.",
+       "rule": "16-1"
+      },
+      {
+       "type": "choice",
+       "text": "I can do child care, pet-sitting, or ___ in exchange for partial rent.",
+       "options": [
+        "yard work",
+        "to work in the yard"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Three nouns.",
+       "rule": "16-1"
+      },
+      {
+       "type": "choice",
+       "text": "I am both hard-working and ___.",
+       "options": [
+        "responsible",
+        "responsibility"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "both + adjective + and + adjective.",
+       "rule": "16-4"
+      },
+      {
+       "type": "choice",
+       "text": "I don't need a lot of space ___ I would like my own bedroom and bathroom.",
+       "options": [
+        ", but",
+        "but,"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences: comma before but.",
+       "rule": "16-3"
+      },
+      {
+       "type": "choice",
+       "text": "Slowly and ___, the firefighter climbed the burned staircase.",
+       "options": [
+        "being cautious",
+        "cautiously"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "adverb + and + adverb.",
+       "rule": "16-1"
+      },
+      {
+       "type": "choice",
+       "text": "The pioneers hoped to clear away the forest and ___ crops.",
+       "options": [
+        "planting",
+        "plant"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "to clear and (to) plant.",
+       "rule": "16-1"
+      },
+      {
+       "type": "choice",
+       "text": "Not only speed but also endurance ___ a runner's success in a race.",
+       "options": [
+        "determine",
+        "determines"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "endurance is closer → determines.",
+       "rule": "16-4"
+      },
+      {
+       "type": "choice",
+       "text": "Both the main earthquake and subsequent aftershocks ___ devastating to the town.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "both … and → plural.",
+       "rule": "16-4"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Looking for a room",
+     "task": "Write a short post: you are looking for a room, a pet, or a car. Claude checks it.",
+     "claudePrompt": "You are my English writing partner. Ask me to write a short social-media post (4-6 clear sentences) about something I am looking for: a room to rent, a used car, a pet, a study partner. I should use parallel structure (neat, clean, and quiet), a paired conjunction (both ... and / either ... or), and correct punctuation between sentences. Then check: same form in each list, commas for three items, a period (not only a comma) between two complete sentences, and subject-verb agreement with paired conjunctions."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Twin Serpent",
+  "icon": "🐍",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Slowly and [being cautious], the firefighter climbed the burned staircase.",
+    "options": [
+     "Slowly and cautious, the firefighter climbed the burned staircase.",
+     "Slowly and cautiously, the firefighter climbed the burned staircase.",
+     "Slowly and with being cautious, the firefighter climbed the burned staircase."
+    ],
+    "answer": 1,
+    "why": "adverb + and + adverb.",
+    "rule": "16-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Janice entered the room and looked [around she] knew no one.",
+    "options": [
+     "Janice entered the room and looked around. She knew no one.",
+     "Janice entered the room and looked around, she knew no one.",
+     "Janice entered the room, and looked around she knew no one."
+    ],
+    "answer": 0,
+    "why": "A new sentence → period.",
+    "rule": "16-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "Derek made many [promises but] he had no intention of keeping any of them.",
+    "options": [
+     "Derek made many promises but, he had no intention of keeping any of them.",
+     "Derek made many promises. but he had no intention of keeping any of them.",
+     "Derek made many promises, but he had no intention of keeping any of them."
+    ],
+    "answer": 2,
+    "why": "Two sentences: comma before but.",
+    "rule": "16-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "The pioneers hoped to clear away the forest and [planting] crops.",
+    "options": [
+     "The pioneers hoped to clear away the forest and planted crops.",
+     "The pioneers hoped to clear away the forest and plant crops.",
+     "The pioneers hoped to clear away the forest and to planting crops."
+    ],
+    "answer": 1,
+    "why": "to clear and (to) plant.",
+    "rule": "16-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "When Nadia moved, she had to rent an apartment, make new friends, and [to find] a job.",
+    "options": [
+     "When Nadia moved, she had to rent an apartment, make new friends, and find a job.",
+     "When Nadia moved, she had to rent an apartment, make new friends, and finding a job.",
+     "When Nadia moved, she had to rent an apartment, making new friends, and find a job."
+    ],
+    "answer": 0,
+    "why": "rent, make, and find.",
+    "rule": "16-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "All plants need light, [to have] a suitable climate, and an ample supply of water.",
+    "options": [
+     "All plants need light, having a suitable climate, and an ample supply of water.",
+     "All plants need to light, a suitable climate, and an ample supply of water.",
+     "All plants need light, a suitable climate, and an ample supply of water."
+    ],
+    "answer": 2,
+    "why": "noun, noun, and noun.",
+    "rule": "16-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Both the main earthquake and subsequent aftershocks [was] devastating to the town.",
+    "options": [
+     "Both the main earthquake and subsequent aftershocks is devastating to the town.",
+     "Both the main earthquake and subsequent aftershocks were devastating to the town.",
+     "Both the main earthquake and subsequent aftershocks has been devastating to the town."
+    ],
+    "answer": 1,
+    "why": "both … and → plural verb.",
+    "rule": "16-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "With their sharp eyesight, fine hearing, and [they have a] strong sense of smell, wolves hunt mainly at night.",
+    "options": [
+     "With their sharp eyesight, fine hearing, and strong sense of smell, wolves hunt mainly at night.",
+     "With their sharp eyesight, fine hearing, and having strong sense of smell, wolves hunt mainly at night.",
+     "With their sharp eyesight, fine hearing, and smelling strongly, wolves hunt mainly at night."
+    ],
+    "answer": 0,
+    "why": "Three noun phrases.",
+    "rule": "16-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Not only speed but also endurance [determine] a runner's success in a race.",
+    "options": [
+     "Not only speed but also endurance are determining a runner's success in a race.",
+     "Not only speed but also endurance determining a runner's success in a race.",
+     "Not only speed but also endurance determines a runner's success in a race."
+    ],
+    "answer": 2,
+    "why": "endurance is closer → determines.",
+    "rule": "16-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "The ancient Egyptians had good [dentists archaeologists] have found mummies that had gold fillings in their teeth.",
+    "options": [
+     "The ancient Egyptians had good dentists, archaeologists have found mummies that had gold fillings in their teeth.",
+     "The ancient Egyptians had good dentists. Archaeologists have found mummies that had gold fillings in their teeth.",
+     "The ancient Egyptians had good dentists and, archaeologists have found mummies that had gold fillings in their teeth."
+    ],
+    "answer": 1,
+    "why": "Two sentences → period.",
+    "rule": "16-3"
+   }
+  ]
+ }
+}

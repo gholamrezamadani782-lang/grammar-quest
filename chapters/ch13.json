@@ -1,0 +1,5688 @@
+{
+ "id": "ch13",
+ "num": 13,
+ "title": "Adjective Clauses",
+ "subtitle": "who, which, that, whose, where, when",
+ "icon": "🐙",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "I enjoyed listening to the tour guide that took us around the city.",
+    "answer": "correct",
+    "why": "that can be used for people.",
+    "rule": "13-1"
+   },
+   {
+    "type": "judge",
+    "text": "The gift is for you that is on the coffee table.",
+    "answer": "wrong",
+    "why": "The clause follows its noun.",
+    "fix": "The gift that is on the coffee table is for you.",
+    "rule": "13-1"
+   },
+   {
+    "type": "judge",
+    "text": "A movie a friend recommended it turned out to be very entertaining.",
+    "answer": "wrong",
+    "why": "Take out it.",
+    "fix": "A movie a friend recommended turned out to be very entertaining.",
+    "rule": "13-2"
+   },
+   {
+    "type": "judge",
+    "text": "There is the professor from whom I received the award.",
+    "answer": "correct",
+    "why": "preposition + whom (formal).",
+    "rule": "13-3"
+   },
+   {
+    "type": "judge",
+    "text": "I spoke with a couple who his son created a popular social media app.",
+    "answer": "wrong",
+    "why": "their son → whose son.",
+    "fix": "I spoke with a couple whose son created a popular social media app.",
+    "rule": "13-4"
+   },
+   {
+    "type": "judge",
+    "text": "Each hotel room has a safe which you can keep your valuables.",
+    "answer": "wrong",
+    "why": "where / in which.",
+    "fix": "Each hotel room has a safe where you can keep your valuables.",
+    "rule": "13-5"
+   },
+   {
+    "type": "judge",
+    "text": "I'll never forget the moment when I first met your dad.",
+    "answer": "correct",
+    "why": "A time noun + when.",
+    "rule": "13-6"
+   },
+   {
+    "type": "judge",
+    "text": "Anyone wants to volunteer is welcome to come.",
+    "answer": "wrong",
+    "why": "A subject pronoun can't be dropped.",
+    "fix": "Anyone who wants to volunteer is welcome to come.",
+    "rule": "13-7"
+   },
+   {
+    "type": "judge",
+    "text": "Is everything your lawyer says true?",
+    "answer": "correct",
+    "why": "everything (that) your lawyer says.",
+    "rule": "13-7"
+   },
+   {
+    "type": "judge",
+    "text": "Indonesia, that consists of thousands of islands, is the fourth most populated country in the world.",
+    "answer": "wrong",
+    "why": "With commas → which.",
+    "fix": "Indonesia, which consists of thousands of islands, is the fourth most populated country in the world.",
+    "rule": "13-8"
+   },
+   {
+    "type": "judge",
+    "text": "In my chemistry study group, there are eight students, two of whom are repeating the class.",
+    "answer": "correct",
+    "why": "people → two of whom.",
+    "rule": "13-9"
+   },
+   {
+    "type": "judge",
+    "text": "The apartment building has ten floors and no elevator, which it will be a challenge for me.",
+    "answer": "wrong",
+    "why": "which is the subject. No it.",
+    "fix": "The apartment building has ten floors and no elevator, which will be a challenge for me.",
+    "rule": "13-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "13-1",
+   "tag": "13-1",
+   "t": "plan",
+   "title": "The girl who…",
+   "full": "Adjective Clause Pronouns Used as the Subject",
+   "lesson": {
+    "title": "Learn: who, that, which",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A clause that describes a noun",
+      "lines": [
+       "It comes right after the noun."
+      ],
+      "visual": [
+       "adj-clause"
+      ],
+      "examples": [
+       {
+        "text": "I thanked the woman who helped me.",
+        "hl": [
+         [
+          "who helped me",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "who, that, which",
+      "lines": [
+       "People: who / that. Things: that / which."
+      ],
+      "visual": [
+       "who-which"
+      ],
+      "chips": [
+       "I thanked the woman who helped me.",
+       "I thanked the woman that helped me.",
+       "The book that is on the table is mine.",
+       "The book which is on the table is mine."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "A ring floated past a diver ___ was exploring some undersea rocks.",
+      "options": [
+       "who",
+       "which"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A diver is a person → who."
+     },
+     {
+      "type": "learn",
+      "title": "who replaces he / she / it",
+      "lines": [
+       "Don't keep both."
+      ],
+      "chips": [
+       "✅ the man who taught me",
+       "❌ the man who he taught me"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Stay close to the noun",
+      "lines": [
+       "Clause right after its noun."
+      ],
+      "chips": [
+       "✅ The book that is on the table is mine.",
+       "❌ The book is mine that is on the table."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "The gift is for you that is on the coffee table.",
+       "The gift that is on the coffee table is for you."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The clause follows its noun: gift."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "who = people. which = things. that = both.",
+     "The clause comes right after its noun. No extra he / she / it."
+    ],
+    "timeline": [
+     "who-which"
+    ],
+    "examples": [
+     {
+      "text": "I thanked the woman who helped me.",
+      "hl": [
+       [
+        "who helped me",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The book that is on the table is mine.",
+      "hl": [
+       [
+        "that is on the table",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Identity theft, on the subway",
+     "icon": "🚇",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I read a scary article ___ detailed how easy it is to steal your ID.",
+       "options": [
+        "who",
+        "that",
+        "it",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing, subject → that. A subject pronoun can't be dropped."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ own a smartphone have a higher rate of identity theft.",
+       "options": [
+        "who",
+        "that",
+        "which",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "People → who or that.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The article mentioned one thief ___ enjoys the challenge of hacking.",
+       "options": [
+        "who",
+        "that",
+        "he",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A person → who or that. Not he.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "A fact ___ surprised me is that online thieves are rarely caught.",
+       "options": [
+        "who",
+        "that",
+        "it",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing, subject → that."
+      },
+      {
+       "type": "choice",
+       "text": "The guy is in my math class. He is talking loudly on his phone.",
+       "options": [
+        "The guy is in my math class who is talking loudly on his phone.",
+        "The guy who is talking loudly on his phone is in my math class."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The clause follows its noun: guy.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The passenger is from Argentina. He is sitting next to me.",
+       "options": [
+        "The passenger that is sitting next to me is from Argentina.",
+        "The passenger that he is sitting next to me is from Argentina."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that replaces he.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The students are from Turkey. They are standing behind us.",
+       "options": [
+        "The students which are standing behind us are from Turkey.",
+        "The students who are standing behind us are from Turkey."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People → who, not which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We are going on a route. It is very crowded in the mornings.",
+       "options": [
+        "We are going on a route that is very crowded in the mornings.",
+        "We are going on a route who is very crowded in the mornings."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A thing → that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "I enjoyed listening to the tour guide that took us around the city.",
+       "answer": "correct",
+       "why": "that can be used for people."
+      }
+     ]
+    },
+    {
+     "title": "At the dentist",
+     "icon": "🦷",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A dentist is a person ___.",
+       "options": [
+        "who is put into a cavity",
+        "that numbs the tooth area",
+        "who treats problems with teeth"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "who + treats (singular)."
+      },
+      {
+       "type": "choice",
+       "text": "A dental hygienist is a person ___.",
+       "options": [
+        "who cleans teeth",
+        "which cleans teeth",
+        "who clean teeth"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who. Singular → cleans."
+      },
+      {
+       "type": "choice",
+       "text": "A cavity is a part of the tooth ___.",
+       "options": [
+        "who is decayed",
+        "that is decayed",
+        "that it is decayed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that. No extra it."
+      },
+      {
+       "type": "choice",
+       "text": "A filling is a material ___.",
+       "options": [
+        "that straightens teeth",
+        "who is put into a cavity",
+        "that is put into a cavity"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A thing → that."
+      },
+      {
+       "type": "choice",
+       "text": "Novocain is a drug ___ so the patient doesn't feel pain.",
+       "options": [
+        "that numbs the tooth area",
+        "that numb the tooth area",
+        "who numbs the tooth area"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a drug (singular) → numbs."
+      },
+      {
+       "type": "choice",
+       "text": "A crown is an artificial covering ___.",
+       "options": [
+        "that are put around a tooth",
+        "that is put around a tooth",
+        "that it is put around a tooth"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Singular: is put."
+      },
+      {
+       "type": "choice",
+       "text": "Braces are a device ___.",
+       "options": [
+        "who straightens teeth",
+        "that straighten teeth",
+        "that straightens teeth"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "a device (singular) → straightens."
+      },
+      {
+       "type": "choice",
+       "text": "Orthodontists are dentists ___.",
+       "options": [
+        "who put braces on teeth",
+        "who puts braces on teeth",
+        "which put braces on teeth"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "dentists (plural) → put."
+      },
+      {
+       "type": "choice",
+       "text": "Pediatric dentists are dentists ___.",
+       "options": [
+        "that treats children",
+        "that treat children",
+        "that they treat children"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Plural → treat. No extra they."
+      }
+     ]
+    },
+    {
+     "title": "Listen: who's, who'll, who'd",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "He has a friend who'll help him.",
+       "ask": "who'll = ?",
+       "options": [
+        "who will",
+        "who is",
+        "who has"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "'ll = will."
+      },
+      {
+       "type": "listen",
+       "say": "He has a friend who's helping him.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "who was"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who's + -ing = who is."
+      },
+      {
+       "type": "listen",
+       "say": "He has a friend who's helped him.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "who had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who's + past participle = who has."
+      },
+      {
+       "type": "listen",
+       "say": "He has friends who're helping him.",
+       "ask": "who're = ?",
+       "options": [
+        "who are",
+        "who were",
+        "who will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "'re = are."
+      },
+      {
+       "type": "listen",
+       "say": "He has friends who've helped him.",
+       "ask": "who've = ?",
+       "options": [
+        "who are",
+        "who have",
+        "who had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "'ve = have."
+      },
+      {
+       "type": "listen",
+       "say": "He has a friend who'd like to help him.",
+       "ask": "who'd = ?",
+       "options": [
+        "who had",
+        "who would",
+        "who did"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who'd + like = who would."
+      },
+      {
+       "type": "listen",
+       "say": "He has a friend who'd helped him before.",
+       "ask": "who'd = ?",
+       "options": [
+        "who had",
+        "who would",
+        "who did"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who'd + past participle = who had."
+      },
+      {
+       "type": "listen",
+       "say": "I work with a man who's lived in twenty different countries.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "who was"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who's + lived = who has."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "People I like",
+     "task": "Tell Claude: “I like to spend time with people who…” and “I don't like people who…”",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What kind of friends do you like to spend time with? What kind of classmates or co-workers do you not like to spend time with? What kind of teacher is the best? I answer with an adjective clause: I like to spend time with friends who tell a lot of jokes. Check: who/that for people, the verb agrees with the noun (people who talk, a friend who talks), no extra he/she/they."
+    }
+   ]
+  },
+  {
+   "id": "13-2",
+   "tag": "13-2",
+   "t": "plan",
+   "title": "The man I saw",
+   "full": "Adjective Clause Pronouns Used as the Object of a Verb",
+   "lesson": {
+    "title": "Learn: object pronouns (and dropping them)",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "The pronoun can be the object",
+      "lines": [
+       "I saw him → the man who(m) / that I saw."
+      ],
+      "visual": [
+       "obj-drop"
+      ],
+      "chips": [
+       "The man who(m) I saw was Mr. Jones.",
+       "The man that I saw was Mr. Jones.",
+       "The man I saw was Mr. Jones."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Object? You can drop it",
+      "lines": [
+       "Subject pronoun: keep it. Object pronoun: often dropped."
+      ],
+      "chips": [
+       "The movie that we saw last night wasn't very good.",
+       "The movie we saw last night wasn't very good."
+      ],
+      "tip": "whom is very formal. In speaking, use who, that, or nothing."
+     },
+     {
+      "type": "choice",
+      "text": "Every review ___ I read gave the product five stars.",
+      "options": [
+       "that",
+       "who",
+       "it"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A thing, object of read → that (or nothing)."
+     },
+     {
+      "type": "learn",
+      "title": "Take out him / her / it",
+      "lines": [
+       "The clause pronoun already does that job."
+      ],
+      "chips": [
+       "✅ The man I saw was Mr. Jones.",
+       "❌ The man I saw him was Mr. Jones."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "A movie a friend recommended it turned out to be very entertaining.",
+       "A movie a friend recommended turned out to be very entertaining."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No extra it."
+     },
+     {
+      "type": "choice",
+      "text": "He is looking for a job that ___ flexible hours.",
+      "options": [
+       "have",
+       "has"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "a job (singular) → has."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Object pronoun: who(m) / that / Ø for people; that / Ø / which for things.",
+     "Never keep him / her / it / them in the clause."
+    ],
+    "timeline": [
+     "obj-drop"
+    ],
+    "examples": [
+     {
+      "text": "The man I saw was Mr. Jones.",
+      "hl": [
+       [
+        "I saw",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The movie that we saw last night wasn't very good.",
+      "hl": [
+       [
+        "that we saw last night",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "William's new job",
+     "icon": "👨‍👧",
+     "items": [
+      {
+       "type": "fill",
+       "text": "He is looking for a job that ___ him free on weekends.",
+       "verb": "leave",
+       "accept": [
+        "leaves"
+       ],
+       "why": "a job → leaves.",
+       "ctx": "William was a stay-at-home dad. Now he wants to work and still see his kids."
+      },
+      {
+       "type": "fill",
+       "text": "He is not looking for a job that ___ him to work on weekends.",
+       "verb": "require",
+       "accept": [
+        "requires"
+       ],
+       "why": "a job → requires."
+      },
+      {
+       "type": "fill",
+       "text": "He is not looking for a job that ___ a lot of long-distance travel.",
+       "verb": "include",
+       "accept": [
+        "includes"
+       ],
+       "why": "a job → includes."
+      },
+      {
+       "type": "fill",
+       "text": "He is not looking for a job that ___ a long commute.",
+       "verb": "have",
+       "accept": [
+        "has"
+       ],
+       "why": "a job → has."
+      },
+      {
+       "type": "fill",
+       "text": "He is looking for a job that ___ close to home.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "a job → is."
+      },
+      {
+       "type": "fill",
+       "text": "He is looking for a job that ___ flexible hours.",
+       "verb": "have",
+       "accept": [
+        "has"
+       ],
+       "why": "a job → has."
+      }
+     ]
+    },
+    {
+     "title": "Subject or object?",
+     "icon": "⭐",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Did you read the online reviews THAT were written by fake customers?",
+       "buckets": [
+        "Subject of the clause",
+        "Object of the clause"
+       ],
+       "answer": 0,
+       "why": "that + verb (were written) → subject."
+      },
+      {
+       "type": "sort",
+       "word": "Every review THAT I read gave the product five stars.",
+       "buckets": [
+        "Subject of the clause",
+        "Object of the clause"
+       ],
+       "answer": 1,
+       "why": "I read it → object."
+      },
+      {
+       "type": "sort",
+       "word": "All the writers THAT posted this week were paid to write a positive review.",
+       "buckets": [
+        "Subject of the clause",
+        "Object of the clause"
+       ],
+       "answer": 0,
+       "why": "that + verb (posted) → subject."
+      },
+      {
+       "type": "sort",
+       "word": "The reviewers THAT gave five stars used similar vocabulary.",
+       "buckets": [
+        "Subject of the clause",
+        "Object of the clause"
+       ],
+       "answer": 0,
+       "why": "that + verb (gave) → subject."
+      },
+      {
+       "type": "sort",
+       "word": "I've decided not to buy products THAT this particular company makes.",
+       "buckets": [
+        "Subject of the clause",
+        "Object of the clause"
+       ],
+       "answer": 1,
+       "why": "The company makes them → object."
+      },
+      {
+       "type": "choice",
+       "text": "Every review that I read gave the product five stars.",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An object pronoun can be dropped.",
+       "ask": "Can you drop “that”?"
+      },
+      {
+       "type": "choice",
+       "text": "The reviewers that gave five stars used similar vocabulary.",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A subject pronoun can't be dropped.",
+       "ask": "Can you drop “that”?"
+      }
+     ]
+    },
+    {
+     "title": "Your trip to Norway",
+     "icon": "🇳🇴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Tell me about the people ___ you met when you were in Norway.",
+       "options": [
+        "who",
+        "that",
+        "they",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0,
+        1,
+        3,
+        4
+       ],
+       "why": "People, object → who / that / whom / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Was the hotel ___ you found on the Internet a nice place to stay?",
+       "options": [
+        "who",
+        "that",
+        "it",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1,
+        4
+       ],
+       "why": "A thing, object → that / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Did you see your Norwegian friend ___ you met in college?",
+       "options": [
+        "who",
+        "that",
+        "he",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0,
+        1,
+        3,
+        4
+       ],
+       "why": "A person, object → who / that / whom / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Tell me about the other cities ___ you went to.",
+       "options": [
+        "who",
+        "that",
+        "they",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1,
+        4
+       ],
+       "why": "Things, object → that / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Have you downloaded all the pictures ___ you took yet?",
+       "options": [
+        "who",
+        "that",
+        "they",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1,
+        4
+       ],
+       "why": "Things, object → that / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Did you find the Norwegian phrases ___ you had learned helpful?",
+       "options": [
+        "who",
+        "that",
+        "they",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1,
+        4
+       ],
+       "why": "Things, object → that / Ø.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to know more about your cousins ___ you visited in the fishing village.",
+       "options": [
+        "who",
+        "that",
+        "they",
+        "whom",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0,
+        1,
+        3,
+        4
+       ],
+       "why": "People, object → who / that / whom / Ø.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    },
+    {
+     "title": "Recommendations",
+     "icon": "📺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The book was good. You suggested I read it.",
+       "options": [
+        "The book you suggested I read was good.",
+        "The book you suggested I read it was good."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out it.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I bought the TV. A consumer guide rated it highly.",
+       "options": [
+        "I bought the TV who a consumer guide rated highly.",
+        "I bought the TV that a consumer guide rated highly."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The doctor was very helpful. You advised me to see him.",
+       "options": [
+        "The doctor you advised me to see was very helpful.",
+        "The doctor was very helpful you advised me to see."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The clause follows its noun: doctor.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The tour guide recommended a restaurant. His cousin owns it.",
+       "options": [
+        "The tour guide recommended a restaurant that his cousin owns it.",
+        "The tour guide recommended a restaurant that his cousin owns."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Take out it.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I didn't like the plumber. My friend told me to call him.",
+       "options": [
+        "I didn't like the plumber who my friend told me to call.",
+        "I didn't like the plumber which my friend told me to call."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who / that / Ø.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "A movie a friend recommended it turned out to be very entertaining.",
+       "answer": "wrong",
+       "why": "Take out it.",
+       "fix": "A movie a friend recommended turned out to be very entertaining."
+      },
+      {
+       "type": "judge",
+       "text": "The man I saw was Mr. Jones.",
+       "answer": "correct",
+       "why": "The object pronoun is dropped."
+      },
+      {
+       "type": "judge",
+       "text": "The man helped me was Mr. Jones.",
+       "answer": "wrong",
+       "why": "A subject pronoun can't be dropped.",
+       "fix": "The man who helped me was Mr. Jones."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-3",
+   "tag": "13-3",
+   "t": "plan",
+   "title": "The music we listened to",
+   "full": "Adjective Clause Pronouns Used as the Object of a Preposition",
+   "lesson": {
+    "title": "Learn: clauses with a preposition",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Everyday: preposition at the end",
+      "lines": [
+       "who / that / Ø … + preposition."
+      ],
+      "visual": [
+       "prep-clause"
+      ],
+      "chips": [
+       "She is the woman who I told you about.",
+       "She is the woman that I told you about.",
+       "She is the woman I told you about."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Very formal: preposition first",
+      "lines": [
+       "preposition + whom (people) / which (things)."
+      ],
+      "chips": [
+       "She is the woman about whom I told you.",
+       "The music to which we listened last night was good."
+      ],
+      "tip": "❌ about who · ❌ to that"
+     },
+     {
+      "type": "choice",
+      "text": "The music ___ we listened last night was good.",
+      "options": [
+       "to which",
+       "to that",
+       "which"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Preposition first → to which."
+     },
+     {
+      "type": "choice",
+      "text": "There is the professor from ___ I received the award.",
+      "options": [
+       "who",
+       "whom",
+       "that"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After a preposition → whom."
+     },
+     {
+      "type": "learn",
+      "title": "Don't lose the preposition",
+      "lines": [
+       "And don't say it twice."
+      ],
+      "chips": [
+       "✅ the scholarship they are applying for",
+       "❌ the scholarship they are applying",
+       "❌ the man about whom I was talking about"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The art school ___ is very demanding.",
+      "options": [
+       "Lori applied to",
+       "Lori applied"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "apply to → keep to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Everyday: the woman (who / that) I told you about.",
+     "Formal: the woman about whom… / the music to which… Never about who / to that."
+    ],
+    "timeline": [
+     "prep-clause"
+    ],
+    "examples": [
+     {
+      "text": "She is the woman I told you about.",
+      "hl": [
+       [
+        "I told you about",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "She is the woman about whom I told you.",
+      "hl": [
+       [
+        "about whom I told you",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The music we listened to last night was good.",
+      "hl": [
+       [
+        "we listened to",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Formal or everyday",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The scholarship ___ requires an essay.",
+       "options": [
+        "that they are applying for",
+        "they are applying for",
+        "they are applying",
+        "they are applying for it",
+        "for which they are applying"
+       ],
+       "answer": [
+        0,
+        1,
+        4
+       ],
+       "why": "Keep for. No extra it.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The counselor ___ had sample essays.",
+       "options": [
+        "who they spoke to",
+        "that they spoke to",
+        "who they spoke to her",
+        "to whom they spoke",
+        "to who they spoke",
+        "they spoke to"
+       ],
+       "answer": [
+        0,
+        1,
+        3,
+        5
+       ],
+       "why": "No extra her. After to → whom.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Which one is the most formal?",
+       "options": [
+        "the scholarship they are applying for",
+        "the scholarship for which they are applying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Preposition + which = formal."
+      },
+      {
+       "type": "choice",
+       "text": "The man is standing over there. I was telling you about him.",
+       "options": [
+        "The man I was telling you about him is standing over there.",
+        "The man I was telling you about is standing over there."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Take out him.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The man is standing over there. I was telling you about him. (formal)",
+       "options": [
+        "The man about whom I was telling you is standing over there.",
+        "The man about who I was telling you is standing over there."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After a preposition → whom.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I must thank the people. I got a present from them.",
+       "options": [
+        "I must thank the people I got a present.",
+        "I must thank the people I got a present from."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep from.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I must thank the people. I got a present from them. (formal)",
+       "options": [
+        "I must thank the people from whom I got a present.",
+        "I must thank the people from that I got a present."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Never preposition + that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The meeting was interesting. Omar went to it.",
+       "options": [
+        "The meeting Omar went was interesting.",
+        "The meeting Omar went to was interesting."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep to.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The meeting was interesting. Omar went to it. (formal)",
+       "options": [
+        "The meeting to which Omar went was interesting.",
+        "The meeting to which Omar went to was interesting."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Say to only once.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "A party",
+     "icon": "🥳",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Did I tell you about the party ___ I went to last night?",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 0,
+       "why": "Object of to → can be dropped."
+      },
+      {
+       "type": "sort",
+       "word": "Did I tell you about the party ___ lasted until early morning?",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 1,
+       "why": "Subject of lasted → keep that."
+      },
+      {
+       "type": "sort",
+       "word": "I want to tell you about a woman ___ I met at the party.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 0,
+       "why": "Object of met → can be dropped."
+      },
+      {
+       "type": "sort",
+       "word": "I want to tell you about the woman ___ hosted the party.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 1,
+       "why": "Subject of hosted → keep who / that."
+      },
+      {
+       "type": "sort",
+       "word": "She works for a company ___ is hiring.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 1,
+       "why": "Subject of is hiring → keep that."
+      },
+      {
+       "type": "sort",
+       "word": "She said the company ___ she works for is excellent.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 0,
+       "why": "Object of for → can be dropped."
+      },
+      {
+       "type": "sort",
+       "word": "A man ___ I was dancing with stepped on my toes.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 0,
+       "why": "Object of with → can be dropped."
+      },
+      {
+       "type": "sort",
+       "word": "The man ___ stepped on my toes also tripped and fell down.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 1,
+       "why": "Subject of stepped → keep who / that."
+      },
+      {
+       "type": "sort",
+       "word": "He attended an event ___ was raising money for an animal shelter.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 1,
+       "why": "Subject of was raising → keep that."
+      },
+      {
+       "type": "sort",
+       "word": "We should donate to the animal shelter ___ he is supporting.",
+       "buckets": [
+        "You can leave it out (Ø)",
+        "You need who / that"
+       ],
+       "answer": 0,
+       "why": "Object of is supporting → can be dropped."
+      }
+     ]
+    },
+    {
+     "title": "Fix the clause",
+     "icon": "🛠️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "In our village, there were many people ___ much money.",
+       "options": [
+        "didn't have",
+        "who didn't have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A subject pronoun can't be dropped."
+      },
+      {
+       "type": "choice",
+       "text": "I enjoyed the book ___.",
+       "options": [
+        "that you told me to read",
+        "that you told me to read it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out it."
+      },
+      {
+       "type": "choice",
+       "text": "I still remember the man ___ to play the guitar when I was a boy.",
+       "options": [
+        "who he taught me",
+        "who taught me"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who replaces he."
+      },
+      {
+       "type": "choice",
+       "text": "I showed my father a picture of the car ___ as soon as I save enough money.",
+       "options": [
+        "I am going to buy",
+        "I am going to buy it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out it."
+      },
+      {
+       "type": "choice",
+       "text": "The man ___ walked into the room. I hope he didn't hear me.",
+       "options": [
+        "about who I was talking about",
+        "about whom I was talking about",
+        "about whom I was talking"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "about once; whom after it."
+      },
+      {
+       "type": "choice",
+       "text": "The people ___ in the play are amateur actors.",
+       "options": [
+        "who appear",
+        "appear"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A subject pronoun can't be dropped."
+      },
+      {
+       "type": "choice",
+       "text": "I don't like to spend time with people ___ their temper easily.",
+       "options": [
+        "which loses",
+        "who lose",
+        "who loses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People → who. Plural → lose."
+      },
+      {
+       "type": "choice",
+       "text": "In one corner of the marketplace, an elderly man ___ a violin.",
+       "options": [
+        "was playing",
+        "who was playing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The sentence needs a main verb."
+      },
+      {
+       "type": "choice",
+       "text": "People who ___ in the hunger program estimate that 45,000 people die from hunger every day.",
+       "options": [
+        "work",
+        "works",
+        "they work"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "People (plural) → work."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-4",
+   "tag": "13-4",
+   "t": "plan",
+   "title": "Whose bike?",
+   "full": "Using Whose",
+   "lesson": {
+    "title": "Learn: whose = his, her, their",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "whose shows possession",
+      "lines": [
+       "his bike → whose bike."
+      ],
+      "visual": [
+       "whose"
+      ],
+      "examples": [
+       {
+        "text": "I know the man whose bike was stolen.",
+        "hl": [
+         [
+          "whose bike was stolen",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "whose + noun go first",
+      "lines": [
+       "Both move to the front of the clause. Never drop whose."
+      ],
+      "chips": [
+       "The student whose composition I read writes well.",
+       "I worked at a company whose employees wanted to form a union."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I have a friend ___ purpose in life is to help others.",
+      "options": [
+       "who his",
+       "whose",
+       "that his"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "his purpose → whose purpose."
+     },
+     {
+      "type": "compare",
+      "title": "whose or who's?",
+      "left": {
+       "label": "whose = possession",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "That's the boy whose parents you met.",
+         "hl": [
+          [
+           "whose parents",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "who's = who is / who has",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "That's the boy who's in my math class.",
+         "hl": [
+          [
+           "who's",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "They sound the same. Check: can you say “who is”?"
+     },
+     {
+      "type": "choice",
+      "text": "I spoke with a couple ___ son created a popular social media app.",
+      "options": [
+       "who his",
+       "who their",
+       "whose"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "their son → whose son."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "whose + noun = his / her / its / their + noun.",
+     "whose ≠ who's (who is / who has)."
+    ],
+    "timeline": [
+     "whose"
+    ],
+    "examples": [
+     {
+      "text": "I know the man whose bike was stolen.",
+      "hl": [
+       [
+        "whose bike",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The student whose composition I read writes well.",
+      "hl": [
+       [
+        "whose composition",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "That's the boy who's in my math class.",
+      "hl": [
+       [
+        "who's",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "who or whose?",
+     "icon": "🩺",
+     "items": [
+      {
+       "type": "judge",
+       "text": "I have a friend whose purpose in life is to help others.",
+       "answer": "correct",
+       "why": "his purpose → whose purpose."
+      },
+      {
+       "type": "judge",
+       "text": "I have a friend who his purpose in life is to help others.",
+       "answer": "wrong",
+       "why": "who his → whose.",
+       "fix": "I have a friend whose purpose in life is to help others."
+      },
+      {
+       "type": "judge",
+       "text": "I have a friend that his purpose in life is to help others.",
+       "answer": "wrong",
+       "why": "that his → whose.",
+       "fix": "I have a friend whose purpose in life is to help others."
+      },
+      {
+       "type": "choice",
+       "text": "I know a doctor ___ last name is Doctor.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "his last name → whose."
+      },
+      {
+       "type": "choice",
+       "text": "I know a doctor ___ lives on a sailboat.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He lives → who."
+      },
+      {
+       "type": "choice",
+       "text": "The professor ___ teaches art history is excellent.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She teaches → who."
+      },
+      {
+       "type": "choice",
+       "text": "The professor ___ course I almost dropped is excellent.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "her course → whose."
+      },
+      {
+       "type": "choice",
+       "text": "I apologized to the man ___ coffee I spilled.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "his coffee → whose."
+      },
+      {
+       "type": "choice",
+       "text": "I made friends with that man ___ is now in my math class.",
+       "options": [
+        "who",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He is → who."
+      }
+     ]
+    },
+    {
+     "title": "There is the woman whose…",
+     "icon": "🚕",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Her parents own a taxi company. → A co-worker ___ parents own a taxi company drives an old taxi to work.",
+       "verb": "?",
+       "accept": [
+        "whose"
+       ],
+       "why": "her → whose."
+      },
+      {
+       "type": "fill",
+       "text": "Their department had the most sales. → The workers ___ department had the most sales got a bonus.",
+       "verb": "?",
+       "accept": [
+        "whose"
+       ],
+       "why": "their → whose."
+      },
+      {
+       "type": "fill",
+       "text": "Its health-care workers are on strike. → The hospital ___ health-care workers are on strike is temporarily closed.",
+       "verb": "?",
+       "accept": [
+        "whose"
+       ],
+       "why": "its → whose (things too)."
+      },
+      {
+       "type": "choice",
+       "text": "That girl's mother is a surgeon.",
+       "options": [
+        "There is the girl whose mother is a surgeon.",
+        "There is the girl who her mother is a surgeon."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "her mother → whose mother.",
+       "ask": "Point her out"
+      },
+      {
+       "type": "choice",
+       "text": "That person's picture was in the newspaper.",
+       "options": [
+        "There is the person who's picture was in the newspaper.",
+        "There is the person whose picture was in the newspaper."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Possession → whose, not who's.",
+       "ask": "Point them out"
+      },
+      {
+       "type": "choice",
+       "text": "That woman's car was stolen.",
+       "options": [
+        "There is the woman whose car was stolen.",
+        "There is the woman whose was stolen car."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whose + noun together.",
+       "ask": "Point her out"
+      },
+      {
+       "type": "choice",
+       "text": "You found that woman's keys.",
+       "options": [
+        "There is the woman whose I found keys.",
+        "There is the woman whose keys I found."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whose + noun go first.",
+       "ask": "Point her out"
+      },
+      {
+       "type": "choice",
+       "text": "You are in that teacher's class.",
+       "options": [
+        "There is the teacher whose class I am in.",
+        "There is the teacher whose I am in class."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whose + noun go first.",
+       "ask": "Point them out"
+      },
+      {
+       "type": "choice",
+       "text": "You read that author's book.",
+       "options": [
+        "There is the author that book I read.",
+        "There is the author whose book I read."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Possession → whose.",
+       "ask": "Point them out"
+      }
+     ]
+    },
+    {
+     "title": "College orientation day",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We were taken on a tour by a student. Her major is popular culture.",
+       "options": [
+        "We were taken on a tour by a student whose major is popular culture.",
+        "We were taken on a tour by a student who her major is popular culture."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "her major → whose major.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I have been assigned a roommate. His parents teach at this school.",
+       "options": [
+        "I have been assigned a roommate who parents teach at this school.",
+        "I have been assigned a roommate whose parents teach at this school."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "his parents → whose parents.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The people seem nice. They live on my dorm floor.",
+       "options": [
+        "The people who live on my dorm floor seem nice.",
+        "The people whose live on my dorm floor seem nice."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They live → who.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I have a professor. She won a prestigious award.",
+       "options": [
+        "I have a professor whose won a prestigious award.",
+        "I have a professor who won a prestigious award."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She won → who.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I met the man. His wife is the president of the college.",
+       "options": [
+        "I met the man whose wife is the president of the college.",
+        "I met the man who's wife is the president of the college."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "his wife → whose wife.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "I spoke with a couple who his son created a popular social media app.",
+       "answer": "wrong",
+       "why": "their son → whose son.",
+       "fix": "I spoke with a couple whose son created a popular social media app."
+      }
+     ]
+    },
+    {
+     "title": "Listen: who's or whose?",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The man who's standing over there is Mr. Smith.",
+       "ask": "What did you hear?",
+       "options": [
+        "who's (who is)",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who is standing."
+      },
+      {
+       "type": "listen",
+       "say": "I know a girl whose brother is a pilot.",
+       "ask": "What did you hear?",
+       "options": [
+        "who's (who is)",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "her brother → whose."
+      },
+      {
+       "type": "listen",
+       "say": "I know a woman who's a taxi driver.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She is a taxi driver."
+      },
+      {
+       "type": "listen",
+       "say": "That's the neighbor whose dog barks all night.",
+       "ask": "What did you hear?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "his dog → whose."
+      },
+      {
+       "type": "listen",
+       "say": "She's the student who's been absent all week.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who has been absent."
+      },
+      {
+       "type": "listen",
+       "say": "I have a friend who's moving to Canada.",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who is moving."
+      },
+      {
+       "type": "listen",
+       "say": "We met a writer whose books are popular in Japan.",
+       "ask": "What did you hear?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "her books → whose."
+      },
+      {
+       "type": "listen",
+       "say": "Do you know anyone who's visited Antarctica?",
+       "ask": "who's = ?",
+       "options": [
+        "who is",
+        "who has",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who has visited."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-5",
+   "tag": "13-5",
+   "t": "state",
+   "title": "The town where…",
+   "full": "Using Where in Adjective Clauses",
+   "lesson": {
+    "title": "Learn: where for places",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "where = in that place",
+      "lines": [
+       "Use it after a place noun."
+      ],
+      "visual": [
+       "where-when"
+      ],
+      "examples": [
+       {
+        "text": "The building where he lives is very old.",
+        "hl": [
+         [
+          "where he lives",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "where: no preposition",
+      "lines": [
+       "No where? Then you need the preposition."
+      ],
+      "chips": [
+       "The building where he lives is very old.",
+       "The building in which he lives is very old.",
+       "The building that he lives in is very old.",
+       "The building he lives in is very old.",
+       "❌ The building where he lives in"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Each hotel room has a safe ___ you can keep your valuables.",
+      "options": [
+       "which",
+       "where"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "in the safe → where (or in which)."
+     },
+     {
+      "type": "compare",
+      "title": "where or which?",
+      "left": {
+       "label": "where: something happens THERE",
+       "t": "state",
+       "examples": [
+        {
+         "text": "The house where we lived is very old.",
+         "hl": [
+          [
+           "where we lived",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "which / that: the place is the subject or object",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "The house which we want to buy is very old.",
+         "hl": [
+          [
+           "which we want to buy",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Test: can you say “there”? We lived there ✅ → where."
+     },
+     {
+      "type": "choice",
+      "text": "The town ___ is near us is a nice place to visit.",
+      "options": [
+       "where",
+       "which"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It is near us (subject) → which."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Place + where + subject + verb (no preposition).",
+     "Or: in which… / that … in / Ø … in."
+    ],
+    "timeline": [
+     "where-when"
+    ],
+    "examples": [
+     {
+      "text": "The building where he lives is very old.",
+      "hl": [
+       [
+        "where he lives",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "The building in which he lives is very old.",
+      "hl": [
+       [
+        "in which he lives",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "The building he lives in is very old.",
+      "hl": [
+       [
+        "he lives in",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Hiding places",
+     "icon": "💰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "That is the special book. My daughter puts her money there.",
+       "options": [
+        "That is the special book where my daughter puts her money in.",
+        "That is the special book where my daughter puts her money."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "where: no preposition.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "That is the special book. My daughter puts her money in that book.",
+       "options": [
+        "That is the special book in which my daughter puts her money.",
+        "That is the special book in where my daughter puts her money."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in + which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "This is the mattress. My grandmother hid some money under it.",
+       "options": [
+        "This is the mattress which my grandmother hid some money.",
+        "This is the mattress under which my grandmother hid some money."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep under.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "That is the drawer. Johnny keeps a supply of candy there.",
+       "options": [
+        "That is the drawer where Johnny keeps a supply of candy.",
+        "That is the drawer where Johnny keeps a supply of candy there."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "where replaces there.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "That is the drawer. Johnny keeps a supply of candy in it.",
+       "options": [
+        "That is the drawer Johnny keeps a supply of candy.",
+        "That is the drawer Johnny keeps a supply of candy in."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No where → keep in.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Here is the safe. My mom locks up her jewelry there.",
+       "options": [
+        "Here is the safe where my mom locks up her jewelry.",
+        "Here is the safe which my mom locks up her jewelry."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in the safe → where / in which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "Each hotel room has a safe which you can keep your valuables.",
+       "answer": "wrong",
+       "why": "where / in which.",
+       "fix": "Each hotel room has a safe where you can keep your valuables."
+      }
+     ]
+    },
+    {
+     "title": "where, which, in which",
+     "icon": "🏚️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The house ___ we want to buy is very old.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "We want to buy it (object) → which."
+      },
+      {
+       "type": "choice",
+       "text": "The house ___ we lived is very old.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "We lived there → where / in which.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The town ___ I grew up is a nice place to visit.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "I grew up there → where / in which.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The town ___ is near us is a nice place to visit.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is near us (subject) → which."
+      },
+      {
+       "type": "choice",
+       "text": "The room ___ is in the basement is empty.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is in the basement (subject) → which."
+      },
+      {
+       "type": "choice",
+       "text": "The room ___ I sleep is unheated.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "I sleep there → where / in which.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The park ___ has a nice soccer field is next to the shopping center.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It has a field (subject) → which."
+      },
+      {
+       "type": "choice",
+       "text": "The park ___ I met your dad is now a shopping center.",
+       "options": [
+        "where",
+        "which",
+        "in which"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "I met him there → where / in which.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    },
+    {
+     "title": "Euphemisms",
+     "icon": "🗑️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A euphemism is a word or phrase ___ makes something sound more pleasant.",
+       "options": [
+        "who",
+        "that",
+        "where"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that."
+      },
+      {
+       "type": "choice",
+       "text": "A “used” car is a car ___ has been “pre-owned.”",
+       "options": [
+        "who",
+        "that",
+        "where"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that."
+      },
+      {
+       "type": "choice",
+       "text": "A “landfill” is a place ___ people take their garbage.",
+       "options": [
+        "who",
+        "that",
+        "where"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "They take it there → where."
+      },
+      {
+       "type": "choice",
+       "text": "A person ___ picks up your garbage is a “sanitation engineer.”",
+       "options": [
+        "who",
+        "which",
+        "where"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who."
+      },
+      {
+       "type": "choice",
+       "text": "“Pass away” is a phrase ___ sounds more gentle and indirect than “die.”",
+       "options": [
+        "who",
+        "that",
+        "where"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ are sick are “under the weather.”",
+       "options": [
+        "who",
+        "which",
+        "where"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "People → who."
+      },
+      {
+       "type": "choice",
+       "text": "A guard ___ works at a jail is known as a “corrections officer.”",
+       "options": [
+        "who",
+        "which",
+        "where"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who."
+      },
+      {
+       "type": "choice",
+       "text": "The place ___ prisoners stay is a “correctional facility.”",
+       "options": [
+        "who",
+        "that",
+        "where"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "They stay there → where."
+      },
+      {
+       "type": "choice",
+       "text": "An employee ___ is fired is “let go.”",
+       "options": [
+        "who",
+        "which",
+        "where"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-6",
+   "tag": "13-6",
+   "t": "past",
+   "title": "The day when…",
+   "full": "Using When in Adjective Clauses",
+   "lesson": {
+    "title": "Learn: when for times",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "when = at that time",
+      "lines": [
+       "Use it after a time noun: day, year, time, month."
+      ],
+      "visual": [
+       "where-when"
+      ],
+      "examples": [
+       {
+        "text": "I'll never forget the day when I met you.",
+        "hl": [
+         [
+          "when I met you",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Four ways",
+      "lines": [
+       "when / on which / that / nothing."
+      ],
+      "chips": [
+       "I'll never forget the day when I met you.",
+       "I'll never forget the day on which I met you. (formal)",
+       "I'll never forget the day that I met you.",
+       "I'll never forget the day I met you."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'll never forget the moment ___ I first met your dad.",
+      "options": [
+       "when",
+       "where",
+       "which"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A time → when."
+     },
+     {
+      "type": "learn",
+      "title": "Which preposition + which?",
+      "lines": [
+       "The same one you use with the time."
+      ],
+      "chips": [
+       "on Monday → the day on which",
+       "at 7:05 → the time at which",
+       "in 2010 → the year in which",
+       "in July → the month in which"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "7:05 is the time ___ their plane arrives.",
+      "options": [
+       "on which",
+       "at which",
+       "in which"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "at 7:05 → at which."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Time noun + when / that / Ø + subject + verb.",
+     "Formal: on which (day), at which (time), in which (month, year)."
+    ],
+    "timeline": [
+     "where-when"
+    ],
+    "examples": [
+     {
+      "text": "I'll never forget the day when I met you.",
+      "hl": [
+       [
+        "when I met you",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "I'll never forget the day I met you.",
+      "hl": [
+       [
+        "I met you",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "My Kuwaiti cousins",
+     "icon": "🛬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My cousins from Kuwait will come ___ Monday.",
+       "options": [
+        "on",
+        "at",
+        "in"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "on + day."
+      },
+      {
+       "type": "choice",
+       "text": "Their plane arrives ___ 7:05.",
+       "options": [
+        "on",
+        "at",
+        "in"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "at + clock time."
+      },
+      {
+       "type": "choice",
+       "text": "I last saw them ___ 2010.",
+       "options": [
+        "on",
+        "at",
+        "in"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "in + year."
+      },
+      {
+       "type": "choice",
+       "text": "They asked to visit ___ July.",
+       "options": [
+        "on",
+        "at",
+        "in"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "in + month."
+      },
+      {
+       "type": "choice",
+       "text": "Monday is the day. My cousins from Kuwait will come then.",
+       "options": [
+        "Monday is the day when my cousins from Kuwait will come then.",
+        "Monday is the day when my cousins from Kuwait will come."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "when replaces then.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Monday is the day ___ my cousins from Kuwait will come. (formal)",
+       "options": [
+        "at which",
+        "on which",
+        "in which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "on Monday → on which."
+      },
+      {
+       "type": "choice",
+       "text": "7:05 is the time ___ their plane arrives. (formal)",
+       "options": [
+        "on which",
+        "in which",
+        "at which"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "at 7:05 → at which."
+      },
+      {
+       "type": "choice",
+       "text": "2010 is the year ___ I last saw them. (formal)",
+       "options": [
+        "in which",
+        "on which",
+        "at which"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in 2010 → in which."
+      },
+      {
+       "type": "choice",
+       "text": "July is the month ___ the weather is usually the hottest.",
+       "options": [
+        "where",
+        "when",
+        "which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A time → when."
+      }
+     ]
+    },
+    {
+     "title": "Town memories",
+     "icon": "🏘️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "That is the place ___ the fire began.",
+       "options": [
+        "where",
+        "when"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A place → where."
+      },
+      {
+       "type": "choice",
+       "text": "I remember the day ___ the fire began.",
+       "options": [
+        "where",
+        "when"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A time → when."
+      },
+      {
+       "type": "choice",
+       "text": "This used to be a movie theater. I was young then.",
+       "options": [
+        "This used to be a movie theater when I was young.",
+        "This used to be a movie theater where I was young."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A time → when.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We liked that restaurant. You could get a good meal for a great price there.",
+       "options": [
+        "We liked that restaurant, when you could get a good meal for a great price.",
+        "We liked that restaurant, where you could get a good meal for a great price."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A place → where.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The bakery is no longer there. They made the best chocolate cake.",
+       "options": [
+        "The bakery where they made the best chocolate cake is no longer there.",
+        "The bakery is no longer there where they made the best chocolate cake."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The clause follows its noun: bakery.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There was a time. There were no stoplights then.",
+       "options": [
+        "There was a time which there were no stoplights.",
+        "There was a time when there were no stoplights."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A time → when.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The house is now an office building. I was born there.",
+       "options": [
+        "The house where I was born is now an office building.",
+        "The house where I was born there is now an office building."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "where replaces there.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "I'll never forget the moment when I first met your dad.",
+       "answer": "correct",
+       "why": "A time noun + when."
+      }
+     ]
+    },
+    {
+     "title": "Listen: what does it mean?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The nurse who gave the medicine to the patients seemed confused.",
+       "ask": "Who was confused?",
+       "options": [
+        "the nurse",
+        "the patients"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The nurse … seemed confused."
+      },
+      {
+       "type": "listen",
+       "say": "I met the man who gave the interview on TV last night.",
+       "ask": "Who gave an interview?",
+       "options": [
+        "a man",
+        "the speaker"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the man who gave the interview."
+      },
+      {
+       "type": "listen",
+       "say": "The accident that blocked all lanes of the highway for two hours killed two people.",
+       "ask": "What blocked the highway?",
+       "options": [
+        "two people",
+        "an accident"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The accident that blocked all lanes…"
+      },
+      {
+       "type": "listen",
+       "say": "The small town where I was born is now a large city.",
+       "ask": "Where was the speaker born?",
+       "options": [
+        "in a small town",
+        "in a large city"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the small town where I was born."
+      },
+      {
+       "type": "listen",
+       "say": "The music teacher I took lessons from became a rock star.",
+       "ask": "Who took music lessons?",
+       "options": [
+        "the speaker",
+        "a rock star"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I took lessons from the teacher."
+      },
+      {
+       "type": "listen",
+       "say": "I'd like to get a phone that takes excellent pictures.",
+       "ask": "Does the speaker have this phone now?",
+       "options": [
+        "Yes",
+        "No, but he wants one."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I'd like to get = not yet."
+      },
+      {
+       "type": "listen",
+       "say": "The neighbor I often invite to dinner never invites me.",
+       "ask": "Who invites?",
+       "options": [
+        "The speaker invites the neighbor.",
+        "The neighbor invites the speaker."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the neighbor (whom) I invite."
+      }
+     ]
+    },
+    {
+     "title": "The Titanic",
+     "icon": "🚢",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Robert Ballard is an oceanographer. He made headlines in 1985.",
+       "options": [
+        "Robert Ballard is an oceanographer which made headlines in 1985.",
+        "Robert Ballard is an oceanographer who made headlines in 1985."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A person → who.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Ballard led a team. They discovered the remains of the Titanic.",
+       "options": [
+        "Ballard led a team that discovered the remains of the Titanic.",
+        "Ballard led a team that they discovered the remains of the Titanic."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that replaces they.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The Titanic was a passenger ship. It has rested on the ocean floor since 1912.",
+       "options": [
+        "The Titanic was a passenger ship who has rested on the ocean floor since 1912.",
+        "The Titanic was a passenger ship that has rested on the ocean floor since 1912."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "1912 was the year. It struck an iceberg then.",
+       "options": [
+        "1912 was the year when it struck an iceberg.",
+        "1912 was the year where it struck an iceberg."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A time → when.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "He left a memorial plaque. It honored all those who died on that terrible night.",
+       "options": [
+        "He left a memorial plaque honored all those who died on that terrible night.",
+        "He left a memorial plaque that honored all those who died on that terrible night."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A subject pronoun can't be dropped.",
+       "ask": "Combine"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What kind of…?",
+     "task": "Claude asks: What kind of cities do you like to visit? What time of day do you feel most energetic?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What kind of people do you like to spend time with? What kind of people do you prefer to avoid? What kind of cities do you like to visit? What kind of teachers do you learn best from? What kind of place would you like to live in? What time of day do you feel most energetic? Encourage me to answer with adjective clauses (I like cities that ..., a place where ..., the time when ...). Check who/that/which/where/when and that I don't add an extra pronoun."
+    }
+   ]
+  },
+  {
+   "id": "13-7",
+   "tag": "13-7",
+   "t": "plan",
+   "title": "Someone who…",
+   "full": "Using Adjective Clauses to Modify Pronouns",
+   "lesson": {
+    "title": "Learn: clauses after someone, everything, the one",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "After someone, everything…",
+      "lines": [
+       "A clause can describe these words too."
+      ],
+      "chips": [
+       "There is someone I want you to meet.",
+       "Everything he said was pure nonsense.",
+       "Anybody who wants to come is welcome."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ wants to volunteer is welcome to come.",
+      "options": [
+       "Anyone",
+       "Anyone who"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A subject pronoun (who) can't be dropped."
+     },
+     {
+      "type": "learn",
+      "title": "the one(s) and those",
+      "lines": [
+       "They can take a clause too."
+      ],
+      "chips": [
+       "Paula was the only one I knew at the party.",
+       "Scholarships are available for those who need financial assistance."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Is everything your lawyer says true?",
+      "options": [
+       "Correct",
+       "Wrong"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "everything (that) your lawyer says: object pronoun dropped."
+     },
+     {
+      "type": "learn",
+      "title": "Not after I, you, he…",
+      "lines": [
+       "We don't describe personal pronouns this way."
+      ],
+      "chips": [
+       "❌ I who am a student at this school come from Asia.",
+       "✅ I am a student at this school. I come from Asia."
+      ],
+      "tip": "A famous old saying is different: He who laughs last laughs best."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "someone / everything / anybody / the one / those + adjective clause.",
+     "Object pronouns are usually dropped: everything he said."
+    ],
+    "timeline": [
+     "adj-clause"
+    ],
+    "examples": [
+     {
+      "text": "There is someone I want you to meet.",
+      "hl": [
+       [
+        "I want you to meet",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Anybody who wants to come is welcome.",
+      "hl": [
+       [
+        "who wants to come",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Everything he said was pure nonsense.",
+      "hl": [
+       [
+        "he said",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What does it describe?",
+     "icon": "🎯",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Management needs someone at the top who understands our jobs.",
+       "options": [
+        "someone",
+        "the top",
+        "jobs"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who understands… describes someone.",
+       "ask": "Which word does the clause describe?"
+      },
+      {
+       "type": "choice",
+       "text": "We're the ones who seem to know everything.",
+       "options": [
+        "We",
+        "the ones",
+        "everything"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who seem… describes the ones.",
+       "ask": "Which word does the clause describe?"
+      },
+      {
+       "type": "choice",
+       "text": "Everything they want to do slows us down and costs more.",
+       "options": [
+        "Everything",
+        "us",
+        "more"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "they want to do describes Everything.",
+       "ask": "Which word does the clause describe?"
+      },
+      {
+       "type": "choice",
+       "text": "Everything they want to do slows us down.",
+       "options": [
+        "they want to do",
+        "slows us down"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "(that) they want to do.",
+       "ask": "Which part is the adjective clause?"
+      },
+      {
+       "type": "choice",
+       "text": "Scholarships are available for those who need financial assistance.",
+       "options": [
+        "Scholarships",
+        "those"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "who need… describes those.",
+       "ask": "Which word does the clause describe?"
+      },
+      {
+       "type": "choice",
+       "text": "Paula was the only one I knew at the party.",
+       "options": [
+        "Paula",
+        "the only one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "(whom) I knew describes the only one.",
+       "ask": "Which word does the clause describe?"
+      }
+     ]
+    },
+    {
+     "title": "Help!",
+     "icon": "🆘",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ask your mom. She's the one ___.",
+       "options": [
+        "who can help you",
+        "can help you"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A subject pronoun can't be dropped."
+      },
+      {
+       "type": "choice",
+       "text": "I have a problem. There is something ___.",
+       "options": [
+        "I don't understand it",
+        "I don't understand"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Take out it."
+      },
+      {
+       "type": "choice",
+       "text": "This problem is harder than the ones ___.",
+       "options": [
+        "we did yesterday",
+        "we did them yesterday"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out them."
+      },
+      {
+       "type": "choice",
+       "text": "Those ___ should stay after class.",
+       "options": [
+        "need extra help",
+        "who need extra help"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A subject pronoun can't be dropped."
+      },
+      {
+       "type": "choice",
+       "text": "I'm sorry, but I'm powerless. There's nothing more ___.",
+       "options": [
+        "I can do",
+        "what I can do"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "nothing (that) I can do. Not what."
+      },
+      {
+       "type": "choice",
+       "text": "I don't think you heard anything ___.",
+       "options": [
+        "who I said",
+        "I said"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "anything (that) I said. A thing, not who."
+      },
+      {
+       "type": "choice",
+       "text": "I did everything ___, but it didn't work.",
+       "options": [
+        "you told me to do",
+        "you told me to do it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out it."
+      },
+      {
+       "type": "choice",
+       "text": "You are the only one ___.",
+       "options": [
+        "who understand me",
+        "who understands me"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the one (singular) → understands."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "⚖️",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Anyone wants to volunteer is welcome to come.",
+       "answer": "wrong",
+       "why": "A subject pronoun can't be dropped.",
+       "fix": "Anyone who wants to volunteer is welcome to come."
+      },
+      {
+       "type": "judge",
+       "text": "Is everything your lawyer says true?",
+       "answer": "correct",
+       "why": "everything (that) your lawyer says."
+      },
+      {
+       "type": "judge",
+       "text": "There is someone I want you to meet.",
+       "answer": "correct",
+       "why": "someone (whom) I want you to meet."
+      },
+      {
+       "type": "judge",
+       "text": "Everything he said it was pure nonsense.",
+       "answer": "wrong",
+       "why": "Take out it.",
+       "fix": "Everything he said was pure nonsense."
+      },
+      {
+       "type": "judge",
+       "text": "I who am a student at this school come from a country in Asia.",
+       "answer": "wrong",
+       "why": "Don't describe I with a clause.",
+       "fix": "I am a student at this school, and I come from a country in Asia."
+      },
+      {
+       "type": "judge",
+       "text": "Scholarships are available for those who need financial assistance.",
+       "answer": "correct",
+       "why": "those + who-clause."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "The ideal…",
+     "task": "Finish it for Claude: “The ideal friend is one who…”, “The ideal job is one that…”",
+     "claudePrompt": "You are my English speaking partner. Ask me to complete one sentence at a time: The ideal friend is one who ... / The ideal job is one that ... / The ideal city is one where ... / The ideal teacher is one who ... / The ideal spouse is one who .... Ask a short follow-up question each time. Check who/that/where and verb agreement (one who listens, not listen)."
+    }
+   ]
+  },
+  {
+   "id": "13-8",
+   "tag": "13-8",
+   "t": "plan",
+   "title": "Commas or not?",
+   "full": "Punctuating Adjective Clauses",
+   "lesson": {
+    "title": "Learn: which one? or extra information?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two kinds of clauses",
+      "lines": [
+       "Tells us WHICH one → no commas.",
+       "Just extra information → commas."
+      ],
+      "visual": [
+       "commas"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A name? Use commas",
+      "lines": [
+       "We already know who or what it is."
+      ],
+      "chips": [
+       "The professor who teaches Chemistry 101 is an excellent lecturer.",
+       "Professor Wilson, who teaches Chemistry 101, is an excellent lecturer.",
+       "Hawaii, which consists of eight principal islands, is a favorite vacation spot."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Mercury which is the nearest planet to the sun is also the smallest planet.",
+      "options": [
+       "Commas",
+       "No commas"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Mercury is a name → extra information."
+     },
+     {
+      "type": "learn",
+      "title": "With commas: no that, no dropping",
+      "lines": [
+       "Use who, whom, which, whose, where, when."
+      ],
+      "chips": [
+       "✅ Mr. Lee, whom I met yesterday, teaches chemistry.",
+       "❌ Mr. Lee, that I met yesterday, teaches chemistry.",
+       "❌ Mr. Lee, I met yesterday, teaches chemistry."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Indonesia, ___ consists of thousands of islands, is the fourth most populated country.",
+      "options": [
+       "that",
+       "which"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "With commas → which, never that."
+     },
+     {
+      "type": "compare",
+      "title": "Commas change the meaning",
+      "left": {
+       "label": "Commas: ALL of them",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "The children, who wanted to play soccer, ran to an open field.",
+         "hl": [
+          [
+           ", who wanted to play soccer,",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "No commas: only SOME",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "The children who wanted to play soccer ran to an open field.",
+         "hl": [
+          [
+           "who wanted to play soccer",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "A comma = a small pause when you speak."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Needed to know which one → no commas.",
+     "Extra information (names!) → commas, and never that."
+    ],
+    "timeline": [
+     "commas"
+    ],
+    "examples": [
+     {
+      "text": "The professor who teaches Chemistry 101 is an excellent lecturer.",
+      "hl": [
+       [
+        "who teaches Chemistry 101",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Professor Wilson, who teaches Chemistry 101, is an excellent lecturer.",
+      "hl": [
+       [
+        ", who teaches Chemistry 101,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Needed or extra? (1)",
+     "icon": "🪐",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Mercury which is the nearest planet to the sun is also the smallest planet in our solar system.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "Research has shown that children who watch violent video games may become more aggressive.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which children? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "People who live in glass houses shouldn't throw stones.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which people? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "Little Red Riding Hood who went out one day to visit her grandmother found a wolf in her grandmother's bed.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "Vegetables which are orange have a lot of vitamin A.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Only the orange ones. Needed."
+      },
+      {
+       "type": "sort",
+       "word": "Vegetables which come in many shapes and colors have lots of vitamins.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "All vegetables → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "Did you hear about the man who rowed a boat across the Atlantic Ocean?",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which man? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "My uncle who loves boating rows his boat across the lake nearly every day.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "My uncle is already clear → extra."
+      },
+      {
+       "type": "sort",
+       "word": "Rice which is grown in many countries is a staple food throughout much of the world.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "All rice → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "The rice which we had for dinner last night was very good.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which rice? Needed."
+      }
+     ]
+    },
+    {
+     "title": "Needed or extra? (2)",
+     "icon": "🍵",
+     "items": [
+      {
+       "type": "sort",
+       "word": "The newspaper article was about a man who died two weeks ago of a rare tropical disease.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which man? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "The obituary said that Paul O'Grady who died two weeks ago of a sudden heart attack was a kind and loving man.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "Tea which is a common drink throughout the world is made by pouring boiling water onto dried leaves.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "All tea → extra information."
+      },
+      {
+       "type": "sort",
+       "word": "Tea which is made from herbs is called herbal tea.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Only that kind of tea. Needed."
+      },
+      {
+       "type": "sort",
+       "word": "Toys which contain lead paint are unsafe for children.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Only those toys. Needed."
+      },
+      {
+       "type": "sort",
+       "word": "Lead which can be found in paint and plastics is known to cause brain damage in children.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "All lead → extra information."
+      },
+      {
+       "type": "judge",
+       "text": "Indonesia, that consists of thousands of islands, is the fourth most populated country in the world.",
+       "answer": "wrong",
+       "why": "With commas → which, not that.",
+       "fix": "Indonesia, which consists of thousands of islands, is the fourth most populated country in the world."
+      },
+      {
+       "type": "judge",
+       "text": "Mr. Lee, I met yesterday, teaches chemistry.",
+       "answer": "wrong",
+       "why": "With commas you can't drop the pronoun.",
+       "fix": "Mr. Lee, whom I met yesterday, teaches chemistry."
+      },
+      {
+       "type": "judge",
+       "text": "Mrs. Smith, who is a retired teacher, does volunteer work at the hospital.",
+       "answer": "correct",
+       "why": "A name → commas + who."
+      }
+     ]
+    },
+    {
+     "title": "All or only some?",
+     "icon": "💐",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The teacher thanked the students, who had given her some flowers.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Commas → all of the students.",
+       "ask": "How many students did she thank?"
+      },
+      {
+       "type": "choice",
+       "text": "The teacher thanked the students who had given her some flowers.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No commas → only those students.",
+       "ask": "How many students did she thank?"
+      },
+      {
+       "type": "choice",
+       "text": "The villagers who had received a warning of the flood escaped to safety.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No commas → only the warned ones.",
+       "ask": "How many villagers escaped?"
+      },
+      {
+       "type": "choice",
+       "text": "The villagers, who had received a warning of the flood, escaped to safety.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Commas → all were warned; all escaped.",
+       "ask": "How many villagers escaped?"
+      },
+      {
+       "type": "choice",
+       "text": "Natasha picked up the grammar book, which was lying upside down on the floor.",
+       "options": [
+        "There was only one grammar book.",
+        "There was more than one grammar book."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Commas → extra information about the one book."
+      },
+      {
+       "type": "choice",
+       "text": "Natasha picked up the grammar book which was lying upside down on the floor.",
+       "options": [
+        "There was only one grammar book.",
+        "There was more than one grammar book."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No commas → it tells us which book."
+      },
+      {
+       "type": "choice",
+       "text": "She threw away the apples, which were rotten.",
+       "options": [
+        "She threw away all of the apples.",
+        "She threw away only the rotten apples."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Commas → all the apples (all were rotten)."
+      },
+      {
+       "type": "choice",
+       "text": "She threw away the apples which were rotten.",
+       "options": [
+        "She threw away all of the apples.",
+        "She threw away only the rotten apples."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No commas → only the rotten ones."
+      },
+      {
+       "type": "choice",
+       "text": "The students, who had done well on the test, were excused from class early.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Commas → all of the students.",
+       "ask": "Who left early?"
+      },
+      {
+       "type": "choice",
+       "text": "The students who had done well on the test were excused from class early.",
+       "options": [
+        "Only some of them",
+        "All of them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No commas → only those students.",
+       "ask": "Who left early?"
+      }
+     ]
+    },
+    {
+     "title": "Add commas?",
+     "icon": "🐝",
+     "items": [
+      {
+       "type": "sort",
+       "word": "We enjoyed the city where we spent our honeymoon.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which city? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "We enjoyed Mexico City where we spent our vacation.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → comma after Mexico City."
+      },
+      {
+       "type": "sort",
+       "word": "One of the most useful materials in the world is glass which is made mainly from sand, soda, and lime.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "All glass → comma after glass."
+      },
+      {
+       "type": "sort",
+       "word": "The glass which is used in windows is different from the glass which is used in eyeglasses.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which glass? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "You don't need heavy clothes when you go to Bangkok which has one of the highest average temperatures of any city.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → comma after Bangkok."
+      },
+      {
+       "type": "sort",
+       "word": "Bangkok where my father was born is known as the Venice of the East.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → commas."
+      },
+      {
+       "type": "sort",
+       "word": "Mr. Trang whose son won the spelling contest is very proud of his son's achievement.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 0,
+       "why": "A name → commas."
+      },
+      {
+       "type": "sort",
+       "word": "The man whose daughter won the science contest is also very pleased and proud.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which man? Needed."
+      },
+      {
+       "type": "sort",
+       "word": "Beekeepers who wear protective clothing can avoid most bee stings.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Only those beekeepers. Needed."
+      },
+      {
+       "type": "sort",
+       "word": "A person who doesn't wear protective clothing can get hundreds of bee stings within a minute.",
+       "buckets": [
+        "Commas",
+        "No commas"
+       ],
+       "answer": 1,
+       "why": "Which person? Needed."
+      }
+     ]
+    },
+    {
+     "title": "DOS: the first operating system",
+     "icon": "💾",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Tim Paterson was the person ___.",
+       "options": [
+        "who developed QDOS",
+        "which developed QDOS"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → who.",
+       "ctx": "Tim Paterson, a programmer at Seattle Computer, wrote QDOS in four months."
+      },
+      {
+       "type": "choice",
+       "text": "Seattle Computer was the company ___.",
+       "options": [
+        "that Paterson worked",
+        "that Paterson worked for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "work for → keep for."
+      },
+      {
+       "type": "choice",
+       "text": "The abbreviation for the program was QDOS, ___ “quick and dirty operating system.”",
+       "options": [
+        "which meant",
+        "that meant"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After a comma → which, not that."
+      },
+      {
+       "type": "choice",
+       "text": "IBM was a company ___ a personal computer.",
+       "options": [
+        "who was developing",
+        "that was developing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A company (thing) → that."
+      },
+      {
+       "type": "choice",
+       "text": "Microsoft, ___ $25,000 for a license, became very successful.",
+       "options": [
+        "which paid Paterson",
+        "that paid Paterson"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A name + commas → which."
+      },
+      {
+       "type": "choice",
+       "text": "Microsoft acquired rights to a program ___.",
+       "options": [
+        "that Paterson had written it",
+        "that Paterson had written"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Take out it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-9",
+   "tag": "13-9",
+   "t": "plan",
+   "title": "Most of whom",
+   "full": "Using Expressions of Quantity in Adjective Clauses",
+   "lesson": {
+    "title": "Learn: some of which, most of whom",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "quantity + of + whom / which",
+      "lines": [
+       "People → of whom. Things → of which. Always a comma."
+      ],
+      "visual": [
+       "quantity"
+      ],
+      "chips": [
+       "In my class there are 20 students, most of whom are from Asia.",
+       "He gave several reasons, only a few of which were valid."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The mall has 200 stores, many of ___ are having sales this weekend.",
+      "options": [
+       "them",
+       "which",
+       "whom"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Stores are things → of which."
+     },
+     {
+      "type": "learn",
+      "title": "Not them, not who",
+      "lines": [
+       "Only whom, which, whose in this pattern."
+      ],
+      "chips": [
+       "✅ two of whom are repeating the class",
+       "❌ two of them are repeating the class (in one sentence)",
+       "The teachers discussed Jim, one of whose problems was poor study habits."
+      ],
+      "tip": "More common in writing than in speaking."
+     },
+     {
+      "type": "choice",
+      "text": "The couple has 13 children, only a few of whom live at home. How many live at home?",
+      "options": [
+       "Ten children",
+       "A few of the children"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "only a few of whom = a few of the children."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "…, some / many / most / none / two / both + of whom (people) / of which (things).",
+     "Use a comma. Don't use them or who."
+    ],
+    "timeline": [
+     "quantity"
+    ],
+    "examples": [
+     {
+      "text": "In my class there are 20 students, most of whom are from Asia.",
+      "hl": [
+       [
+        "most of whom",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "He gave several reasons, only a few of which were valid.",
+      "hl": [
+       [
+        "only a few of which",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "At the mall",
+     "icon": "🛍️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Victoria bought a dozen dresses, most of which she later returned to the store.",
+       "options": [
+        "Victoria returned a dozen dresses.",
+        "Victoria kept a few of the dresses."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "most ≠ all. She kept a few."
+      },
+      {
+       "type": "choice",
+       "text": "I went to a few sales. Only one of them had good discounts.",
+       "options": [
+        "I went to a few sales, only one of which had good discounts.",
+        "I went to a few sales, only one of them had good discounts."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "of them → of which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There are many clothing stores. The majority of them are for women and teenage girls.",
+       "options": [
+        "There are many clothing stores, the majority of whom are for women and teenage girls.",
+        "There are many clothing stores, the majority of which are for women and teenage girls."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Stores are things → of which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I tried on five dresses. I liked two of them.",
+       "options": [
+        "I tried on five dresses, two of which I liked.",
+        "I tried on five dresses, two of which I liked them."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out them.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The movie theater is showing four movies. None of them sound good.",
+       "options": [
+        "The movie theater is showing four movies, none of that sound good.",
+        "The movie theater is showing four movies, none of which sound good."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Never of that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There are several ethnic restaurants in the food court. All of them have reasonable prices.",
+       "options": [
+        "There are several ethnic restaurants in the food court, all of which have reasonable prices.",
+        "There are several ethnic restaurants in the food court, which all of have reasonable prices."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "all + of + which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There are two cafes side by side. Both of them serve excellent coffee.",
+       "options": [
+        "There are two cafes side by side, both of who serve excellent coffee.",
+        "There are two cafes side by side, both of which serve excellent coffee."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Things → of which.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "whom or which?",
+     "icon": "👭",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I have several friends, two of ___ grew up with me.",
+       "verb": "?",
+       "accept": [
+        "whom"
+       ],
+       "why": "Friends are people → whom."
+      },
+      {
+       "type": "fill",
+       "text": "I own three bikes, one of ___ is very old.",
+       "verb": "?",
+       "accept": [
+        "which"
+       ],
+       "why": "Bikes are things → which."
+      },
+      {
+       "type": "fill",
+       "text": "I have many cousins, all of ___ live in my hometown.",
+       "verb": "?",
+       "accept": [
+        "whom"
+       ],
+       "why": "Cousins are people → whom."
+      },
+      {
+       "type": "fill",
+       "text": "I bought two shirts, neither of ___ fits me.",
+       "verb": "?",
+       "accept": [
+        "which"
+       ],
+       "why": "Shirts are things → which."
+      },
+      {
+       "type": "fill",
+       "text": "I am taking four courses, one of ___ is English grammar.",
+       "verb": "?",
+       "accept": [
+        "which"
+       ],
+       "why": "Courses are things → which."
+      },
+      {
+       "type": "fill",
+       "text": "This term I had to buy six books, most of ___ were expensive.",
+       "verb": "?",
+       "accept": [
+        "which"
+       ],
+       "why": "Books are things → which."
+      },
+      {
+       "type": "fill",
+       "text": "In my chemistry study group, there are eight students, two of ___ are repeating the class.",
+       "verb": "?",
+       "accept": [
+        "whom"
+       ],
+       "why": "Students are people → whom."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "🧪",
+     "items": [
+      {
+       "type": "judge",
+       "text": "In my chemistry study group, there are eight students, two of whom are repeating the class.",
+       "answer": "correct",
+       "why": "people → two of whom."
+      },
+      {
+       "type": "judge",
+       "text": "The mall has 200 stores, many of them are having sales this weekend.",
+       "answer": "wrong",
+       "why": "One sentence → many of which.",
+       "fix": "The mall has 200 stores, many of which are having sales this weekend."
+      },
+      {
+       "type": "judge",
+       "text": "He gave several reasons, only a few of which were valid.",
+       "answer": "correct",
+       "why": "things → a few of which."
+      },
+      {
+       "type": "judge",
+       "text": "I have three brothers, all of who are older than me.",
+       "answer": "wrong",
+       "why": "After of → whom.",
+       "fix": "I have three brothers, all of whom are older than me."
+      },
+      {
+       "type": "judge",
+       "text": "The teachers discussed Jim, one of whose problems was poor study habits.",
+       "answer": "correct",
+       "why": "one of whose + noun."
+      },
+      {
+       "type": "judge",
+       "text": "She has two phones, both of that are broken.",
+       "answer": "wrong",
+       "why": "Never of that → of which.",
+       "fix": "She has two phones, both of which are broken."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-10",
+   "tag": "13-10",
+   "t": "plan",
+   "title": "…, which surprised me",
+   "full": "Using Which to Modify a Whole Sentence",
+   "lesson": {
+    "title": "Learn: which = the whole idea",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "which can mean “that fact”",
+      "lines": [
+       "It points back to the whole sentence."
+      ],
+      "visual": [
+       "which-sentence"
+      ],
+      "chips": [
+       "Tom was late. That surprised me.",
+       "Tom was late, which surprised me."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The soccer team worked very hard to win, which made their coach very proud. What does “which” mean?",
+      "options": [
+       "the coach",
+       "the team worked very hard to win"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "which = the whole idea before the comma."
+     },
+     {
+      "type": "learn",
+      "title": "Comma + which. No it",
+      "lines": [
+       "which is already the subject."
+      ],
+      "chips": [
+       "✅ The elevator is out of order, which is too bad.",
+       "❌ The elevator is out of order, which it is too bad."
+      ],
+      "tip": "This is informal. It is common in speaking."
+     },
+     {
+      "type": "choice",
+      "text": "The apartment building has ten floors and no elevator, ___ a challenge for me.",
+      "options": [
+       "which it will be",
+       "which will be"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "which is the subject. No it."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "sentence + , which + verb… (which = the whole idea).",
+     "Always a comma. Common in speaking."
+    ],
+    "timeline": [
+     "which-sentence"
+    ],
+    "examples": [
+     {
+      "text": "Tom was late, which surprised me.",
+      "hl": [
+       [
+        ", which surprised me",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The elevator is out of order, which is too bad.",
+      "hl": [
+       [
+        ", which is too bad",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Sonya's challenges",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Sonya lost her job. That wasn't surprising.",
+       "options": [
+        "Sonya lost her job, which wasn't surprising.",
+        "Sonya lost her job, that wasn't surprising."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma + which, not that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "She usually came to work late. That upset her boss.",
+       "options": [
+        "She usually came to work late, which it upset her boss.",
+        "She usually came to work late, which upset her boss."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "which is the subject. No it.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "So her boss fired her. That made her angry.",
+       "options": [
+        "So her boss fired her, which made her angry.",
+        "So her boss fired her which made her angry."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Use a comma before which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "She hadn't saved any money. That was unfortunate.",
+       "options": [
+        "She hadn't saved any money, what was unfortunate.",
+        "She hadn't saved any money, which was unfortunate."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "which, not what.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "So she had to borrow some money from me. I didn't like that.",
+       "options": [
+        "So she had to borrow some money from me, which I didn't like.",
+        "So she had to borrow some money from me, which I didn't like that."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "which replaces that.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "She has found a new job. That is lucky.",
+       "options": [
+        "She has found a new job, who is lucky.",
+        "She has found a new job, which is lucky."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An idea → which.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "So she has repaid the money she borrowed from me. I appreciate that.",
+       "options": [
+        "So she has repaid the money she borrowed from me, which I appreciate.",
+        "So she has repaid the money she borrowed from me, which I appreciate it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Take out it.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "She has promised herself to be on time every day. That is a good idea.",
+       "options": [
+        "She has promised herself to be on time every day, which a good idea.",
+        "She has promised herself to be on time every day, which is a good idea."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The clause needs a verb: is.",
+       "ask": "Combine"
+      },
+      {
+       "type": "judge",
+       "text": "The apartment building has ten floors and no elevator, which it will be a challenge for me.",
+       "answer": "wrong",
+       "why": "which is the subject. No it.",
+       "fix": "The apartment building has ten floors and no elevator, which will be a challenge for me."
+      }
+     ]
+    },
+    {
+     "title": "Formal writing",
+     "icon": "📄",
+     "items": [
+      {
+       "type": "choice",
+       "text": "An antecedent is a word ___ a pronoun refers.",
+       "options": [
+        "to that",
+        "to which",
+        "which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "refer to → to which."
+      },
+      {
+       "type": "choice",
+       "text": "The blue whale, ___ can grow to 100 feet and 150 tons, is considered the largest animal that has ever lived.",
+       "options": [
+        "that",
+        "who",
+        "which"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Extra information with commas → which."
+      },
+      {
+       "type": "choice",
+       "text": "The plane was met by a crowd of 300 people, ___ had been waiting for more than four hours.",
+       "options": [
+        "some of whom",
+        "some of them",
+        "some of which"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "People → some of whom."
+      },
+      {
+       "type": "choice",
+       "text": "In this paper, I will describe the basic process ___ raw cotton becomes cotton thread.",
+       "options": [
+        "by that",
+        "by which",
+        "which"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by this process → by which."
+      },
+      {
+       "type": "choice",
+       "text": "The researchers are doing case studies of people ___ families have a history of high blood pressure.",
+       "options": [
+        "who",
+        "which",
+        "whose"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "these people's families → whose."
+      },
+      {
+       "type": "choice",
+       "text": "Scientists will conclude their AIDS research, the results of ___ will be published within six months.",
+       "options": [
+        "which",
+        "whom",
+        "that"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A thing, after of → which."
+      },
+      {
+       "type": "choice",
+       "text": "“Math phobia” is a widespread problem ___ a solution can and must be found.",
+       "options": [
+        "to that",
+        "to which",
+        "who"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a solution to this problem → to which."
+      },
+      {
+       "type": "choice",
+       "text": "The art museum hopes to hire a new administrator under ___ direction it can purchase significant art.",
+       "options": [
+        "who",
+        "which",
+        "whose"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "this person's direction → whose."
+      },
+      {
+       "type": "choice",
+       "text": "The giant anteater, ___ tongue is longer than 30 centimeters, licks up ants for its dinner.",
+       "options": [
+        "whose",
+        "which",
+        "who's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "its tongue → whose."
+      },
+      {
+       "type": "choice",
+       "text": "The anteater's tongue, ___ can go in and out of its mouth 160 times a minute, is sticky.",
+       "options": [
+        "that",
+        "which",
+        "whose"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Extra information with commas → which."
+      }
+     ]
+    },
+    {
+     "title": "Ellen's commute",
+     "icon": "⛴️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ellen commutes to work by ferry, WHICH means she takes a boat.",
+       "options": [
+        "a ferry",
+        "She commutes to work by ferry (the whole idea)."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "which = the whole idea.",
+       "ask": "What does WHICH point to?"
+      },
+      {
+       "type": "choice",
+       "text": "…from the island where she lives to the city WHERE she works.",
+       "options": [
+        "the island",
+        "the city"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "where follows its noun: the city.",
+       "ask": "What does WHERE point to?"
+      },
+      {
+       "type": "choice",
+       "text": "She leaves her house at 6:00, WHICH is earlier than she'd like.",
+       "options": [
+        "her house",
+        "leaving at 6:00 (the whole idea)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "which = the whole idea.",
+       "ask": "What does WHICH point to?"
+      },
+      {
+       "type": "choice",
+       "text": "Ellen needs 20 minutes to drive to the parking lot WHERE she leaves her car.",
+       "options": [
+        "the parking lot",
+        "20 minutes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "where follows its noun.",
+       "ask": "What does WHERE point to?"
+      },
+      {
+       "type": "choice",
+       "text": "She catches a bus THAT takes her to her office.",
+       "options": [
+        "a bus",
+        "her office"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that follows its noun: a bus.",
+       "ask": "What does THAT point to?"
+      },
+      {
+       "type": "choice",
+       "text": "On the bus, she usually reads reports THAT she was too tired to finish the night before.",
+       "options": [
+        "the bus",
+        "reports"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "that follows its noun: reports.",
+       "ask": "What does THAT point to?"
+      },
+      {
+       "type": "choice",
+       "text": "She picks up coffee for her co-workers, for WHICH they reimburse her later.",
+       "options": [
+        "her co-workers",
+        "the coffee she picks up"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They pay her back for the coffee.",
+       "ask": "What does WHICH point to?"
+      },
+      {
+       "type": "choice",
+       "text": "She has been commuting for an hour and a half, WHICH she wishes she didn't have to do.",
+       "options": [
+        "commuting for an hour and a half",
+        "her office"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "which = the whole idea.",
+       "ask": "What does WHICH point to?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "13-11",
+   "tag": "13-11",
+   "t": "plan",
+   "title": "The girl sitting next to me",
+   "full": "Reducing Adjective Clauses to Adjective Phrases",
+   "lesson": {
+    "title": "Learn: make the clause shorter",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Clause → phrase",
+      "lines": [
+       "Only when who / that / which is the SUBJECT."
+      ],
+      "visual": [
+       "reduce"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Way 1: cut who + be",
+      "lines": [
+       "Take out the pronoun and be."
+      ],
+      "chips": [
+       "The man who is talking to John is from Korea. → The man talking to John…",
+       "The ideas that are presented in this book are good. → The ideas presented in this book…",
+       "Paris, which is the capital of France, … → Paris, the capital of France, …"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The girl who is sitting next to me is Mai. → The girl ___ next to me is Mai.",
+      "options": [
+       "sitting",
+       "is sitting",
+       "who sitting"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Cut who + is."
+     },
+     {
+      "type": "learn",
+      "title": "Way 2: no be? Use -ing",
+      "lines": [
+       "Take out the pronoun. Change the verb to -ing."
+      ],
+      "chips": [
+       "an alphabet that consists of 26 letters → an alphabet consisting of 26 letters",
+       "Anyone who wants to come is welcome. → Anyone wanting to come is welcome."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "English has an alphabet that consists of 26 letters. → an alphabet ___ of 26 letters",
+      "options": [
+       "consists",
+       "consisting",
+       "consisted"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No be → verb + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "The girl (whom) I saw was Mai. Can you reduce it?",
+      "options": [
+       "Yes: The girl seeing was Mai.",
+       "No. The pronoun is an object."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Only subject pronouns can be reduced."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "who / that / which + be → cut both: the man talking to John.",
+     "No be → verb-ing: an alphabet consisting of 26 letters. Commas stay."
+    ],
+    "timeline": [
+     "reduce"
+    ],
+    "examples": [
+     {
+      "text": "The girl sitting next to me is Mai.",
+      "hl": [
+       [
+        "sitting next to me",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The ideas presented in this book are good.",
+      "hl": [
+       [
+        "presented in this book",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Paris, the capital of France, is an exciting city.",
+      "hl": [
+       [
+        ", the capital of France,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Early failures, a class trip",
+     "icon": "💡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Abraham Lincoln, who was one of the truly great presidents of the United States, lost 23 elections.",
+       "options": [
+        "Abraham Lincoln, one of the truly great presidents of the United States, lost 23 elections.",
+        "Abraham Lincoln, was one of the truly great presidents of the United States, lost 23 elections."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Cut who + was.",
+       "ask": "Make it shorter"
+      },
+      {
+       "type": "choice",
+       "text": "Walt Disney, who was the creator of Mickey Mouse, once was fired by a newspaper editor.",
+       "options": [
+        "Walt Disney the creator of Mickey Mouse once was fired by a newspaper editor.",
+        "Walt Disney, the creator of Mickey Mouse, once was fired by a newspaper editor."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cut who + was. Keep the commas.",
+       "ask": "Make it shorter"
+      },
+      {
+       "type": "choice",
+       "text": "Thomas Edison, who was the inventor of the light bulb, was believed to be too stupid to learn.",
+       "options": [
+        "Thomas Edison, the inventor of the light bulb, was believed to be too stupid to learn.",
+        "Thomas Edison, who the inventor of the light bulb, was believed to be too stupid to learn."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Cut who AND was.",
+       "ask": "Make it shorter"
+      },
+      {
+       "type": "choice",
+       "text": "Albert Einstein, who was one of the greatest scientists of all time, failed his first college entrance exam.",
+       "options": [
+        "Albert Einstein, being was one of the greatest scientists of all time, failed his first college entrance exam.",
+        "Albert Einstein, one of the greatest scientists of all time, failed his first college entrance exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cut who + was.",
+       "ask": "Make it shorter"
+      },
+      {
+       "type": "choice",
+       "text": "…the Biodome, a dome-like structure housing five ecosystems.",
+       "options": [
+        "which is a dome-like structure that houses five ecosystems",
+        "which a dome-like structure that housing five ecosystems"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Add which is; housing → that houses.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "Ecosystems are biological communities containing living and non-living things.",
+       "options": [
+        "communities that containing living and non-living things",
+        "communities that contain living and non-living things"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "containing → that contain.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "The ecosystems being studied in our class include a tropical rain forest.",
+       "options": [
+        "The ecosystems that are being studied in our class",
+        "The ecosystems that being studied in our class"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Add that are.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "…the Montreal Insectarium, considered North America's leading museum of insects, …",
+       "options": [
+        "which considered North America's leading museum of insects",
+        "which is considered North America's leading museum of insects"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Add which is.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "Students not wanting to see insects can spend more time at the Biodome.",
+       "options": [
+        "Students who do not want to see insects",
+        "Students who not wanting to see insects"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not wanting → who do not want.",
+       "ask": "Make it a full clause"
+      }
+     ]
+    },
+    {
+     "title": "Geography game",
+     "icon": "🗺️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Mount Everest, ___, is in the Himalayas.",
+       "options": [
+        "the capital of Iraq",
+        "the lowest place on the earth's surface",
+        "the highest mountain in the world"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "An appositive: a noun after a noun."
+      },
+      {
+       "type": "choice",
+       "text": "One of the largest cities in the Middle East is Baghdad, ___.",
+       "options": [
+        "the capital of Iraq",
+        "the capital of Argentina",
+        "the largest city in the United States"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Baghdad is the capital of Iraq."
+      },
+      {
+       "type": "choice",
+       "text": "Earthquakes are recorded on seismographs, ___.",
+       "options": [
+        "sensitive instruments measure the shaking of the ground",
+        "sensitive instruments measuring the shaking of the ground",
+        "devices producing a powerful beam of light"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "that measure → measuring."
+      },
+      {
+       "type": "choice",
+       "text": "The Dead Sea, ___, is located between Jordan and Israel.",
+       "options": [
+        "the highest mountain in the world",
+        "the northernmost country in Latin America",
+        "the lowest place on the earth's surface"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The Dead Sea is the lowest place."
+      },
+      {
+       "type": "choice",
+       "text": "The newspaper reported an earthquake in Buenos Aires, ___.",
+       "options": [
+        "the capital of Argentina",
+        "the capital of Iraq",
+        "the most populous country in Africa"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Buenos Aires is the capital of Argentina."
+      },
+      {
+       "type": "choice",
+       "text": "Industry and medicine are finding new uses for lasers, ___.",
+       "options": [
+        "devices produces a powerful beam of light",
+        "devices producing a powerful beam of light",
+        "sensitive instruments measuring the shaking of the ground"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "that produce → producing."
+      },
+      {
+       "type": "choice",
+       "text": "Mexico, ___, lies just south of the United States.",
+       "options": [
+        "the most populous country in Africa",
+        "the largest city in the Western Hemisphere",
+        "the northernmost country in Latin America"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Mexico is in Latin America."
+      },
+      {
+       "type": "choice",
+       "text": "The nation Nigeria, ___, consists of over 250 different cultural groups.",
+       "options": [
+        "the most populous country in Africa",
+        "the northernmost country in Latin America",
+        "the capital of Iraq"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Nigeria is in Africa."
+      },
+      {
+       "type": "choice",
+       "text": "Mexico City, ___, faces a challenging future.",
+       "options": [
+        "the largest city in the United States",
+        "the largest city in the Western Hemisphere",
+        "the capital of Argentina"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "New York is the largest U.S. city."
+      }
+     ]
+    },
+    {
+     "title": "The Diamond Head hike",
+     "icon": "🌋",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Diamond Head, a mountain near Waikiki, … → Diamond Head, ___ a mountain near Waikiki, …",
+       "verb": "add 2 words",
+       "accept": [
+        "which is"
+       ],
+       "why": "Phrase → clause: add which is."
+      },
+      {
+       "type": "fill",
+       "text": "Scientists who study Diamond Head say… → Scientists ___ Diamond Head say…",
+       "verb": "study",
+       "accept": [
+        "studying"
+       ],
+       "why": "No be → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "…the Diamond Head Trail, which is located inside the crater. → the Diamond Head Trail, ___ inside the crater.",
+       "verb": "locate",
+       "accept": [
+        "located"
+       ],
+       "why": "Cut which is."
+      },
+      {
+       "type": "fill",
+       "text": "The trail leading hikers to the top… → The trail that ___ hikers to the top…",
+       "verb": "lead",
+       "accept": [
+        "leads"
+       ],
+       "why": "leading → that leads."
+      },
+      {
+       "type": "fill",
+       "text": "Tourists who are planning to hike to the top… → Tourists ___ to hike to the top…",
+       "verb": "plan",
+       "accept": [
+        "planning"
+       ],
+       "why": "Cut who are."
+      },
+      {
+       "type": "fill",
+       "text": "The path, which ends with 250 steps, is very steep. → The path, ___ with 250 steps, is very steep.",
+       "verb": "end",
+       "accept": [
+        "ending"
+       ],
+       "why": "No be → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "…an observation point, which overlooks Honolulu. → an observation point ___ Honolulu.",
+       "verb": "overlook",
+       "accept": [
+        "overlooking"
+       ],
+       "why": "No be → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Signs posted on the trail warn hikers… → Signs that ___ posted on the trail warn hikers…",
+       "verb": "be",
+       "accept": [
+        "are"
+       ],
+       "why": "posted → that are posted."
+      },
+      {
+       "type": "fill",
+       "text": "…changes that allow more access for tourists. → changes ___ more access for tourists.",
+       "verb": "allow",
+       "accept": [
+        "allowing"
+       ],
+       "why": "No be → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Many people wanting to preserve the natural habitats… → Many people who ___ to preserve the natural habitats…",
+       "verb": "want",
+       "accept": [
+        "want"
+       ],
+       "why": "wanting → who want."
+      }
+     ]
+    },
+    {
+     "title": "An accidental genius",
+     "icon": "🧠",
+     "items": [
+      {
+       "type": "choice",
+       "text": "He saw geometric designs in the objects he looked at.",
+       "options": [
+        "the objects that he looked at",
+        "the objects who he looked at"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An object pronoun was dropped: that.",
+       "ask": "What was left out?",
+       "ctx": "After a head injury, Jason Padgett began to see math everywhere."
+      },
+      {
+       "type": "choice",
+       "text": "Water pouring from a faucet had crystal structures.",
+       "options": [
+        "Water that was pouring from a faucet",
+        "Water that pouring from a faucet"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that was + pouring.",
+       "ask": "What was left out?"
+      },
+      {
+       "type": "choice",
+       "text": "These were details he had never seen before.",
+       "options": [
+        "details that he had never seen before",
+        "details where he had never seen before"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An object pronoun was dropped: that.",
+       "ask": "What was left out?"
+      },
+      {
+       "type": "choice",
+       "text": "He went to Finland to meet Dr. Berit Brogaard, a specialist in brain injuries.",
+       "options": [
+        "Dr. Brogaard, who is a specialist in brain injuries",
+        "Dr. Brogaard, that a specialist in brain injuries"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who is + noun (an appositive).",
+       "ask": "What was left out?"
+      },
+      {
+       "type": "choice",
+       "text": "She discovered that the part of the brain used for math was more active.",
+       "options": [
+        "the part of the brain that is used for math",
+        "the part of the brain that used for math"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "that is + used.",
+       "ask": "What was left out?"
+      },
+      {
+       "type": "choice",
+       "text": "He wrote a book in which he described the trauma he went through.",
+       "options": [
+        "the trauma that he went through",
+        "the trauma who he went through"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An object pronoun was dropped: that.",
+       "ask": "What was left out?"
+      },
+      {
+       "type": "choice",
+       "text": "He sought the help of a doctor, who told Padgett that he had become a math genius.",
+       "options": [
+        "Yes",
+        "No. With a comma, who stays."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "With commas the pronoun can't be dropped.",
+       "ask": "Can you drop “who”?"
+      }
+     ]
+    },
+    {
+     "title": "Listen and combine",
+     "icon": "🌌",
+     "items": [
+      {
+       "type": "listen",
+       "say": "The experiment conducted by the students was successful.",
+       "ask": "Who did the experiment?",
+       "options": [
+        "the students",
+        "the teacher"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "conducted by the students."
+      },
+      {
+       "type": "listen",
+       "say": "The fence surrounding our house is made of wood.",
+       "ask": "What is made of wood?",
+       "options": [
+        "our house",
+        "the fence"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The fence … is made of wood."
+      },
+      {
+       "type": "listen",
+       "say": "Dr. Stanton, the president of the university, will give a speech at the ceremony.",
+       "ask": "Who will give a speech?",
+       "options": [
+        "Dr. Stanton, who is the university president",
+        "two people: Dr. Stanton and the president"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the president… = Dr. Stanton."
+      },
+      {
+       "type": "listen",
+       "say": "Our solar system is in a galaxy called the Milky Way.",
+       "ask": "What is called the Milky Way?",
+       "options": [
+        "our solar system",
+        "a galaxy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a galaxy (that is) called the Milky Way."
+      },
+      {
+       "type": "choice",
+       "text": "Disney World covers a large area of land. It is an amusement park. It is located in Orlando, Florida.",
+       "options": [
+        "Disney World, an amusement park located in Orlando, Florida, covers a large area of land.",
+        "Disney World, is an amusement park locating in Orlando, Florida, covers a large area of land."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Appositive + past participle phrase.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The Republic of Yemen is an ancient land. It is located at the southwestern tip of the Arabian Peninsula.",
+       "options": [
+        "The Republic of Yemen, locating at the southwestern tip of the Arabian Peninsula, is an ancient land.",
+        "The Republic of Yemen, located at the southwestern tip of the Arabian Peninsula, is an ancient land."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "which is located → located.",
+       "ask": "Combine"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What is it?",
+     "task": "Explain something to Claude: a heart, a seismograph, a festival… “It is a machine that…”",
+     "claudePrompt": "You are my English writing partner. Ask me to choose something to explain (a device, an organ, a festival, a game, a job) and write an extended definition of 4-6 sentences using adjective clauses and phrases (X is a ... that ..., The part where ..., People playing it ...). Then check: the right pronoun (who/which/that/where/whose), commas only for extra information, correct reductions (cut who + be, or use -ing). Tell me if any clause is forced and a simple adjective would be better."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Clause Kraken",
+  "icon": "🐙",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Baseball is the only sport in which I am interested [in it].",
+    "options": [
+     "Baseball is the only sport in which I am interested.",
+     "Baseball is the only sport in which I am interested in.",
+     "Baseball is the only sport in that I am interested."
+    ],
+    "answer": 0,
+    "why": "in which already holds in and it.",
+    "rule": "13-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "My favorite teacher, Mr. Chu, [he] was always willing to help me after class.",
+    "options": [
+     "My favorite teacher, Mr. Chu, who was always willing to help me after class.",
+     "My favorite teacher, Mr. Chu, was always willing to help me after class.",
+     "My favorite teacher, Mr. Chu, he always willing to help me after class."
+    ],
+    "answer": 1,
+    "why": "One subject is enough. No he.",
+    "rule": "13-11"
+   },
+   {
+    "type": "errorfix",
+    "text": "It is important to be polite to people who [lives] in the same building.",
+    "options": [
+     "It is important to be polite to people which live in the same building.",
+     "It is important to be polite to people who living in the same building.",
+     "It is important to be polite to people who live in the same building."
+    ],
+    "answer": 2,
+    "why": "people (plural) → live.",
+    "rule": "13-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "My sister has two children, [who their] names are Ali and Talal.",
+    "options": [
+     "My sister has two children, whose names are Ali and Talal.",
+     "My sister has two children, who's names are Ali and Talal.",
+     "My sister has two children, that their names are Ali and Talal."
+    ],
+    "answer": 0,
+    "why": "their names → whose names.",
+    "rule": "13-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Paulo comes from Venezuela [that] is a Spanish-speaking country.",
+    "options": [
+     "Paulo comes from Venezuela, that is a Spanish-speaking country.",
+     "Paulo comes from Venezuela, which is a Spanish-speaking country.",
+     "Paulo comes from Venezuela who is a Spanish-speaking country."
+    ],
+    "answer": 1,
+    "why": "A name → comma + which.",
+    "rule": "13-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "A myth is a story [expresses] traditional beliefs.",
+    "options": [
+     "A myth is a story who expresses traditional beliefs.",
+     "A myth is a story it expresses traditional beliefs.",
+     "A myth is a story that expresses traditional beliefs."
+    ],
+    "answer": 2,
+    "why": "A subject pronoun can't be dropped.",
+    "rule": "13-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "An old man [was fishing] next to me on the pier was mumbling to himself.",
+    "options": [
+     "An old man fishing next to me on the pier was mumbling to himself.",
+     "An old man he was fishing next to me on the pier was mumbling to himself.",
+     "An old man fished next to me on the pier was mumbling to himself."
+    ],
+    "answer": 0,
+    "why": "who was fishing → fishing.",
+    "rule": "13-11"
+   },
+   {
+    "type": "errorfix",
+    "text": "The road that we took [it] through the forest [it] was narrow and steep.",
+    "options": [
+     "The road that we took it through the forest was narrow and steep.",
+     "The road that we took through the forest was narrow and steep.",
+     "The road that we took through the forest it was narrow and steep."
+    ],
+    "answer": 1,
+    "why": "Take out both it.",
+    "rule": "13-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "There are ten universities in Thailand, seven of [them] are located in Bangkok.",
+    "options": [
+     "There are ten universities in Thailand, seven of whom are located in Bangkok.",
+     "There are ten universities in Thailand, seven of that are located in Bangkok.",
+     "There are ten universities in Thailand, seven of which are located in Bangkok."
+    ],
+    "answer": 2,
+    "why": "Things → seven of which.",
+    "rule": "13-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "At the airport, I was waiting for some relatives [which] I had never met [them] before.",
+    "options": [
+     "At the airport, I was waiting for some relatives I had never met before.",
+     "At the airport, I was waiting for some relatives who I had never met them before.",
+     "At the airport, I was waiting for some relatives which I had never met before."
+    ],
+    "answer": 0,
+    "why": "People → who(m) / Ø. No them.",
+    "rule": "13-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "It is almost impossible to find two persons [who their] opinions are the same.",
+    "options": [
+     "It is almost impossible to find two persons who opinions are the same.",
+     "It is almost impossible to find two persons whose opinions are the same.",
+     "It is almost impossible to find two persons their opinions are the same."
+    ],
+    "answer": 1,
+    "why": "their opinions → whose opinions.",
+    "rule": "13-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "The sixth member of our household is Pietro [that] is my sister's son.",
+    "options": [
+     "The sixth member of our household is Pietro, that is my sister's son.",
+     "The sixth member of our household is Pietro which is my sister's son.",
+     "The sixth member of our household is Pietro, who is my sister's son."
+    ],
+    "answer": 2,
+    "why": "A name → comma + who.",
+    "rule": "13-8"
+   }
+  ]
+ }
+}

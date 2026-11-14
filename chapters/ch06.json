@@ -1,0 +1,7553 @@
+{
+ "id": "ch06",
+ "num": 6,
+ "title": "Nouns",
+ "subtitle": "Plurals, possessives, count and noncount",
+ "icon": "🧱",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "The knifes in the drawer aren't sharp.",
+    "answer": "wrong",
+    "why": "knife → knives.",
+    "fix": "The knives in the drawer aren't sharp.",
+    "rule": "6-1"
+   },
+   {
+    "type": "judge",
+    "text": "How many potatoes do you need for the soup?",
+    "answer": "correct",
+    "why": "potato → potatoes.",
+    "rule": "6-1"
+   },
+   {
+    "type": "judge",
+    "text": "Their three-years-old son is already reading.",
+    "answer": "wrong",
+    "why": "Before a noun: no s. three-year-old.",
+    "fix": "Their three-year-old son is already reading.",
+    "rule": "6-2"
+   },
+   {
+    "type": "judge",
+    "text": "I live in a bricks house from the 1920s.",
+    "answer": "wrong",
+    "why": "A noun as adjective is singular.",
+    "fix": "I live in a brick house from the 1920s.",
+    "rule": "6-2"
+   },
+   {
+    "type": "judge",
+    "text": "Astrid's mother is moving here from Norway.",
+    "answer": "correct",
+    "why": "One owner → 's.",
+    "rule": "6-3"
+   },
+   {
+    "type": "judge",
+    "text": "Both my boys beds need new mattresses.",
+    "answer": "wrong",
+    "why": "Two boys own them → boys'.",
+    "fix": "Both my boys' beds need new mattresses.",
+    "rule": "6-3"
+   },
+   {
+    "type": "judge",
+    "text": "I'm staying at the house of my brother for the summer.",
+    "answer": "wrong",
+    "why": "A person → 's: my brother's house.",
+    "fix": "I'm staying at my brother's house for the summer.",
+    "rule": "6-4"
+   },
+   {
+    "type": "judge",
+    "text": "Do you have the interview's questions?",
+    "answer": "wrong",
+    "why": "interview = the kind of questions. No 's.",
+    "fix": "Do you have the interview questions?",
+    "rule": "6-4"
+   },
+   {
+    "type": "judge",
+    "text": "Jeffrey will need a luck on his test.",
+    "answer": "wrong",
+    "why": "luck is noncount. No a.",
+    "fix": "Jeffrey will need some luck on his test.",
+    "rule": "6-6"
+   },
+   {
+    "type": "judge",
+    "text": "A great deal of work went into the project.",
+    "answer": "correct",
+    "why": "a great deal of + noncount.",
+    "rule": "6-8"
+   },
+   {
+    "type": "judge",
+    "text": "I have little time to relax at home.",
+    "answer": "correct",
+    "why": "little = almost no time.",
+    "rule": "6-9"
+   },
+   {
+    "type": "judge",
+    "text": "Every employees at this company receives comprehensive health insurance.",
+    "answer": "wrong",
+    "why": "every + singular noun.",
+    "fix": "Every employee at this company receives comprehensive health insurance.",
+    "rule": "6-10"
+   },
+   {
+    "type": "judge",
+    "text": "Many of online reviews complained about the quality of the work.",
+    "answer": "wrong",
+    "why": "No the → no of: Many online reviews.",
+    "fix": "Many online reviews complained about the quality of the work.",
+    "rule": "6-11"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "6-1",
+   "tag": "6-1",
+   "t": "prog",
+   "title": "More than one",
+   "full": "Regular and Irregular Plural Nouns",
+   "lesson": {
+    "title": "Learn: plural nouns",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "The easy ones",
+      "lines": [
+       "Most nouns: add s.",
+       "After sh, ch, s, z, x: es. Consonant + y: ies."
+      ],
+      "chips": [
+       "song → songs",
+       "box → boxes",
+       "match → matches",
+       "baby → babies"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "No s at all",
+      "lines": [
+       "A few old words change inside."
+      ],
+      "chips": [
+       "man → men",
+       "woman → women",
+       "child → children",
+       "tooth → teeth",
+       "foot → feet",
+       "mouse → mice",
+       "goose → geese"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The baby is getting her first ___.",
+      "options": [
+       "tooths",
+       "teeth",
+       "teeths"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "tooth → teeth. No s."
+     },
+     {
+      "type": "learn",
+      "title": "Words ending in o",
+      "lines": [
+       "Some add es. Some add only s."
+      ],
+      "chips": [
+       {
+        "label": "+ es",
+        "words": [
+         "heroes",
+         "potatoes",
+         "tomatoes",
+         "echoes"
+        ]
+       },
+       {
+        "label": "+ s",
+        "words": [
+         "photos",
+         "pianos",
+         "radios",
+         "videos",
+         "zoos",
+         "kilos",
+         "memos"
+        ]
+       },
+       {
+        "label": "both OK",
+        "words": [
+         "mosquitoes / mosquitos",
+         "volcanoes / volcanos",
+         "zeroes / zeros"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "f turns into ves",
+      "lines": [
+       "Many f / fe words: ves.",
+       "But not all!"
+      ],
+      "chips": [
+       {
+        "label": "f → ves",
+        "words": [
+         "knife → knives",
+         "life → lives",
+         "leaf → leaves",
+         "half → halves",
+         "wolf → wolves",
+         "shelf → shelves",
+         "thief → thieves"
+        ]
+       },
+       {
+        "label": "just + s",
+        "words": [
+         "beliefs",
+         "chiefs",
+         "cliffs",
+         "roofs"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The ___ in the drawer aren't sharp.",
+      "options": [
+       "knifes",
+       "knives"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "knife → knives."
+     },
+     {
+      "type": "learn",
+      "title": "Same word for one and many",
+      "lines": [
+       "These never change."
+      ],
+      "chips": [
+       "one deer → two deer",
+       "one fish → two fish",
+       "one sheep → two sheep",
+       "one series → two series",
+       "one species → two species"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Science words",
+      "lines": [
+       "Borrowed words keep their old plurals."
+      ],
+      "chips": [
+       "bacterium → bacteria",
+       "curriculum → curricula",
+       "medium → media",
+       "datum → data",
+       "phenomenon → phenomena",
+       "criterion → criteria",
+       "crisis → crises",
+       "analysis → analyses"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Thunder and lightning are ___ of nature.",
+      "options": [
+       "phenomenons",
+       "phenomena"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "phenomenon → phenomena."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Most nouns + s. sh / ch / s / z / x + es. Consonant + y → ies.",
+     "Irregular: men, children, teeth, knives, deer, bacteria…"
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "I need some matches to light the fire.",
+      "hl": [
+       [
+        "matches",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "The knives in the drawer aren't sharp.",
+      "hl": [
+       [
+        "knives",
+        "prog"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "No s",
+      "words": [
+       "men",
+       "women",
+       "children",
+       "teeth",
+       "feet",
+       "mice"
+      ]
+     },
+     {
+      "label": "ves",
+      "words": [
+       "knives",
+       "lives",
+       "leaves",
+       "wolves"
+      ]
+     },
+     {
+      "label": "No change",
+      "words": [
+       "deer",
+       "fish",
+       "sheep",
+       "species"
+      ]
+     },
+     {
+      "label": "Science",
+      "words": [
+       "bacteria",
+       "data",
+       "media",
+       "phenomena"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Plural sort (1)",
+     "icon": "🗂️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "belief",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "beliefs. This f word just adds s."
+      },
+      {
+       "type": "sort",
+       "word": "box",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 1,
+       "why": "After x → es: boxes."
+      },
+      {
+       "type": "sort",
+       "word": "chief",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "chiefs. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "class",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 1,
+       "why": "After s → es: classes."
+      },
+      {
+       "type": "sort",
+       "word": "cloud",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "clouds. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "deer",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 3,
+       "why": "one deer, two deer."
+      },
+      {
+       "type": "sort",
+       "word": "fish",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 3,
+       "why": "one fish, two fish."
+      },
+      {
+       "type": "sort",
+       "word": "half",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "half → halves."
+      },
+      {
+       "type": "sort",
+       "word": "hero",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 1,
+       "why": "hero → heroes."
+      },
+      {
+       "type": "sort",
+       "word": "kilo",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "kilo → kilos."
+      }
+     ]
+    },
+    {
+     "title": "Plural sort (2)",
+     "icon": "🗃️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "knife",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "knife → knives."
+      },
+      {
+       "type": "sort",
+       "word": "leaf",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "leaf → leaves."
+      },
+      {
+       "type": "sort",
+       "word": "life",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "life → lives."
+      },
+      {
+       "type": "sort",
+       "word": "loaf",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "loaf → loaves."
+      },
+      {
+       "type": "sort",
+       "word": "match",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 1,
+       "why": "After ch → es: matches."
+      },
+      {
+       "type": "sort",
+       "word": "memo",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "memo → memos."
+      },
+      {
+       "type": "sort",
+       "word": "photo",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 0,
+       "why": "photo → photos."
+      },
+      {
+       "type": "sort",
+       "word": "sheep",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 3,
+       "why": "one sheep, two sheep."
+      },
+      {
+       "type": "sort",
+       "word": "tomato",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 1,
+       "why": "tomato → tomatoes."
+      },
+      {
+       "type": "sort",
+       "word": "wolf",
+       "buckets": [
+        "+ s",
+        "+ es",
+        "f → ves",
+        "no change"
+       ],
+       "answer": 2,
+       "why": "wolf → wolves."
+      }
+     ]
+    },
+    {
+     "title": "Use the plural",
+     "icon": "🦷",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The baby has been crying at night because she is getting her first ___.",
+       "verb": "tooth",
+       "accept": [
+        "teeth"
+       ],
+       "why": "tooth → teeth."
+      },
+      {
+       "type": "fill",
+       "text": "I need some ___ to light the fire.",
+       "verb": "match",
+       "accept": [
+        "matches"
+       ],
+       "why": "After ch → es."
+      },
+      {
+       "type": "fill",
+       "text": "Studies show that ___ process information differently from women.",
+       "verb": "man",
+       "accept": [
+        "men"
+       ],
+       "why": "man → men."
+      },
+      {
+       "type": "fill",
+       "text": "Maria needed legal advice, so she contacted two ___.",
+       "verb": "attorney",
+       "accept": [
+        "attorneys"
+       ],
+       "why": "Vowel + y → just add s."
+      },
+      {
+       "type": "fill",
+       "text": "New scientific ___ occur every day.",
+       "verb": "discovery",
+       "accept": [
+        "discoveries"
+       ],
+       "why": "Consonant + y → ies."
+      },
+      {
+       "type": "fill",
+       "text": "They happen in ___ throughout the world.",
+       "verb": "laboratory",
+       "accept": [
+        "laboratories"
+       ],
+       "why": "Consonant + y → ies."
+      },
+      {
+       "type": "fill",
+       "text": "Online companies collect a lot of ___ about their customers.",
+       "verb": "datum",
+       "accept": [
+        "data"
+       ],
+       "why": "datum → data."
+      },
+      {
+       "type": "fill",
+       "text": "The north side of the island has no ___ for people to walk on.",
+       "verb": "beach",
+       "accept": [
+        "beaches"
+       ],
+       "why": "After ch → es."
+      },
+      {
+       "type": "fill",
+       "text": "There are only steep ___. No one can climb these walls of rock.",
+       "verb": "cliff",
+       "accept": [
+        "cliffs"
+       ],
+       "why": "cliff just adds s."
+      },
+      {
+       "type": "fill",
+       "text": "Many people communicate on the Internet through social ___.",
+       "verb": "medium",
+       "accept": [
+        "media"
+       ],
+       "why": "medium → media."
+      }
+     ]
+    },
+    {
+     "title": "Bacteria",
+     "icon": "🦠",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ are very small.",
+       "options": [
+        "Bacterium",
+        "Bacteria"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → plural: Bacteria."
+      },
+      {
+       "type": "choice",
+       "text": "They are microscopic ___.",
+       "options": [
+        "organism",
+        "organisms"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They are → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They consist of one ___.",
+       "options": [
+        "cell",
+        "cells"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one → singular: cell."
+      },
+      {
+       "type": "choice",
+       "text": "___ are in the air, water, and soil.",
+       "options": [
+        "Bacterium",
+        "Bacteria"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → plural: Bacteria."
+      },
+      {
+       "type": "choice",
+       "text": "They are in the bodies of all living ___.",
+       "options": [
+        "creature",
+        "creatures"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "all → plural."
+      },
+      {
+       "type": "choice",
+       "text": "There are ___ of kinds of bacteria.",
+       "options": [
+        "thousand",
+        "thousands"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No number before it → thousands of."
+      },
+      {
+       "type": "choice",
+       "text": "There are thousands of kinds of ___.",
+       "options": [
+        "bacterium",
+        "bacteria"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many kinds → plural: bacteria."
+      },
+      {
+       "type": "choice",
+       "text": "Most of them are harmless to ___.",
+       "options": [
+        "human being",
+        "human beings"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People in general → plural."
+      }
+     ]
+    },
+    {
+     "title": "Viruses",
+     "icon": "🧫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ are also microscopic organisms.",
+       "options": [
+        "Virus",
+        "Viruses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → plural: Viruses."
+      },
+      {
+       "type": "choice",
+       "text": "They live in the ___ of other living things.",
+       "options": [
+        "cell",
+        "cells"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many cells → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They live in the cells of other living ___.",
+       "options": [
+        "thing",
+        "things"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "other + plural: things."
+      },
+      {
+       "type": "choice",
+       "text": "But inside a living ___, they become active.",
+       "options": [
+        "cell",
+        "cells"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a → singular: cell."
+      },
+      {
+       "type": "choice",
+       "text": "They can multiply hundreds of ___.",
+       "options": [
+        "time",
+        "times"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hundreds of + plural."
+      },
+      {
+       "type": "choice",
+       "text": "Viruses cause many ___.",
+       "options": [
+        "disease",
+        "diseases"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "many + plural."
+      },
+      {
+       "type": "choice",
+       "text": "They infect ___ with illnesses such as the flu.",
+       "options": [
+        "human",
+        "humans"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People in general → plural."
+      },
+      {
+       "type": "choice",
+       "text": "___ is tiny.",
+       "options": [
+        "A virus",
+        "Viruses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is → singular: A virus."
+      },
+      {
+       "type": "choice",
+       "text": "It is smaller than the ___ at the end of this sentence.",
+       "options": [
+        "period",
+        "periods"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One sentence has one period."
+      }
+     ]
+    },
+    {
+     "title": "Ordering office supplies",
+     "icon": "🖨️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "First, we need to order some printer ink ___.",
+       "verb": "cartridge",
+       "accept": [
+        "cartridges"
+       ],
+       "why": "some + plural. Ends in e → add s."
+      },
+      {
+       "type": "fill",
+       "text": "Three combo ___ of black and color will do.",
+       "verb": "package",
+       "accept": [
+        "packages"
+       ],
+       "why": "Three → plural."
+      },
+      {
+       "type": "fill",
+       "text": "What about more paper? Do we have enough ___ in stock?",
+       "verb": "box",
+       "accept": [
+        "boxes"
+       ],
+       "why": "After x → es."
+      },
+      {
+       "type": "fill",
+       "text": "We need 100 ___.",
+       "verb": "pen",
+       "accept": [
+        "pens"
+       ],
+       "why": "100 → plural."
+      },
+      {
+       "type": "fill",
+       "text": "And 100 ___.",
+       "verb": "pencil",
+       "accept": [
+        "pencils"
+       ],
+       "why": "100 → plural."
+      },
+      {
+       "type": "fill",
+       "text": "I like to share ___ on social media.",
+       "verb": "video",
+       "accept": [
+        "videos"
+       ],
+       "why": "video → videos."
+      },
+      {
+       "type": "fill",
+       "text": "Books belong on ___, not electronic devices.",
+       "verb": "bookshelf",
+       "accept": [
+        "bookshelves"
+       ],
+       "why": "shelf → shelves."
+      },
+      {
+       "type": "fill",
+       "text": "Our city has two ___.",
+       "verb": "zoo",
+       "accept": [
+        "zoos"
+       ],
+       "why": "zoo → zoos."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Name it!",
+     "task": "Claude gives a category. You list plural nouns: things that can be dangerous, things in nature…",
+     "claudePrompt": "You are my English practice partner in a word game. Give me one category at a time: things in life that can be dangerous / things you see every day / things you find in nature / things you can hear. I list at least five plural nouns. Check my plural spellings (especially -es, -ies, -ves and irregular plurals like teeth, mice, wolves) and ask me to explain one surprising answer."
+    },
+    {
+     "title": "Order supplies",
+     "task": "You and Claude work in an office. Order what you need: “We need three boxes of…”.",
+     "claudePrompt": "You are my co-worker. We need to order supplies for our office. Ask me: What do we need? What quantity? Anything else? I answer with numbers and plural nouns (three boxes of paper, 100 pens, two ink cartridges). Check my plural endings."
+    }
+   ]
+  },
+  {
+   "id": "6-2",
+   "tag": "6-2",
+   "t": "pres",
+   "title": "Nouns as adjectives",
+   "full": "Nouns as Adjectives",
+   "lesson": {
+    "title": "Learn: a noun before a noun",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A noun can describe a noun",
+      "lines": [
+       "The first noun tells what kind.",
+       "It stays singular. No s!"
+      ],
+      "chips": [
+       "vegetable soup",
+       "an office building",
+       "a shoe store",
+       "a flower garden"
+      ],
+      "examples": [
+       {
+        "text": "The soup has vegetables in it. It is vegetable soup.",
+        "hl": [
+         [
+          "vegetable soup",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "They sell shoes at that store. It is a ___ store.",
+      "options": [
+       "shoes",
+       "shoe"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A noun used as an adjective is singular."
+     },
+     {
+      "type": "learn",
+      "title": "Number + noun: add a hyphen",
+      "lines": [
+       "Number-noun before another noun.",
+       "Singular, with a hyphen (-)."
+      ],
+      "chips": [
+       "a two-hour test",
+       "a five-year-old son",
+       "a three-letter word"
+      ],
+      "examples": [
+       {
+        "text": "The test lasted two hours. It was a two-hour test.",
+        "hl": [
+         [
+          "two hours",
+          "prog"
+         ],
+         [
+          "two-hour",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "With s or without?",
+      "left": {
+       "label": "After the verb: plural",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Her son is five years old.",
+         "hl": [
+          [
+           "five years old",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Before a noun: singular + hyphens",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "She has a five-year-old son.",
+         "hl": [
+          [
+           "five-year-old",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "❌ a five-years-old son   ✅ a five-year-old son"
+     },
+     {
+      "type": "choice",
+      "text": "We had to wait two hours. It was a ___ wait.",
+      "options": [
+       "two-hour",
+       "two-hours",
+       "two hours"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Before a noun: singular + hyphen."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A noun before a noun is singular: vegetable soup.",
+     "Number + noun before a noun: hyphen, no s: a two-hour test."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "It is vegetable soup.",
+      "hl": [
+       [
+        "vegetable soup",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "She has a five-year-old son.",
+      "hl": [
+       [
+        "five-year-old",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Computer or airplane?",
+     "icon": "💻",
+     "items": [
+      {
+       "type": "sort",
+       "word": "passenger",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 1,
+       "why": "an airplane passenger."
+      },
+      {
+       "type": "sort",
+       "word": "error",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 0,
+       "why": "a computer error."
+      },
+      {
+       "type": "sort",
+       "word": "pilot",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 1,
+       "why": "an airplane pilot."
+      },
+      {
+       "type": "sort",
+       "word": "screen",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 0,
+       "why": "a computer screen."
+      },
+      {
+       "type": "sort",
+       "word": "skills",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 0,
+       "why": "computer skills."
+      },
+      {
+       "type": "sort",
+       "word": "ticket",
+       "buckets": [
+        "computer ___",
+        "airplane ___"
+       ],
+       "answer": 1,
+       "why": "an airplane ticket."
+      },
+      {
+       "type": "choice",
+       "text": "The soup has vegetables in it. It is ___ soup.",
+       "options": [
+        "vegetables",
+        "vegetable"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Noun as adjective → singular."
+      },
+      {
+       "type": "choice",
+       "text": "The building has offices in it. It is an ___ building.",
+       "options": [
+        "office",
+        "offices"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Noun as adjective → singular."
+      },
+      {
+       "type": "choice",
+       "text": "The test lasted two hours. It was a ___ test.",
+       "options": [
+        "two-hours",
+        "two-hour"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun: hyphen, no s."
+      },
+      {
+       "type": "choice",
+       "text": "Her son is five years old. She has a ___ son.",
+       "options": [
+        "five-year-old",
+        "five-years-old"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun: hyphens, no s."
+      }
+     ]
+    },
+    {
+     "title": "Shops, soup and babies",
+     "icon": "🌸",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My garden has ___ in it.",
+       "verb": "flower",
+       "accept": [
+        "flowers"
+       ],
+       "why": "Many flowers → plural."
+      },
+      {
+       "type": "fill",
+       "text": "It is a ___ garden.",
+       "verb": "flower",
+       "accept": [
+        "flower"
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "fill",
+       "text": "This soup is made from black ___.",
+       "verb": "bean",
+       "accept": [
+        "beans"
+       ],
+       "why": "Many beans → plural."
+      },
+      {
+       "type": "fill",
+       "text": "It is black ___ soup.",
+       "verb": "bean",
+       "accept": [
+        "bean"
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "fill",
+       "text": "People can buy special food in small jars for ___.",
+       "verb": "baby",
+       "accept": [
+        "babies"
+       ],
+       "why": "Babies in general → plural."
+      },
+      {
+       "type": "fill",
+       "text": "It is called ___ food.",
+       "verb": "baby",
+       "accept": [
+        "baby"
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "fill",
+       "text": "Dr. Adams is a psychologist for ___.",
+       "verb": "child",
+       "accept": [
+        "children"
+       ],
+       "why": "child → children."
+      },
+      {
+       "type": "fill",
+       "text": "She is a ___ psychologist.",
+       "verb": "child",
+       "accept": [
+        "child"
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "fill",
+       "text": "The smaller fork is for ___. It is a salad fork.",
+       "verb": "salad",
+       "accept": [
+        "salads"
+       ],
+       "why": "Salads in general → plural."
+      }
+     ]
+    },
+    {
+     "title": "Hyphens",
+     "icon": "➖",
+     "items": [
+      {
+       "type": "fill",
+       "text": "In tropical climates, people hang a net over the bed to keep out ___.",
+       "verb": "mosquito",
+       "accept": [
+        "mosquitoes",
+        "mosquitos"
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "fill",
+       "text": "It is called a ___ net.",
+       "verb": "mosquito",
+       "accept": [
+        "mosquito"
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "fill",
+       "text": "The plane was late. We had a ___ wait.",
+       "verb": "two + hour",
+       "accept": [
+        "two-hour"
+       ],
+       "why": "Before a noun: hyphen, no s."
+      },
+      {
+       "type": "fill",
+       "text": "We had to wait for ___.",
+       "verb": "two + hour",
+       "accept": [
+        "two hours"
+       ],
+       "why": "After the verb: plural, no hyphen."
+      },
+      {
+       "type": "fill",
+       "text": "My brother is ___.",
+       "verb": "ten + year + old",
+       "accept": [
+        "ten years old"
+       ],
+       "why": "After be: plural, no hyphens."
+      },
+      {
+       "type": "fill",
+       "text": "I have a ___ brother.",
+       "verb": "ten + year + old",
+       "accept": [
+        "ten-year-old"
+       ],
+       "why": "Before a noun: hyphens, no s."
+      },
+      {
+       "type": "fill",
+       "text": "Arm and dog are ___ words.",
+       "verb": "three + letter",
+       "accept": [
+        "three-letter"
+       ],
+       "why": "Before a noun: hyphen, no s."
+      },
+      {
+       "type": "fill",
+       "text": "Each word has ___.",
+       "verb": "three + letter",
+       "accept": [
+        "three letters"
+       ],
+       "why": "After the verb: plural."
+      }
+     ]
+    },
+    {
+     "title": "Professors and taxi drivers",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ted is an assistant ___ professor.",
+       "options": [
+        "college",
+        "colleges"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → singular."
+      },
+      {
+       "type": "choice",
+       "text": "He worked for two ___ before he got a full-time job.",
+       "options": [
+        "college",
+        "colleges"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "two → plural."
+      },
+      {
+       "type": "choice",
+       "text": "College ___ have a heavy workload.",
+       "options": [
+        "professor",
+        "professors"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have → plural subject."
+      },
+      {
+       "type": "choice",
+       "text": "Assistant ___ duties include teaching and research.",
+       "options": [
+        "professor",
+        "professors"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before the noun duties → singular."
+      },
+      {
+       "type": "choice",
+       "text": "Ted also supervises the teaching ___ program.",
+       "options": [
+        "assistant",
+        "assistants"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before the noun program → singular."
+      },
+      {
+       "type": "choice",
+       "text": "Teaching ___ attend his classes and meet with students.",
+       "options": [
+        "assistant",
+        "assistants"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "attend → plural subject."
+      },
+      {
+       "type": "choice",
+       "text": "Joseph and Rob drive ___ for a living.",
+       "options": [
+        "taxi",
+        "taxis"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They drive many → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They are ___.",
+       "options": [
+        "taxis drivers",
+        "taxi drivers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "taxi describes drivers → singular."
+      }
+     ]
+    },
+    {
+     "title": "Managers and schools",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I don't enjoy flying in ___ anymore.",
+       "options": [
+        "airplane",
+        "airplanes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "In general → plural."
+      },
+      {
+       "type": "choice",
+       "text": "___ are getting more and more uncomfortable.",
+       "options": [
+        "Airplane seats",
+        "Airplanes seats"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "airplane describes seats → singular."
+      },
+      {
+       "type": "choice",
+       "text": "___ of big offices have a lot of responsibilities.",
+       "options": [
+        "Manager",
+        "Managers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have → plural subject."
+      },
+      {
+       "type": "choice",
+       "text": "Maria and her sister have good jobs. They're ___.",
+       "options": [
+        "office managers",
+        "offices managers"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "office describes managers → singular."
+      },
+      {
+       "type": "choice",
+       "text": "___ offer a lot of activities for students.",
+       "options": [
+        "School",
+        "Schools"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "offer → plural subject."
+      },
+      {
+       "type": "choice",
+       "text": "Anna enjoys ___ such as playing soccer.",
+       "options": [
+        "school activities",
+        "schools activities"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "school describes activities → singular."
+      }
+     ]
+    },
+    {
+     "title": "Garage sales: find the mistakes",
+     "icon": "🏷️",
+     "items": [
+      {
+       "type": "errorfix",
+       "text": "A popular way to get rid of used [item] is through a garage sale.",
+       "options": [
+        "A popular way to get rid of used items is through a garage sale.",
+        "A popular way to get rid of use item is through a garage sale.",
+        "A popular ways to get rid of used item is through a garage sale."
+       ],
+       "answer": 0,
+       "why": "Many things → plural: items.",
+       "rule": "6-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "The owner sells miscellaneous [stuffs] from the garage, driveway, or yard.",
+       "options": [
+        "The owner sells miscellaneous a stuff from the garage, driveway, or yard.",
+        "The owner sells miscellaneous stuff from the garage, driveway, or yard.",
+        "The owner sell miscellaneous stuffs from the garage, driveway, or yard."
+       ],
+       "answer": 1,
+       "why": "stuff is noncount. No s.",
+       "rule": "6-7"
+      },
+      {
+       "type": "errorfix",
+       "text": "Popular items include [book], old [magazine], art, clothes, jewelry, and [toy].",
+       "options": [
+        "Popular items include book, old magazine, arts, clothes, jewelries, and toy.",
+        "Popular items include books, old magazines, art, clothes, jewelry, and toy.",
+        "Popular items include books, old magazines, art, clothes, jewelry, and toys."
+       ],
+       "answer": 2,
+       "why": "Count nouns in a list → plural.",
+       "rule": "6-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "Usually the [price] are very low.",
+       "options": [
+        "Usually the prices are very low.",
+        "Usually the price are very lows.",
+        "Usually the prices is very low."
+       ],
+       "answer": 0,
+       "why": "are → plural: prices.",
+       "rule": "6-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "Some [thing] you don't want to buy for safety and health [reason] include bicycle helmets.",
+       "options": [
+        "Some thing you don't want to buy for safety and health reasons include bicycle helmets.",
+        "Some things you don't want to buy for safety and health reasons include bicycle helmets.",
+        "Some things you don't want to buy for safeties and healths reason include bicycle helmets."
+       ],
+       "answer": 1,
+       "why": "Some + plural. Many reasons.",
+       "rule": "6-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "Don't buy child car [seat], [tire], [mattress], or [crib].",
+       "options": [
+        "Don't buy child car seats, tires, mattresses, or cribs.",
+        "Don't buy childs car seats, tires, mattress, or cribs.",
+        "Don't buy children car seat, tire, mattress, or crib."
+       ],
+       "answer": 0,
+       "why": "Things in general → plural nouns.",
+       "rule": "6-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "Don't buy [babies] bottles or stuffed [animal].",
+       "options": [
+        "Don't buy babies bottle or stuffed animal.",
+        "Don't buy baby bottles or stuffed animals.",
+        "Don't buy babies bottles or stuffed animals."
+       ],
+       "answer": 1,
+       "why": "baby describes bottles → singular.",
+       "rule": "6-2"
+      },
+      {
+       "type": "errorfix",
+       "text": "Occasionally people find valuable [merchandises] at garage sales.",
+       "options": [
+        "Occasionally people find a valuable merchandise at garage sales.",
+        "Occasionally people find valuable merchandise at garage sales.",
+        "Occasionally peoples find valuable merchandises at garage sales."
+       ],
+       "answer": 1,
+       "why": "merchandise is noncount. No s.",
+       "rule": "6-7"
+      },
+      {
+       "type": "errorfix",
+       "text": "A man paid $29 for a [paintings]. Another man bought a [pictures] frame for $4.00.",
+       "options": [
+        "A man paid $29 for a painting. Another man bought a picture frame for $4.00.",
+        "A man paid $29 for a paintings. Another man bought a picture frame for $4.00.",
+        "A man paid $29 for a painting. Another man bought a pictures frame for $4.00."
+       ],
+       "answer": 0,
+       "why": "a + singular. picture describes frame.",
+       "rule": "6-2"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Noun + noun",
+     "task": "Claude says a noun, like flower. You say 3 things: a flower shop, a flower garden…",
+     "claudePrompt": "You are my English practice partner in a word game. Give me one noun at a time (cotton, grammar, birthday, chicken, telephone, mountain, government, football, morning, street, newspaper, hotel, kitchen, baby, vegetable, bicycle). I give at least three common noun + noun expressions (for example: flower - a flower vase, a flower garden, a flower shop). Check that the first noun is singular."
+    },
+    {
+     "title": "Getting rid of stuff",
+     "task": "What do you do with things you no longer want? Tell Claude in 4-5 sentences.",
+     "claudePrompt": "You are my English writing partner. Ask me: Do people in your country have garage sales? What do you do with things you no longer want? I write 4-5 sentences. Check my plural nouns, noncount nouns like stuff, furniture and clothing (no -s), and nouns used as adjectives (singular)."
+    }
+   ]
+  },
+  {
+   "id": "6-3",
+   "tag": "6-3",
+   "t": "plan",
+   "title": "Whose is it?",
+   "full": "Possessive Nouns",
+   "lesson": {
+    "title": "Learn: 's and s'",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "One owner: add 's",
+      "lines": [
+       "Singular noun + apostrophe + s."
+      ],
+      "chips": [
+       "the girl's coat",
+       "Tom's coat",
+       "my wife's coat",
+       "a lady's coat"
+      ],
+      "examples": [
+       {
+        "text": "The girl's coat is in the closet.",
+        "hl": [
+         [
+          "girl's",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Many owners: s then '",
+      "lines": [
+       "The plural already ends in s? Just add the apostrophe."
+      ],
+      "chips": [
+       "the girls' coats",
+       "their wives' coats",
+       "the ladies' coats"
+      ],
+      "examples": [
+       {
+        "text": "The girls' coats are in the closet.",
+        "hl": [
+         [
+          "girls'",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Where is the apostrophe?",
+      "left": {
+       "label": "Before s: one owner",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "my son's school",
+         "hl": [
+          [
+           "son's",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "After s: many owners",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "my sons' school",
+         "hl": [
+          [
+           "sons'",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Cover everything after the apostrophe. What's left is the owner: son / sons."
+     },
+     {
+      "type": "choice",
+      "text": "my sons' school — how many sons?",
+      "options": [
+       "one",
+       "more than one"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The owner is sons (before the apostrophe)."
+     },
+     {
+      "type": "learn",
+      "title": "Plurals without s",
+      "lines": [
+       "men, women, children: add 's."
+      ],
+      "chips": [
+       "the men's coats",
+       "the women's restroom",
+       "my children's toys"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The ___ toys are all over the floor.",
+      "options": [
+       "childrens'",
+       "children's",
+       "childs'"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "children has no s → add 's."
+     },
+     {
+      "type": "learn",
+      "title": "Names ending in s; two names",
+      "lines": [
+       "Thomas's or Thomas': both OK.",
+       "One shared thing: only the last name gets 's."
+      ],
+      "chips": [
+       "Thomas's coat = Thomas' coat",
+       "Alan and Lisa's apartment (one, shared)",
+       "Tom's and Joe's apartments (two)"
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "One owner: 's (the girl's coat). Many owners: s' (the girls' coats).",
+     "Plurals with no s: 's (the men's coats)."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "The girl's coat is in the closet.",
+      "hl": [
+       [
+        "girl's",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The girls' coats are in the closet.",
+      "hl": [
+       [
+        "girls'",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The men's coats are in the closet.",
+      "hl": [
+       [
+        "men's",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "One or more than one?",
+     "icon": "🔍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "my son's school",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The owner is son.",
+       "ask": "How many sons?"
+      },
+      {
+       "type": "choice",
+       "text": "my sons' school",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The owner is sons.",
+       "ask": "How many sons?"
+      },
+      {
+       "type": "choice",
+       "text": "the men's hats",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The owner is men (plural).",
+       "ask": "How many men?"
+      },
+      {
+       "type": "choice",
+       "text": "the man's hats",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The owner is man.",
+       "ask": "How many men?"
+      },
+      {
+       "type": "choice",
+       "text": "The kids' bedroom is really messy.",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The owner is kids.",
+       "ask": "How many kids?"
+      },
+      {
+       "type": "choice",
+       "text": "Your manager's offices have a lot of space.",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The owner is manager. (Many offices!)",
+       "ask": "How many managers?"
+      },
+      {
+       "type": "choice",
+       "text": "My cousin's grandparents are from Iceland.",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The owner is cousin.",
+       "ask": "How many cousins?"
+      },
+      {
+       "type": "choice",
+       "text": "The judges' decision has been unpopular with the public.",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The owner is judges.",
+       "ask": "How many judges?"
+      },
+      {
+       "type": "choice",
+       "text": "The women's restroom is upstairs.",
+       "options": [
+        "one",
+        "more than one"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The owner is women (plural).",
+       "ask": "How many women?"
+      }
+     ]
+    },
+    {
+     "title": "Pick the possessive",
+     "icon": "👦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The ___ names are George and Liam.",
+       "options": [
+        "boy's",
+        "boys'"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two boys → boys'."
+      },
+      {
+       "type": "choice",
+       "text": "The ___ name is Paul.",
+       "options": [
+        "boy's",
+        "boys'"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One boy → boy's."
+      },
+      {
+       "type": "choice",
+       "text": "The ___ toys are all over the floor.",
+       "options": [
+        "children's",
+        "childrens'"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "children has no s → 's."
+      },
+      {
+       "type": "choice",
+       "text": "I fixed the ___ bike and he rode away.",
+       "options": [
+        "child's",
+        "childs'"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One child → child's."
+      },
+      {
+       "type": "choice",
+       "text": "The ___ toys fell on the floor. She wants them.",
+       "options": [
+        "baby's",
+        "babies'"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She = one baby → baby's."
+      },
+      {
+       "type": "choice",
+       "text": "The ___ toys fell on the floor. They want them.",
+       "options": [
+        "baby's",
+        "babies'"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They = many babies → babies'."
+      },
+      {
+       "type": "choice",
+       "text": "___ last name is Young.",
+       "options": [
+        "Bess's",
+        "Besss"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Name ending in s: Bess's (or Bess')."
+      },
+      {
+       "type": "choice",
+       "text": "Mrs. ___ husband does the dishes when she cooks.",
+       "options": [
+        "Thomas's",
+        "Thomases"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Thomas's (or Thomas')."
+      },
+      {
+       "type": "choice",
+       "text": "We went to ___ house for dinner.",
+       "options": [
+        "Jack's and Larry",
+        "Jack and Larry's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One shared house → only the last name."
+      }
+     ]
+    },
+    {
+     "title": "Where does the apostrophe go?",
+     "icon": "✍️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Texas is one of the ___ largest storage areas for petroleum.",
+       "options": [
+        "worlds",
+        "world's",
+        "worlds'"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One world → world's."
+      },
+      {
+       "type": "choice",
+       "text": "A personality test is used to evaluate an ___ personal characteristics.",
+       "options": [
+        "individual's",
+        "individuals'",
+        "individuals"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "an = one person → individual's."
+      },
+      {
+       "type": "choice",
+       "text": "Many fairy tales tell of ___ encounters with giants.",
+       "options": [
+        "heros'",
+        "hero's",
+        "heroes'"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Many heroes → heroes'."
+      },
+      {
+       "type": "choice",
+       "text": "In one story, the ___ encounter with a dragon saves a village.",
+       "options": [
+        "hero's",
+        "heroes'",
+        "heros"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One hero → hero's."
+      },
+      {
+       "type": "choice",
+       "text": "Play is an important part of ___ lives.",
+       "options": [
+        "childrens",
+        "childrens'",
+        "children's"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "children has no s → children's."
+      },
+      {
+       "type": "choice",
+       "text": "They learn that ___ float.",
+       "options": [
+        "boat's",
+        "boats",
+        "boats'"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No owner here. Just a plural."
+      },
+      {
+       "type": "choice",
+       "text": "___ apartment is on the third floor. They live together.",
+       "options": [
+        "Alan and Lisa's",
+        "Alan's and Lisa's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One shared apartment → last name only."
+      },
+      {
+       "type": "choice",
+       "text": "___ apartments are on the second floor. They live in different ones.",
+       "options": [
+        "Tom and Joe's",
+        "Tom's and Joe's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two apartments → both names."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My family tree",
+     "task": "Explain your family to Claude: “Sara is my mother's sister. She is my cousins' mother.”",
+     "claudePrompt": "You are my English speaking partner. Ask me about my family or a friend's family, one question at a time: Who is your mother's brother? What is your aunt's name? Who are your cousins' parents? I answer with possessive nouns (my father's sister, my cousins' house, my brother-in-law's car). Check my apostrophes: 's for one owner, s' for plural owners."
+    }
+   ]
+  },
+  {
+   "id": "6-4",
+   "tag": "6-4",
+   "t": "plan",
+   "title": "'s or of?",
+   "full": "More About Expressing Possession",
+   "lesson": {
+    "title": "Learn: 's, of, or nothing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Living things take 's",
+      "lines": [
+       "People, animals, countries, organizations: 's."
+      ],
+      "chips": [
+       "my brother's house",
+       "the birds' feathers",
+       "Canada's borders",
+       "UNICEF's mission"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Things take of",
+      "lines": [
+       "Non-living things usually use of."
+      ],
+      "chips": [
+       "the cover of the book",
+       "the start of the race",
+       "the owner of the company"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is more common?",
+      "options": [
+       "the movie's start",
+       "the start of the movie"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A thing (movie) → of."
+     },
+     {
+      "type": "learn",
+      "title": "Time words take 's",
+      "lines": [
+       "today, this week, last year: use 's, not of."
+      ],
+      "chips": [
+       "today's schedule",
+       "this month's pay",
+       "last week's announcement",
+       "yesterday's news"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "the news of yesterday",
+       "yesterday's news"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Time word → 's."
+     },
+     {
+      "type": "learn",
+      "title": "Places with 's",
+      "lines": [
+       "at the doctor's = at the doctor's office.",
+       "at my cousin's = at my cousin's home."
+      ],
+      "chips": [
+       "I'll be at the doctor's.",
+       "I was at my accountant's.",
+       "I'm staying at my cousin's."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "No 's for a type",
+      "lines": [
+       "A noun that tells the kind is not an owner.",
+       "people from / in my country, not my country's people."
+      ],
+      "chips": [
+       "✅ the application form",
+       "❌ the application's form",
+       "✅ the space shuttle",
+       "✅ people from my country"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Wilhelm is a ___.",
+      "options": [
+       "factory's worker",
+       "factory worker"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "factory = what kind of worker. No 's."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "People, animals, countries, time words → 's.",
+     "Things → of. A kind of thing → noun + noun (no 's)."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "my brother's house",
+      "hl": [
+       [
+        "brother's",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "the cover of the book",
+      "hl": [
+       [
+        "of",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "today's schedule",
+      "hl": [
+       [
+        "today's",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "the application form",
+      "hl": [
+       [
+        "application form",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which sounds better?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Home",
+       "options": [
+        "my cousin's home",
+        "the home of my cousin"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "News",
+       "options": [
+        "this week's news",
+        "the news of this week"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A time word → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Movie",
+       "options": [
+        "the start of the movie",
+        "the movie's start"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A thing → of.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Profits",
+       "options": [
+        "this year's profits",
+        "the profits of this year"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A time word → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Purse",
+       "options": [
+        "the woman's purse",
+        "the purse of the woman"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A person → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "News",
+       "options": [
+        "the news of yesterday",
+        "yesterday's news"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A time word → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Offices",
+       "options": [
+        "the offices of my bosses",
+        "my bosses' offices"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People → s'.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Restroom",
+       "options": [
+        "the women's restroom",
+        "the restroom of women"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "People → 's.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "People",
+       "options": [
+        "my country's people",
+        "people from my country"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "country + people → from / in.",
+       "ask": "Choose the more common one"
+      },
+      {
+       "type": "choice",
+       "text": "Funds",
+       "options": [
+        "the U.N.'s funds",
+        "the funds of the U.N."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An organization → 's.",
+       "ask": "Choose the more common one"
+      }
+     ]
+    },
+    {
+     "title": "Choose the correct sentence",
+     "icon": "✅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Wilhelm",
+       "options": [
+        "Wilhelm is a factory's worker.",
+        "Wilhelm is a factory worker."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "factory = the kind of worker. No 's.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Astronauts",
+       "options": [
+        "The astronauts had a wonderful view of the earth.",
+        "The astronauts had a wonderful earth's view."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a view of + thing.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Aunts",
+       "options": [
+        "I have four aunts on my mother's side.",
+        "I have four aunts' on my mother's side."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "aunts is just a plural. No apostrophe.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "The show",
+       "options": [
+        "Let's leave at the show's end.",
+        "Let's leave at the end of the show."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing → the end of the show.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "The doctor",
+       "options": [
+        "Can you pick me up at the doctors tomorrow?",
+        "Can you pick me up at the doctor's tomorrow?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the doctor's = the doctor's office.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Chicago",
+       "options": [
+        "When I was in Chicago, I stayed at a cousin's apartment.",
+        "When I was in Chicago, I stayed at a cousins' apartment.",
+        "When I was in Chicago, I stayed at the apartment of cousins."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a = one cousin → cousin's.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Friends",
+       "options": [
+        "I enjoy visiting my friend home.",
+        "I enjoy visiting my friends home.",
+        "I enjoy visiting friends' homes."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Many friends → friends' homes.",
+       "ask": "Choose the correct sentence"
+      }
+     ]
+    },
+    {
+     "title": "Brain teasers",
+     "icon": "🧩",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Nancy and Jack Hanson have ten sons. Each son has a sister. How many children do the Hansons have?",
+       "options": [
+        "20",
+        "11",
+        "10"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One sister is every son's sister: 10 + 1."
+      },
+      {
+       "type": "choice",
+       "text": "Lucy says, “She's my mother's daughter, but she's not my sister.” Who is she?",
+       "options": [
+        "Lucy's aunt",
+        "Lucy's cousin",
+        "Lucy herself"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Lucy is her own mother's daughter."
+      },
+      {
+       "type": "choice",
+       "text": "Ricky's mother had four children: April, May, June, and… ?",
+       "options": [
+        "July",
+        "Ricky",
+        "August"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Ricky's mother → the fourth child is Ricky."
+      },
+      {
+       "type": "choice",
+       "text": "Jake has no brothers or sisters. He says, “That man's father is my father's son.” Who is in the photo?",
+       "options": [
+        "Jake's son",
+        "Jake's father",
+        "Jake"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "My father's son = Jake. So Jake is that man's father."
+      },
+      {
+       "type": "choice",
+       "text": "A boy needs surgery. His father died. The surgeon says, “He is my son.” Who is the surgeon?",
+       "options": [
+        "The boy's uncle",
+        "The boy's mother",
+        "The boy's teacher"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The surgeon is the boy's mother."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6-5",
+   "tag": "6-5",
+   "t": "state",
+   "title": "Can you count it?",
+   "full": "Count and Noncount Nouns",
+   "lesson": {
+    "title": "Learn: count and noncount",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two kinds of nouns",
+      "lines": [
+       "Count nouns: one chair, two chairs.",
+       "Noncount nouns: furniture. No number, no s."
+      ],
+      "visual": [
+       "count"
+      ],
+      "examples": [
+       {
+        "text": "I bought a chair. Sam bought three chairs.",
+        "hl": [
+         [
+          "a chair",
+          "pres"
+         ],
+         [
+          "three chairs",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "We bought some furniture.",
+        "hl": [
+         [
+          "some furniture",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "What a count noun can do",
+      "lines": [
+       "Singular: a / an / one. Plural: + s."
+      ],
+      "chips": [
+       "a chair",
+       "one chair",
+       "two chairs",
+       "some chairs",
+       "many chairs"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "What a noncount noun can't do",
+      "lines": [
+       "No a / an. No plural s."
+      ],
+      "chips": [
+       "✅ some furniture",
+       "✅ a lot of furniture",
+       "✅ much furniture",
+       "❌ a furniture",
+       "❌ furnitures"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We needed some new ___.",
+      "options": [
+       "furnitures",
+       "furniture",
+       "a furniture"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "furniture is noncount. No s, no a."
+     },
+     {
+      "type": "choice",
+      "text": "It has the basics: a ___ for each student.",
+      "options": [
+       "furniture",
+       "desk"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "a + count noun: a desk."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Count: a chair, two chairs. Noncount: some furniture.",
+     "Noncount nouns: no a / an, no plural s."
+    ],
+    "timeline": [
+     "count"
+    ],
+    "examples": [
+     {
+      "text": "I bought a chair. Sam bought three chairs.",
+      "hl": [
+       [
+        "a chair",
+        "pres"
+       ],
+       [
+        "three chairs",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "We bought some furniture.",
+      "hl": [
+       [
+        "some furniture",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Count or noncount?",
+     "icon": "🪑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Does the dorm room have much ___?",
+       "options": [
+        "desk",
+        "furniture",
+        "chair",
+        "bed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "much + noncount: furniture."
+      },
+      {
+       "type": "choice",
+       "text": "It has the basics: a ___ for each student.",
+       "options": [
+        "desk",
+        "furniture",
+        "chair",
+        "bed"
+       ],
+       "answer": [
+        0,
+        2,
+        3
+       ],
+       "why": "a + count noun: desk, chair, bed."
+      },
+      {
+       "type": "sort",
+       "word": "chairs",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 0,
+       "why": "one chair, two chairs."
+      },
+      {
+       "type": "sort",
+       "word": "furniture",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 1,
+       "why": "A whole group of things. No s."
+      },
+      {
+       "type": "sort",
+       "word": "jewelry",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 1,
+       "why": "A whole group: rings, bracelets…"
+      },
+      {
+       "type": "sort",
+       "word": "rings",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 0,
+       "why": "one ring, four rings."
+      },
+      {
+       "type": "sort",
+       "word": "scenery",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 1,
+       "why": "The whole view. No s."
+      },
+      {
+       "type": "sort",
+       "word": "lakes",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 0,
+       "why": "one lake, two lakes."
+      },
+      {
+       "type": "sort",
+       "word": "junk",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 1,
+       "why": "A whole pile of old things."
+      },
+      {
+       "type": "sort",
+       "word": "gold",
+       "buckets": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": 1,
+       "why": "A metal = material."
+      }
+     ]
+    },
+    {
+     "title": "Idioms: a, an, or some?",
+     "icon": "🐱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Every week our instructor gives us ___ new idioms.",
+       "options": [
+        "a",
+        "an",
+        "some"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "idioms is plural → some."
+      },
+      {
+       "type": "choice",
+       "text": "And she gives us ___ slang.",
+       "options": [
+        "a",
+        "an",
+        "some"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "slang is noncount → some."
+      },
+      {
+       "type": "choice",
+       "text": "She told us that ___ teachers find idioms hard to teach.",
+       "options": [
+        "a",
+        "an",
+        "some"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "teachers is plural → some."
+      },
+      {
+       "type": "choice",
+       "text": "To be honest, ___ idiomatic expressions are hard for me.",
+       "options": [
+        "a",
+        "an",
+        "some"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "expressions is plural → some."
+      },
+      {
+       "type": "choice",
+       "text": "___ phrase that doesn't make sense to me is “raining cats and dogs.”",
+       "options": [
+        "A",
+        "An",
+        "Some"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One phrase, starts with a consonant sound → A."
+      },
+      {
+       "type": "choice",
+       "text": "Think about it as ___ figure of speech.",
+       "options": [
+        "a",
+        "an",
+        "some"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One figure, consonant sound → a."
+      },
+      {
+       "type": "choice",
+       "text": "___ idiom that is easy to picture is “get up on the wrong side of the bed.”",
+       "options": [
+        "A",
+        "An",
+        "Some"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One idiom, starts with a vowel sound → An."
+      },
+      {
+       "type": "choice",
+       "text": "Gold and iron are metals. Here, iron is…",
+       "options": [
+        "count",
+        "noncount"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The metal = a material → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "I used an iron to press my shirt. Here, iron is…",
+       "options": [
+        "count",
+        "noncount"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "an iron = one tool → count."
+      }
+     ]
+    },
+    {
+     "title": "Recycling in Sweden (1)",
+     "icon": "♻️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Imagine a country that recycles 99% of its household ___.",
+       "options": [
+        "garbage",
+        "garbages"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "garbage is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "For Sweden, that's already a ___.",
+       "options": [
+        "reality",
+        "realities"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a → singular."
+      },
+      {
+       "type": "choice",
+       "text": "Most Swedes separate their ___ in their homes.",
+       "options": [
+        "garbage",
+        "garbages"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "garbage is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "This includes ___.",
+       "options": [
+        "newspaper",
+        "newspapers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "It includes plastic ___.",
+       "options": [
+        "container",
+        "containers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "It includes glass ___.",
+       "options": [
+        "bottle",
+        "bottles"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "It includes light ___.",
+       "options": [
+        "bulb",
+        "bulbs"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "It includes ___.",
+       "options": [
+        "batterys",
+        "batteries"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Consonant + y → ies."
+      }
+     ]
+    },
+    {
+     "title": "Recycling in Sweden (2)",
+     "icon": "🇸🇪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It also includes electric ___.",
+       "options": [
+        "appliance",
+        "appliances"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "In residential ___, recycle bins are close to every home.",
+       "options": [
+        "area",
+        "areas"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many areas → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Recycle ___ are only 300 meters away.",
+       "options": [
+        "bin",
+        "bins"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They are only 300 ___ away from a home.",
+       "options": [
+        "meter",
+        "meters"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "300 → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Garbage trucks go around ___ and pick up electronics.",
+       "options": [
+        "citys",
+        "cities"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Consonant + y → ies."
+      },
+      {
+       "type": "choice",
+       "text": "___ take medicines that people don't need.",
+       "options": [
+        "Pharmacies",
+        "Pharmacys"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Consonant + y → ies."
+      },
+      {
+       "type": "choice",
+       "text": "Sweden is a world ___ in recycling.",
+       "options": [
+        "leader",
+        "leaders"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a → singular."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What's in the category?",
+     "task": "Claude says a noncount word like fruit. You list the count nouns inside it.",
+     "claudePrompt": "You are my English practice partner in a word game. Say one noncount noun at a time (mail, fruit, jewelry, clothing, garbage, traffic, office equipment, furniture). I list count nouns that belong to it (mail: letters, postcards, packages). Check that I use plural -s on count nouns and never on the noncount word."
+    },
+    {
+     "title": "Recycling",
+     "task": "Is recycling common where you live? Tell Claude what people do with trash, old medicines and batteries.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about recycling in my country: Is recycling common? Is it required? What do people do with glass bottles, batteries, old medicines? I answer in full sentences. Check count nouns (plural -s) and noncount nouns like garbage, trash, plastic and glass (no -s)."
+    }
+   ]
+  },
+  {
+   "id": "6-6",
+   "tag": "6-6",
+   "t": "state",
+   "title": "Wholes and masses",
+   "full": "Noncount Nouns",
+   "lesson": {
+    "title": "Learn: why some nouns are noncount",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A whole made of parts",
+      "lines": [
+       "chairs + tables + desks = furniture.",
+       "The whole group is noncount."
+      ],
+      "visual": [
+       "count"
+      ],
+      "chips": [
+       "furniture 🪑",
+       "jewelry 💍",
+       "mail ✉️",
+       "luggage 🧳",
+       "money 💵"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A mass you can't count",
+      "lines": [
+       "Liquids, powders, materials."
+      ],
+      "chips": [
+       "sugar",
+       "coffee",
+       "water",
+       "rice",
+       "sand",
+       "gold"
+      ],
+      "examples": [
+       {
+        "text": "I put some sugar in my coffee.",
+        "hl": [
+         [
+          "sugar",
+          "state"
+         ],
+         [
+          "coffee",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Ideas and nature",
+      "lines": [
+       "You can't touch or count them."
+      ],
+      "chips": [
+       {
+        "label": "💭 Ideas",
+        "words": [
+         "luck",
+         "advice",
+         "information",
+         "homework",
+         "time"
+        ]
+       },
+       {
+        "label": "🌦️ Nature",
+        "words": [
+         "sunshine",
+         "thunder",
+         "lightning",
+         "rain",
+         "fog"
+        ]
+       }
+      ],
+      "examples": [
+       {
+        "text": "I wish you luck.",
+        "hl": [
+         [
+          "luck",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Jeffrey will need ___ on his test.",
+      "options": [
+       "a luck",
+       "some luck",
+       "lucks"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "luck is noncount → some luck."
+     },
+     {
+      "type": "compare",
+      "title": "Same word, two meanings",
+      "left": {
+       "label": "Noncount: the material",
+       "t": "state",
+       "examples": [
+        {
+         "text": "Ann has brown hair.",
+         "hl": [
+          [
+           "hair",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "I opened the curtains to let in some light.",
+         "hl": [
+          [
+           "light",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "Windows are made of glass.",
+         "hl": [
+          [
+           "glass",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Count: one thing",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Tom has a hair on his jacket.",
+         "hl": [
+          [
+           "a hair",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Turn off the light before you go to bed.",
+         "hl": [
+          [
+           "the light",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "I drank two glasses of water.",
+         "hl": [
+          [
+           "two glasses",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "glasses can also mean the thing you wear to see better."
+     },
+     {
+      "type": "learn",
+      "title": "Count it with a unit",
+      "lines": [
+       "Want a number? Add a container or piece."
+      ],
+      "chips": [
+       "a glass of water",
+       "a cup of coffee",
+       "a loaf of bread",
+       "a bowl of soup",
+       "a piece of furniture",
+       "a piece of advice",
+       "a spoonful of sugar"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I need two ___.",
+      "options": [
+       "breads",
+       "loaves of bread"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "bread is noncount. Count the loaves."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Noncount: whole groups, masses, ideas, nature.",
+     "To count them, add a unit: a glass of water, a piece of advice."
+    ],
+    "timeline": [
+     "count"
+    ],
+    "examples": [
+     {
+      "text": "I put some sugar in my coffee.",
+      "hl": [
+       [
+        "sugar",
+        "state"
+       ],
+       [
+        "coffee",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Ann has brown hair.",
+      "hl": [
+       [
+        "hair",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Tom has a hair on his jacket.",
+      "hl": [
+       [
+        "a hair",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Sunshine and smog",
+     "icon": "🌫️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Sunshine is warm and cheerful. Sunshine is…",
+       "options": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A thing of nature → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Smog is a combination of smoke and fog. All three are…",
+       "options": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Gases and weather → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "In a storm, we see lightning before we hear thunder. They are…",
+       "options": [
+        "Count",
+        "Noncount"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Things of nature → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Ann has brown ___.",
+       "options": [
+        "hair",
+        "hairs"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "All the hair on her head → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Tom has ___ on his jacket.",
+       "options": [
+        "hair",
+        "a hair"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One single hair → count."
+      },
+      {
+       "type": "choice",
+       "text": "I opened the curtains to let in some ___.",
+       "options": [
+        "light",
+        "lights"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Light from the sun → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Don't forget to turn off ___ before you go to bed.",
+       "options": [
+        "the light",
+        "light"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One lamp → count."
+      },
+      {
+       "type": "choice",
+       "text": "I wish you ___.",
+       "options": [
+        "a luck",
+        "luck"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "luck is an idea → noncount."
+      }
+     ]
+    },
+    {
+     "title": "Homework and advice",
+     "icon": "📝",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It took me a lot of time to finish my ___.",
+       "options": [
+        "homework",
+        "homeworks"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "homework is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "I had a lot of ___.",
+       "options": [
+        "assignment",
+        "assignments"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "assignment is count → plural."
+      },
+      {
+       "type": "choice",
+       "text": "I have been to Mexico three ___.",
+       "options": [
+        "time",
+        "times"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "three times = count."
+      },
+      {
+       "type": "choice",
+       "text": "I've spent a lot of ___ there.",
+       "options": [
+        "time",
+        "times"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "time (hours, days) = noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Abdullah gave me some good ___.",
+       "options": [
+        "advice",
+        "advices"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "advice is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Nadia also gave me some good ___.",
+       "options": [
+        "suggestion",
+        "suggestions"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "suggestion is count → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Yoko learned several new ___ today.",
+       "options": [
+        "word",
+        "words"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "several + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "She is increasing her ___ quickly.",
+       "options": [
+        "vocabulary",
+        "vocabularies"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "vocabulary is noncount here."
+      }
+     ]
+    },
+    {
+     "title": "Glass, glasses, a sight",
+     "icon": "👓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I drank two ___ of water.",
+       "options": [
+        "glass",
+        "glasses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "two containers → count, plural."
+      },
+      {
+       "type": "choice",
+       "text": "___ are made of glass.",
+       "options": [
+        "Window",
+        "Windows"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Windows are made of ___.",
+       "options": [
+        "glass",
+        "glasses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The material → noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. Chu wears ___.",
+       "options": [
+        "glass",
+        "glasses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The thing you wear to see → glasses."
+      },
+      {
+       "type": "choice",
+       "text": "He wears glasses because he has ___.",
+       "options": [
+        "a poor eyesight",
+        "poor eyesight"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "eyesight is noncount. No a."
+      },
+      {
+       "type": "choice",
+       "text": "Tom put the wrong soap in the dishwasher. What ___!",
+       "options": [
+        "sight",
+        "a sight"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a sight = one surprising thing to see."
+      }
+     ]
+    },
+    {
+     "title": "Count it with a unit",
+     "icon": "🥖",
+     "items": [
+      {
+       "type": "choice",
+       "text": "a ___ of bread",
+       "options": [
+        "loaf",
+        "glass",
+        "grain"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Bread comes in loaves."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of water",
+       "options": [
+        "piece",
+        "glass",
+        "loaf"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You drink a glass of water."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of rice",
+       "options": [
+        "grain",
+        "cup of coffee",
+        "loaf"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One tiny piece of rice = a grain."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of furniture",
+       "options": [
+        "piece",
+        "spoonful",
+        "quart"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One chair = a piece of furniture."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of sugar",
+       "options": [
+        "loaf",
+        "spoonful",
+        "piece of paper"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Sugar goes on a spoon."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of soup",
+       "options": [
+        "bowl",
+        "grain",
+        "piece"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Soup comes in a bowl."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of milk",
+       "options": [
+        "pound",
+        "quart",
+        "leaf"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A quart is a measure for liquids."
+      },
+      {
+       "type": "choice",
+       "text": "a ___ of meat",
+       "options": [
+        "pound",
+        "glass",
+        "grain"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Meat is sold by weight."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6-7",
+   "tag": "6-7",
+   "t": "state",
+   "title": "The noncount list",
+   "full": "Some Common Noncount Nouns",
+   "lesson": {
+    "title": "Learn: common noncount nouns",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Whole groups",
+      "lines": [
+       "Many things together, one name."
+      ],
+      "chips": [
+       "baggage / luggage",
+       "clothing",
+       "equipment",
+       "food",
+       "fruit",
+       "furniture",
+       "garbage",
+       "jewelry",
+       "junk",
+       "mail",
+       "money / cash / change",
+       "stuff",
+       "traffic"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Liquids, solids, gases, tiny bits",
+      "lines": [
+       "Materials and masses."
+      ],
+      "chips": [
+       {
+        "label": "💧",
+        "words": [
+         "water",
+         "coffee",
+         "milk",
+         "oil",
+         "blood"
+        ]
+       },
+       {
+        "label": "🧱",
+        "words": [
+         "ice",
+         "bread",
+         "cheese",
+         "gold",
+         "glass",
+         "paper",
+         "wood",
+         "wool"
+        ]
+       },
+       {
+        "label": "💨",
+        "words": [
+         "steam",
+         "air",
+         "smoke",
+         "smog"
+        ]
+       },
+       {
+        "label": "⏳",
+        "words": [
+         "rice",
+         "dust",
+         "flour",
+         "salt",
+         "sand",
+         "sugar",
+         "hair"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Look at all the cars and trucks. This city is full of ___.",
+      "options": [
+       "traffics",
+       "traffic",
+       "a traffic"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "traffic is a whole group → noncount."
+     },
+     {
+      "type": "learn",
+      "title": "Ideas and feelings",
+      "lines": [
+       "Things you can't touch."
+      ],
+      "chips": [
+       "advice",
+       "information",
+       "news",
+       "evidence",
+       "homework",
+       "work",
+       "progress",
+       "knowledge",
+       "luck",
+       "music",
+       "patience",
+       "time",
+       "grammar",
+       "slang",
+       "vocabulary"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "School, sports, weather",
+      "lines": [
+       "Languages, subjects, games, -ing activities, nature."
+      ],
+      "chips": [
+       {
+        "label": "🗣️",
+        "words": [
+         "Arabic",
+         "English"
+        ]
+       },
+       {
+        "label": "📐",
+        "words": [
+         "chemistry",
+         "history",
+         "psychology"
+        ]
+       },
+       {
+        "label": "⚽",
+        "words": [
+         "soccer",
+         "tennis",
+         "chess"
+        ]
+       },
+       {
+        "label": "🏊",
+        "words": [
+         "swimming",
+         "driving"
+        ]
+       },
+       {
+        "label": "🌩️",
+        "words": [
+         "weather",
+         "rain",
+         "snow",
+         "thunder",
+         "heat",
+         "gravity"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I got good ___ from three people.",
+      "options": [
+       "advices",
+       "an advice",
+       "advice"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "advice is noncount. No s, no an."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Noncount: groups (furniture), masses (water, rice), ideas (advice), nature (rain).",
+     "Also languages, school subjects, sports and -ing activities."
+    ],
+    "timeline": [
+     "count"
+    ],
+    "examples": [
+     {
+      "text": "This city is full of traffic.",
+      "hl": [
+       [
+        "traffic",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I got advice from three people.",
+      "hl": [
+       [
+        "advice",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I have a lot of homework to do tonight.",
+      "hl": [
+       [
+        "homework",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which family?",
+     "icon": "🧺",
+     "items": [
+      {
+       "type": "sort",
+       "word": "luggage",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 0,
+       "why": "bags + suitcases = luggage."
+      },
+      {
+       "type": "sort",
+       "word": "blood",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 1,
+       "why": "A liquid."
+      },
+      {
+       "type": "sort",
+       "word": "advice",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 2,
+       "why": "An idea. You can't touch it."
+      },
+      {
+       "type": "sort",
+       "word": "thunder",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 3,
+       "why": "A thing of nature."
+      },
+      {
+       "type": "sort",
+       "word": "jewelry",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 0,
+       "why": "rings + necklaces = jewelry."
+      },
+      {
+       "type": "sort",
+       "word": "steam",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 1,
+       "why": "A gas."
+      },
+      {
+       "type": "sort",
+       "word": "patience",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 2,
+       "why": "An idea."
+      },
+      {
+       "type": "sort",
+       "word": "fog",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 3,
+       "why": "A thing of nature."
+      },
+      {
+       "type": "sort",
+       "word": "mail",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 0,
+       "why": "letters + packages = mail."
+      },
+      {
+       "type": "sort",
+       "word": "wool",
+       "buckets": [
+        "Whole group",
+        "Liquid, solid or gas",
+        "Idea",
+        "Nature"
+       ],
+       "answer": 1,
+       "why": "A solid material."
+      }
+     ]
+    },
+    {
+     "title": "Coins and symphonies",
+     "icon": "🪙",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I have a few ___ in my pocket.",
+       "verb": "coin",
+       "accept": [
+        "coins"
+       ],
+       "why": "a few + plural count noun."
+      },
+      {
+       "type": "fill",
+       "text": "In other words, I have some ___ in my pocket.",
+       "verb": "change",
+       "accept": [
+        "change"
+       ],
+       "why": "change (coins) is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "The Mississippi, the Amazon, and the Nile are well-known ___.",
+       "verb": "river",
+       "accept": [
+        "rivers"
+       ],
+       "why": "Three of them → plural."
+      },
+      {
+       "type": "fill",
+       "text": "I like to listen to operas, ___, and folk songs.",
+       "verb": "symphony",
+       "accept": [
+        "symphonies"
+       ],
+       "why": "Consonant + y → ies."
+      },
+      {
+       "type": "fill",
+       "text": "I enjoy ___ and listen to it often.",
+       "verb": "music",
+       "accept": [
+        "music"
+       ],
+       "why": "music is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "Look at all the cars, ___, and buses.",
+       "verb": "truck",
+       "accept": [
+        "trucks"
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "fill",
+       "text": "This city is full of ___.",
+       "verb": "traffic",
+       "accept": [
+        "traffic"
+       ],
+       "why": "traffic is noncount."
+      }
+     ]
+    },
+    {
+     "title": "Offices and homework",
+     "icon": "🖥️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "There are ___, phones, copiers, and printers in a typical office.",
+       "verb": "computer",
+       "accept": [
+        "computers"
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "fill",
+       "text": "A business office needs a lot of ___.",
+       "verb": "equipment",
+       "accept": [
+        "equipment"
+       ],
+       "why": "equipment is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "Tonight I have to do 30 algebra ___.",
+       "verb": "problem",
+       "accept": [
+        "problems"
+       ],
+       "why": "30 → plural."
+      },
+      {
+       "type": "fill",
+       "text": "In other words, I have a lot of ___ to do tonight.",
+       "verb": "homework",
+       "accept": [
+        "homework"
+       ],
+       "why": "homework is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "Antonio learned some new ___ today.",
+       "verb": "vocabulary",
+       "accept": [
+        "vocabulary"
+       ],
+       "why": "vocabulary is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "He learned that fly has at least two ___.",
+       "verb": "definition",
+       "accept": [
+        "definitions"
+       ],
+       "why": "two → plural."
+      },
+      {
+       "type": "fill",
+       "text": "Toronto is Canada's largest city. This ___ didn't surprise me.",
+       "verb": "information",
+       "accept": [
+        "information"
+       ],
+       "why": "information is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "Three people told me what to do. I got ___ from three people.",
+       "verb": "advice",
+       "accept": [
+        "advice"
+       ],
+       "why": "advice is noncount."
+      },
+      {
+       "type": "fill",
+       "text": "I'm satisfied with the ___ I've made in learning English.",
+       "verb": "progress",
+       "accept": [
+        "progress"
+       ],
+       "why": "progress is noncount."
+      }
+     ]
+    },
+    {
+     "title": "Noncount trivia",
+     "icon": "🧠",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What is one ingredient needed to make glass?",
+       "options": [
+        "sand",
+        "sugar",
+        "wool"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Glass is made from sand."
+      },
+      {
+       "type": "choice",
+       "text": "What was Albert Einstein's college major?",
+       "options": [
+        "literature",
+        "physics",
+        "history"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Einstein studied physics."
+      },
+      {
+       "type": "choice",
+       "text": "What language does the word algebra come from?",
+       "options": [
+        "Chinese",
+        "Spanish",
+        "Arabic"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Algebra comes from Arabic."
+      },
+      {
+       "type": "choice",
+       "text": "What natural force pulls things to the ground?",
+       "options": [
+        "gravity",
+        "electricity",
+        "humidity"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Gravity pulls things down."
+      },
+      {
+       "type": "choice",
+       "text": "What comes from sheep that we can make into fabric?",
+       "options": [
+        "cotton",
+        "wool",
+        "silver"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Wool comes from sheep."
+      },
+      {
+       "type": "choice",
+       "text": "Name a sport in which players score a goal.",
+       "options": [
+        "tennis",
+        "chess",
+        "soccer"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "In soccer you score goals."
+      },
+      {
+       "type": "choice",
+       "text": "What does boiling water produce?",
+       "options": [
+        "steam",
+        "smoke",
+        "smog"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Boiling water makes steam."
+      },
+      {
+       "type": "choice",
+       "text": "What field of study looks at human behavior?",
+       "options": [
+        "chemistry",
+        "psychology",
+        "engineering"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Psychology studies behavior."
+      },
+      {
+       "type": "choice",
+       "text": "What in our body has red and white cells?",
+       "options": [
+        "blood",
+        "oxygen",
+        "hair"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Blood has red and white cells."
+      },
+      {
+       "type": "choice",
+       "text": "What does rain turn into at 23°F (−5°C)?",
+       "options": [
+        "dew",
+        "heat",
+        "ice"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Below freezing, water becomes ice."
+      }
+     ]
+    },
+    {
+     "title": "Hoarding (1)",
+     "icon": "📦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Rebecca has a problem. She doesn't have any ___.",
+       "options": [
+        "visitor",
+        "visitors"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "any + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "There is too much ___ blocking the way.",
+       "options": [
+        "stuff",
+        "stuffs"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "stuff is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Hoarders are unable to throw out ___ they no longer need.",
+       "options": [
+        "thing",
+        "things"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many things → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They keep old ___.",
+       "options": [
+        "newspaper",
+        "newspapers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They keep ___.",
+       "options": [
+        "magazine",
+        "magazines"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many of them → plural."
+      },
+      {
+       "type": "choice",
+       "text": "They keep clothes and ___.",
+       "options": [
+        "furniture",
+        "furnitures"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "furniture is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "Some hoarders have ___ that reach the ceiling.",
+       "options": [
+        "boxs",
+        "boxes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After x → es."
+      },
+      {
+       "type": "choice",
+       "text": "Hoarding has recently come to the attention of the general ___.",
+       "options": [
+        "public",
+        "publics"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the public = one group."
+      }
+     ]
+    },
+    {
+     "title": "Hoarding (2)",
+     "icon": "🏚️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Hoarding is more than having a messy ___.",
+       "options": [
+        "home",
+        "homes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a → singular."
+      },
+      {
+       "type": "choice",
+       "text": "In one situation, the floor of a hoarder's ___ collapsed.",
+       "options": [
+        "house",
+        "houses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a hoarder's (one) house."
+      },
+      {
+       "type": "choice",
+       "text": "Sometimes ___ builds up in the house.",
+       "options": [
+        "garbage",
+        "garbages"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "garbage is noncount."
+      },
+      {
+       "type": "choice",
+       "text": "And health ___ arise.",
+       "options": [
+        "problem",
+        "problems"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "arise (no s) → plural subject."
+      },
+      {
+       "type": "choice",
+       "text": "Scientists believe that an ___ in the brain affects this.",
+       "options": [
+        "area",
+        "areas"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "an → singular."
+      },
+      {
+       "type": "choice",
+       "text": "It affects a person's ability to make ___.",
+       "options": [
+        "decision",
+        "decisions"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many decisions → plural."
+      },
+      {
+       "type": "choice",
+       "text": "It is hard for them to get rid of ___.",
+       "options": [
+        "thing",
+        "things"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Many things → plural."
+      },
+      {
+       "type": "choice",
+       "text": "Researchers are working on treatments for this ___.",
+       "options": [
+        "condition",
+        "conditions"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "this → singular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6-8",
+   "tag": "6-8",
+   "t": "prog",
+   "title": "How much? How many?",
+   "full": "Expressions of Quantity Used with Count and Noncount Nouns",
+   "lesson": {
+    "title": "Learn: quantity words",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Only for things you count",
+      "lines": [
+       "These go with count nouns."
+      ],
+      "chips": [
+       "one apple",
+       "each apple",
+       "every apple",
+       "two apples",
+       "both apples",
+       "a couple of apples",
+       "a few apples",
+       "several apples",
+       "many apples",
+       "a number of apples"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Only for noncount",
+      "lines": [
+       "These go with noncount nouns."
+      ],
+      "chips": [
+       "a little rice",
+       "much rice",
+       "a great deal of rice"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Good for both",
+      "lines": [
+       "These work with everything."
+      ],
+      "chips": [
+       "no",
+       "hardly any",
+       "some / any",
+       "a lot of / lots of",
+       "plenty of",
+       "most",
+       "all"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I received ___ mail.",
+      "options": [
+       "several",
+       "a great deal of",
+       "a few"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "mail is noncount → a great deal of."
+     },
+     {
+      "type": "choice",
+      "text": "I received ___ letters.",
+      "options": [
+       "a little",
+       "much",
+       "a number of"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "letters is count → a number of."
+     },
+     {
+      "type": "compare",
+      "title": "much / many in real life",
+      "left": {
+       "label": "Questions and negatives",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Do you have much time?",
+         "hl": [
+          [
+           "much",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "I don't have many friends.",
+         "hl": [
+          [
+           "many",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Positive sentences",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I have a lot of time.",
+         "hl": [
+          [
+           "a lot of",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I have too much time.",
+         "hl": [
+          [
+           "too much",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "much + noncount. many + plural count. too much / too many are fine in positive sentences."
+     },
+     {
+      "type": "choice",
+      "text": "He has too ___ medical bills this month.",
+      "options": [
+       "much",
+       "many"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "bills is count → too many."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Count only: many, a few, several, both, a number of.",
+     "Noncount only: much, a little, a great deal of. Both: some, a lot of, plenty of, no."
+    ],
+    "timeline": [
+     "count"
+    ],
+    "examples": [
+     {
+      "text": "I received several letters.",
+      "hl": [
+       [
+        "several",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I received a great deal of mail.",
+      "hl": [
+       [
+        "a great deal of",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I received a lot of letters and a lot of mail.",
+      "hl": [
+       [
+        "a lot of",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Letters or mail?",
+     "icon": "✉️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "two",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "A number → count only."
+      },
+      {
+       "type": "sort",
+       "word": "several",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "several + plural count noun."
+      },
+      {
+       "type": "sort",
+       "word": "too much",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "much → noncount only."
+      },
+      {
+       "type": "sort",
+       "word": "a lot of",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 2,
+       "why": "a lot of works with both."
+      },
+      {
+       "type": "sort",
+       "word": "a few",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "a few + plural count noun."
+      },
+      {
+       "type": "sort",
+       "word": "a little",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "a little → noncount only."
+      },
+      {
+       "type": "sort",
+       "word": "some",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 2,
+       "why": "some works with both."
+      },
+      {
+       "type": "sort",
+       "word": "a great deal of",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 1,
+       "why": "a great deal of → noncount only."
+      },
+      {
+       "type": "sort",
+       "word": "a number of",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 0,
+       "why": "a number of + plural count noun."
+      },
+      {
+       "type": "sort",
+       "word": "hardly any",
+       "buckets": [
+        "Only with letters (count)",
+        "Only with mail (noncount)",
+        "Both"
+       ],
+       "answer": 2,
+       "why": "hardly any works with both."
+      }
+     ]
+    },
+    {
+     "title": "Tick all that fit",
+     "icon": "🛒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I bought a number of ___ for our party.",
+       "options": [
+        "thing",
+        "items",
+        "food",
+        "snacks"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "a number of + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "Wow! You got a lot of ___.",
+       "options": [
+        "chocolate",
+        "sweets",
+        "candy",
+        "junk food"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "why": "a lot of works with count and noncount."
+      },
+      {
+       "type": "choice",
+       "text": "I know. I have no ___.",
+       "options": [
+        "control",
+        "limits"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "no works with count and noncount."
+      },
+      {
+       "type": "choice",
+       "text": "How much ___ do you have?",
+       "options": [
+        "homework",
+        "assignments",
+        "chores",
+        "responsibilities"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "much + noncount only."
+      },
+      {
+       "type": "choice",
+       "text": "I don't want to bother you with too many ___.",
+       "options": [
+        "problem",
+        "questions",
+        "requests",
+        "concern"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "too many + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "I sent you a few ___ about a new movie.",
+       "options": [
+        "text",
+        "email",
+        "messages",
+        "emails"
+       ],
+       "answer": [
+        2,
+        3
+       ],
+       "why": "a few + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "Sorry. I have hardly any ___.",
+       "options": [
+        "time",
+        "money",
+        "gas in the car",
+        "clean clothes"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "why": "hardly any works with everything."
+      },
+      {
+       "type": "choice",
+       "text": "Miriam is dealing with a great deal of ___.",
+       "options": [
+        "stress",
+        "anxiety",
+        "problems",
+        "issues"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "a great deal of + noncount."
+      }
+     ]
+    },
+    {
+     "title": "Pierre is anxious",
+     "icon": "😟",
+     "items": [
+      {
+       "type": "choice",
+       "text": "There isn't ___ money in his bank account.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "money is noncount → much."
+      },
+      {
+       "type": "choice",
+       "text": "He has too ___ medical bills this month.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "bills is count → many."
+      },
+      {
+       "type": "choice",
+       "text": "He can't find ___ information for his presentation.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "information is noncount → much."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ too many long hours at work.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hours (plural) → are."
+      },
+      {
+       "type": "choice",
+       "text": "He doesn't have ___ time to relax.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "time is noncount → much."
+      },
+      {
+       "type": "choice",
+       "text": "He hasn't met ___ people since he came here.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "people is plural → many."
+      },
+      {
+       "type": "choice",
+       "text": "And he doesn't have many ___.",
+       "options": [
+        "friend",
+        "friends"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "many + plural."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ much news from his family.",
+       "options": [
+        "isn't",
+        "aren't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "news is noncount → isn't."
+      },
+      {
+       "type": "choice",
+       "text": "There is too ___ violence in his neighborhood.",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "violence is noncount → much."
+      }
+     ]
+    },
+    {
+     "title": "Shopping lists (1)",
+     "icon": "🧾",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Helen bought several ___.",
+       "options": [
+        "lamps",
+        "furniture",
+        "jewelry",
+        "necklaces"
+       ],
+       "answer": [
+        0,
+        3
+       ],
+       "why": "several + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "Sam bought a lot of ___.",
+       "options": [
+        "stamps",
+        "rice",
+        "stuff",
+        "things"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "why": "a lot of works with everything."
+      },
+      {
+       "type": "choice",
+       "text": "I need a little ___.",
+       "options": [
+        "money",
+        "advice",
+        "time",
+        "minutes"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "a little + noncount. minutes is count."
+      },
+      {
+       "type": "choice",
+       "text": "Alice bought a couple of ___.",
+       "options": [
+        "bread",
+        "loaves of bread",
+        "honey",
+        "jars of honey"
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "a couple of + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "I read a few ___.",
+       "options": [
+        "novels",
+        "literature",
+        "poems",
+        "poetry"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "a few + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "I needed some ___.",
+       "options": [
+        "orange juice",
+        "light bulbs",
+        "hardware",
+        "computer software"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "why": "some works with everything."
+      }
+     ]
+    },
+    {
+     "title": "Shopping lists (2)",
+     "icon": "🧮",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We need plenty of ___.",
+       "options": [
+        "sleep",
+        "information",
+        "facts",
+        "help"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        3
+       ],
+       "why": "plenty of works with everything."
+      },
+      {
+       "type": "choice",
+       "text": "I saw both ___.",
+       "options": [
+        "women",
+        "movies",
+        "scenes",
+        "scenery"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "both + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "Nick has a number of ___.",
+       "options": [
+        "shirts",
+        "homework",
+        "pens",
+        "chalk"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "a number of + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "The doctor doesn't have a great deal of ___.",
+       "options": [
+        "patience",
+        "wealth",
+        "patients",
+        "pencils"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "a great deal of + noncount."
+      },
+      {
+       "type": "choice",
+       "text": "The researchers have many ___.",
+       "options": [
+        "ideas",
+        "theories",
+        "hypotheses",
+        "knowledge"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "many + plural count noun."
+      },
+      {
+       "type": "choice",
+       "text": "Jack bought too much ___.",
+       "options": [
+        "shoes",
+        "salt",
+        "equipment",
+        "tools"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "too much + noncount."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Too many, hardly any",
+     "task": "Give your opinions with quantity words: “There are too many TV commercials.”",
+     "claudePrompt": "You are my English speaking partner. I am practicing expressions of quantity. Give me one topic at a time (famous celebrities, food, movies, doctors, serious problems in the world, TV commercials, teenagers, cities) and one quantity expression to use (a great deal of, a number of, too many, a couple of, too few, hardly any, plenty of, most). I make a sentence with my opinion. Check that I use the expression with the right kind of noun (count or noncount)."
+    }
+   ]
+  },
+  {
+   "id": "6-9",
+   "tag": "6-9",
+   "t": "prog",
+   "title": "A few or few?",
+   "full": "Using A Few and Few; A Little and Little",
+   "lesson": {
+    "title": "Learn: the little word a",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "few for count, little for noncount",
+      "lines": [
+       "a few / few + plural count noun.",
+       "a little / little + noncount noun."
+      ],
+      "visual": [
+       "count"
+      ],
+      "chips": [
+       "a few songs",
+       "a little music"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "With a: 🙂  Without a: 🙁",
+      "left": {
+       "label": "a few / a little = some (positive)",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "She has already made a few friends.",
+         "hl": [
+          [
+           "a few",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I've saved a little money this month.",
+         "hl": [
+          [
+           "a little",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "few / little = almost none (negative)",
+       "t": "state",
+       "examples": [
+        {
+         "text": "I feel sorry for her. She has very few friends.",
+         "hl": [
+          [
+           "very few",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "I have very little money.",
+         "hl": [
+          [
+           "very little",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "No a = almost no. very few / very little = even less."
+     },
+     {
+      "type": "choice",
+      "text": "A desert is a dry place. There is ___ water in a desert.",
+      "options": [
+       "a little",
+       "little"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Almost no water → little."
+     },
+     {
+      "type": "choice",
+      "text": "It's hot today. You should drink ___ water.",
+      "options": [
+       "a little",
+       "little"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Some water (positive) → a little."
+     },
+     {
+      "type": "choice",
+      "text": "Very ___ people live in the middle of a desert.",
+      "options": [
+       "few",
+       "little"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "people is count → few."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "a few / a little = some (a positive idea).",
+     "few / little = almost none (a negative idea)."
+    ],
+    "timeline": [
+     "count"
+    ],
+    "examples": [
+     {
+      "text": "She has made a few friends.",
+      "hl": [
+       [
+        "a few",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "She has very few friends.",
+      "hl": [
+       [
+        "very few",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I have a little money.",
+      "hl": [
+       [
+        "a little",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I have very little money.",
+      "hl": [
+       [
+        "very little",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Same meaning",
+     "icon": "🔁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Deserts are largely uninhabited. Very ___ people live in the middle of a desert.",
+       "options": [
+        "a few",
+        "few"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Almost nobody → few."
+      },
+      {
+       "type": "choice",
+       "text": "We had a good time. We met ___ people and had some nice conversations.",
+       "options": [
+        "a few",
+        "few"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Some people (positive) → a few."
+      },
+      {
+       "type": "choice",
+       "text": "Every week I watch two or three movies. = I watch ___ movies.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "two or three = some, count → a few."
+      },
+      {
+       "type": "choice",
+       "text": "There are hardly any programs that I enjoy. = There are ___ programs that I enjoy.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hardly any, count → few."
+      },
+      {
+       "type": "choice",
+       "text": "There is almost no snow in my country. = There is ___ snow.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "almost no, noncount → little."
+      },
+      {
+       "type": "choice",
+       "text": "I need some sunshine to feel happy. = I need ___ sunshine.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some, noncount → a little."
+      },
+      {
+       "type": "choice",
+       "text": "Not many people need more than two languages. = ___ people need more than two.",
+       "options": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "not many, count → Few."
+      },
+      {
+       "type": "choice",
+       "text": "Everyone needs to take some vitamins every day. = ___ vitamins.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some, count → a few."
+      },
+      {
+       "type": "choice",
+       "text": "Not many things in life are certain. = ___ things in life are certain.",
+       "options": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "not many, count → Few."
+      },
+      {
+       "type": "choice",
+       "text": "Some of the best things in life are free. = ___ of the best things in life are free.",
+       "options": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some, count → A few."
+      }
+     ]
+    },
+    {
+     "title": "With friends (1)",
+     "icon": "💻",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Do you have ___ minutes?",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some, count → a few."
+      },
+      {
+       "type": "choice",
+       "text": "I need ___ help.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some, noncount → a little."
+      },
+      {
+       "type": "choice",
+       "text": "I'm having ___ problems with my laptop.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some, count → a few."
+      },
+      {
+       "type": "choice",
+       "text": "Sure. Now is good. I have ___ time before I need to leave.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some time (positive) → a little."
+      },
+      {
+       "type": "choice",
+       "text": "Ben isn't happy at his new school. He has ___ friends.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Almost no friends → few."
+      },
+      {
+       "type": "choice",
+       "text": "Give it ___ time.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some, noncount → a little."
+      },
+      {
+       "type": "choice",
+       "text": "In ___ months, he'll have more.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some, count → a few."
+      }
+     ]
+    },
+    {
+     "title": "With friends (2)",
+     "icon": "☕",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I have ___ patience with lazy co-workers. They frustrate me!",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Almost no patience → little."
+      },
+      {
+       "type": "choice",
+       "text": "I work with people who do very ___ work but complain a lot!",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "very + almost none, noncount → little."
+      },
+      {
+       "type": "choice",
+       "text": "I'll have ___ coffee with my dessert.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some, noncount → a little."
+      },
+      {
+       "type": "choice",
+       "text": "No, thanks. I drink very ___ coffee. It's too bitter.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "very + almost none → little."
+      },
+      {
+       "type": "choice",
+       "text": "I love coffee, especially with ___ sugar.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "some, noncount → a little."
+      },
+      {
+       "type": "choice",
+       "text": "Whoa! You're using more than ___ sugar.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "more than a little = a lot!"
+      },
+      {
+       "type": "choice",
+       "text": "I have very ___ sugar in my diet. It makes me hyper.",
+       "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "very + almost none → little."
+      }
+     ]
+    },
+    {
+     "title": "Which sentence fits?",
+     "icon": "🍚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Rosie was still hungry. She wanted some more rice.",
+       "options": [
+        "Rosie wanted a little rice.",
+        "Rosie wanted little rice."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She wanted some → a little."
+      },
+      {
+       "type": "choice",
+       "text": "I don't really like much salt on my food.",
+       "options": [
+        "I add a little salt to my food.",
+        "I add little salt to my food."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Almost none → little."
+      },
+      {
+       "type": "choice",
+       "text": "I have a long plane ride ahead of me.",
+       "options": [
+        "I packed a few sandwiches.",
+        "I packed few sandwiches."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Some sandwiches for the trip → a few."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. Li has never studied English. He only knows how to say “hello.”",
+       "options": [
+        "Mr. Li knows a little English.",
+        "Mr. Li knows little English."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Almost none → little."
+      },
+      {
+       "type": "choice",
+       "text": "If you speak slowly, you can have a conversation with Mr. Li's daughter.",
+       "options": [
+        "His daughter knows a little English.",
+        "His daughter knows little English."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She knows some → a little."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. Perez has a bad temper and yells at people all the time.",
+       "options": [
+        "A few people like working for him.",
+        "Few people like working for him."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Almost nobody → Few."
+      }
+     ]
+    },
+    {
+     "title": "Dan and Eva's kitchen",
+     "icon": "🍎",
+     "items": [
+      {
+       "type": "choice",
+       "text": "40 apples",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "apples is count, and 40 is a lot → too many.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "1 banana",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "banana is count, only one → too few.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "4 gallons of ice cream",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ice cream is noncount → too much.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "2 slices of bread (bread)",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "bread is noncount, almost none → too little.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "20 cans of tomatoes",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "cans is count → too many.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "2 teabags",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "teabags is count → too few.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "5 pounds of cheese (cheese)",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "cheese is noncount → too much.",
+       "ask": "Food for one week. They have…"
+      },
+      {
+       "type": "choice",
+       "text": "1 cup of sugar (sugar)",
+       "options": [
+        "too much",
+        "too many",
+        "too little",
+        "too few"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "sugar is noncount → too little.",
+       "ask": "Food for one week. They have…"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Is it enough?",
+     "task": "Tell Claude what's in your kitchen. Say if it's too much, too many, too little, too few or enough.",
+     "claudePrompt": "You are my English speaking partner. Ask me what food I have at home right now, one item at a time (How many eggs do you have? How much rice?). After each answer, ask: Is that enough for this week? I answer with too much / too many / too little / too few / (not) enough / just the right amount of. Check that I use much and little with noncount nouns and many and few with count nouns."
+    }
+   ]
+  },
+  {
+   "id": "6-10",
+   "tag": "6-10",
+   "t": "pres",
+   "title": "One, each, every",
+   "full": "Singular Expressions of Quantity: One, Each, Every",
+   "lesson": {
+    "title": "Learn: one, each, every",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "one, each, every + ONE thing",
+      "lines": [
+       "Right after them: a singular count noun."
+      ],
+      "chips": [
+       "one student",
+       "each student",
+       "every student"
+      ],
+      "examples": [
+       {
+        "text": "Every student has a schedule.",
+        "hl": [
+         [
+          "Every student",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Add of → plural noun",
+      "lines": [
+       "one of, each of, every one of + the / my / these + plural."
+      ],
+      "visual": [
+       "one-of"
+      ],
+      "chips": [
+       "one of the students",
+       "each of the students",
+       "every one of the students"
+      ],
+      "examples": [
+       {
+        "text": "One of the students was late to class.",
+        "hl": [
+         [
+          "One of the students",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Every ___ at this company gets health insurance.",
+      "options": [
+       "employee",
+       "employees"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "every + singular noun."
+     },
+     {
+      "type": "choice",
+      "text": "One of the ___ I would like to visit is Brazil.",
+      "options": [
+       "country",
+       "countries"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "one of the + plural noun."
+     },
+     {
+      "type": "learn",
+      "title": "every one or everyone?",
+      "lines": [
+       "every one of = each one of a group.",
+       "everyone = everybody."
+      ],
+      "chips": [
+       "I have read every one of those books.",
+       "Everyone has a schedule."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "one / each / every + singular noun: every student.",
+     "one of / each of / every one of + plural noun: one of the students."
+    ],
+    "timeline": [
+     "one-of"
+    ],
+    "examples": [
+     {
+      "text": "Every student has a schedule.",
+      "hl": [
+       [
+        "Every student",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "One of the students was late to class.",
+      "hl": [
+       [
+        "One of the students",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Countries I'd like to visit",
+     "icon": "🧭",
+     "items": [
+      {
+       "type": "choice",
+       "text": "One ___ I would like to visit is Malaysia.",
+       "options": [
+        "country",
+        "countries"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one + singular noun."
+      },
+      {
+       "type": "choice",
+       "text": "One of the ___ my wife would like to visit is Brazil.",
+       "options": [
+        "country",
+        "countries"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "one of the + plural noun."
+      },
+      {
+       "type": "choice",
+       "text": "It would be interesting to visit every ___ in the world.",
+       "options": [
+        "country",
+        "countries"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every + singular noun."
+      },
+      {
+       "type": "choice",
+       "text": "Each ___ is unique.",
+       "options": [
+        "country",
+        "countries"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "each + singular noun."
+      },
+      {
+       "type": "choice",
+       "text": "I've had wonderful experiences in each of the ___ I've visited.",
+       "options": [
+        "country",
+        "countries"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "each of the + plural noun."
+      },
+      {
+       "type": "choice",
+       "text": "Each ___ has a schedule.",
+       "options": [
+        "student",
+        "students"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "each + singular noun."
+      },
+      {
+       "type": "choice",
+       "text": "Every one of the ___ has a schedule.",
+       "options": [
+        "student",
+        "students"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "every one of the + plural noun."
+      },
+      {
+       "type": "choice",
+       "text": "___ has a schedule. (= everybody)",
+       "options": [
+        "Everyone",
+        "Every one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "everyone (one word) = everybody."
+      }
+     ]
+    },
+    {
+     "title": "A youth soccer team",
+     "icon": "⚽",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Every ___ on the team has some experience.",
+       "verb": "child",
+       "accept": [
+        "child"
+       ],
+       "why": "every + singular noun."
+      },
+      {
+       "type": "fill",
+       "text": "One of the ___ has been on the team for two years.",
+       "verb": "child",
+       "accept": [
+        "children"
+       ],
+       "why": "one of the + plural: children."
+      },
+      {
+       "type": "fill",
+       "text": "There is only one ___ on the soccer team.",
+       "verb": "goalie",
+       "accept": [
+        "goalie"
+       ],
+       "why": "one + singular noun."
+      },
+      {
+       "type": "fill",
+       "text": "Only one of the ___ has the skills to play goalie.",
+       "verb": "player",
+       "accept": [
+        "players"
+       ],
+       "why": "one of the + plural noun."
+      },
+      {
+       "type": "fill",
+       "text": "The coach is pleased that each of the ___ works extremely hard.",
+       "verb": "player",
+       "accept": [
+        "players"
+       ],
+       "why": "each of the + plural noun."
+      },
+      {
+       "type": "fill",
+       "text": "Every ___ gets a certificate of participation.",
+       "verb": "child",
+       "accept": [
+        "child"
+       ],
+       "why": "every + singular noun."
+      },
+      {
+       "type": "fill",
+       "text": "The coach gives a certificate to each of the ___.",
+       "verb": "child",
+       "accept": [
+        "children"
+       ],
+       "why": "each of the + plural: children."
+      },
+      {
+       "type": "fill",
+       "text": "He invites every ___ to the end-of-the-year party.",
+       "verb": "parent",
+       "accept": [
+        "parent"
+       ],
+       "why": "every + singular noun."
+      },
+      {
+       "type": "fill",
+       "text": "Every one of the ___ tries to attend.",
+       "verb": "parent",
+       "accept": [
+        "parents"
+       ],
+       "why": "every one of the + plural noun."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not? (1)",
+     "icon": "🧑‍🏫",
+     "items": [
+      {
+       "type": "judge",
+       "text": "It's important for every students to have a book.",
+       "answer": "wrong",
+       "why": "every + singular: every student.",
+       "fix": "It's important for every student to have a book."
+      },
+      {
+       "type": "judge",
+       "text": "Each of the students in my class has a book.",
+       "answer": "correct",
+       "why": "each of the + plural noun + singular verb."
+      },
+      {
+       "type": "judge",
+       "text": "The teacher gave each of students a test paper.",
+       "answer": "wrong",
+       "why": "each of needs the: each of the students.",
+       "fix": "The teacher gave each of the students a test paper."
+      },
+      {
+       "type": "judge",
+       "text": "Every student in the class did well on the test.",
+       "answer": "correct",
+       "why": "every + singular noun."
+      },
+      {
+       "type": "judge",
+       "text": "Every chairs in that room is uncomfortable.",
+       "answer": "wrong",
+       "why": "every + singular: every chair.",
+       "fix": "Every chair in that room is uncomfortable."
+      },
+      {
+       "type": "judge",
+       "text": "One of the equipment in our office is broken.",
+       "answer": "wrong",
+       "why": "equipment is noncount. Count the pieces.",
+       "fix": "One of the pieces of equipment in our office is broken."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not? (2)",
+     "icon": "🏝️",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Each of the woman in the room has an interesting story to tell.",
+       "answer": "wrong",
+       "why": "each of the + plural: women.",
+       "fix": "Each of the women in the room has an interesting story to tell."
+      },
+      {
+       "type": "judge",
+       "text": "One of my favorite place in the world is an island in the Caribbean Sea.",
+       "answer": "wrong",
+       "why": "one of + plural: places.",
+       "fix": "One of my favorite places in the world is an island in the Caribbean Sea."
+      },
+      {
+       "type": "judge",
+       "text": "Customs officials will check each one of your suitcases.",
+       "answer": "correct",
+       "why": "each one of + plural noun."
+      },
+      {
+       "type": "judge",
+       "text": "It's impossible for one human being to know every languages in the world.",
+       "answer": "wrong",
+       "why": "every + singular: every language.",
+       "fix": "It's impossible for one human being to know every language in the world."
+      },
+      {
+       "type": "judge",
+       "text": "I found each of the error in this exercise.",
+       "answer": "wrong",
+       "why": "each of the + plural: errors.",
+       "fix": "I found each of the errors in this exercise."
+      },
+      {
+       "type": "judge",
+       "text": "Vietnam is one of the country I want to visit.",
+       "answer": "wrong",
+       "why": "one of the + plural: countries.",
+       "fix": "Vietnam is one of the countries I want to visit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6-11",
+   "tag": "6-11",
+   "t": "prog",
+   "title": "Of or no of?",
+   "full": "Using Of in Expressions of Quantity",
+   "lesson": {
+    "title": "Learn: when to say of",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Always with of",
+      "lines": [
+       "These always have of."
+      ],
+      "chips": [
+       "a lot of",
+       "a number of",
+       "a great deal of",
+       "a majority of",
+       "none of",
+       "50% of",
+       "hundreds of",
+       "thousands of"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "many movies vs. many of the movies",
+      "left": {
+       "label": "No of: in general",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Many movies are available for free.",
+         "hl": [
+          [
+           "Many movies",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "of + the / my / those: specific ones",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Many of the movies are free.",
+         "hl": [
+          [
+           "Many of the",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Some of them have subtitles.",
+         "hl": [
+          [
+           "Some of them",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "After of you need the, this, those, my… or a pronoun (them, us)."
+     },
+     {
+      "type": "choice",
+      "text": "Most ___ people I know don't like junk mail.",
+      "options": [
+       "of",
+       "nothing (Ø)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No the or my comes next → no of."
+     },
+     {
+      "type": "choice",
+      "text": "Most ___ the charitable groups send several requests.",
+      "options": [
+       "of",
+       "nothing (Ø)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "the comes next → Most of the."
+     },
+     {
+      "type": "learn",
+      "title": "Never: most of movies",
+      "lines": [
+       "of + a bare noun is wrong."
+      ],
+      "chips": [
+       "❌ most of movies",
+       "❌ almost movies",
+       "✅ most movies",
+       "✅ most of the movies",
+       "✅ almost all (of the) movies"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "every and no: never of",
+      "lines": [
+       "every movie, no movie."
+      ],
+      "chips": [
+       "Every movie had a review.",
+       "No movie is perfect.",
+       "❌ every of the movies"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ students in my class are from Asia.",
+      "options": [
+       "Almost",
+       "Almost all",
+       "Most of"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Almost all students / Most students."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "many movies = in general. many of the movies = specific ones.",
+     "After of: the / my / those / them. Never: most of movies."
+    ],
+    "timeline": [
+     "of-noun"
+    ],
+    "examples": [
+     {
+      "text": "Many movies are available for free.",
+      "hl": [
+       [
+        "Many movies",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Many of the movies are free.",
+      "hl": [
+       [
+        "Many of the",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Some of them have subtitles.",
+      "hl": [
+       [
+        "Some of them",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Employees",
+     "icon": "👔",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I saw some ___ employees.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → some employees."
+      },
+      {
+       "type": "choice",
+       "text": "I saw some ___ the employees.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the comes next → some of the."
+      },
+      {
+       "type": "choice",
+       "text": "I saw some ___ them.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A pronoun comes next → some of them."
+      },
+      {
+       "type": "choice",
+       "text": "I saw several ___ employees.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → several employees."
+      },
+      {
+       "type": "choice",
+       "text": "I saw several ___ the employees.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the comes next → several of the."
+      },
+      {
+       "type": "choice",
+       "text": "I saw several ___ your employees.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "your comes next → several of your."
+      },
+      {
+       "type": "choice",
+       "text": "I saw several ___ yours.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A pronoun (yours) → several of yours."
+      }
+     ]
+    },
+    {
+     "title": "Junk mail (1)",
+     "icon": "📮",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I usually get a lot ___ mail.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a lot always has of."
+      },
+      {
+       "type": "choice",
+       "text": "A lot ___ the mail I get is junk mail.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a lot always has of."
+      },
+      {
+       "type": "choice",
+       "text": "I throw most ___ junk mail away.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → most junk mail."
+      },
+      {
+       "type": "choice",
+       "text": "Most ___ people I know don't like getting junk mail.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → Most people."
+      },
+      {
+       "type": "choice",
+       "text": "One ___ my neighbors sends it back to the company.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "my comes next → One of my."
+      },
+      {
+       "type": "choice",
+       "text": "My husband got a few ___ catalogs yesterday.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → a few catalogs."
+      }
+     ]
+    },
+    {
+     "title": "Junk mail (2)",
+     "icon": "📬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Several ___ the catalogs often have coupons.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the comes next → Several of the."
+      },
+      {
+       "type": "choice",
+       "text": "I look at a few ___ those.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "those comes next → a few of those."
+      },
+      {
+       "type": "choice",
+       "text": "Many ___ companies offer better deals online.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → Many companies."
+      },
+      {
+       "type": "choice",
+       "text": "Some ___ charitable groups ask for donations via the mail.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → Some charitable groups."
+      },
+      {
+       "type": "choice",
+       "text": "Most ___ the charitable groups send several requests every year.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the comes next → Most of the."
+      },
+      {
+       "type": "choice",
+       "text": "I respond to some ___ them.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A pronoun comes next → some of them."
+      }
+     ]
+    },
+    {
+     "title": "The Chinese class",
+     "icon": "🀄",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Three have studied Chinese before.",
+       "options": [
+        "A few of them have studied Chinese before.",
+        "Most of them have studied Chinese before."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "3 of 15 = a few.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "Thirteen speak English as their native language.",
+       "options": [
+        "Hardly any of them speak English.",
+        "Most of them speak English as their native language."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "13 of 15 = most.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "One speaks Thai, and one speaks Arabic.",
+       "options": [
+        "A couple of them speak other languages.",
+        "The majority of them speak other languages."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "2 = a couple.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "No one speaks Spanish.",
+       "options": [
+        "Some of them speak Spanish.",
+        "None of them speak Spanish."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "0 = none of them.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "Fifteen think Chinese is very difficult.",
+       "options": [
+        "All of them think Chinese is very difficult.",
+        "About half of them think Chinese is very difficult."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "15 of 15 = all.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "Fourteen are enjoying the class.",
+       "options": [
+        "Very few of them are enjoying the class.",
+        "Almost all of them are enjoying the class."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "14 of 15 = almost all.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "Five have already bought the textbook.",
+       "options": [
+        "Some of them have already bought the textbook.",
+        "All of them have already bought the textbook."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "5 of 15 = some.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      },
+      {
+       "type": "choice",
+       "text": "Four are men; eleven are women.",
+       "options": [
+        "The majority of them are women.",
+        "Hardly any of them are women."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "11 of 15 = the majority.",
+       "ask": "Say it with a quantity expression",
+       "ctx": "15 employees are taking a Chinese class."
+      }
+     ]
+    },
+    {
+     "title": "Junk food",
+     "icon": "🍟",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Junk food is a global phenomenon. Every ___ country offers tasty snacks.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "every never takes of."
+      },
+      {
+       "type": "choice",
+       "text": "These snacks have little ___ nutritional value.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → little nutritional value."
+      },
+      {
+       "type": "choice",
+       "text": "Most ___ junk food has these characteristics.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → Most junk food."
+      },
+      {
+       "type": "choice",
+       "text": "It has a great deal ___ fat.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a great deal always has of."
+      },
+      {
+       "type": "choice",
+       "text": "It has a high number ___ calories.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a number always has of."
+      },
+      {
+       "type": "choice",
+       "text": "It probably contains a lot ___ sugar.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a lot always has of."
+      },
+      {
+       "type": "choice",
+       "text": "It has a good deal ___ sodium.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a good deal always has of."
+      },
+      {
+       "type": "choice",
+       "text": "It is difficult for most ___ people to have just one bite.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No the → most people."
+      },
+      {
+       "type": "choice",
+       "text": "Chips, crackers, and soda are a few ___ the most popular junk foods.",
+       "options": [
+        "of",
+        "nothing (Ø)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the comes next → a few of the."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My class poll",
+     "task": "Report on people you know: “Most of my friends…”, “Very few of them…”, “None of them…”.",
+     "claudePrompt": "You are my English speaking partner. Ask me yes/no questions about my friends or classmates as a group, one at a time: Have your friends ever ridden a camel? Do they read the news in English? Do they have cars? Do they like living in your city? I answer with expressions of quantity + of (Most of my friends ..., A few of them ..., Hardly any of them ..., None of them ...). Check that I use of + the/my/them correctly and never say 'most of friends'."
+    },
+    {
+     "title": "Not everyone!",
+     "task": "Make these statements more exact: “People are friendly.” → “Most people are friendly.”",
+     "claudePrompt": "You are my English speaking partner. Give me one overgeneralization at a time: Babies are born bald. / People are friendly. / People like to live alone. / Children like to read scary stories. / The rivers in the world are polluted. / The citizens of the United States speak English. I make it more accurate with an expression of quantity (Most ..., Some ..., Almost all of the ..., Hardly any ...). Check my use of of."
+    },
+    {
+     "title": "Review a website",
+     "task": "Pick a website you know. Tell Claude what is good or bad about it, with details.",
+     "claudePrompt": "You are my English writing partner. Ask me to choose a website I know and evaluate it in 4-5 sentences, using patterns like: '___ is an example of an effective/weak website. The opening page is ... It has ... There is/are/isn't/aren't ...'. Ask me to give specific details (not 'it is interesting' but 'it has a colorful logo'). Check plural -s, noncount nouns like information (no -s), and expressions of quantity (many photos, not much information, a few bright colors)."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Noun Gnome",
+  "icon": "🧌",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "That magazine [contain] many different [kind] of [story] and [article].",
+    "options": [
+     "That magazine contains many different kind of stories and articles.",
+     "That magazine contains many different kinds of stories and articles.",
+     "That magazine contain many different kinds of story and article."
+    ],
+    "answer": 1,
+    "why": "magazine contains. many + plural nouns.",
+    "rule": "6-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "In my country, there [is alot] of language schools.",
+    "options": [
+     "In my country, there are a lot of language schools.",
+     "In my country, there is a lot of language schools.",
+     "In my country, there are alot of language school."
+    ],
+    "answer": 0,
+    "why": "schools → are. a lot is two words.",
+    "rule": "5-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "Alicia is always willing to help her friends in every possible [ways].",
+    "options": [
+     "Alicia is always willing to help her friends in every possibles way.",
+     "Alicia is always willing to help her friend in every possible ways.",
+     "Alicia is always willing to help her friends in every possible way."
+    ],
+    "answer": 2,
+    "why": "every + singular noun.",
+    "rule": "6-10"
+   },
+   {
+    "type": "errorfix",
+    "text": "Your country has one of the best-trained [army] in the world.",
+    "options": [
+     "Your country has one of the best-trained armies in the world.",
+     "Your country has one of best-trained army in the world.",
+     "Your country has one of the best-trained armys in the world."
+    ],
+    "answer": 0,
+    "why": "one of the + plural: armies.",
+    "rule": "6-10"
+   },
+   {
+    "type": "errorfix",
+    "text": "There are a lot of [equipments] in the research laboratory.",
+    "options": [
+     "There are a lot of equipment in the research laboratories.",
+     "There is a lot of equipment in the research laboratory.",
+     "There are a lot of an equipment in the research laboratory."
+    ],
+    "answer": 1,
+    "why": "equipment is noncount → There is.",
+    "rule": "6-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "I have a five [years old] daughter and a three [years old] son.",
+    "options": [
+     "I have a five-years-old daughter and a three-years-old son.",
+     "I have a five year olds daughter and a three year olds son.",
+     "I have a five-year-old daughter and a three-year-old son."
+    ],
+    "answer": 2,
+    "why": "Before a noun: hyphens, no s.",
+    "rule": "6-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Most [of people] in my [apartment's] building [is] friendly.",
+    "options": [
+     "Most of the people in my apartment building are friendly.",
+     "Most of people in my apartment building are friendly.",
+     "Most people in my apartment's building is friendly."
+    ],
+    "answer": 0,
+    "why": "Most of the people … are. No 's for a kind.",
+    "rule": "6-11"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Dennis] family lives on a sailboat.",
+    "options": [
+     "Dennis family live on a sailboat.",
+     "Dennis's family lives on a sailboat.",
+     "Dennis is family lives on a sailboat."
+    ],
+    "answer": 1,
+    "why": "The owner needs 's: Dennis's.",
+    "rule": "6-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "We had two [difficults] tests in chemistry last week.",
+    "options": [
+     "We had two difficult tests in chemistry last week.",
+     "We had two difficults test in chemistry last week.",
+     "We had two difficult test in chemistries last week."
+    ],
+    "answer": 0,
+    "why": "Adjectives never take s.",
+    "rule": "6-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Almost] students in my class are from Asia.",
+    "options": [
+     "Almost of students in my class are from Asia.",
+     "Almost student in my class are from Asia.",
+     "Almost all of the students in my class are from Asia."
+    ],
+    "answer": 2,
+    "why": "Almost all (of the) students.",
+    "rule": "6-11"
+   },
+   {
+    "type": "errorfix",
+    "text": "It's difficult for me to understand English when people use a lot of [slangs].",
+    "options": [
+     "It's difficult for me to understand English when people use a lot of a slang.",
+     "It's difficult for me to understand English when people use a lot of slang.",
+     "It's difficult for me to understand Englishes when people use a lot of slang."
+    ],
+    "answer": 1,
+    "why": "slang is noncount. No s.",
+    "rule": "6-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "George works in research and development at an [airplane's] company.",
+    "options": [
+     "George works in research and development at an airplane company.",
+     "George works in research and development at an airplanes company.",
+     "George works in researches and developments at an airplane company."
+    ],
+    "answer": 0,
+    "why": "airplane = the kind of company. No 's.",
+    "rule": "6-4"
+   }
+  ]
+ }
+}

@@ -1,0 +1,5239 @@
+{
+ "id": "ch20",
+ "num": 20,
+ "title": "Conditional Sentences and Wishes",
+ "subtitle": "if, would, would have, I wish",
+ "icon": "🐉",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "If I had more money right now, I will lend you some.",
+    "answer": "wrong",
+    "why": "Unreal now → would.",
+    "fix": "If I had more money right now, I would lend you some.",
+    "rule": "20-1"
+   },
+   {
+    "type": "judge",
+    "text": "If the lake freezes, neighborhood teens like to skate on it.",
+    "answer": "correct",
+    "why": "present + present = a habit.",
+    "rule": "20-2"
+   },
+   {
+    "type": "judge",
+    "text": "If the plane should take off late, we'll miss our connecting flight.",
+    "answer": "correct",
+    "why": "if + should, will.",
+    "rule": "20-2"
+   },
+   {
+    "type": "judge",
+    "text": "I would apply for a scholarship if I was you.",
+    "answer": "wrong",
+    "why": "Unreal → were.",
+    "fix": "I would apply for a scholarship if I were you.",
+    "rule": "20-3"
+   },
+   {
+    "type": "judge",
+    "text": "School would be easy for me if I have your memory.",
+    "answer": "wrong",
+    "why": "would → if + past.",
+    "fix": "School would be easy for me if I had your memory.",
+    "rule": "20-3"
+   },
+   {
+    "type": "judge",
+    "text": "If I had taken more math classes, I could have gotten a better job.",
+    "answer": "correct",
+    "why": "had taken, could have gotten.",
+    "rule": "20-4"
+   },
+   {
+    "type": "judge",
+    "text": "If we had been thinking, we would have picked up your package at the post office on our way home.",
+    "answer": "correct",
+    "why": "had been + -ing, would have.",
+    "rule": "20-5"
+   },
+   {
+    "type": "judge",
+    "text": "If our team had won the game last night, the town would be celebrating today.",
+    "answer": "correct",
+    "why": "Past condition, present result.",
+    "rule": "20-6"
+   },
+   {
+    "type": "judge",
+    "text": "Had the police known the reason for the decision, would it have made a difference?",
+    "answer": "correct",
+    "why": "= If the police had known.",
+    "rule": "20-7"
+   },
+   {
+    "type": "judge",
+    "text": "The subway was late. Otherwise, I am here an hour ago.",
+    "answer": "wrong",
+    "why": "Unreal past → would have been.",
+    "fix": "The subway was late. Otherwise, I would have been here an hour ago.",
+    "rule": "20-8"
+   },
+   {
+    "type": "judge",
+    "text": "Lawrence wishes he had chosen a more interesting college major.",
+    "answer": "correct",
+    "why": "wish + had + participle.",
+    "rule": "20-9"
+   },
+   {
+    "type": "judge",
+    "text": "I wish you will stop complaining.",
+    "answer": "wrong",
+    "why": "wish + would.",
+    "fix": "I wish you would stop complaining.",
+    "rule": "20-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "20-1",
+   "tag": "20-1",
+   "t": "plan",
+   "title": "Real or unreal?",
+   "full": "Overview of Basic Verb Forms Used in Conditional Sentences",
+   "lesson": {
+    "title": "Learn: four kinds of if-sentences",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Real: it can happen",
+      "lines": [
+       "if + present. Result: present (habit) or will (future)."
+      ],
+      "visual": [
+       "cond-real"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Unreal: only imagine it",
+      "lines": [
+       "Now: if + past, would. Past: if + had + participle, would have."
+      ],
+      "visual": [
+       "cond-unreal"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If I lived underwater, I would see colorful marine life every day.",
+      "options": [
+       "Real",
+       "Unreal: I don't live underwater."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "if + past, would = imaginary."
+     },
+     {
+      "type": "choice",
+      "text": "If I had more money right now, I ___ lend you some.",
+      "options": [
+       "will",
+       "would"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal now: if + past → would."
+     },
+     {
+      "type": "learn",
+      "title": "The four patterns",
+      "lines": [
+       "Tap to hear each one."
+      ],
+      "chips": [
+       "If I have enough time, I watch TV every evening.",
+       "If I have enough time, I will watch TV later on tonight.",
+       "If I had enough time, I would watch TV now.",
+       "If I had had enough time, I would have watched TV yesterday."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“If you had studied yesterday, you ___ well on the test.”",
+      "options": [
+       "would do",
+       "would have done"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal past → would have + participle."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Real: if + present → present / will.",
+     "Unreal now: if + past → would. Unreal past: if + had + participle → would have + participle."
+    ],
+    "timeline": [
+     "cond-unreal"
+    ],
+    "examples": [
+     {
+      "text": "If I have enough time, I will watch TV later on tonight.",
+      "hl": [
+       [
+        "have",
+        "pres"
+       ],
+       [
+        "will watch",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "If I had enough time, I would watch TV now.",
+      "hl": [
+       [
+        "had",
+        "plan"
+       ],
+       [
+        "would watch",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "If I had had enough time, I would have watched TV yesterday.",
+      "hl": [
+       [
+        "had had",
+        "pastperf"
+       ],
+       [
+        "would have watched",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Real or unreal?",
+     "icon": "🐠",
+     "items": [
+      {
+       "type": "sort",
+       "word": "If I lived underwater, I would see colorful marine life every day.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "if + past, would."
+      },
+      {
+       "type": "sort",
+       "word": "If I am vacationing in the Caribbean, I like to explore coral reefs.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "if + present, present = a habit."
+      },
+      {
+       "type": "sort",
+       "word": "If I have time on weekends, I volunteer at an animal shelter.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "A habit."
+      },
+      {
+       "type": "sort",
+       "word": "If I have time, I will volunteer next weekend.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "A real future possibility."
+      },
+      {
+       "type": "sort",
+       "word": "If I had time, I would volunteer next weekend.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "I don't have time."
+      },
+      {
+       "type": "sort",
+       "word": "If I had had time, I would have volunteered last weekend.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "I didn't have time."
+      },
+      {
+       "type": "sort",
+       "word": "If the weather is warm, we'll eat outdoors.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "A real future possibility."
+      },
+      {
+       "type": "sort",
+       "word": "If the weather were warm, we would eat outdoors.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "It isn't warm."
+      },
+      {
+       "type": "sort",
+       "word": "If the weather had been warm, we would have eaten outdoors.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "It wasn't warm."
+      }
+     ]
+    },
+    {
+     "title": "Now or past?",
+     "icon": "🕰️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I had more money, I would work less.",
+       "options": [
+        "present / future",
+        "past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + past, would = now.",
+       "ask": "The time is…"
+      },
+      {
+       "type": "choice",
+       "text": "If I had had more money, I would have worked less.",
+       "options": [
+        "present / future",
+        "past"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had had, would have = past.",
+       "ask": "The time is…"
+      },
+      {
+       "type": "choice",
+       "text": "If I don't have to work, I can visit you.",
+       "options": [
+        "present / future",
+        "past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Real, present / future.",
+       "ask": "The time is…"
+      },
+      {
+       "type": "choice",
+       "text": "If I hadn't had to work, I could have visited you.",
+       "options": [
+        "present / future",
+        "past"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hadn't had, could have = past.",
+       "ask": "The time is…"
+      },
+      {
+       "type": "choice",
+       "text": "If I didn't have to work, I could visit you.",
+       "options": [
+        "present / future",
+        "past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + past, could = now.",
+       "ask": "The time is…"
+      },
+      {
+       "type": "choice",
+       "text": "Rita tells her children, “If you work hard every day, you ___ well.”",
+       "options": [
+        "would do",
+        "will do",
+        "would have done"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "Scott doesn't work very hard. “If you worked hard every day, you ___ well.”",
+       "options": [
+        "would do",
+        "will do",
+        "would have done"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Unreal now → would."
+      },
+      {
+       "type": "choice",
+       "text": "Mark didn't study. “If you had studied yesterday, you ___ well on the test.”",
+       "options": [
+        "would do",
+        "will do",
+        "would have done"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Unreal past → would have done."
+      }
+     ]
+    },
+    {
+     "title": "Match the form",
+     "icon": "📺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I have enough time, I ___ TV every evening.",
+       "options": [
+        "would watch",
+        "watch",
+        "would have watched"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A habit → present."
+      },
+      {
+       "type": "choice",
+       "text": "If I have enough time, I ___ TV later on tonight.",
+       "options": [
+        "would have watched",
+        "watched",
+        "will watch"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "If I had enough time, I ___ TV now.",
+       "options": [
+        "would watch",
+        "will watch",
+        "watch"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Unreal now → would."
+      },
+      {
+       "type": "choice",
+       "text": "If I had had enough time, I ___ TV yesterday.",
+       "options": [
+        "would watch",
+        "would have watched",
+        "will watch"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal past → would have."
+      },
+      {
+       "type": "choice",
+       "text": "If I ___ enough time, I would watch TV now.",
+       "options": [
+        "have",
+        "had had",
+        "had"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "would → if + past."
+      },
+      {
+       "type": "choice",
+       "text": "If I ___ enough time, I would have watched TV yesterday.",
+       "options": [
+        "had had",
+        "had",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would have → if + had + participle."
+      },
+      {
+       "type": "judge",
+       "text": "If I had more money right now, I will lend you some.",
+       "answer": "wrong",
+       "why": "Unreal now → would.",
+       "fix": "If I had more money right now, I would lend you some."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-2",
+   "tag": "20-2",
+   "t": "pres",
+   "title": "If it rains…",
+   "full": "Expressing Real Conditions in the Present or Future",
+   "lesson": {
+    "title": "Learn: real conditions",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "if + present",
+      "lines": [
+       "Never will in the if-clause."
+      ],
+      "visual": [
+       "cond-real"
+      ],
+      "chips": [
+       "If I don't eat breakfast, I always get hungry during class. (habit)",
+       "If I don't eat breakfast tomorrow morning, I will get hungry during class. (future)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If the baby wakes up in the middle of the night, she cries. This is…",
+      "options": [
+       "a habit",
+       "one time in the future"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "present + present = a habit."
+     },
+     {
+      "type": "learn",
+      "title": "Facts: present or will",
+      "lines": [
+       "Both are fine for general truths."
+      ],
+      "chips": [
+       "Water freezes if the temperature reaches 0°C.",
+       "Water will freeze if the temperature reaches 0°C."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Other results",
+      "lines": [
+       "Modals and imperatives work too."
+      ],
+      "chips": [
+       "If it rains, we should stay home.",
+       "If it rains, I might decide to stay home.",
+       "If it rains, we can't go.",
+       "If anyone calls, please take a message."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "if + should = less sure",
+      "lines": [
+       "Almost the same meaning."
+      ],
+      "chips": [
+       "If anyone should call, please take a message.",
+       "If the plane should take off late, we'll miss our connecting flight."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If I find out the answer, I ___ you know.",
+      "options": [
+       "will let",
+       "let"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "One time in the future → will."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "if + simple present → present (habit / fact) or will (future).",
+     "The result can also be a modal or an imperative. if + should = a little less sure."
+    ],
+    "timeline": [
+     "cond-real"
+    ],
+    "examples": [
+     {
+      "text": "If I don't eat breakfast, I always get hungry during class.",
+      "hl": [
+       [
+        "don't eat",
+        "pres"
+       ],
+       [
+        "get",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "If it rains, we should stay home.",
+      "hl": [
+       [
+        "rains",
+        "pres"
+       ],
+       [
+        "should stay",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "If anyone should call, please take a message.",
+      "hl": [
+       [
+        "should call",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Habit or future?",
+     "icon": "👶",
+     "items": [
+      {
+       "type": "sort",
+       "word": "If the baby wakes up in the middle of the night, she'll cry.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 1,
+       "why": "will = this coming night."
+      },
+      {
+       "type": "sort",
+       "word": "If the baby wakes up in the middle of the night, she cries.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 0,
+       "why": "present + present = a habit."
+      },
+      {
+       "type": "sort",
+       "word": "Should the baby wake up in the middle of the night, she'll cry.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 1,
+       "why": "should … + will = future."
+      },
+      {
+       "type": "sort",
+       "word": "If it rains, the streets get wet.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 0,
+       "why": "A general fact / habit."
+      },
+      {
+       "type": "sort",
+       "word": "If it rains, the streets will get wet.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 1,
+       "why": "will = future."
+      },
+      {
+       "type": "sort",
+       "word": "If it should rain, we'll take the bus.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 1,
+       "why": "will = future."
+      },
+      {
+       "type": "sort",
+       "word": "If it rains, we take the bus.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 0,
+       "why": "present + present = a habit."
+      },
+      {
+       "type": "sort",
+       "word": "If the meetings run late, I leave early.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 0,
+       "why": "present + present = a habit."
+      },
+      {
+       "type": "sort",
+       "word": "Should the meetings run late, I will leave early.",
+       "buckets": [
+        "Habit",
+        "Future"
+       ],
+       "answer": 1,
+       "why": "will = future."
+      }
+     ]
+    },
+    {
+     "title": "Which result?",
+     "icon": "🚴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If there is a bike race, the road ___ closed.",
+       "options": [
+        "is",
+        "will be"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A habit (is) or the future (will be).",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "If I find out the answer, I ___ you know.",
+       "options": [
+        "will let",
+        "let"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One future time → will."
+      },
+      {
+       "type": "choice",
+       "text": "If you run up a hill, your heart ___ fast.",
+       "options": [
+        "beats",
+        "will beat"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A fact: present or will.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "If I have extra time, I ___ students in math.",
+       "options": [
+        "tutor",
+        "am going to tutor"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A habit, or a future plan.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "If it should rain tomorrow, we ___ our plans.",
+       "options": [
+        "might change",
+        "will change"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A modal or will.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "If my cell phone battery goes dead, I ___ it.",
+       "options": [
+        "will recharge",
+        "am recharging"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Result → will."
+      },
+      {
+       "type": "judge",
+       "text": "If the lake freezes, neighborhood teens like to skate on it.",
+       "answer": "correct",
+       "why": "present + present = a habit."
+      },
+      {
+       "type": "judge",
+       "text": "If the plane should take off late, we'll miss our connecting flight.",
+       "answer": "correct",
+       "why": "if + should, will."
+      },
+      {
+       "type": "judge",
+       "text": "If it will rain tomorrow, I will take my umbrella.",
+       "answer": "wrong",
+       "why": "No will after if.",
+       "fix": "If it rains tomorrow, I will take my umbrella."
+      }
+     ]
+    },
+    {
+     "title": "Superstitions",
+     "icon": "🍀",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I cross my fingers, ___.",
+       "options": [
+        "it would have brought good luck",
+        "it will bring good luck"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "If I open an umbrella indoors, ___.",
+       "options": [
+        "bad luck will “rain” down on me",
+        "bad luck rained down on me"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "If I have an itchy palm, ___.",
+       "options": [
+        "I had gotten money",
+        "I may get or lose money soon"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A modal result: may."
+      },
+      {
+       "type": "choice",
+       "text": "If you walk under a ladder, ___.",
+       "options": [
+        "you will have bad luck",
+        "you had bad luck"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "If you find a four-leaf clover, ___.",
+       "options": [
+        "you would had good luck",
+        "you will have good luck"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Real future → will."
+      },
+      {
+       "type": "choice",
+       "text": "If you ___ a black cat, you will have bad luck.",
+       "options": [
+        "see",
+        "will see",
+        "saw"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + simple present."
+      }
+     ]
+    },
+    {
+     "title": "Listen: If + pronoun",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "If I'm talking too fast, please tell me.",
+       "ask": "What did you hear?",
+       "options": [
+        "If I'm talking",
+        "If he's talking",
+        "If you're talking"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If I'm = If I am."
+      },
+      {
+       "type": "listen",
+       "say": "If we get married, everyone will be shocked.",
+       "ask": "What did you hear?",
+       "options": [
+        "If he gets married",
+        "If we get married",
+        "If they get married"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "If we get married."
+      },
+      {
+       "type": "listen",
+       "say": "If it's OK, I'll ask for some advice.",
+       "ask": "What did you hear?",
+       "options": [
+        "If he's OK",
+        "If it's OK",
+        "If I'm OK"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "If it's = If it is."
+      },
+      {
+       "type": "listen",
+       "say": "If he's planning to quit, I hope he lets us know soon.",
+       "ask": "What did you hear?",
+       "options": [
+        "If he's planning",
+        "If she's planning",
+        "If we're planning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If he's = If he is."
+      },
+      {
+       "type": "listen",
+       "say": "If it doesn't work, we'll need to try something else.",
+       "ask": "What did you hear?",
+       "options": [
+        "If it works",
+        "If it doesn't work",
+        "If he doesn't work"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "If it doesn't work."
+      },
+      {
+       "type": "listen",
+       "say": "If she works harder, I'm sure she'll succeed.",
+       "ask": "What did you hear?",
+       "options": [
+        "If he works harder",
+        "If she works harder",
+        "If we work harder"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "If she works harder."
+      },
+      {
+       "type": "listen",
+       "say": "If I should get the job, I'll call you right away.",
+       "ask": "What did you hear?",
+       "options": [
+        "If I should get",
+        "If I get",
+        "If I got"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If I should get."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Superstitions",
+     "task": "What happens if you see a black cat? Walk under a ladder? Tell Claude what people believe.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about superstitions: What may happen on Friday the 13th? What happens if you walk under a ladder? if you see a black cat? if you find a four-leaf clover? if you break a mirror? What superstitions do people have in your country? I answer with if + simple present, will/may (If you break a mirror, you will have seven years of bad luck.). Check that I never use will in the if-clause."
+    }
+   ]
+  },
+  {
+   "id": "20-3",
+   "tag": "20-3",
+   "t": "plan",
+   "title": "If I were you…",
+   "full": "Unreal (Contrary to Fact) in the Present or Future",
+   "lesson": {
+    "title": "Learn: if + past, would",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Imagine it now",
+      "lines": [
+       "if + simple past, would + verb. It is NOT true."
+      ],
+      "visual": [
+       "cond-unreal"
+      ],
+      "chips": [
+       "If I taught this class, I wouldn't give tests. (I don't teach it.)",
+       "If he were here right now, he would help us. (He isn't here.)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "were for everyone",
+      "lines": [
+       "I, he, she, it → were."
+      ],
+      "chips": [
+       "If I were you, I would accept their invitation.",
+       "If Tom were a teacher, he would teach law."
+      ],
+      "tip": "“If I was you” is only very informal speech."
+     },
+     {
+      "type": "choice",
+      "text": "I would apply for a scholarship if I ___ you.",
+      "options": [
+       "was",
+       "were"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal → were."
+     },
+     {
+      "type": "choice",
+      "text": "School would be easy for me if I ___ your memory.",
+      "options": [
+       "have",
+       "had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "would → if + past."
+     },
+     {
+      "type": "compare",
+      "title": "would or could?",
+      "left": {
+       "label": "would = the result I want / expect",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "If I had enough money, I would buy a car.",
+         "hl": [
+          [
+           "would buy",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "could = would be able to",
+       "t": "state",
+       "examples": [
+        {
+         "text": "If I had enough money, I could buy a car.",
+         "hl": [
+          [
+           "could buy",
+           "state"
+          ]
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "type": "choice",
+      "text": "If Tom were a teacher, he would teach law. Is Tom a teacher?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal: he isn't."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "if + simple past (were for be) → would / could + verb.",
+     "The situation is not true now."
+    ],
+    "timeline": [
+     "cond-unreal"
+    ],
+    "examples": [
+     {
+      "text": "If I taught this class, I wouldn't give tests.",
+      "hl": [
+       [
+        "taught",
+        "plan"
+       ],
+       [
+        "wouldn't give",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "If I were you, I would accept their invitation.",
+      "hl": [
+       [
+        "were",
+        "plan"
+       ],
+       [
+        "would accept",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Tom; real or unreal",
+     "icon": "⚖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If Tom were a teacher, he would teach law. → Tom ___ a teacher.",
+       "options": [
+        "is",
+        "isn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal → he isn't."
+      },
+      {
+       "type": "choice",
+       "text": "If Tom were a teacher, he would teach law. → Tom ___ law.",
+       "options": [
+        "teaches",
+        "doesn't teach"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal → he doesn't."
+      },
+      {
+       "type": "choice",
+       "text": "If he had enough money for tuition, he would be in graduate school. → He ___ enough money.",
+       "options": [
+        "has",
+        "doesn't have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal → he doesn't."
+      },
+      {
+       "type": "choice",
+       "text": "If he had enough money for tuition, he would be in graduate school. → He ___ in graduate school.",
+       "options": [
+        "is",
+        "isn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal → he isn't."
+      },
+      {
+       "type": "sort",
+       "word": "If I had more money, I would buy a new car.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "if + past, would."
+      },
+      {
+       "type": "sort",
+       "word": "If I have enough money, I will buy a car.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "if + present, will."
+      },
+      {
+       "type": "sort",
+       "word": "If the shirts are on sale, I will get a few.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "if + present, will."
+      },
+      {
+       "type": "sort",
+       "word": "If the shirt were on sale, I would get a few.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "were, would."
+      },
+      {
+       "type": "sort",
+       "word": "If you were a teacher, you could help me.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "were, could."
+      },
+      {
+       "type": "sort",
+       "word": "If you are a teacher, you can help me.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "are, can."
+      }
+     ]
+    },
+    {
+     "title": "Pictures and screwdrivers",
+     "icon": "💐",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Grandpa is allergic to flowers.",
+       "options": [
+        "If Grandpa isn't allergic to flowers, he would bring Grandma flowers more often.",
+        "If Grandpa weren't allergic to flowers, he would bring Grandma flowers more often."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Opposite of the fact: weren't … would.",
+       "ask": "Imagine the opposite"
+      },
+      {
+       "type": "choice",
+       "text": "Your roommates spend a lot of time shopping.",
+       "options": [
+        "If they didn't spend so much time shopping, they would save a lot of money.",
+        "If they don't spent so much time shopping, they would saved a lot of money."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "didn't spend … would save.",
+       "ask": "Imagine the opposite"
+      },
+      {
+       "type": "choice",
+       "text": "The boy doesn't like peas.",
+       "options": [
+        "If the boy likes peas, he would eat them.",
+        "If the boy liked peas, he would eat them."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "liked … would eat.",
+       "ask": "Imagine the opposite"
+      },
+      {
+       "type": "fill",
+       "text": "If I have enough apples, I ___ an apple pie this afternoon.",
+       "verb": "bake",
+       "accept": [
+        "will bake",
+        "am going to bake"
+       ],
+       "why": "Real → will."
+      },
+      {
+       "type": "fill",
+       "text": "If I had enough apples, I ___ an apple pie.",
+       "verb": "bake",
+       "accept": [
+        "would bake",
+        "could bake"
+       ],
+       "why": "Unreal → would / could."
+      },
+      {
+       "type": "fill",
+       "text": "I will fix your bike if I ___ the right screwdriver.",
+       "verb": "have",
+       "accept": [
+        "have"
+       ],
+       "why": "will → if + present."
+      },
+      {
+       "type": "fill",
+       "text": "I would fix your bike if I ___ the right screwdriver.",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "would → if + past."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to a movie tonight if I don't have any homework to do.",
+       "verb": "go",
+       "accept": [
+        "will go",
+        "am going to go"
+       ],
+       "why": "Real → will."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ to a movie tonight if I didn't have any homework to do.",
+       "verb": "go",
+       "accept": [
+        "would go"
+       ],
+       "why": "Unreal → would."
+      },
+      {
+       "type": "fill",
+       "text": "I would turn on my phone if I ___ in a meeting right now.",
+       "verb": "be, not",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "Unreal → weren't."
+      }
+     ]
+    },
+    {
+     "title": "Science and nature",
+     "icon": "🌳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Oil floats on water. If you pour oil on water, it ___.",
+       "verb": "float",
+       "accept": [
+        "floats",
+        "will float"
+       ],
+       "why": "A fact → present / will."
+      },
+      {
+       "type": "fill",
+       "text": "If there ___ no trees on earth, there wouldn't be enough oxygen.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "Unreal → were."
+      },
+      {
+       "type": "fill",
+       "text": "If there were no trees on earth, there ___ enough oxygen.",
+       "verb": "be, not",
+       "accept": [
+        "would not be",
+        "wouldn't be"
+       ],
+       "why": "Unreal → wouldn't be."
+      },
+      {
+       "type": "fill",
+       "text": "If there were no trees on earth, life as we know it ___.",
+       "verb": "exist, not",
+       "accept": [
+        "would not exist",
+        "wouldn't exist"
+       ],
+       "why": "Unreal → wouldn't exist."
+      },
+      {
+       "type": "fill",
+       "text": "If you boil water, it ___ into the atmosphere as vapor.",
+       "verb": "disappear",
+       "accept": [
+        "disappears",
+        "will disappear"
+       ],
+       "why": "A fact → present / will."
+      },
+      {
+       "type": "fill",
+       "text": "If animals ___, they would need to find food at a time when food is scarce.",
+       "verb": "hibernate, not",
+       "accept": [
+        "did not hibernate",
+        "didn't hibernate"
+       ],
+       "why": "Unreal → didn't hibernate."
+      },
+      {
+       "type": "fill",
+       "text": "If animals didn't hibernate, they ___ to find food when food is scarce.",
+       "verb": "need",
+       "accept": [
+        "would need"
+       ],
+       "why": "Unreal → would need."
+      },
+      {
+       "type": "fill",
+       "text": "If people ___ paws instead of hands, machines would have to be constructed very differently.",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "Unreal → had."
+      },
+      {
+       "type": "fill",
+       "text": "If people had paws, we ___ able to turn knobs or push small buttons.",
+       "verb": "be, not",
+       "accept": [
+        "would not be",
+        "wouldn't be"
+       ],
+       "why": "Unreal → wouldn't be."
+      },
+      {
+       "type": "judge",
+       "text": "School would be easy for me if I have your memory.",
+       "answer": "wrong",
+       "why": "would → if + past.",
+       "fix": "School would be easy for me if I had your memory."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What would you do?",
+     "task": "If you were given a million dollars, what would you do? Claude asks fun “what if” questions.",
+     "claudePrompt": "You are my English speaking partner. Ask me one imaginary question at a time: If you had the choice of any job in the world, what would it be? If someone famous invited you to dinner, who would you want it to be? If you were given a million dollars, what would you do with it? If you were lost on a desert island with only three items, what would they be? If you spoke five languages fluently, which ones would they be? I answer with would (If I had the choice, I would be ...). Check: simple past (were) in the if-clause, would + simple verb in the result."
+    }
+   ]
+  },
+  {
+   "id": "20-4",
+   "tag": "20-4",
+   "t": "pastperf",
+   "title": "If I had known…",
+   "full": "Unreal (Contrary to Fact) in the Past",
+   "lesson": {
+    "title": "Learn: if + had done, would have done",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Imagine a different past",
+      "lines": [
+       "if + had + participle, would have + participle."
+      ],
+      "visual": [
+       "cond-unreal"
+      ],
+      "chips": [
+       "If you had told me about the problem, I would have helped you. (You didn't tell me.)",
+       "If I hadn't slipped on the stairs, I wouldn't have broken my arm. (I slipped.)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If Ann had been available, she would have helped us. When?",
+      "options": [
+       "now",
+       "yesterday"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "had been … would have = past."
+     },
+     {
+      "type": "learn",
+      "title": "could have: a past option",
+      "lines": [
+       "could have = would have been able to."
+      ],
+      "chips": [
+       "If I had had enough money, I would have bought a car.",
+       "If I had had enough money, I could have bought a car."
+      ],
+      "tip": "In speech: If you'd told me, I would've helped you."
+     },
+     {
+      "type": "choice",
+      "text": "If I had taken more math classes, I ___ a better job.",
+      "options": [
+       "could get",
+       "could have gotten"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal past → could have + participle."
+     },
+     {
+      "type": "learn",
+      "title": "Short if-clauses",
+      "lines": [
+       "Use only the helping verb."
+      ],
+      "chips": [
+       "I don't have a pen, but if I did, I would lend it to you.",
+       "He is busy right now, but if he weren't, he would help us.",
+       "I didn't vote, but if I had, I would have voted for Senator Todd."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "She didn't come, but if she ___, she would have met my brother.",
+      "options": [
+       "did",
+       "had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal past → had."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "if + had + past participle → would have / could have + past participle.",
+     "It did not happen. Short form: …but if I had, …"
+    ],
+    "timeline": [
+     "cond-unreal"
+    ],
+    "examples": [
+     {
+      "text": "If you had told me about the problem, I would have helped you.",
+      "hl": [
+       [
+        "had told",
+        "pastperf"
+       ],
+       [
+        "would have helped",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "If I hadn't slipped on the stairs, I wouldn't have broken my arm.",
+      "hl": [
+       [
+        "hadn't slipped",
+        "pastperf"
+       ],
+       [
+        "wouldn't have broken",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "If only…",
+     "icon": "🏥",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If Ann were available, she would help us.",
+       "options": [
+        "now",
+        "yesterday"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "were … would = now.",
+       "ask": "When?"
+      },
+      {
+       "type": "choice",
+       "text": "If Ann had been available, she would have helped us.",
+       "options": [
+        "now",
+        "yesterday"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had been … would have = past.",
+       "ask": "When?"
+      },
+      {
+       "type": "choice",
+       "text": "If Reya had gone to the hospital, she ___.",
+       "options": [
+        "wouldn't have slept all day",
+        "would have gotten better more quickly",
+        "would have left a bigger tip"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Hospital → better faster."
+      },
+      {
+       "type": "choice",
+       "text": "If Tim hadn't lost his passport, he ___.",
+       "options": [
+        "would have finished already",
+        "wouldn't have gotten stuck in the snow",
+        "wouldn't have missed the flight home"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No passport → missed flight."
+      },
+      {
+       "type": "choice",
+       "text": "If you hadn't stayed out all night, you ___.",
+       "options": [
+        "wouldn't have slept all day",
+        "would have left a bigger tip",
+        "would have gotten better more quickly"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Out all night → slept all day."
+      },
+      {
+       "type": "choice",
+       "text": "If you had helped us move, we ___.",
+       "options": [
+        "wouldn't have missed the flight home",
+        "would have finished already",
+        "wouldn't have slept all day"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "More help → finished."
+      },
+      {
+       "type": "choice",
+       "text": "If the waiter had been friendlier, I ___.",
+       "options": [
+        "would have finished already",
+        "wouldn't have gotten stuck in the snow",
+        "would have left a bigger tip"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Friendly waiter → bigger tip."
+      },
+      {
+       "type": "choice",
+       "text": "If we had had chains in the car, we ___.",
+       "options": [
+        "wouldn't have gotten stuck in the snow",
+        "would have left a bigger tip",
+        "wouldn't have missed the flight home"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tire chains → not stuck."
+      }
+     ]
+    },
+    {
+     "title": "Getting lost",
+     "icon": "🗺️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "If the map on my phone ___ wrong, we wouldn't have gotten lost.",
+       "verb": "be, not",
+       "accept": [
+        "had not been",
+        "hadn't been"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If you ___ my directions, we wouldn't have spent the last two hours driving around.",
+       "verb": "follow",
+       "accept": [
+        "had followed"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If you had followed my directions, we ___ the last two hours driving around.",
+       "verb": "spend, not",
+       "accept": [
+        "would not have spent",
+        "wouldn't have spent"
+       ],
+       "why": "would have + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ so tired, I would have paid closer attention.",
+       "verb": "be, not",
+       "accept": [
+        "had not been",
+        "hadn't been"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If I hadn't been so tired, I ___ closer attention.",
+       "verb": "pay",
+       "accept": [
+        "would have paid"
+       ],
+       "why": "would have + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If we ___ a car with GPS, we would have found the hotel by now.",
+       "verb": "rent",
+       "accept": [
+        "had rented"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If we had rented a car with GPS, we ___ the hotel by now.",
+       "verb": "find",
+       "accept": [
+        "would have found"
+       ],
+       "why": "would have + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If you ___ to me, we wouldn't have driven around in circles.",
+       "verb": "listen",
+       "accept": [
+        "had listened"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If we ___ the train, we would have been there an hour ago.",
+       "verb": "take",
+       "accept": [
+        "had taken"
+       ],
+       "why": "if + had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If we had taken the train, we ___ there an hour ago.",
+       "verb": "be",
+       "accept": [
+        "would have been"
+       ],
+       "why": "would have + participle."
+      }
+     ]
+    },
+    {
+     "title": "What really happened?",
+     "icon": "🎟️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I had brought my ID, I could have gotten a student discount. → Did I bring my ID?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal past → I didn't."
+      },
+      {
+       "type": "choice",
+       "text": "If I had brought my ID, I could have gotten a student discount. → Did I get a discount?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal past → I didn't."
+      },
+      {
+       "type": "choice",
+       "text": "If Dad had his ID, he would get a senior citizen discount. → Does he have his ID?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal now → he doesn't."
+      },
+      {
+       "type": "choice",
+       "text": "If Dad had his ID, he would get a senior citizen discount. → Present or past?",
+       "options": [
+        "present",
+        "past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had … would get = now."
+      },
+      {
+       "type": "choice",
+       "text": "If I felt better, I would go to work. → Am I going to work?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal now → I'm not."
+      },
+      {
+       "type": "choice",
+       "text": "If I didn't have any friends, I would be lonely. → Do I have friends?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The opposite is true: I have friends."
+      },
+      {
+       "type": "choice",
+       "text": "If I didn't have any friends, I would be lonely. → Am I lonely?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I have friends, so I'm not lonely."
+      },
+      {
+       "type": "choice",
+       "text": "Jackson would have made it to class on time this morning if the bus hadn't been late. → Was the bus late?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hadn't been late → it WAS late."
+      },
+      {
+       "type": "choice",
+       "text": "Jackson would have made it to class on time if the bus hadn't been late. → Did he make it on time?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "would have → he didn't."
+      },
+      {
+       "type": "choice",
+       "text": "If I had more time, I would stay longer and talk. → Will I stay longer?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal now → I won't."
+      }
+     ]
+    },
+    {
+     "title": "Three times, three forms",
+     "icon": "🧥",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I have enough money, ___.",
+       "options": [
+        "I would buy it",
+        "I will buy it",
+        "I would have bought it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Real → will."
+      },
+      {
+       "type": "choice",
+       "text": "If I had enough money, ___.",
+       "options": [
+        "I will buy it",
+        "I would have bought it",
+        "I would buy it"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Unreal now → would."
+      },
+      {
+       "type": "choice",
+       "text": "If I had had enough money, ___.",
+       "options": [
+        "I would have bought it",
+        "I will buy it",
+        "I would buy it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Unreal past → would have."
+      },
+      {
+       "type": "choice",
+       "text": "I would have bought the coat ___.",
+       "options": [
+        "if it fit",
+        "if it had fit",
+        "if it fits"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "would have → had + participle."
+      },
+      {
+       "type": "choice",
+       "text": "We would stop by ___.",
+       "options": [
+        "if we had had extra time",
+        "if we have extra time",
+        "if we had extra time"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "would → if + past."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ time, I will go with you.",
+       "verb": "have",
+       "accept": [
+        "have"
+       ],
+       "why": "will → if + present."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ time, I would have gone with you.",
+       "verb": "have",
+       "accept": [
+        "had had"
+       ],
+       "why": "would have → had + participle."
+      },
+      {
+       "type": "fill",
+       "text": "If the weather were nice today, we ___ to the zoo.",
+       "verb": "go",
+       "accept": [
+        "would go"
+       ],
+       "why": "Unreal now → would go."
+      },
+      {
+       "type": "fill",
+       "text": "If the weather had been nice yesterday, we ___ to the zoo.",
+       "verb": "go",
+       "accept": [
+        "would have gone"
+       ],
+       "why": "Unreal past → would have gone."
+      },
+      {
+       "type": "fill",
+       "text": "Jim isn't home right now. If he ___ at home right now, I would visit him.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "Unreal now → were."
+      }
+     ]
+    },
+    {
+     "title": "Conversations",
+     "icon": "📸",
+     "items": [
+      {
+       "type": "fill",
+       "text": "You should tell your father exactly what happened. If I ___ you, I would tell him the truth.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "If I were you."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ my camera with me yesterday, I would have taken a picture of Alex standing on his head.",
+       "verb": "have",
+       "accept": [
+        "had had"
+       ],
+       "why": "Unreal past → had had."
+      },
+      {
+       "type": "fill",
+       "text": "I have a lot of seeds. If I have more seeds than I need, I ___ some to my neighbor.",
+       "verb": "give",
+       "accept": [
+        "will give"
+       ],
+       "why": "Real → will."
+      },
+      {
+       "type": "fill",
+       "text": "George has only two pairs of socks. If he had more, he ___ wash his socks so often.",
+       "verb": "have to, not",
+       "accept": [
+        "would not have to",
+        "wouldn't have to"
+       ],
+       "why": "Unreal now → wouldn't have to."
+      },
+      {
+       "type": "fill",
+       "text": "Why didn't you say something? I ___ over and helped you if you had told me.",
+       "verb": "come",
+       "accept": [
+        "would have come"
+       ],
+       "why": "Unreal past → would have come."
+      },
+      {
+       "type": "fill",
+       "text": "I know you would have come right away if I ___ you.",
+       "verb": "call",
+       "accept": [
+        "had called"
+       ],
+       "why": "Unreal past → had called."
+      },
+      {
+       "type": "fill",
+       "text": "It hasn't rained for over a month. If it ___ soon, a lot of crops will die.",
+       "verb": "rain, not",
+       "accept": [
+        "does not rain",
+        "doesn't rain"
+       ],
+       "why": "Real → present."
+      },
+      {
+       "type": "fill",
+       "text": "If the crops die, many people ___ hungry this coming winter.",
+       "verb": "go",
+       "accept": [
+        "will go"
+       ],
+       "why": "Real → will."
+      },
+      {
+       "type": "fill",
+       "text": "Sorry. If I ___ he was sleeping, I wouldn't have made so much noise.",
+       "verb": "realize",
+       "accept": [
+        "had realized",
+        "had realised"
+       ],
+       "why": "Unreal past → had realized."
+      },
+      {
+       "type": "fill",
+       "text": "What would we use to look at ourselves if we ___ mirrors?",
+       "verb": "have, not",
+       "accept": [
+        "did not have",
+        "didn't have"
+       ],
+       "why": "Unreal now → didn't have."
+      }
+     ]
+    },
+    {
+     "title": "Short ifs; listening",
+     "icon": "🎈",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I don't have enough money, but if I ___, I would buy that book.",
+       "verb": "?",
+       "accept": [
+        "did"
+       ],
+       "why": "don't have → did."
+      },
+      {
+       "type": "fill",
+       "text": "The weather is cold today, but if it ___, I'd go swimming.",
+       "verb": "?",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "is → weren't."
+      },
+      {
+       "type": "fill",
+       "text": "She didn't come, but if she ___, she would have met my brother.",
+       "verb": "?",
+       "accept": [
+        "had"
+       ],
+       "why": "didn't come → had."
+      },
+      {
+       "type": "fill",
+       "text": "Helium is lighter than air. If it ___, a helium blimp wouldn't float upward.",
+       "verb": "?",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "is → weren't."
+      },
+      {
+       "type": "fill",
+       "text": "I'm not a good cook, but if I ___, I would make all of my own meals.",
+       "verb": "?",
+       "accept": [
+        "were"
+       ],
+       "why": "am not → were."
+      },
+      {
+       "type": "fill",
+       "text": "He didn't go to a doctor, but if he ___, the cut on his hand wouldn't have gotten infected.",
+       "verb": "?",
+       "accept": [
+        "had"
+       ],
+       "why": "didn't go → had."
+      },
+      {
+       "type": "fill",
+       "text": "I always pay my bills. If I ___, I'd get in a lot of trouble.",
+       "verb": "?",
+       "accept": [
+        "did not",
+        "didn't"
+       ],
+       "why": "pay → didn't."
+      },
+      {
+       "type": "fill",
+       "text": "I called my husband to tell him I would be late. If I ___, he would have gotten worried.",
+       "verb": "?",
+       "accept": [
+        "had not",
+        "hadn't"
+       ],
+       "why": "called → hadn't."
+      },
+      {
+       "type": "listen",
+       "say": "If he had been truthful, he wouldn't have lost my trust.",
+       "ask": "Was he truthful?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal past → he wasn't."
+      },
+      {
+       "type": "listen",
+       "say": "If I had enough time, I would go to the art museum this afternoon.",
+       "ask": "Is the speaker going to the art museum?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Unreal now → not enough time."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "If I had known…",
+     "task": "Claude says: “I didn't know it was your birthday.” You answer: “If I had known…”",
+     "claudePrompt": "You are my English speaking partner. Tell me one thing at a time that you (or I) didn't know, and I respond with If I had known: I didn't know your dad was in the hospital. / I didn't know you broke your arm and needed help. / I didn't know you were allergic to nuts. I put them in the salad. / I didn't know you had free tickets to the soccer game. I answer: If I had known ..., I would have .... Check: had + past participle in the if-clause, would have + past participle in the result."
+    }
+   ]
+  },
+  {
+   "id": "20-5",
+   "tag": "20-5",
+   "t": "plan",
+   "title": "If it weren't raining…",
+   "full": "Using Progressive Verb Forms in Conditional Sentences",
+   "lesson": {
+    "title": "Learn: -ing in if-clauses",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "In progress? Keep -ing",
+      "lines": [
+       "Now: were + -ing. Past: had been + -ing."
+      ],
+      "visual": [
+       "prog-cond"
+      ],
+      "chips": [
+       "It is raining right now, so I will not go for a walk. → If it were not raining right now, I would go for a walk.",
+       "It was raining yesterday, so I did not go for a walk. → If it had not been raining, I would have gone for a walk."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm working. If I ___ working, I would be at home.",
+      "options": [
+       "weren't",
+       "hadn't been"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Now → weren't + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "The copy machine wasn't working. If it ___ working, we would have finished our presentation.",
+      "options": [
+       "were",
+       "had been"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Past → had been + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Flip the fact",
+      "lines": [
+       "Positive fact → negative if. Negative fact → positive if."
+      ],
+      "chips": [
+       "You aren't wearing a coat, so you're cold. → If you were wearing a coat, you wouldn't be cold."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "YOKO: “If I weren't painting my apartment, I would go to a movie.” Is Yoko painting now?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "weren't painting (unreal) → she IS painting."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Now: if + were (not) + -ing → would.",
+     "Past: if + had (not) been + -ing → would have."
+    ],
+    "timeline": [
+     "prog-cond"
+    ],
+    "examples": [
+     {
+      "text": "If it were not raining right now, I would go for a walk.",
+      "hl": [
+       [
+        "were not raining",
+        "plan"
+       ],
+       [
+        "would go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "If it had not been raining, I would have gone for a walk.",
+      "hl": [
+       [
+        "had not been raining",
+        "pastperf"
+       ],
+       [
+        "would have gone",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Painting, working, elevators",
+     "icon": "🎨",
+     "items": [
+      {
+       "type": "choice",
+       "text": "OLGA: “If I hadn't been painting my apartment, I would have gone to a movie.” YOKO: “If I weren't painting my apartment, I would go to a movie.”",
+       "options": [
+        "Olga",
+        "Yoko"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "weren't painting … would go = now.",
+       "ask": "Who is busy painting NOW?"
+      },
+      {
+       "type": "choice",
+       "text": "Who was busy painting earlier?",
+       "options": [
+        "Olga",
+        "Yoko"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hadn't been painting … would have = past.",
+       "ctx": "OLGA: “If I hadn't been painting…, I would have gone…” YOKO: “If I weren't painting…, I would go…”"
+      },
+      {
+       "type": "fill",
+       "text": "I'm not working. If I ___ working, I wouldn't be at home.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "Now → were + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Fortunately, the copy machine was working. If it ___ working, we wouldn't have finished our presentation.",
+       "verb": "be, not",
+       "accept": [
+        "had not been",
+        "hadn't been"
+       ],
+       "why": "Past → hadn't been + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The copy machine wasn't working. If it ___ working, we would have finished our presentation.",
+       "verb": "be",
+       "accept": [
+        "had been"
+       ],
+       "why": "Past → had been + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The elevators weren't working. If they ___ working, I wouldn't have walked up to the top floor.",
+       "verb": "be",
+       "accept": [
+        "had been"
+       ],
+       "why": "Past → had been + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The elevators were working. If they ___ working, I would have walked up to the top floor.",
+       "verb": "be, not",
+       "accept": [
+        "had not been",
+        "hadn't been"
+       ],
+       "why": "Past → hadn't been + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "If we had been thinking, we would have picked up your package at the post office on our way home.",
+       "answer": "correct",
+       "why": "had been + -ing, would have."
+      }
+     ]
+    },
+    {
+     "title": "But…",
+     "icon": "🧣",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You weren't listening, so you didn't understand the directions. But…",
+       "options": [
+        "if you were listening, you would understand the directions.",
+        "if you had been listening, you would have understood the directions."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → had been listening, would have.",
+       "ask": "Finish it"
+      },
+      {
+       "type": "choice",
+       "text": "You aren't wearing a coat, so you're cold. But…",
+       "options": [
+        "if you were wearing a coat, you wouldn't be cold.",
+        "if you had been wearing a coat, you wouldn't have been cold."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Now → were wearing, wouldn't be.",
+       "ask": "Finish it"
+      },
+      {
+       "type": "choice",
+       "text": "Joe got a ticket because he was driving too fast. But…",
+       "options": [
+        "if he weren't driving too fast, he wouldn't get a ticket.",
+        "if he hadn't been driving too fast, he wouldn't have gotten a ticket."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → hadn't been driving, wouldn't have.",
+       "ask": "Finish it"
+      },
+      {
+       "type": "choice",
+       "text": "I'm enjoying myself, so I won't leave. But…",
+       "options": [
+        "if I weren't enjoying myself, I would leave.",
+        "if I hadn't been enjoying myself, I would have left."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Now → weren't enjoying, would.",
+       "ask": "Finish it"
+      },
+      {
+       "type": "choice",
+       "text": "You were sleeping, so I didn't tell you the news as soon as I heard it. But…",
+       "options": [
+        "if you weren't sleeping, I would tell you the news as soon as I heard it.",
+        "if you hadn't been sleeping, I would have told you the news as soon as I heard it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → hadn't been sleeping, would have.",
+       "ask": "Finish it"
+      }
+     ]
+    },
+    {
+     "title": "Hair dryers and vacuums",
+     "icon": "💨",
+     "items": [
+      {
+       "type": "fill",
+       "text": "It's snowing. We can't go to the park. If it ___, we could go to the park.",
+       "verb": "snow, not",
+       "accept": [
+        "were not snowing",
+        "weren't snowing"
+       ],
+       "why": "Now → weren't snowing."
+      },
+      {
+       "type": "fill",
+       "text": "It wasn't snowing. We went to the park. If it ___, we wouldn't have gone to the park.",
+       "verb": "snow",
+       "accept": [
+        "had been snowing"
+       ],
+       "why": "Past → had been snowing."
+      },
+      {
+       "type": "fill",
+       "text": "Elena is drying her hair, so she can't hear the doorbell. If Elena ___ her hair, she could hear the doorbell.",
+       "verb": "dry, not",
+       "accept": [
+        "were not drying",
+        "weren't drying"
+       ],
+       "why": "Now → weren't drying."
+      },
+      {
+       "type": "fill",
+       "text": "She was drying her hair when the package arrived. If Elena ___ her hair, she could have heard the doorbell.",
+       "verb": "dry, not",
+       "accept": [
+        "had not been drying",
+        "hadn't been drying"
+       ],
+       "why": "Past → hadn't been drying."
+      },
+      {
+       "type": "fill",
+       "text": "Max is not having any fun at the party. Max wouldn't want to leave early if he ___ fun.",
+       "verb": "have",
+       "accept": [
+        "were having"
+       ],
+       "why": "Now → were having."
+      },
+      {
+       "type": "fill",
+       "text": "My sister was reading a text message while driving. If she ___ a text message, she wouldn't have rear-ended the car.",
+       "verb": "read, not",
+       "accept": [
+        "had not been reading",
+        "hadn't been reading"
+       ],
+       "why": "Past → hadn't been reading."
+      },
+      {
+       "type": "fill",
+       "text": "Simon is vacuuming the car. If Simon ___ the car, he could hear his phone ring.",
+       "verb": "vacuum, not",
+       "accept": [
+        "were not vacuuming",
+        "weren't vacuuming"
+       ],
+       "why": "Now → weren't vacuuming."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-6",
+   "tag": "20-6",
+   "t": "pastperf",
+   "title": "Then and now",
+   "full": "Using “Mixed Time” in Conditional Sentences",
+   "lesson": {
+    "title": "Learn: past condition, present result",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Mix the times",
+      "lines": [
+       "The if-clause and the result can have different times."
+      ],
+      "visual": [
+       "mixed"
+      ],
+      "chips": [
+       "I did not eat breakfast several hours ago, so I am hungry now. → If I had eaten breakfast several hours ago, I would not be hungry now."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If I had done my homework ___, I would know the answers now.",
+      "options": [
+       "now",
+       "earlier"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "had done = the past."
+     },
+     {
+      "type": "learn",
+      "title": "Present condition, past result",
+      "lines": [
+       "It works the other way too."
+      ],
+      "chips": [
+       "He is not a good student. He did not study for the test yesterday. → If he were a good student, he would have studied for the test yesterday."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If our team had won the game last night, the town ___ today.",
+      "options": [
+       "would be celebrating",
+       "would have celebrated"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Result now → would be celebrating."
+     },
+     {
+      "type": "choice",
+      "text": "If I were you, I ___ him the truth yesterday.",
+      "options": [
+       "would tell",
+       "would have told"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Result in the past → would have told."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Past condition + present result: If I had eaten, I would not be hungry now.",
+     "Present condition + past result: If he were a good student, he would have studied."
+    ],
+    "timeline": [
+     "mixed"
+    ],
+    "examples": [
+     {
+      "text": "If I had eaten breakfast several hours ago, I would not be hungry now.",
+      "hl": [
+       [
+        "had eaten",
+        "pastperf"
+       ],
+       [
+        "would not be",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "If he were a good student, he would have studied for the test yesterday.",
+      "hl": [
+       [
+        "were",
+        "plan"
+       ],
+       [
+        "would have studied",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Now or earlier?",
+     "icon": "⏳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I had done my homework, I would know the answers. → “had done my homework” is about…",
+       "options": [
+        "now",
+        "earlier"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had done = earlier."
+      },
+      {
+       "type": "choice",
+       "text": "If I had done my homework, I would know the answers. → “would know the answers” is about…",
+       "options": [
+        "now",
+        "earlier"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would know = now."
+      },
+      {
+       "type": "choice",
+       "text": "Anita wouldn't be sick if she had followed the doctor's orders. → “wouldn't be sick” is about…",
+       "options": [
+        "now",
+        "earlier"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "wouldn't be = now."
+      },
+      {
+       "type": "choice",
+       "text": "If I hadn't eaten so much at dinner, I would feel better. → “hadn't eaten so much” is about…",
+       "options": [
+        "now",
+        "earlier"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hadn't eaten = earlier."
+      },
+      {
+       "type": "choice",
+       "text": "Lynn would be in Egypt if she had renewed her passport. → “would be in Egypt” is about…",
+       "options": [
+        "now",
+        "earlier"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would be = now."
+      },
+      {
+       "type": "choice",
+       "text": "Had you told me the truth, I would trust you more. → “Had you told me” is about…",
+       "options": [
+        "now",
+        "the past"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Had you told = the past."
+      },
+      {
+       "type": "choice",
+       "text": "If you were a more organized person, you wouldn't have misplaced your keys. → “were a more organized person” is about…",
+       "options": [
+        "now (in general)",
+        "an hour ago"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "were = a general fact about now."
+      },
+      {
+       "type": "choice",
+       "text": "If my mom weren't in bed with the flu, she would have come shopping with us. → “would have come shopping” is about…",
+       "options": [
+        "now",
+        "this morning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "would have come = earlier."
+      },
+      {
+       "type": "choice",
+       "text": "You wouldn't be paying a fine if you had returned the library book. → “had returned” is about…",
+       "options": [
+        "right now",
+        "yesterday"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had returned = earlier."
+      }
+     ]
+    },
+    {
+     "title": "Say it with if",
+     "icon": "🪰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I'm hungry now because I didn't eat dinner earlier.",
+       "options": [
+        "If I'd eaten dinner earlier, I wouldn't be hungry now.",
+        "If I'd eaten dinner earlier, I wouldn't have been hungry now."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past condition, present result.",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "choice",
+       "text": "The room is full of flies because you left the door open.",
+       "options": [
+        "If you didn't leave the door open, the room wouldn't have been full of flies.",
+        "If you hadn't left the door open, the room wouldn't be full of flies."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hadn't left … wouldn't be.",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "choice",
+       "text": "You are tired this morning because you didn't go to bed at a reasonable hour last night.",
+       "options": [
+        "If you had gone to bed at a reasonable hour last night, you wouldn't be tired this morning.",
+        "If you went to bed at a reasonable hour last night, you weren't tired this morning."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had gone … wouldn't be.",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "choice",
+       "text": "I didn't finish my report yesterday, so I can't begin a new project today.",
+       "options": [
+        "If I finished my report yesterday, I could have begun a new project today.",
+        "If I had finished my report yesterday, I could begin a new project today."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had finished … could begin.",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "choice",
+       "text": "I'm not you, so I didn't tell him the truth.",
+       "options": [
+        "If I were you, I would have told him the truth.",
+        "If I had been you, I would tell him the truth."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Present condition, past result.",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "choice",
+       "text": "I don't know anything about plumbing, so I didn't fix the leak in the sink myself.",
+       "options": [
+        "If I had known something about plumbing, I would fix the leak in the sink myself.",
+        "If I knew something about plumbing, I would have fixed the leak in the sink myself."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "knew (now) … would have fixed (past).",
+       "ask": "Make a conditional"
+      },
+      {
+       "type": "judge",
+       "text": "If our team had won the game last night, the town would be celebrating today.",
+       "answer": "correct",
+       "why": "Past condition, present result."
+      }
+     ]
+    },
+    {
+     "title": "Why did dinosaurs become extinct?",
+     "icon": "🦕",
+     "items": [
+      {
+       "type": "choice",
+       "text": "According to one theory, if an asteroid ___ with the earth, several disastrous changes in the earth's climate would not have taken place.",
+       "options": [
+        "had collided",
+        "hadn't collided"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It DID collide → imagine it hadn't.",
+       "ctx": "One theory: an asteroid hit the earth millions of years ago. Dust blocked the sun."
+      },
+      {
+       "type": "choice",
+       "text": "If an asteroid ___ the earth, there wouldn't have been catastrophic changes in the earth's climate.",
+       "options": [
+        "had hit",
+        "hadn't hit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It DID hit → hadn't hit."
+      },
+      {
+       "type": "choice",
+       "text": "If dust ___ the sun, the earth would have been warmer.",
+       "options": [
+        "had blocked",
+        "hadn't blocked"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Dust DID block it → hadn't blocked."
+      },
+      {
+       "type": "choice",
+       "text": "If an asteroid ___ with the earth, dinosaurs might still exist.",
+       "options": [
+        "had collided",
+        "hadn't collided"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No collision → dinosaurs today."
+      },
+      {
+       "type": "choice",
+       "text": "If dinosaurs ___, the earth would be a very different place.",
+       "options": [
+        "had survived",
+        "hadn't survived"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They didn't survive → imagine they had."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-7",
+   "tag": "20-7",
+   "t": "plan",
+   "title": "Were I you…",
+   "full": "Omitting If",
+   "lesson": {
+    "title": "Learn: no if, verb first",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Drop if, flip the order",
+      "lines": [
+       "Only with were, had, and should."
+      ],
+      "visual": [
+       "omit-if"
+      ],
+      "chips": [
+       "Were I you, I wouldn't do that. (= If I were you)",
+       "Had I known, I would have told you. (= If I had known)",
+       "Should anyone call, please take a message. (= If anyone should call)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ I known, I would have told you.",
+      "options": [
+       "If",
+       "Had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No if → Had + subject."
+     },
+     {
+      "type": "choice",
+      "text": "Had the police known the reason for the decision, would it have made a difference? =",
+      "options": [
+       "If the police had known the reason…",
+       "The police had known the reason…"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Had + subject = If + subject + had."
+     },
+     {
+      "type": "learn",
+      "title": "It sounds formal",
+      "lines": [
+       "You will see it in writing and polite notices."
+      ],
+      "chips": [
+       "Should you need more money, I'll lend it to you.",
+       "Should you have questions, give me a call."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ you need to reach me, I'll be at our company headquarters in Seoul.",
+      "options": [
+       "Should",
+       "Would"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Should you need = If you should need."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Were I you… = If I were you… · Had I known… = If I had known…",
+     "Should anyone call… = If anyone should call…"
+    ],
+    "timeline": [
+     "omit-if"
+    ],
+    "examples": [
+     {
+      "text": "Were I you, I wouldn't do that.",
+      "hl": [
+       [
+        "Were I",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Had I known, I would have told you.",
+      "hl": [
+       [
+        "Had I known",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "Should anyone call, please take a message.",
+      "hl": [
+       [
+        "Should anyone call",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Correct or not?",
+     "icon": "🏜️",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Were I more adventurous, I would hike in the Australian Outback.",
+       "answer": "correct",
+       "why": "= If I were more adventurous."
+      },
+      {
+       "type": "judge",
+       "text": "If I were more adventurous, I would hike in the Australian Outback.",
+       "answer": "correct",
+       "why": "The usual form with if."
+      },
+      {
+       "type": "judge",
+       "text": "Had my friends known about my trip, they would have told me to go there.",
+       "answer": "correct",
+       "why": "= If my friends had known."
+      },
+      {
+       "type": "judge",
+       "text": "Should anyone ask, I'll be gone for another month.",
+       "answer": "correct",
+       "why": "= If anyone should ask."
+      },
+      {
+       "type": "judge",
+       "text": "Had the police known the reason for the decision, would it have made a difference?",
+       "answer": "correct",
+       "why": "= If the police had known."
+      },
+      {
+       "type": "judge",
+       "text": "If were I you, I would spend more time outdoors.",
+       "answer": "wrong",
+       "why": "Use if OR the flip, not both.",
+       "fix": "If I were you, I would spend more time outdoors."
+      },
+      {
+       "type": "judge",
+       "text": "Should my manager needs to reach me, I'll be at the bank.",
+       "answer": "wrong",
+       "why": "should + simple form: need.",
+       "fix": "Should my manager need to reach me, I'll be at the bank."
+      }
+     ]
+    },
+    {
+     "title": "Say it without if",
+     "icon": "📌",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If you should need more money, I'll lend it to you.",
+       "options": [
+        "Should you need more money, I'll lend it to you.",
+        "Should need you more money, I'll lend it to you."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Should + subject + verb.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "If I were you, I would let someone know where you'll be.",
+       "options": [
+        "Was I you, I would let someone know where you'll be.",
+        "Were I you, I would let someone know where you'll be."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Were + subject.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "If I were your teacher, I would insist you do more careful work.",
+       "options": [
+        "Were I your teacher, I would insist you do more careful work.",
+        "Were your teacher I, I would insist you do more careful work."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Were + subject.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "If I should change my mind, I'll let you know.",
+       "options": [
+        "Should I changed my mind, I'll let you know.",
+        "Should I change my mind, I'll let you know."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Should + subject + simple form.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "She would have gotten the job if she had been better prepared.",
+       "options": [
+        "She would have gotten the job had she been better prepared.",
+        "She would have gotten the job had been she better prepared."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had + subject + participle.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "If you should need to reach me, I'll be at our company headquarters in Seoul.",
+       "options": [
+        "Should you to need reach me, I'll be at our company headquarters in Seoul.",
+        "Should you need to reach me, I'll be at our company headquarters in Seoul."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Should + subject + verb.",
+       "ask": "Omit if"
+      },
+      {
+       "type": "choice",
+       "text": "If I had known what would happen, I would have done things differently.",
+       "options": [
+        "Had I known what would happen, I would have done things differently.",
+        "Had known I what would happen, I would have done things differently."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Had + subject + participle.",
+       "ask": "Omit if"
+      }
+     ]
+    },
+    {
+     "title": "What does it mean?",
+     "icon": "🚔",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I hadn't been driving so fast, I wouldn't have gotten a speeding ticket.",
+       "options": [
+        "I get a lot of speeding tickets.",
+        "I was driving too fast.",
+        "I like to drive fast.",
+        "I was given a ticket."
+       ],
+       "answer": [
+        1,
+        3
+       ],
+       "why": "Both the speed and the ticket really happened.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Should you need help, I'll be in the room next door.",
+       "options": [
+        "I'll be helping others in the room.",
+        "I'm available to help you.",
+        "You shouldn't ask me for help.",
+        "Do you need help from me?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "= If you need help, I'm there."
+      },
+      {
+       "type": "choice",
+       "text": "Had you told us sooner, we could have helped you.",
+       "options": [
+        "We're glad you told us.",
+        "We were happy that we helped you.",
+        "We needed to know earlier.",
+        "We didn't help you."
+       ],
+       "answer": [
+        2,
+        3
+       ],
+       "why": "You told us too late; no help.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "If there had been a faster way to get to the theater, I would have taken it.",
+       "options": [
+        "I took the fastest way to the theater.",
+        "I didn't take the fastest way.",
+        "The theater was too far away.",
+        "I took several different routes."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "There was no faster way."
+      },
+      {
+       "type": "choice",
+       "text": "Should you have questions, give me a call on my cell.",
+       "options": [
+        "I'm available by cell phone.",
+        "Did you have questions?",
+        "Call me soon.",
+        "Call me if you have questions."
+       ],
+       "answer": [
+        0,
+        3
+       ],
+       "why": "= If you have questions, call me.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Had anyone warned us about the situation, we would have stayed home.",
+       "options": [
+        "We stayed home.",
+        "We didn't stay home.",
+        "No one warned us.",
+        "Someone warned us."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "No warning, so we went.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Were we rich, we would live in a house overlooking the ocean.",
+       "options": [
+        "Are we rich?",
+        "Rich people live in houses overlooking the ocean.",
+        "We aren't rich.",
+        "We don't live in a house overlooking the ocean."
+       ],
+       "answer": [
+        2,
+        3
+       ],
+       "why": "Unreal now: not rich, no ocean house.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-8",
+   "tag": "20-8",
+   "t": "pastperf",
+   "title": "Otherwise I would have…",
+   "full": "Implied Conditions",
+   "lesson": {
+    "title": "Learn: the hidden if",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "No if, but still a condition",
+      "lines": [
+       "but and without can hide an if-clause."
+      ],
+      "visual": [
+       "implied"
+      ],
+      "chips": [
+       "I would have gone with you, but I had to study. (= if I hadn't had to study)",
+       "I never would have succeeded without your help. (= if you hadn't helped me)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I would have gone with you, but I had to study. Did I go?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "would have gone = I didn't go."
+     },
+     {
+      "type": "learn",
+      "title": "otherwise + would",
+      "lines": [
+       "otherwise = if that had not happened."
+      ],
+      "chips": [
+       "She ran; otherwise, she would have missed her bus. (= if she had not run)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The subway was late. Otherwise, I ___ here an hour ago.",
+      "options": [
+       "am",
+       "would have been"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Unreal past → would have been."
+     },
+     {
+      "type": "choice",
+      "text": "I couldn't have paid my school tuition without your loan. =",
+      "options": [
+       "…if you hadn't loaned me money.",
+       "…if you had loaned me money."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "without your loan = if you hadn't loaned."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "would have …, but + the real fact. / would have … without + noun.",
+     "Fact; otherwise, + would have … (= if that fact were not true)."
+    ],
+    "timeline": [
+     "implied"
+    ],
+    "examples": [
+     {
+      "text": "I would have gone with you, but I had to study.",
+      "hl": [
+       [
+        "would have gone",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "She ran; otherwise, she would have missed her bus.",
+      "hl": [
+       [
+        "otherwise",
+        "plan"
+       ],
+       [
+        "would have missed",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Janet's fire",
+     "icon": "🔥",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Janet would have kept sleeping, but the neighbors woke her up.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 0,
+       "why": "They woke her; she didn't keep sleeping."
+      },
+      {
+       "type": "sort",
+       "word": "Janet would have awakened without her neighbors' help.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 1,
+       "why": "She was in a deep sleep."
+      },
+      {
+       "type": "sort",
+       "word": "Janet was awakened by her neighbors; otherwise, she wouldn't have woken up.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 0,
+       "why": "Without them → no waking up."
+      },
+      {
+       "type": "judge",
+       "text": "The subway was late. Otherwise, I am here an hour ago.",
+       "answer": "wrong",
+       "why": "Unreal past → would have been.",
+       "fix": "The subway was late. Otherwise, I would have been here an hour ago."
+      },
+      {
+       "type": "judge",
+       "text": "They hurried; otherwise, they wouldn't have missed their train.",
+       "answer": "wrong",
+       "why": "They hurried → they caught it.",
+       "fix": "They hurried; otherwise, they would have missed their train."
+      },
+      {
+       "type": "judge",
+       "text": "I never would have succeeded without your help.",
+       "answer": "correct",
+       "why": "= if you hadn't helped me."
+      },
+      {
+       "type": "judge",
+       "text": "The team never will have won the game yesterday without your help.",
+       "answer": "wrong",
+       "why": "Unreal past → would have won.",
+       "fix": "The team never would have won the game yesterday without your help."
+      }
+     ]
+    },
+    {
+     "title": "Thank goodness!",
+     "icon": "🙏",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My phone would have died, but Gina had a charger.",
+       "options": [
+        "My phone would have died if Gina had had a charger.",
+        "My phone would have died if Gina hadn't had a charger."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She HAD one → if she hadn't.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "I couldn't have paid my school tuition without your loan.",
+       "options": [
+        "I couldn't have paid my school tuition if you hadn't loaned me money.",
+        "I couldn't have paid my school tuition if you loaned me money."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "without = if … hadn't.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "The fire would have spread quickly, but the fire trucks weren't far away.",
+       "options": [
+        "The fire would have spread quickly if the fire trucks hadn't been far away.",
+        "The fire would have spread quickly if the fire trucks had been far away."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "weren't far → if they had been far.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "I stepped on the brakes. Otherwise, I would have hit the little girl on the bike.",
+       "options": [
+        "If I hadn't stepped on the brakes, I would have hit the little girl on the bike.",
+        "If I had stepped on the brakes, I would have hit the little girl on the bike."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "otherwise = if I hadn't.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "I couldn't have finished my project on time without your help.",
+       "options": [
+        "I couldn't have finished my project on time if you had helped me.",
+        "I couldn't have finished my project on time if you hadn't helped me."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "without your help = if you hadn't helped.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "My noisy party guests quieted down. Otherwise, the neighbors would have called the police.",
+       "options": [
+        "If my noisy party guests hadn't quieted down, the neighbors would have called the police.",
+        "If my noisy party guests quieted down, the neighbors would call the police."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "otherwise = if they hadn't.",
+       "ask": "Say it with if"
+      },
+      {
+       "type": "choice",
+       "text": "I would have missed my flight, but my friend called and woke me up.",
+       "options": [
+        "I would have missed my flight if my friend had called and woken me up.",
+        "I would have missed my flight if my friend hadn't called and woken me up."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He DID call → if he hadn't.",
+       "ask": "Say it with if"
+      }
+     ]
+    },
+    {
+     "title": "Listen: what is true?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I canceled your dentist appointment for Tuesday. Otherwise, you would have had two appointments in one day.",
+       "ask": "What is true?",
+       "options": [
+        "I thought you needed two appointments.",
+        "I didn't think you wanted two appointments."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I canceled one to avoid two."
+      },
+      {
+       "type": "listen",
+       "say": "I would have called, but I didn't have your number.",
+       "ask": "What is true?",
+       "options": [
+        "If I had had your number, I would have called.",
+        "I called because I had your number."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No number → no call."
+      },
+      {
+       "type": "listen",
+       "say": "I couldn't have gone to college without my parents' help.",
+       "ask": "What is true?",
+       "options": [
+        "If my parents hadn't helped me, I wouldn't have gone to college.",
+        "If I hadn't gone to college, my parents wouldn't have helped me."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "without their help = if they hadn't helped."
+      },
+      {
+       "type": "listen",
+       "say": "I would have picked up your clothes, but the dry cleaner was closed.",
+       "ask": "What is true?",
+       "options": [
+        "I picked up your clothes.",
+        "I wasn't able to pick up your clothes."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "would have = I didn't."
+      },
+      {
+       "type": "listen",
+       "say": "We would have come to the party, but no one told us about it.",
+       "ask": "What is true?",
+       "options": [
+        "If someone had told us about the party, we would have come.",
+        "We came to the party even though you didn't tell us about it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No one told us → we didn't come."
+      },
+      {
+       "type": "listen",
+       "say": "I wouldn't have known what to do without your advice.",
+       "ask": "What is true?",
+       "options": [
+        "If I'd had your advice, I would have known what to do.",
+        "Because of your advice, I knew what to do."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I HAD your advice, so I knew."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-9",
+   "tag": "20-9",
+   "t": "state",
+   "title": "I wish I knew…",
+   "full": "Wishes About the Present and Past",
+   "lesson": {
+    "title": "Learn: wish + one step back",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "wish: I want it different",
+      "lines": [
+       "The verb goes one step back, like in unreal if-clauses."
+      ],
+      "visual": [
+       "wish"
+      ],
+      "chips": [
+       "I don't know French. → I wish I knew French.",
+       "It is raining right now. → I wish it weren't raining right now.",
+       "I can't speak Japanese. → I wish I could speak Japanese."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Our classroom doesn't have any windows. I wish our classroom ___ windows.",
+      "options": [
+       "has",
+       "had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A wish about now → past form."
+     },
+     {
+      "type": "learn",
+      "title": "A wish about the past",
+      "lines": [
+       "wish + had + participle."
+      ],
+      "chips": [
+       "John didn't come. → I wish John had come.",
+       "Mary couldn't come. → I wish Mary could have come."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Lawrence wishes he ___ a more interesting college major.",
+      "options": [
+       "chose",
+       "had chosen"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A wish about the past → had chosen."
+     },
+     {
+      "type": "compare",
+      "title": "wish or hope?",
+      "left": {
+       "label": "wish: it's not true / not possible",
+       "t": "state",
+       "examples": [
+        {
+         "text": "I wish I could come.",
+         "hl": [
+          [
+           "wish",
+           "state"
+          ],
+          [
+           "could",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "hope: it's possible",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I hope I can come.",
+         "hl": [
+          [
+           "hope",
+           "pres"
+          ],
+          [
+           "can",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "type": "choice",
+      "text": "I didn't go, but I wish I ___.",
+      "options": [
+       "did",
+       "had"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A wish about the past → had."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Wish about now: wish + simple past / were / could. Wish about the past: wish + had + participle.",
+     "hope + present / can / will = a real possibility."
+    ],
+    "timeline": [
+     "wish"
+    ],
+    "examples": [
+     {
+      "text": "I wish I knew French.",
+      "hl": [
+       [
+        "knew",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I wish John had come.",
+      "hl": [
+       [
+        "had come",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "I hope I can come.",
+      "hl": [
+       [
+        "can come",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "I wish…",
+     "icon": "🌞",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The sun isn't shining. I wish the sun ___ right now.",
+       "verb": "shine",
+       "accept": [
+        "were shining"
+       ],
+       "why": "Now → were + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't go shopping. I wish I ___ shopping.",
+       "verb": "go",
+       "accept": [
+        "had gone"
+       ],
+       "why": "Past → had gone."
+      },
+      {
+       "type": "fill",
+       "text": "I don't know how to dance. I wish I ___ how to dance.",
+       "verb": "know",
+       "accept": [
+        "knew"
+       ],
+       "why": "Now → knew."
+      },
+      {
+       "type": "fill",
+       "text": "It's cold today. I'm not wearing a coat. I wish I ___ a coat.",
+       "verb": "wear",
+       "accept": [
+        "were wearing"
+       ],
+       "why": "Now → were wearing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't have enough money to buy that book. I wish I ___ enough money.",
+       "verb": "have",
+       "accept": [
+        "had"
+       ],
+       "why": "Now → had."
+      },
+      {
+       "type": "fill",
+       "text": "You can't meet my parents. I wish you ___ them, but they're out of town.",
+       "verb": "can + meet",
+       "accept": [
+        "could meet"
+       ],
+       "why": "can't → could."
+      },
+      {
+       "type": "fill",
+       "text": "Khalid didn't come to the meeting. I wish he ___ to the meeting.",
+       "verb": "come",
+       "accept": [
+        "had come"
+       ],
+       "why": "Past → had come."
+      },
+      {
+       "type": "fill",
+       "text": "I'm not lying on a sunny beach. I wish I ___ on a sunny beach.",
+       "verb": "lie",
+       "accept": [
+        "were lying"
+       ],
+       "why": "Now → were lying."
+      },
+      {
+       "type": "fill",
+       "text": "Ingrid forgot to get Ernesto's new phone number. She wishes she ___ to get it.",
+       "verb": "forget, not",
+       "accept": [
+        "had not forgotten",
+        "hadn't forgotten"
+       ],
+       "why": "Past → hadn't forgotten."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't eat breakfast before I came to class. I wish I ___ breakfast.",
+       "verb": "eat",
+       "accept": [
+        "had eaten"
+       ],
+       "why": "Past → had eaten."
+      }
+     ]
+    },
+    {
+     "title": "…but I wish I did",
+     "icon": "🚲",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I don't have a bike, but I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "did"
+       ],
+       "why": "don't have → did."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't read that book, but I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "had"
+       ],
+       "why": "didn't read → had."
+      },
+      {
+       "type": "fill",
+       "text": "I want to go, but I can't. I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "could"
+       ],
+       "why": "can't → could."
+      },
+      {
+       "type": "fill",
+       "text": "The city won't add more parks, but I wish it ___.",
+       "verb": "?",
+       "accept": [
+        "would"
+       ],
+       "why": "won't → would."
+      },
+      {
+       "type": "fill",
+       "text": "He isn't old enough to drive a car, but he wishes he ___.",
+       "verb": "?",
+       "accept": [
+        "were"
+       ],
+       "why": "isn't → were."
+      },
+      {
+       "type": "fill",
+       "text": "They didn't go to the movie, but they wish they ___.",
+       "verb": "?",
+       "accept": [
+        "had"
+       ],
+       "why": "didn't go → had."
+      },
+      {
+       "type": "fill",
+       "text": "I don't have a driver's license, but I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "did"
+       ],
+       "why": "don't have → did."
+      },
+      {
+       "type": "fill",
+       "text": "I'm not living by myself, but I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "were"
+       ],
+       "why": "am not → were."
+      },
+      {
+       "type": "fill",
+       "text": "I have roommates, but I wish I ___.",
+       "verb": "?",
+       "accept": [
+        "did not",
+        "didn't"
+       ],
+       "why": "have → didn't."
+      },
+      {
+       "type": "fill",
+       "text": "He didn't buy a ticket to the game, but he wishes he ___.",
+       "verb": "?",
+       "accept": [
+        "had"
+       ],
+       "why": "didn't buy → had."
+      }
+     ]
+    },
+    {
+     "title": "Becoming “unstuck”",
+     "icon": "🚶",
+     "items": [
+      {
+       "type": "sort",
+       "word": "If you were trying to write a research paper and couldn't come up with any ideas, …",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "were trying, couldn't = imaginary now."
+      },
+      {
+       "type": "sort",
+       "word": "…would you keep working away?",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "would = imaginary."
+      },
+      {
+       "type": "sort",
+       "word": "If we stop concentrating on something, we actually become more creative.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 0,
+       "why": "present + present = a fact."
+      },
+      {
+       "type": "sort",
+       "word": "It would have helped me be a more efficient student.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "would have = it didn't happen."
+      },
+      {
+       "type": "sort",
+       "word": "I would have been calmer and more relaxed when I got stuck.",
+       "buckets": [
+        "Real",
+        "Unreal"
+       ],
+       "answer": 1,
+       "why": "would have = it didn't happen."
+      },
+      {
+       "type": "choice",
+       "text": "“I wish I had known this during my college days.” Did she know it then?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wish + had known → she didn't."
+      },
+      {
+       "type": "choice",
+       "text": "What does the research say to do when you are stuck?",
+       "options": [
+        "Keep working without a break.",
+        "Stop for a while and let your mind wander."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Daydreaming helps the mind find answers."
+      },
+      {
+       "type": "choice",
+       "text": "Pedro stayed up really late last night. He wishes he ___ stayed up so late.",
+       "options": [
+        "hadn't",
+        "didn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A wish about the past → hadn't."
+      }
+     ]
+    },
+    {
+     "title": "wish or hope?",
+     "icon": "🤞",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I ___ I could come, but I have to work.",
+       "options": [
+        "wish",
+        "hope"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's not possible → wish."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ I can come. I'll know tomorrow.",
+       "options": [
+        "wish",
+        "hope"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's possible → hope."
+      },
+      {
+       "type": "choice",
+       "text": "I hope I ___ meet with you tomorrow.",
+       "options": [
+        "can",
+        "could"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hope + can."
+      },
+      {
+       "type": "choice",
+       "text": "She wishes she ___ to the doctor when she first had symptoms.",
+       "options": [
+        "went",
+        "had gone"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A wish about the past → had gone."
+      },
+      {
+       "type": "choice",
+       "text": "I wish I ___ more questions when we reviewed for the exam yesterday.",
+       "options": [
+        "had asked",
+        "would ask"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A wish about the past → had asked."
+      },
+      {
+       "type": "judge",
+       "text": "Lawrence wishes he had chosen a more interesting college major.",
+       "answer": "correct",
+       "why": "wish + had + participle."
+      },
+      {
+       "type": "judge",
+       "text": "I wish I am someplace else right now.",
+       "answer": "wrong",
+       "why": "A wish about now → were.",
+       "fix": "I wish I were someplace else right now."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "20-10",
+   "tag": "20-10",
+   "t": "state",
+   "title": "I wish you would…",
+   "full": "Wishes About the Future; Use of Wish + Would",
+   "lesson": {
+    "title": "Learn: wish + would / could / were going to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Wishes about the future",
+      "lines": [
+       "were going to, could, would."
+      ],
+      "visual": [
+       "wish"
+      ],
+      "chips": [
+       "He isn't going to be here next week. → I wish he were going to be here next week.",
+       "She can't come tomorrow. → I wish she could come tomorrow.",
+       "She won't tell you. → I wish she would tell you."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "I + could (not would)",
+      "lines": [
+       "For yourself, use could."
+      ],
+      "chips": [
+       "✅ I wish I could go with you.",
+       "❌ I wish I would go with you."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I wish I ___ visit you next week.",
+      "options": [
+       "would",
+       "could"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "I wish I could (not would)."
+     },
+     {
+      "type": "learn",
+      "title": "wish + would = please change",
+      "lines": [
+       "For actions you want to change. Also a strong request."
+      ],
+      "chips": [
+       "It is raining. I wish it would stop.",
+       "I wish you would leave now."
+      ],
+      "tip": "Not for states: ❌ I wish you would know the answer."
+     },
+     {
+      "type": "choice",
+      "text": "I wish you ___ stop complaining.",
+      "options": [
+       "will",
+       "would"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "wish + would."
+     },
+     {
+      "type": "choice",
+      "text": "We're really late. I wish you ___.",
+      "options": [
+       "hurry",
+       "would hurry"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A strong request → would hurry."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Future wishes: wish + were going to / could / would.",
+     "I wish I could… (not would). I wish you would… = please do it."
+    ],
+    "timeline": [
+     "wish"
+    ],
+    "examples": [
+     {
+      "text": "I wish she would tell you.",
+      "hl": [
+       [
+        "would tell",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "I wish I could go with you.",
+      "hl": [
+       [
+        "could go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "It is raining. I wish it would stop.",
+      "hl": [
+       [
+        "would stop",
+        "fut"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Next week; tomorrow",
+     "icon": "📅",
+     "items": [
+      {
+       "type": "judge",
+       "text": "I wish I were going to visit you next week.",
+       "answer": "correct",
+       "why": "wish + were going to."
+      },
+      {
+       "type": "judge",
+       "text": "I wish I visited you next week.",
+       "answer": "wrong",
+       "why": "Future wish → could / were going to.",
+       "fix": "I wish I could visit you next week."
+      },
+      {
+       "type": "judge",
+       "text": "I wish I could visit you next week.",
+       "answer": "correct",
+       "why": "I wish I could."
+      },
+      {
+       "type": "judge",
+       "text": "I wish I would visit you next week.",
+       "answer": "wrong",
+       "why": "With I, use could.",
+       "fix": "I wish I could visit you next week."
+      },
+      {
+       "type": "fill",
+       "text": "My friend won't ever lend me his car. I wish he ___ me his car for my date tomorrow night.",
+       "verb": "lend",
+       "accept": [
+        "would lend"
+       ],
+       "why": "won't → would."
+      },
+      {
+       "type": "fill",
+       "text": "Mrs. Takasawa isn't coming to dinner with us tonight. I wish she ___ to dinner with us.",
+       "verb": "come",
+       "accept": [
+        "were coming"
+       ],
+       "why": "isn't coming → were coming."
+      },
+      {
+       "type": "fill",
+       "text": "The teacher is going to give an exam tomorrow. I wish he ___ us an exam tomorrow.",
+       "verb": "give, not",
+       "accept": [
+        "were not going to give",
+        "weren't going to give"
+       ],
+       "why": "is going to → weren't going to."
+      },
+      {
+       "type": "fill",
+       "text": "Jon won't tell me about his plans, but I wish he ___ me something.",
+       "verb": "tell",
+       "accept": [
+        "would tell"
+       ],
+       "why": "won't → would."
+      },
+      {
+       "type": "fill",
+       "text": "I can't go with you tomorrow, but I wish I ___.",
+       "verb": "can + go",
+       "accept": [
+        "could go"
+       ],
+       "why": "can't → could."
+      },
+      {
+       "type": "judge",
+       "text": "I wish you will stop complaining.",
+       "answer": "wrong",
+       "why": "wish + would.",
+       "fix": "I wish you would stop complaining."
+      }
+     ]
+    },
+    {
+     "title": "What do they wish?",
+     "icon": "🧹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "SUE: I'm waiting to hear from Sam. I want him to call me.",
+       "options": [
+        "She wishes Sam will call her.",
+        "She wishes Sam would call her."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wish + would.",
+       "ask": "What does Sue want?"
+      },
+      {
+       "type": "choice",
+       "text": "We had an argument.",
+       "options": [
+        "She probably wishes she and Sam hadn't had an argument.",
+        "She probably wishes she and Sam didn't had an argument."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A wish about the past → hadn't had.",
+       "ask": "What else does Sue wish?"
+      },
+      {
+       "type": "choice",
+       "text": "ANNA: Can't you come to the concert? Please change your mind.",
+       "options": [
+        "Anna wishes Yoko comes to the concert.",
+        "Anna wishes Yoko would come to the concert."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wish + would.",
+       "ask": "What does Anna want?"
+      },
+      {
+       "type": "choice",
+       "text": "YOKO: I don't see how I can change my work schedule.",
+       "options": [
+        "Yoko probably wishes she could change her work schedule.",
+        "Yoko probably wishes she can change her work schedule."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can't → could.",
+       "ask": "What does Yoko wish?"
+      },
+      {
+       "type": "choice",
+       "text": "Judy never picks up after herself. She leaves dirty dishes in the sink.",
+       "options": [
+        "Helen wishes Judy picks up after herself.",
+        "Helen wishes Judy would pick up after herself."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wish + would for an action to change.",
+       "ask": "What does Helen want?"
+      },
+      {
+       "type": "choice",
+       "text": "Helen nags Judy to pick up after herself.",
+       "options": [
+        "Judy probably wishes Helen would stop nagging her.",
+        "Judy probably wishes Helen will stop nagging her."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "wish + would.",
+       "ask": "What does Judy wish?"
+      }
+     ]
+    },
+    {
+     "title": "Make the wish",
+     "icon": "👟",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I need nine hours of sleep. I wish I ___ so much sleep.",
+       "verb": "need, not",
+       "accept": [
+        "did not need",
+        "didn't need"
+       ],
+       "why": "need → didn't need."
+      },
+      {
+       "type": "fill",
+       "text": "Alice doesn't like her job as a nurse. She wishes she ___ a nurse.",
+       "verb": "be, not",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "is → weren't."
+      },
+      {
+       "type": "fill",
+       "text": "We had a good time in the mountains. I wish you ___ with us.",
+       "verb": "come",
+       "accept": [
+        "had come"
+       ],
+       "why": "A wish about the past → had come."
+      },
+      {
+       "type": "fill",
+       "text": "I know that something's bothering you. I wish you ___ me what it is.",
+       "verb": "tell",
+       "accept": [
+        "would tell"
+       ],
+       "why": "A request → would tell."
+      },
+      {
+       "type": "fill",
+       "text": "I wish I ___ work today.",
+       "verb": "have to, not",
+       "accept": [
+        "did not have to",
+        "didn't have to"
+       ],
+       "why": "have to → didn't have to."
+      },
+      {
+       "type": "fill",
+       "text": "So do I. I wish it ___ a holiday.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "is → were."
+      },
+      {
+       "type": "fill",
+       "text": "My feet are killing me! I wish I ___ shoes.",
+       "verb": "wear",
+       "accept": [
+        "had worn"
+       ],
+       "why": "A wish about the past → had worn."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "I wish…",
+     "task": "Claude asks: What can't you do that you wish you could? Where do you wish you were right now?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What is something you can't do but wish you could do? Where do you wish you were right now? What is something you don't have but wish you had? What didn't happen yesterday that you wish had happened? What do you have to do but wish you didn't have to do? What do you wish were different about your city? I answer with I wish + past / could / had + participle. Check the verb form after wish, and that I use hope (not wish) for real possibilities."
+    }
+   ]
+  },
+  {
+   "id": "R20",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Conditional mix",
+   "full": "Chapter 20 Review: A Walk Around Town, A Life Without Pain",
+   "lesson": {
+    "title": "Learn: one map for all conditionals",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Find the time, then the form",
+      "lines": [
+       "Real or unreal? Now or past?"
+      ],
+      "chips": [
+       "real: If it is finished, we will move in.",
+       "unreal now: If I could speak Japanese, I would try.",
+       "unreal past: Had I known, I would have worn better shoes."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Words that hide an if",
+      "lines": [
+       "otherwise, but, without, suppose, imagine."
+      ],
+      "visual": [
+       "implied"
+      ],
+      "chips": [
+       "Without pain, we would go through life hurting ourselves.",
+       "Suppose a child fell from the top of a slide.",
+       "A day without exercise would be unthinkable for me."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Had I known we were going to walk so far, I ___ more comfortable shoes.",
+      "options": [
+       "would wear",
+       "would have worn"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Had I known = unreal past."
+     },
+     {
+      "type": "choice",
+      "text": "We are going to move into it June 1st if it ___ by then.",
+      "options": [
+       "is finished",
+       "were finished"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A real future condition → present."
+     },
+     {
+      "type": "choice",
+      "text": "I ___ it if you paid me a million dollars!",
+      "options": [
+       "won't ride",
+       "wouldn't ride"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "if you paid (unreal) → wouldn't."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Real: present → will. Unreal now: past → would. Unreal past: had + participle → would have.",
+     "Hidden ifs: otherwise, but, without, suppose, imagine, Had I…, Were I…"
+    ],
+    "timeline": [
+     "cond-unreal"
+    ],
+    "examples": [
+     {
+      "text": "Had I known we were going to walk so far, I would have worn more comfortable shoes.",
+      "hl": [
+       [
+        "Had I known",
+        "pastperf"
+       ],
+       [
+        "would have worn",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "Without pain, we would go through life hurting ourselves.",
+      "hl": [
+       [
+        "Without pain",
+        "plan"
+       ],
+       [
+        "would go",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A walk around town (1)",
+     "icon": "🏙️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "If I could speak better Japanese, I ___ to have a conversation with the group of people over there.",
+       "verb": "try",
+       "accept": [
+        "would try"
+       ],
+       "why": "could (unreal now) → would try."
+      },
+      {
+       "type": "fill",
+       "text": "See that apartment building? We are going to move into it June 1st if it ___ by then.",
+       "verb": "finish",
+       "accept": [
+        "is finished"
+       ],
+       "why": "Real future, passive → is finished."
+      },
+      {
+       "type": "fill",
+       "text": "The rent was very reasonable. Otherwise, I ___ to find an apartment that was already finished.",
+       "verb": "try",
+       "accept": [
+        "would have tried"
+       ],
+       "why": "otherwise + unreal past → would have tried."
+      },
+      {
+       "type": "fill",
+       "text": "Thanks for waiting for me. I ___ here sooner, but I had car trouble.",
+       "verb": "be",
+       "accept": [
+        "would have been"
+       ],
+       "why": "would have …, but + the fact."
+      },
+      {
+       "type": "fill",
+       "text": "It's too bad that Nadia can't join us. If she ___ all the time, we would see her more often.",
+       "verb": "work, not",
+       "accept": [
+        "did not work",
+        "didn't work"
+       ],
+       "why": "Unreal now → didn't work."
+      },
+      {
+       "type": "fill",
+       "text": "Had I known we were going to walk so far, I ___ more comfortable shoes.",
+       "verb": "wear",
+       "accept": [
+        "would have worn"
+       ],
+       "why": "Had I known → would have worn."
+      },
+      {
+       "type": "fill",
+       "text": "It's so hot out. If there ___ only a breeze, it wouldn't be quite so bad.",
+       "verb": "be",
+       "accept": [
+        "were"
+       ],
+       "why": "Unreal now → were."
+      },
+      {
+       "type": "fill",
+       "text": "If there were only a breeze, it ___ quite so bad.",
+       "verb": "be, not",
+       "accept": [
+        "would not be",
+        "wouldn't be"
+       ],
+       "why": "Unreal now → wouldn't be."
+      }
+     ]
+    },
+    {
+     "title": "A walk around town (2)",
+     "icon": "🎡",
+     "items": [
+      {
+       "type": "fill",
+       "text": "What would you be doing right now if you ___ here?",
+       "verb": "be, not",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "Unreal now → weren't."
+      },
+      {
+       "type": "fill",
+       "text": "If I weren't here, I ___ bills.",
+       "verb": "pay",
+       "accept": [
+        "would be paying"
+       ],
+       "why": "Right now → would be + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ my phone just before you called, I would have missed this chance to be with you.",
+       "verb": "turn on, not",
+       "accept": [
+        "had not turned on",
+        "hadn't turned on"
+       ],
+       "why": "Unreal past → hadn't turned on."
+      },
+      {
+       "type": "fill",
+       "text": "I have such a bad memory that I ___ my head if it weren't attached to my body.",
+       "verb": "forget",
+       "accept": [
+        "would forget"
+       ],
+       "why": "Unreal now → would forget."
+      },
+      {
+       "type": "fill",
+       "text": "I would forget my head if it ___ attached to my body.",
+       "verb": "be, not",
+       "accept": [
+        "were not",
+        "weren't"
+       ],
+       "why": "Unreal now → weren't."
+      },
+      {
+       "type": "fill",
+       "text": "I try to walk every day. A day without exercise ___ unthinkable for me.",
+       "verb": "be",
+       "accept": [
+        "would be"
+       ],
+       "why": "without = a hidden if → would be."
+      },
+      {
+       "type": "fill",
+       "text": "Want to ride the Ferris wheel? — No way! I ___ it if you paid me a million dollars!",
+       "verb": "ride, not",
+       "accept": [
+        "would not ride",
+        "wouldn't ride"
+       ],
+       "why": "if you paid → wouldn't ride."
+      }
+     ]
+    },
+    {
+     "title": "A life without pain",
+     "icon": "🩹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Can you imagine a world where people felt no pain? You ___ the agonizing suffering that comes from pain.",
+       "options": [
+        "wouldn't know",
+        "won't know"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Imaginary → would.",
+       "ctx": "Some people are born unable to feel pain. It causes many problems."
+      },
+      {
+       "type": "choice",
+       "text": "If you had a throbbing headache or toothache, you ___ even feel it.",
+       "options": [
+        "wouldn't",
+        "didn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + past → wouldn't."
+      },
+      {
+       "type": "choice",
+       "text": "If people can't feel pain, they ___ if they are hurt.",
+       "options": [
+        "don't know",
+        "wouldn't have known"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A real fact for these people → present."
+      },
+      {
+       "type": "choice",
+       "text": "How ___ a child know about the dangers of a hot stove or broken glass?",
+       "options": [
+        "would",
+        "will have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A hypothetical question → would."
+      },
+      {
+       "type": "choice",
+       "text": "Suppose a child ___ from the top of a slide. He or she might find this fun.",
+       "options": [
+        "fell",
+        "falls down yesterday"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Suppose + past = imagine it."
+      },
+      {
+       "type": "choice",
+       "text": "Without pain, we ___ through life hurting ourselves.",
+       "options": [
+        "would go",
+        "went"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "without = a hidden if → would go."
+      },
+      {
+       "type": "choice",
+       "text": "Which words introduce imaginary situations in the passage?",
+       "options": [
+        "imagine, suppose, without, how would",
+        "because, so, and, but"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They can replace if."
+      },
+      {
+       "type": "choice",
+       "text": "What is the main idea?",
+       "options": [
+        "Pain is useful: it tells us something is wrong.",
+        "Pain is never useful."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Pain turns out to be lifesaving."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Suppose…",
+     "task": "Claude gives you tricky situations: “The cash machine gave you double. What would you do?”",
+     "claudePrompt": "You are my English speaking partner. Give me one situation at a time and ask what I would do (or would have done): Suppose you find a wallet with money in it in a classroom. / Suppose a cash machine gave you double what you asked for. / A friend served you a dish you can't stand. What if you were the guest? / Suppose there were a fire in your home and you had time to save only one thing. / John was cheating during an exam. Suppose you were the teacher and you saw him. What would you have done? Check would + verb for now and would have + participle for the past."
+    },
+    {
+     "title": "Life without…",
+     "task": "What would life be like without the Internet? Without sleep? Without trees? Write to Claude.",
+     "claudePrompt": "You are my English writing partner. Ask me to choose one topic: What would life be like without a sense of smell / the need for sleep / the sun / trees / schools / the Internet / a cell phone / social media? I write 5-6 sentences using conditionals. Encourage sentence variety: not always if, but also without, suppose, imagine, how would, Were ..., Had .... Check the verb forms in each conditional sentence."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Final Boss: The What-If Dragon",
+  "icon": "🐉",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "If I had [know] more about it, I would have had better advice for you.",
+    "options": [
+     "If I had known more about it, I would have had better advice for you.",
+     "If I had knew more about it, I would have had better advice for you.",
+     "If I have known more about it, I would have had better advice for you."
+    ],
+    "answer": 0,
+    "why": "had + past participle: known.",
+    "rule": "20-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "If [were I] you, I would spend more time outdoors.",
+    "options": [
+     "If I am you, I would spend more time outdoors.",
+     "If I were you, I would spend more time outdoors.",
+     "If was I you, I would spend more time outdoors."
+    ],
+    "answer": 1,
+    "why": "With if: normal order.",
+    "rule": "20-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "Should my manager [needs] to reach me, I'll be at the bank and post office.",
+    "options": [
+     "Should my manager needed to reach me, I'll be at the bank and post office.",
+     "Should my manager to need reach me, I'll be at the bank and post office.",
+     "Should my manager need to reach me, I'll be at the bank and post office."
+    ],
+    "answer": 2,
+    "why": "should + simple form.",
+    "rule": "20-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Anyone should] ask for me, tell them I'm not available.",
+    "options": [
+     "Should anyone ask for me, tell them I'm not available.",
+     "Anyone would ask for me, tell them I'm not available.",
+     "Should ask anyone for me, tell them I'm not available."
+    ],
+    "answer": 0,
+    "why": "No if → Should + subject.",
+    "rule": "20-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "If you continue to drive so fast, I [would] get out of the car.",
+    "options": [
+     "If you continue to drive so fast, I would have gotten out of the car.",
+     "If you continue to drive so fast, I will get out of the car.",
+     "If you continue to drive so fast, I got out of the car."
+    ],
+    "answer": 1,
+    "why": "Real: if + present → will.",
+    "rule": "20-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "She wishes she [went] to the doctor when she first had symptoms.",
+    "options": [
+     "She wishes she goes to the doctor when she first had symptoms.",
+     "She wishes she would go to the doctor when she first had symptoms.",
+     "She wishes she had gone to the doctor when she first had symptoms."
+    ],
+    "answer": 2,
+    "why": "A wish about the past → had gone.",
+    "rule": "20-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "If it [were not snow] outside, we could walk to the mall.",
+    "options": [
+     "If it were not snowing outside, we could walk to the mall.",
+     "If it did not snowing outside, we could walk to the mall.",
+     "If it had not snow outside, we could walk to the mall."
+    ],
+    "answer": 0,
+    "why": "Now, in progress → weren't snowing.",
+    "rule": "20-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "I would have done things differently [were I] received the correct information.",
+    "options": [
+     "I would have done things differently was I received the correct information.",
+     "I would have done things differently had I received the correct information.",
+     "I would have done things differently have I received the correct information."
+    ],
+    "answer": 1,
+    "why": "Unreal past → had I received.",
+    "rule": "20-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "They hurried; otherwise, they [wouldn't] have missed their train.",
+    "options": [
+     "They hurried; otherwise, they won't have missed their train.",
+     "They hurried; otherwise, they didn't have missed their train.",
+     "They hurried; otherwise, they would have missed their train."
+    ],
+    "answer": 2,
+    "why": "If they hadn't hurried → would have missed.",
+    "rule": "20-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "The team never [will] have won the game yesterday without your help.",
+    "options": [
+     "The team never would have won the game yesterday without your help.",
+     "The team never has won the game yesterday without your help.",
+     "The team never would win the game yesterday without your help."
+    ],
+    "answer": 0,
+    "why": "Unreal past → would have won.",
+    "rule": "20-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "I hope I [could] meet with you tomorrow.",
+    "options": [
+     "I hope I could have met with you tomorrow.",
+     "I hope I can meet with you tomorrow.",
+     "I hope I would meet with you tomorrow."
+    ],
+    "answer": 1,
+    "why": "hope + can.",
+    "rule": "20-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "We're really late. I wish you [hurry].",
+    "options": [
+     "We're really late. I wish you will hurry.",
+     "We're really late. I wish you hurried yesterday.",
+     "We're really late. I wish you would hurry."
+    ],
+    "answer": 2,
+    "why": "A request → wish + would.",
+    "rule": "20-10"
+   },
+   {
+    "type": "errorfix",
+    "text": "If I had brought a lunch to work, I wouldn't [have been] hungry now.",
+    "options": [
+     "If I had brought a lunch to work, I wouldn't be hungry now.",
+     "If I had brought a lunch to work, I won't be hungry now.",
+     "If I had brought a lunch to work, I wasn't hungry now."
+    ],
+    "answer": 0,
+    "why": "Present result → wouldn't be.",
+    "rule": "20-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "I wish I [would ask] more questions when we reviewed for the exam yesterday.",
+    "options": [
+     "I wish I asked more questions when we reviewed for the exam yesterday.",
+     "I wish I had asked more questions when we reviewed for the exam yesterday.",
+     "I wish I could ask more questions when we reviewed for the exam yesterday."
+    ],
+    "answer": 1,
+    "why": "A wish about the past → had asked.",
+    "rule": "20-9"
+   }
+  ]
+ }
+}

@@ -1,0 +1,6028 @@
+{
+ "id": "ch14",
+ "num": 14,
+ "title": "Gerunds and Infinitives, Part 1",
+ "subtitle": "enjoy doing, hope to do, go fishing",
+ "icon": "🐲",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Shopping during the holidays can be more expensive than at other times of the year.",
+    "answer": "correct",
+    "why": "A gerund as the subject.",
+    "rule": "14-1"
+   },
+   {
+    "type": "judge",
+    "text": "I appreciated to hear the news about your family.",
+    "answer": "wrong",
+    "why": "appreciate + -ing.",
+    "fix": "I appreciated hearing the news about your family.",
+    "rule": "14-2"
+   },
+   {
+    "type": "judge",
+    "text": "The professor decided don't to give a long final exam.",
+    "answer": "wrong",
+    "why": "not + to + verb.",
+    "fix": "The professor decided not to give a long final exam.",
+    "rule": "14-3"
+   },
+   {
+    "type": "judge",
+    "text": "The team captain encouraged the players they work harder at practices.",
+    "answer": "wrong",
+    "why": "encourage + person + to + verb.",
+    "fix": "The team captain encouraged the players to work harder at practices.",
+    "rule": "14-4"
+   },
+   {
+    "type": "judge",
+    "text": "My boyfriend loves holding snakes, but I can't stand to even look at them.",
+    "answer": "correct",
+    "why": "love / can't stand + to or -ing.",
+    "rule": "14-5"
+   },
+   {
+    "type": "judge",
+    "text": "Who is responsible for to clearing ice from the walkways?",
+    "answer": "wrong",
+    "why": "for + -ing. No to.",
+    "fix": "Who is responsible for clearing ice from the walkways?",
+    "rule": "14-6"
+   },
+   {
+    "type": "judge",
+    "text": "I'd like to go hiking in the mountains, but I don't have the time right now.",
+    "answer": "correct",
+    "why": "go + -ing.",
+    "rule": "14-7"
+   },
+   {
+    "type": "judge",
+    "text": "The security guard caught the thief shoplifting a cell phone from the store.",
+    "answer": "correct",
+    "why": "catch + person + -ing.",
+    "rule": "14-8"
+   },
+   {
+    "type": "judge",
+    "text": "It can be deadly driving a car and text at the same time.",
+    "answer": "wrong",
+    "why": "It … to drive … and text.",
+    "fix": "It can be deadly to drive a car and text at the same time.",
+    "rule": "14-9"
+   },
+   {
+    "type": "judge",
+    "text": "Rey mentioned having some difficulty with his boss at work.",
+    "answer": "correct",
+    "why": "mention + -ing.",
+    "rule": "R14"
+   },
+   {
+    "type": "judge",
+    "text": "How did you manage to learn four languages fluently?",
+    "answer": "correct",
+    "why": "manage + to + verb.",
+    "rule": "R14"
+   },
+   {
+    "type": "judge",
+    "text": "Instead of have a quiet night at home, why don't we invite a few friends over?",
+    "answer": "wrong",
+    "why": "instead of + -ing.",
+    "fix": "Instead of having a quiet night at home, why don't we invite a few friends over?",
+    "rule": "14-6"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "14-1",
+   "tag": "14-1",
+   "t": "prog",
+   "title": "Playing and to play",
+   "full": "Gerunds and Infinitives: Introduction",
+   "lesson": {
+    "title": "Learn: two verb forms that act like nouns",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Gerund = verb-ing as a noun",
+      "lines": [
+       "It can be a subject or an object."
+      ],
+      "visual": [
+       "gerund"
+      ],
+      "chips": [
+       "Playing tennis is fun. (subject)",
+       "We enjoy playing tennis. (object of a verb)",
+       "He's excited about playing tennis. (object of a preposition)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Not every -ing is a gerund",
+      "lines": [
+       "Progressive verbs and adjectives also end in -ing."
+      ],
+      "chips": [
+       "Walking is good exercise. ✅ gerund",
+       "Bob and Ann are playing tennis. ❌ verb",
+       "That was a surprising win. ❌ adjective"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“Running uphill is hard work.” Running is…",
+      "options": [
+       "a gerund (the subject)",
+       "a progressive verb"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "It is the subject of is → a gerund."
+     },
+     {
+      "type": "learn",
+      "title": "Infinitive = to + simple verb",
+      "lines": [
+       "Usually it is the object."
+      ],
+      "chips": [
+       "He likes to play tennis. (object)",
+       "To play tennis well takes a lot of practice. (subject)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "to is not always an infinitive",
+      "lines": [
+       "to + noun = a preposition."
+      ],
+      "chips": [
+       "Marta needs to leave early. ✅ infinitive",
+       "Is Elias committed to his job? ❌ preposition"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“Franco is engaged to Liz.” Here, to is…",
+      "options": [
+       "part of an infinitive",
+       "a preposition"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "to + a name → a preposition."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Gerund = verb-ing used as a noun: Playing tennis is fun.",
+     "Infinitive = to + simple verb: He likes to play tennis."
+    ],
+    "timeline": [
+     "gerund"
+    ],
+    "examples": [
+     {
+      "text": "Playing tennis is fun.",
+      "hl": [
+       [
+        "Playing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "We enjoy playing tennis.",
+      "hl": [
+       [
+        "playing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "He likes to play tennis.",
+      "hl": [
+       [
+        "to play",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Gerund or not?",
+     "icon": "🏃",
+     "items": [
+      {
+       "type": "sort",
+       "word": "RUNNING uphill is hard work.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 0,
+       "why": "The subject of is → a gerund."
+      },
+      {
+       "type": "sort",
+       "word": "Martin isn't RUNNING in the race today.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 1,
+       "why": "is + -ing = a progressive verb."
+      },
+      {
+       "type": "sort",
+       "word": "I need new RUNNING shoes.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 1,
+       "why": "It describes shoes → an adjective."
+      },
+      {
+       "type": "sort",
+       "word": "I'm SCHEDULING our team practices for the mornings.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 1,
+       "why": "am + -ing = a progressive verb."
+      },
+      {
+       "type": "sort",
+       "word": "SCHEDULING practices for the afternoons doesn't work.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 0,
+       "why": "The subject of doesn't work → a gerund."
+      },
+      {
+       "type": "sort",
+       "word": "Would you consider SCHEDULING a practice in the evening?",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 0,
+       "why": "The object of consider → a gerund."
+      },
+      {
+       "type": "sort",
+       "word": "DRINKING something with electrolytes is important after a race.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 0,
+       "why": "The subject of is → a gerund."
+      },
+      {
+       "type": "sort",
+       "word": "Is there any DRINKING water nearby?",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 1,
+       "why": "It describes water → an adjective."
+      },
+      {
+       "type": "sort",
+       "word": "SHOPPING during the holidays can be more expensive than at other times.",
+       "buckets": [
+        "Gerund (a noun)",
+        "Not a gerund"
+       ],
+       "answer": 0,
+       "why": "The subject of can be → a gerund."
+      }
+     ]
+    },
+    {
+     "title": "Infinitive or preposition?",
+     "icon": "🧑‍💼",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Franco is engaged TO Liz.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 1,
+       "why": "to + a name."
+      },
+      {
+       "type": "sort",
+       "word": "Danielle is related TO the CEO's wife.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 1,
+       "why": "to + a noun."
+      },
+      {
+       "type": "sort",
+       "word": "TO become a CEO is Danielle's goal.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 0,
+       "why": "to + verb (become)."
+      },
+      {
+       "type": "sort",
+       "word": "Viktor has volunteered TO mentor new interns.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 0,
+       "why": "to + verb (mentor)."
+      },
+      {
+       "type": "sort",
+       "word": "Rachel can't afford TO take any sick days right now.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 0,
+       "why": "to + verb (take)."
+      },
+      {
+       "type": "sort",
+       "word": "Pedro will talk TO new employees about texting during meetings.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 1,
+       "why": "to + a noun."
+      },
+      {
+       "type": "sort",
+       "word": "Karl's goal is TO speak without any nervousness.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 0,
+       "why": "to + verb (speak)."
+      },
+      {
+       "type": "sort",
+       "word": "Marta needs TO leave early.",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 0,
+       "why": "to + verb (leave)."
+      },
+      {
+       "type": "sort",
+       "word": "Is Elias committed TO his job?",
+       "buckets": [
+        "Infinitive (to + verb)",
+        "Preposition to"
+       ],
+       "answer": 1,
+       "why": "to + a noun."
+      }
+     ]
+    },
+    {
+     "title": "What job does it do?",
+     "icon": "🎾",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Playing tennis is fun.",
+       "options": [
+        "subject",
+        "object of a verb",
+        "object of a preposition"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It comes before is.",
+       "ask": "The gerund is the…"
+      },
+      {
+       "type": "choice",
+       "text": "We enjoy playing tennis.",
+       "options": [
+        "subject",
+        "object of a verb",
+        "object of a preposition"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It comes after enjoy.",
+       "ask": "The gerund is the…"
+      },
+      {
+       "type": "choice",
+       "text": "He's excited about playing tennis.",
+       "options": [
+        "subject",
+        "object of a verb",
+        "object of a preposition"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It comes after about.",
+       "ask": "The gerund is the…"
+      },
+      {
+       "type": "choice",
+       "text": "I don't know much about playing golf.",
+       "options": [
+        "subject",
+        "object of a verb",
+        "object of a preposition"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It comes after about.",
+       "ask": "The gerund is the…"
+      },
+      {
+       "type": "choice",
+       "text": "Playing soccer takes a lot of skill.",
+       "options": [
+        "subject",
+        "object of a verb",
+        "object of a preposition"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It comes before takes.",
+       "ask": "The gerund is the…"
+      },
+      {
+       "type": "choice",
+       "text": "To play tennis well takes a lot of practice.",
+       "options": [
+        "subject",
+        "object"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It comes before takes.",
+       "ask": "The infinitive is the…"
+      },
+      {
+       "type": "choice",
+       "text": "He likes to play tennis.",
+       "options": [
+        "subject",
+        "object"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It comes after likes.",
+       "ask": "The infinitive is the…"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "14-2",
+   "tag": "14-2",
+   "t": "prog",
+   "title": "I enjoy playing",
+   "full": "Common Verbs Followed by Gerunds",
+   "lesson": {
+    "title": "Learn: verbs that want -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "enjoy + -ing",
+      "lines": [
+       "Some verbs are followed by a gerund, never by to."
+      ],
+      "visual": [
+       "ger-verbs"
+      ],
+      "examples": [
+       {
+        "text": "I enjoy playing tennis.",
+        "hl": [
+         [
+          "playing",
+          "prog"
+         ]
+        ]
+       }
+      ],
+      "tip": "❌ I enjoy to play tennis."
+     },
+     {
+      "type": "learn",
+      "title": "The -ing team",
+      "lines": [
+       "Learn these first."
+      ],
+      "chips": [
+       {
+        "label": "😊",
+        "words": [
+         "enjoy",
+         "appreciate",
+         "mind"
+        ]
+       },
+       {
+        "label": "🛑",
+        "words": [
+         "quit",
+         "give up",
+         "finish",
+         "get through",
+         "stop"
+        ]
+       },
+       {
+        "label": "⏳",
+        "words": [
+         "avoid",
+         "postpone",
+         "put off",
+         "delay",
+         "keep",
+         "keep on"
+        ]
+       },
+       {
+        "label": "💬",
+        "words": [
+         "consider",
+         "discuss",
+         "mention",
+         "suggest"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I appreciated ___ the news about your family.",
+      "options": [
+       "to hear",
+       "hearing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "appreciate + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Two-word verbs too",
+      "lines": [
+       "give up = quit. put off = postpone. keep on = continue."
+      ],
+      "chips": [
+       "Joe quit smoking.",
+       "Joe gave up smoking.",
+       "I've put off deciding."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Would you mind ___ the door? Thanks.",
+      "options": [
+       "to close",
+       "closing",
+       "close"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "mind + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "enjoy, mind, finish, quit, avoid, keep, consider, suggest… + verb-ing.",
+     "Also: give up, put off, keep on, get through + verb-ing."
+    ],
+    "timeline": [
+     "ger-verbs"
+    ],
+    "examples": [
+     {
+      "text": "I enjoy playing tennis.",
+      "hl": [
+       [
+        "playing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Joe gave up smoking.",
+      "hl": [
+       [
+        "smoking",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Would you mind closing the door?",
+      "hl": [
+       [
+        "closing",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "College plans",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Aunt Kim, would you mind ___ my college application essay?",
+       "verb": "read",
+       "accept": [
+        "reading"
+       ],
+       "why": "mind + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Sure. I just need to get through ___ the bills.",
+       "verb": "pay",
+       "accept": [
+        "paying"
+       ],
+       "why": "get through + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Where are you considering ___ to college?",
+       "verb": "go",
+       "accept": [
+        "going"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'm still not sure. I've put off ___ where to go.",
+       "verb": "decide",
+       "accept": [
+        "deciding"
+       ],
+       "why": "put off + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "It doesn't seem like you can postpone ___ that decision much longer.",
+       "verb": "make",
+       "accept": [
+        "making"
+       ],
+       "why": "postpone + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "My mom and dad have suggested ___ to a smaller school.",
+       "verb": "go",
+       "accept": [
+        "going"
+       ],
+       "why": "suggest + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I went to a small college. I appreciated ___ small classes.",
+       "verb": "have",
+       "accept": [
+        "having"
+       ],
+       "why": "appreciate + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "You were a tutor, right? He mentioned ___ your student.",
+       "verb": "be",
+       "accept": [
+        "being"
+       ],
+       "why": "mention + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He was considering ___ the class, but I convinced him to stay.",
+       "verb": "drop",
+       "accept": [
+        "dropping"
+       ],
+       "why": "consider + -ing. Double p."
+      }
+     ]
+    },
+    {
+     "title": "Roommates",
+     "icon": "🍕",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Would you mind ___ the door? Thanks.",
+       "verb": "open",
+       "accept": [
+        "opening"
+       ],
+       "why": "mind + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I want to order pizza. Sierra has suggested ___ burgers.",
+       "verb": "have",
+       "accept": [
+        "having"
+       ],
+       "why": "suggest + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "What are you considering ___ for dinner?",
+       "verb": "make",
+       "accept": [
+        "making"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Sometimes I put off ___ the apartment when it's my turn.",
+       "verb": "clean",
+       "accept": [
+        "cleaning"
+       ],
+       "why": "put off + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Actually, all of us avoid ___ at some point. None of us enjoy it.",
+       "verb": "clean",
+       "accept": [
+        "cleaning"
+       ],
+       "why": "avoid + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Tony mentioned ___ to a movie later tonight.",
+       "verb": "go",
+       "accept": [
+        "going"
+       ],
+       "why": "mention + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'll let you know when I get through ___ my homework.",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "get through + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "No one will be here later. I appreciate ___ able to study in peace and quiet.",
+       "verb": "be",
+       "accept": [
+        "being"
+       ],
+       "why": "appreciate + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Make the sentence",
+     "icon": "🌧️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Would you mind ___ your phone?",
+       "verb": "turn off",
+       "accept": [
+        "turning off"
+       ],
+       "why": "mind + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We finished ___ dinner at eight.",
+       "verb": "eat",
+       "accept": [
+        "eating"
+       ],
+       "why": "finish + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "When will you get through ___ dinner?",
+       "verb": "eat",
+       "accept": [
+        "eating"
+       ],
+       "why": "get through + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "It finally stopped ___.",
+       "verb": "rain",
+       "accept": [
+        "raining"
+       ],
+       "why": "stop + -ing = it ended."
+      },
+      {
+       "type": "fill",
+       "text": "I was tired, but I kept ___.",
+       "verb": "work",
+       "accept": [
+        "working"
+       ],
+       "why": "keep + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Don't stop now. Keep on ___!",
+       "verb": "work",
+       "accept": [
+        "working"
+       ],
+       "why": "keep on + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I always postpone ___ my work until the last minute.",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "postpone + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We had to delay ___ on vacation.",
+       "verb": "leave",
+       "accept": [
+        "leaving"
+       ],
+       "why": "delay + -ing. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "I'm considering ___ a job.",
+       "verb": "get",
+       "accept": [
+        "getting"
+       ],
+       "why": "consider + -ing. Double t."
+      },
+      {
+       "type": "fill",
+       "text": "My friend mentioned ___ out of town this weekend.",
+       "verb": "go",
+       "accept": [
+        "going"
+       ],
+       "why": "mention + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Listen to the conversations",
+     "icon": "🎬",
+     "items": [
+      {
+       "type": "listen",
+       "say": "What do you do on weekends? — We love movies. We watch two or three every Saturday.",
+       "ask": "The speakers enjoy ___ movies on weekends.",
+       "options": [
+        "watching",
+        "to watch",
+        "watch"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enjoy + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Do you think it will stop raining soon? — No. I've stopped hoping. Let's just go home.",
+       "ask": "The speakers have given up ___ for better weather.",
+       "options": [
+        "to hope",
+        "hoping",
+        "hope"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "give up + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Are you tired? Should we stop? — No, let's work a little longer.",
+       "ask": "The speakers are going to keep on ___.",
+       "options": [
+        "work",
+        "to work",
+        "working"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "keep on + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "There's a concert in the city on Friday. — Maybe we should go. Let's talk about it.",
+       "ask": "The speakers are discussing ___ to a concert in the city.",
+       "options": [
+        "going",
+        "to go",
+        "go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "discuss + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Have you done your homework? — Not yet. I'll do it tomorrow. — Me too.",
+       "ask": "The speakers have put off ___ their homework.",
+       "options": [
+        "to do",
+        "do",
+        "doing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "put off + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "It's five o'clock. Time to go. — I need ten more minutes. — OK, I'll wait.",
+       "ask": "The speakers are going to delay ___ the office.",
+       "options": [
+        "leaving",
+        "to leave",
+        "leave"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "delay + -ing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "14-3",
+   "tag": "14-3",
+   "t": "pres",
+   "title": "I hope to see you",
+   "full": "Common Verbs Followed by Infinitives",
+   "lesson": {
+    "title": "Learn: verbs that want to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "hope + to + verb",
+      "lines": [
+       "Some verbs are followed by an infinitive."
+      ],
+      "visual": [
+       "ger-verbs"
+      ],
+      "examples": [
+       {
+        "text": "I hope to see you again soon.",
+        "hl": [
+         [
+          "to see",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "He promised to be here by ten.",
+        "hl": [
+         [
+          "to be",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The to team",
+      "lines": [
+       "Plans, promises, wishes."
+      ],
+      "chips": [
+       {
+        "label": "🗓️",
+        "words": [
+         "hope",
+         "plan",
+         "intend",
+         "decide",
+         "expect"
+        ]
+       },
+       {
+        "label": "🤝",
+        "words": [
+         "promise",
+         "agree",
+         "offer",
+         "refuse",
+         "ask"
+        ]
+       },
+       {
+        "label": "🎭",
+        "words": [
+         "seem",
+         "appear",
+         "pretend"
+        ]
+       },
+       {
+        "label": "💭",
+        "words": [
+         "want",
+         "need",
+         "would like"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We hope ___ the game.",
+      "options": [
+       "winning",
+       "to win",
+       "win"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "hope + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Negative: not to",
+      "lines": [
+       "not goes before to."
+      ],
+      "chips": [
+       "✅ not to be late",
+       "❌ to not be late · ❌ don't to be late"
+      ],
+      "examples": [
+       {
+        "text": "He promised not to be late.",
+        "hl": [
+         [
+          "not to be",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The professor decided ___ a long final exam.",
+      "options": [
+       "don't to give",
+       "not to give",
+       "to don't give"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "not + to + verb."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "hope, plan, decide, promise, agree, offer, refuse, seem, want, need… + to + verb.",
+     "Negative: not to + verb."
+    ],
+    "timeline": [
+     "ger-verbs"
+    ],
+    "examples": [
+     {
+      "text": "I hope to see you again soon.",
+      "hl": [
+       [
+        "to see",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "He promised not to be late.",
+      "hl": [
+       [
+        "not to be",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "In my opinion",
+     "icon": "⚽",
+     "items": [
+      {
+       "type": "judge",
+       "text": "We hope to win the game.",
+       "answer": "correct",
+       "why": "hope + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "We hope winning the game.",
+       "answer": "wrong",
+       "why": "hope + to + verb.",
+       "fix": "We hope to win the game."
+      },
+      {
+       "type": "judge",
+       "text": "The player promised not to react to the referee's decision.",
+       "answer": "correct",
+       "why": "promise + not to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "The player promised not yell at the referee.",
+       "answer": "wrong",
+       "why": "not + to + verb.",
+       "fix": "The player promised not to yell at the referee."
+      },
+      {
+       "type": "choice",
+       "text": "A hard-working employee expects ___ a raise.",
+       "options": [
+        "getting",
+        "to get",
+        "get"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "expect + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "A nice teacher sometimes agrees ___ the test.",
+       "options": [
+        "postponing",
+        "postpone",
+        "to postpone"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "agree + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "A serious student refuses ___.",
+       "options": [
+        "to cheat",
+        "cheating",
+        "cheat"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "refuse + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "An honest police officer promises ___ money from anyone.",
+       "options": [
+        "to not taking",
+        "not to take",
+        "not taking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "promise + not to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "A caring doctor offers ___ everything clearly.",
+       "options": [
+        "explaining",
+        "explain",
+        "to explain"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "offer + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "A good actor can appear ___ sad or happy at any time.",
+       "options": [
+        "to be",
+        "being",
+        "be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "appear + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "Small talk (1)",
+     "icon": "🎥",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The movie was good, but the guy in back of us kept ___.",
+       "verb": "talk",
+       "accept": [
+        "talking"
+       ],
+       "why": "keep + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He also kept ___ on his phone.",
+       "verb": "text",
+       "accept": [
+        "texting"
+       ],
+       "why": "keep + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Did you ask him ___?",
+       "verb": "stop",
+       "accept": [
+        "to stop"
+       ],
+       "why": "ask + (person) + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "At our theater, the audience is required ___ their electronic devices.",
+       "verb": "turn off",
+       "accept": [
+        "to turn off"
+       ],
+       "why": "be required + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "I expected the usher ___ him to stop, but it didn't happen.",
+       "verb": "tell",
+       "accept": [
+        "to tell"
+       ],
+       "why": "expect + person + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "We're going out for dinner. Would you like ___ us?",
+       "verb": "join",
+       "accept": [
+        "to join"
+       ],
+       "why": "would like + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Would you mind ___ me some money?",
+       "verb": "lend",
+       "accept": [
+        "lending"
+       ],
+       "why": "mind + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Jens told me he was broke, so I offered ___ him out.",
+       "verb": "help",
+       "accept": [
+        "to help"
+       ],
+       "why": "offer + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "I expected him ___ me back, but now I'm not sure.",
+       "verb": "pay",
+       "accept": [
+        "to pay"
+       ],
+       "why": "expect + person + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "I think he's avoiding ___ to me.",
+       "verb": "talk",
+       "accept": [
+        "talking"
+       ],
+       "why": "avoid + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Small talk (2)",
+     "icon": "💒",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I saw him at the mall, and he pretended not ___ me.",
+       "verb": "see",
+       "accept": [
+        "to see"
+       ],
+       "why": "pretend + not to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Good luck! You seem ___ a big problem on your hands.",
+       "verb": "have",
+       "accept": [
+        "to have"
+       ],
+       "why": "seem + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Joan and David were considering ___ married in June.",
+       "verb": "get",
+       "accept": [
+        "getting"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "But they finally decided ___ until August.",
+       "verb": "wait",
+       "accept": [
+        "to wait"
+       ],
+       "why": "decide + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "One minute they appear ___ happy, and the next minute they're fighting.",
+       "verb": "be",
+       "accept": [
+        "to be"
+       ],
+       "why": "appear + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Their parents suggested ___ a break from each other.",
+       "verb": "take",
+       "accept": [
+        "taking"
+       ],
+       "why": "suggest + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "But they didn't appreciate ___ that!",
+       "verb": "hear",
+       "accept": [
+        "hearing"
+       ],
+       "why": "appreciate + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "The professor decided don't to give a long final exam.",
+       "answer": "wrong",
+       "why": "not + to + verb.",
+       "fix": "The professor decided not to give a long final exam."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Plans and promises",
+     "task": "Claude asks: What do you need to do today? What do you plan to do with English?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What do you need to do today? What would you like to do this weekend? What do you plan to do with English? What should people refuse to do? What shouldn't people pretend to do? What should students expect to do? I answer in full sentences with verb + to + verb. Check that I use the infinitive (not -ing) after these verbs, and 'not to' for negatives."
+    }
+   ]
+  },
+  {
+   "id": "14-4",
+   "tag": "14-4",
+   "t": "pres",
+   "title": "He told me to…",
+   "full": "Infinitives with Objects",
+   "lesson": {
+    "title": "Learn: verb + person + to + verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "tell + person + to",
+      "lines": [
+       "Some verbs need a person before the infinitive."
+      ],
+      "visual": [
+       "inf-object"
+      ],
+      "chips": [
+       "Mr. Lee told me to be here at ten o'clock.",
+       "The police ordered the driver to stop."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The person team",
+      "lines": [
+       "verb + someone + to + verb."
+      ],
+      "chips": [
+       {
+        "label": "🗣️",
+        "words": [
+         "tell",
+         "advise",
+         "encourage",
+         "remind",
+         "invite",
+         "warn"
+        ]
+       },
+       {
+        "label": "✅",
+        "words": [
+         "permit",
+         "allow",
+         "require",
+         "order",
+         "force"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The team captain encouraged the players ___ harder at practices.",
+      "options": [
+       "they work",
+       "to work",
+       "working"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "encourage + person + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Passive: no person needed",
+      "lines": [
+       "The person becomes the subject."
+      ],
+      "chips": [
+       "I was told to be here at ten o'clock.",
+       "The driver was ordered to stop."
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "With or without a person",
+      "left": {
+       "label": "I will do it",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I expect to pass the test.",
+         "hl": [
+          [
+           "to pass",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Someone else will do it",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "I expect Mary to pass the test.",
+         "hl": [
+          [
+           "Mary to pass",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Both ways: ask, expect, need, want, would like."
+     },
+     {
+      "type": "choice",
+      "text": "We told ___ us.",
+      "options": [
+       "to call",
+       "you to call"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "tell needs a person: told you to call."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "tell / advise / remind / allow / warn / force + person + to + verb.",
+     "ask, expect, need, want, would like: with or without a person."
+    ],
+    "timeline": [
+     "inf-object"
+    ],
+    "examples": [
+     {
+      "text": "Mr. Lee told me to be here at ten o'clock.",
+      "hl": [
+       [
+        "me to be",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I was told to be here at ten o'clock.",
+      "hl": [
+       [
+        "was told to be",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I expect Mary to pass the test.",
+      "hl": [
+       [
+        "Mary to pass",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "to leave or me to leave? (1)",
+     "icon": "🚪",
+     "items": [
+      {
+       "type": "sort",
+       "word": "He told ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "tell needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "He decided ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "decide + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "He asked ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 2,
+       "why": "ask to / ask someone to."
+      },
+      {
+       "type": "sort",
+       "word": "He offered ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "offer + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "She wanted ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 2,
+       "why": "want to / want someone to."
+      },
+      {
+       "type": "sort",
+       "word": "He agreed ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "agree + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "She would like ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 2,
+       "why": "would like to / would like someone to."
+      },
+      {
+       "type": "sort",
+       "word": "He warned ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "warn needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "She refused ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "refuse + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "to leave or me to leave? (2)",
+     "icon": "🚶",
+     "items": [
+      {
+       "type": "sort",
+       "word": "He promised ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "promise + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "She hoped ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "hope + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "He permitted ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "permit needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "She expected ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 2,
+       "why": "expect to / expect someone to."
+      },
+      {
+       "type": "sort",
+       "word": "He forced ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "force needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "She allowed ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "allow needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "He reminded ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 1,
+       "why": "remind needs a person."
+      },
+      {
+       "type": "sort",
+       "word": "She planned ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "plan + to + verb."
+      },
+      {
+       "type": "sort",
+       "word": "He pretended ___.",
+       "buckets": [
+        "to leave",
+        "me to leave",
+        "Both are possible"
+       ],
+       "answer": 0,
+       "why": "pretend + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "Advice and obligations",
+     "icon": "🚓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Jack ___ me to get a new apartment.",
+       "options": [
+        "advised",
+        "was advised"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Jack did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ to get a new apartment.",
+       "options": [
+        "advised",
+        "was advised"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No person after it → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The driver ___ to stop on the highway.",
+       "options": [
+        "forced",
+        "was forced"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No person after it → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The police ___ the driver to stop.",
+       "options": [
+        "forced",
+        "was forced"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The police did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ to go to college.",
+       "options": [
+        "encouraged",
+        "was encouraged"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No person after it → passive."
+      },
+      {
+       "type": "choice",
+       "text": "My parents ___ me to go to college.",
+       "options": [
+        "encouraged",
+        "was encouraged"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "My parents did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "Residents ___ to have pets.",
+       "options": [
+        "do not allow",
+        "are not allowed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Residents receive the rule → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The building rules ___ pets.",
+       "options": [
+        "do not allow",
+        "are not allowed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The rules do it → active."
+      },
+      {
+       "type": "choice",
+       "text": "Mrs. Jackson ___ her son not to touch the hot stove.",
+       "options": [
+        "warned",
+        "was warned"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ not to touch the hot stove.",
+       "options": [
+        "warned",
+        "was warned"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No person after it → passive."
+      }
+     ]
+    },
+    {
+     "title": "Say it another way",
+     "icon": "📚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Why didn't you call us? We told ___ us.",
+       "options": [
+        "to call",
+        "you to call"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "tell + person + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Did Sami invite ___ to the party?",
+       "options": [
+        "you",
+        "to you"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "invite + person."
+      },
+      {
+       "type": "choice",
+       "text": "I'm not surprised you had a fender bender. I warned ___ more slowly.",
+       "options": [
+        "to drive",
+        "you to drive"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "warn + person + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "The professor said to Alan, “You may leave early.”",
+       "options": [
+        "The professor allowed Alan to leave early.",
+        "The professor allowed Alan leaving early."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "allow + person + to + verb.",
+       "ask": "Summarize"
+      },
+      {
+       "type": "choice",
+       "text": "Roberto said to me, “Don't forget to take your book back to the library.”",
+       "options": [
+        "Roberto reminded to take my book back to the library.",
+        "Roberto reminded me to take my book back to the library."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "remind needs a person.",
+       "ask": "Summarize"
+      },
+      {
+       "type": "choice",
+       "text": "The Dean said to me, “You may register for school late.”",
+       "options": [
+        "I was permitted to register for school late.",
+        "I was permitted registering for school late."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be permitted + to + verb.",
+       "ask": "Summarize"
+      },
+      {
+       "type": "choice",
+       "text": "The law says, “Every driver must have a valid driver's license.”",
+       "options": [
+        "The law requires every driver has a valid driver's license.",
+        "The law requires every driver to have a valid driver's license."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "require + person + to + verb.",
+       "ask": "Summarize"
+      },
+      {
+       "type": "choice",
+       "text": "My boss said to me, “Come to the meeting ten minutes early.”",
+       "options": [
+        "My boss told me to come to the meeting ten minutes early.",
+        "My boss told me come to the meeting ten minutes early."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "tell + person + to + verb.",
+       "ask": "Summarize"
+      },
+      {
+       "type": "judge",
+       "text": "The team captain encouraged the players they work harder at practices.",
+       "answer": "wrong",
+       "why": "encourage + person + to + verb.",
+       "fix": "The team captain encouraged the players to work harder at practices."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What were you told to do?",
+     "task": "Claude asks: What are you often reminded to do? What are children warned not to do?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What have you been told to do recently? What are you often reminded to do? What are you encouraged to do if you want to improve your English? What are children warned not to do by their parents? What are citizens in your country required to do? What are they not permitted to do? I answer with passive + infinitive (I was told to ..., Children are warned not to ...). Check the form."
+    }
+   ]
+  },
+  {
+   "id": "14-5",
+   "tag": "14-5",
+   "t": "plan",
+   "title": "to do or doing?",
+   "full": "Common Verbs Followed by Either Infinitives or Gerunds",
+   "lesson": {
+    "title": "Learn: verbs that take both",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Both, same meaning",
+      "lines": [
+       "begin, start, continue, like, love, prefer, hate, can't stand, can't bear."
+      ],
+      "chips": [
+       "It began to rain. = It began raining.",
+       "I love to walk in the snow. = I love walking in the snow."
+      ],
+      "tip": "After a progressive verb, use to: It was beginning to rain."
+     },
+     {
+      "type": "learn",
+      "title": "Both, different meaning",
+      "lines": [
+       "remember, forget, regret, try, stop."
+      ],
+      "visual": [
+       "meaning-change"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "remember / forget",
+      "left": {
+       "label": "+ to: a task to do",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Judy always remembers to lock the door.",
+         "hl": [
+          [
+           "to lock",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Sam often forgets to lock the door.",
+         "hl": [
+          [
+           "to lock",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "+ -ing: a memory",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I remember seeing the Alps for the first time.",
+         "hl": [
+          [
+           "seeing",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I'll never forget seeing the Alps.",
+         "hl": [
+          [
+           "seeing",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "type": "choice",
+      "text": "Did you remember ___ the front door when you left?",
+      "options": [
+       "to lock",
+       "locking"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A task → remember to."
+     },
+     {
+      "type": "compare",
+      "title": "regret / try / stop",
+      "left": {
+       "label": "+ to",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I regret to tell you that you failed the test.",
+         "hl": [
+          [
+           "to tell",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "I'm trying to learn English.",
+         "hl": [
+          [
+           "to learn",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "She stopped to talk to him.",
+         "hl": [
+          [
+           "to talk",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "+ -ing",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I regret lending him some money.",
+         "hl": [
+          [
+           "lending",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "I tried opening the window, but I was still hot.",
+         "hl": [
+          [
+           "opening",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "The students stopped talking.",
+         "hl": [
+          [
+           "talking",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "regret to = bad news now. try -ing = an experiment. stop to = in order to."
+     },
+     {
+      "type": "choice",
+      "text": "I stopped ___ coffee at night because it was keeping me awake.",
+      "options": [
+       "to drink",
+       "drinking"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "I quit the activity → stop + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Same meaning: begin, start, continue, like, love, prefer, hate, can't stand.",
+     "Different: remember / forget / regret / try / stop + to (task, purpose) or -ing (memory, quit)."
+    ],
+    "timeline": [
+     "meaning-change"
+    ],
+    "examples": [
+     {
+      "text": "Judy always remembers to lock the door.",
+      "hl": [
+       [
+        "to lock",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I remember seeing the Alps for the first time.",
+      "hl": [
+       [
+        "seeing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "The students stopped talking.",
+      "hl": [
+       [
+        "talking",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Same or different?",
+     "icon": "❄️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It began to snow. / It began snowing.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "begin: no difference."
+      },
+      {
+       "type": "choice",
+       "text": "I remembered to wear a warm jacket. / I remembered wearing a warm jacket.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A task done vs. a memory."
+      },
+      {
+       "type": "choice",
+       "text": "I forgot to bring gloves. / I forgot bringing gloves.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Didn't bring them vs. forgot the memory."
+      },
+      {
+       "type": "choice",
+       "text": "We love to walk in the snow. / We love walking in the snow.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "love: no difference."
+      },
+      {
+       "type": "choice",
+       "text": "We stopped to throw snowballs. / We stopped throwing snowballs.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Stopped in order to vs. quit."
+      },
+      {
+       "type": "fill",
+       "text": "Uh-oh! The plane is beginning ___ down the runway.",
+       "verb": "move",
+       "accept": [
+        "to move"
+       ],
+       "why": "After a progressive verb → to."
+      },
+      {
+       "type": "fill",
+       "text": "My heart is starting ___.",
+       "verb": "race",
+       "accept": [
+        "to race"
+       ],
+       "why": "After a progressive verb → to."
+      },
+      {
+       "type": "fill",
+       "text": "Even though the bell rang, the professor kept on ___.",
+       "verb": "talk",
+       "accept": [
+        "talking"
+       ],
+       "why": "keep on + -ing only."
+      },
+      {
+       "type": "choice",
+       "text": "Maria loves ___ in the ocean.",
+       "options": [
+        "to swim",
+        "swimming",
+        "swim"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "love + to / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I can't stand ___ about animals that have been hurt by people.",
+       "options": [
+        "to read",
+        "reading",
+        "read"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "can't stand + to / -ing.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    },
+    {
+     "title": "What does it mean?",
+     "icon": "💡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I remembered to turn off the lights.",
+       "options": [
+        "I didn't forget.",
+        "I have a memory of the event.",
+        "I didn't remember to do something."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "remember to = do the task.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I remember playing with dolls when I was a child.",
+       "options": [
+        "I didn't forget to do a task.",
+        "I have a memory of the event.",
+        "I quit the activity."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "remember -ing = a memory.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "What do you remember doing as a teenager?",
+       "options": [
+        "What didn't you forget to do?",
+        "What is your memory of that time?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "remember -ing = a memory.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "What did you remember to do before you left home?",
+       "options": [
+        "What didn't you forget?",
+        "What is your memory of that time?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "remember to = tasks.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I forgot to pick up my sister.",
+       "options": [
+        "I did something, but I forgot that I did it.",
+        "I didn't remember to do something."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "forget to = the task wasn't done.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I forgot getting the mail.",
+       "options": [
+        "I did something, but I forgot that I did it.",
+        "I didn't remember to do something."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "forget -ing = the memory is gone.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "Stop driving so fast.",
+       "options": [
+        "Stop one activity to do another.",
+        "Don't continue."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "stop -ing = don't continue.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I stopped to get gas.",
+       "options": [
+        "I stopped one activity to do another.",
+        "I quit the activity. I don't do it anymore."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "stop to = in order to.",
+       "ask": "Meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I stopped driving to work because of the high cost of gas.",
+       "options": [
+        "I stopped one activity to do another.",
+        "I quit the activity. I don't do it anymore."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "stop -ing = quit.",
+       "ask": "Meaning?"
+      }
+     ]
+    },
+    {
+     "title": "prefer, regret, try",
+     "icon": "👶",
+     "items": [
+      {
+       "type": "fill",
+       "text": "When I travel, I prefer driving to ___ a plane.",
+       "verb": "take",
+       "accept": [
+        "taking"
+       ],
+       "why": "prefer -ing to -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I prefer to drive rather than ___ a plane.",
+       "verb": "take",
+       "accept": [
+        "take",
+        "to take"
+       ],
+       "why": "prefer to … rather than (to) …"
+      },
+      {
+       "type": "fill",
+       "text": "I'm so sorry. I regret ___ you that your loan application has not been approved.",
+       "verb": "inform",
+       "accept": [
+        "to inform"
+       ],
+       "why": "Bad news now → regret to."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't listen to my father. I regret ___ his advice. He was right.",
+       "verb": "follow, not",
+       "accept": [
+        "not following"
+       ],
+       "why": "A past action → regret + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "When my four-year-old asks the same question again and again, I try ___ patient.",
+       "verb": "remain",
+       "accept": [
+        "to remain"
+       ],
+       "why": "Make an effort → try to."
+      },
+      {
+       "type": "fill",
+       "text": "The father tried everything, but his baby still wouldn't stop ___.",
+       "verb": "cry",
+       "accept": [
+        "crying"
+       ],
+       "why": "stop + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He decided to experiment. He tried ___ him, but that didn't help.",
+       "verb": "hold",
+       "accept": [
+        "holding"
+       ],
+       "why": "An experiment → try + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He tried ___ him, but he refused the food.",
+       "verb": "feed",
+       "accept": [
+        "feeding"
+       ],
+       "why": "An experiment → try + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He tried ___ his diaper. Nothing worked.",
+       "verb": "change",
+       "accept": [
+        "changing"
+       ],
+       "why": "An experiment → try + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "After a brief interruption, the professor continued ___.",
+       "verb": "lecture",
+       "accept": [
+        "lecturing",
+        "to lecture"
+       ],
+       "why": "continue + to / -ing."
+      }
+     ]
+    },
+    {
+     "title": "remember, forget, stop",
+     "icon": "🔥",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I remember ___ my great-grandparents when I was very young.",
+       "verb": "visit",
+       "accept": [
+        "visiting"
+       ],
+       "why": "A memory → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "What do you remember ___ before you leave for class every day?",
+       "verb": "do",
+       "accept": [
+        "to do"
+       ],
+       "why": "Tasks → to."
+      },
+      {
+       "type": "fill",
+       "text": "We almost had a fire. Eric didn't remember ___ off the oven before he went to bed.",
+       "verb": "turn",
+       "accept": [
+        "to turn"
+       ],
+       "why": "A task → to."
+      },
+      {
+       "type": "fill",
+       "text": "What do you remember ___ when you were a child?",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "A memory → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Did you remember ___ the front door when you left?",
+       "verb": "lock",
+       "accept": [
+        "to lock"
+       ],
+       "why": "A task → to."
+      },
+      {
+       "type": "fill",
+       "text": "Uh-oh. I don't remember ___ it. I'd better go back and check.",
+       "verb": "lock",
+       "accept": [
+        "locking"
+       ],
+       "why": "No memory of it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Don't forget ___ your homework tonight.",
+       "verb": "do",
+       "accept": [
+        "to do"
+       ],
+       "why": "A task → to."
+      },
+      {
+       "type": "fill",
+       "text": "I won't ever forget ___ our team score the winning goal.",
+       "verb": "watch",
+       "accept": [
+        "watching"
+       ],
+       "why": "A memory → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I want to tell Jeanne to stop ___ so much.",
+       "verb": "talk",
+       "accept": [
+        "talking"
+       ],
+       "why": "Quit → stop + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I stopped on the way home ___ some groceries.",
+       "verb": "get",
+       "accept": [
+        "to get"
+       ],
+       "why": "Purpose → stop + to."
+      }
+     ]
+    },
+    {
+     "title": "Say it again",
+     "icon": "🧳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“Don't be late for the meeting.” → Nadia reminded ___.",
+       "options": [
+        "me not to be late for the meeting",
+        "me to not being late for the meeting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "remind + person + not to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "“Do you need help? I can carry the suitcases.” → I offered ___.",
+       "options": [
+        "carrying the suitcases",
+        "to carry the suitcases"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "offer + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "“Let's quit our jobs and open our own business.” → We discussed ___.",
+       "options": [
+        "quitting our jobs and opening our own business",
+        "to quit our jobs and open our own business"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "discuss + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I wanted to pay with a check, but the taxi driver only took cash. → The taxi driver refused ___.",
+       "options": [
+        "taking a check",
+        "to take a check"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "refuse + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "The teacher asked a question. I didn't look at her. → I avoided ___.",
+       "options": [
+        "answering the question",
+        "to answer the question"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "avoid + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "The doctor said, “Don't smoke.” → The doctor advised ___.",
+       "options": [
+        "me not smoking",
+        "me not to smoke"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "advise + person + not to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I worked all day on my paper. → I spent the day ___.",
+       "options": [
+        "working on my paper",
+        "to work on my paper"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spend + time + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Sam talks to his friends in class. The teacher asks him to stop, but he doesn't. → He keeps ___.",
+       "options": [
+        "to talk",
+        "talking"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "keep + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Roberto bought his wife an anniversary present. He didn't forget this time. → He remembered ___.",
+       "options": [
+        "to buy his wife a present",
+        "buying his wife a present"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A task done → remember to."
+      },
+      {
+       "type": "judge",
+       "text": "My boyfriend loves holding snakes, but I can't stand to even look at them.",
+       "answer": "correct",
+       "why": "love / can't stand + to or -ing."
+      }
+     ]
+    },
+    {
+     "title": "Listen: which meaning?",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Joan remembered to call her husband before she left work.",
+       "ask": "Which is true?",
+       "options": [
+        "Joan thought about a phone call from the past.",
+        "Joan didn't forget to call her husband."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "remember to = she did the task."
+      },
+      {
+       "type": "listen",
+       "say": "Rita remembered going to the farmers' market with her grandmother.",
+       "ask": "Which is true?",
+       "options": [
+        "Rita was thinking about those times.",
+        "Rita didn't forget to go to the market."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "remember -ing = a memory."
+      },
+      {
+       "type": "listen",
+       "say": "Roger stopped smoking when the doctor told him he had a heart problem.",
+       "ask": "Which is true?",
+       "options": [
+        "Roger got a cigarette and began to smoke.",
+        "Roger quit smoking."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "stop -ing = quit."
+      },
+      {
+       "type": "listen",
+       "say": "Mr. and Mrs. Olson stopped to eat before the movie.",
+       "ask": "Which is true?",
+       "options": [
+        "They finished eating.",
+        "They got something to eat before the movie."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "stop to = in order to eat."
+      },
+      {
+       "type": "listen",
+       "say": "I regret leaving school before I graduated.",
+       "ask": "Which is true?",
+       "options": [
+        "The speaker is sorry about something he did.",
+        "The speaker is delivering some bad news."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "regret -ing = sorry about the past."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "The birdhouse",
+     "task": "Thomas tried to build a birdhouse for his wife. It went badly! Tell Claude the story.",
+     "claudePrompt": "You are my English speaking partner. Situation: Thomas wanted to build a birdhouse for his wife, Eleni. After several hours she found him surrounded by broken wood, a bent nail in his thumb, and no birdhouse. Ask me to make sentences about it, one verb at a time: intend, forget, remember, keep on, regret, stop, advise, encourage, offer, suggest, consider, finish. Example: He intended to finish it in an hour. She advised him to stop. Check whether each verb takes to + verb, -ing, or person + to + verb."
+    }
+   ]
+  },
+  {
+   "id": "14-6",
+   "tag": "14-6",
+   "t": "state",
+   "title": "Excited about going",
+   "full": "Using Gerunds as the Objects of Prepositions",
+   "lesson": {
+    "title": "Learn: preposition + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "After a preposition: -ing",
+      "lines": [
+       "Always a gerund, never to + verb."
+      ],
+      "visual": [
+       "prep-ger"
+      ],
+      "chips": [
+       "We talked about going to Iceland.",
+       "Sue is in charge of organizing the meeting.",
+       "I'm interested in learning more about your work."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Who is responsible for ___ ice from the walkways?",
+      "options": [
+       "to clearing",
+       "clearing",
+       "clear"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "for + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Careful: to + -ing",
+      "lines": [
+       "Here to is a preposition."
+      ],
+      "chips": [
+       "I'm used to sleeping with the window open.",
+       "I'm accustomed to sleeping with the window open.",
+       "I look forward to going home next month.",
+       "object to · be opposed to · be committed to · in addition to"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm looking forward to ___ on vacation soon.",
+      "options": [
+       "go",
+       "going"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "look forward to + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Negative, and by + -ing",
+      "lines": [
+       "not goes before the gerund. by + -ing tells HOW."
+      ],
+      "chips": [
+       "We talked about not going to the meeting.",
+       "How do you turn off a phone? — By pushing a button."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Common pairs",
+      "lines": [
+       "Learn the verb and its preposition together."
+      ],
+      "chips": [
+       {
+        "label": "about / of",
+        "words": [
+         "excited about",
+         "worried about",
+         "talk about",
+         "think about",
+         "dream of",
+         "complain about",
+         "tired of",
+         "afraid of",
+         "capable of",
+         "accused of",
+         "instead of",
+         "take advantage of"
+        ]
+       },
+       {
+        "label": "for",
+        "words": [
+         "apologize for",
+         "blame someone for",
+         "thank someone for",
+         "responsible for",
+         "have an excuse for",
+         "have a reason for"
+        ]
+       },
+       {
+        "label": "from / in / on",
+        "words": [
+         "keep someone from",
+         "prevent someone from",
+         "prohibit someone from",
+         "stop someone from",
+         "interested in",
+         "believe in",
+         "participate in",
+         "succeed in",
+         "insist on",
+         "count on"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Heavy rain prevented us ___ there.",
+      "options": [
+       "to go",
+       "from going",
+       "of going"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "prevent someone from + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "preposition + verb-ing: interested in learning, thank you for coming.",
+     "to + -ing after: look forward to, be used to, be accustomed to, object to."
+    ],
+    "timeline": [
+     "prep-ger"
+    ],
+    "examples": [
+     {
+      "text": "We talked about going to Iceland.",
+      "hl": [
+       [
+        "about going",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I look forward to going home next month.",
+      "hl": [
+       [
+        "to going",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "We talked about not going to the meeting.",
+      "hl": [
+       [
+        "about not going",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A canceled trip",
+     "icon": "🏖️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "We thought ___ to the beach for vacation.",
+       "verb": "? + go",
+       "accept": [
+        "about going",
+        "of going"
+       ],
+       "why": "think about / of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We talked ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "about going",
+        "of going"
+       ],
+       "why": "talk about / of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We were interested ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "in going"
+       ],
+       "why": "be interested in + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The kids were excited ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "about going"
+       ],
+       "why": "be excited about + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "They were looking forward ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "to going"
+       ],
+       "why": "look forward to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Heavy rain prevented us ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "from going"
+       ],
+       "why": "prevent someone from + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "A windstorm kept us ___ there.",
+       "verb": "? + go",
+       "accept": [
+        "from going"
+       ],
+       "why": "keep someone from + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "So we dreamed ___ there next year.",
+       "verb": "? + go",
+       "accept": [
+        "about going",
+        "of going"
+       ],
+       "why": "dream about / of + -ing."
+      }
+     ]
+    },
+    {
+     "title": "On an airplane flight",
+     "icon": "✈️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Two children are excited ___ their first flight.",
+       "verb": "? + take",
+       "accept": [
+        "about taking"
+       ],
+       "why": "be excited about + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "They have been looking forward ___ above the clouds.",
+       "verb": "? + be",
+       "accept": [
+        "to being"
+       ],
+       "why": "look forward to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "A first-time flyer is worried ___ in stormy weather.",
+       "verb": "? + fly",
+       "accept": [
+        "about flying"
+       ],
+       "why": "be worried about + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "One passenger is blaming another passenger ___ his coffee.",
+       "verb": "? + spill",
+       "accept": [
+        "for spilling"
+       ],
+       "why": "blame someone for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "A man is complaining ___ an aisle seat rather than a window seat.",
+       "verb": "? + have",
+       "accept": [
+        "about having",
+        "of having"
+       ],
+       "why": "complain about / of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The pilot was late, but he had an excuse ___ late.",
+       "verb": "? + be",
+       "accept": [
+        "for being"
+       ],
+       "why": "have an excuse for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The co-pilot will be responsible ___ the plane.",
+       "verb": "? + fly",
+       "accept": [
+        "for flying"
+       ],
+       "why": "be responsible for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "A flight attendant is prohibiting a man ___ near the cockpit door.",
+       "verb": "? + stand",
+       "accept": [
+        "from standing"
+       ],
+       "why": "prohibit someone from + -ing."
+      }
+     ]
+    },
+    {
+     "title": "At a police station; how?",
+     "icon": "👮",
+     "items": [
+      {
+       "type": "fill",
+       "text": "A teenager has been accused ___ a purse.",
+       "verb": "? + steal",
+       "accept": [
+        "of stealing"
+       ],
+       "why": "be accused of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "An elderly woman said he was responsible ___ it.",
+       "verb": "? + take",
+       "accept": [
+        "for taking"
+       ],
+       "why": "be responsible for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The police are blaming him ___ it.",
+       "verb": "? + do",
+       "accept": [
+        "for doing"
+       ],
+       "why": "blame someone for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The teenager said he was trying to prevent someone else ___ it.",
+       "verb": "? + take",
+       "accept": [
+        "from taking"
+       ],
+       "why": "prevent someone from + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The police are listening to the woman instead ___ to his version of the story.",
+       "verb": "? + listen",
+       "accept": [
+        "of listening"
+       ],
+       "why": "instead of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He has not yet succeeded ___ the police of his innocence.",
+       "verb": "? + convince",
+       "accept": [
+        "in convincing"
+       ],
+       "why": "succeed in + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "How do you turn off a cell phone?",
+       "options": [
+        "By pushing a button.",
+        "By push a button.",
+        "By to push a button."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "by + -ing = how."
+      },
+      {
+       "type": "choice",
+       "text": "How do people satisfy their hunger?",
+       "options": [
+        "By eat.",
+        "By eating.",
+        "For eating."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by + -ing = how."
+      },
+      {
+       "type": "choice",
+       "text": "How do dogs show they are happy?",
+       "options": [
+        "By wag their tails.",
+        "With to wag their tails.",
+        "By wagging their tails."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "by + -ing = how."
+      }
+     ]
+    },
+    {
+     "title": "At work (1)",
+     "icon": "🏢",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Alice is interested ___ a promotion.",
+       "verb": "? + get",
+       "accept": [
+        "in getting"
+       ],
+       "why": "be interested in + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "You are capable ___ better work.",
+       "verb": "? + do",
+       "accept": [
+        "of doing"
+       ],
+       "why": "be capable of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'm accustomed ___ to work before everyone else.",
+       "verb": "? + get",
+       "accept": [
+        "to getting"
+       ],
+       "why": "be accustomed to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Thank you ___ me an office with windows.",
+       "verb": "? + give",
+       "accept": [
+        "for giving"
+       ],
+       "why": "thank someone for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Donna insists ___ the stairs instead of the elevator.",
+       "verb": "? + take",
+       "accept": [
+        "on taking"
+       ],
+       "why": "insist on + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Our company believes ___ honest at all times with customers.",
+       "verb": "? + be",
+       "accept": [
+        "in being"
+       ],
+       "why": "believe in + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "You should take advantage ___ with so many experts here.",
+       "verb": "? + work",
+       "accept": [
+        "of working"
+       ],
+       "why": "take advantage of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Lexi had a good reason ___ to work yesterday.",
+       "verb": "? + come, not",
+       "accept": [
+        "for not coming"
+       ],
+       "why": "for + not + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Everyone participated ___ a new administrative assistant.",
+       "verb": "? + find",
+       "accept": [
+        "in finding"
+       ],
+       "why": "participate in + -ing."
+      }
+     ]
+    },
+    {
+     "title": "At work (2)",
+     "icon": "👔",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I apologized ___ late to the meeting.",
+       "verb": "? + come",
+       "accept": [
+        "for coming"
+       ],
+       "why": "apologize for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Larry isn't used ___ a suit and tie every day.",
+       "verb": "? + wear",
+       "accept": [
+        "to wearing"
+       ],
+       "why": "be used to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "In addition ___ full-time, Spiro is going to night school.",
+       "verb": "? + work",
+       "accept": [
+        "to working"
+       ],
+       "why": "in addition to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I stopped the printer ___ so much noise.",
+       "verb": "? + make",
+       "accept": [
+        "from making"
+       ],
+       "why": "stop something from + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Would you object to my ___ early today?",
+       "verb": "leave",
+       "accept": [
+        "leaving"
+       ],
+       "why": "object to + (my) + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Who was opposed to ___ employees move offices?",
+       "verb": "have",
+       "accept": [
+        "having"
+       ],
+       "why": "be opposed to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Are you committed ___ whatever it takes to be successful?",
+       "verb": "? + do",
+       "accept": [
+        "to doing"
+       ],
+       "why": "be committed to + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Who is responsible ___ the office while you are away?",
+       "verb": "? + run",
+       "accept": [
+        "for running"
+       ],
+       "why": "be responsible for + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Employees are prohibited ___ the company email system for personal use.",
+       "verb": "? + use",
+       "accept": [
+        "from using"
+       ],
+       "why": "prohibit someone from + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "Who is responsible for to clearing ice from the walkways?",
+       "answer": "wrong",
+       "why": "for + -ing. No to.",
+       "fix": "Who is responsible for clearing ice from the walkways?"
+      }
+     ]
+    },
+    {
+     "title": "Listen; the awkward gift",
+     "icon": "🎁",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I'm so sorry I'm late. The traffic was terrible.",
+       "ask": "The man apologized…",
+       "options": [
+        "for being late",
+        "to be late",
+        "for be late"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "apologize for + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I did it! I finally passed my driving test!",
+       "ask": "The woman succeeded…",
+       "options": [
+        "to pass her driving test",
+        "in passing her driving test"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "succeed in + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Thanks a lot. I couldn't have moved all those boxes without you.",
+       "ask": "The man thanked his friend…",
+       "options": [
+        "for helping him",
+        "to help him"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "thank someone for + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I never drive when it snows. It scares me.",
+       "ask": "The woman isn't used…",
+       "options": [
+        "to drive in snow",
+        "to driving in snow"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be used to + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I had the flu all last week, so I couldn't go to work.",
+       "ask": "The flu kept the man…",
+       "options": [
+        "from going to work",
+        "to go to work"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "keep someone from + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "You open a strange gift. You say: Thank you ___ me.",
+       "options": [
+        "for thinking of",
+        "to think of",
+        "for think of"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "thank you for + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Thanks ___ it was my birthday.",
+       "options": [
+        "for remember",
+        "for remembering",
+        "to remembering"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "thanks for + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "The giver might respond ___, “I'm glad you like it.”",
+       "options": [
+        "by say",
+        "for to say",
+        "by saying"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "by + -ing = how."
+      },
+      {
+       "type": "choice",
+       "text": "I appreciate your ___ of me.",
+       "options": [
+        "thinking",
+        "to think",
+        "think"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "appreciate + (your) + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "How do people show it?",
+     "task": "How do people show happiness? Anger? Surprise? “By smiling, by…”",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: How do people show happiness? sadness? anger? confusion? surprise? agreement? How do you greet a friend you haven't seen for a long time? How can students improve their listening? I answer with by + gerund (People show excitement by clapping their hands and jumping up and down.). Check that I use -ing after by."
+    },
+    {
+     "title": "The awkward gift",
+     "task": "Claude gives you a strange present. Thank it nicely!",
+     "claudePrompt": "You are my English speaking partner. Role-play: you give me a slightly strange gift (bright green socks with cats, a singing fish, a huge souvenir mug). Say 'I have a gift for you. I can't wait to see your reaction!' I must respond politely: What an interesting design! Thank you for thinking of me. I appreciate your remembering my birthday. Then give me a different gift. Check my gerunds after thank you for / thanks for / appreciate."
+    }
+   ]
+  },
+  {
+   "id": "14-7",
+   "tag": "14-7",
+   "t": "prog",
+   "title": "Let's go fishing",
+   "full": "Go + Gerund",
+   "lesson": {
+    "title": "Learn: go + -ing for fun activities",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "go + -ing",
+      "lines": [
+       "For sports and free-time activities. No to."
+      ],
+      "visual": [
+       "go-ger"
+      ],
+      "chips": [
+       "Did you go shopping?",
+       "We went fishing yesterday."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The activity list",
+      "lines": [
+       "Tap to hear them."
+      ],
+      "chips": [
+       {
+        "label": "💧 water",
+        "words": [
+         "go swimming",
+         "go fishing",
+         "go sailing",
+         "go boating",
+         "go canoeing",
+         "go snorkeling"
+        ]
+       },
+       {
+        "label": "⛰️ outdoors",
+        "words": [
+         "go hiking",
+         "go camping",
+         "go biking",
+         "go jogging",
+         "go running",
+         "go skiing",
+         "go skating",
+         "go sledding",
+         "go birdwatching",
+         "go hunting"
+        ]
+       },
+       {
+        "label": "🏙️ town",
+        "words": [
+         "go shopping",
+         "go dancing",
+         "go bowling",
+         "go sightseeing",
+         "go window shopping"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'd like to go ___ in the mountains, but I don't have the time right now.",
+      "options": [
+       "to hike",
+       "hiking",
+       "hike"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "go + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "We ___ yesterday.",
+      "options": [
+       "went to fish",
+       "went fishing",
+       "went fish"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "went + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "go + verb-ing = do a free-time activity.",
+     "go changes: go shopping, went shopping, have gone shopping, going shopping."
+    ],
+    "timeline": [
+     "go-ger"
+    ],
+    "examples": [
+     {
+      "text": "Did you go shopping?",
+      "hl": [
+       [
+        "go shopping",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "We went fishing yesterday.",
+      "hl": [
+       [
+        "went fishing",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which is right?",
+     "icon": "🛍️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Last week I ___.",
+       "options": [
+        "went to shopping",
+        "went shopping",
+        "went shop"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "went + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I like to ___.",
+       "options": [
+        "go to hike",
+        "going hike",
+        "go hiking"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "go + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I've never ___.",
+       "options": [
+        "gone skydiving",
+        "gone to skydive",
+        "went skydiving"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have + gone + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Did you ___ last night?",
+       "options": [
+        "went dancing",
+        "go dancing",
+        "go to dancing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "did + go + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "My dad ___ every Sunday morning.",
+       "options": [
+        "go fishing",
+        "goes to fish",
+        "goes fishing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "He → goes + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "We're ___ tomorrow.",
+       "options": [
+        "going camping",
+        "going to camping",
+        "go camping"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "are + going + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "I'd like to go hiking in the mountains, but I don't have the time right now.",
+       "answer": "correct",
+       "why": "go + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Ron's busy Saturday",
+     "icon": "🛶",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Early Saturday morning, Ron ___ on the lake.",
+       "verb": "go + canoe",
+       "accept": [
+        "went canoeing"
+       ],
+       "why": "went + -ing.",
+       "ctx": "Ron took his canoe to the lake, caught a fish, swam, rode his bike, and danced."
+      },
+      {
+       "type": "fill",
+       "text": "He brought a fishing rod so he could ___.",
+       "verb": "go + fish",
+       "accept": [
+        "go fishing"
+       ],
+       "why": "could + go + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He saw some friends on a sailboat but didn't ___ with them.",
+       "verb": "go + sail",
+       "accept": [
+        "go sailing"
+       ],
+       "why": "didn't + go + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ instead.",
+       "verb": "go + swim",
+       "accept": [
+        "went swimming"
+       ],
+       "why": "went + -ing. Double m."
+      },
+      {
+       "type": "fill",
+       "text": "After lunch, he ___.",
+       "verb": "go + bike",
+       "accept": [
+        "went biking"
+       ],
+       "why": "went + -ing. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "He finished the day by ___ with some of his friends.",
+       "verb": "go + dance",
+       "accept": [
+        "going dancing"
+       ],
+       "why": "by + going + -ing."
+      }
+     ]
+    },
+    {
+     "title": "How about you?",
+     "icon": "🎳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I never ___ on weekends.",
+       "verb": "go + dance",
+       "accept": [
+        "go dancing"
+       ],
+       "why": "go + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't like to ___.",
+       "verb": "go + bowl",
+       "accept": [
+        "go bowling"
+       ],
+       "why": "go + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "___ doesn't sound like fun to me.",
+       "verb": "go + hunt",
+       "accept": [
+        "Going hunting"
+       ],
+       "why": "A gerund subject: Going hunting."
+      },
+      {
+       "type": "fill",
+       "text": "I sometimes postpone ___ my homework.",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "postpone + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't appreciate ___ a lot of emails every day.",
+       "verb": "get",
+       "accept": [
+        "getting"
+       ],
+       "why": "appreciate + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I am considering ___ for a new place to live.",
+       "verb": "look",
+       "accept": [
+        "looking"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I used to ___ as a child.",
+       "verb": "go + fish",
+       "accept": [
+        "go fishing"
+       ],
+       "why": "used to + go + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ for exercise three times a week.",
+       "verb": "go + jog",
+       "accept": [
+        "go jogging"
+       ],
+       "why": "go + -ing. Double g."
+      },
+      {
+       "type": "fill",
+       "text": "I enjoy ___ board games.",
+       "verb": "play",
+       "accept": [
+        "playing"
+       ],
+       "why": "enjoy + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Have you ever gone…?",
+     "task": "Tell Claude which activities you've done, which you love, and which you never want to try.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about go + -ing activities (camping, hiking, fishing, skiing, sightseeing, shopping, dancing, bowling, skydiving): Which have you done? When? Which do you like to do? Which do you never want to do? Which have you not done but would like to try? I answer with go/went/have gone + -ing. Check the form of go and that I don't say 'go to shopping'."
+    }
+   ]
+  },
+  {
+   "id": "14-8",
+   "tag": "14-8",
+   "t": "prog",
+   "title": "Have fun playing",
+   "full": "Special Expressions Followed by -ing",
+   "lesson": {
+    "title": "Learn: have fun / spend time / sit there + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Expressions that take -ing",
+      "lines": [
+       "No preposition, no to. Just -ing."
+      ],
+      "visual": [
+       "special-ing"
+      ],
+      "chips": [
+       "We had fun playing volleyball.",
+       "I had trouble finding his house.",
+       "Sam spends most of his time studying.",
+       "I waste a lot of time watching TV."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I had a hard time ___ his house.",
+      "options": [
+       "to find",
+       "finding",
+       "find"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "have a hard time + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "sit, stand, lie + -ing",
+      "lines": [
+       "sit / stand / lie + place + -ing: two things at once."
+      ],
+      "chips": [
+       "She sat at her desk doing homework.",
+       "I stood there wondering what to do next.",
+       "He is lying in bed reading a book."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "find / catch + someone + -ing",
+      "lines": [
+       "= discover someone in the middle of it."
+      ],
+      "chips": [
+       "I found George using my telephone.",
+       "I caught a thief looking through my desk drawers."
+      ],
+      "tip": "catch often shows you are angry."
+     },
+     {
+      "type": "choice",
+      "text": "The security guard caught the thief ___ a cell phone from the store.",
+      "options": [
+       "to shoplift",
+       "shoplifting",
+       "shoplift"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "catch + person + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "Roger spends two hours ___ to work.",
+      "options": [
+       "commuting",
+       "for commuting",
+       "commute"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "spend + time + -ing. No for."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "have fun / a good time / trouble / difficulty / a hard time + -ing.",
+     "spend / waste time + -ing · sit / stand / lie + place + -ing · find / catch someone + -ing."
+    ],
+    "timeline": [
+     "special-ing"
+    ],
+    "examples": [
+     {
+      "text": "We had fun playing volleyball.",
+      "hl": [
+       [
+        "playing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Sam spends most of his time studying.",
+      "hl": [
+       [
+        "studying",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I caught a thief looking through my desk drawers.",
+      "hl": [
+       [
+        "looking",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A gem in the city (1)",
+     "icon": "🌳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "When I was in New York, I spent a day ___ Central Park.",
+       "verb": "explore",
+       "accept": [
+        "exploring"
+       ],
+       "why": "spend + time + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The weather was quite hot, and I enjoyed ___ around the park in the shade.",
+       "verb": "walk",
+       "accept": [
+        "walking"
+       ],
+       "why": "enjoy + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I found a concert, and I sat on the grass ___ to the music for a while.",
+       "verb": "listen",
+       "accept": [
+        "listening"
+       ],
+       "why": "sit + place + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "There were a lot of people lying on the ground ___.",
+       "verb": "relax",
+       "accept": [
+        "relaxing"
+       ],
+       "why": "lie + place + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "It was so peaceful that I found myself ___ sleepy too.",
+       "verb": "get",
+       "accept": [
+        "getting"
+       ],
+       "why": "find + person + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Many parents stood nearby ___ their kids catch and release fish.",
+       "verb": "watch",
+       "accept": [
+        "watching"
+       ],
+       "why": "stand + place + -ing."
+      }
+     ]
+    },
+    {
+     "title": "A gem in the city (2)",
+     "icon": "🚣",
+     "items": [
+      {
+       "type": "fill",
+       "text": "People told me about a lake with rowboats. I thought about ___ that.",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "think about + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "But I had difficulty ___ the boathouse.",
+       "verb": "find",
+       "accept": [
+        "finding"
+       ],
+       "why": "have difficulty + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "At the end of the day, I needed ___ back to my hotel.",
+       "verb": "go",
+       "accept": [
+        "to go"
+       ],
+       "why": "need + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "But I had a hard time ___.",
+       "verb": "leave",
+       "accept": [
+        "leaving"
+       ],
+       "why": "have a hard time + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I definitely plan ___ back.",
+       "verb": "go",
+       "accept": [
+        "to go"
+       ],
+       "why": "plan + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "The security guard caught the thief shoplifting a cell phone from the store.",
+       "answer": "correct",
+       "why": "catch + person + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "Roger spends two hours for commuting to work.",
+       "answer": "wrong",
+       "why": "spend + time + -ing. No for.",
+       "fix": "Roger spends two hours commuting to work."
+      }
+     ]
+    },
+    {
+     "title": "About me",
+     "icon": "🪞",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It's easy to have fun ___ at a mall.",
+       "options": [
+        "to shop",
+        "shopping",
+        "shop"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have fun + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I have a hard time ___ my free time indoors.",
+       "options": [
+        "to spend",
+        "spend",
+        "spending"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "have a hard time + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Teenagers spend a lot of time ___ important things.",
+       "options": [
+        "doing",
+        "to do",
+        "do"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spend time + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "People waste a lot of money ___ unnecessary things.",
+       "options": [
+        "to buy",
+        "buying",
+        "for buy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "waste money + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "In the mornings, I stand in front of the mirror ___ my hair.",
+       "options": [
+        "to brushing",
+        "brush",
+        "brushing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "stand + place + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Sometimes in the middle of the night, I lie in bed ___ about my day.",
+       "options": [
+        "thinking",
+        "to think",
+        "think"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "lie + place + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Sometimes in class I find myself ___ out the window.",
+       "options": [
+        "to look",
+        "looking",
+        "look"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "find + myself + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "You will never catch me ___ on a test.",
+       "options": [
+        "to cheat",
+        "cheat",
+        "cheating"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "catch + person + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Listen and finish",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I play soccer every day. I love it!",
+       "ask": "The speaker has fun…",
+       "options": [
+        "playing soccer",
+        "to play soccer"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have fun + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I can never remember people's names.",
+       "ask": "The speaker has trouble…",
+       "options": [
+        "to remember names",
+        "remembering names"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have trouble + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I walked into the kitchen, and my son was eating cookies before dinner!",
+       "ask": "The speaker caught his son…",
+       "options": [
+        "eating cookies",
+        "to eat cookies"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "catch + person + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Every morning I stand at the kitchen counter and drink my coffee.",
+       "ask": "The speaker stands at the kitchen counter…",
+       "options": [
+        "drink coffee",
+        "drinking coffee"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "stand + place + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "Mornings are so hard for me. I just can't wake up.",
+       "ask": "The speaker has a hard time…",
+       "options": [
+        "waking up",
+        "to wake up"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have a hard time + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I looked at funny videos for two hours last night. What a waste!",
+       "ask": "The speaker wasted two hours…",
+       "options": [
+        "to watch videos",
+        "watching videos"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "waste time + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "When I got home, Tom was asleep on the sofa.",
+       "ask": "The speaker found Tom…",
+       "options": [
+        "sleeping on the sofa",
+        "to sleep on the sofa"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "find + person + -ing."
+      },
+      {
+       "type": "listen",
+       "say": "I looked for my keys for an hour before I found them.",
+       "ask": "The speaker spent an hour…",
+       "options": [
+        "look for her keys",
+        "looking for her keys"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "spend time + -ing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "14-9",
+   "tag": "14-9",
+   "t": "pres",
+   "title": "It's easy to…",
+   "full": "It + Infinitive; Gerunds and Infinitives as Subjects",
+   "lesson": {
+    "title": "Learn: It is… to + verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three ways to say it",
+      "lines": [
+       "The first two are the common ones."
+      ],
+      "visual": [
+       "it-inf"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ a second language is difficult.",
+      "options": [
+       "Learn",
+       "Learning"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "A subject must be a gerund (or infinitive)."
+     },
+     {
+      "type": "learn",
+      "title": "It = the infinitive phrase",
+      "lines": [
+       "It is + adjective + to + verb."
+      ],
+      "chips": [
+       "It's fun to ride a horse. = Riding a horse is fun."
+      ],
+      "examples": [
+       {
+        "text": "It is difficult to learn a second language.",
+        "hl": [
+         [
+          "It",
+          "pres"
+         ],
+         [
+          "to learn",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "for + person",
+      "lines": [
+       "Say WHO it is easy or hard for."
+      ],
+      "chips": [
+       "It is easy for young children to learn a second language.",
+       "Learning a second language is easy for young children."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ hard for me to understand people who speak very fast.",
+      "options": [
+       "Is",
+       "It is"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The sentence needs the subject It."
+     },
+     {
+      "type": "choice",
+      "text": "A gerund subject takes a ___ verb.",
+      "options": [
+       "singular (is)",
+       "plural (are)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Learning English is… (one activity)."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "It is + adjective (+ for someone) + to + verb.",
+     "Or a gerund subject + singular verb: Learning a second language is difficult."
+    ],
+    "timeline": [
+     "it-inf"
+    ],
+    "examples": [
+     {
+      "text": "It is difficult to learn a second language.",
+      "hl": [
+       [
+        "to learn",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Learning a second language is difficult.",
+      "hl": [
+       [
+        "Learning",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "It is easy for young children to learn a second language.",
+      "hl": [
+       [
+        "for young children to learn",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Three ways",
+     "icon": "🗣️",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Speaking a second language without an accent is nearly impossible for adult language learners.",
+       "answer": "correct",
+       "why": "A gerund phrase as the subject."
+      },
+      {
+       "type": "judge",
+       "text": "To speak a second language without an accent is nearly impossible for adult language learners.",
+       "answer": "correct",
+       "why": "An infinitive subject is possible (but rare)."
+      },
+      {
+       "type": "judge",
+       "text": "It is nearly impossible for adult language learners to speak a second language without an accent.",
+       "answer": "correct",
+       "why": "It + be + adjective + for + person + to."
+      },
+      {
+       "type": "judge",
+       "text": "Text while you are driving is dangerous.",
+       "answer": "wrong",
+       "why": "A subject needs -ing: Texting.",
+       "fix": "Texting while you are driving is dangerous."
+      },
+      {
+       "type": "judge",
+       "text": "It is dangerous to text while you are driving.",
+       "answer": "correct",
+       "why": "It + be + adjective + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "Convincing me to take time off it is easy.",
+       "answer": "wrong",
+       "why": "No extra it after the gerund subject.",
+       "fix": "Convincing me to take time off is easy."
+      },
+      {
+       "type": "judge",
+       "text": "Is hard for me understand people who speak very fast.",
+       "answer": "wrong",
+       "why": "It is … to understand.",
+       "fix": "It is hard for me to understand people who speak very fast."
+      },
+      {
+       "type": "judge",
+       "text": "It can be deadly driving a car and text at the same time.",
+       "answer": "wrong",
+       "why": "It … to drive … and text.",
+       "fix": "It can be deadly to drive a car and text at the same time."
+      }
+     ]
+    },
+    {
+     "title": "Parent to teenager",
+     "icon": "🛹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ a skateboard without wearing a helmet.",
+       "options": [
+        "It's dangerous to ride",
+        "Is dangerous to ride",
+        "It's dangerous ride"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's + adjective + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ enough sleep before a test.",
+       "options": [
+        "It's important getting to",
+        "It's important to get",
+        "It important to get"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's + adjective + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ good friends.",
+       "options": [
+        "It isn't easy find",
+        "Isn't easy to finding",
+        "It isn't easy to find"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It + isn't + adjective + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ about small things.",
+       "options": [
+        "It's silly to worry",
+        "It's silly worry",
+        "Its silly to worrying"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's + adjective + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ some money every month.",
+       "options": [
+        "It's smart for save",
+        "It's smart to save",
+        "Is smart to save"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's + adjective + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ to be kind.",
+       "options": [
+        "It doesn't costs much money",
+        "Doesn't cost it much money",
+        "It doesn't cost much money"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It + doesn't cost + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ time to learn a new skill.",
+       "options": [
+        "It takes",
+        "It take",
+        "Takes it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It takes time + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "It isn't possible ___ on time for class when traffic is heavy.",
+       "options": [
+        "for I to be",
+        "for me to be",
+        "me to being"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "for + me + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "Switch it",
+     "icon": "🐎",
+     "items": [
+      {
+       "type": "fill",
+       "text": "It's fun to ride a horse. → ___ a horse is fun.",
+       "verb": "ride",
+       "accept": [
+        "Riding"
+       ],
+       "why": "A gerund subject. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "It's dangerous to swim alone. → ___ alone is dangerous.",
+       "verb": "swim",
+       "accept": [
+        "Swimming"
+       ],
+       "why": "A gerund subject. Double m."
+      },
+      {
+       "type": "fill",
+       "text": "It's easy to make mistakes. → ___ mistakes is easy.",
+       "verb": "make",
+       "accept": [
+        "Making"
+       ],
+       "why": "A gerund subject. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "It's a good idea to exercise every day. → ___ every day is a good idea.",
+       "verb": "exercise",
+       "accept": [
+        "Exercising"
+       ],
+       "why": "A gerund subject. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "It's important to tell the truth. → ___ the truth is important.",
+       "verb": "tell",
+       "accept": [
+        "Telling"
+       ],
+       "why": "A gerund subject."
+      },
+      {
+       "type": "fill",
+       "text": "It's wrong to cheat. → ___ is wrong.",
+       "verb": "cheat",
+       "accept": [
+        "Cheating"
+       ],
+       "why": "A gerund subject."
+      },
+      {
+       "type": "fill",
+       "text": "It takes a lot of time to learn a language. → ___ a language takes a lot of time.",
+       "verb": "learn",
+       "accept": [
+        "Learning"
+       ],
+       "why": "A gerund subject."
+      },
+      {
+       "type": "fill",
+       "text": "Interrupting people is impolite. → It's impolite ___ people.",
+       "verb": "interrupt",
+       "accept": [
+        "to interrupt"
+       ],
+       "why": "It's + adjective + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Finding an English tutor wasn't difficult. → It wasn't difficult ___ an English tutor.",
+       "verb": "find",
+       "accept": [
+        "to find"
+       ],
+       "why": "It + wasn't + adjective + to + verb."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "It's easy for me to…",
+     "task": "Tell Claude what is easy, hard, important, or a good idea for you.",
+     "claudePrompt": "You are my English speaking partner. Ask me to finish one sentence at a time about myself: It is easy for me to ... / It isn't easy for me to ... / It is important for students to ... / It's a good idea for visitors to my country to ... / It is difficult for me to .... After each, ask me to say the same idea with a gerund subject (Speaking in class is difficult for me.). Check: It is + adjective + for + person + to + verb, and a singular verb after a gerund subject."
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "to do it / doing it",
+   "full": "Reference Lists: Verbs + Infinitives, Verbs + Gerunds, Prepositions + Gerunds",
+   "lesson": {
+    "title": "Learn: build your feeling for it",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Infinitive verbs",
+      "lines": [
+       "Many look to the future: a plan, a promise, a wish."
+      ],
+      "visual": [
+       "ger-verbs"
+      ],
+      "chips": [
+       {
+        "label": "+ to do",
+        "words": [
+         "agree",
+         "arrange",
+         "can't afford",
+         "can't wait",
+         "decide",
+         "deserve",
+         "expect",
+         "fail",
+         "hope",
+         "learn",
+         "manage",
+         "mean",
+         "offer",
+         "plan",
+         "prepare",
+         "pretend",
+         "promise",
+         "refuse",
+         "seem",
+         "struggle",
+         "swear",
+         "tend",
+         "threaten",
+         "volunteer",
+         "wait",
+         "want",
+         "wish"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Person + infinitive verbs",
+      "lines": [
+       "Someone makes or helps someone else do it."
+      ],
+      "chips": [
+       {
+        "label": "+ me to do",
+        "words": [
+         "advise",
+         "allow",
+         "ask",
+         "beg",
+         "challenge",
+         "convince",
+         "encourage",
+         "expect",
+         "forbid",
+         "force",
+         "invite",
+         "order",
+         "permit",
+         "persuade",
+         "remind",
+         "require",
+         "teach",
+         "tell",
+         "urge",
+         "want",
+         "warn"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Somehow, the cat managed ___.",
+      "options": [
+       "to do it",
+       "doing it"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "manage + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Gerund verbs",
+      "lines": [
+       "Often real or past things: feelings, habits, memories."
+      ],
+      "chips": [
+       {
+        "label": "+ doing",
+        "words": [
+         "admit",
+         "anticipate",
+         "appreciate",
+         "avoid",
+         "can't help",
+         "can't imagine",
+         "consider",
+         "delay",
+         "deny",
+         "discuss",
+         "dislike",
+         "enjoy",
+         "finish",
+         "imagine",
+         "keep",
+         "mention",
+         "mind",
+         "miss",
+         "postpone",
+         "practice",
+         "quit",
+         "recall",
+         "recommend",
+         "resent",
+         "resist",
+         "risk",
+         "suggest",
+         "tolerate",
+         "understand"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I couldn't resist ___.",
+      "options": [
+       "to do it",
+       "doing it"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "resist + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "Rey mentioned ___ some difficulty with his boss at work.",
+      "options": [
+       "to have",
+       "having"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "mention + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Plans and promises → to do: decide, hope, promise, refuse, manage.",
+     "Feelings, habits, memories → doing: enjoy, avoid, deny, miss, risk. After a preposition → doing."
+    ],
+    "timeline": [
+     "ger-verbs"
+    ],
+    "examples": [
+     {
+      "text": "She managed to finish her work early.",
+      "hl": [
+       [
+        "to finish",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "He admitted stealing the money.",
+      "hl": [
+       [
+        "stealing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "She reminded me to lock the door.",
+      "hl": [
+       [
+        "me to lock",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Round 1",
+     "icon": "1️⃣",
+     "items": [
+      {
+       "type": "sort",
+       "word": "We plan …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "plan + to."
+      },
+      {
+       "type": "sort",
+       "word": "I can't afford …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "can't afford + to."
+      },
+      {
+       "type": "sort",
+       "word": "She didn't allow me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "allow + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "I don't care …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "care + to."
+      },
+      {
+       "type": "sort",
+       "word": "Please remind me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "remind + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "I am considering …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "consider + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Our director postponed …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "postpone + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "He persuaded me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "persuade + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "I don't mind …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "mind + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Everyone avoided …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "avoid + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Round 2",
+     "icon": "2️⃣",
+     "items": [
+      {
+       "type": "sort",
+       "word": "I refused …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "refuse + to."
+      },
+      {
+       "type": "sort",
+       "word": "I hope …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "hope + to."
+      },
+      {
+       "type": "sort",
+       "word": "She convinced me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "convince + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "He mentioned …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "mention + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "She complained about …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "After a preposition → -ing."
+      },
+      {
+       "type": "sort",
+       "word": "I encouraged him …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "encourage + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "I warned him not …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "warn + person + not to."
+      },
+      {
+       "type": "sort",
+       "word": "We prepared …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "prepare + to."
+      },
+      {
+       "type": "sort",
+       "word": "I don't recall …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "recall + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Who is responsible for …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "After a preposition → -ing."
+      }
+     ]
+    },
+    {
+     "title": "Round 3",
+     "icon": "3️⃣",
+     "items": [
+      {
+       "type": "sort",
+       "word": "He resented …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "resent + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "When will you finish …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "finish + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Did you practice …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "practice + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "She agreed …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "agree + to."
+      },
+      {
+       "type": "sort",
+       "word": "He was guilty of …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "After a preposition → -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Stop …!",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "stop + -ing = don't continue."
+      },
+      {
+       "type": "sort",
+       "word": "I didn't force him …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "force + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "I couldn't resist …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "resist + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Somehow, the cat managed …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "manage + to."
+      },
+      {
+       "type": "sort",
+       "word": "Did the little boy admit …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "admit + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Round 4",
+     "icon": "4️⃣",
+     "items": [
+      {
+       "type": "sort",
+       "word": "He denied …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "deny + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "I didn't mean …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "mean + to."
+      },
+      {
+       "type": "sort",
+       "word": "She swore …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "swear + to."
+      },
+      {
+       "type": "sort",
+       "word": "I volunteered …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "volunteer + to."
+      },
+      {
+       "type": "sort",
+       "word": "He suggested …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "suggest + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "He advised me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "advise + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "He struggled …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "struggle + to."
+      },
+      {
+       "type": "sort",
+       "word": "I don't want to risk …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "risk + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "Do you recommend …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "recommend + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "I miss …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "miss + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Round 5",
+     "icon": "5️⃣",
+     "items": [
+      {
+       "type": "sort",
+       "word": "I can't imagine …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "can't imagine + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "She threatened …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "threaten + to."
+      },
+      {
+       "type": "sort",
+       "word": "He seems to dislike …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "dislike + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "The children begged …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "beg + to."
+      },
+      {
+       "type": "sort",
+       "word": "She challenged me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "challenge + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "Did he deny …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "deny + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "She taught me …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "teach + person + to."
+      },
+      {
+       "type": "sort",
+       "word": "Do you anticipate …?",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "anticipate + -ing."
+      },
+      {
+       "type": "sort",
+       "word": "They are opposed to …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 1,
+       "why": "to is a preposition here → -ing."
+      },
+      {
+       "type": "sort",
+       "word": "I'll arrange …",
+       "buckets": [
+        "to do it",
+        "doing it"
+       ],
+       "answer": 0,
+       "why": "arrange + to."
+      }
+     ]
+    },
+    {
+     "title": "All the correct ones; a thank-you note",
+     "icon": "✉️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "We hope visiting them soon.",
+        "We hope to visit them soon.",
+        "We hope you to visit them soon."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hope + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Jay suggested…",
+       "options": [
+        "Jay suggested going to the movies.",
+        "Jay suggested that we go to the movies.",
+        "Jay suggested me to go to the movies."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "suggest + -ing, or suggest that + simple form.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "My kids love the beach.",
+       "options": [
+        "To run and playing on the beach are two things my kids love to do.",
+        "Running and playing on the beach are two things my kids love to do.",
+        "Run and play on the beach are two things my kids love to do."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Gerund subjects, same form: Running and playing.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "My grandmother and cats",
+       "options": [
+        "My grandmother couldn't stand to touch cat fur.",
+        "My grandmother couldn't stand to touching cat fur.",
+        "My grandmother couldn't stand touching cat fur."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "can't stand + to touch / touching.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Roger and his commute",
+       "options": [
+        "Roger spends two hours commuting to work.",
+        "Roger spends two hours commute to work.",
+        "Roger spends two hours for commuting to work."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spend + time + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "How did you manage to learn four languages fluently?",
+       "answer": "correct",
+       "why": "manage + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Thank you for ___ me the opportunity to interview with you.",
+       "options": [
+        "to give",
+        "give",
+        "giving"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "thank you for + -ing.",
+       "ctx": "A thank-you note after a job interview"
+      },
+      {
+       "type": "choice",
+       "text": "I enjoyed ___ more about your business.",
+       "options": [
+        "learning",
+        "to learn",
+        "learn"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enjoy + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I am excited ___ for this position.",
+       "options": [
+        "being consider",
+        "to be considered",
+        "be considered"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be excited + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I look forward to ___ from you.",
+       "options": [
+        "hear",
+        "be heard",
+        "hearing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "look forward to + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Thank-you note",
+     "task": "Write a short thank-you note after a job interview. Claude checks it.",
+     "claudePrompt": "You are my English writing partner. Situation: Henry Sanson interviewed with Ms. Azizi for the position of hotel assistant manager. He has a recent degree in hotel management and one year's experience as a front desk clerk. Ask me to write Henry's thank-you note in 5-6 sentences using: thank you for + -ing, enjoy + -ing, be interested in + -ing, have the opportunity + to, look forward to + -ing. Check each gerund and infinitive and the polite closing."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Two-Headed Verb",
+  "icon": "🐲",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "I don't mind [to have] a roommate.",
+    "options": [
+     "I don't mind having a roommate.",
+     "I don't mind have a roommate.",
+     "I don't mind to having a roommate."
+    ],
+    "answer": 0,
+    "why": "mind + -ing.",
+    "rule": "14-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Is] hard for me [understand] people who speak very fast.",
+    "options": [
+     "Is hard for me to understand people who speak very fast.",
+     "It is hard for me to understand people who speak very fast.",
+     "It is hard for me understanding people who speak very fast."
+    ],
+    "answer": 1,
+    "why": "It is + adjective + for me + to + verb.",
+    "rule": "14-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "Learning about another country [it] is very interesting.",
+    "options": [
+     "Learning about another country are very interesting.",
+     "Learn about another country is very interesting.",
+     "Learning about another country is very interesting."
+    ],
+    "answer": 2,
+    "why": "No extra it. Singular verb.",
+    "rule": "14-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "I tried very hard [to don't] make any mistakes.",
+    "options": [
+     "I tried very hard not to make any mistakes.",
+     "I tried very hard to not making any mistakes.",
+     "I tried very hard don't to make any mistakes."
+    ],
+    "answer": 0,
+    "why": "not + to + verb.",
+    "rule": "14-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Find] an English tutor wasn't difficult.",
+    "options": [
+     "Found an English tutor wasn't difficult.",
+     "Finding an English tutor wasn't difficult.",
+     "To finding an English tutor wasn't difficult."
+    ],
+    "answer": 1,
+    "why": "A subject → gerund.",
+    "rule": "14-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "All of us needed to [went] to the ticket office before the game yesterday.",
+    "options": [
+     "All of us needed to going to the ticket office before the game yesterday.",
+     "All of us needed went to the ticket office before the game yesterday.",
+     "All of us needed to go to the ticket office before the game yesterday."
+    ],
+    "answer": 2,
+    "why": "to + simple form: go.",
+    "rule": "14-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "I'm looking forward to [go to swimming] in the ocean.",
+    "options": [
+     "I'm looking forward to going swimming in the ocean.",
+     "I'm looking forward to go swimming in the ocean.",
+     "I'm looking forward to going to swim in the ocean."
+    ],
+    "answer": 0,
+    "why": "look forward to + going + swimming.",
+    "rule": "14-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Ski] in the Alps [it] was a big thrill for me.",
+    "options": [
+     "Ski in the Alps was a big thrill for me.",
+     "Skiing in the Alps was a big thrill for me.",
+     "Skiing in the Alps it was a big thrill for me."
+    ],
+    "answer": 1,
+    "why": "Gerund subject, no extra it.",
+    "rule": "14-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "Don't keep [to be asking] me the same questions over and over.",
+    "options": [
+     "Don't keep to ask me the same questions over and over.",
+     "Don't keep ask me the same questions over and over.",
+     "Don't keep asking me the same questions over and over."
+    ],
+    "answer": 2,
+    "why": "keep + -ing.",
+    "rule": "14-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "During a fire drill, everyone is required [leaving] the building.",
+    "options": [
+     "During a fire drill, everyone is required to leave the building.",
+     "During a fire drill, everyone is required leave the building.",
+     "During a fire drill, everyone is required for leaving the building."
+    ],
+    "answer": 0,
+    "why": "be required + to + verb.",
+    "rule": "14-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "I don't enjoy [to play] card games. I prefer to spend my time [for read] or watching movies.",
+    "options": [
+     "I don't enjoy playing card games. I prefer to spend my time for reading or watching movies.",
+     "I don't enjoy playing card games. I prefer to spend my time reading or watching movies.",
+     "I don't enjoy to playing card games. I prefer to spend my time to read or watching movies."
+    ],
+    "answer": 1,
+    "why": "enjoy + -ing. spend time + -ing.",
+    "rule": "14-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I entered the room, I found my young son [stand] on the kitchen table.",
+    "options": [
+     "When I entered the room, I found my young son to stand on the kitchen table.",
+     "When I entered the room, I found my young son stood on the kitchen table.",
+     "When I entered the room, I found my young son standing on the kitchen table."
+    ],
+    "answer": 2,
+    "why": "find + person + -ing.",
+    "rule": "14-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "Instead of [work], Katie was lying on her bed [think] about her fiancé.",
+    "options": [
+     "Instead of working, Katie was lying on her bed thinking about her fiancé.",
+     "Instead of working, Katie was lying on her bed to think about her fiancé.",
+     "Instead of to work, Katie was lying on her bed thinking about her fiancé."
+    ],
+    "answer": 0,
+    "why": "instead of + -ing. lie + place + -ing.",
+    "rule": "14-6"
+   }
+  ]
+ }
+}

@@ -1,0 +1,5512 @@
+{
+ "id": "ch10",
+ "num": 10,
+ "title": "Modals, Part 2",
+ "subtitle": "Past modals, certainty, would rather",
+ "icon": "🔮",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "When I was little, I would carry a blanket with me at all times.",
+    "answer": "correct",
+    "why": "would = a repeated past action.",
+    "rule": "10-1"
+   },
+   {
+    "type": "judge",
+    "text": "Nancy's passport has expired. She should have renewed it last month.",
+    "answer": "correct",
+    "why": "should have = a past mistake.",
+    "rule": "10-2"
+   },
+   {
+    "type": "judge",
+    "text": "Sorry I'm late. I must drop my mom off at the mall.",
+    "answer": "wrong",
+    "why": "Past necessity → had to.",
+    "fix": "Sorry I'm late. I had to drop my mom off at the mall.",
+    "rule": "10-2"
+   },
+   {
+    "type": "judge",
+    "text": "Last night the chef at the restaurant could make our favorite dessert.",
+    "answer": "wrong",
+    "why": "One success, one time → was able to.",
+    "fix": "Last night the chef at the restaurant was able to make our favorite dessert.",
+    "rule": "10-3"
+   },
+   {
+    "type": "judge",
+    "text": "Nadine has missed a week of class. She must be really sick.",
+    "answer": "correct",
+    "why": "A strong reason → must be.",
+    "rule": "10-4"
+   },
+   {
+    "type": "judge",
+    "text": "Ryan can't be a doctor! He failed all his exams.",
+    "answer": "correct",
+    "why": "can't = it's impossible.",
+    "rule": "10-5"
+   },
+   {
+    "type": "judge",
+    "text": "I can't find my wallet. It may have fell out of my purse.",
+    "answer": "wrong",
+    "why": "have + past participle: fallen.",
+    "fix": "I can't find my wallet. It may have fallen out of my purse.",
+    "rule": "10-6"
+   },
+   {
+    "type": "judge",
+    "text": "You've trained for months for the race. You should do really well.",
+    "answer": "correct",
+    "why": "should = almost sure about the future.",
+    "rule": "10-7"
+   },
+   {
+    "type": "judge",
+    "text": "Roger jumped when the teacher asked him a question. He must have been daydream.",
+    "answer": "wrong",
+    "why": "have been + -ing: daydreaming.",
+    "fix": "Roger jumped when the teacher asked him a question. He must have been daydreaming.",
+    "rule": "10-8"
+   },
+   {
+    "type": "judge",
+    "text": "We aren't going to be able to catch our plane if we don't get out of this traffic.",
+    "answer": "correct",
+    "why": "be going to + be able to.",
+    "rule": "10-9"
+   },
+   {
+    "type": "judge",
+    "text": "My husband rather cook dinner at home tonight than go out to a restaurant.",
+    "answer": "wrong",
+    "why": "would is missing: would rather cook.",
+    "fix": "My husband would rather cook dinner at home tonight than go out to a restaurant.",
+    "rule": "10-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "10-1",
+   "tag": "10-1",
+   "t": "past",
+   "title": "When I was a child…",
+   "full": "Using Would to Express a Repeated Action in the Past",
+   "lesson": {
+    "title": "Learn: would and used to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "would = again and again, long ago",
+      "lines": [
+       "A repeated action in the past.",
+       "Same meaning as used to."
+      ],
+      "visual": [
+       "simple-past"
+      ],
+      "examples": [
+       {
+        "text": "When I was a child, my father would read me a story at night.",
+        "hl": [
+         [
+          "would read",
+          "past"
+         ]
+        ]
+       },
+       {
+        "text": "When I was a child, my father used to read me a story at night.",
+        "hl": [
+         [
+          "used to read",
+          "past"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Action or state?",
+      "left": {
+       "label": "Repeated action: would ✅ used to ✅",
+       "t": "past",
+       "examples": [
+        {
+         "text": "I would build sandcastles at the beach.",
+         "hl": [
+          [
+           "would build",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "I used to build sandcastles at the beach.",
+         "hl": [
+          [
+           "used to build",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Past state: only used to",
+       "t": "state",
+       "examples": [
+        {
+         "text": "I used to live in California.",
+         "hl": [
+          [
+           "used to live",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "He used to be a Boy Scout.",
+         "hl": [
+          [
+           "used to be",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "They used to have a Ford.",
+         "hl": [
+          [
+           "used to have",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "States: be, live, have, know, like. ❌ They would have a Ford."
+     },
+     {
+      "type": "choice",
+      "text": "They ___ live in the city, but when I was ten, they moved to the coast.",
+      "options": [
+       "would",
+       "used to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "live = a past state → only used to."
+     },
+     {
+      "type": "choice",
+      "text": "Every summer, I ___ visit my grandparents. (repeated action)",
+      "options": [
+       "would",
+       "would to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "would + simple verb."
+     },
+     {
+      "type": "choice",
+      "text": "I ___ know Spanish pretty well, but I've forgotten a lot.",
+      "options": [
+       "would",
+       "used to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "know = a state → only used to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "would + verb = a repeated past action (= used to).",
+     "Past states (be, live, have, know, like): only used to."
+    ],
+    "timeline": [
+     "simple-past"
+    ],
+    "examples": [
+     {
+      "text": "My father would read me a story at night.",
+      "hl": [
+       [
+        "would read",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "I used to live in California.",
+      "hl": [
+       [
+        "used to live",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Visiting my grandparents",
+     "icon": "🌮",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Summers in Mexico",
+       "options": [
+        "Every summer, I would visit my grandparents in Mexico for a month.",
+        "Every summer, I used to visit my grandparents in Mexico for a month."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "visit = a repeated action. Both work.",
+       "ask": "Tick the correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "Where they lived",
+       "options": [
+        "They used to live in the city, but when I was ten, they moved to the coast.",
+        "They would live in the city, but when I was ten, they moved to the coast."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "live = a state → only used to.",
+       "ask": "Tick the correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "Speaking Spanish",
+       "options": [
+        "I used to speak Spanish with them, but now my Spanish is a little rusty.",
+        "I would speak Spanish with them, but now my Spanish is a little rusty."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "speak = a repeated action. Both work.",
+       "ask": "Tick the correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "Knowing Spanish",
+       "options": [
+        "I used to know Spanish pretty well, but I've forgotten a lot of vocabulary.",
+        "I would know Spanish pretty well, but I've forgotten a lot of vocabulary."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "know = a state → only used to.",
+       "ask": "Tick the correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "Saying good-bye",
+       "options": [
+        "I would feel really sad each time I said good-bye.",
+        "I used to feel really sad each time I said good-bye."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "each time = repeated. Both work.",
+       "ask": "Tick the correct sentences"
+      },
+      {
+       "type": "choice",
+       "text": "“I used to build sandcastles.” and “I would build sandcastles.”",
+       "options": [
+        "The same meaning",
+        "Different meanings"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A repeated past action: same meaning."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ be a Boy Scout.",
+       "options": [
+        "would",
+        "used to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be = a state → only used to."
+      },
+      {
+       "type": "choice",
+       "text": "They ___ have a Ford.",
+       "options": [
+        "would",
+        "used to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have (own) = a state → only used to."
+      }
+     ]
+    },
+    {
+     "title": "When I was a child",
+     "icon": "🧒",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I ___ very shy.",
+       "verb": "be",
+       "accept": [
+        "used to be"
+       ],
+       "why": "be = a past state → used to."
+      },
+      {
+       "type": "fill",
+       "text": "Whenever a stranger came to our house, I ___ in a closet.",
+       "verb": "hide",
+       "accept": [
+        "would hide",
+        "used to hide"
+       ],
+       "why": "A repeated action → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "Aunt Ella ___ us often.",
+       "verb": "visit",
+       "accept": [
+        "would visit",
+        "used to visit"
+       ],
+       "why": "A repeated action → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ me a big kiss and pinch my cheek when she first saw me.",
+       "verb": "give",
+       "accept": [
+        "would give",
+        "used to give"
+       ],
+       "why": "A repeated action → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ junk food, but now I avoid it and eat healthy snacks.",
+       "verb": "like",
+       "accept": [
+        "used to like"
+       ],
+       "why": "like = a state → used to."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ afraid of flying.",
+       "verb": "be",
+       "accept": [
+        "used to be"
+       ],
+       "why": "be = a state → used to."
+      },
+      {
+       "type": "fill",
+       "text": "My heart ___ pounding every time I got on a plane.",
+       "verb": "start",
+       "accept": [
+        "would start",
+        "used to start"
+       ],
+       "why": "every time = repeated → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "My friends ___ to ride my new bike, but I never let anyone use it.",
+       "verb": "ask",
+       "accept": [
+        "would ask",
+        "used to ask"
+       ],
+       "why": "A repeated action → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ a flashlight to bed with me so that I could read comic books.",
+       "verb": "take",
+       "accept": [
+        "would take",
+        "used to take"
+       ],
+       "why": "A repeated action → would / used to."
+      }
+     ]
+    },
+    {
+     "title": "Mountains and arrowheads",
+     "icon": "🏕️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My sister ___ in Montana.",
+       "verb": "live",
+       "accept": [
+        "used to live"
+       ],
+       "why": "live = a past state → used to."
+      },
+      {
+       "type": "fill",
+       "text": "When I visited her, we ___ backpacking trips in the mountains.",
+       "verb": "take",
+       "accept": [
+        "would take",
+        "used to take"
+       ],
+       "why": "A repeated action → would / used to."
+      },
+      {
+       "type": "fill",
+       "text": "Every morning, we ___ up to the sound of singing birds.",
+       "verb": "wake",
+       "accept": [
+        "would wake",
+        "used to wake"
+       ],
+       "why": "Every morning = repeated."
+      },
+      {
+       "type": "fill",
+       "text": "During the day, we ___ through meadows and beside mountain lakes.",
+       "verb": "hike",
+       "accept": [
+        "would hike",
+        "used to hike"
+       ],
+       "why": "A repeated action."
+      },
+      {
+       "type": "fill",
+       "text": "Often we ___ deer.",
+       "verb": "see",
+       "accept": [
+        "would see",
+        "used to see"
+       ],
+       "why": "Often = repeated."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ an anthropology major.",
+       "verb": "be",
+       "accept": [
+        "used to be"
+       ],
+       "why": "be = a past state → used to."
+      },
+      {
+       "type": "fill",
+       "text": "Every morning on the expedition, we ___ up before sunrise.",
+       "verb": "get",
+       "accept": [
+        "would get",
+        "used to get"
+       ],
+       "why": "Every morning = repeated."
+      },
+      {
+       "type": "fill",
+       "text": "After breakfast, we ___ our entire day in the field.",
+       "verb": "spend",
+       "accept": [
+        "would spend",
+        "used to spend"
+       ],
+       "why": "A repeated action."
+      },
+      {
+       "type": "fill",
+       "text": "Sometimes one of us ___ an interesting item, such as an arrowhead.",
+       "verb": "find",
+       "accept": [
+        "would find",
+        "used to find"
+       ],
+       "why": "Sometimes = repeated."
+      },
+      {
+       "type": "fill",
+       "text": "Then other members of the group ___ around to see it.",
+       "verb": "gather",
+       "accept": [
+        "would gather",
+        "used to gather"
+       ],
+       "why": "A repeated action."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My childhood",
+     "task": "Tell Claude 5 things about your childhood with “I used to…” and “I would…”.",
+     "claudePrompt": "You are my English speaking partner. Ask me about my childhood, one question at a time: Where did you use to live? What were you like as a child? What would you do every summer? What would you do after school? What did you use to be afraid of? I answer with used to for past states (be, live, have, like) and would or used to for repeated actions. Check that I never use would with a state verb."
+    }
+   ]
+  },
+  {
+   "id": "10-2",
+   "tag": "10-2",
+   "t": "pastperf",
+   "title": "Should have…",
+   "full": "Expressing the Past: Necessity, Advisability, Expectation",
+   "lesson": {
+    "title": "Learn: modals in the past",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "The past is had to",
+      "lines": [
+       "Only one past form for necessity."
+      ],
+      "chips": [
+       "Julia has to get a visa. → Julia had to get a visa.",
+       "must get → had to get",
+       "has got to get → had to get"
+      ],
+      "tip": "❌ Sorry I'm late. I must drop my mom off. ✅ I had to drop my mom off."
+     },
+     {
+      "type": "choice",
+      "text": "Sorry I'm late. I ___ drop my mom off at the mall.",
+      "options": [
+       "must",
+       "had to",
+       "must have"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Past necessity → had to."
+     },
+     {
+      "type": "learn",
+      "title": "should have = a mistake",
+      "lines": [
+       "should have + past participle.",
+       "It was a good idea, but I didn't do it."
+      ],
+      "visual": [
+       "modal-past"
+      ],
+      "examples": [
+       {
+        "text": "I failed the test. I should have studied for it.",
+        "hl": [
+         [
+          "should have studied",
+          "pastperf"
+         ]
+        ]
+       },
+       {
+        "text": "I shouldn't have gone to the movies the night before.",
+        "hl": [
+         [
+          "shouldn't have gone",
+          "pastperf"
+         ]
+        ]
+       }
+      ],
+      "tip": "It sounds like “should-a”."
+     },
+     {
+      "type": "choice",
+      "text": "“I should have studied.” Did the speaker study?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "should have = it didn't happen."
+     },
+     {
+      "type": "learn",
+      "title": "was supposed to = it didn't happen",
+      "lines": [
+       "A plan or duty that failed."
+      ],
+      "chips": [
+       "We are supposed to leave now.",
+       "We were supposed to leave last week. (but we didn't)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "should have = I expected it",
+      "lines": [
+       "It was expected by now."
+      ],
+      "chips": [
+       "The mail should be here.",
+       "The mail should have been here by now."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“We were supposed to have a party last weekend.” What happened?",
+      "options": [
+       "We had a party.",
+       "We didn't have a party."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "was / were supposed to = it didn't happen."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Past necessity: had to. Past advice: should have + past participle (but I didn't).",
+     "was / were supposed to: an expectation that didn't happen."
+    ],
+    "timeline": [
+     "modal-past"
+    ],
+    "examples": [
+     {
+      "text": "Julia had to get a visa.",
+      "hl": [
+       [
+        "had to get",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I should have studied for the test.",
+      "hl": [
+       [
+        "should have studied",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "We were supposed to leave last week.",
+      "hl": [
+       [
+        "were supposed to leave",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Yesterday I had to…",
+     "icon": "🛂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "How was your weekend?",
+       "options": [
+        "Not fun. I had to clean my house.",
+        "Not fun. I must have cleaned my house."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past necessity → had to."
+      },
+      {
+       "type": "fill",
+       "text": "I have to leave now. → I ___ yesterday.",
+       "verb": "past",
+       "accept": [
+        "had to leave"
+       ],
+       "why": "Past of have to → had to."
+      },
+      {
+       "type": "fill",
+       "text": "They've got to get new passports. → They ___ new passports last week.",
+       "verb": "past",
+       "accept": [
+        "had to get"
+       ],
+       "why": "Past of have got to → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Nelson must have surgery. → Nelson ___ surgery last Monday.",
+       "verb": "past",
+       "accept": [
+        "had to have"
+       ],
+       "why": "Past of must (necessity) → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Do you have to retake the test? → ___ the test this morning?",
+       "verb": "past",
+       "accept": [
+        "Did you have to retake"
+       ],
+       "why": "Past question: Did + have to."
+      },
+      {
+       "type": "fill",
+       "text": "When do we have to register to vote? → When ___ to vote for this election?",
+       "verb": "past",
+       "accept": [
+        "did we have to register"
+       ],
+       "why": "Past question: did + have to."
+      },
+      {
+       "type": "fill",
+       "text": "Why does it have to rain on our vacation? → Why ___ on our vacation?",
+       "verb": "past",
+       "accept": [
+        "did it have to rain"
+       ],
+       "why": "Past question: did + have to."
+      }
+     ]
+    },
+    {
+     "title": "What did they have to do?",
+     "icon": "🏊",
+     "items": [
+      {
+       "type": "fill",
+       "text": "John signed up for the trip after September 1st. He ___ a late fee.",
+       "verb": "pay",
+       "accept": [
+        "had to pay"
+       ],
+       "why": "Past necessity → had to pay."
+      },
+      {
+       "type": "fill",
+       "text": "Swimmers must shower before they enter the pool. Susie ___ a shower first.",
+       "verb": "take",
+       "accept": [
+        "had to take"
+       ],
+       "why": "Past necessity → had to."
+      },
+      {
+       "type": "fill",
+       "text": "The plane was late. Sanji ___ at the airport for three hours.",
+       "verb": "wait",
+       "accept": [
+        "had to wait"
+       ],
+       "why": "Past necessity → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Mila needed 75%, but she got 70%. She ___ her research paper.",
+       "verb": "rewrite",
+       "accept": [
+        "had to rewrite"
+       ],
+       "why": "Past necessity → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Before Jacob got the car, he ___ a contract.",
+       "verb": "sign",
+       "accept": [
+        "had to sign"
+       ],
+       "why": "Past necessity → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Ali's mom told him to get up early, but he overslept. He ___ up early.",
+       "verb": "be supposed to / get",
+       "accept": [
+        "was supposed to get"
+       ],
+       "why": "Expected, but it didn't happen."
+      },
+      {
+       "type": "fill",
+       "text": "Ray's boss expected him to work overtime, but his family got sick. Ray ___ overtime.",
+       "verb": "be supposed to / work",
+       "accept": [
+        "was supposed to work"
+       ],
+       "why": "Expected, but it didn't happen."
+      },
+      {
+       "type": "fill",
+       "text": "The textbooks arrived without exams. The books ___ exams.",
+       "verb": "be supposed to / have",
+       "accept": [
+        "were supposed to have"
+       ],
+       "why": "books = they → were supposed to."
+      },
+      {
+       "type": "fill",
+       "text": "Vivian's alarm didn't go off. She ___ up at 5:00 A.M.",
+       "verb": "be supposed to / get",
+       "accept": [
+        "was supposed to get"
+       ],
+       "why": "Expected, but it didn't happen."
+      }
+     ]
+    },
+    {
+     "title": "I made a mistake",
+     "icon": "🪰",
+     "items": [
+      {
+       "type": "fill",
+       "text": "You are cold because you didn't wear a coat. → I ___ a coat.",
+       "verb": "wear",
+       "accept": [
+        "should have worn"
+       ],
+       "why": "It was a good idea, but I didn't."
+      },
+      {
+       "type": "fill",
+       "text": "The room is full of flies because you opened the window. → I ___ the window.",
+       "verb": "open",
+       "accept": [
+        "shouldn't have opened"
+       ],
+       "why": "It was a bad idea → shouldn't have."
+      },
+      {
+       "type": "fill",
+       "text": "You don't have any food because you didn't go to the store. → I ___ to the grocery store.",
+       "verb": "go",
+       "accept": [
+        "should have gone"
+       ],
+       "why": "should have + past participle: gone."
+      },
+      {
+       "type": "fill",
+       "text": "You bought candy with peanuts, and your friend is allergic. → I ___ that candy.",
+       "verb": "buy",
+       "accept": [
+        "shouldn't have bought"
+       ],
+       "why": "A bad idea → shouldn't have bought."
+      },
+      {
+       "type": "fill",
+       "text": "Your friend is upset because you didn't return his call. → I ___ his call.",
+       "verb": "return",
+       "accept": [
+        "should have returned"
+       ],
+       "why": "A good idea, but I didn't."
+      },
+      {
+       "type": "fill",
+       "text": "Your friend is upset because you ignored his call. → I ___ his call.",
+       "verb": "ignore",
+       "accept": [
+        "shouldn't have ignored"
+       ],
+       "why": "A bad idea → shouldn't have."
+      },
+      {
+       "type": "choice",
+       "text": "Tom didn't study, so he cheated during the exam.",
+       "options": [
+        "Tom should have studied for the test.",
+        "Tom should study for the test last week."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past mistake → should have studied.",
+       "ask": "What should Tom have done?"
+      },
+      {
+       "type": "choice",
+       "text": "The teacher warned Tom, but he continued to cheat.",
+       "options": [
+        "He shouldn't have continued.",
+        "He shouldn't continued."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "shouldn't have + past participle.",
+       "ask": "Choose the correct sentence"
+      }
+     ]
+    },
+    {
+     "title": "It was supposed to…",
+     "icon": "✈️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The flight was supposed to be quick, but…",
+       "options": [
+        "ice on the runway caused a delay.",
+        "they lost it.",
+        "it rained all week."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It wasn't quick: a delay.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "The hotel was supposed to give us a nonsmoking room, but…",
+       "options": [
+        "he stayed out until the early morning.",
+        "they put us on the wrong floor.",
+        "they surprised us."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The wrong floor = a smoking room.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "The weather should have been beautiful for our vacation, but…",
+       "options": [
+        "it rained all week.",
+        "they lost it.",
+        "we haven't noticed any changes."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Expected sun, got rain.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "My parents weren't supposed to visit last weekend, but…",
+       "options": [
+        "they put us on the wrong floor.",
+        "they surprised us.",
+        "it rained all week."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They came anyway: a surprise.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "Tyler should have been home at midnight, but…",
+       "options": [
+        "he stayed out until the early morning.",
+        "they lost it.",
+        "management chose someone else."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He came home late.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "The pharmacy should have had a prescription ready for me, but…",
+       "options": [
+        "they surprised us.",
+        "it rained all week.",
+        "they lost it."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No prescription: they lost it.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "The cafeteria was supposed to begin serving healthier meals, but…",
+       "options": [
+        "we haven't noticed any changes.",
+        "ice on the runway caused a delay.",
+        "he stayed out late."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Nothing changed.",
+       "ask": "Choose the ending"
+      },
+      {
+       "type": "choice",
+       "text": "Tom was supposed to get a promotion to manager, but…",
+       "options": [
+        "they put us on the wrong floor.",
+        "management chose someone from outside the company.",
+        "it rained all week."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He didn't get the job.",
+       "ask": "Choose the ending"
+      }
+     ]
+    },
+    {
+     "title": "It should have… (with listening)",
+     "icon": "📦",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My package isn't here. I expected it yesterday. It ___ yesterday.",
+       "verb": "come",
+       "accept": [
+        "should have come"
+       ],
+       "why": "Expected in the past → should have come."
+      },
+      {
+       "type": "fill",
+       "text": "The plane's arrival time was 2:00. It's 3:00. The plane ___ by now.",
+       "verb": "land",
+       "accept": [
+        "should have landed"
+       ],
+       "why": "Expected by now → should have landed."
+      },
+      {
+       "type": "fill",
+       "text": "We asked for a taxi an hour ago. A taxi ___ us up already.",
+       "verb": "pick",
+       "accept": [
+        "should have picked"
+       ],
+       "why": "Expected by now → should have picked."
+      },
+      {
+       "type": "fill",
+       "text": "I returned a purchase on the 1st. Now it's the 25th. I ___ my refund by now.",
+       "verb": "get",
+       "accept": [
+        "should have gotten",
+        "should have got"
+       ],
+       "why": "Expected by now → should have gotten."
+      },
+      {
+       "type": "fill",
+       "text": "It's 12:30. I expect the race was over at noon. It ___ a half hour ago.",
+       "verb": "finish",
+       "accept": [
+        "should have finished"
+       ],
+       "why": "Expected → should have finished."
+      },
+      {
+       "type": "listen",
+       "say": "I should have run a spell-check on my final paper.",
+       "ask": "Which is true?",
+       "options": [
+        "I ran a spell-check.",
+        "I didn't run a spell-check."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should have = I didn't do it."
+      },
+      {
+       "type": "listen",
+       "say": "He shouldn't have had that last cup of coffee.",
+       "ask": "Which is true?",
+       "options": [
+        "He still needs more coffee.",
+        "He had too much coffee."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "shouldn't have = he did it. A mistake."
+      },
+      {
+       "type": "listen",
+       "say": "She should have saved her money.",
+       "ask": "Which is true?",
+       "options": [
+        "She saved her money.",
+        "She didn't save her money."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should have = she didn't."
+      },
+      {
+       "type": "listen",
+       "say": "I shouldn't have gone to that doctor.",
+       "ask": "Which is true?",
+       "options": [
+        "I didn't go to the doctor.",
+        "It was a bad idea to go to the doctor."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "shouldn't have gone = I went. Bad idea."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What should Tom have done?",
+     "task": "Tom cheated on a test and was suspended. Tell Claude what Tom, the teacher and the school should have done.",
+     "claudePrompt": "You are my English speaking partner. Situation: Tom didn't study for the test. During the exam he looked at other students' papers. The teacher warned him once, but he continued. She took his paper, failed him, and the school suspended him for a week. Ask me: What should or shouldn't Tom have done? What should or shouldn't the teacher have done? What should or shouldn't the school have done? Check that I use should(n't) have + past participle."
+    }
+   ]
+  },
+  {
+   "id": "10-3",
+   "tag": "10-3",
+   "t": "pres",
+   "title": "I could, I was able to",
+   "full": "Expressing Past Ability",
+   "lesson": {
+    "title": "Learn: past ability",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Past of can",
+      "lines": [
+       "could = was / were able to (general ability)."
+      ],
+      "chips": [
+       "I can speak Farsi. → I could speak Farsi ten years ago.",
+       "I am able to… → I was able to…"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "General ability vs. one success",
+      "left": {
+       "label": "A general ability: could ✅ was able to ✅",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "When I was younger, I could hold my breath for three minutes.",
+         "hl": [
+          [
+           "could hold",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "One success, one time: was able to / simple past",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Maya was able to do well on her exam.",
+         "hl": [
+          [
+           "was able to do",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "Maya did well on her exam.",
+         "hl": [
+          [
+           "did",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "❌ Last week, Maya could do well on her exam."
+     },
+     {
+      "type": "choice",
+      "text": "Last night the chef ___ make our favorite dessert.",
+      "options": [
+       "could",
+       "was able to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "One success, one time → was able to."
+     },
+     {
+      "type": "learn",
+      "title": "Negative: both are fine",
+      "lines": [
+       "couldn't = wasn't able to, even for one time."
+      ],
+      "chips": [
+       "Maya couldn't do well on the test.",
+       "Maya wasn't able to do well on the test."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ do anything last week! I had the flu.",
+      "options": [
+       "couldn't",
+       "could"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Negative → couldn't is fine."
+     },
+     {
+      "type": "learn",
+      "title": "See, hear, remember: could is OK",
+      "lines": [
+       "With sense and mind verbs, could works for one time too."
+      ],
+      "chips": [
+       "I could hear music next door last night.",
+       "I could understand everything she said."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "General past ability: could / was able to.",
+     "One success, one time: was able to (not could). Negative: couldn't is fine."
+    ],
+    "timeline": [
+     "simple-past"
+    ],
+    "examples": [
+     {
+      "text": "I could speak Farsi ten years ago.",
+      "hl": [
+       [
+        "could speak",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Maya was able to do well on her exam.",
+      "hl": [
+       [
+        "was able to do",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "One time or in general?",
+     "icon": "🫁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Did you sleep during the flight?",
+       "options": [
+        "Yes, I was able to fly business class.",
+        "Yes, I could fly business class.",
+        "No, I couldn't relax.",
+        "No, I wasn't able to relax."
+       ],
+       "answer": [
+        0,
+        2,
+        3
+       ],
+       "why": "One success → was able to. Negative: both.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "Most students were able to finish the test in under an hour.",
+       "options": [
+        "One action, one time",
+        "A general ability in the past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One test, one time.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "When I was younger, I was able to hold my breath underwater for three minutes.",
+       "options": [
+        "One action, one time",
+        "A general ability in the past"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A general ability at that age.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "We were able to help take care of our grandkids last weekend.",
+       "options": [
+        "One action, one time",
+        "A general ability in the past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Last weekend = one time.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "When my father was a child, he was able to do complex problems in his head.",
+       "options": [
+        "One action, one time",
+        "A general ability in the past"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A general ability as a child.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "I was able to give my speech last night without sounding nervous.",
+       "options": [
+        "One action, one time",
+        "A general ability in the past"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Last night = one time.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "Most students ___ the test in under an hour.",
+       "options": [
+        "finished",
+        "could finish"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One success → simple past (or was able to)."
+      },
+      {
+       "type": "choice",
+       "text": "When I was younger, I ___ hold my breath for three minutes.",
+       "options": [
+        "could",
+        "can"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general past ability → could."
+      }
+     ]
+    },
+    {
+     "title": "could or was able to?",
+     "icon": "🌳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When I was a child, I ___ spend hours climbing trees.",
+       "options": [
+        "could",
+        "was able to"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A general past ability. Both work.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "Jackson's very intelligent. He ___ read by the time he was three.",
+       "options": [
+        "could",
+        "was able to"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A general past ability. Both work.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ do anything last week! I had the flu.",
+       "options": [
+        "couldn't",
+        "wasn't able to"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Negative. Both work.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ talk briefly with your college advisor. She's very nice.",
+       "options": [
+        "could",
+        "was able to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One success, one time → was able to.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "We were late, but we ___ catch the train. It was also late.",
+       "options": [
+        "could",
+        "were able to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One success, one time → were able to.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "Last week, Maya ___ do well on her exam.",
+       "options": [
+        "could",
+        "was able to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One success → was able to."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ hear music from next door last night.",
+       "options": [
+        "could",
+        "can"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Sense verb, past → could is fine."
+      }
+     ]
+    },
+    {
+     "title": "Say it another way",
+     "icon": "🗣️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Most students were able to finish the test. → Most students ___ the test.",
+       "verb": "simple past",
+       "accept": [
+        "finished"
+       ],
+       "why": "One success → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "We were able to help take care of our grandkids. → We ___ take care of our grandkids.",
+       "verb": "simple past",
+       "accept": [
+        "helped"
+       ],
+       "why": "One success → simple past."
+      },
+      {
+       "type": "fill",
+       "text": "I was able to give my speech without sounding nervous. → I ___ my speech without sounding nervous.",
+       "verb": "simple past",
+       "accept": [
+        "gave"
+       ],
+       "why": "give → gave."
+      },
+      {
+       "type": "fill",
+       "text": "I was able to hold my breath for three minutes. → I ___ my breath for three minutes.",
+       "verb": "could",
+       "accept": [
+        "could hold"
+       ],
+       "why": "A general ability → could."
+      },
+      {
+       "type": "fill",
+       "text": "He was able to do complex problems in his head. → He ___ complex problems in his head.",
+       "verb": "could",
+       "accept": [
+        "could do"
+       ],
+       "why": "A general ability → could."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10-4",
+   "tag": "10-4",
+   "t": "pastprog",
+   "title": "How sure are you?",
+   "full": "Degrees of Certainty: Present Time",
+   "lesson": {
+    "title": "Learn: must be, may be, might be",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three levels of sure",
+      "lines": [
+       "A fact needs no modal.",
+       "must = I'm almost sure. may / might / could = maybe."
+      ],
+      "visual": [
+       "certainty"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "must = my best guess",
+      "lines": [
+       "I have a good reason. I can't think of another answer."
+      ],
+      "chips": [
+       "Nadine has missed a week of class. She must be really sick."
+      ],
+      "examples": [
+       {
+        "text": "Why isn't John in class? He must be sick.",
+        "hl": [
+         [
+          "must be",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Maybe: may, might, could",
+      "lines": [
+       "I don't really know."
+      ],
+      "chips": [
+       "He may be sick.",
+       "He might be at the library.",
+       "He could be out of town."
+      ],
+      "tip": "maybe (one word) = perhaps: Maybe he is sick. may be (two words) = a verb: He may be sick."
+     },
+     {
+      "type": "choice",
+      "text": "Alice always gets the best grades in the class. She ___ study hard.",
+      "options": [
+       "must",
+       "might"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A strong reason → my best guess: must."
+     },
+     {
+      "type": "choice",
+      "text": "Where's Ms. Adams? — I don't know. She ___ be at a meeting, or maybe she's in the lounge.",
+      "options": [
+       "must",
+       "may"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "I don't know. One idea of two → may."
+     },
+     {
+      "type": "learn",
+      "title": "Not can!",
+      "lines": [
+       "can is not for guessing."
+      ],
+      "chips": [
+       "❌ He can be sick.",
+       "✅ He could be sick.",
+       "✅ He may be sick."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "100%: He is sick. 95%: He must be sick. 50% or less: He may / might / could be sick.",
+     "Don't use can for a guess."
+    ],
+    "timeline": [
+     "certainty"
+    ],
+    "examples": [
+     {
+      "text": "He must be sick.",
+      "hl": [
+       [
+        "must be",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "He might be at the library.",
+      "hl": [
+       [
+        "might be",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Whose hat is it?",
+     "icon": "🎩",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Max thinks the hat looks familiar, but he's not certain whose it is.",
+       "options": [
+        "“It is Joe Green's hat.”",
+        "“It could belong to Joe Green. It might be Al Goldberg's.”",
+        "“It must be Joe Green's hat.”"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not certain → could / might.",
+       "ask": "What is Max thinking?"
+      },
+      {
+       "type": "choice",
+       "text": "Max thinks he recognizes the hat. He's almost sure he knows the owner.",
+       "options": [
+        "“It is Joe Green's hat.”",
+        "“It could belong to Joe Green.”",
+        "“It must be Joe Green's hat.”"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Almost sure → must.",
+       "ask": "What is Max thinking?"
+      },
+      {
+       "type": "choice",
+       "text": "Max knows exactly whose hat it is.",
+       "options": [
+        "“It is Joe Green's hat.”",
+        "“It might be Joe Green's hat.”",
+        "“It must be Joe Green's hat.”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A fact → no modal.",
+       "ask": "What is Max thinking?"
+      },
+      {
+       "type": "choice",
+       "text": "He is sick.",
+       "options": [
+        "100% sure",
+        "95% sure",
+        "50% sure or less"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No modal = a fact.",
+       "ask": "How sure is the speaker?"
+      },
+      {
+       "type": "choice",
+       "text": "He must be sick.",
+       "options": [
+        "100% sure",
+        "95% sure",
+        "50% sure or less"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "must = almost sure.",
+       "ask": "How sure is the speaker?"
+      },
+      {
+       "type": "choice",
+       "text": "He might be sick.",
+       "options": [
+        "100% sure",
+        "95% sure",
+        "50% sure or less"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "might = maybe.",
+       "ask": "How sure is the speaker?"
+      },
+      {
+       "type": "choice",
+       "text": "He could be sick.",
+       "options": [
+        "100% sure",
+        "95% sure",
+        "50% sure or less"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "could = maybe.",
+       "ask": "How sure is the speaker?"
+      },
+      {
+       "type": "choice",
+       "text": "___ he is sick.",
+       "options": [
+        "Maybe",
+        "May be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One word = perhaps."
+      }
+     ]
+    },
+    {
+     "title": "Make a guess",
+     "icon": "🥱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Your daughter graduated from law school and your son got a scholarship. You ___ of them.",
+       "options": [
+        "must be very proud",
+        "might be very proud"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A very good reason → must."
+      },
+      {
+       "type": "choice",
+       "text": "May I speak to Ron? — I'm sorry. There's no one here by that name. You ___.",
+       "options": [
+        "must have the wrong number",
+        "can have the wrong number"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The only explanation → must."
+      },
+      {
+       "type": "choice",
+       "text": "This jacket is probably too small for Danny too, but it ___.",
+       "options": [
+        "must fit Jimmy",
+        "might fit Jimmy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not sure → might."
+      },
+      {
+       "type": "choice",
+       "text": "You haven't seen your family for more than a year. You ___.",
+       "options": [
+        "must miss them very much",
+        "could miss them very much"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A natural conclusion → must."
+      },
+      {
+       "type": "choice",
+       "text": "The students are yawning.",
+       "options": [
+        "They must be tired.",
+        "They must be hungry."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Yawning → tired or bored.",
+       "ask": "Choose the best guess"
+      },
+      {
+       "type": "choice",
+       "text": "Carol has goose bumps on her arms.",
+       "options": [
+        "She must be cold.",
+        "She must be sleepy."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Goose bumps → cold.",
+       "ask": "Choose the best guess"
+      },
+      {
+       "type": "choice",
+       "text": "Lisa's stomach is growling.",
+       "options": [
+        "She must be angry.",
+        "She must be hungry."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A growling stomach → hungry.",
+       "ask": "Choose the best guess"
+      },
+      {
+       "type": "choice",
+       "text": "The bride is crying.",
+       "options": [
+        "She must be very happy.",
+        "She must be late."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tears at a wedding → happy.",
+       "ask": "Choose the best guess"
+      },
+      {
+       "type": "choice",
+       "text": "The fans are jumping up and down and clapping.",
+       "options": [
+        "Their team must be winning.",
+        "Their team must be losing."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Cheering → winning.",
+       "ask": "Choose the best guess"
+      },
+      {
+       "type": "choice",
+       "text": "Eliza is sneezing.",
+       "options": [
+        "She must have a cold.",
+        "She must be bored."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Sneezing → a cold or an allergy.",
+       "ask": "Choose the best guess"
+      }
+     ]
+    },
+    {
+     "title": "I don't know, but…",
+     "icon": "🎒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Amy's grammar book isn't on her desk. Where is it? — I don't know. It ___ in her backpack.",
+       "options": [
+        "might be",
+        "must be",
+        "is"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I don't know → might."
+      },
+      {
+       "type": "choice",
+       "text": "I can't find my wallet. — It ___ in your other jacket. Did you look?",
+       "options": [
+        "could be",
+        "can be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess → could, not can."
+      },
+      {
+       "type": "fill",
+       "text": "Jim is eating everything in the salad but the onions. He ___ onions.",
+       "verb": "must / like / not",
+       "accept": [
+        "must not like",
+        "mustn't like"
+       ],
+       "why": "A logical guess, negative → must not like."
+      },
+      {
+       "type": "fill",
+       "text": "We came at 7:00 and we've been here at least an hour. It ___ around 8:00.",
+       "verb": "must / be",
+       "accept": [
+        "must be"
+       ],
+       "why": "A logical guess → must be."
+      },
+      {
+       "type": "fill",
+       "text": "When I asked him a question in English, he just smiled. He ___ much English.",
+       "verb": "must / speak / not",
+       "accept": [
+        "must not speak",
+        "mustn't speak"
+       ],
+       "why": "A logical guess, negative."
+      },
+      {
+       "type": "fill",
+       "text": "Mr. Rock? Oh, you ___ Mr. Stone.",
+       "verb": "must / mean",
+       "accept": [
+        "must mean"
+       ],
+       "why": "A logical guess → must mean."
+      },
+      {
+       "type": "fill",
+       "text": "The buzzing is coming from the fridge. Something ___ wrong with the motor.",
+       "verb": "must / be",
+       "accept": [
+        "must be"
+       ],
+       "why": "A logical guess → must be."
+      },
+      {
+       "type": "judge",
+       "text": "Nadine has missed a week of class. She must be really sick.",
+       "answer": "correct",
+       "why": "A strong reason → must be."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Why? Make a guess",
+     "task": "Claude describes someone. You guess why with “must”: “She must be cold.”",
+     "claudePrompt": "You are my English speaking partner. Describe one situation at a time and ask Why?: Carol has goose bumps on her arms. / Bob is scratching his arm. / Yusef is staring off into space. / Katrina is blushing. / The baby is crying. / My neighbor is carrying a suitcase. I make a logical guess with must (She must be cold.). Sometimes ask me something I can't know (What do I have in my bag?) so that I answer with 'I don't know. It may / might / could be ...'. Check the forms."
+    }
+   ]
+  },
+  {
+   "id": "10-5",
+   "tag": "10-5",
+   "t": "pastprog",
+   "title": "It can't be true!",
+   "full": "Degrees of Certainty: Present Time Negative",
+   "lesson": {
+    "title": "Learn: can't be, must not be, may not be",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Four levels of “no”",
+      "lines": [
+       "can't / couldn't = impossible!",
+       "must not = probably not. may not / might not = maybe not."
+      ],
+      "visual": [
+       "certainty-neg"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Impossible, or my best guess?",
+      "left": {
+       "label": "can't / couldn't: I don't believe it",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Sam can't be hungry. I just saw him eat a huge meal.",
+         "hl": [
+          [
+           "can't be",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "must not: a logical guess",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "Sam isn't eating his food. He must not be hungry.",
+         "hl": [
+          [
+           "must not be",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "may not / might not: just one possibility. Maybe he doesn't feel well."
+     },
+     {
+      "type": "choice",
+      "text": "Ryan ___ be a doctor! He failed all his exams.",
+      "options": [
+       "can't",
+       "may not"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Impossible! → can't."
+     },
+     {
+      "type": "choice",
+      "text": "Rosa doesn't want water, coffee, or a soft drink. She ___ be thirsty.",
+      "options": [
+       "must not",
+       "can't not"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A logical guess → must not."
+     },
+     {
+      "type": "choice",
+      "text": "Daniel hasn't answered my text. He ___ have his phone with him. I'm not sure.",
+      "options": [
+       "might not",
+       "can't"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Just one possibility → might not."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "can't / couldn't be = impossible. must not be = probably not.",
+     "may not / might not be = maybe not."
+    ],
+    "timeline": [
+     "certainty-neg"
+    ],
+    "examples": [
+     {
+      "text": "Sam can't be hungry. He just ate.",
+      "hl": [
+       [
+        "can't be",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "He must not be hungry.",
+      "hl": [
+       [
+        "must not be",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "He may not be hungry.",
+      "hl": [
+       [
+        "may not be",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Who is how sure?",
+     "icon": "🏝️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Rob says, “That isn't true.”",
+       "options": [
+        "Absolutely certain (100%)",
+        "Almost certain: it's impossible",
+        "Has an open mind"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No modal = 100% sure.",
+       "ask": "How sure is this person?",
+       "ctx": "Someone said Ed quit his job and moved to a Pacific island."
+      },
+      {
+       "type": "choice",
+       "text": "Hamid says, “That can't be true.”",
+       "options": [
+        "Absolutely certain (100%)",
+        "Almost certain: it's impossible",
+        "Has an open mind"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't = I believe it's impossible.",
+       "ask": "How sure is this person?"
+      },
+      {
+       "type": "choice",
+       "text": "Lucy says, “That may not be true.”",
+       "options": [
+        "Absolutely certain (100%)",
+        "Almost certain: it's impossible",
+        "Has an open mind"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "may not = maybe, maybe not.",
+       "ask": "How sure is this person?"
+      },
+      {
+       "type": "choice",
+       "text": "Linda says, “That must not be true.”",
+       "options": [
+        "A logical guess (95%)",
+        "Just one possibility (50%)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "must not = probably not.",
+       "ask": "How sure is this person?"
+      },
+      {
+       "type": "sort",
+       "word": "Sam can't be hungry.",
+       "buckets": [
+        "Impossible!",
+        "Probably not",
+        "Maybe not"
+       ],
+       "answer": 0,
+       "why": "can't = impossible."
+      },
+      {
+       "type": "sort",
+       "word": "Sam must not be hungry.",
+       "buckets": [
+        "Impossible!",
+        "Probably not",
+        "Maybe not"
+       ],
+       "answer": 1,
+       "why": "must not = a logical guess."
+      },
+      {
+       "type": "sort",
+       "word": "Sam might not be hungry.",
+       "buckets": [
+        "Impossible!",
+        "Probably not",
+        "Maybe not"
+       ],
+       "answer": 2,
+       "why": "might not = one possibility."
+      },
+      {
+       "type": "sort",
+       "word": "Sam couldn't be hungry.",
+       "buckets": [
+        "Impossible!",
+        "Probably not",
+        "Maybe not"
+       ],
+       "answer": 0,
+       "why": "couldn't = impossible."
+      },
+      {
+       "type": "sort",
+       "word": "Sam may not be hungry.",
+       "buckets": [
+        "Impossible!",
+        "Probably not",
+        "Maybe not"
+       ],
+       "answer": 2,
+       "why": "may not = one possibility."
+      }
+     ]
+    },
+    {
+     "title": "It couldn't be!",
+     "icon": "🐺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Someone left this jacket here. I think it belongs to Alex. — It couldn't belong to him.",
+       "options": [
+        "He never wears jackets like that. It's much too small.",
+        "He loves that jacket."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "couldn't = impossible, so give a strong reason.",
+       "ask": "Choose the reason"
+      },
+      {
+       "type": "choice",
+       "text": "Someone told me that Karen is in Norway. — She couldn't be in Norway.",
+       "options": [
+        "I just saw her five minutes ago.",
+        "She likes cold weather."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A strong reason why it's impossible.",
+       "ask": "Choose the reason"
+      },
+      {
+       "type": "choice",
+       "text": "Look at that animal. Is it a wolf? — It couldn't be a wolf.",
+       "options": [
+        "Wolves are gray.",
+        "There are no wolves in this country."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A strong reason why it's impossible.",
+       "ask": "Choose the reason"
+      },
+      {
+       "type": "choice",
+       "text": "Yuko has flunked every test so far. She (95% sure) ___ very hard.",
+       "options": [
+        "must not study",
+        "might not study"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "95% → must not."
+      },
+      {
+       "type": "choice",
+       "text": "Tarek's been in bed all day. He (50% sure) ___ well.",
+       "options": [
+        "must not feel",
+        "may not feel"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "50% → may not / might not."
+      },
+      {
+       "type": "choice",
+       "text": "Rosa doesn't want anything to drink. She (95% sure) ___ thirsty.",
+       "options": [
+        "must not be",
+        "might not be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "95% → must not."
+      },
+      {
+       "type": "choice",
+       "text": "Daniel hasn't answered my text. He (50% sure) ___ his phone with him.",
+       "options": [
+        "must not have",
+        "might not have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "50% → might not."
+      },
+      {
+       "type": "choice",
+       "text": "Mrs. Garcia seems very lonely. She (95% sure) ___ many friends.",
+       "options": [
+        "must not have",
+        "may not have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "95% → must not."
+      },
+      {
+       "type": "choice",
+       "text": "George almost hit a cat and a tree. His eyesight (50% sure) ___ very good.",
+       "options": [
+        "can't be",
+        "may not be"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "50% → may not."
+      }
+     ]
+    },
+    {
+     "title": "The lights went out",
+     "icon": "🔦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The power suddenly went out. — It ___ the wind. The weather is very calm.",
+       "options": [
+        "couldn't be",
+        "must be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No wind → impossible: couldn't be.",
+       "ctx": "You are at home in the evening."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ a problem with the whole neighborhood. Let's look outside.",
+       "options": [
+        "might be",
+        "can be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess → might, not can."
+      },
+      {
+       "type": "choice",
+       "text": "The neighbors' lights are on. So it ___ the whole neighborhood.",
+       "options": [
+        "must not be",
+        "must be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A logical guess, negative → must not be."
+      },
+      {
+       "type": "choice",
+       "text": "We used the oven, the heater, and the dryer at the same time. It ___ a blown fuse.",
+       "options": [
+        "must be",
+        "may not be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A strong reason → must be."
+      },
+      {
+       "type": "choice",
+       "text": "Is someone in the basement? — It ___ a burglar. All the doors are locked.",
+       "options": [
+        "can't be",
+        "might be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Impossible → can't be."
+      },
+      {
+       "type": "judge",
+       "text": "Ryan can't be a doctor! He failed all his exams.",
+       "answer": "correct",
+       "why": "can't = it's impossible."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "The power is out",
+     "task": "The lights go out at home, with no wind. Talk with Claude about what may, must or couldn't be the cause.",
+     "claudePrompt": "You are my English speaking partner. Role-play: we are at home in the evening and the power suddenly goes out. The weather is calm. Start by sounding a little afraid and ask 'What could it be?'. I make guesses with may / might / could be, reject ideas with couldn't be or can't be (and give a reason), and reach a logical conclusion with must be. Offer your own ideas too. Check my modals of certainty."
+    }
+   ]
+  },
+  {
+   "id": "10-6",
+   "tag": "10-6",
+   "t": "pastperf",
+   "title": "It must have been…",
+   "full": "Degrees of Certainty: Past Time",
+   "lesson": {
+    "title": "Learn: guessing about the past",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Guess about the past",
+      "lines": [
+       "modal + have + past participle."
+      ],
+      "visual": [
+       "modal-past"
+      ],
+      "chips": [
+       "She was sick. (100%)",
+       "She must have been sick. (95%)",
+       "She may / might / could have been sick. (50% or less)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Why wasn't Mary in class? I saw her yesterday and she looked ill. She ___ sick.",
+      "options": [
+       "must have been",
+       "must be",
+       "must had been"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A sure guess about the past → must have been."
+     },
+     {
+      "type": "learn",
+      "title": "Negative guesses about the past",
+      "lines": [
+       "Same ladder, with not."
+      ],
+      "chips": [
+       "Sam wasn't hungry. (100%)",
+       "Sam couldn't have been hungry. (impossible)",
+       "Sam must not have been hungry. (95%)",
+       "Sam may not / might not have been hungry. (50%)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "He looked at everything on the table and saw no sunglasses. “You ___ them there.”",
+      "options": [
+       "couldn't have left",
+       "must have left"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "He thinks it's impossible → couldn't have left."
+     },
+     {
+      "type": "learn",
+      "title": "The form never changes",
+      "lines": [
+       "have, not has. Then the past participle."
+      ],
+      "chips": [
+       "✅ It may have fallen out of my purse.",
+       "❌ It may have fell out.",
+       "❌ She must has been sick."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I can't find my wallet. It may have ___ out of my purse.",
+      "options": [
+       "fell",
+       "fallen",
+       "fall"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "have + past participle: fallen."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Past guess: must / may / might / could + have + past participle.",
+     "Impossible in the past: couldn't have / can't have + past participle."
+    ],
+    "timeline": [
+     "modal-past"
+    ],
+    "examples": [
+     {
+      "text": "She must have been sick.",
+      "hl": [
+       [
+        "must have been",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "She might have been sick.",
+      "hl": [
+       [
+        "might have been",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "Sam couldn't have been hungry.",
+      "hl": [
+       [
+        "couldn't have been",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Lost sunglasses, a doorbell",
+     "icon": "🕶️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Laura thinks it's possible, but she's just guessing: “You ___ them on the table at the restaurant.”",
+       "options": [
+        "must have left",
+        "might have left",
+        "couldn't have left"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Just guessing → might have left."
+      },
+      {
+       "type": "choice",
+       "text": "Sergio saw nothing on the table: “You ___ them there. They are somewhere else.”",
+       "options": [
+        "must have left",
+        "should have left",
+        "couldn't have left"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Impossible → couldn't have left."
+      },
+      {
+       "type": "choice",
+       "text": "Maya remembers seeing them on the table: “You ___ them there. That's the only explanation.”",
+       "options": [
+        "must have left",
+        "might have left",
+        "couldn't have left"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The only explanation → must have left."
+      },
+      {
+       "type": "fill",
+       "text": "The doorbell rang while I was napping. Maybe it was a friend. → It ___ a friend.",
+       "verb": "might / be",
+       "accept": [
+        "might have been",
+        "may have been",
+        "could have been"
+       ],
+       "why": "Maybe, in the past → might have been."
+      },
+      {
+       "type": "fill",
+       "text": "It's not possible that it was my next-door neighbor. He was at work. → It ___ my neighbor.",
+       "verb": "couldn't / be",
+       "accept": [
+        "couldn't have been",
+        "can't have been"
+       ],
+       "why": "Impossible, in the past → couldn't have been."
+      },
+      {
+       "type": "fill",
+       "text": "There was a package outside my door. I'm 95% sure it was a delivery person. → It ___ a delivery person.",
+       "verb": "must / be",
+       "accept": [
+        "must have been"
+       ],
+       "why": "95% sure, in the past → must have been."
+      },
+      {
+       "type": "fill",
+       "text": "My friend never thanked me for the present. I believe she ___ it.",
+       "verb": "must / not / get",
+       "accept": [
+        "must not have gotten",
+        "must not have got"
+       ],
+       "why": "A logical guess, negative → must not have gotten."
+      },
+      {
+       "type": "fill",
+       "text": "My mother thinks it ___ lost in the mail, but she's just guessing.",
+       "verb": "may / get",
+       "accept": [
+        "may have gotten",
+        "might have gotten",
+        "could have gotten",
+        "may have got"
+       ],
+       "why": "Just guessing → may have gotten."
+      }
+     ]
+    },
+    {
+     "title": "Who got engaged?",
+     "icon": "💍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Dan had a huge argument with his girlfriend last night.",
+       "options": [
+        "It couldn't have been Dan.",
+        "It must have been Dan."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A big fight → impossible.",
+       "ask": "Make a guess",
+       "ctx": "One of five friends got engaged last night."
+      },
+      {
+       "type": "choice",
+       "text": "Dylan invited his girlfriend to dinner and took a diamond ring with him.",
+       "options": [
+        "It must have been Dylan.",
+        "It couldn't have been Dylan."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A diamond ring → almost sure.",
+       "ask": "Make a guess"
+      },
+      {
+       "type": "choice",
+       "text": "Dick is going to wait to get married until he has a better job.",
+       "options": [
+        "It must have been Dick.",
+        "It must not have been Dick."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He wants to wait → probably not.",
+       "ask": "Make a guess"
+      },
+      {
+       "type": "choice",
+       "text": "Doug isn't sure he's ready. He thinks he's a little young.",
+       "options": [
+        "It must have been Doug.",
+        "It may not have been Doug."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not sure → may not have been.",
+       "ask": "Make a guess"
+      },
+      {
+       "type": "choice",
+       "text": "Larry was absent yesterday afternoon. — I don't know. He ___ class.",
+       "options": [
+        "might have skipped",
+        "must skip"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I don't know, past → might have skipped."
+      },
+      {
+       "type": "choice",
+       "text": "I don't think so. He's not the type. — Then he ___ an appointment.",
+       "options": [
+        "must have had",
+        "must had"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A stronger guess → must have had."
+      },
+      {
+       "type": "judge",
+       "text": "I can't find my wallet. It may have fell out of my purse.",
+       "answer": "wrong",
+       "why": "have + past participle: fallen.",
+       "fix": "I can't find my wallet. It may have fallen out of my purse."
+      }
+     ]
+    },
+    {
+     "title": "must (not) + past (with listening)",
+     "icon": "🥊",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Paula fell asleep in class this morning. She ___ too late last night.",
+       "verb": "must / stay up",
+       "accept": [
+        "must have stayed up"
+       ],
+       "why": "A sure guess about last night."
+      },
+      {
+       "type": "fill",
+       "text": "Marco had to give a speech in front of 500 people. He ___ nervous.",
+       "verb": "must / be",
+       "accept": [
+        "must have been"
+       ],
+       "why": "A sure guess about the past."
+      },
+      {
+       "type": "fill",
+       "text": "You walked into a door? Ouch! That ___.",
+       "verb": "must / hurt",
+       "accept": [
+        "must have hurt"
+       ],
+       "why": "hurt, hurt, hurt."
+      },
+      {
+       "type": "fill",
+       "text": "I grew up in a small town. — That ___ boring.",
+       "verb": "must / be",
+       "accept": [
+        "must have been"
+       ],
+       "why": "A guess about the past."
+      },
+      {
+       "type": "fill",
+       "text": "No one's here. The party starts at 8:00, not 7:00? Oh, I ___.",
+       "verb": "must / misunderstand",
+       "accept": [
+        "must have misunderstood"
+       ],
+       "why": "misunderstand → misunderstood."
+      },
+      {
+       "type": "listen",
+       "say": "You shouldn't have done that.",
+       "ask": "What did you hear?",
+       "options": [
+        "shouldn't have done",
+        "shouldn't do",
+        "shouldn't be doing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "“shouldn't-uv” = shouldn't have."
+      },
+      {
+       "type": "listen",
+       "say": "We should have called them.",
+       "ask": "What did you hear?",
+       "options": [
+        "should call",
+        "should have called",
+        "should be calling"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "“should-uv” = should have."
+      },
+      {
+       "type": "listen",
+       "say": "You could have told them what you planned to do.",
+       "ask": "What did you hear?",
+       "options": [
+        "could tell",
+        "could have told"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "“could-uv” = could have."
+      },
+      {
+       "type": "listen",
+       "say": "You must have known your behavior would cause problems.",
+       "ask": "What did you hear?",
+       "options": [
+        "must know",
+        "must have known"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "“must-uv” = must have."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What happened?",
+     "task": "Claude asks why something happened. Guess first with might have, then with must have.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: Beth seems upset. What happened? / How did Claudio get to school today? / The subway station is closed. Why? / Larry was absent yesterday afternoon. Where was he? I answer with a weak guess (She may / might / could have ...). Then you disagree ('I don't think so, because ...') and I make a stronger conclusion with must have. Check the form: modal + have + past participle."
+    }
+   ]
+  },
+  {
+   "id": "10-7",
+   "tag": "10-7",
+   "t": "fut",
+   "title": "Sure about tomorrow?",
+   "full": "Degrees of Certainty: Future Time",
+   "lesson": {
+    "title": "Learn: will, should, may / might / could",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three levels for the future",
+      "lines": [
+       "will = 100%. should / ought to = 90%. may / might / could = 50%."
+      ],
+      "chips": [
+       "Kay will do well on the test. (I'm sure)",
+       "Kay should do well on the test. (almost sure)",
+       "Kay ought to do well on the test.",
+       "She may / might / could do well. (I'm guessing)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "You've trained for months for the race. You ___ do really well. (almost sure)",
+      "options": [
+       "should",
+       "might"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Almost sure about the future → should."
+     },
+     {
+      "type": "compare",
+      "title": "must vs. should",
+      "left": {
+       "label": "must: a guess about NOW",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Lots of people are in line for that movie. It must be good.",
+         "hl": [
+          [
+           "must be",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "should: I expect it LATER",
+       "t": "fut",
+       "examples": [
+        {
+         "text": "She isn't here now, but she should be home around nine.",
+         "hl": [
+          [
+           "should be",
+           "fut"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "A promise? Use will: I will be there at seven."
+     },
+     {
+      "type": "choice",
+      "text": "Jack's car is in front of his house. He ___ be at home.",
+      "options": [
+       "must",
+       "should"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A guess about now → must."
+     },
+     {
+      "type": "choice",
+      "text": "We're almost ready to eat. The rice ___ be done in five minutes.",
+      "options": [
+       "must",
+       "should"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "I expect it soon → should."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Future: will (100%), should / ought to (90%), may / might / could (50%).",
+     "must = a sure guess about now, not the future."
+    ],
+    "timeline": [
+     "will"
+    ],
+    "examples": [
+     {
+      "text": "Kay will do well on the test.",
+      "hl": [
+       [
+        "will do",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "Kay should do well on the test.",
+      "hl": [
+       [
+        "should do",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "She might do well on the test.",
+      "hl": [
+       [
+        "might do",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Snow and roommates",
+     "icon": "❄️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "We might get some snow tomorrow.",
+       "buckets": [
+        "100% sure",
+        "90% sure",
+        "50% sure or less"
+       ],
+       "answer": 2,
+       "why": "might = a guess."
+      },
+      {
+       "type": "sort",
+       "word": "We will get some snow tomorrow.",
+       "buckets": [
+        "100% sure",
+        "90% sure",
+        "50% sure or less"
+       ],
+       "answer": 0,
+       "why": "will = sure."
+      },
+      {
+       "type": "sort",
+       "word": "We may get some snow tomorrow.",
+       "buckets": [
+        "100% sure",
+        "90% sure",
+        "50% sure or less"
+       ],
+       "answer": 2,
+       "why": "may = a guess."
+      },
+      {
+       "type": "sort",
+       "word": "We should get some snow tomorrow.",
+       "buckets": [
+        "100% sure",
+        "90% sure",
+        "50% sure or less"
+       ],
+       "answer": 1,
+       "why": "should = almost sure."
+      },
+      {
+       "type": "sort",
+       "word": "We could get some snow tomorrow.",
+       "buckets": [
+        "100% sure",
+        "90% sure",
+        "50% sure or less"
+       ],
+       "answer": 2,
+       "why": "could = a guess."
+      },
+      {
+       "type": "choice",
+       "text": "“I might be back by ten.”",
+       "options": [
+        "Marco (100% sure)",
+        "Linda (almost sure)",
+        "Ned (guessing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "might = guessing.",
+       "ask": "Who said it?"
+      },
+      {
+       "type": "choice",
+       "text": "“I'll be home by eight.”",
+       "options": [
+        "Marco (100% sure)",
+        "Linda (almost sure)",
+        "Ned (guessing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will = sure.",
+       "ask": "Who said it?"
+      },
+      {
+       "type": "choice",
+       "text": "“I should be here around nine.”",
+       "options": [
+        "Marco (100% sure)",
+        "Linda (almost sure)",
+        "Ned (guessing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should = almost sure.",
+       "ask": "Who said it?"
+      }
+     ]
+    },
+    {
+     "title": "will, should, or must?",
+     "icon": "🎟️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Lots of people are standing in line to get into that movie. It ___ be good.",
+       "options": [
+        "must",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess about now → must."
+      },
+      {
+       "type": "choice",
+       "text": "Jack's car is in front of his house. He ___ be at home.",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess about now → must."
+      },
+      {
+       "type": "choice",
+       "text": "Elena isn't here right now, but she ___ be home around nine or so.",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I expect it later → should."
+      },
+      {
+       "type": "choice",
+       "text": "We have better players, so we ___ win; but anything can happen.",
+       "options": [
+        "should",
+        "must"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Almost sure about the future → should."
+      },
+      {
+       "type": "choice",
+       "text": "It's very important for you to be there on time. — I ___ be there at seven. I promise!",
+       "options": [
+        "will",
+        "might"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A promise → will."
+      },
+      {
+       "type": "choice",
+       "text": "Susie is yawning and rubbing her eyes. She ___ be sleepy.",
+       "options": [
+        "must",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess about now → must."
+      },
+      {
+       "type": "choice",
+       "text": "We're almost ready to eat. The rice ___ be done in five minutes.",
+       "options": [
+        "should",
+        "must"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I expect it soon → should."
+      },
+      {
+       "type": "choice",
+       "text": "Ed has been acting strangely lately. He ___ be in love!",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess about now → must."
+      }
+     ]
+    },
+    {
+     "title": "Detective (1)",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It must be ___.",
+       "options": [
+        "Ross",
+        "Fred",
+        "Alice"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Fred said he would stop by this afternoon.",
+       "ask": "Who is at the door?",
+       "ctx": "Someone's knocking. Ross is out of town. Fred said he'd stop by. Alice sometimes drops by."
+      },
+      {
+       "type": "choice",
+       "text": "It couldn't be ___.",
+       "options": [
+        "Ross",
+        "Fred",
+        "Alice"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Ross is out of town → impossible.",
+       "ctx": "Ross is out of town. Fred said he'd stop by. Alice sometimes drops by."
+      },
+      {
+       "type": "choice",
+       "text": "I suppose it might be ___.",
+       "options": [
+        "Ross",
+        "Fred",
+        "Alice"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Alice sometimes drops by → possible.",
+       "ctx": "Ross is out of town. Fred said he'd stop by. Alice sometimes drops by."
+      },
+      {
+       "type": "choice",
+       "text": "It couldn't have been ___.",
+       "options": [
+        "Stacy",
+        "Beth",
+        "Barb"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Beth can't drive → impossible.",
+       "ctx": "Someone hit our tree. Beth has no car and can't drive."
+      },
+      {
+       "type": "choice",
+       "text": "It must not have been ___.",
+       "options": [
+        "Ron",
+        "Barb",
+        "Stacy"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He was probably at home → probably not.",
+       "ctx": "Ron has a car, but I'm pretty sure he was at home last night."
+      },
+      {
+       "type": "choice",
+       "text": "It could have been ___.",
+       "options": [
+        "Beth",
+        "Stacy",
+        "Ron"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She was out driving → possible.",
+       "ctx": "Stacy has a car, and she was out driving last night."
+      },
+      {
+       "type": "choice",
+       "text": "It must have been ___.",
+       "options": [
+        "Barb",
+        "Beth",
+        "Ron"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A dent in her car → almost sure.",
+       "ctx": "Barb was out driving, and today her car has a big dent."
+      }
+     ]
+    },
+    {
+     "title": "Detective (2)",
+     "icon": "🐭",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It could have been ___.",
+       "options": [
+        "a rat",
+        "a cat",
+        "a mouse"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Possible, but I've never seen one here.",
+       "ctx": "Something ate the bread in a closed drawer. Rats can get into drawers, but I've never seen one here."
+      },
+      {
+       "type": "choice",
+       "text": "It couldn't have been ___.",
+       "options": [
+        "a rat",
+        "a cat",
+        "a mouse"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A cat can't open a drawer → impossible.",
+       "ctx": "A cat can't open a drawer. And most cats don't like bread."
+      },
+      {
+       "type": "choice",
+       "text": "It must have been ___.",
+       "options": [
+        "a rat",
+        "a cat",
+        "a mouse"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We found a mouse last week → almost sure.",
+       "ctx": "Mice like bread and get into drawers. We found one last week."
+      },
+      {
+       "type": "choice",
+       "text": "It couldn't have been ___.",
+       "options": [
+        "Mark",
+        "Carol",
+        "my neighbor"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Mark plays no instrument → impossible.",
+       "ctx": "Someone played a difficult piano piece. Mark has no musical ability."
+      },
+      {
+       "type": "choice",
+       "text": "I suppose it could have been ___.",
+       "options": [
+        "Mark",
+        "Carol",
+        "my neighbor"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "I'm not sure about the neighbor → possible.",
+       "ctx": "I don't think my neighbor plays the piano, but I'm not sure."
+      },
+      {
+       "type": "choice",
+       "text": "It must have been ___.",
+       "options": [
+        "Mark",
+        "Carol",
+        "my neighbor"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Carol is an excellent player → almost sure.",
+       "ctx": "Carol is an excellent piano player."
+      },
+      {
+       "type": "choice",
+       "text": "___ won't be at the meeting.",
+       "options": [
+        "Bob",
+        "Stephanie",
+        "Andre",
+        "Janet"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Janet is out of town → 100% no.",
+       "ctx": "The meeting starts in 15 minutes."
+      },
+      {
+       "type": "choice",
+       "text": "___ should be at the meeting.",
+       "options": [
+        "Bob",
+        "Stephanie",
+        "Andre",
+        "Janet"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She rarely misses a meeting → 90%.",
+       "ctx": "Stephanie rarely misses a meeting."
+      },
+      {
+       "type": "choice",
+       "text": "___ will be here.",
+       "options": [
+        "Bob",
+        "Stephanie",
+        "Andre",
+        "Janet"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Bob is on his way → 100%.",
+       "ctx": "I just talked to Bob. He's on his way."
+      },
+      {
+       "type": "choice",
+       "text": "___ might come.",
+       "options": [
+        "Bob",
+        "Stephanie",
+        "Andre",
+        "Janet"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Sometimes he comes, sometimes not → 50%.",
+       "ctx": "Andre comes sometimes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10-8",
+   "tag": "10-8",
+   "t": "pastprog",
+   "title": "Must be sleeping",
+   "full": "Progressive Forms of Modals",
+   "lesson": {
+    "title": "Learn: modal + be + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "In progress right now",
+      "lines": [
+       "modal + be + -ing."
+      ],
+      "chips": [
+       "Knock lightly. Tom may be sleeping.",
+       "The lights are off. She must be sleeping."
+      ],
+      "examples": [
+       {
+        "text": "Shhh. Grandpa may be taking a nap.",
+        "hl": [
+         [
+          "may be taking",
+          "pastprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "In progress in the past",
+      "lines": [
+       "modal + have been + -ing."
+      ],
+      "chips": [
+       "Sue wasn't home. She might have been studying at the library.",
+       "Joe has exams. He must have been studying."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Those people are carrying wet umbrellas. It ___.",
+      "options": [
+       "must rain",
+       "must be raining",
+       "must have rained yesterday"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Happening right now → must be raining."
+     },
+     {
+      "type": "choice",
+      "text": "Roger jumped when the teacher asked him a question. He must have been ___.",
+      "options": [
+       "daydream",
+       "daydreamed",
+       "daydreaming"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "have been + -ing."
+     },
+     {
+      "type": "compare",
+      "title": "Habit or right now?",
+      "left": {
+       "label": "Simple: a habit or the future",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Grandpa may take a nap this afternoon.",
+         "hl": [
+          [
+           "may take",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Progressive: at this moment",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "Shhh. Grandpa may be taking a nap.",
+         "hl": [
+          [
+           "may be taking",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "should be -ing = it's the right thing to be doing now: I should be studying."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Now: modal + be + -ing (He must be sleeping).",
+     "Past: modal + have been + -ing (He must have been sleeping)."
+    ],
+    "timeline": [
+     "present-progressive"
+    ],
+    "examples": [
+     {
+      "text": "She must be sleeping.",
+      "hl": [
+       [
+        "must be sleeping",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "He must have been studying at the library.",
+      "hl": [
+       [
+        "must have been studying",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Shhh! Grandpa…",
+     "icon": "😴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Grandpa takes a nap every afternoon.",
+       "options": [
+        "In progress (or maybe in progress) now",
+        "Not in progress now"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A habit.",
+       "ask": "Is the nap happening now?"
+      },
+      {
+       "type": "choice",
+       "text": "Grandpa may take a nap this afternoon.",
+       "options": [
+        "In progress (or maybe in progress) now",
+        "Not in progress now"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Later today, not now.",
+       "ask": "Is the nap happening now?"
+      },
+      {
+       "type": "choice",
+       "text": "Shhh. Grandpa is taking a nap.",
+       "options": [
+        "In progress (or maybe in progress) now",
+        "Not in progress now"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is taking = right now.",
+       "ask": "Is the nap happening now?"
+      },
+      {
+       "type": "choice",
+       "text": "Shhh. Grandpa may be taking a nap.",
+       "options": [
+        "In progress (or maybe in progress) now",
+        "Not in progress now"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "may be taking = maybe right now.",
+       "ask": "Is the nap happening now?"
+      },
+      {
+       "type": "fill",
+       "text": "Do you smell smoke? — I sure do. Something ___ in the kitchen.",
+       "verb": "must / burn",
+       "accept": [
+        "must be burning"
+       ],
+       "why": "A sure guess about right now."
+      },
+      {
+       "type": "fill",
+       "text": "Julio hasn't answered his texts all day. — I don't know. He ___.",
+       "verb": "may / work",
+       "accept": [
+        "may be working",
+        "might be working",
+        "could be working"
+       ],
+       "why": "A weak guess about right now."
+      },
+      {
+       "type": "fill",
+       "text": "What's all that noise upstairs? — The kids ___ some kind of game.",
+       "verb": "must / play",
+       "accept": [
+        "must be playing"
+       ],
+       "why": "A sure guess about right now."
+      },
+      {
+       "type": "fill",
+       "text": "I'm writing an email to a friend, but I ___. I have a test tomorrow.",
+       "verb": "should / study",
+       "accept": [
+        "should be studying"
+       ],
+       "why": "The right thing to be doing now."
+      }
+     ]
+    },
+    {
+     "title": "Joking and hotels",
+     "icon": "🏨",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Which hotel is Howard staying at in Boston? — He ___ at the Hilton, but I'm not sure.",
+       "verb": "may / stay",
+       "accept": [
+        "may be staying",
+        "might be staying",
+        "could be staying"
+       ],
+       "why": "A weak guess about now."
+      },
+      {
+       "type": "fill",
+       "text": "Majid just quit school and is hitchhiking to Alaska? What? You ___!",
+       "verb": "must / joke",
+       "accept": [
+        "must be joking"
+       ],
+       "why": "A sure guess about right now."
+      },
+      {
+       "type": "fill",
+       "text": "Did Joe mean what he said yesterday? — I don't know. He ___ when he said that.",
+       "verb": "may / joke",
+       "accept": [
+        "may have been joking",
+        "might have been joking",
+        "could have been joking"
+       ],
+       "why": "A weak guess, in progress in the past."
+      },
+      {
+       "type": "fill",
+       "text": "Did Joe really mean it? — No. I think he ___.",
+       "verb": "must / joke",
+       "accept": [
+        "must have been joking"
+       ],
+       "why": "A sure guess, in progress in the past."
+      },
+      {
+       "type": "choice",
+       "text": "A driver is texting on the highway.",
+       "options": [
+        "He shouldn't be texting.",
+        "He shouldn't texting."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should + not + be + -ing.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "A driver is eating a sandwich while driving.",
+       "options": [
+        "She should be watch the road.",
+        "She should be watching the road."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should + be + -ing.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "A driver is putting on makeup at 100 km/h.",
+       "options": [
+        "She must be joking! She shouldn't be doing that.",
+        "She must joking! She shouldn't doing that."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "modal + be + -ing.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "judge",
+       "text": "Roger jumped when the teacher asked him a question. He must have been daydream.",
+       "answer": "wrong",
+       "why": "have been + -ing: daydreaming.",
+       "fix": "Roger jumped when the teacher asked him a question. He must have been daydreaming."
+      }
+     ]
+    },
+    {
+     "title": "Now or before?",
+     "icon": "📺",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Alex needs to study for a test. He ___ TV right now.",
+       "verb": "should / not / watch",
+       "accept": [
+        "shouldn't be watching"
+       ],
+       "why": "The wrong thing to be doing now."
+      },
+      {
+       "type": "fill",
+       "text": "There's Mr. Chang at the bus stop. He ___ for the two o'clock bus.",
+       "verb": "must / wait",
+       "accept": [
+        "must be waiting"
+       ],
+       "why": "A sure guess about right now."
+      },
+      {
+       "type": "fill",
+       "text": "Kathy lost her way while driving. She ___ home without directions.",
+       "verb": "should / not / leave",
+       "accept": [
+        "shouldn't have left"
+       ],
+       "why": "A past mistake → shouldn't have left."
+      },
+      {
+       "type": "fill",
+       "text": "My leather jacket isn't in my closet. I think my roommate ___ it.",
+       "verb": "might / borrow",
+       "accept": [
+        "might have borrowed"
+       ],
+       "why": "A weak guess about the past."
+      },
+      {
+       "type": "fill",
+       "text": "The TV was on, but the room was empty. Dad ___ TV a short while before.",
+       "verb": "must / watch",
+       "accept": [
+        "must have been watching"
+       ],
+       "why": "In progress in the past."
+      },
+      {
+       "type": "fill",
+       "text": "He ___ to turn it off before he left the room.",
+       "verb": "must / forget",
+       "accept": [
+        "must have forgotten"
+       ],
+       "why": "A sure guess about the past."
+      },
+      {
+       "type": "fill",
+       "text": "Where's that cold air coming from? — Someone ___ the door open.",
+       "verb": "must / leave",
+       "accept": [
+        "must have left"
+       ],
+       "why": "A sure guess about the past."
+      },
+      {
+       "type": "fill",
+       "text": "Where's Jessica? — I'm not sure. She ___ in Europe.",
+       "verb": "might / travel",
+       "accept": [
+        "might be traveling",
+        "might be travelling"
+       ],
+       "why": "A weak guess about now."
+      },
+      {
+       "type": "fill",
+       "text": "When I arrived, Tarek looked surprised. — He ___ you.",
+       "verb": "must / not / expect",
+       "accept": [
+        "must not have been expecting"
+       ],
+       "why": "A sure negative guess, in progress in the past."
+      },
+      {
+       "type": "fill",
+       "text": "Roberto was staring out the window. He ___ attention.",
+       "verb": "should / pay",
+       "accept": [
+        "should have been paying"
+       ],
+       "why": "The right thing to be doing then."
+      }
+     ]
+    },
+    {
+     "title": "Best completion",
+     "icon": "🧊",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I heard Eva is visiting. Where's she staying? — She ___ at Barbara's house. Or maybe at her sister's.",
+       "options": [
+        "must be staying",
+        "could be staying",
+        "is staying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Or maybe… → not sure: could."
+      },
+      {
+       "type": "choice",
+       "text": "I stayed up all night finishing this report. — You ___ really tired.",
+       "options": [
+        "must feel",
+        "might feel",
+        "feel"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess → must."
+      },
+      {
+       "type": "choice",
+       "text": "Where's the leftover chicken? — I just saw it when I got some ice cubes. It ___ in the freezer.",
+       "options": [
+        "must be",
+        "might be",
+        "is"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "I just saw it → a fact."
+      },
+      {
+       "type": "choice",
+       "text": "It's supposed to rain tomorrow. — I know, but the forecast ___ wrong.",
+       "options": [
+        "must be",
+        "could be",
+        "is"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Maybe → could be."
+      },
+      {
+       "type": "choice",
+       "text": "Junko has received a scholarship. — That's great news. She ___ very happy.",
+       "options": [
+        "must be feeling",
+        "may be feeling",
+        "is feeling"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess → must."
+      },
+      {
+       "type": "choice",
+       "text": "Which bus goes to City Hall? — Hmmm. Bus number 63 ___ there. But you'd better ask the driver.",
+       "options": [
+        "must go",
+        "might go",
+        "goes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not sure → might."
+      },
+      {
+       "type": "choice",
+       "text": "Which bus goes to the main post office? — Bus number 39. It ___ right to the post office.",
+       "options": [
+        "must go",
+        "could go",
+        "goes"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The speaker knows → a fact."
+      },
+      {
+       "type": "choice",
+       "text": "Do you suppose Mrs. Chu is sick? — She ___. I can't think of any other reason she isn't here.",
+       "options": [
+        "must be",
+        "may be",
+        "is"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The only reason → must be."
+      },
+      {
+       "type": "choice",
+       "text": "Let's be really quiet in the baby's room. The baby ___.",
+       "options": [
+        "might sleep",
+        "might be sleeping",
+        "might have been sleeping"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Maybe right now → might be sleeping."
+      },
+      {
+       "type": "choice",
+       "text": "Why is the TV on? No one's in there. — Grandma ___ to turn it off.",
+       "options": [
+        "must forget",
+        "must have forgotten",
+        "must be forgetting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A sure guess about the past."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Distracted drivers",
+     "task": "What shouldn't drivers be doing? Tell Claude: “He shouldn't be texting.”",
+     "claudePrompt": "You are my English speaking partner. Describe one distracted driver at a time (a man texting, a woman putting on makeup, a teen turning around to talk to friends, a man eating a burger). I say what each driver should or shouldn't be doing (He shouldn't be texting. He should be watching the road.). Then ask: Is distracted driving a problem in your country? Check the form: should(n't) + be + -ing."
+    },
+    {
+     "title": "The mystery couple",
+     "task": "A man and a woman argue quietly in a café, and she leaves alone. Guess who they are and what's happening.",
+     "claudePrompt": "You are my English speaking partner. Read me this scene: MAN: I don't think you should do this alone. WOMAN: But you don't understand. I have to. MAN: Let me go with you. WOMAN: No, I'll be fine. MAN: You must let me help. WOMAN: There's nothing you can do. This is something I need to do for myself. (She leaves.) Then ask me one question at a time: Where are they? Who are they? Where is she going? Why does she want to go alone? I answer with guesses: They might be ..., She must be going ..., He could be ..., She may have .... Check my modals of certainty."
+    }
+   ]
+  },
+  {
+   "id": "10-9",
+   "tag": "10-9",
+   "t": "pres",
+   "title": "Two helpers together",
+   "full": "Combining Modals with Phrasal Modals",
+   "lesson": {
+    "title": "Learn: will be able to, might have to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Never two modals in a row",
+      "lines": [
+       "will + can? No!"
+      ],
+      "chips": [
+       "❌ Janet will can help you tomorrow.",
+       "✅ Janet will be able to help you tomorrow."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Modal + phrasal modal: yes",
+      "lines": [
+       "After a modal, use be able to or have to."
+      ],
+      "chips": [
+       "will be able to",
+       "will have to",
+       "may have to",
+       "might not be able to",
+       "should not have to",
+       "would rather not have to"
+      ],
+      "examples": [
+       {
+        "text": "You will have to pick her up at her home.",
+        "hl": [
+         [
+          "will have to pick",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We need to reschedule. I ___ see you at the time we scheduled.",
+      "options": [
+       "won't can",
+       "won't be able to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After will → be able to, not can."
+     },
+     {
+      "type": "learn",
+      "title": "Phrasal + phrasal: also fine",
+      "lines": [
+       "be going to + be able to / have to."
+      ],
+      "chips": [
+       "Tom isn't going to be able to help you tomorrow.",
+       "I'm going to have to stay late today."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ stay late today.",
+      "options": [
+       "may have to",
+       "may must"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After may → have to, not must."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Never modal + modal. ❌ will can",
+     "Use modal + be able to / have to: will be able to, may have to."
+    ],
+    "timeline": [
+     "modal-form"
+    ],
+    "examples": [
+     {
+      "text": "Janet will be able to help you tomorrow.",
+      "hl": [
+       [
+        "will be able to help",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "You will have to pick her up.",
+      "hl": [
+       [
+        "will have to pick",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Staying late: correct?",
+     "icon": "🏢",
+     "items": [
+      {
+       "type": "judge",
+       "text": "I will can stay late at the office today.",
+       "answer": "wrong",
+       "why": "Never modal + modal.",
+       "fix": "I will be able to stay late at the office today."
+      },
+      {
+       "type": "judge",
+       "text": "I will be able stay late today.",
+       "answer": "wrong",
+       "why": "be able + to + verb.",
+       "fix": "I will be able to stay late today."
+      },
+      {
+       "type": "judge",
+       "text": "I may have to stay late today.",
+       "answer": "correct",
+       "why": "modal + have to."
+      },
+      {
+       "type": "judge",
+       "text": "I may be able to stay late today.",
+       "answer": "correct",
+       "why": "modal + be able to."
+      },
+      {
+       "type": "judge",
+       "text": "I will have to stay late today.",
+       "answer": "correct",
+       "why": "modal + have to."
+      },
+      {
+       "type": "judge",
+       "text": "I'm going to have to stay late today.",
+       "answer": "correct",
+       "why": "be going to + have to."
+      },
+      {
+       "type": "judge",
+       "text": "Janet will can help you tomorrow.",
+       "answer": "wrong",
+       "why": "Never modal + modal.",
+       "fix": "Janet will be able to help you tomorrow."
+      },
+      {
+       "type": "judge",
+       "text": "We aren't going to be able to catch our plane if we don't get out of this traffic.",
+       "answer": "correct",
+       "why": "be going to + be able to."
+      }
+     ]
+    },
+    {
+     "title": "Choose the phrase",
+     "icon": "📅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My schedule is completely full. I'm ___ meet with you until the end of the month.",
+       "options": [
+        "not going to be able to",
+        "should not have to",
+        "must not have been able to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Future, not possible → not going to be able to."
+      },
+      {
+       "type": "choice",
+       "text": "It's important that your doctor knows how you feel. You ___ tell her exactly how you're feeling.",
+       "options": [
+        "have to be able to",
+        "would rather not have to",
+        "must not have been able to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is necessary that you can."
+      },
+      {
+       "type": "choice",
+       "text": "Jill was planning to ask for a raise. She sounded upset. She ___ get the raise.",
+       "options": [
+        "should not have to",
+        "must not have been able to",
+        "has to be able to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A guess about the past: she couldn't."
+      },
+      {
+       "type": "choice",
+       "text": "It's freezing outside, and I ___ stand in a long line outdoors.",
+       "options": [
+        "would rather not have to",
+        "must not have been able to",
+        "am not going to be able to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I prefer not to need to."
+      },
+      {
+       "type": "choice",
+       "text": "Tommy and Jimmy, this room is a mess! Really, I ___ tell you this more than once!",
+       "options": [
+        "should not have to",
+        "would rather not be able to",
+        "must not have been able to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It isn't right that I need to."
+      }
+     ]
+    },
+    {
+     "title": "Fix the pair",
+     "icon": "🧩",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I won't ___ see you tomorrow.",
+       "options": [
+        "can",
+        "be able to",
+        "able to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After will/won't → be able to."
+      },
+      {
+       "type": "choice",
+       "text": "You will ___ pick her up at her home.",
+       "options": [
+        "must",
+        "have to",
+        "to have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After will → have to, not must."
+      },
+      {
+       "type": "choice",
+       "text": "Tom isn't going to ___ help you tomorrow.",
+       "options": [
+        "can",
+        "able",
+        "be able to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "be going to + be able to."
+      },
+      {
+       "type": "choice",
+       "text": "She might not ___ come to the party.",
+       "options": [
+        "be able to",
+        "can",
+        "could"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After might → be able to."
+      },
+      {
+       "type": "choice",
+       "text": "We may ___ leave early.",
+       "options": [
+        "must",
+        "have to",
+        "had to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After may → have to."
+      },
+      {
+       "type": "choice",
+       "text": "The man in the picture ___ fix the car himself. It's too old.",
+       "options": [
+        "is not going to be able to",
+        "is not going to can"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be going to + be able to."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10-10",
+   "tag": "10-10",
+   "t": "state",
+   "title": "I'd rather…",
+   "full": "Expressing Preference: Would Rather",
+   "lesson": {
+    "title": "Learn: would rather",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "would rather = I prefer",
+      "lines": [
+       "would rather + simple verb + than + simple verb."
+      ],
+      "chips": [
+       "I'd rather study history than biology."
+      ],
+      "examples": [
+       {
+        "text": "I would rather go to a movie tonight than study grammar.",
+        "hl": [
+         [
+          "would rather go",
+          "state"
+         ],
+         [
+          "than study",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My husband ___ cook dinner at home tonight than go out.",
+      "options": [
+       "rather",
+       "would rather",
+       "would rather to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "would rather + simple verb."
+     },
+     {
+      "type": "learn",
+      "title": "Negative and short form",
+      "lines": [
+       "I'd = I would. Negative: would rather not."
+      ],
+      "chips": [
+       "How much do you weigh? — I'd rather not tell you."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Past and right now",
+      "lines": [
+       "Past: would rather have + past participle.",
+       "Now: would rather be + -ing."
+      ],
+      "chips": [
+       "The movie was OK, but I would rather have gone to the concert.",
+       "I'd rather be lying on a beach than sitting in class right now."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Many students would rather study on their own than ___ to classes.",
+      "options": [
+       "going",
+       "go",
+       "to go"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After than → the same simple form."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "would rather + simple verb (+ than + simple verb).",
+     "would rather not… / would rather have gone… / would rather be lying…"
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "I would rather go to a movie than study grammar.",
+      "hl": [
+       [
+        "would rather go",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I'd rather not tell you.",
+      "hl": [
+       [
+        "'d rather not tell",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which form?",
+     "icon": "🎬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I ___ to a movie tonight than study grammar.",
+       "options": [
+        "would rather go",
+        "would rather to go",
+        "rather go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would rather + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "I'd rather study history ___ biology.",
+       "options": [
+        "than",
+        "then",
+        "to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would rather … than …"
+      },
+      {
+       "type": "choice",
+       "text": "How much do you weigh? — I'd ___ tell you.",
+       "options": [
+        "rather not",
+        "not rather",
+        "rather don't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Negative: would rather not."
+      },
+      {
+       "type": "choice",
+       "text": "The movie was OK, but I would rather ___ to the concert last night.",
+       "options": [
+        "go",
+        "have gone",
+        "went"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → would rather have + past participle."
+      },
+      {
+       "type": "choice",
+       "text": "I'd rather ___ on a beach in India than sitting in class right now.",
+       "options": [
+        "be lying",
+        "lying",
+        "to lie"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → would rather be + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I'd rather = ?",
+       "options": [
+        "I had rather",
+        "I would rather"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "'d = would."
+      },
+      {
+       "type": "choice",
+       "text": "I would rather stay home than ___ out tonight.",
+       "options": [
+        "going",
+        "go",
+        "to go"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After than → simple verb."
+      },
+      {
+       "type": "judge",
+       "text": "My husband rather cook dinner at home tonight than go out to a restaurant.",
+       "answer": "wrong",
+       "why": "would is missing: would rather cook.",
+       "fix": "My husband would rather cook dinner at home tonight than go out to a restaurant."
+      }
+     ]
+    },
+    {
+     "title": "Short conversations",
+     "icon": "🎵",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Do you want to go to the concert tonight? — Not really. I ___.",
+       "options": [
+        "would rather stay home",
+        "would rather have stayed home"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tonight → would rather + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Did you go to the concert last night? — Yes, but I ___.",
+       "options": [
+        "would rather stay home",
+        "would rather have stayed home"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Last night → would rather have + past participle."
+      },
+      {
+       "type": "choice",
+       "text": "What are you doing right now? — I'm studying grammar, but I ___.",
+       "options": [
+        "would rather be sleeping",
+        "would rather have slept"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → would rather be + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "How was the movie last night? — So-so. I ___ a different one.",
+       "options": [
+        "would rather see",
+        "would rather have seen"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Last night → would rather have seen."
+      },
+      {
+       "type": "choice",
+       "text": "You look really tired. — I am. Instead of working, I ___ right now.",
+       "options": [
+        "would rather be lying in bed",
+        "would rather have lain in bed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → would rather be + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "I'd rather drink tea ___ coffee.",
+       "options": [
+        "than",
+        "that"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "would rather … than …"
+      }
+     ]
+    },
+    {
+     "title": "Would you rather…?",
+     "icon": "🏖️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "You are at school right now. Where would you rather ___?",
+       "verb": "be",
+       "accept": [
+        "be"
+       ],
+       "why": "would rather + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ go to Paris than Cairo.",
+       "verb": "would rather",
+       "accept": [
+        "would rather",
+        "'d rather"
+       ],
+       "why": "would rather + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I'd rather ___ a bike than a car for transportation.",
+       "verb": "use",
+       "accept": [
+        "use"
+       ],
+       "why": "would rather + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I went to the party, but I would rather ___ home.",
+       "verb": "stay (past)",
+       "accept": [
+        "have stayed"
+       ],
+       "why": "Past → would rather have + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "I'm doing this exercise, but I'd rather ___ at the beach right now.",
+       "verb": "swim (now)",
+       "accept": [
+        "be swimming"
+       ],
+       "why": "Right now → would rather be + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'd rather ___ about my salary.",
+       "verb": "not / talk",
+       "accept": [
+        "not talk"
+       ],
+       "why": "Negative: would rather not + verb."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Would you rather…?",
+     "task": "Claude asks: Paris, Cairo or Buenos Aires? A movie, a play or an opera? Say why.",
+     "claudePrompt": "You are my English speaking partner. Ask me one 'Would you rather' question at a time and ask why: Would you rather go to Paris, Cairo, or Buenos Aires? / see a movie, a play, or an opera? / use a bike, a motorcycle, or a car? / prepare your own meals or eat out? / be swimming at the beach right now or doing this interview? / have been born in an earlier century? I answer with I'd rather + simple verb (or be + -ing / have + past participle). Check the form: no 'to' after would rather, simple verb after than."
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "tag": "Mix",
+   "t": "pastprog",
+   "title": "Modal mix",
+   "full": "Summary Chart of Modals; Chapters 9 and 10 Review",
+   "lesson": {
+    "title": "Learn: one modal, many jobs",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "One word, several jobs",
+      "lines": [
+       "The same modal can mean different things."
+      ],
+      "chips": [
+       {
+        "label": "must",
+        "words": [
+         "You must sign in ink. (necessary)",
+         "She must be sick. (95% sure)"
+        ]
+       },
+       {
+        "label": "could",
+        "words": [
+         "I could run fast as a child. (past ability)",
+         "Could you help me? (request)",
+         "He could be at home. (maybe)"
+        ]
+       },
+       {
+        "label": "should",
+        "words": [
+         "I should study tonight. (advice)",
+         "She should do well tomorrow. (I expect it)"
+        ]
+       },
+       {
+        "label": "would",
+        "words": [
+         "Would you help me? (request)",
+         "I would visit them every weekend. (past habit)",
+         "I'd rather go. (preference)"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Now and past, side by side",
+      "lines": [
+       "Add have + past participle for the past."
+      ],
+      "visual": [
+       "modal-past"
+      ],
+      "chips": [
+       "should study → should have studied",
+       "must be sick → must have been sick",
+       "might be home → might have been home",
+       "have to go → had to go"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "You must not use that door. vs. You don't have to use that door.",
+      "options": [
+       "Same meaning",
+       "Different: forbidden vs. not necessary"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "must not = forbidden. don't have to = not necessary."
+     },
+     {
+      "type": "choice",
+      "text": "“He had to go home.” vs. “He must have gone home.”",
+      "options": [
+       "Both are guesses.",
+       "Fact (it was necessary) vs. a guess"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "had to = necessity. must have = a guess."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Check the meaning: necessity, advice, ability, certainty, request, preference.",
+     "Past: modal + have + past participle. Past of must (necessity): had to."
+    ],
+    "timeline": [
+     "modal-past"
+    ],
+    "examples": [
+     {
+      "text": "He had to go home.",
+      "hl": [
+       [
+        "had to go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "He must have gone home.",
+      "hl": [
+       [
+        "must have gone",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "He might have gone home.",
+      "hl": [
+       [
+        "might have gone",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What's the difference?",
+     "icon": "🔍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“May I use your phone?” / “Can I use your phone?”",
+       "options": [
+        "May I is more formal.",
+        "Can I is more formal."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "May I = the most formal.",
+       "rule": "9-8"
+      },
+      {
+       "type": "choice",
+       "text": "Which is the strongest?",
+       "options": [
+        "You should take an English course.",
+        "You're supposed to take an English course.",
+        "You must take an English course."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "must = no choice.",
+       "rule": "9-2"
+      },
+      {
+       "type": "choice",
+       "text": "Which one is a warning?",
+       "options": [
+        "You should see a doctor about that cut.",
+        "You had better see a doctor about that cut."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had better = or something bad will happen.",
+       "rule": "9-4"
+      },
+      {
+       "type": "choice",
+       "text": "“You must not use that door.”",
+       "options": [
+        "It is forbidden.",
+        "It is not necessary."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "must not = forbidden.",
+       "ask": "What does it mean?",
+       "rule": "9-3"
+      },
+      {
+       "type": "choice",
+       "text": "Who is more certain?",
+       "options": [
+        "I will be at your house by six o'clock.",
+        "I should be at your house by six o'clock."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will = 100%. should = 90%.",
+       "rule": "10-7"
+      },
+      {
+       "type": "choice",
+       "text": "There is a knock at the door. Which speaker is the most sure?",
+       "options": [
+        "It might be Wendy.",
+        "It could be Wendy.",
+        "It must be Wendy."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "must = 95% sure.",
+       "rule": "10-4"
+      },
+      {
+       "type": "choice",
+       "text": "I think it's Ibrahim. Which speaker thinks that is impossible?",
+       "options": [
+        "It may not be Ibrahim.",
+        "It can't be Ibrahim."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't = impossible.",
+       "rule": "10-5"
+      },
+      {
+       "type": "choice",
+       "text": "Where's Jeff? Which one is a FACT, not a guess?",
+       "options": [
+        "He might have gone home.",
+        "He must have gone home.",
+        "He had to go home."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "had to = it was necessary.",
+       "rule": "10-2"
+      },
+      {
+       "type": "choice",
+       "text": "Which one is too late now?",
+       "options": [
+        "If you're having a problem, you should talk to Mrs. Ang.",
+        "You should have told Mrs. Ang."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should have = you didn't. It's past.",
+       "rule": "10-2"
+      },
+      {
+       "type": "choice",
+       "text": "Which one is a fact?",
+       "options": [
+        "The family in the picture must be at a restaurant.",
+        "The family in the picture are at a restaurant."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No modal = 100% sure.",
+       "rule": "10-4"
+      }
+     ]
+    },
+    {
+     "title": "Pick the modal",
+     "icon": "🌧️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It looks like rain. We ___ the windows.",
+       "options": [
+        "should shut",
+        "must have shut",
+        "would rather shut"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Good advice → should.",
+       "rule": "9-4"
+      },
+      {
+       "type": "choice",
+       "text": "Anya, ___ me that dish? Thanks.",
+       "options": [
+        "may you hand",
+        "could you hand",
+        "should you hand"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A request to you → could you.",
+       "rule": "9-8"
+      },
+      {
+       "type": "choice",
+       "text": "Spring break starts on the 13th. We ___ to classes again until the 22nd.",
+       "options": [
+        "must not go",
+        "don't have to go"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → don't have to.",
+       "rule": "9-3"
+      },
+      {
+       "type": "choice",
+       "text": "The baby is only a year old, but she ___ a few words.",
+       "options": [
+        "can already say",
+        "should already say"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Ability → can.",
+       "rule": "9-6"
+      },
+      {
+       "type": "choice",
+       "text": "In the United States, all children ___ six years of elementary school.",
+       "options": [
+        "must attend",
+        "might attend"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A law → must.",
+       "rule": "9-2"
+      },
+      {
+       "type": "choice",
+       "text": "There was a long line. We ___ almost an hour to buy our tickets.",
+       "options": [
+        "must wait",
+        "had to wait"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past necessity → had to.",
+       "rule": "10-2"
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to go to a warm place next winter. — You ___ to Hawaii or Mexico.",
+       "options": [
+        "could go",
+        "must have gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A suggestion → could.",
+       "rule": "9-4"
+      },
+      {
+       "type": "choice",
+       "text": "Mrs. Wilson is a very safe driver, but she didn't stop at a stop sign. She ___ the sign.",
+       "options": [
+        "must not have seen",
+        "should not see"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A logical guess about the past.",
+       "rule": "10-6"
+      },
+      {
+       "type": "choice",
+       "text": "This is Steve's laptop, isn't it? — It ___ his. He doesn't have a laptop.",
+       "options": [
+        "can't be",
+        "must be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Impossible → can't be.",
+       "rule": "10-5"
+      },
+      {
+       "type": "choice",
+       "text": "It ___ to Jana or to Mindy. They sometimes bring their laptops.",
+       "options": [
+        "must belong",
+        "might belong"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two possibilities → might.",
+       "rule": "10-4"
+      }
+     ]
+    },
+    {
+     "title": "Feelings and flowers",
+     "icon": "🌷",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Jimmy was serious when he said he wanted to be a cowboy. We ___ at him. We hurt his feelings.",
+       "options": [
+        "shouldn't have laughed",
+        "must not have laughed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A past mistake → shouldn't have.",
+       "rule": "10-2"
+      },
+      {
+       "type": "choice",
+       "text": "Are those flowers annuals or perennials? — I'm not sure. They ___ perennials. Let's ask.",
+       "options": [
+        "may be",
+        "must be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Not sure → may be.",
+       "rule": "10-4"
+      },
+      {
+       "type": "choice",
+       "text": "In my country, a girl and boy ___ out on a date without a chaperone.",
+       "options": [
+        "aren't supposed to go",
+        "don't have to go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's against the custom → aren't supposed to.",
+       "rule": "9-5"
+      },
+      {
+       "type": "listen",
+       "say": "It's almost five. Peter's mom told him to clean his room, but it's still a mess. She's going to be mad.",
+       "ask": "What would you say?",
+       "options": [
+        "He might clean it up right away.",
+        "He'd better clean it up right away."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A warning → had better.",
+       "rule": "9-4"
+      },
+      {
+       "type": "listen",
+       "say": "Jack promised to come to the party, but he never showed up. Everyone missed him.",
+       "ask": "What would you say?",
+       "options": [
+        "He should have come.",
+        "He must have come."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He didn't come. A mistake → should have.",
+       "rule": "10-2"
+      },
+      {
+       "type": "listen",
+       "say": "I've been studying for six hours. The sun is shining and my friends are at the beach.",
+       "ask": "What would you say?",
+       "options": [
+        "I am supposed to take a break from studying.",
+        "I would rather lie in the sun and listen to music."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A preference → would rather.",
+       "rule": "10-10"
+      },
+      {
+       "type": "listen",
+       "say": "Tom is an hour late, and he hasn't phoned. That's not like him.",
+       "ask": "What would you say?",
+       "options": [
+        "He may have gotten caught in traffic.",
+        "He must not have to come."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A weak guess about the past → may have.",
+       "rule": "10-6"
+      },
+      {
+       "type": "listen",
+       "say": "Carlos broke his leg yesterday. He works as a waiter.",
+       "ask": "What would you say?",
+       "options": [
+        "He's not going to be able to go to work for a few days.",
+        "He will can go to work tomorrow."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be going to + be able to.",
+       "rule": "10-9"
+      },
+      {
+       "type": "listen",
+       "say": "The teacher asked Maria a question, but she just looked out the window and didn't hear it.",
+       "ask": "What would you say?",
+       "options": [
+        "She must have been daydreaming.",
+        "She should be daydreaming."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sure guess, in progress in the past.",
+       "rule": "10-8"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Debate",
+     "task": "Do you agree? “All people should speak more than one language.” Tell Claude why.",
+     "claudePrompt": "You are my English speaking partner. Give me one statement at a time and ask if I agree and why: Violence on television influences people to act violently. / Government agencies should censor the Internet. / People shouldn't marry until they are at least 25 years old. / All people of the world should speak more than one language. Push back gently so that I must defend my opinion. Encourage me to use modals (should, must, might, could, have to). Check my modal forms."
+    },
+    {
+     "title": "How should you read a textbook?",
+     "task": "Highlighting is passive. What should students do instead? Give Claude your tips.",
+     "claudePrompt": "You are my English writing partner. A student handbook says highlighting a textbook is a passive skill and that learning is more effective when you work actively with the material. Ask me to write 4-5 sentences of advice for students on how to read a textbook well, using should, could, might want to, don't have to, and had better. Check my modal forms and tell me which tip is the clearest."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Modal Hydra",
+  "icon": "🐉",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "I [used know] a lot of Spanish, but I've forgotten a lot.",
+    "options": [
+     "I used to know a lot of Spanish, but I've forgotten a lot.",
+     "I would know a lot of Spanish, but I've forgotten a lot.",
+     "I use to knew a lot of Spanish, but I've forgotten a lot."
+    ],
+    "answer": 0,
+    "why": "used + to + verb. know = a state.",
+    "rule": "10-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "If you can't find your coat, you should [to go] to the lost-and-found office.",
+    "options": [
+     "If you can't find your coat, you should going to the lost-and-found office.",
+     "If you can't find your coat, you should go to the lost-and-found office.",
+     "If you can't find your coat, you should went to the lost-and-found office."
+    ],
+    "answer": 1,
+    "why": "should + simple verb. No to.",
+    "rule": "9-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I was a child, I [can] climb to the roof of my house and [saw] all the other houses.",
+    "options": [
+     "When I was a child, I could climb to the roof of my house and saw all the other houses.",
+     "When I was a child, I can climbed to the roof of my house and see all the other houses.",
+     "When I was a child, I could climb to the roof of my house and see all the other houses."
+    ],
+    "answer": 2,
+    "why": "Past ability: could climb and (could) see.",
+    "rule": "10-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "It may [be snow] tomorrow. I hope so!",
+    "options": [
+     "It may snow tomorrow. I hope so!",
+     "It may snows tomorrow. I hope so!",
+     "It may to snow tomorrow. I hope so!"
+    ],
+    "answer": 0,
+    "why": "may + one simple verb: snow.",
+    "rule": "9-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "We need to reschedule. I [won't can] see you at the time we scheduled for tomorrow.",
+    "options": [
+     "We need to reschedule. I won't could see you at the time we scheduled for tomorrow.",
+     "We need to reschedule. I won't be able to see you at the time we scheduled for tomorrow.",
+     "We need to reschedule. I can't will see you at the time we scheduled for tomorrow."
+    ],
+    "answer": 1,
+    "why": "Never modal + modal → won't be able to.",
+    "rule": "10-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [could break] my leg in a soccer game three months ago.",
+    "options": [
+     "I broke my leg in a soccer game three months ago.",
+     "I could broke my leg in a soccer game three months ago.",
+     "I was able to break my leg in a soccer game three months ago."
+    ],
+    "answer": 0,
+    "why": "A fact in the past → simple past: broke.",
+    "rule": "10-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "Many students would rather [to study] on their own than [going] to classes.",
+    "options": [
+     "Many students would rather studying on their own than going to classes.",
+     "Many students would rather to study on their own than to go to classes.",
+     "Many students would rather study on their own than go to classes."
+    ],
+    "answer": 2,
+    "why": "would rather + verb + than + verb.",
+    "rule": "10-10"
+   },
+   {
+    "type": "errorfix",
+    "text": "Why [did Joe must have] surgery last week? He looked so healthy.",
+    "options": [
+     "Why did Joe must had surgery last week? He looked so healthy.",
+     "Why did Joe have to have surgery last week? He looked so healthy.",
+     "Why must Joe had surgery last week? He looked so healthy."
+    ],
+    "answer": 1,
+    "why": "Past necessity question: did … have to.",
+    "rule": "10-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "In a big city, you must [to be paying] attention to your wallet because a thief [maybe] try to steal it.",
+    "options": [
+     "In a big city, you must pay attention to your wallet because a thief may try to steal it.",
+     "In a big city, you must to pay attention to your wallet because a thief maybe tries to steal it.",
+     "In a big city, you must paying attention to your wallet because a thief may be try to steal it."
+    ],
+    "answer": 0,
+    "why": "must + pay. may (verb) + try.",
+    "rule": "9-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "We [supposed] to review for the test today, but we ran out of time.",
+    "options": [
+     "We suppose to review for the test today, but we ran out of time.",
+     "We were supposed to review for the test today, but we ran out of time.",
+     "We are supposing to review for the test today, but we ran out of time."
+    ],
+    "answer": 1,
+    "why": "It didn't happen → were supposed to.",
+    "rule": "10-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Our team [could win] the soccer championship last week.",
+    "options": [
+     "Our team can win the soccer championship last week.",
+     "Our team could won the soccer championship last week.",
+     "Our team was able to win the soccer championship last week."
+    ],
+    "answer": 2,
+    "why": "One success, one time → was able to (or won).",
+    "rule": "10-3"
+   }
+  ]
+ }
+}

@@ -1,0 +1,5035 @@
+{
+ "id": "ch15",
+ "num": 15,
+ "title": "Gerunds and Infinitives, Part 2",
+ "subtitle": "in order to, too / enough, make / have / get",
+ "icon": "🦎",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Yasmin is returning home for to complete her medical studies.",
+    "answer": "wrong",
+    "why": "Purpose → to + verb.",
+    "fix": "Yasmin is returning home to complete her medical studies.",
+    "rule": "15-1"
+   },
+   {
+    "type": "judge",
+    "text": "I was sorry to hear that Mila and Pablo are moving away from here.",
+    "answer": "correct",
+    "why": "sorry + to + verb.",
+    "rule": "15-2"
+   },
+   {
+    "type": "judge",
+    "text": "Your little puppy seems very eager to pleasing.",
+    "answer": "wrong",
+    "why": "to + simple verb: please.",
+    "fix": "Your little puppy seems very eager to please.",
+    "rule": "15-2"
+   },
+   {
+    "type": "judge",
+    "text": "The baby isn't enough tired to sleep right now.",
+    "answer": "wrong",
+    "why": "adjective + enough.",
+    "fix": "The baby isn't tired enough to sleep right now.",
+    "rule": "15-3"
+   },
+   {
+    "type": "judge",
+    "text": "It's easy to be fool by Jordan's charm.",
+    "answer": "wrong",
+    "why": "to be + past participle: fooled.",
+    "fix": "It's easy to be fooled by Jordan's charm.",
+    "rule": "15-4"
+   },
+   {
+    "type": "judge",
+    "text": "Marcus mentioned having lost a large sum of money.",
+    "answer": "correct",
+    "why": "mention + having + participle.",
+    "rule": "15-5"
+   },
+   {
+    "type": "judge",
+    "text": "I was happy to have been invited to the surprise party.",
+    "answer": "correct",
+    "why": "to have been + participle.",
+    "rule": "15-5"
+   },
+   {
+    "type": "judge",
+    "text": "The car is really dirty. It needs to be wash.",
+    "answer": "wrong",
+    "why": "to be + past participle: washed.",
+    "fix": "The car is really dirty. It needs to be washed.",
+    "rule": "15-6"
+   },
+   {
+    "type": "judge",
+    "text": "The walls in our apartment are paper thin, and I could hear my roommate snoring loudly.",
+    "answer": "correct",
+    "why": "hear + person + -ing.",
+    "rule": "15-7"
+   },
+   {
+    "type": "judge",
+    "text": "Could you help me to carry the groceries inside? There are several bags.",
+    "answer": "correct",
+    "why": "help + person + (to) + verb: both are OK.",
+    "rule": "15-8"
+   },
+   {
+    "type": "judge",
+    "text": "Rafael lets his young children to stay up past midnight on weekends.",
+    "answer": "wrong",
+    "why": "No to after let.",
+    "fix": "Rafael lets his young children stay up past midnight on weekends.",
+    "rule": "15-8"
+   },
+   {
+    "type": "judge",
+    "text": "Diana makes her kids clean their rooms once a week.",
+    "answer": "correct",
+    "why": "make + person + simple form.",
+    "rule": "15-9"
+   },
+   {
+    "type": "judge",
+    "text": "I appreciate your helping me with the plans for the party.",
+    "answer": "correct",
+    "why": "possessive + gerund.",
+    "rule": "15-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "15-1",
+   "tag": "15-1",
+   "t": "pres",
+   "title": "Why? To…",
+   "full": "Infinitive of Purpose: In Order To",
+   "lesson": {
+    "title": "Learn: to + verb answers “Why?”",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "(in order) to = why",
+      "lines": [
+       "It tells the purpose. in order is often dropped."
+      ],
+      "visual": [
+       "purpose"
+      ],
+      "chips": [
+       "He came here in order to study English.",
+       "He came here to study English."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "to + verb, for + noun",
+      "lines": [
+       "Never for + verb."
+      ],
+      "chips": [
+       "✅ I went to the store to buy some bread.",
+       "✅ I went to the store for some bread.",
+       "❌ for buy · ❌ for buying · ❌ for to buy"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Yasmin is returning home ___ her medical studies.",
+      "options": [
+       "for to complete",
+       "to complete",
+       "for complete"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Purpose → to + verb."
+     },
+     {
+      "type": "choice",
+      "text": "Isabella went to Miami ___ a vacation.",
+      "options": [
+       "to",
+       "for"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "a vacation is a noun → for."
+     },
+     {
+      "type": "learn",
+      "title": "Is it really purpose?",
+      "lines": [
+       "Test: can you add in order? Then it is purpose."
+      ],
+      "chips": [
+       "✅ She works long hours (in order) to support her family.",
+       "❌ He likes in order to bake. (like to = not purpose)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "He likes ___ to bake when he has free time.",
+      "options": [
+       "in order",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "like to bake is not a purpose."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Why? → (in order) to + verb.",
+     "for + noun: for some bread. Not for + verb."
+    ],
+    "timeline": [
+     "purpose"
+    ],
+    "examples": [
+     {
+      "text": "He came here to study English.",
+      "hl": [
+       [
+        "to study",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I went to the store for some bread.",
+      "hl": [
+       [
+        "for some bread",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I went to the store to buy some bread.",
+      "hl": [
+       [
+        "to buy",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Isabella in Miami",
+     "icon": "🌴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "She went there ___ see her cousins.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "see is a verb → to."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ a vacation.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a vacation is a noun → for."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ business.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "business is a noun → for."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ meet with company executives.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "meet is a verb → to."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ discuss long-term plans for the company.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "discuss is a verb → to."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ spend time with her parents.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "spend is a verb → to."
+      },
+      {
+       "type": "choice",
+       "text": "She went there ___ a visit with childhood friends.",
+       "options": [
+        "to",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a visit is a noun → for."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentences answer “Why?”",
+       "options": [
+        "The baby came to the hospital last week.",
+        "She has come to the hospital to get special treatment.",
+        "The doctor wore a clown nose to cheer up his patients.",
+        "The doctor will check the teddy bear first."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "to get… / to cheer up… = purpose.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "judge",
+       "text": "Yasmin is returning home for to complete her medical studies.",
+       "answer": "wrong",
+       "why": "Purpose → to + verb.",
+       "fix": "Yasmin is returning home to complete her medical studies."
+      }
+     ]
+    },
+    {
+     "title": "Why?",
+     "icon": "🛒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Gina went to the grocery store for ___.",
+       "options": [
+        "pick up something for dinner",
+        "food",
+        "get a prescription"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "for + noun."
+      },
+      {
+       "type": "choice",
+       "text": "Gina went to the grocery store to ___.",
+       "options": [
+        "food",
+        "her health",
+        "pick up something for dinner"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "My father swims every day to ___.",
+       "options": [
+        "stay in shape",
+        "her health",
+        "cash"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "My mother runs every day for ___.",
+       "options": [
+        "stay in shape",
+        "her health",
+        "make a deposit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "for + noun."
+      },
+      {
+       "type": "choice",
+       "text": "I went to the doctor for ___.",
+       "options": [
+        "get a prescription",
+        "stay in shape",
+        "a prescription"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "for + noun."
+      },
+      {
+       "type": "choice",
+       "text": "I made a doctor's appointment to ___.",
+       "options": [
+        "get a prescription",
+        "a prescription",
+        "food"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I went to an ATM to ___.",
+       "options": [
+        "cash",
+        "make a deposit",
+        "a prescription"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I stopped at an ATM for ___.",
+       "options": [
+        "make a deposit",
+        "get cash",
+        "cash"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "for + noun."
+      }
+     ]
+    },
+    {
+     "title": "Can you add “in order”?",
+     "icon": "🍪",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Lydia went to the dentist ___ to get some relief from her toothache.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why did she go? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "She doesn't go often ___ to get checkups.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why (not) go? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "She's not enthusiastic about going ___ to the dentist.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 1,
+       "why": "to the dentist = a place, not a verb."
+      },
+      {
+       "type": "sort",
+       "word": "She's very sensitive ___ to pain.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 1,
+       "why": "to pain = a preposition + noun."
+      },
+      {
+       "type": "sort",
+       "word": "She also works long hours ___ to support her family.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why does she work? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "Joe made cookies ___ to take a dessert to the party.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why did he make them? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "He decorated them ___ to impress his girlfriend.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "He likes ___ to bake when he has free time.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 1,
+       "why": "like to bake: not a purpose."
+      },
+      {
+       "type": "sort",
+       "word": "He cooks ___ to relax after a stressful day at work.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 0,
+       "why": "Why does he cook? Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "His father taught him how ___ to bake.",
+       "buckets": [
+        "Yes: (in order) to",
+        "No"
+       ],
+       "answer": 1,
+       "why": "how to bake: not a purpose."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Two reasons why",
+     "task": "Why do people exercise? Go to Hawaii? Tell white lies? Give Claude two reasons each.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What are two reasons why some people go to Hawaii for vacation? exercise? meditate? tell white lies? become actors? I answer with purpose: People exercise to stay healthy and to lose weight / for their health. Check: to + verb, for + noun, never 'for to' or 'for + verb'."
+    }
+   ]
+  },
+  {
+   "id": "15-2",
+   "tag": "15-2",
+   "t": "state",
+   "title": "Happy to help",
+   "full": "Adjectives Followed by Infinitives",
+   "lesson": {
+    "title": "Learn: adjective + to + verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Feeling + to + verb",
+      "lines": [
+       "These adjectives describe a person."
+      ],
+      "visual": [
+       "adj-inf"
+      ],
+      "chips": [
+       "We were sorry to hear the bad news.",
+       "I was surprised to see Ted at the meeting."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The adjective families",
+      "lines": [
+       "Tap to hear them."
+      ],
+      "chips": [
+       {
+        "label": "😊",
+        "words": [
+         "glad to",
+         "happy to",
+         "pleased to",
+         "delighted to",
+         "relieved to",
+         "lucky to",
+         "proud to",
+         "excited to"
+        ]
+       },
+       {
+        "label": "😟",
+        "words": [
+         "sorry to",
+         "sad to",
+         "upset to",
+         "disappointed to",
+         "embarrassed to",
+         "ashamed to",
+         "afraid to",
+         "reluctant to",
+         "hesitant to"
+        ]
+       },
+       {
+        "label": "💪",
+        "words": [
+         "ready to",
+         "prepared to",
+         "eager to",
+         "willing to",
+         "motivated to",
+         "determined to",
+         "careful to"
+        ]
+       },
+       {
+        "label": "😲",
+        "words": [
+         "surprised to",
+         "amazed to",
+         "shocked to",
+         "stunned to"
+        ]
+       },
+       {
+        "label": "🎲",
+        "words": [
+         "certain to",
+         "likely to",
+         "unlikely to"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Your little puppy seems very eager ___.",
+      "options": [
+       "to pleasing",
+       "to please",
+       "pleasing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "eager + to + simple verb."
+     },
+     {
+      "type": "choice",
+      "text": "Eva was sorry ___ that the used car she liked had been sold.",
+      "options": [
+       "hearing",
+       "to hear",
+       "hear"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "sorry + to + verb."
+     },
+     {
+      "type": "choice",
+      "text": "Nicole always speeds on the expressway. She's ___ a ticket.",
+      "options": [
+       "likely to get",
+       "likely getting"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "likely + to + verb."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "glad / sorry / ready / eager / afraid / surprised / likely + to + verb.",
+     "sorry, sad, surprised, shocked… often + to hear / see / learn / find out."
+    ],
+    "timeline": [
+     "adj-inf"
+    ],
+    "examples": [
+     {
+      "text": "We were sorry to hear the bad news.",
+      "hl": [
+       [
+        "sorry to hear",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I was surprised to see Ted at the meeting.",
+      "hl": [
+       [
+        "surprised to see",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Mr. Wah's job; the burglaries",
+     "icon": "🏡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "He is ___ to leave his country.",
+       "options": [
+        "sad",
+        "lucky",
+        "careful"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Leaving home is hard → sad.",
+       "ctx": "Mr. Wah was offered an excellent job in another country."
+      },
+      {
+       "type": "choice",
+       "text": "He is ___ to move away from his elderly parents.",
+       "options": [
+        "proud",
+        "reluctant",
+        "delighted"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He doesn't really want to → reluctant."
+      },
+      {
+       "type": "choice",
+       "text": "He is ___ to take his wife and children away from family and friends.",
+       "options": [
+        "eager",
+        "glad",
+        "hesitant"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Not sure it's right → hesitant."
+      },
+      {
+       "type": "choice",
+       "text": "He is ___ to try a new job.",
+       "options": [
+        "excited",
+        "ashamed",
+        "sorry"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An excellent job → excited."
+      },
+      {
+       "type": "choice",
+       "text": "He is ___ to learn a new language.",
+       "options": [
+        "stunned",
+        "motivated",
+        "ashamed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He has a reason to learn → motivated."
+      },
+      {
+       "type": "choice",
+       "text": "The residents have been ___ to leave their homes overnight.",
+       "options": [
+        "proud",
+        "eager",
+        "afraid"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Burglars come at night → afraid.",
+       "ctx": "There have been a lot of nighttime burglaries in Viewmont."
+      },
+      {
+       "type": "choice",
+       "text": "They have been ___ to lock their doors and windows at night.",
+       "options": [
+        "careful",
+        "sad",
+        "unlikely"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They pay attention → careful."
+      },
+      {
+       "type": "choice",
+       "text": "They have been ___ to watch for strangers on the streets.",
+       "options": [
+        "embarrassed",
+        "prepared",
+        "sorry"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They are ready → prepared."
+      },
+      {
+       "type": "choice",
+       "text": "They have been ___ to have weekly meetings with the police.",
+       "options": [
+        "ashamed",
+        "unlikely",
+        "relieved"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Updates make them feel better → relieved."
+      },
+      {
+       "type": "choice",
+       "text": "They have been ___ to hear that the police suspect neighborhood residents.",
+       "options": [
+        "shocked",
+        "content",
+        "lucky"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Bad surprise → shocked."
+      }
+     ]
+    },
+    {
+     "title": "Finish the idea",
+     "icon": "🚀",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Nicole always speeds on the expressway. She's ___.",
+       "options": [
+        "certain getting stopped by the police",
+        "certain to get stopped by the police",
+        "certain get stopped by the police"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "certain + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I've worked hard all day long. Enough! I'm ___.",
+       "options": [
+        "ready going home",
+        "ready for go home",
+        "ready to go home"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "ready + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Next month, I'm going to a family reunion, the first one in 25 years. I'm ___.",
+       "options": [
+        "excited to see everyone",
+        "excited see everyone",
+        "excited to seeing everyone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "excited + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "My family has always been loving and supportive. I'm ___.",
+       "options": [
+        "lucky having to them",
+        "lucky to have them",
+        "lucky have them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "lucky + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Ivan needs money desperately, but he's ___.",
+       "options": [
+        "embarrassed asking to help",
+        "embarrassed ask for help",
+        "embarrassed to ask for help"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "embarrassed + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Rosalyn wants to become an astronaut. She has been working hard and is ___.",
+       "options": [
+        "determined to succeed",
+        "determined succeeding",
+        "determined to succeeding"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "determined + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Our neighbors invited us to the baseball game. We were ___.",
+       "options": [
+        "delighted going to",
+        "delighted to go",
+        "delighted go"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "delighted + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "My sister-in-law told me what my brother is up to. I was ___.",
+       "options": [
+        "amazed hear it",
+        "amazed to hearing it",
+        "amazed to hear it"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "amazed + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "judge",
+       "text": "I was sorry to hear that Mila and Pablo are moving away from here.",
+       "answer": "correct",
+       "why": "sorry + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "Your little puppy seems very eager to pleasing.",
+       "answer": "wrong",
+       "why": "to + simple verb: please.",
+       "fix": "Your little puppy seems very eager to please."
+      },
+      {
+       "type": "judge",
+       "text": "She is certain to find another car soon.",
+       "answer": "correct",
+       "why": "certain + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "She was happy finding a helpful dealer.",
+       "answer": "wrong",
+       "why": "happy + to + verb.",
+       "fix": "She was happy to find a helpful dealer."
+      },
+      {
+       "type": "judge",
+       "text": "He was upset to learn that the salesperson hadn't given him all the facts.",
+       "answer": "correct",
+       "why": "upset + to learn."
+      },
+      {
+       "type": "judge",
+       "text": "He is unlikely buy a car from this dealer.",
+       "answer": "wrong",
+       "why": "unlikely + to + verb.",
+       "fix": "He is unlikely to buy a car from this dealer."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Afraid to, eager to",
+     "task": "Claude asks: What are children afraid to do? What are you determined to do before you are too old?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What are children sometimes afraid to do? When you're tired in the evening, what are you content to do? What should drivers be careful to do? If a friend has a problem, what are you willing to do? What are you determined to do before you are too old? What are you eager to do in the near future? Tell me something you were shocked to find out. I answer with adjective + to + verb. Check the infinitive form."
+    }
+   ]
+  },
+  {
+   "id": "15-3",
+   "tag": "15-3",
+   "t": "past",
+   "title": "Too heavy, strong enough",
+   "full": "Using Infinitives with Too and Enough",
+   "lesson": {
+    "title": "Learn: too… to / enough… to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "too = it's impossible",
+      "lines": [
+       "too + adjective + to + verb = a negative result."
+      ],
+      "visual": [
+       "too-enough"
+      ],
+      "chips": [
+       "That box is too heavy for Bob to lift. (He can't.)",
+       "That box is very heavy, but Bob can lift it."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“The chilies are too spicy to cook with.” Will Alberto cook with them?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "too = more than OK → he won't."
+     },
+     {
+      "type": "learn",
+      "title": "enough = it's possible",
+      "lines": [
+       "adjective + enough. enough + noun."
+      ],
+      "chips": [
+       "I am strong enough to lift that box.",
+       "I have enough strength to lift that box.",
+       "❌ enough strong"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The baby isn't ___ to sleep right now.",
+      "options": [
+       "enough tired",
+       "tired enough"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "adjective + enough."
+     },
+     {
+      "type": "choice",
+      "text": "Jason has ___ to fly anywhere in the world.",
+      "options": [
+       "enough money",
+       "too money"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "enough + noun."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "too + adjective + to + verb = can't.",
+     "adjective + enough + to + verb / enough + noun + to + verb = can."
+    ],
+    "timeline": [
+     "too-enough"
+    ],
+    "examples": [
+     {
+      "text": "That box is too heavy for Bob to lift.",
+      "hl": [
+       [
+        "too heavy",
+        "past"
+       ],
+       [
+        "to lift",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I am strong enough to lift that box.",
+      "hl": [
+       [
+        "strong enough",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I have enough strength to lift that box.",
+      "hl": [
+       [
+        "enough strength",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "too or enough? (1)",
+     "icon": "⛈️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It's ___ stormy to go outside. I'll work inside today.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I can't go out → too."
+      },
+      {
+       "type": "choice",
+       "text": "The weather is severe ___ to keep emergency workers indoors.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It has that result → enough."
+      },
+      {
+       "type": "choice",
+       "text": "Your room needs to be cleaned. You are old ___ to do it yourself.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You can do it → enough."
+      },
+      {
+       "type": "choice",
+       "text": "Please do it now. It's ___ messy to wait another day.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It can't wait → too."
+      },
+      {
+       "type": "choice",
+       "text": "The conversation occurred ___ long ago to remember any specific details.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I can't remember → too."
+      },
+      {
+       "type": "choice",
+       "text": "It was long ___ ago to make the details seem unimportant.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It has that result → enough."
+      },
+      {
+       "type": "choice",
+       "text": "It's ___ expensive to fly home on the weekend. We'll need to leave on a weekday.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "We can't → too."
+      },
+      {
+       "type": "choice",
+       "text": "Jason has money ___ to fly anywhere in the world.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He can → enough (after a noun, formal)."
+      },
+      {
+       "type": "choice",
+       "text": "Rebecca's cold is really contagious. She has sense ___ to stay home.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She does the smart thing → enough."
+      },
+      {
+       "type": "choice",
+       "text": "She has ___ sense to not expose others to her cold.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "enough + noun."
+      }
+     ]
+    },
+    {
+     "title": "too or enough? (2)",
+     "icon": "🌶️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When I injure my back, it's often ___ painful to sleep at night.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I can't sleep → too."
+      },
+      {
+       "type": "choice",
+       "text": "George's back injury was painful ___ to keep him in bed for a week.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It had that result → enough."
+      },
+      {
+       "type": "choice",
+       "text": "Alberto says the chilies are ___ spicy to cook with.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He won't use them → too."
+      },
+      {
+       "type": "choice",
+       "text": "Ricardo says they are spicy ___ to cook with.",
+       "options": [
+        "too",
+        "enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He will use them → enough."
+      },
+      {
+       "type": "choice",
+       "text": "I am ___ to lift that box.",
+       "options": [
+        "enough strong",
+        "strong enough"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "adjective + enough."
+      },
+      {
+       "type": "choice",
+       "text": "I have ___ to lift that box.",
+       "options": [
+        "enough strength",
+        "strength too"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enough + noun."
+      },
+      {
+       "type": "judge",
+       "text": "The baby isn't enough tired to sleep right now.",
+       "answer": "wrong",
+       "why": "adjective + enough.",
+       "fix": "The baby isn't tired enough to sleep right now."
+      },
+      {
+       "type": "choice",
+       "text": "“That box is too heavy for Bob to lift.” Can Bob lift it?",
+       "options": [
+        "Yes, but it is difficult.",
+        "No."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "too heavy = impossible."
+      }
+     ]
+    },
+    {
+     "title": "Listen: same meaning",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I didn't fill your cup full enough.",
+       "ask": "Same meaning?",
+       "options": [
+        "You need more.",
+        "You have enough."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not full enough = you need more."
+      },
+      {
+       "type": "listen",
+       "say": "My brother is too young to drive.",
+       "ask": "Same meaning?",
+       "options": [
+        "He's old enough to drive.",
+        "He shouldn't drive."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "too young = he can't."
+      },
+      {
+       "type": "listen",
+       "say": "She's old enough to stay home alone.",
+       "ask": "Same meaning?",
+       "options": [
+        "She is too young to stay home alone.",
+        "She can stay home alone."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "old enough = she can."
+      },
+      {
+       "type": "listen",
+       "say": "These test results are too good to be true.",
+       "ask": "Same meaning?",
+       "options": [
+        "The test results are excellent.",
+        "I'm not sure about the test results."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "too good to be true = hard to believe."
+      },
+      {
+       "type": "listen",
+       "say": "This room isn't big enough for the party.",
+       "ask": "Same meaning?",
+       "options": [
+        "The room needs to be bigger.",
+        "The room size is OK."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "not big enough = too small."
+      },
+      {
+       "type": "listen",
+       "say": "An hour is enough time to finish the test.",
+       "ask": "Same meaning?",
+       "options": [
+        "You will have enough time.",
+        "You will need more time."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enough time = it's OK."
+      },
+      {
+       "type": "listen",
+       "say": "These mushrooms look too strange to eat.",
+       "ask": "Same meaning?",
+       "options": [
+        "I want to eat them.",
+        "I don't want to eat them."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "too strange to eat = I won't."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Big enough? Too busy?",
+     "task": "Claude asks: What is your bag big enough to hold? What are you too busy to do?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What is your backpack big enough to hold? What is it too small to hold? What do you have enough time to do today? What are you too busy to do? Is it very difficult or too difficult to learn English articles? I answer in full sentences with too + adjective + to, adjective + enough + to, or enough + noun + to. Check the word order with enough."
+    }
+   ]
+  },
+  {
+   "id": "15-4",
+   "tag": "15-4",
+   "t": "plan",
+   "title": "To be invited",
+   "full": "Passive Infinitives and Gerunds: Present",
+   "lesson": {
+    "title": "Learn: to be done / being done",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Someone does it TO me",
+      "lines": [
+       "Passive infinitive: to be + past participle.",
+       "Passive gerund: being + past participle."
+      ],
+      "visual": [
+       "passive-inf"
+      ],
+      "chips": [
+       "I didn't expect to be asked to his party.",
+       "I appreciated being asked to his party."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The first verb still decides",
+      "lines": [
+       "hope, want, expect → to be… / enjoy, appreciate, about → being…"
+      ],
+      "chips": [
+       "Sam would like to be invited.",
+       "I would enjoy being invited.",
+       "Omar is looking forward to being invited."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The patient was hoping ___ a good diagnosis.",
+      "options": [
+       "to be given",
+       "being given"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "hope + to → to be given."
+     },
+     {
+      "type": "choice",
+      "text": "He was worried about ___ with cancer.",
+      "options": [
+       "to be diagnosed",
+       "being diagnosed"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "about + -ing → being diagnosed."
+     },
+     {
+      "type": "choice",
+      "text": "It's easy ___ by Jordan's charm.",
+      "options": [
+       "to be fool",
+       "to be fooled",
+       "to fool"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "to be + past participle."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Passive infinitive: to be + past participle (to be invited).",
+     "Passive gerund: being + past participle (being invited)."
+    ],
+    "timeline": [
+     "passive-inf"
+    ],
+    "examples": [
+     {
+      "text": "I didn't expect to be asked to his party.",
+      "hl": [
+       [
+        "to be asked",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I appreciated being asked to his party.",
+      "hl": [
+       [
+        "being asked",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The patient; Ann's party",
+     "icon": "🎈",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The patient was hoping ___ a good diagnosis.",
+       "options": [
+        "to be given",
+        "being given"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hope + to."
+      },
+      {
+       "type": "choice",
+       "text": "He was worried about ___ with cancer.",
+       "options": [
+        "to be diagnosed",
+        "being diagnosed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "about + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "The patient appreciated ___ by a specialist.",
+       "options": [
+        "to be seen",
+        "being seen"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "appreciate + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "It was important for him ___ by a specialist.",
+       "options": [
+        "to be seen",
+        "being seen"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is important + to."
+      },
+      {
+       "type": "fill",
+       "text": "Sam would like ___ to Ann's party.",
+       "verb": "invite",
+       "accept": [
+        "to be invited"
+       ],
+       "why": "would like + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Mara also hopes ___.",
+       "verb": "invite",
+       "accept": [
+        "to be invited"
+       ],
+       "why": "hope + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Maria has no doubts. She expects ___ to it.",
+       "verb": "invite",
+       "accept": [
+        "to be invited"
+       ],
+       "why": "expect + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Omar is looking forward to ___ too.",
+       "verb": "invite",
+       "accept": [
+        "being invited"
+       ],
+       "why": "look forward to + being + participle."
+      },
+      {
+       "type": "fill",
+       "text": "I would enjoy ___ to it, but I probably won't be.",
+       "verb": "invite",
+       "accept": [
+        "being invited"
+       ],
+       "why": "enjoy + being + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Everyone I know wants ___ to Ann's party.",
+       "verb": "invite",
+       "accept": [
+        "to be invited"
+       ],
+       "why": "want + to be + participle."
+      }
+     ]
+    },
+    {
+     "title": "Complaints",
+     "icon": "😤",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I don't enjoy ___ at by other people.",
+       "verb": "laugh",
+       "accept": [
+        "being laughed"
+       ],
+       "why": "enjoy + being + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Ryan lied again. Unfortunately, it's easy ___ by his lies.",
+       "verb": "fool",
+       "accept": [
+        "to be fooled"
+       ],
+       "why": "It's easy + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Teenagers often complain about not ___ by their parents.",
+       "verb": "understand",
+       "accept": [
+        "being understood"
+       ],
+       "why": "about + (not) being + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Your compositions are not supposed ___.",
+       "verb": "handwrite",
+       "accept": [
+        "to be handwritten"
+       ],
+       "why": "be supposed + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "They're supposed to ___.",
+       "verb": "type",
+       "accept": [
+        "be typed"
+       ],
+       "why": "to + be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Dr. Davis is upset. She doesn't want ___ at home unless there is an emergency.",
+       "verb": "call",
+       "accept": [
+        "to be called"
+       ],
+       "why": "want + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Please don't lie again. From now on, I insist on ___ the truth.",
+       "verb": "tell",
+       "accept": [
+        "being told"
+       ],
+       "why": "insist on + being + participle."
+      },
+      {
+       "type": "fill",
+       "text": "Lars is hoping ___ to the city council, but he's not qualified at all.",
+       "verb": "elect",
+       "accept": [
+        "to be elected"
+       ],
+       "why": "hope + to be + participle."
+      },
+      {
+       "type": "fill",
+       "text": "My sister is a helicopter parent. Her kids need ___ more independence.",
+       "verb": "give",
+       "accept": [
+        "to be given"
+       ],
+       "why": "need + to be + participle."
+      },
+      {
+       "type": "judge",
+       "text": "It's easy to be fool by Jordan's charm.",
+       "answer": "wrong",
+       "why": "to be + past participle: fooled.",
+       "fix": "It's easy to be fooled by Jordan's charm."
+      }
+     ]
+    },
+    {
+     "title": "An issue in health care",
+     "icon": "💊",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Millions of people are not ___ directions on medicine bottles.",
+       "options": [
+        "to be understood",
+        "using",
+        "able to read"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "be able + to + verb.",
+       "ctx": "Many people in the world cannot read well enough for everyday tasks."
+      },
+      {
+       "type": "choice",
+       "text": "Imagine ___ a parent with a sick child…",
+       "options": [
+        "being",
+        "to be",
+        "be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "imagine + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "…and being unable ___ the directions on a medicine bottle.",
+       "options": [
+        "reading",
+        "to read",
+        "read"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "unable + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "It is important for medical directions ___ clearly.",
+       "options": [
+        "being understood",
+        "to understand",
+        "to be understood"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Directions receive the action → to be understood."
+      },
+      {
+       "type": "choice",
+       "text": "Many medical professionals are working today ___ this problem…",
+       "options": [
+        "to solve",
+        "solving for",
+        "for solve"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Purpose → to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "…by ___ pictures to convey health-care information.",
+       "options": [
+        "to use",
+        "using",
+        "use"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by + -ing."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Agree or disagree?",
+     "task": "“I appreciate being given advice by my family.” Do you agree? Tell Claude why.",
+     "claudePrompt": "You are my English speaking partner. Give me one statement at a time and ask if I agree and why: I appreciate being given advice by my family and friends. / I always expect to be told the complete truth by everyone. / I would like to be invited to an event with a lot of famous people. / I don't mind being corrected when I speak English. Encourage me to reuse the passive infinitive or gerund in my answer. Check to be + past participle and being + past participle."
+    }
+   ]
+  },
+  {
+   "id": "15-5",
+   "tag": "15-5",
+   "t": "pastperf",
+   "title": "To have done",
+   "full": "Past Forms of Infinitives and Gerunds: Active and Passive",
+   "lesson": {
+    "title": "Learn: to have told / having told",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "It happened before",
+      "lines": [
+       "have + past participle shows an earlier time."
+      ],
+      "visual": [
+       "past-inf"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Past infinitive, past gerund",
+      "lines": [
+       "to have + participle. having + participle."
+      ],
+      "chips": [
+       "Tim appeared to have told his wife about his promotion.",
+       "He mentioned having told his wife immediately."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It seems that Thomas has received some upsetting news. → Thomas seems ___ some upsetting news.",
+      "options": [
+       "to have received",
+       "having received"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "seem + to → to have received."
+     },
+     {
+      "type": "learn",
+      "title": "Past passive",
+      "lines": [
+       "to have been + participle. having been + participle."
+      ],
+      "chips": [
+       "Tim's wife was happy to have been told immediately.",
+       "She appreciated having been told immediately."
+      ],
+      "tip": "Often the simple form is fine too: He mentioned telling his wife."
+     },
+     {
+      "type": "choice",
+      "text": "I was happy ___ to the surprise party.",
+      "options": [
+       "to have been invited",
+       "to have invited"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Someone invited me → passive."
+     },
+     {
+      "type": "choice",
+      "text": "Marcus mentioned ___ a large sum of money.",
+      "options": [
+       "having lost",
+       "to have lost"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "mention + -ing → having lost."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Past: to have + past participle / having + past participle.",
+     "Past passive: to have been + participle / having been + participle."
+    ],
+    "timeline": [
+     "past-inf"
+    ],
+    "examples": [
+     {
+      "text": "Tim appeared to have told his wife.",
+      "hl": [
+       [
+        "to have told",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "He mentioned having told his wife.",
+      "hl": [
+       [
+        "having told",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "She was happy to have been told.",
+      "hl": [
+       [
+        "to have been told",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Say it with a phrase",
+     "icon": "📰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It seems that Thomas has received some upsetting news. → Thomas seems ___.",
+       "options": [
+        "having received some upsetting news",
+        "to have received some upsetting news"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "seem + to have + participle."
+      },
+      {
+       "type": "choice",
+       "text": "The workers mentioned that they lost the contract. → The workers mentioned ___.",
+       "options": [
+        "having lost the contract",
+        "to have lost the contract"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "mention + having + participle."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. and Mrs. Sanchez regret that they missed your wedding. → They regret ___.",
+       "options": [
+        "to have been missed your wedding",
+        "having missed your wedding"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "regret + having + participle."
+      },
+      {
+       "type": "choice",
+       "text": "It appears that Nicholas has gotten a new job. → Nicholas appears ___.",
+       "options": [
+        "to have gotten a new job",
+        "having gotten a new job"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "appear + to have + participle."
+      },
+      {
+       "type": "choice",
+       "text": "The mechanic admitted that he had overcharged for repairs. → The mechanic admitted ___.",
+       "options": [
+        "to have overcharged for repairs",
+        "having overcharged for repairs"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "admit + having + participle."
+      },
+      {
+       "type": "choice",
+       "text": "Mariah claims that she has met several celebrities. → Mariah claims ___.",
+       "options": [
+        "to have met several celebrities",
+        "having met several celebrities"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "claim + to have + participle."
+      },
+      {
+       "type": "choice",
+       "text": "Liam denied cheating on the test. / Liam denied having cheated on the test.",
+       "options": [
+        "Almost the same meaning",
+        "Very different meanings"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "having cheated just stresses “before.”"
+      },
+      {
+       "type": "choice",
+       "text": "He was surprised to have been caught by the teacher.",
+       "options": [
+        "The teacher caught him.",
+        "He caught the teacher."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to have been caught = passive.",
+       "ask": "Who caught whom?"
+      }
+     ]
+    },
+    {
+     "title": "Billy Williams; Ben in the war",
+     "icon": "🪖",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I don't remember that I ___ him.",
+       "verb": "meet",
+       "accept": [
+        "met"
+       ],
+       "why": "A normal clause → simple past.",
+       "ctx": "I'm not sure I've ever met Billy Williams."
+      },
+      {
+       "type": "fill",
+       "text": "I don't recall having ___ him.",
+       "verb": "meet",
+       "accept": [
+        "met"
+       ],
+       "why": "having + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "I don't recall ___ him.",
+       "verb": "meet",
+       "accept": [
+        "meeting"
+       ],
+       "why": "recall + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't remember ___ him.",
+       "verb": "meet",
+       "accept": [
+        "meeting"
+       ],
+       "why": "A memory → remember + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "He was lucky to ___ the war.",
+       "verb": "survive",
+       "accept": [
+        "survive"
+       ],
+       "why": "to + simple form.",
+       "ctx": "Ben was in the army. He was caught, but he escaped."
+      },
+      {
+       "type": "fill",
+       "text": "He was lucky to have ___ the war.",
+       "verb": "survive",
+       "accept": [
+        "survived"
+       ],
+       "why": "to have + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "He told us about having ___ the war.",
+       "verb": "survive",
+       "accept": [
+        "survived"
+       ],
+       "why": "having + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "He told us about ___ the war.",
+       "verb": "survive",
+       "accept": [
+        "surviving"
+       ],
+       "why": "about + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "It was fortunate that he ___ the war.",
+       "verb": "survive",
+       "accept": [
+        "survived"
+       ],
+       "why": "A normal clause → simple past."
+      }
+     ]
+    },
+    {
+     "title": "All that fit",
+     "icon": "💍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Carlos looks great! He appears ___ some weight.",
+       "options": [
+        "losing",
+        "to have lost",
+        "to losing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "appear + to have + participle."
+      },
+      {
+       "type": "choice",
+       "text": "I don't like ___ by friends.",
+       "options": [
+        "being lied to",
+        "lying to",
+        "to lie to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Friends lie to me → passive gerund."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. Gow mentioned ___ in an accident as a child.",
+       "options": [
+        "being injured",
+        "having been injured",
+        "injured"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "mention + being / having been + participle.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I was expecting ___ to the party, but I wasn't.",
+       "options": [
+        "being invited",
+        "to be invited",
+        "to have been invited"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "expect + to be + participle."
+      },
+      {
+       "type": "choice",
+       "text": "My husband talked of ___ by his parents.",
+       "options": [
+        "being misunderstood",
+        "having been misunderstood",
+        "misunderstood"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "of + being / having been + participle.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The employees were happy ___ Mr. Larson as their next president.",
+       "options": [
+        "to choose",
+        "to have chosen",
+        "to have been chosen"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "They chose him → active.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Mr. Larson was happy ___ as the next company president.",
+       "options": [
+        "to choose",
+        "to be chosen",
+        "to have been chosen"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "They chose him → passive.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "judge",
+       "text": "Marcus mentioned having lost a large sum of money.",
+       "answer": "correct",
+       "why": "mention + having + participle."
+      },
+      {
+       "type": "judge",
+       "text": "I was happy to have been invited to the surprise party.",
+       "answer": "correct",
+       "why": "happy + to have been + participle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "15-6",
+   "tag": "15-6",
+   "t": "prog",
+   "title": "It needs fixing",
+   "full": "Using Gerunds or Passive Infinitives Following Need",
+   "lesson": {
+    "title": "Learn: need + -ing = need to be done",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "need + to + verb",
+      "lines": [
+       "The usual pattern."
+      ],
+      "chips": [
+       "I need to paint my house.",
+       "John needs to be told the truth."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A thing needs fixing",
+      "lines": [
+       "need + -ing has a passive meaning."
+      ],
+      "visual": [
+       "need-ing"
+      ],
+      "chips": [
+       "My house needs painting.",
+       "My house needs to be painted."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The car is really dirty. It needs ___.",
+      "options": [
+       "to be wash",
+       "to be washed",
+       "to washing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "to be + past participle."
+     },
+     {
+      "type": "choice",
+      "text": "The tractor is broken. I need ___ it.",
+      "options": [
+       "to fix",
+       "fixing"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "I do it → need to fix."
+     },
+     {
+      "type": "choice",
+      "text": "The tractor needs ___.",
+      "options": [
+       "fixing",
+       "fix"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The tractor receives it → needs fixing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A person needs to do something: I need to paint my house.",
+     "A thing needs doing = needs to be done: My house needs painting."
+    ],
+    "timeline": [
+     "need-ing"
+    ],
+    "examples": [
+     {
+      "text": "I need to paint my house.",
+      "hl": [
+       [
+        "to paint",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "My house needs painting.",
+      "hl": [
+       [
+        "painting",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "My house needs to be painted.",
+      "hl": [
+       [
+        "to be painted",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Farm chores",
+     "icon": "🚜",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The tractor is broken. I need ___ it.",
+       "verb": "fix",
+       "accept": [
+        "to fix"
+       ],
+       "why": "I do it → to fix."
+      },
+      {
+       "type": "fill",
+       "text": "The tractor needs ___.",
+       "verb": "fix",
+       "accept": [
+        "fixing",
+        "to be fixed"
+       ],
+       "why": "It receives it → fixing / to be fixed."
+      },
+      {
+       "type": "fill",
+       "text": "The horses are hungry. They need ___.",
+       "verb": "feed",
+       "accept": [
+        "to be fed",
+        "feeding"
+       ],
+       "why": "They receive it → to be fed / feeding."
+      },
+      {
+       "type": "fill",
+       "text": "Their stalls are dirty. We need ___ them.",
+       "verb": "clean",
+       "accept": [
+        "to clean"
+       ],
+       "why": "We do it → to clean."
+      },
+      {
+       "type": "fill",
+       "text": "The hens have laid eggs. You need ___ the eggs.",
+       "verb": "gather",
+       "accept": [
+        "to gather"
+       ],
+       "why": "You do it → to gather."
+      },
+      {
+       "type": "fill",
+       "text": "The dog's been digging in the mud. He needs ___.",
+       "verb": "wash",
+       "accept": [
+        "to be washed",
+        "washing"
+       ],
+       "why": "He receives it → to be washed / washing."
+      },
+      {
+       "type": "fill",
+       "text": "The vegetable garden is dry. It needs ___.",
+       "verb": "water",
+       "accept": [
+        "to be watered",
+        "watering"
+       ],
+       "why": "It receives it → to be watered / watering."
+      },
+      {
+       "type": "fill",
+       "text": "The apples on the tree are ripe. We need ___ them.",
+       "verb": "pick",
+       "accept": [
+        "to pick"
+       ],
+       "why": "We do it → to pick."
+      },
+      {
+       "type": "fill",
+       "text": "There is a hole in the fence. The fence needs ___.",
+       "verb": "repair",
+       "accept": [
+        "to be repaired",
+        "repairing"
+       ],
+       "why": "It receives it → to be repaired / repairing."
+      }
+     ]
+    },
+    {
+     "title": "A fixer-upper",
+     "icon": "🏚️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The windows are broken. The windows need ___.",
+       "options": [
+        "to be replaced",
+        "replacing",
+        "to replace"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Passive meaning: to be replaced / replacing.",
+       "ask": "Tap ALL the correct ones",
+       "ctx": "Lawrence and Kara found an old house that needs a lot of work."
+      },
+      {
+       "type": "choice",
+       "text": "The roof has holes. The roof needs ___.",
+       "options": [
+        "repairing",
+        "to be repaired",
+        "repair"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Passive meaning.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The paint is peeling. The siding needs ___.",
+       "options": [
+        "to paint",
+        "painting",
+        "to be painted"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "Passive meaning.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The front steps are rotten. Lawrence needs ___ them.",
+       "options": [
+        "to rebuild",
+        "rebuilding",
+        "to be rebuilt"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Lawrence does it → to rebuild."
+      },
+      {
+       "type": "choice",
+       "text": "The porch is falling down. It needs ___.",
+       "options": [
+        "to fix",
+        "fixing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The porch receives it → fixing."
+      },
+      {
+       "type": "choice",
+       "text": "Kara needs ___ a plumber.",
+       "options": [
+        "to call",
+        "calling"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Kara does it → to call."
+      },
+      {
+       "type": "judge",
+       "text": "The car is really dirty. It needs to be wash.",
+       "answer": "wrong",
+       "why": "to be + past participle.",
+       "fix": "The car is really dirty. It needs to be washed."
+      }
+     ]
+    },
+    {
+     "title": "Multitasking",
+     "icon": "📲",
+     "items": [
+      {
+       "type": "choice",
+       "text": "According to research, it is impossible ___ successfully.",
+       "options": [
+        "multitasking to",
+        "multitask",
+        "to multitask"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It is impossible + to + verb.",
+       "ctx": "A blog post: can we do many things at the same time?"
+      },
+      {
+       "type": "choice",
+       "text": "Are we capable of ___ all of them at the same time?",
+       "options": [
+        "doing",
+        "to do",
+        "do"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "of + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "This is why it is more efficient ___ things in batches.",
+       "options": [
+        "doing to",
+        "to do",
+        "do"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is efficient + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "OHIO stands for “only handle it once.” It can help us ___ on task.",
+       "options": [
+        "staying",
+        "stayed",
+        "stay"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "help + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "Think about what tasks you have that need ___ for school or work.",
+       "options": [
+        "to be done",
+        "to do them",
+        "be doing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tasks receive the action → to be done."
+      },
+      {
+       "type": "choice",
+       "text": "What does the writer say about multitasking?",
+       "options": [
+        "We work more slowly or make more mistakes.",
+        "It saves a lot of time."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "More tasks → more mistakes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "15-7",
+   "tag": "15-7",
+   "t": "pres",
+   "title": "I saw her run",
+   "full": "Using Verbs of Perception",
+   "lesson": {
+    "title": "Learn: see / hear + simple form or -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "see, hear, feel + person + verb",
+      "lines": [
+       "Simple form or -ing. Never to."
+      ],
+      "visual": [
+       "perception"
+      ],
+      "chips": [
+       "I saw my friend run down the street.",
+       "I saw my friend running down the street.",
+       "❌ I saw my friend to run."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The perception verbs",
+      "lines": [
+       "Your eyes, ears, nose and skin."
+      ],
+      "chips": [
+       {
+        "label": "👀",
+        "words": [
+         "see",
+         "notice",
+         "watch",
+         "look at",
+         "observe"
+        ]
+       },
+       {
+        "label": "👂",
+        "words": [
+         "hear",
+         "listen to"
+        ]
+       },
+       {
+        "label": "🖐️👃",
+        "words": [
+         "feel",
+         "smell"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I heard Mr. Reed ___ something to the boss.",
+      "options": [
+       "say",
+       "to say"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "hear + person + simple form."
+     },
+     {
+      "type": "compare",
+      "title": "Whole action or in progress?",
+      "left": {
+       "label": "Simple form: from start to end",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I heard a famous opera star sing at the concert last night.",
+         "hl": [
+          [
+           "sing",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "-ing: already happening",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "When I walked in, I heard my roommate singing in the shower.",
+         "hl": [
+          [
+           "singing",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Often both are OK."
+     },
+     {
+      "type": "choice",
+      "text": "I smell smoke. Do you smell something ___?",
+      "options": [
+       "burn",
+       "burning"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It is in progress now → -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "see / hear / watch / feel / notice / smell + object + simple form or -ing.",
+     "-ing = in progress when you notice it. Never to."
+    ],
+    "timeline": [
+     "perception"
+    ],
+    "examples": [
+     {
+      "text": "I saw my friend run down the street.",
+      "hl": [
+       [
+        "run",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I heard the rain falling on the roof.",
+      "hl": [
+       [
+        "falling",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "An earthquake",
+     "icon": "🏪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "As I stood in the grocery store, I felt the ground ___.",
+       "options": [
+        "shake",
+        "shaking",
+        "to shake"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "feel + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I heard someone ___ “earthquake.”",
+       "options": [
+        "yell",
+        "yelling",
+        "to yell"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "hear + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I saw cans of food ___ off shelves.",
+       "options": [
+        "to fall",
+        "fall",
+        "falling"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "see + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I watched customers in the store ___ outside.",
+       "options": [
+        "run",
+        "to run",
+        "running"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "watch + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I listened to people ___ the size of the earthquake.",
+       "options": [
+        "discussing",
+        "discuss",
+        "to discuss"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "listen to + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I observed store staff ___ people outside.",
+       "options": [
+        "to help",
+        "helping",
+        "help"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "observe + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "judge",
+       "text": "I saw Mr. Reed to give something to the boss.",
+       "answer": "wrong",
+       "why": "No to after see.",
+       "fix": "I saw Mr. Reed give something to the boss."
+      },
+      {
+       "type": "judge",
+       "text": "I heard Mr. Reed saying something to the boss.",
+       "answer": "correct",
+       "why": "hear + object + -ing."
+      }
+     ]
+    },
+    {
+     "title": "Which form is better?",
+     "icon": "🚪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I smell smoke. Do you smell something ___? I do.",
+       "verb": "burn",
+       "accept": [
+        "burning"
+       ],
+       "why": "In progress now → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "When I heard the front door ___, I got up to see if someone had come in.",
+       "verb": "slam",
+       "accept": [
+        "slam"
+       ],
+       "why": "One short, complete action → simple form."
+      },
+      {
+       "type": "fill",
+       "text": "I know Uncle Ben is in the bedroom because I can hear him ___.",
+       "verb": "snore",
+       "accept": [
+        "snoring"
+       ],
+       "why": "In progress now → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "When I walked past the park, I saw some children ___ softball.",
+       "verb": "play",
+       "accept": [
+        "playing"
+       ],
+       "why": "In progress when I passed → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "When I heard the school principal ___ my name, I walked to the front of the auditorium.",
+       "verb": "call",
+       "accept": [
+        "call"
+       ],
+       "why": "One complete action → simple form."
+      },
+      {
+       "type": "fill",
+       "text": "I was surprised when I saw Adam ___ toward the house.",
+       "verb": "walk",
+       "accept": [
+        "walking"
+       ],
+       "why": "In progress when I looked → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Listen! Do you hear someone ___ for help? I do.",
+       "verb": "call",
+       "accept": [
+        "calling"
+       ],
+       "why": "In progress now → -ing."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "🎤",
+     "items": [
+      {
+       "type": "judge",
+       "text": "The walls are paper thin, and I could hear my roommate snoring loudly.",
+       "answer": "correct",
+       "why": "hear + object + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "I heard the rain to fall on the roof.",
+       "answer": "wrong",
+       "why": "No to after hear.",
+       "fix": "I heard the rain fall on the roof."
+      },
+      {
+       "type": "judge",
+       "text": "I heard a famous opera star sing at the concert last night.",
+       "answer": "correct",
+       "why": "The whole concert → simple form."
+      },
+      {
+       "type": "judge",
+       "text": "Did you notice the man left the building?",
+       "answer": "wrong",
+       "why": "notice + object + simple form / -ing.",
+       "fix": "Did you notice the man leave the building?"
+      },
+      {
+       "type": "judge",
+       "text": "We watched the sun going down.",
+       "answer": "correct",
+       "why": "watch + object + -ing."
+      },
+      {
+       "type": "judge",
+       "text": "I felt something to crawl up my arm.",
+       "answer": "wrong",
+       "why": "No to after feel.",
+       "fix": "I felt something crawling up my arm."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What do you hear?",
+     "task": "Close your eyes. What do you hear happening right now? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: Close your eyes for ten seconds. What do you hear happening right now? Look out the window. What do you see people doing? Think of this morning: what did you see or hear someone do? What can you smell cooking? I answer with see/hear/smell + object + -ing or simple form (I can hear a car passing.). Check that I never use 'to' after these verbs."
+    }
+   ]
+  },
+  {
+   "id": "15-8",
+   "tag": "15-8",
+   "t": "pres",
+   "title": "Let me help",
+   "full": "Using the Simple Form After Let and Help",
+   "lesson": {
+    "title": "Learn: let / help + simple form",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "let + person + simple form",
+      "lines": [
+       "let = allow. No to!"
+      ],
+      "visual": [
+       "let-help"
+      ],
+      "chips": [
+       "My father lets me drive his car.",
+       "I let my friend borrow my bike.",
+       "Let's go to a movie.",
+       "❌ My father lets me to drive."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Rafael lets his young children ___ up past midnight on weekends.",
+      "options": [
+       "to stay",
+       "stay",
+       "staying"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "let + person + simple form."
+     },
+     {
+      "type": "learn",
+      "title": "help + person + (to) + verb",
+      "lines": [
+       "Both are correct. Without to is more common."
+      ],
+      "chips": [
+       "My brother helped me wash my car.",
+       "My brother helped me to wash my car."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Could you help me ___ the groceries inside?",
+      "options": [
+       "carry",
+       "to carry",
+       "Both are correct."
+      ],
+      "answer": [
+       2
+      ],
+      "why": "help + person + (to) + verb."
+     },
+     {
+      "type": "choice",
+      "text": "Don't let me ___ to take my keys with me.",
+      "options": [
+       "forget",
+       "to forget"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "let + person + simple form."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "let + person + simple form (never to).",
+     "help + person + simple form (or to + verb)."
+    ],
+    "timeline": [
+     "let-help"
+    ],
+    "examples": [
+     {
+      "text": "My father lets me drive his car.",
+      "hl": [
+       [
+        "lets me drive",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "My brother helped me wash my car.",
+      "hl": [
+       [
+        "helped me wash",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "My brother helped me to wash my car.",
+      "hl": [
+       [
+        "helped me to wash",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Correct or not?",
+     "icon": "😴",
+     "items": [
+      {
+       "type": "judge",
+       "text": "My parents let me sleep late on weekends.",
+       "answer": "correct",
+       "why": "let + person + simple form."
+      },
+      {
+       "type": "judge",
+       "text": "My parents let me to sleep late on weekends.",
+       "answer": "wrong",
+       "why": "No to after let.",
+       "fix": "My parents let me sleep late on weekends."
+      },
+      {
+       "type": "judge",
+       "text": "After I wake up, I help them do the chores.",
+       "answer": "correct",
+       "why": "help + person + simple form."
+      },
+      {
+       "type": "judge",
+       "text": "After I wake up, I help them to do the chores.",
+       "answer": "correct",
+       "why": "help + person + to + verb is also OK."
+      },
+      {
+       "type": "judge",
+       "text": "Could you help me to carry the groceries inside? There are several bags.",
+       "answer": "correct",
+       "why": "help + person + (to) + verb: both are OK."
+      },
+      {
+       "type": "judge",
+       "text": "Rafael lets his young children to stay up past midnight on weekends.",
+       "answer": "wrong",
+       "why": "No to after let.",
+       "fix": "Rafael lets his young children stay up past midnight on weekends."
+      },
+      {
+       "type": "judge",
+       "text": "Let's to go to a movie.",
+       "answer": "wrong",
+       "why": "Let's + simple form.",
+       "fix": "Let's go to a movie."
+      }
+     ]
+    },
+    {
+     "title": "At breakfast",
+     "icon": "🥞",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My advisor is letting me ___ a course. All I need to do is pass the test.",
+       "verb": "challenge",
+       "accept": [
+        "challenge"
+       ],
+       "why": "let + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "Could you help me ___ out my credit card statement before you go?",
+       "verb": "figure",
+       "accept": [
+        "figure",
+        "to figure"
+       ],
+       "why": "help + person + (to) + verb."
+      },
+      {
+       "type": "fill",
+       "text": "You really shouldn't let the dog ___ under the table.",
+       "verb": "sit",
+       "accept": [
+        "sit"
+       ],
+       "why": "let + object + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "Did you help Mrs. Vitale ___ her furniture?",
+       "verb": "move",
+       "accept": [
+        "move",
+        "to move"
+       ],
+       "why": "help + person + (to) + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Don't let me ___ to take my keys with me when I leave.",
+       "verb": "forget",
+       "accept": [
+        "forget"
+       ],
+       "why": "let + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "I need to go soon. Could you help me ___ the table?",
+       "verb": "clear",
+       "accept": [
+        "clear",
+        "to clear"
+       ],
+       "why": "help + person + (to) + verb."
+      },
+      {
+       "type": "fill",
+       "text": "You've been working so hard. Let me ___ dinner tonight.",
+       "verb": "cook",
+       "accept": [
+        "cook"
+       ],
+       "why": "let + person + simple form."
+      }
+     ]
+    },
+    {
+     "title": "let, help, allow",
+     "icon": "🔑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My father ___ his car.",
+       "options": [
+        "lets me to drive",
+        "lets me drive",
+        "lets me driving"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "let + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "My father ___ his car. (allow)",
+       "options": [
+        "allows me drive",
+        "allows me driving",
+        "allows me to drive"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "allow + person + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I let my friend ___ my bike.",
+       "options": [
+        "borrow",
+        "to borrow",
+        "borrowed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "let + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "My brother helped me ___ my car.",
+       "options": [
+        "washing",
+        "wash",
+        "washed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "help + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "___ a movie tonight.",
+       "options": [
+        "Let's to go to",
+        "Let's going to",
+        "Let's go to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Let's + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "Please let me ___ what you decide.",
+       "options": [
+        "know",
+        "to know",
+        "knowing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "let + person + simple form."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "15-9",
+   "tag": "15-9",
+   "t": "plan",
+   "title": "Make, have, get",
+   "full": "Using Causative Verbs: Make, Have, Get",
+   "lesson": {
+    "title": "Learn: making other people do things",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "X causes Y to do it",
+      "lines": [
+       "Three verbs, three feelings."
+      ],
+      "visual": [
+       "causative"
+      ],
+      "chips": [
+       "I made my brother carry my suitcase. (no choice)",
+       "I had my brother carry my suitcase. (I asked)",
+       "I got my brother to carry my suitcase. (I persuaded him)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Watch the form",
+      "lines": [
+       "make / have + simple form. get + to + verb."
+      ],
+      "chips": [
+       "Mrs. Lee made her son clean his room.",
+       "Sad movies make me cry.",
+       "I had the plumber repair the leak.",
+       "The students got the teacher to dismiss class early."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Diana makes her kids ___ their rooms once a week.",
+      "options": [
+       "to clean",
+       "clean",
+       "cleaning"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "make + person + simple form."
+     },
+     {
+      "type": "choice",
+      "text": "Tom got his roommate ___ dinner for him.",
+      "options": [
+       "cook",
+       "to cook"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "get + person + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Have / get it done",
+      "lines": [
+       "have / get + thing + past participle = someone does it for you."
+      ],
+      "chips": [
+       "I had my watch repaired.",
+       "I got my watch repaired."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I went to the bank to have a check ___.",
+      "options": [
+       "cash",
+       "cashed",
+       "to cash"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "have + thing + past participle."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "make / have + person + simple form. get + person + to + verb.",
+     "have / get + thing + past participle: I had my watch repaired."
+    ],
+    "timeline": [
+     "causative"
+    ],
+    "examples": [
+     {
+      "text": "I made my brother carry my suitcase.",
+      "hl": [
+       [
+        "made",
+        "past"
+       ],
+       [
+        "carry",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I got my brother to carry my suitcase.",
+      "hl": [
+       [
+        "got",
+        "plan"
+       ],
+       [
+        "to carry",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I had my watch repaired.",
+      "hl": [
+       [
+        "had",
+        "pres"
+       ],
+       [
+        "repaired",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Andy and Adam",
+     "icon": "🌼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“Weed the dandelions right now! I don't want you to leave until it's done.”",
+       "options": [
+        "Andy got his son to weed the dandelions.",
+        "Andy made his son weed the dandelions.",
+        "Andy had his son weed the dandelions."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No choice → made."
+      },
+      {
+       "type": "choice",
+       "text": "“You did a good job with the dandelions. I'm glad I asked you to weed.”",
+       "options": [
+        "Andy got his son to weed the dandelions.",
+        "Andy made his son weed the dandelions.",
+        "Andy had his son weed the dandelions."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "He asked → had."
+      },
+      {
+       "type": "choice",
+       "text": "“I told my son I would double his allowance if he weeded the dandelions.”",
+       "options": [
+        "Andy got his son to weed the dandelions.",
+        "Andy made his son weed the dandelions.",
+        "Andy had his son weed the dandelions."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He persuaded him → got … to."
+      },
+      {
+       "type": "choice",
+       "text": "MRS. LEE: “No, Adam, you cannot go out until you clean up your room. Go clean it, and I mean now!”",
+       "options": [
+        "Mrs. Lee got Adam to clean up his room.",
+        "Mrs. Lee made Adam clean up his room.",
+        "Mrs. Lee had Adam clean up his room."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No choice → made."
+      },
+      {
+       "type": "choice",
+       "text": "MRS. LEE: “Let's make a deal. First you clean your room. Then you can play until dark.”",
+       "options": [
+        "Mrs. Lee got Adam to clean up his room.",
+        "Mrs. Lee made Adam clean up his room.",
+        "Mrs. Lee had Adam clean up his room."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A deal = she persuaded him → got … to."
+      },
+      {
+       "type": "choice",
+       "text": "MRS. LEE: “Sure, but first you need to clean up your room. OK?” ADAM: “OK.”",
+       "options": [
+        "Mrs. Lee got Adam to clean up his room.",
+        "Mrs. Lee made Adam clean up his room.",
+        "Mrs. Lee had Adam clean up his room."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A simple request → had."
+      }
+     ]
+    },
+    {
+     "title": "What does it mean?",
+     "icon": "✍️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The teacher had her class write a composition.",
+       "options": [
+        "gave them no choice",
+        "persuaded them",
+        "asked them to do it"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "have = ask / request.",
+       "ask": "The teacher…"
+      },
+      {
+       "type": "choice",
+       "text": "Mrs. Wilson made the children wash their hands before dinner.",
+       "options": [
+        "gave them no choice",
+        "persuaded them",
+        "asked them to do it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "make = no choice.",
+       "ask": "Mrs. Wilson…"
+      },
+      {
+       "type": "choice",
+       "text": "Kostas got some neighborhood kids to help him clean out his garage.",
+       "options": [
+        "gave them no choice",
+        "persuaded them",
+        "asked them to do it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "get … to = persuade.",
+       "ask": "Kostas…"
+      },
+      {
+       "type": "choice",
+       "text": "My boss made me redo my report because he wasn't satisfied with it.",
+       "options": [
+        "gave me no choice",
+        "persuaded me",
+        "asked me to do it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "make = no choice.",
+       "ask": "My boss…"
+      },
+      {
+       "type": "choice",
+       "text": "I got Rosa to lend me some lunch money.",
+       "options": [
+        "gave her no choice",
+        "persuaded her",
+        "asked her to do it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "get … to = persuade.",
+       "ask": "I…"
+      },
+      {
+       "type": "choice",
+       "text": "The police officer had the driver get out of his car.",
+       "options": [
+        "gave him no choice",
+        "persuaded him",
+        "asked him to do it"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "have = request.",
+       "ask": "The officer…"
+      }
+     ]
+    },
+    {
+     "title": "Tasks",
+     "icon": "🪟",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Henry made his son ___ the car before he could go outside to play.",
+       "verb": "wash",
+       "accept": [
+        "wash"
+       ],
+       "why": "make + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "Mrs. Crane had her house ___.",
+       "verb": "paint",
+       "accept": [
+        "painted"
+       ],
+       "why": "have + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "I went to the bank to have a check ___.",
+       "verb": "cash",
+       "accept": [
+        "cashed"
+       ],
+       "why": "have + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "Tom had a bad headache yesterday, so he got his roommate ___ dinner for him.",
+       "verb": "cook",
+       "accept": [
+        "to cook"
+       ],
+       "why": "get + person + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "The sleeves were too long, so Scott had them ___.",
+       "verb": "shorten",
+       "accept": [
+        "shortened"
+       ],
+       "why": "have + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "When my laptop stopped working, I took it to the computer store to have it ___.",
+       "verb": "fix",
+       "accept": [
+        "fixed"
+       ],
+       "why": "have + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "Somehow Benjamin got his little brother ___ it for him.",
+       "verb": "do",
+       "accept": [
+        "to do"
+       ],
+       "why": "get + person + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "We had our cousin ___ pictures of everyone at the wedding.",
+       "verb": "take",
+       "accept": [
+        "take"
+       ],
+       "why": "have + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "We had over 500 pictures ___.",
+       "verb": "take",
+       "accept": [
+        "taken"
+       ],
+       "why": "have + thing + past participle."
+      }
+     ]
+    },
+    {
+     "title": "Near my home, people can get…",
+     "icon": "💈",
+     "items": [
+      {
+       "type": "fill",
+       "text": "People can get their car ___.",
+       "verb": "fix",
+       "accept": [
+        "fixed"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their hair ___.",
+       "verb": "cut",
+       "accept": [
+        "cut"
+       ],
+       "why": "cut, cut, cut."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their checks ___.",
+       "verb": "cash",
+       "accept": [
+        "cashed"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their laundry ___.",
+       "verb": "do",
+       "accept": [
+        "done"
+       ],
+       "why": "do, did, done."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their passport photo ___.",
+       "verb": "take",
+       "accept": [
+        "taken"
+       ],
+       "why": "take, took, taken."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their blood pressure ___.",
+       "verb": "check",
+       "accept": [
+        "checked"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their shoes ___.",
+       "verb": "repair",
+       "accept": [
+        "repaired"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "People can get their clothes ___.",
+       "verb": "dry-clean",
+       "accept": [
+        "dry-cleaned",
+        "dry cleaned"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "People can't get their money ___.",
+       "verb": "exchange",
+       "accept": [
+        "exchanged"
+       ],
+       "why": "get + thing + past participle."
+      },
+      {
+       "type": "judge",
+       "text": "Diana makes her kids clean their rooms once a week.",
+       "answer": "correct",
+       "why": "make + person + simple form."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Who makes you do it?",
+     "task": "Claude asks: What did your parents make you do? What do you get your friends to do?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What do children try to get their parents to do at a toy store? What do bosses sometimes make their employees do? What does a teacher have students do? What didn't your parents let you do when you were a child? What did they make you do? What do you sometimes have a server at a restaurant do? What can you get done near your home (hair cut, shoes repaired)? Check: make/have/let + person + simple form; get + person + to + verb; have/get + thing + past participle."
+    }
+   ]
+  },
+  {
+   "id": "15-10",
+   "tag": "15-10",
+   "t": "pres",
+   "title": "Your helping me",
+   "full": "Using a Possessive to Modify a Gerund",
+   "lesson": {
+    "title": "Learn: my / your / Mary's + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Whose action is it?",
+      "lines": [
+       "Formal: possessive + gerund. Informal: object pronoun + gerund."
+      ],
+      "visual": [
+       "poss-gerund"
+      ],
+      "chips": [
+       "Mr. Lee complained about our coming to class late. (formal)",
+       "Mr. Lee complained about us coming to class late. (informal)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "With names too",
+      "lines": [
+       "Formal: Mary's. Informal: Mary."
+      ],
+      "chips": [
+       "Mr. Lee complained about Mary's coming to class late. (formal)",
+       "Mr. Lee complained about Mary coming to class late. (informal)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I appreciate ___ helping me with the plans for the party. (formal)",
+      "options": [
+       "you",
+       "your"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Formal → possessive: your helping."
+     },
+     {
+      "type": "choice",
+      "text": "Which sounds more like everyday speech?",
+      "options": [
+       "I appreciate your helping me.",
+       "I appreciate you helping me."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Object pronoun = informal, everyday."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Formal: my / your / his / her / our / their / Mary's + gerund.",
+     "Informal: me / you / him / her / us / them / Mary + gerund."
+    ],
+    "timeline": [
+     "poss-gerund"
+    ],
+    "examples": [
+     {
+      "text": "Mr. Lee complained about our coming to class late.",
+      "hl": [
+       [
+        "our coming",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Mr. Lee complained about us coming to class late.",
+      "hl": [
+       [
+        "us coming",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Before the wedding: formal",
+     "icon": "👰",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My parents don't understand ___ wanting a small wedding.",
+       "verb": "I",
+       "accept": [
+        "my"
+       ],
+       "why": "Formal → my."
+      },
+      {
+       "type": "fill",
+       "text": "My mom has been too involved. We dislike ___ interfering in the wedding plans.",
+       "verb": "she",
+       "accept": [
+        "her"
+       ],
+       "why": "Formal → her (possessive)."
+      },
+      {
+       "type": "fill",
+       "text": "Everyone else understands ___ planning a quiet celebration.",
+       "verb": "we",
+       "accept": [
+        "our"
+       ],
+       "why": "Formal → our."
+      },
+      {
+       "type": "fill",
+       "text": "The Ricardos are coming from out of town. I look forward to ___ coming.",
+       "verb": "they",
+       "accept": [
+        "their"
+       ],
+       "why": "Formal → their."
+      },
+      {
+       "type": "fill",
+       "text": "We appreciate ___ helping us find a restaurant for the reception.",
+       "verb": "you",
+       "accept": [
+        "your"
+       ],
+       "why": "Formal → your."
+      },
+      {
+       "type": "fill",
+       "text": "Uncle Harry doesn't like Aunt Ethel. I insist on ___ being at a different table.",
+       "verb": "he",
+       "accept": [
+        "his"
+       ],
+       "why": "Formal → his."
+      }
+     ]
+    },
+    {
+     "title": "Before the wedding: informal",
+     "icon": "🥂",
+     "items": [
+      {
+       "type": "fill",
+       "text": "My parents don't understand ___ wanting a small wedding.",
+       "verb": "I",
+       "accept": [
+        "me"
+       ],
+       "why": "Informal → me."
+      },
+      {
+       "type": "fill",
+       "text": "We dislike ___ interfering in the wedding plans.",
+       "verb": "she",
+       "accept": [
+        "her"
+       ],
+       "why": "Informal → her (object)."
+      },
+      {
+       "type": "fill",
+       "text": "Everyone else understands ___ planning a quiet celebration.",
+       "verb": "we",
+       "accept": [
+        "us"
+       ],
+       "why": "Informal → us."
+      },
+      {
+       "type": "fill",
+       "text": "I look forward to ___ coming.",
+       "verb": "they",
+       "accept": [
+        "them"
+       ],
+       "why": "Informal → them."
+      },
+      {
+       "type": "fill",
+       "text": "We appreciate ___ helping us find a restaurant for the reception.",
+       "verb": "you",
+       "accept": [
+        "you"
+       ],
+       "why": "Informal → you."
+      },
+      {
+       "type": "fill",
+       "text": "I insist on ___ being at a different table.",
+       "verb": "he",
+       "accept": [
+        "him"
+       ],
+       "why": "Informal → him."
+      }
+     ]
+    },
+    {
+     "title": "Formal or informal?",
+     "icon": "🎩",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Mr. Lee complained about our coming to class late.",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 0,
+       "why": "our = possessive."
+      },
+      {
+       "type": "sort",
+       "word": "Mr. Lee complained about us coming to class late.",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 1,
+       "why": "us = object pronoun."
+      },
+      {
+       "type": "sort",
+       "word": "Mr. Lee complained about Mary's coming to class late.",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 0,
+       "why": "Mary's = possessive."
+      },
+      {
+       "type": "sort",
+       "word": "Mr. Lee complained about Mary coming to class late.",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 1,
+       "why": "Mary, no 's."
+      },
+      {
+       "type": "sort",
+       "word": "I appreciate your helping me with the plans for the party.",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 0,
+       "why": "your = possessive."
+      },
+      {
+       "type": "sort",
+       "word": "Do you mind me asking a question?",
+       "buckets": [
+        "Formal",
+        "Informal"
+       ],
+       "answer": 1,
+       "why": "me = object pronoun."
+      },
+      {
+       "type": "judge",
+       "text": "I appreciate your helping me with the plans for the party.",
+       "answer": "correct",
+       "why": "possessive + gerund (formal)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Gerund and infinitive mix",
+   "full": "Chapters 14 and 15 Review",
+   "lesson": {
+    "title": "Learn: one quick map",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Ask three questions",
+      "lines": [
+       "1. What comes before? 2. Who does it? 3. When?"
+      ],
+      "chips": [
+       "after a preposition → -ing",
+       "purpose (why?) → to + verb",
+       "let / make / have + person → simple form",
+       "the subject receives it → to be done / being done"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Fifty people applied, so Maleek was fortunate ___ for an interview.",
+      "options": [
+       "to choose",
+       "to be chosen"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "They chose him → passive."
+     },
+     {
+      "type": "learn",
+      "title": "Two verbs after one subject",
+      "lines": [
+       "sit / stand / lie + -ing. spend time + -ing."
+      ],
+      "chips": [
+       "Victor stood in line waiting to buy a movie ticket.",
+       "We spent the entire class period talking about the revolution."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I was getting sleepy, so I had my friend ___ the car.",
+      "options": [
+       "drive",
+       "to drive"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "have + person + simple form."
+     },
+     {
+      "type": "choice",
+      "text": "Emily stopped her car ___ a cat run across the street.",
+      "options": [
+       "to let",
+       "letting"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Purpose → to let."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "preposition → -ing · purpose → to · let / make / have → simple form · get → to.",
+     "Passive meaning: to be done / being done / have it done."
+    ],
+    "timeline": [
+     "causative"
+    ],
+    "examples": [
+     {
+      "text": "Victor stood in line waiting to buy a movie ticket.",
+      "hl": [
+       [
+        "waiting",
+        "prog"
+       ],
+       [
+        "to buy",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I had my friend drive the car.",
+      "hl": [
+       [
+        "drive",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "She asked not to be identified in the newspaper.",
+      "hl": [
+       [
+        "not to be identified",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Choose the completion",
+     "icon": "⚽",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My cousins helped me ___ into my new apartment.",
+       "options": [
+        "move",
+        "to move",
+        "moving",
+        "being moved"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "help + person + (to) + verb.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "It was a hot day. I could feel sweat ___ down my back.",
+       "options": [
+        "run",
+        "to run",
+        "running",
+        "ran"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "feel + object + simple / -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "He's an amazing soccer player! Did you see him ___ that goal?",
+       "options": [
+        "make",
+        "to make",
+        "makes",
+        "made"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "see + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "We spent the entire class period ___ about the revolution.",
+       "options": [
+        "talk",
+        "to talk",
+        "talking",
+        "being talked"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "spend time + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Fifty people applied for the sales job, so Maleek was fortunate ___ for an interview.",
+       "options": [
+        "chosen",
+        "being chosen",
+        "to choose",
+        "to be chosen"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "fortunate + to be + participle."
+      },
+      {
+       "type": "choice",
+       "text": "If you hear any news, I want ___ immediately.",
+       "options": [
+        "told",
+        "being told",
+        "to be told",
+        "telling"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "want + to be + participle."
+      },
+      {
+       "type": "choice",
+       "text": "Victor stood in line ___ to buy a movie ticket.",
+       "options": [
+        "wait",
+        "waits",
+        "waiting",
+        "waited"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "stand + place + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "___ telling Roberto about the party was a mistake.",
+       "options": [
+        "We",
+        "My",
+        "I",
+        "Me to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "possessive + gerund: My telling."
+      },
+      {
+       "type": "choice",
+       "text": "I was getting sleepy, so I had my friend ___ the car.",
+       "options": [
+        "drive",
+        "being driven",
+        "to be driven",
+        "to drive"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "The witness asked not ___ in the newspaper.",
+       "options": [
+        "identify",
+        "being identified",
+        "to be identified",
+        "to identify"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "ask + not to be + participle."
+      }
+     ]
+    },
+    {
+     "title": "Fill it in (1)",
+     "icon": "🏐",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I couldn't get to sleep last night, so for a long time I just lay in bed ___ about my future.",
+       "verb": "think",
+       "accept": [
+        "thinking"
+       ],
+       "why": "lie + place + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Jacob's at an awkward age. He's old enough ___ adult problems…",
+       "verb": "have",
+       "accept": [
+        "to have"
+       ],
+       "why": "enough + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "…but too young ___ how to handle them.",
+       "verb": "know",
+       "accept": [
+        "to know"
+       ],
+       "why": "too young + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "I don't anticipate ___ any difficulties when I go abroad.",
+       "verb": "have",
+       "accept": [
+        "having"
+       ],
+       "why": "anticipate + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't anticipate having any difficulties ___ to a different culture.",
+       "verb": "adjust",
+       "accept": [
+        "adjusting"
+       ],
+       "why": "have difficulty + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I was tired, so I just watched my friends ___ volleyball.",
+       "verb": "play",
+       "accept": [
+        "play",
+        "playing"
+       ],
+       "why": "watch + object + simple / -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I watched them instead of ___ them.",
+       "verb": "join",
+       "accept": [
+        "joining"
+       ],
+       "why": "instead of + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Emily stopped her car ___ a cat run across the street.",
+       "verb": "let",
+       "accept": [
+        "to let"
+       ],
+       "why": "Purpose → stop + to."
+      },
+      {
+       "type": "fill",
+       "text": "Emily stopped her car to let a cat ___ across the street.",
+       "verb": "run",
+       "accept": [
+        "run"
+       ],
+       "why": "let + object + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "My teenagers enjoy ___ to stay up later in the summer.",
+       "verb": "allow",
+       "accept": [
+        "being allowed"
+       ],
+       "why": "enjoy + being + participle."
+      }
+     ]
+    },
+    {
+     "title": "Fill it in (2)",
+     "icon": "🪳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I'm tired. I wouldn't mind just ___ home tonight.",
+       "verb": "stay",
+       "accept": [
+        "staying"
+       ],
+       "why": "mind + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't like ___ to leave the living room whenever my roommate has a party.",
+       "verb": "force",
+       "accept": [
+        "being forced"
+       ],
+       "why": "like + being + participle (passive)."
+      },
+      {
+       "type": "fill",
+       "text": "I don't like being forced ___ the living room.",
+       "verb": "leave",
+       "accept": [
+        "to leave"
+       ],
+       "why": "force + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Let's ___ Ron and Maureen join us for dinner tonight, OK?",
+       "verb": "have",
+       "accept": [
+        "have"
+       ],
+       "why": "Let's + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "Let's have Ron and Maureen ___ us for dinner tonight.",
+       "verb": "join",
+       "accept": [
+        "join"
+       ],
+       "why": "have + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "Your co-workers complain about your ___ late to work.",
+       "verb": "come",
+       "accept": [
+        "coming"
+       ],
+       "why": "possessive + gerund."
+      },
+      {
+       "type": "fill",
+       "text": "Fish don't use their teeth for ___.",
+       "verb": "chew",
+       "accept": [
+        "chewing"
+       ],
+       "why": "for + -ing (general purpose of a thing)."
+      },
+      {
+       "type": "fill",
+       "text": "I can't seem ___ rid of the cockroaches in my apartment.",
+       "verb": "get",
+       "accept": [
+        "to get"
+       ],
+       "why": "seem + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "I'm considering ___ the whole apartment sprayed.",
+       "verb": "have",
+       "accept": [
+        "having"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'm considering having the whole apartment ___ by a pest control expert.",
+       "verb": "spray",
+       "accept": [
+        "sprayed"
+       ],
+       "why": "have + thing + past participle."
+      }
+     ]
+    },
+    {
+     "title": "Traffic and the flu",
+     "icon": "🤧",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Traffic has become too heavy for the Steinbergs ___ easily to their jobs in the city.",
+       "verb": "commute",
+       "accept": [
+        "to commute"
+       ],
+       "why": "too heavy + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "They're considering ___ to an apartment in the city…",
+       "verb": "move",
+       "accept": [
+        "moving"
+       ],
+       "why": "consider + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "…___ closer to their work.",
+       "verb": "be",
+       "accept": [
+        "to be"
+       ],
+       "why": "Purpose → to be."
+      },
+      {
+       "type": "fill",
+       "text": "They want to spend more time ___ things they really enjoy.",
+       "verb": "do",
+       "accept": [
+        "doing"
+       ],
+       "why": "spend time + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Last week I was sick with the flu. It made me ___ awful.",
+       "verb": "feel",
+       "accept": [
+        "feel"
+       ],
+       "why": "make + person + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "I didn't have enough energy ___ out of bed.",
+       "verb": "get",
+       "accept": [
+        "to get"
+       ],
+       "why": "enough + noun + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "My father heard me ___ and sneezing.",
+       "verb": "cough",
+       "accept": [
+        "coughing"
+       ],
+       "why": "hear + person + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "It was kind of him ___, but there wasn't anything he could do.",
+       "verb": "ask",
+       "accept": [
+        "to ask"
+       ],
+       "why": "It was kind of him + to + verb."
+      },
+      {
+       "type": "fill",
+       "text": "There wasn't anything he could do to make the flu ___ away.",
+       "verb": "go",
+       "accept": [
+        "go"
+       ],
+       "why": "make + thing + simple form."
+      }
+     ]
+    },
+    {
+     "title": "Why do onions make us cry?",
+     "icon": "🧅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ onions is no fun!",
+       "options": [
+        "Cut",
+        "Cutting",
+        "To cutting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A gerund subject."
+      },
+      {
+       "type": "choice",
+       "text": "Onions make us ___.",
+       "options": [
+        "to cry",
+        "crying",
+        "cry"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "make + person + simple form."
+      },
+      {
+       "type": "choice",
+       "text": "Our eyes don't enjoy ___ into contact with sulfur.",
+       "options": [
+        "coming",
+        "to come",
+        "come"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enjoy + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "They react by ___ to wash the sulfur away with tears.",
+       "options": [
+        "try",
+        "trying",
+        "to try"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Washing an onion with water can help ___ the sulfur away from your eyes.",
+       "options": [
+        "keeping",
+        "kept",
+        "to keep"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "help + (to) + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Safety goggles will keep you from ___.",
+       "options": [
+        "crying",
+        "cry",
+        "to cry"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "keep someone from + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "___ an onion, use a sharp knife.",
+       "options": [
+        "For cut",
+        "To cut",
+        "Cutting to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Purpose (in order to) → To cut."
+      },
+      {
+       "type": "choice",
+       "text": "If you enjoy cooking, it's hard ___ onions.",
+       "options": [
+        "avoiding to",
+        "avoid",
+        "to avoid"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It's hard + to + verb."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "A simple remedy",
+     "task": "Explain how to fix an everyday problem: a mosquito bite, a stain, a sore throat…",
+     "claudePrompt": "You are my English writing partner. Ask me to choose an everyday problem (a mosquito bite that itches, a stain on a shirt, a sore throat, a sunburn, hiccups) and write 4-6 sentences: describe the problem and give one or two solutions. I should use gerunds as subjects (Putting ice on it helps.), infinitives of purpose (To stop the itch, ...), and verbs like keep from, help, try. Then check my gerunds and infinitives and tell me which sentence is the clearest."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Shape-Shifter",
+  "icon": "🦎",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "I went to the library [for study] last night.",
+    "options": [
+     "I went to the library to study last night.",
+     "I went to the library for studying last night.",
+     "I went to the library for to study last night."
+    ],
+    "answer": 0,
+    "why": "Purpose → to + verb.",
+    "rule": "15-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Barbara always makes me [laughing]. She has a great sense of humor.",
+    "options": [
+     "Barbara always makes me to laugh. She has a great sense of humor.",
+     "Barbara always makes me laugh. She has a great sense of humor.",
+     "Barbara always makes me laughed. She has a great sense of humor."
+    ],
+    "answer": 1,
+    "why": "make + person + simple form.",
+    "rule": "15-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "You shouldn't let children [playing] with matches.",
+    "options": [
+     "You shouldn't let children to play with matches.",
+     "You shouldn't let children played with matches.",
+     "You shouldn't let children play with matches."
+    ],
+    "answer": 2,
+    "why": "let + person + simple form.",
+    "rule": "15-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My parents made me [to promise contact] them once a week.",
+    "options": [
+     "My parents made me promise to contact them once a week.",
+     "My parents made me to promise to contact them once a week.",
+     "My parents made me promise contacting them once a week."
+    ],
+    "answer": 0,
+    "why": "make + simple form; promise + to.",
+    "rule": "15-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "I asked my roommate to let me [borrowed] his sleeping bag for my camping trip.",
+    "options": [
+     "I asked my roommate to let me to borrow his sleeping bag for my camping trip.",
+     "I asked my roommate to let me borrow his sleeping bag for my camping trip.",
+     "I asked my roommate to let me borrowing his sleeping bag for my camping trip."
+    ],
+    "answer": 1,
+    "why": "let + person + simple form.",
+    "rule": "15-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "I heard a car door [to open] and [closing].",
+    "options": [
+     "I heard a car door to open and to close.",
+     "I heard a car door opened and closing.",
+     "I heard a car door open and close."
+    ],
+    "answer": 2,
+    "why": "hear + object + simple form (parallel).",
+    "rule": "15-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "I had my friend [to lend] me his car.",
+    "options": [
+     "I had my friend lend me his car.",
+     "I had my friend lending me his car.",
+     "I had my friend lent me his car."
+    ],
+    "answer": 0,
+    "why": "have + person + simple form.",
+    "rule": "15-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "I've finally gathered enough information [for beginning] writing my research paper.",
+    "options": [
+     "I've finally gathered enough information for begin writing my research paper.",
+     "I've finally gathered enough information to begin writing my research paper.",
+     "I've finally gathered enough information beginning to write my research paper."
+    ],
+    "answer": 1,
+    "why": "enough + noun + to + verb.",
+    "rule": "15-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "My parents want [that I marry] soon.",
+    "options": [
+     "My parents want me marry soon.",
+     "My parents want that I to marry soon.",
+     "My parents want me to marry soon."
+    ],
+    "answer": 2,
+    "why": "want + person + to + verb.",
+    "rule": "R15"
+   },
+   {
+    "type": "errorfix",
+    "text": "Lilly deserves to be [tell] the truth about what happened last night.",
+    "options": [
+     "Lilly deserves to be told the truth about what happened last night.",
+     "Lilly deserves to be telling the truth about what happened last night.",
+     "Lilly deserves being tell the truth about what happened last night."
+    ],
+    "answer": 0,
+    "why": "to be + past participle.",
+    "rule": "15-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "I went to the pharmacy [for having] my prescription [to be filled].",
+    "options": [
+     "I went to the pharmacy to have my prescription to fill.",
+     "I went to the pharmacy to have my prescription filled.",
+     "I went to the pharmacy for have my prescription filled."
+    ],
+    "answer": 1,
+    "why": "Purpose → to have; have + thing + participle.",
+    "rule": "15-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "Victoria didn't like her school photo, so she had it [taking] again.",
+    "options": [
+     "Victoria didn't like her school photo, so she had it took again.",
+     "Victoria didn't like her school photo, so she had it to take again.",
+     "Victoria didn't like her school photo, so she had it taken again."
+    ],
+    "answer": 2,
+    "why": "have + thing + past participle.",
+    "rule": "15-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "Look at the kitchen windows. They really need [to washing].",
+    "options": [
+     "Look at the kitchen windows. They really need washing.",
+     "Look at the kitchen windows. They really need to wash.",
+     "Look at the kitchen windows. They really need be washed."
+    ],
+    "answer": 0,
+    "why": "need + -ing (= to be washed).",
+    "rule": "15-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "I saw Omar sitting on a park bench [look] at the ground. His blank face made me [to worry].",
+    "options": [
+     "I saw Omar sitting on a park bench looking at the ground. His blank face made me to worry.",
+     "I saw Omar sitting on a park bench looking at the ground. His blank face made me worry.",
+     "I saw Omar sitting on a park bench looked at the ground. His blank face made me worry."
+    ],
+    "answer": 1,
+    "why": "sit + place + -ing; make + simple form.",
+    "rule": "15-9"
+   }
+  ]
+ }
+}

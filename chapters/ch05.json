@@ -1,0 +1,4484 @@
+{
+ "id": "ch05",
+ "num": 5,
+ "title": "Subject-Verb Agreement",
+ "subtitle": "Is or are? With s or without?",
+ "icon": "⚖️",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Baby cry when they are hungry or tired.",
+    "answer": "wrong",
+    "why": "they → plural noun: Babies.",
+    "fix": "Babies cry when they are hungry or tired.",
+    "rule": "5-1"
+   },
+   {
+    "type": "judge",
+    "text": "Chicken, duck, and turkey lay eggs.",
+    "answer": "wrong",
+    "why": "Talking about the birds → plural nouns.",
+    "fix": "Chickens, ducks, and turkeys lay eggs.",
+    "rule": "5-1"
+   },
+   {
+    "type": "judge",
+    "text": "Erica miss her mother and father.",
+    "answer": "wrong",
+    "why": "Erica = she → misses.",
+    "fix": "Erica misses her mother and father.",
+    "rule": "5-2"
+   },
+   {
+    "type": "judge",
+    "text": "Robert sings when he take a shower.",
+    "answer": "wrong",
+    "why": "he → takes.",
+    "fix": "Robert sings when he takes a shower.",
+    "rule": "5-2"
+   },
+   {
+    "type": "judge",
+    "text": "The audience is waiting for the show to begin.",
+    "answer": "correct",
+    "why": "The audience = one group → is.",
+    "rule": "5-3"
+   },
+   {
+    "type": "judge",
+    "text": "Some of the work for my classes is pretty challenging.",
+    "answer": "correct",
+    "why": "work (one thing) → is.",
+    "rule": "5-4"
+   },
+   {
+    "type": "judge",
+    "text": "Every employee in this building need a security badge.",
+    "answer": "wrong",
+    "why": "Every … → singular: needs.",
+    "fix": "Every employee in this building needs a security badge.",
+    "rule": "5-4"
+   },
+   {
+    "type": "judge",
+    "text": "There is always more homework on weekends than we expect.",
+    "answer": "correct",
+    "why": "homework (one thing) → is.",
+    "rule": "5-5"
+   },
+   {
+    "type": "judge",
+    "text": "Is eight hours of sleep enough for teenagers?",
+    "answer": "correct",
+    "why": "An amount of time → singular.",
+    "rule": "5-6"
+   },
+   {
+    "type": "judge",
+    "text": "Mathematics is easy for me to understand, but physics is more difficult.",
+    "answer": "correct",
+    "why": "-ics subjects → singular.",
+    "rule": "5-6"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "5-1",
+   "tag": "5-1",
+   "t": "pres",
+   "title": "The little s",
+   "full": "Final -s/-es: Use and Spelling",
+   "lesson": {
+    "title": "Learn: what the final s does",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "One s, two jobs",
+      "lines": [
+       "On a noun, s means more than one.",
+       "On a verb, s means he / she / it does it."
+      ],
+      "chips": [
+       "friend → friends (noun: many)",
+       "work → Mary works (verb: one person)"
+      ],
+      "examples": [
+       {
+        "text": "Friends are important.",
+        "hl": [
+         [
+          "Friends",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "Mary works at the bank.",
+        "hl": [
+         [
+          "works",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "The s moves",
+      "left": {
+       "label": "One subject: s on the verb",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "A wedding costs a lot of money.",
+         "hl": [
+          [
+           "costs",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Many subjects: s on the noun",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Weddings cost a lot of money.",
+         "hl": [
+          [
+           "Weddings",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Usually only one of them has the s: the noun OR the verb."
+     },
+     {
+      "type": "choice",
+      "text": "Babies ___ when they are hungry.",
+      "options": [
+       "cry",
+       "cries"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Babies = many → verb without s."
+     },
+     {
+      "type": "learn",
+      "title": "Spelling: s or es?",
+      "lines": [
+       "Most words: just add s.",
+       "After sh, ch, s, z, x: add es."
+      ],
+      "chips": [
+       {
+        "label": "+ s",
+        "words": [
+         "sings",
+         "songs",
+         "talks",
+         "hats"
+        ]
+       },
+       {
+        "label": "+ es (say “iz”)",
+        "words": [
+         "washes",
+         "watches",
+         "classes",
+         "buzzes",
+         "boxes"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Words ending in y",
+      "lines": [
+       "Vowel + y: add s.",
+       "Consonant + y: change y to ies."
+      ],
+      "chips": [
+       "toy → toys",
+       "buy → buys",
+       "baby → babies",
+       "cry → cries"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "John ___ birds every weekend.",
+      "options": [
+       "watchs",
+       "watches",
+       "watch"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After ch → es: watches."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Noun + s = more than one. Verb + s = he / she / it.",
+     "After sh, ch, s, z, x → es. Consonant + y → ies."
+    ],
+    "timeline": [
+     "sv"
+    ],
+    "examples": [
+     {
+      "text": "A wedding costs a lot of money.",
+      "hl": [
+       [
+        "costs",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Weddings cost a lot of money.",
+      "hl": [
+       [
+        "Weddings",
+        "prog"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "+ es",
+      "words": [
+       "washes",
+       "watches",
+       "classes",
+       "boxes"
+      ]
+     },
+     {
+      "label": "y → ies",
+      "words": [
+       "babies",
+       "cries"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Weddings",
+     "icon": "💒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A wedding COSTS a lot of money.",
+       "options": [
+        "a singular verb",
+        "a plural noun"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One wedding → verb + s.",
+       "ask": "The word in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Weddings COST a lot of money.",
+       "options": [
+        "a plural verb",
+        "a singular noun"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Many weddings → verb without s.",
+       "ask": "The word in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Wedding COSTS are increasing.",
+       "options": [
+        "a singular verb",
+        "a plural noun"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Here costs is a thing (noun), and many.",
+       "ask": "The word in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "The COST of weddings is increasing.",
+       "options": [
+        "a plural verb",
+        "a singular noun"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the cost = one thing (noun).",
+       "ask": "The word in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Friends ___ important.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Friends = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "Mary ___ at the bank.",
+       "options": [
+        "work",
+        "works"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Mary = she → works."
+      },
+      {
+       "type": "choice",
+       "text": "The students ___ hard.",
+       "options": [
+        "work",
+        "works"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Students = they → work."
+      },
+      {
+       "type": "choice",
+       "text": "My father ___ birds.",
+       "options": [
+        "watch",
+        "watches"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "My father = he → watches."
+      }
+     ]
+    },
+    {
+     "title": "Add s or es",
+     "icon": "🔤",
+     "items": [
+      {
+       "type": "sort",
+       "word": "floor",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "floors. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "tax",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 1,
+       "why": "After x → es: taxes."
+      },
+      {
+       "type": "sort",
+       "word": "talk",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "talks. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "bush",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 1,
+       "why": "After sh → es: bushes."
+      },
+      {
+       "type": "sort",
+       "word": "hat",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "hats. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "rise",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "rises. It already ends in e."
+      },
+      {
+       "type": "sort",
+       "word": "season",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "seasons. Just add s."
+      },
+      {
+       "type": "sort",
+       "word": "touch",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 1,
+       "why": "After ch → es: touches."
+      },
+      {
+       "type": "sort",
+       "word": "cough",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "coughs. gh is not ch or sh."
+      },
+      {
+       "type": "sort",
+       "word": "language",
+       "buckets": [
+        "+ s",
+        "+ es"
+       ],
+       "answer": 0,
+       "why": "languages. It already ends in e."
+      }
+     ]
+    },
+    {
+     "title": "What does it do?",
+     "icon": "🐍",
+     "items": [
+      {
+       "type": "fill",
+       "text": "An alarm clock ___.",
+       "verb": "buzz",
+       "accept": [
+        "buzzes"
+       ],
+       "why": "After z → es: buzzes."
+      },
+      {
+       "type": "fill",
+       "text": "A teacher ___.",
+       "verb": "teach",
+       "accept": [
+        "teaches"
+       ],
+       "why": "After ch → es: teaches."
+      },
+      {
+       "type": "fill",
+       "text": "A freezer ___.",
+       "verb": "freeze",
+       "accept": [
+        "freezes"
+       ],
+       "why": "Ends in e → add s: freezes."
+      },
+      {
+       "type": "fill",
+       "text": "A ball ___.",
+       "verb": "bounce",
+       "accept": [
+        "bounces"
+       ],
+       "why": "Ends in e → add s: bounces."
+      },
+      {
+       "type": "fill",
+       "text": "A door ___.",
+       "verb": "close",
+       "accept": [
+        "closes"
+       ],
+       "why": "Ends in e → add s: closes."
+      },
+      {
+       "type": "fill",
+       "text": "A boxer ___.",
+       "verb": "box",
+       "accept": [
+        "boxes"
+       ],
+       "why": "After x → es: boxes."
+      },
+      {
+       "type": "fill",
+       "text": "A mosquito bite ___.",
+       "verb": "itch",
+       "accept": [
+        "itches"
+       ],
+       "why": "After ch → es: itches."
+      },
+      {
+       "type": "fill",
+       "text": "A boss ___.",
+       "verb": "manage",
+       "accept": [
+        "manages"
+       ],
+       "why": "Ends in e → add s: manages."
+      },
+      {
+       "type": "fill",
+       "text": "A snake ___.",
+       "verb": "hiss",
+       "accept": [
+        "hisses"
+       ],
+       "why": "After s → es: hisses."
+      },
+      {
+       "type": "fill",
+       "text": "A soldier ___.",
+       "verb": "march",
+       "accept": [
+        "marches"
+       ],
+       "why": "After ch → es: marches."
+      }
+     ]
+    },
+    {
+     "title": "Proverbs",
+     "icon": "🦉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Too many cooks ___ the broth.",
+       "options": [
+        "spoil",
+        "spoils"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "cooks = many → spoil."
+      },
+      {
+       "type": "choice",
+       "text": "Tomorrow never ___.",
+       "options": [
+        "come",
+        "comes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Tomorrow = it → comes."
+      },
+      {
+       "type": "choice",
+       "text": "Practice ___ perfect.",
+       "options": [
+        "make",
+        "makes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Practice = it → makes."
+      },
+      {
+       "type": "choice",
+       "text": "Actions ___ louder than words.",
+       "options": [
+        "speak",
+        "speaks"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Actions = many → speak."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ in all shapes and sizes.",
+       "options": [
+        "come",
+        "comes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "People = they → come."
+      },
+      {
+       "type": "choice",
+       "text": "The early bird ___ the worm.",
+       "options": [
+        "catch",
+        "catches"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One bird → catches."
+      },
+      {
+       "type": "choice",
+       "text": "Good things ___ in small packages.",
+       "options": [
+        "come",
+        "comes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "things = many → come."
+      },
+      {
+       "type": "choice",
+       "text": "No news ___ good news.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "news is one thing → is."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Proverbs",
+     "task": "Pick a proverb, like “Practice makes perfect”. Tell Claude what it means and if you agree.",
+     "claudePrompt": "You are my English speaking partner. Give me one English proverb at a time (Too many cooks spoil the broth. / Practice makes perfect. / Actions speak louder than words. / The early bird catches the worm. / No news is good news.). Ask me what I think it means and whether I agree. Check my final -s on verbs and nouns in my answers."
+    }
+   ]
+  },
+  {
+   "id": "5-2",
+   "tag": "5-2",
+   "t": "pres",
+   "title": "Match the subject",
+   "full": "Basic Subject-Verb Agreement",
+   "lesson": {
+    "title": "Learn: subject and verb must match",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "One or many?",
+      "lines": [
+       "One subject → verb + s.",
+       "Many subjects → no s."
+      ],
+      "visual": [
+       "sv"
+      ],
+      "examples": [
+       {
+        "text": "My friend lives in Boston.",
+        "hl": [
+         [
+          "lives",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "My friends live in Boston.",
+        "hl": [
+         [
+          "live",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "and = many",
+      "lines": [
+       "A and B together are plural."
+      ],
+      "chips": [
+       "My brother and sister live in Boston."
+      ],
+      "examples": [
+       {
+        "text": "My brother, sister, and cousin live in Boston.",
+        "hl": [
+         [
+          "live",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My older brother and sister ___ twins.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "brother and sister = two people → are."
+     },
+     {
+      "type": "learn",
+      "title": "every and each: one at a time",
+      "lines": [
+       "every, each, everyone, everybody: always singular.",
+       "Even with and!"
+      ],
+      "chips": [
+       "Everyone is here.",
+       "Everybody is here.",
+       "Every man, woman, and child needs love.",
+       "Each book and magazine is listed."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Every man, woman, and child ___ protected under the law.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "every → singular: is."
+     },
+     {
+      "type": "learn",
+      "title": "Jump over the middle",
+      "lines": [
+       "Words between subject and verb don't count.",
+       "Find the real subject."
+      ],
+      "visual": [
+       "find-subject"
+      ],
+      "examples": [
+       {
+        "text": "That book on political parties is interesting.",
+        "hl": [
+         [
+          "book",
+          "pres"
+         ],
+         [
+          "is",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "The ideas in that book are interesting.",
+        "hl": [
+         [
+          "ideas",
+          "prog"
+         ],
+         [
+          "are",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The apples in the bowl ___ fresh.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The subject is apples, not bowl → are."
+     },
+     {
+      "type": "learn",
+      "title": "-ing subject = one thing",
+      "lines": [
+       "An -ing word as the subject is singular."
+      ],
+      "chips": [
+       "Watching old movies is fun.",
+       "Eating vegetables is good for you."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Growing tomatoes ___ easy in hot climates.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Growing (the activity) = one thing → is."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "One subject → verb + s. A and B → plural. every / each → singular.",
+     "Skip the words in the middle. An -ing subject is singular."
+    ],
+    "timeline": [
+     "sv",
+     "find-subject"
+    ],
+    "examples": [
+     {
+      "text": "Every man, woman, and child needs love.",
+      "hl": [
+       [
+        "needs",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "The ideas in that book are interesting.",
+      "hl": [
+       [
+        "ideas",
+        "prog"
+       ],
+       [
+        "are",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Watching old movies is fun.",
+      "hl": [
+       [
+        "Watching",
+        "pres"
+       ],
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Twins and the law",
+     "icon": "👫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My older brother and sister ___ fraternal twins.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "brother and sister = two → are."
+      },
+      {
+       "type": "choice",
+       "text": "My brother ___ born on December 31st at 11:55 P.M.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "My brother = he → was."
+      },
+      {
+       "type": "choice",
+       "text": "And my sister ___ born on January 1st at 12:05 A.M.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "My sister = she → was."
+      },
+      {
+       "type": "choice",
+       "text": "Everyone in my family ___ surprised when this happened.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Everyone → singular: was."
+      },
+      {
+       "type": "choice",
+       "text": "Being born on different days ___ an interesting topic of conversation.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Being born (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Every man, woman, and child ___ protected under the law.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every → singular: is."
+      },
+      {
+       "type": "choice",
+       "text": "Each man and woman in this country ___ to pay taxes.",
+       "options": [
+        "needs",
+        "need"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "each → singular: needs."
+      },
+      {
+       "type": "choice",
+       "text": "Every person who buys gas in this state ___ to pay a gas tax.",
+       "options": [
+        "needs",
+        "need"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Every person → needs."
+      }
+     ]
+    },
+    {
+     "title": "University and family",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The subjects you will be studying in this course ___ in the syllabus.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is subjects → are."
+      },
+      {
+       "type": "choice",
+       "text": "The extent of the knowledge we need really ___ me.",
+       "options": [
+        "surprises",
+        "surprise"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is extent (one) → surprises."
+      },
+      {
+       "type": "choice",
+       "text": "Almost every instructor and student at the university ___ of the new president.",
+       "options": [
+        "approves",
+        "approve"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every … and … → still singular."
+      },
+      {
+       "type": "choice",
+       "text": "___ Professor Karl and her graduate researchers work closely together?",
+       "options": [
+        "Do",
+        "Does"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Professor and researchers = many → Do."
+      },
+      {
+       "type": "choice",
+       "text": "Getting to know students from all over the world ___ one of the best parts.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Getting (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Where ___ your grandparents live?",
+       "options": [
+        "does",
+        "do"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "grandparents = they → do."
+      },
+      {
+       "type": "choice",
+       "text": "Why ___ your mom and dad at the retirement home?",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "mom and dad = two → were."
+      },
+      {
+       "type": "choice",
+       "text": "___ taking care of the elderly the responsibility of the family?",
+       "options": [
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "taking care (-ing subject) → Is."
+      }
+     ]
+    },
+    {
+     "title": "Fruit and vegetables",
+     "icon": "🥬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The fruit in the bowls ___ fresh.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is fruit, not bowls → is."
+      },
+      {
+       "type": "choice",
+       "text": "The apples in the bowl ___ fresh.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is apples → are."
+      },
+      {
+       "type": "choice",
+       "text": "Vegetables ___ good for you.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Vegetables = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "Eating vegetables ___ good for you.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Eating (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Oranges, tomatoes, strawberries, cabbage, and lettuce ___ rich in vitamin C.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A list with and → are."
+      },
+      {
+       "type": "choice",
+       "text": "Tomatoes ___ easy to grow.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Tomatoes = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "Growing tomatoes ___ especially easy in hot climates.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Growing (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "The produce my roommate buys ___ fresh.",
+       "options": [
+        "isn't",
+        "aren't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is produce (one) → isn't."
+      },
+      {
+       "type": "choice",
+       "text": "Lettuce ___ good for you.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Lettuce = it → is."
+      },
+      {
+       "type": "choice",
+       "text": "___ the bag of vegetables still in the car?",
+       "options": [
+        "Is",
+        "Are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is bag → Is."
+      }
+     ]
+    },
+    {
+     "title": "Thrill seekers",
+     "icon": "🛶",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Going over a waterfall in a kayak ___ not everyone's idea of a good time.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "Going (-ing subject) → is."
+      },
+      {
+       "type": "fill",
+       "text": "But for some people, the experience of somersaulting through water ___ thrilling.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "The subject is experience → is."
+      },
+      {
+       "type": "fill",
+       "text": "And they ___ to keep doing it.",
+       "verb": "want",
+       "accept": [
+        "want"
+       ],
+       "why": "they → want."
+      },
+      {
+       "type": "fill",
+       "text": "It ___ in part to do with adrenaline.",
+       "verb": "have",
+       "accept": [
+        "has"
+       ],
+       "why": "It → has."
+      },
+      {
+       "type": "fill",
+       "text": "The body ___ a large amount of this hormone in response to danger.",
+       "verb": "release",
+       "accept": [
+        "releases"
+       ],
+       "why": "The body = it → releases."
+      },
+      {
+       "type": "fill",
+       "text": "For some people, this release ___ very pleasant feelings.",
+       "verb": "produce",
+       "accept": [
+        "produces"
+       ],
+       "why": "this release = it → produces."
+      },
+      {
+       "type": "fill",
+       "text": "And they ___ activities that will give them this feeling.",
+       "verb": "seek out",
+       "accept": [
+        "seek out"
+       ],
+       "why": "they → seek out."
+      },
+      {
+       "type": "fill",
+       "text": "The experience of parachuting from a mountain ___ exhilarating for them.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "The subject is experience → is."
+      },
+      {
+       "type": "fill",
+       "text": "Researchers are studying why some people ___ this adrenaline rush.",
+       "verb": "enjoy",
+       "accept": [
+        "enjoy"
+       ],
+       "why": "people = they → enjoy."
+      },
+      {
+       "type": "fill",
+       "text": "And why others ___ it.",
+       "verb": "fear",
+       "accept": [
+        "fear"
+       ],
+       "why": "others = they → fear."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Every person…",
+     "task": "Finish Claude's sentences: “Every person in this room…”, “Everyone over 18…”.",
+     "claudePrompt": "You are my English speaking partner. I am practicing subject-verb agreement with every, each, everyone and everybody. Give me one sentence starter at a time for me to finish in the present tense: Every person in this room ... / Each student and teacher at my school ... / Everyone over the age of 18 ... / Every mother and father ... / Everybody born in my country ... / Every rainbow in the sky ... Check that I use a singular verb."
+    }
+   ]
+  },
+  {
+   "id": "5-3",
+   "tag": "5-3",
+   "t": "state",
+   "title": "Groups",
+   "full": "Collective Nouns",
+   "lesson": {
+    "title": "Learn: group words",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A group is one thing",
+      "lines": [
+       "audience, team, staff, family: many people, one group.",
+       "American English uses a singular verb."
+      ],
+      "chips": [
+       "audience",
+       "team",
+       "staff",
+       "faculty",
+       "family",
+       "class",
+       "crowd",
+       "committee",
+       "choir",
+       "crew",
+       "government",
+       "group",
+       "jury",
+       "public"
+      ],
+      "examples": [
+       {
+        "text": "The audience is clapping loudly.",
+        "hl": [
+         [
+          "audience",
+          "state"
+         ],
+         [
+          "is",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The team ___ at noon.",
+      "options": [
+       "practices",
+       "practice"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The team = one group → practices."
+     },
+     {
+      "type": "compare",
+      "title": "Group or members?",
+      "left": {
+       "label": "The group: singular",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "The staff has been working overtime.",
+         "hl": [
+          [
+           "has",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "The members: plural",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The staff members have requested raises.",
+         "hl": [
+          [
+           "members",
+           "prog"
+          ],
+          [
+           "have",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Members of the staff have requested raises.",
+         "hl": [
+          [
+           "Members",
+           "prog"
+          ],
+          [
+           "have",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Want to talk about the people one by one? Add the word members."
+     },
+     {
+      "type": "choice",
+      "text": "Members of the audience ___ leaving early.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The subject is Members → are."
+     },
+     {
+      "type": "learn",
+      "title": "People is plural",
+      "lines": [
+       "people = they. Always a plural verb."
+      ],
+      "chips": [
+       "People are clapping.",
+       "A group of people is cheering."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Group words (team, staff, audience) → singular verb.",
+     "members / people → plural verb."
+    ],
+    "timeline": [
+     "sv"
+    ],
+    "examples": [
+     {
+      "text": "The audience is clapping loudly.",
+      "hl": [
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "The staff members have requested raises.",
+      "hl": [
+       [
+        "have",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "At the show",
+     "icon": "👏",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A group of people ___ cheering loudly for the performers.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is group (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ clapping excitedly.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People = they → are."
+      },
+      {
+       "type": "choice",
+       "text": "The audience ___ asking for an encore.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The audience = one group → is."
+      },
+      {
+       "type": "choice",
+       "text": "The team ___ at noon.",
+       "options": [
+        "practices",
+        "practice"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One team → practices."
+      },
+      {
+       "type": "choice",
+       "text": "The faculty ___ chosen a new president.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One group → has (American English)."
+      },
+      {
+       "type": "choice",
+       "text": "The staff members ___ requested raises.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "members = they → have."
+      },
+      {
+       "type": "choice",
+       "text": "Members of the staff ___ requested raises.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is Members → have."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not?",
+     "icon": "✅",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Members of the audience are leaving early.",
+       "answer": "correct",
+       "why": "Members = they → are."
+      },
+      {
+       "type": "judge",
+       "text": "The audience sometimes boos the performers.",
+       "answer": "correct",
+       "why": "The audience = one group → boos."
+      },
+      {
+       "type": "judge",
+       "text": "The choir practices in the school basement.",
+       "answer": "correct",
+       "why": "The choir = one group → practices."
+      },
+      {
+       "type": "judge",
+       "text": "The choir members is happy with their progress.",
+       "answer": "wrong",
+       "why": "members = they → are.",
+       "fix": "The choir members are happy with their progress."
+      },
+      {
+       "type": "judge",
+       "text": "The team has talked with the coach about the game.",
+       "answer": "correct",
+       "why": "The team = one group → has."
+      },
+      {
+       "type": "judge",
+       "text": "The team is working hard to improve.",
+       "answer": "correct",
+       "why": "The team = one group → is."
+      },
+      {
+       "type": "judge",
+       "text": "Members of the team has spoken with the coach privately.",
+       "answer": "wrong",
+       "why": "Members = they → have.",
+       "fix": "Members of the team have spoken with the coach privately."
+      }
+     ]
+    },
+    {
+     "title": "Paramedics: add “members”?",
+     "icon": "🚑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The ambulance crew ___ has two paramedics.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has is singular → just crew.",
+       "ask": "What goes in the blank?"
+      },
+      {
+       "type": "choice",
+       "text": "Paramedic staff ___ have the highest level of emergency training.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have is plural → staff members.",
+       "ask": "What goes in the blank?"
+      },
+      {
+       "type": "choice",
+       "text": "The crew ___ is the first on the scene of an accident.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is is singular → just crew.",
+       "ask": "What goes in the blank?"
+      },
+      {
+       "type": "choice",
+       "text": "The staff ___ work 24-hour shifts.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "work is plural → staff members.",
+       "ask": "What goes in the blank?"
+      },
+      {
+       "type": "choice",
+       "text": "Family ___ are accustomed to their absences.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "are is plural → Family members.",
+       "ask": "What goes in the blank?"
+      },
+      {
+       "type": "choice",
+       "text": "The public ___ pays for ambulance services.",
+       "options": [
+        "members",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "pays is singular → just the public.",
+       "ask": "What goes in the blank?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5-4",
+   "tag": "5-4",
+   "t": "prog",
+   "title": "Some of, one of",
+   "full": "Subject-Verb Agreement: Using Expressions of Quantity",
+   "lesson": {
+    "title": "Learn: quantity words",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Look after of",
+      "lines": [
+       "some of, most of, a lot of, all of, 50% of…",
+       "The noun after of picks the verb."
+      ],
+      "visual": [
+       "of-noun"
+      ],
+      "examples": [
+       {
+        "text": "A lot of the equipment is new.",
+        "hl": [
+         [
+          "equipment",
+          "pres"
+         ],
+         [
+          "is",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "A lot of the printers are new.",
+        "hl": [
+         [
+          "printers",
+          "prog"
+         ],
+         [
+          "are",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Most of our homework ___ easy.",
+      "options": [
+       "looks",
+       "look"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "homework (one thing) → looks."
+     },
+     {
+      "type": "choice",
+      "text": "Most of our assignments ___ easy.",
+      "options": [
+       "looks",
+       "look"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "assignments (many) → look."
+     },
+     {
+      "type": "learn",
+      "title": "one of, each of, every one of",
+      "lines": [
+       "These three are always singular.",
+       "Even with a plural noun after them."
+      ],
+      "visual": [
+       "one-of"
+      ],
+      "chips": [
+       "One of my friends is here.",
+       "Each of my friends is here.",
+       "Every one of my friends is here."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "One of the salespeople ___ pushy.",
+      "options": [
+       "was",
+       "were"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "One of … → singular: was."
+     },
+     {
+      "type": "compare",
+      "title": "the number vs. a number",
+      "left": {
+       "label": "the number of = the total",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "The number of students in the class is fifteen.",
+         "hl": [
+          [
+           "number",
+           "pres"
+          ],
+          [
+           "is",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "a number of = many",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "A number of students are late today.",
+         "hl": [
+          [
+           "students",
+           "prog"
+          ],
+          [
+           "are",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "THE number is … / A number of … are …"
+     },
+     {
+      "type": "learn",
+      "title": "none of",
+      "lines": [
+       "Formal: singular. Everyday speech: plural too."
+      ],
+      "chips": [
+       "None of the boys is here. (formal)",
+       "None of the boys are here. (informal)"
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "some / most / all / a lot / % of + noun → that noun picks the verb.",
+     "one of, each of, every one of, the number of → singular."
+    ],
+    "timeline": [
+     "of-noun",
+     "one-of"
+    ],
+    "examples": [
+     {
+      "text": "Some of the book is good.",
+      "hl": [
+       [
+        "book",
+        "pres"
+       ],
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Some of the books are good.",
+      "hl": [
+       [
+        "books",
+        "prog"
+       ],
+       [
+        "are",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "One of my friends is here.",
+      "hl": [
+       [
+        "One",
+        "pres"
+       ],
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Books, books, books",
+     "icon": "📚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Some of this book ___ interesting.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "book (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Some of those books ___ interesting.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "books (many) → are."
+      },
+      {
+       "type": "choice",
+       "text": "Most of those books ___ interesting.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "books (many) → are."
+      },
+      {
+       "type": "choice",
+       "text": "Most of the book ___ interesting.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "book (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "One of those books ___ Linda's.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of … → is."
+      },
+      {
+       "type": "choice",
+       "text": "Each of those books ___ yours.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Each of … → is."
+      },
+      {
+       "type": "choice",
+       "text": "Fifty percent of the book ___ photos.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "book (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Fifty percent of the books ___ on sale.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "books (many) → are."
+      }
+     ]
+    },
+    {
+     "title": "Car dealership: which word decides?",
+     "icon": "🚙",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Every one of the cars on the lot is on sale.",
+       "options": [
+        "one",
+        "cars",
+        "lot"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Every one of … → singular.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "A number of cars are pre-owned.",
+       "options": [
+        "number",
+        "cars"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a number of = many → cars decides.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "The number of pre-owned cars is increasing each week.",
+       "options": [
+        "number",
+        "cars",
+        "week"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "THE number → singular.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "Financing for pre-owned cars is available.",
+       "options": [
+        "Financing",
+        "cars"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Financing is the subject.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "Do all of the new cars come with a rear view camera?",
+       "options": [
+        "all",
+        "cars",
+        "camera"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "all of + cars → plural.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "None of the cars has more than a 5% markup.",
+       "options": [
+        "None",
+        "markup"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "None of … (formal) → singular.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "Have some of the cars been in accidents?",
+       "options": [
+        "cars",
+        "accidents"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "some of + cars → plural.",
+       "ask": "Which word decides the verb?"
+      },
+      {
+       "type": "choice",
+       "text": "One of the best reasons for shopping here is the salesperson's honesty.",
+       "options": [
+        "One",
+        "reasons",
+        "shopping"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of … → singular.",
+       "ask": "Which word decides the verb?"
+      }
+     ]
+    },
+    {
+     "title": "Car dealership: choose",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Most of the salespeople ___ friendly.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "salespeople (many) → were."
+      },
+      {
+       "type": "choice",
+       "text": "Most of the discussion ___ about vehicle reliability.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "discussion (one) → was."
+      },
+      {
+       "type": "choice",
+       "text": "One of the salespeople ___ pushy.",
+       "options": [
+        "was",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of … → was."
+      },
+      {
+       "type": "choice",
+       "text": "Each car ___ a vehicle history report.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Each → singular: has."
+      },
+      {
+       "type": "choice",
+       "text": "Each of the models we looked at ___ a good safety record.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Each of … → has."
+      },
+      {
+       "type": "choice",
+       "text": "A lot of the safety equipment ___ standard in the new models.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "equipment (one thing) → is."
+      },
+      {
+       "type": "choice",
+       "text": "A lot of the safety features ___ available in the older cars.",
+       "options": [
+        "isn't",
+        "aren't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "features (many) → aren't."
+      }
+     ]
+    },
+    {
+     "title": "King Midas (1)",
+     "icon": "👑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "King Midas, an exceedingly greedy king, ___ a life of great luxury.",
+       "options": [
+        "live",
+        "lives"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "King Midas = he → lives."
+      },
+      {
+       "type": "choice",
+       "text": "But his wealth and fortune ___ not enough to satisfy him.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "wealth and fortune = two things → are."
+      },
+      {
+       "type": "choice",
+       "text": "Even the company of his lovely daughter ___ less important to him than money.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is company → is."
+      },
+      {
+       "type": "choice",
+       "text": "Acquiring more riches ___ what occupies his thoughts all day long.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Acquiring (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "One day the king ___ upon a magician.",
+       "options": [
+        "call",
+        "calls"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the king = he → calls."
+      },
+      {
+       "type": "choice",
+       "text": "And he ___ him to find more treasures.",
+       "options": [
+        "order",
+        "orders"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "he → orders."
+      },
+      {
+       "type": "choice",
+       "text": "The magician has something better to offer and ___ him a special power.",
+       "options": [
+        "give",
+        "gives"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The magician … gives."
+      },
+      {
+       "type": "choice",
+       "text": "Now he can turn everything he ___ into gold.",
+       "options": [
+        "touches",
+        "touch"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "he → touches."
+      }
+     ]
+    },
+    {
+     "title": "King Midas (2)",
+     "icon": "🌳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The king, overjoyed with this gift, ___ out into the forest.",
+       "options": [
+        "go",
+        "goes"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The king = he → goes."
+      },
+      {
+       "type": "choice",
+       "text": "Each object he ___ his finger on turns to gold.",
+       "options": [
+        "puts",
+        "put"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "he → puts."
+      },
+      {
+       "type": "choice",
+       "text": "Each object he touches ___ to gold: a tree, a flower, even a stone.",
+       "options": [
+        "turns",
+        "turn"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Each object → turns."
+      },
+      {
+       "type": "choice",
+       "text": "In the evening the king, alone with his new pieces of gold, ___ down to a feast.",
+       "options": [
+        "sits",
+        "sit"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is the king → sits."
+      },
+      {
+       "type": "choice",
+       "text": "To his dismay, the first piece of food he ___ turns to gold.",
+       "options": [
+        "touches",
+        "touch"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "he → touches."
+      },
+      {
+       "type": "choice",
+       "text": "He tries a slice of bread, and the same thing ___.",
+       "options": [
+        "happens",
+        "happen"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the same thing = it → happens."
+      },
+      {
+       "type": "choice",
+       "text": "Slowly it ___ on him that he cannot eat.",
+       "options": [
+        "dawns",
+        "dawn"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "it → dawns."
+      },
+      {
+       "type": "choice",
+       "text": "None of the food ___ edible.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "food (one thing) → is."
+      }
+     ]
+    },
+    {
+     "title": "King Midas (3)",
+     "icon": "💛",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The next morning, his beloved daughter ___ up to him for a kiss.",
+       "options": [
+        "runs",
+        "run"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "his daughter = she → runs."
+      },
+      {
+       "type": "choice",
+       "text": "But the king's embrace ___ her into gold.",
+       "options": [
+        "turns",
+        "turn"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is embrace → turns."
+      },
+      {
+       "type": "choice",
+       "text": "A great sorrow ___ him.",
+       "options": [
+        "overcomes",
+        "overcome"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sorrow = it → overcomes."
+      },
+      {
+       "type": "choice",
+       "text": "And he ___ with the magician for help.",
+       "options": [
+        "pleads",
+        "plead"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "he → pleads."
+      },
+      {
+       "type": "choice",
+       "text": "His love for his daughter ___ greater than anything else in the world.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is love → is."
+      },
+      {
+       "type": "choice",
+       "text": "The magician waves his wand and the spell ___.",
+       "options": [
+        "disappears",
+        "disappear"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the spell = it → disappears."
+      },
+      {
+       "type": "choice",
+       "text": "The king shares his riches and ___ a humble and generous ruler.",
+       "options": [
+        "becomes",
+        "become"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The king … becomes."
+      },
+      {
+       "type": "choice",
+       "text": "Everyone in the kingdom ___ him.",
+       "options": [
+        "loves",
+        "love"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Everyone → singular: loves."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Tell a folktale",
+     "task": "Tell Claude a short story or folktale from your country in the present tense.",
+     "claudePrompt": "You are my English speaking partner. Ask me to tell a short folktale or fairy tale from my country in the present tense (like the story of King Midas: 'The king lives in ... He calls ...'). Let me tell it in 5-8 sentences, a few sentences at a time. Check subject-verb agreement, especially the final -s after he, she, it, each and everyone."
+    }
+   ]
+  },
+  {
+   "id": "5-5",
+   "tag": "5-5",
+   "t": "pres",
+   "title": "There is, there are",
+   "full": "Subject-Verb Agreement: Using There + Be",
+   "lesson": {
+    "title": "Learn: there + be",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Look to the right",
+      "lines": [
+       "After there, the subject comes after be.",
+       "That noun picks is or are."
+      ],
+      "visual": [
+       "there-be"
+      ],
+      "examples": [
+       {
+        "text": "There is a fly in the room.",
+        "hl": [
+         [
+          "is",
+          "pres"
+         ],
+         [
+          "a fly",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "There are three windows in this room.",
+        "hl": [
+         [
+          "are",
+          "prog"
+         ],
+         [
+          "three windows",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "There ___ a lot of problems in the world.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "problems (many) → are."
+     },
+     {
+      "type": "choice",
+      "text": "There ___ too much violence in the world.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "violence (one thing) → is."
+     },
+     {
+      "type": "learn",
+      "title": "Careful with There's",
+      "lines": [
+       "People often say There's + plural.",
+       "In careful English, use There are."
+      ],
+      "chips": [
+       "🗣️ There's two sides to every story.",
+       "✍️ There are two sides to every story."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Questions flip",
+      "lines": [
+       "Is there…? Are there…?"
+      ],
+      "chips": [
+       "Is there a holiday next week?",
+       "Are there any questions?"
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "There is + one thing. There are + many things.",
+     "The noun after be decides."
+    ],
+    "timeline": [
+     "there-be"
+    ],
+    "examples": [
+     {
+      "text": "There is a fly in the room.",
+      "hl": [
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "There are three windows in this room.",
+      "hl": [
+       [
+        "are",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What do you think?",
+     "icon": "🌍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "There ___ a good reason for everything that happens to us.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a reason (one) → is / isn't."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ people or beings on other planets.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "people (many) → are / aren't."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ enough resources in the world for everyone right now.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "resources (many) → are / aren't."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ a lot of problems in the world due to climate change.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "problems (many) → are."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ too much gun violence in the world.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "violence (one thing) → is."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ going to be cures for diseases like cancer in the next decade.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "cures (many) → are / aren't."
+      },
+      {
+       "type": "choice",
+       "text": "With enough money, there ___ a solution for every problem in the world.",
+       "options": [
+        "is / isn't",
+        "are / aren't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a solution (one) → is / isn't."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ a fly in the room.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a fly (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ seven continents.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "continents (many) → are."
+      }
+     ]
+    },
+    {
+     "title": "At work (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "There's a receipt for supplies on your desk.",
+       "ask": "What did you hear?",
+       "options": [
+        "There is",
+        "There are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "There's = There is. One receipt."
+      },
+      {
+       "type": "listen",
+       "say": "There're two messages for you.",
+       "ask": "What did you hear?",
+       "options": [
+        "There is",
+        "There are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "There're = There are. Two messages."
+      },
+      {
+       "type": "listen",
+       "say": "There's a meeting at ten o'clock.",
+       "ask": "What did you hear?",
+       "options": [
+        "There is",
+        "There are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One meeting → There is."
+      },
+      {
+       "type": "listen",
+       "say": "Is there any coffee left?",
+       "ask": "What did you hear?",
+       "options": [
+        "Is there",
+        "Are there"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "coffee (one thing) → Is there."
+      },
+      {
+       "type": "listen",
+       "say": "Are there enough chairs in the meeting room?",
+       "ask": "What did you hear?",
+       "options": [
+        "Is there",
+        "Are there"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "chairs (many) → Are there."
+      },
+      {
+       "type": "listen",
+       "say": "I think there's a problem with the printer.",
+       "ask": "What did you hear?",
+       "options": [
+        "there is",
+        "there are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One problem → there is."
+      },
+      {
+       "type": "listen",
+       "say": "Are there any questions before we start?",
+       "ask": "What did you hear?",
+       "options": [
+        "Is there",
+        "Are there"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "questions (many) → Are there."
+      },
+      {
+       "type": "listen",
+       "say": "There're some new people in our department.",
+       "ask": "What did you hear?",
+       "options": [
+        "There is",
+        "There are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "people (many) → There are."
+      },
+      {
+       "type": "listen",
+       "say": "I heard there're free donuts in the kitchen.",
+       "ask": "What did you hear?",
+       "options": [
+        "there is",
+        "there are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "donuts (many) → there are."
+      }
+     ]
+    },
+    {
+     "title": "Rain vs. showers",
+     "icon": "🌦️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Many people ___ these words as having the same meaning.",
+       "options": [
+        "treats",
+        "treat"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "people = they → treat."
+      },
+      {
+       "type": "choice",
+       "text": "For people who follow the weather, however, there ___ a difference.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a difference (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Rain is steady and ___ a larger area.",
+       "options": [
+        "covers",
+        "cover"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Rain = it → covers."
+      },
+      {
+       "type": "choice",
+       "text": "Showers ___ to be more scattered.",
+       "options": [
+        "tends",
+        "tend"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Showers = they → tend."
+      },
+      {
+       "type": "choice",
+       "text": "Showers ___ as long.",
+       "options": [
+        "does not last",
+        "do not last"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Showers = they → do not last."
+      },
+      {
+       "type": "choice",
+       "text": "There ___ an easy way to remember the difference.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "an easy way (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Most of us ___ wetter when we take a bath.",
+       "options": [
+        "gets",
+        "get"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "us (many) → get."
+      },
+      {
+       "type": "choice",
+       "text": "…than when we ___ in the shower.",
+       "options": [
+        "stands",
+        "stand"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "we → stand."
+      },
+      {
+       "type": "choice",
+       "text": "Which expression do you think ___ correct: “It's raining” or “It's showering”?",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Which expression (one) → is."
+      }
+     ]
+    },
+    {
+     "title": "Thief, robber, burglar",
+     "icon": "🦹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Another set of words with distinct differences ___ thief, robber, and burglar.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is set (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "A thief ___ physical property like TVs, computers, or money.",
+       "options": [
+        "takes",
+        "take"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A thief = he / she → takes."
+      },
+      {
+       "type": "choice",
+       "text": "Robbers also ___ property.",
+       "options": [
+        "takes",
+        "take"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Robbers = they → take."
+      },
+      {
+       "type": "choice",
+       "text": "But the robber ___ force or the threat of force.",
+       "options": [
+        "uses",
+        "use"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the robber (one) → uses."
+      },
+      {
+       "type": "choice",
+       "text": "A burglar illegally ___ a structure to commit a crime.",
+       "options": [
+        "enters",
+        "enter"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A burglar (one) → enters."
+      },
+      {
+       "type": "choice",
+       "text": "If some of this ___ confusing, you are in good company.",
+       "options": [
+        "seems",
+        "seem"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "this (one thing) → seems."
+      },
+      {
+       "type": "choice",
+       "text": "Many native speakers of English ___ never learned these differences.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "speakers = they → have."
+      },
+      {
+       "type": "choice",
+       "text": "And they ___ distinctions among these words.",
+       "options": [
+        "doesn't make",
+        "don't make"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "they → don't make."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "In my room there is…",
+     "task": "Describe your room or your city to Claude with There is / There are.",
+     "claudePrompt": "You are my English speaking partner. I am practicing There is / There are. Ask me to describe my room, then my street, then my city: What is there in your room? Are there any ...? Is there a ... near your home? I answer with There is / There are / There isn't / There aren't. Check that my verb agrees with the noun that follows."
+    }
+   ]
+  },
+  {
+   "id": "5-6",
+   "tag": "5-6",
+   "t": "state",
+   "title": "Tricky subjects",
+   "full": "Subject-Verb Agreement: Some Irregularities",
+   "lesson": {
+    "title": "Learn: surprising subjects",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Ends in s, but it's one",
+      "lines": [
+       "Some names and words end in s but are singular."
+      ],
+      "chips": [
+       {
+        "label": "🌍 Names",
+        "words": [
+         "The United States is big.",
+         "The Philippines is…",
+         "The United Nations has…",
+         "Harrods is…"
+        ]
+       },
+       {
+        "label": "📰 news",
+        "words": [
+         "The news is interesting."
+        ]
+       },
+       {
+        "label": "📐 -ics subjects",
+        "words": [
+         "Mathematics is easy.",
+         "Physics is hard."
+        ]
+       },
+       {
+        "label": "🤒 Illnesses",
+        "words": [
+         "Diabetes is an illness.",
+         "measles",
+         "mumps",
+         "rabies"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The news about the storm ___ worrying.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "news is one thing → is."
+     },
+     {
+      "type": "learn",
+      "title": "An amount is one thing",
+      "lines": [
+       "Time, money, distance, and math: singular."
+      ],
+      "chips": [
+       "Eight hours of sleep is enough.",
+       "Ten dollars is too much.",
+       "Five thousand miles is too far.",
+       "Two and two is four."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Thirty dollars ___ an unreasonable price for that T-shirt.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "An amount of money = one amount → is."
+     },
+     {
+      "type": "learn",
+      "title": "No s, but it's many",
+      "lines": [
+       "people, police, cattle, fish (as a group): plural verb."
+      ],
+      "chips": [
+       "Those people are from Canada.",
+       "The police have been called.",
+       "Cattle are domestic animals.",
+       "Fish live under water."
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Language or people?",
+      "left": {
+       "label": "The language: singular",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "English is spoken in many countries.",
+         "hl": [
+          [
+           "is spoken",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Chinese is his native language.",
+         "hl": [
+          [
+           "is",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "The people: plural",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The English drink tea.",
+         "hl": [
+          [
+           "drink",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "The Chinese have an interesting history.",
+         "hl": [
+          [
+           "have",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "the + adjective = a group of people: the poor, the rich, the young, the elderly, the blind."
+     },
+     {
+      "type": "choice",
+      "text": "The rich ___ richer.",
+      "options": [
+       "gets",
+       "get"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "the rich = rich people → get."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Singular: the United States, news, mathematics, diabetes, eight hours, ten dollars.",
+     "Plural: people, police, cattle, the English, the poor."
+    ],
+    "timeline": [
+     "sv"
+    ],
+    "examples": [
+     {
+      "text": "The news is interesting.",
+      "hl": [
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Eight hours of sleep is enough.",
+      "hl": [
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "The police have been called.",
+      "hl": [
+       [
+        "have",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Rule or exception?",
+     "icon": "🧐",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Nations ___ groups of people who share a common identity.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Nations = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "The United Nations ___ an international organization.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One organization → is."
+      },
+      {
+       "type": "choice",
+       "text": "Kilometers ___ measures of distance.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Kilometers (the units) = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "Seven kilometers ___ too far for me to run.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One distance → is."
+      },
+      {
+       "type": "choice",
+       "text": "English ___ a language.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The language → is."
+      },
+      {
+       "type": "choice",
+       "text": "The English ___ concerned about global warming.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The English = the people → are."
+      },
+      {
+       "type": "choice",
+       "text": "Mix and fix ___ verbs.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two words → are."
+      },
+      {
+       "type": "choice",
+       "text": "Six and six ___ twelve.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Arithmetic → is."
+      },
+      {
+       "type": "choice",
+       "text": "Whales ___ mammals.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Whales = many → are."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ mammals.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People = they → are."
+      }
+     ]
+    },
+    {
+     "title": "Choose the verb",
+     "icon": "📰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The United States ___ a population of around 325 million.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One country → has."
+      },
+      {
+       "type": "choice",
+       "text": "The New York Times ___ an established and respected newspaper.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One newspaper → is."
+      },
+      {
+       "type": "choice",
+       "text": "Statistics ___ a branch of mathematics.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The field of study → is."
+      },
+      {
+       "type": "choice",
+       "text": "The statistics in that report on oil production ___ incorrect.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Here statistics = numbers (many) → are."
+      },
+      {
+       "type": "choice",
+       "text": "Fifty minutes ___ the maximum length of time for the test.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One amount of time → is."
+      },
+      {
+       "type": "choice",
+       "text": "Rabies ___ an infectious and often fatal disease.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An illness → is."
+      },
+      {
+       "type": "choice",
+       "text": "The blind ___ us to treat them the same way we treat everyone else.",
+       "options": [
+        "wants",
+        "want"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the blind = blind people → want."
+      },
+      {
+       "type": "choice",
+       "text": "French ___ somewhat similar to Spanish.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The language → is."
+      },
+      {
+       "type": "choice",
+       "text": "The French ___ proud, independent people.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The French = the people → are."
+      },
+      {
+       "type": "choice",
+       "text": "___ the police have training in mental health issues?",
+       "options": [
+        "Does",
+        "Do"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the police = they → Do."
+      }
+     ]
+    },
+    {
+     "title": "Trivia game",
+     "icon": "🎲",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The English ___ famous for universities like Oxford and Cambridge.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The English = the people → are."
+      },
+      {
+       "type": "choice",
+       "text": "Linguistics ___ the study of the structure and nature of language.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A field of study → is."
+      },
+      {
+       "type": "choice",
+       "text": "Diabetes ___ a blood-sugar illness.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An illness → is."
+      },
+      {
+       "type": "choice",
+       "text": "English ___ the official language of Namibia.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The language → is."
+      },
+      {
+       "type": "choice",
+       "text": "People from Canada ___ called Canadians.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People = they → are."
+      },
+      {
+       "type": "choice",
+       "text": "Approximately 70% of the earth ___ covered by water.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the earth (one) → is."
+      },
+      {
+       "type": "choice",
+       "text": "Only 1% of the earth's water ___ drinkable.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "water (one thing) → is."
+      },
+      {
+       "type": "choice",
+       "text": "The Netherlands ___ in the Northern Hemisphere.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One country → is."
+      },
+      {
+       "type": "choice",
+       "text": "Fish ___ not mammals.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Fish (as a group) → are."
+      },
+      {
+       "type": "choice",
+       "text": "Harrods ___ a department store that began in London.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One store → is."
+      }
+     ]
+    },
+    {
+     "title": "What's your opinion?",
+     "icon": "🗳️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Thirty dollars ___ an unreasonable price for that T-shirt.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One amount of money → is."
+      },
+      {
+       "type": "choice",
+       "text": "Four hours of skiing ___ plenty of exercise.",
+       "options": [
+        "provides",
+        "provide"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One amount of time → provides."
+      },
+      {
+       "type": "choice",
+       "text": "The United Nations ___ an important role in today's world.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One organization → has."
+      },
+      {
+       "type": "choice",
+       "text": "Mathematics ___ an interesting subject.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A field of study → is."
+      },
+      {
+       "type": "choice",
+       "text": "Both boys and girls ___ to learn how to do housecleaning.",
+       "options": [
+        "needs",
+        "need"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "boys and girls = many → need."
+      },
+      {
+       "type": "choice",
+       "text": "Every girl and boy in my country ___ to have immunizations.",
+       "options": [
+        "needs",
+        "need"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Every … → singular: needs."
+      },
+      {
+       "type": "choice",
+       "text": "Two hours of homework per day ___ too much for elementary school children.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One amount of time → is."
+      },
+      {
+       "type": "choice",
+       "text": "Having good computer skills ___ necessary for a high-paying job.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Having (-ing subject) → is."
+      },
+      {
+       "type": "choice",
+       "text": "One of the biggest problems in the world today ___ the lack of housing.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of … → is."
+      },
+      {
+       "type": "choice",
+       "text": "People across the world ___ more alike than different.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People = they → are."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Is it enough?",
+     "task": "Claude asks about sleep, money, distance and school subjects. Answer in full sentences.",
+     "claudePrompt": "You are my English speaking partner. I am practicing subject-verb agreement with amounts and special nouns. Ask me one question at a time: How many hours of sleep is enough for you? What is a reasonable amount of money to pay for textbooks for one term? What is a manageable distance to travel to work? Which school subject (mathematics, physics, ...) is easy for you? What advantages do the old have over the young? I answer in full sentences. Check that I use a singular verb with amounts of time, money and distance and with subjects like mathematics, and a plural verb with 'the old', 'the young' and 'people'."
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "tag": "Mix",
+   "t": "pres",
+   "title": "Agreement mix",
+   "full": "Chapter 5 Review",
+   "lesson": {
+    "title": "Learn: three quick checks",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Check 1: find the real subject",
+      "lines": [
+       "Skip the words in the middle."
+      ],
+      "visual": [
+       "find-subject"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Check 2: is it a special word?",
+      "lines": [
+       "every, each, one of, -ing, amounts, news → singular.",
+       "people, police, the elderly, a number of → plural."
+      ],
+      "chips": [
+       {
+        "label": "→ is",
+        "words": [
+         "every person",
+         "one of the ways",
+         "exercising",
+         "30 minutes",
+         "the news"
+        ]
+       },
+       {
+        "label": "→ are",
+        "words": [
+         "people",
+         "the elderly",
+         "a lot of people",
+         "a number of planes"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Check 3: after of, look right",
+      "lines": [
+       "some / most / all / % of + noun: the noun decides."
+      ],
+      "visual": [
+       "of-noun"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "One of the best ways to prevent injury ___ to warm up first.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "One of … → singular: is."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Find the real subject. Skip the middle.",
+     "Special words: every / one of / -ing / amounts → singular."
+    ],
+    "timeline": [
+     "find-subject",
+     "of-noun"
+    ],
+    "examples": [
+     {
+      "text": "One of the best ways to prevent injury is to warm up first.",
+      "hl": [
+       [
+        "One",
+        "pres"
+       ],
+       [
+        "is",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "A number of planes were late.",
+      "hl": [
+       [
+        "planes",
+        "prog"
+       ],
+       [
+        "were",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Physical exercise (1)",
+     "icon": "🏋️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "All of the people in the exercise class…",
+       "options": [
+        "need to wear athletic shoes.",
+        "needs to wear appropriate clothing.",
+        "is dangerous."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "All of the people (many) → need.",
+       "ask": "Choose the ending",
+       "rule": "5-4"
+      },
+      {
+       "type": "choice",
+       "text": "One of the best ways to prevent injury…",
+       "options": [
+        "don't exercise.",
+        "is to warm up first.",
+        "affect the muscles differently."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One of … → is.",
+       "ask": "Choose the ending",
+       "rule": "5-4"
+      },
+      {
+       "type": "choice",
+       "text": "Recent fitness news…",
+       "options": [
+        "suggest that exercising with a buddy helps.",
+        "are easy on knee and hip joints.",
+        "suggests that exercising with a buddy improves motivation."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "news is one thing → suggests.",
+       "ask": "Choose the ending",
+       "rule": "5-6"
+      },
+      {
+       "type": "choice",
+       "text": "Exercise in the water…",
+       "options": [
+        "is easy on knee and hip joints.",
+        "are easy on knee and hip joints.",
+        "don't exercise."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Exercise (one thing) → is.",
+       "ask": "Choose the ending",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Unfortunately, a lot of people…",
+       "options": [
+        "doesn't exercise.",
+        "is dangerous.",
+        "don't exercise."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "people = they → don't.",
+       "ask": "Choose the ending",
+       "rule": "5-4"
+      },
+      {
+       "type": "choice",
+       "text": "Does…",
+       "options": [
+        "the elderly use the gym?",
+        "the exercise routine feel comfortable?",
+        "30 minutes of exercise a day enough?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Does + one thing (the routine) + verb.",
+       "ask": "Choose the ending",
+       "rule": "5-2"
+      }
+     ]
+    },
+    {
+     "title": "Physical exercise (2)",
+     "icon": "🏃",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Different types of exercise…",
+       "options": [
+        "affects the muscles differently.",
+        "affect the muscles differently.",
+        "is to warm up first."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is types (many) → affect.",
+       "ask": "Choose the ending",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Is…",
+       "options": [
+        "30 minutes of exercise a day enough?",
+        "the elderly use the gym?",
+        "the exercise routines comfortable?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An amount of time → Is.",
+       "ask": "Choose the ending",
+       "rule": "5-6"
+      },
+      {
+       "type": "choice",
+       "text": "Every person at the gym…",
+       "options": [
+        "need to wear athletic shoes.",
+        "needs to wear appropriate clothing.",
+        "don't exercise."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Every person → needs.",
+       "ask": "Choose the ending",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Do…",
+       "options": [
+        "the exercise routine feel comfortable?",
+        "30 minutes of exercise a day enough?",
+        "the elderly use the gym?"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "the elderly = they → Do.",
+       "ask": "Choose the ending",
+       "rule": "5-6"
+      },
+      {
+       "type": "choice",
+       "text": "Exercising too much…",
+       "options": [
+        "are dangerous.",
+        "is dangerous.",
+        "affect the muscles differently."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Exercising (-ing subject) → is.",
+       "ask": "Choose the ending",
+       "rule": "5-2"
+      }
+     ]
+    },
+    {
+     "title": "Tipping",
+     "icon": "💵",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Tipping ___ a common practice throughout the world.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tipping (-ing subject) → is.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Visitors new to a country ___ often unsure about how much to tip.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is Visitors → are.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "There ___ apps that tell how much to tip in each country.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "apps (many) → are.",
+       "rule": "5-5"
+      },
+      {
+       "type": "choice",
+       "text": "Workers in service industries commonly ___ tips.",
+       "options": [
+        "receives",
+        "receive"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Workers = they → receive.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "In restaurants, 15% ___ average.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A percentage of the bill (one amount) → is.",
+       "rule": "5-4"
+      },
+      {
+       "type": "choice",
+       "text": "The number of bags the traveler has ___ the tip.",
+       "options": [
+        "determines",
+        "determine"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "THE number → singular.",
+       "rule": "5-4"
+      },
+      {
+       "type": "choice",
+       "text": "The amount per bag ___.",
+       "options": [
+        "varies",
+        "vary"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The amount = it → varies.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Tips for a taxi driver ___ usually based on a percentage of the fare.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is Tips → are.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Some restaurants ___ a mandatory service charge.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "restaurants = they → have.",
+       "rule": "5-2"
+      },
+      {
+       "type": "choice",
+       "text": "Many employers ___ their employees' pay on tips.",
+       "options": [
+        "bases",
+        "base"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "employers = they → base.",
+       "rule": "5-2"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Tipping: your opinion",
+     "task": "Do people tip in your country? Tell Claude what you think about it.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about tipping: Do people in your country leave tips? For what kinds of services? What is the usual amount? Is it right for employers to pay workers less because they expect tips? Encourage me to use phrases like 'In my opinion, tipping is ...', 'I strongly believe that ...', 'I am (not) in favor of ... because ...'. Check my subject-verb agreement."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Agreement Ogre",
+  "icon": "👹",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "The books in my office [is] very valuable to me.",
+    "options": [
+     "The books in my office are very valuable to me.",
+     "The book in my office are very valuable to me.",
+     "The books in my office be very valuable to me."
+    ],
+    "answer": 0,
+    "why": "The subject is books → are.",
+    "rule": "5-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "All of the windows in our house [was] broken in the earthquake.",
+    "options": [
+     "All of the windows in our house is broken in the earthquake.",
+     "All of the windows in our house were broken in the earthquake.",
+     "All of the window in our house was broken in the earthquake."
+    ],
+    "answer": 1,
+    "why": "All of + windows (many) → were.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "A lot of the people in my class [works] during the day and [attends] class in the evening.",
+    "options": [
+     "A lot of the people in my class works during the day and attend class in the evening.",
+     "A lot of the people in my class work during the day and attends class in the evening.",
+     "A lot of the people in my class work during the day and attend class in the evening."
+    ],
+    "answer": 2,
+    "why": "people (many) → work, attend.",
+    "rule": "5-4"
+   },
+   {
+    "type": "judge",
+    "text": "The news about the effects of air pollution on children's lungs is disturbing.",
+    "answer": "correct",
+    "why": "news is one thing → is.",
+    "rule": "5-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "Studying a foreign language often [lead] students to learn about other cultures.",
+    "options": [
+     "Studying a foreign language often leads students to learn about other cultures.",
+     "Studying a foreign language often leading students to learn about other cultures.",
+     "Studying foreign languages often lead students to learn about other cultures."
+    ],
+    "answer": 0,
+    "why": "Studying (-ing subject) → leads.",
+    "rule": "5-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "One of the most common names for dogs in the United States [are] “Rover.”",
+    "options": [
+     "One of the most common name for dogs in the United States are “Rover.”",
+     "One of the most common names for dogs in the United States is “Rover.”",
+     "One of the most common names for dogs in the United States were “Rover.”"
+    ],
+    "answer": 1,
+    "why": "One of … → singular: is.",
+    "rule": "5-4"
+   },
+   {
+    "type": "judge",
+    "text": "A number of planes were late due to the snowstorm in Chicago.",
+    "answer": "correct",
+    "why": "a number of = many → were.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Forty percent of the people in the state of New York [lives] in New York City.",
+    "options": [
+     "Forty percent of the people in the state of New York living in New York City.",
+     "Forty percent of the people in the state of New York is living in New York City.",
+     "Forty percent of the people in the state of New York live in New York City."
+    ],
+    "answer": 2,
+    "why": "% of + people (many) → live.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "A group of students [are] waiting for the advising office to open.",
+    "options": [
+     "A group of students is waiting for the advising office to open.",
+     "A group of students be waiting for the advising office to open.",
+     "A group of student are waiting for the advising office to open."
+    ],
+    "answer": 0,
+    "why": "The subject is group (one) → is.",
+    "rule": "5-3"
+   },
+   {
+    "type": "judge",
+    "text": "About 90% of an iceberg is below water.",
+    "answer": "correct",
+    "why": "% of + iceberg (one) → is.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Unless there [are] a dramatic change in government policies soon, the economy will get worse.",
+    "options": [
+     "Unless there were a dramatic change in government policies soon, the economy will get worse.",
+     "Unless there is a dramatic change in government policies soon, the economy will get worse.",
+     "Unless there be a dramatic change in government policies soon, the economy will get worse."
+    ],
+    "answer": 1,
+    "why": "a change (one) → there is.",
+    "rule": "5-5"
+   },
+   {
+    "type": "judge",
+    "text": "The number of buses in the downtown area has decreased this year.",
+    "answer": "correct",
+    "why": "THE number → singular: has.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "While I was in Paris, some of my favorite meals [was] in small out-of-the-way cafes.",
+    "options": [
+     "While I was in Paris, some of my favorite meals were in small out-of-the-way cafes.",
+     "While I was in Paris, some of my favorite meal were in small out-of-the-way cafes.",
+     "While I was in Paris, some of my favorite meals is in small out-of-the-way cafes."
+    ],
+    "answer": 0,
+    "why": "some of + meals (many) → were.",
+    "rule": "5-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Most of the mountain peaks in the Himalayan Range [has] snow year-round.",
+    "options": [
+     "Most of the mountain peaks in the Himalayan Range is having snow year-round.",
+     "Most of the mountain peak in the Himalayan Range has snow year-round.",
+     "Most of the mountain peaks in the Himalayan Range have snow year-round."
+    ],
+    "answer": 2,
+    "why": "Most of + peaks (many) → have.",
+    "rule": "5-4"
+   }
+  ]
+ }
+}

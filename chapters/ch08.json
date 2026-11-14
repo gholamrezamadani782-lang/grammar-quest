@@ -1,0 +1,4715 @@
+{
+ "id": "ch08",
+ "num": 8,
+ "title": "Pronouns",
+ "subtitle": "I, me, mine, myself, and the other family",
+ "icon": "🪞",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "The manager asked for a meeting with Bill and I.",
+    "answer": "wrong",
+    "why": "After with → object: me.",
+    "fix": "The manager asked for a meeting with Bill and me.",
+    "rule": "8-1"
+   },
+   {
+    "type": "judge",
+    "text": "That is your order. This one is ours.",
+    "answer": "correct",
+    "why": "ours stands alone. No apostrophe.",
+    "rule": "8-1"
+   },
+   {
+    "type": "judge",
+    "text": "I enjoy dessert after dinner. Do you enjoy too?",
+    "answer": "wrong",
+    "why": "enjoy needs an object: enjoy it.",
+    "fix": "I enjoy dessert after dinner. Do you enjoy it too?",
+    "rule": "8-1"
+   },
+   {
+    "type": "judge",
+    "text": "A student needs to check their work carefully.",
+    "answer": "wrong",
+    "why": "Formal writing: his or her (or make it plural).",
+    "fix": "A student needs to check his or her work carefully.",
+    "rule": "8-2"
+   },
+   {
+    "type": "judge",
+    "text": "The baseball team is going to win the championship. It has been working hard all year.",
+    "answer": "correct",
+    "why": "The team as one unit → It.",
+    "rule": "8-3"
+   },
+   {
+    "type": "judge",
+    "text": "Why are you staring at yourself in the mirror?",
+    "answer": "correct",
+    "why": "you … yourself: the same person.",
+    "rule": "8-4"
+   },
+   {
+    "type": "judge",
+    "text": "How does one apply for early admissions to college?",
+    "answer": "correct",
+    "why": "one = anyone (formal).",
+    "rule": "8-5"
+   },
+   {
+    "type": "judge",
+    "text": "Let me tell you other reason I need to borrow some money.",
+    "answer": "wrong",
+    "why": "One more reason → another reason.",
+    "fix": "Let me tell you another reason I need to borrow some money.",
+    "rule": "8-6"
+   },
+   {
+    "type": "judge",
+    "text": "These vegetables are fresh. The others have been frozen.",
+    "answer": "correct",
+    "why": "The others = all the rest.",
+    "rule": "8-6"
+   },
+   {
+    "type": "judge",
+    "text": "Michael and Reina would rather work with each other on the various projects.",
+    "answer": "correct",
+    "why": "each other = both ways.",
+    "rule": "8-7"
+   },
+   {
+    "type": "judge",
+    "text": "I'd prefer that you don't tell anyone. In another words, I would like to keep this secret.",
+    "answer": "wrong",
+    "why": "The expression is In other words.",
+    "fix": "I'd prefer that you don't tell anyone. In other words, I would like to keep this secret.",
+    "rule": "8-7"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "8-1",
+   "tag": "8-1",
+   "t": "pres",
+   "title": "I, me, my, mine",
+   "full": "Pronouns and Possessive Adjectives",
+   "lesson": {
+    "title": "Learn: the pronoun family",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A pronoun stands in for a noun",
+      "lines": [
+       "It points back to a noun you already said."
+      ],
+      "visual": [
+       "pronouns"
+      ],
+      "examples": [
+       {
+        "text": "I read a book. It was good.",
+        "hl": [
+         [
+          "It",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "I read some books. They were good.",
+        "hl": [
+         [
+          "They",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Before the verb, or after?",
+      "left": {
+       "label": "Subject: does the action",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "John has a car. He drives to work.",
+         "hl": [
+          [
+           "He",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Object: after a verb or preposition",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Bill works in my office. I know him well.",
+         "hl": [
+          [
+           "him",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Will you talk to Bill and me about it?",
+         "hl": [
+          [
+           "me",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Test: take out the other person. “talk to I” ❌ → “talk to me” ✅ → talk to Bill and me."
+     },
+     {
+      "type": "choice",
+      "text": "Just between you and ___, I think Sam is in danger of losing his job.",
+      "options": [
+       "I",
+       "me"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After a preposition (between) → object: me."
+     },
+     {
+      "type": "compare",
+      "title": "my book vs. mine",
+      "left": {
+       "label": "Possessive adjective + noun",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Her book is here.",
+         "hl": [
+          [
+           "Her",
+           "plan"
+          ]
+         ]
+        },
+        {
+         "text": "Your book is over there.",
+         "hl": [
+          [
+           "Your",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Possessive pronoun: stands alone",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "That book is hers.",
+         "hl": [
+          [
+           "hers",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Yours is over there.",
+         "hl": [
+          [
+           "Yours",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "No apostrophes: hers, yours, ours, theirs. ❌ your's"
+     },
+     {
+      "type": "choice",
+      "text": "This is my umbrella. ___ is in the box.",
+      "options": [
+       "Your",
+       "Yours"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It stands alone (no noun) → Yours."
+     },
+     {
+      "type": "learn",
+      "title": "its or it's?",
+      "lines": [
+       "its = belongs to it. No apostrophe.",
+       "it's = it is / it has."
+      ],
+      "chips": [
+       "A bird uses its wings to fly.",
+       "It's cold today. (it is)",
+       "It's been in business since 1933. (it has)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Beautiful horse. What's ___ name?",
+      "options": [
+       "its",
+       "it's"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The name belongs to it → its."
+     },
+     {
+      "type": "learn",
+      "title": "Don't drop the object",
+      "lines": [
+       "English needs it / them after like, enjoy, see…"
+      ],
+      "chips": [
+       "✅ I like tea. Do you like it too?",
+       "❌ Do you like too?",
+       "✅ Yes, I do."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Subject: I, he, she, we, they. Object: me, him, her, us, them.",
+     "my + noun / mine alone. its = belonging. it's = it is."
+    ],
+    "timeline": [
+     "pronouns"
+    ],
+    "examples": [
+     {
+      "text": "Will you talk to Bill and me about it?",
+      "hl": [
+       [
+        "me",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "That book is hers. Yours is over there.",
+      "hl": [
+       [
+        "hers",
+        "plan"
+       ],
+       [
+        "Yours",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "A bird uses its wings to fly.",
+      "hl": [
+       [
+        "its",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Remotes and a party",
+     "icon": "🎉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I just finished cleaning. Look at all these remotes.",
+       "options": [
+        "Subject",
+        "Object"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I does the action → subject.",
+       "ask": "The pronoun I is…"
+      },
+      {
+       "type": "choice",
+       "text": "That's because the kids never put THEM away.",
+       "options": [
+        "Subject",
+        "Object"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After the verb put → object.",
+       "ask": "The pronoun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "What about this one? Do we ever use IT?",
+       "options": [
+        "Subject",
+        "Object"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After the verb use → object.",
+       "ask": "The pronoun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "THEY were everywhere.",
+       "options": [
+        "Subject",
+        "Object"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before the verb were → subject.",
+       "ask": "The pronoun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Let me introduce you to my parents. I've wanted to introduce you to ___ for some time.",
+       "options": [
+        "they",
+        "them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After a preposition (to) → them."
+      },
+      {
+       "type": "choice",
+       "text": "There's Rachel. I need to tell both you and ___ something.",
+       "options": [
+        "she",
+        "her"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Object of tell → her."
+      },
+      {
+       "type": "choice",
+       "text": "Just between you and ___, I think Sam is in danger of losing his job.",
+       "options": [
+        "I",
+        "me"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After between → me."
+      },
+      {
+       "type": "choice",
+       "text": "___ are good friends.",
+       "options": [
+        "Me and Ella",
+        "Ella and I"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Subject → I. The other person comes first."
+      },
+      {
+       "type": "choice",
+       "text": "I'm going to tell you and ___ exactly what happened.",
+       "options": [
+        "she",
+        "her"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Object of tell → her."
+      },
+      {
+       "type": "choice",
+       "text": "Do you want to come with my brother and ___?",
+       "options": [
+        "I",
+        "me"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After with → me."
+      }
+     ]
+    },
+    {
+     "title": "There's Sarah",
+     "icon": "👩",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I need to go talk to ___.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After to → object: her.",
+       "ctx": "There's Sarah."
+      },
+      {
+       "type": "choice",
+       "text": "___ and I have been friends since high school.",
+       "options": [
+        "She",
+        "Her",
+        "Hers"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Subject → She."
+      },
+      {
+       "type": "choice",
+       "text": "I went to elementary school with ___ brother.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → her brother."
+      },
+      {
+       "type": "choice",
+       "text": "I went to elementary school with her brother and ___.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After with → object: her."
+      },
+      {
+       "type": "choice",
+       "text": "___ parents are best friends with my parents.",
+       "options": [
+        "She",
+        "Her",
+        "Hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → Her parents."
+      },
+      {
+       "type": "choice",
+       "text": "___ is getting married next month.",
+       "options": [
+        "She",
+        "Her",
+        "Hers"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Subject → She."
+      },
+      {
+       "type": "choice",
+       "text": "Another friend and I are taking ___ on a short trip.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Object of taking → her."
+      },
+      {
+       "type": "choice",
+       "text": "We're going before ___ wedding.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → her wedding."
+      },
+      {
+       "type": "choice",
+       "text": "Being with ___ is a lot of fun. We laugh a lot.",
+       "options": [
+        "she",
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After with → her."
+      }
+     ]
+    },
+    {
+     "title": "At the lost-and-found",
+     "icon": "☂️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "No, ___ umbrella is black.",
+       "options": [
+        "my",
+        "mine"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → my."
+      },
+      {
+       "type": "choice",
+       "text": "That isn't ___.",
+       "options": [
+        "my",
+        "mine"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → mine."
+      },
+      {
+       "type": "choice",
+       "text": "Are these Mom's keys? The key ring looks like ___.",
+       "options": [
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → hers."
+      },
+      {
+       "type": "choice",
+       "text": "I've lost my wallet. It's red and has a hole in ___.",
+       "options": [
+        "it",
+        "its"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After in → object: it."
+      },
+      {
+       "type": "choice",
+       "text": "___ house is almost the same as our neighbor's house.",
+       "options": [
+        "Our",
+        "Ours"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → Our."
+      },
+      {
+       "type": "choice",
+       "text": "The only difference is that ___ is gray.",
+       "options": [
+        "our",
+        "ours"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → ours."
+      },
+      {
+       "type": "choice",
+       "text": "And ___ is beige.",
+       "options": [
+        "their",
+        "theirs"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → theirs."
+      },
+      {
+       "type": "choice",
+       "text": "This is my umbrella. ___ is in the box.",
+       "options": [
+        "Your",
+        "Yours"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → Yours."
+      }
+     ]
+    },
+    {
+     "title": "In the neighborhood",
+     "icon": "🏡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Lisa and Michael each have ___ own vegetable garden.",
+       "options": [
+        "our",
+        "their"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Lisa and Michael = they → their."
+      },
+      {
+       "type": "choice",
+       "text": "Lisa grows tomatoes and peas in ___.",
+       "options": [
+        "her",
+        "hers"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It stands alone → hers."
+      },
+      {
+       "type": "choice",
+       "text": "And Michael grows potatoes and carrots in ___.",
+       "options": [
+        "his",
+        "its"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Michael's garden → his."
+      },
+      {
+       "type": "choice",
+       "text": "We have fruit trees in ___ yard.",
+       "options": [
+        "our",
+        "ours"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → our."
+      },
+      {
+       "type": "choice",
+       "text": "___ produce a lot of apples in the fall.",
+       "options": [
+        "It",
+        "They"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "trees (plural) → They."
+      },
+      {
+       "type": "choice",
+       "text": "We pick ___ in September.",
+       "options": [
+        "it",
+        "them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "apples (plural) → them."
+      },
+      {
+       "type": "choice",
+       "text": "We make juice from ___.",
+       "options": [
+        "it",
+        "them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the apples (plural) → them."
+      },
+      {
+       "type": "choice",
+       "text": "There are no crosswalks on ___ streets.",
+       "options": [
+        "our",
+        "ours"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → our."
+      },
+      {
+       "type": "choice",
+       "text": "Some parents walk with ___ to the bus stop.",
+       "options": [
+        "they",
+        "them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After with → them."
+      }
+     ]
+    },
+    {
+     "title": "its or it's?",
+     "icon": "🐴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Beautiful horse. What's ___ name?",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The name belongs to it → its."
+      },
+      {
+       "type": "choice",
+       "text": "Thunder? Is that because ___ noisy?",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it is noisy → it's."
+      },
+      {
+       "type": "choice",
+       "text": "No, ___ named after its father.",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it is named → it's."
+      },
+      {
+       "type": "choice",
+       "text": "It's named after ___ father, whose name was Lightning.",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The father belongs to it → its."
+      },
+      {
+       "type": "choice",
+       "text": "___ very calm.",
+       "options": [
+        "Its",
+        "It's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is calm → It's."
+      },
+      {
+       "type": "choice",
+       "text": "No, not this horse! ___ anything but calm.",
+       "options": [
+        "Its",
+        "It's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is → It's."
+      },
+      {
+       "type": "choice",
+       "text": "The anhinga dives into the water and spears ___ prey.",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The prey belongs to it → its."
+      },
+      {
+       "type": "choice",
+       "text": "It spears its prey on ___ long, sharp bill.",
+       "options": [
+        "its",
+        "it's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The bill belongs to it → its."
+      },
+      {
+       "type": "choice",
+       "text": "It tosses the fish into the air and swallows ___ headfirst.",
+       "options": [
+        "it",
+        "its"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Object of swallows → it."
+      },
+      {
+       "type": "choice",
+       "text": "___ interesting to watch these birds in action.",
+       "options": [
+        "Its",
+        "It's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is interesting → It's."
+      }
+     ]
+    },
+    {
+     "title": "Don't drop it",
+     "icon": "✔️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Do you like living here?",
+       "options": [
+        "Yes, I like it a lot.",
+        "Yes, I like a lot.",
+        "Yes, I do."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "like needs an object (it), or use I do.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "Are you enjoying your new job?",
+       "options": [
+        "Yes, I'm enjoying.",
+        "Yes, I am.",
+        "Yes, I'm enjoying it."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "enjoy needs an object: enjoying it.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "Nice car! Is it new?",
+       "options": [
+        "Yes, I just got it.",
+        "Yes, I just got.",
+        "Yes, it is."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "got needs an object: got it.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "I haven't seen your girlfriend lately.",
+       "options": [
+        "Unfortunately, I haven't seen either.",
+        "Unfortunately, I haven't either.",
+        "Unfortunately, I haven't seen her either."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "seen needs an object: seen her.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "Have you met the new neighbors?",
+       "options": [
+        "Yes, I have. They seem nice.",
+        "Yes, I have met them. They seem nice.",
+        "Yes, I have met. They seem nice."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "met needs an object: met them.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "There's Joe over there. You know him, don't you?",
+       "options": [
+        "Sure, I know him.",
+        "Sure, I know.",
+        "Sure I do."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "know him, or the short answer I do.",
+       "ask": "Tick the correct answers"
+      },
+      {
+       "type": "choice",
+       "text": "My friends and ___ were planning to volunteer today.",
+       "options": [
+        "I",
+        "me",
+        "my"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Subject → I.",
+       "ctx": "I'm not feeling well."
+      },
+      {
+       "type": "choice",
+       "text": "The food bank often asks my friends and ___ to help.",
+       "options": [
+        "I",
+        "me",
+        "mine"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Object of asks → me."
+      },
+      {
+       "type": "choice",
+       "text": "But my friends will have to go without ___.",
+       "options": [
+        "I",
+        "me",
+        "my"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After without → me."
+      },
+      {
+       "type": "choice",
+       "text": "Could I use your cell phone? I forgot ___.",
+       "options": [
+        "my",
+        "me",
+        "mine"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "It stands alone → mine."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Whose is it?",
+     "task": "Lost-and-found role-play: “Is this your phone?” “No, mine has a blue case.”",
+     "claudePrompt": "You are my English speaking partner. Role-play a lost-and-found office. Hold up one object at a time and ask 'Is this your ...?' or 'Does this belong to your friend?'. I answer with possessive pronouns and adjectives (No, mine is black. / I think it's hers. / Their umbrella is bigger.). Check my use of my/mine, your/yours, her/hers, our/ours, their/theirs and its/it's."
+    }
+   ]
+  },
+  {
+   "id": "8-2",
+   "tag": "8-2",
+   "t": "plan",
+   "title": "A student… he, she, they?",
+   "full": "Agreement with Generic Nouns and Indefinite Pronouns",
+   "lesson": {
+    "title": "Learn: pronouns for “anyone”",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A student = any student",
+      "lines": [
+       "Which pronoun? You don't know if it's he or she."
+      ],
+      "chips": [
+       "A student needs to complete his assignments.",
+       "…his or her assignments.",
+       "…her assignments."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The easy fix: make it plural",
+      "lines": [
+       "Plural nouns take they / their. Problem solved."
+      ],
+      "chips": [
+       "Students need to complete their assignments on time."
+      ],
+      "examples": [
+       {
+        "text": "Drivers need to put on their seat belts as soon as they get in their cars.",
+        "hl": [
+         [
+          "Drivers",
+          "pres"
+         ],
+         [
+          "their",
+          "plan"
+         ],
+         [
+          "they",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ need to put on their seat belts.",
+      "options": [
+       "A driver",
+       "Drivers"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "their → plural noun: Drivers."
+     },
+     {
+      "type": "learn",
+      "title": "everyone, somebody, no one…",
+      "lines": [
+       "They take a singular verb."
+      ],
+      "chips": [
+       "everyone",
+       "everybody",
+       "someone",
+       "somebody",
+       "anyone",
+       "anybody",
+       "no one",
+       "nobody"
+      ],
+      "examples": [
+       {
+        "text": "Everyone has his or her own ideas.",
+        "hl": [
+         [
+          "has",
+          "pres"
+         ],
+         [
+          "his or her",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Formal or everyday?",
+      "left": {
+       "label": "Formal: his or her",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Somebody left his book on the desk.",
+         "hl": [
+          [
+           "his",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Everyone has his or her own ideas.",
+         "hl": [
+          [
+           "his or her",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Everyday: their",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Somebody left their book on the desk.",
+         "hl": [
+          [
+           "their",
+           "plan"
+          ]
+         ]
+        },
+        {
+         "text": "Everyone has their own ideas.",
+         "hl": [
+          [
+           "their",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "In conversation, their is normal. In formal writing, use his or her, or a plural noun."
+     },
+     {
+      "type": "choice",
+      "text": "One classmate to another: Look. Somebody left ___ book on my desk.",
+      "options": [
+       "their",
+       "its"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Everyday speech → their."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A student… his or her (formal). Easier: Students… their.",
+     "everyone / somebody + singular verb. Everyday speech: their."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "Students need to complete their assignments on time.",
+      "hl": [
+       [
+        "their",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Everyone has their own ideas.",
+      "hl": [
+       [
+        "their",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Make it plural",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You are writing an article about seat belts. Which sentence is the smoothest?",
+       "options": [
+        "A driver needs to put on his or her seat belt as soon as he or she gets in his or her car.",
+        "Drivers need to put on their seat belts as soon as they get in their cars."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Plural avoids “his or her” again and again."
+      },
+      {
+       "type": "choice",
+       "text": "When a student wants to study, he or she should find a quiet place.",
+       "options": [
+        "When students want to study, they should find a quiet place.",
+        "When students wants to study, he should find a quiet place."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Plural noun + they.",
+       "ask": "Choose the plural version"
+      },
+      {
+       "type": "choice",
+       "text": "I talked to a student in my chemistry class. I asked to borrow her notes.",
+       "options": [
+        "Change it to plural.",
+        "No change. It is one real student."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A real person we know → no change.",
+       "ask": "Change to plural?"
+      },
+      {
+       "type": "choice",
+       "text": "Each student has to spend three hours in the laboratory, where he or she does experiments with his or her lab partners.",
+       "options": [
+        "All students have to spend three hours in the laboratory, where they do experiments with their lab partners.",
+        "All students has to spend three hours in the laboratory, where they does experiments with his lab partners."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "students have … they do … their.",
+       "ask": "Choose the plural version"
+      },
+      {
+       "type": "choice",
+       "text": "The guest speaker discussed her experiences as a judge.",
+       "options": [
+        "Change it to plural.",
+        "No change. It is one real speaker."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A real person we know → no change.",
+       "ask": "Change to plural?"
+      },
+      {
+       "type": "choice",
+       "text": "A citizen has two responsibilities. He should vote, and he should serve on juries.",
+       "options": [
+        "Citizens have two responsibilities. They should vote, and they should serve on juries.",
+        "Citizens has two responsibilities. He should vote, and they should serve on juries."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Citizens have … They should.",
+       "ask": "Choose the plural version"
+      }
+     ]
+    },
+    {
+     "title": "Formal or everyday?",
+     "icon": "🎩",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Somebody left his book on the desk.",
+       "options": [
+        "Formal",
+        "Informal (everyday)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Singular his → formal.",
+       "ask": "How does it sound?"
+      },
+      {
+       "type": "choice",
+       "text": "Somebody left their book on the desk.",
+       "options": [
+        "Formal",
+        "Informal (everyday)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "their for one person → everyday.",
+       "ask": "How does it sound?"
+      },
+      {
+       "type": "choice",
+       "text": "Everyone has his or her own ideas.",
+       "options": [
+        "Formal",
+        "Informal (everyday)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "his or her → formal.",
+       "ask": "How does it sound?"
+      },
+      {
+       "type": "choice",
+       "text": "Everyone has their own ideas.",
+       "options": [
+        "Formal",
+        "Informal (everyday)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "their → everyday.",
+       "ask": "How does it sound?"
+      },
+      {
+       "type": "choice",
+       "text": "Everyone ___ their own ideas.",
+       "options": [
+        "has",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "everyone → singular verb: has."
+      },
+      {
+       "type": "choice",
+       "text": "Students need to complete ___ assignments on time.",
+       "options": [
+        "his",
+        "their"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Students (plural) → their."
+      },
+      {
+       "type": "choice",
+       "text": "Nobody ___ the answer.",
+       "options": [
+        "knows",
+        "know"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "nobody → singular verb: knows."
+      }
+     ]
+    },
+    {
+     "title": "Who is speaking?",
+     "icon": "🗣️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Of course you can learn to dance! Anyone can learn how to dance if ___ to.",
+       "options": [
+        "they want",
+        "it wants"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Friends talking → they want.",
+       "ctx": "One friend to another"
+      },
+      {
+       "type": "choice",
+       "text": "An effective manager must be able to motivate ___ employees.",
+       "options": [
+        "his or her",
+        "its"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Formal writing → his or her.",
+       "ctx": "A business textbook"
+      },
+      {
+       "type": "choice",
+       "text": "If anyone asks where I am, tell ___ you don't know.",
+       "options": [
+        "them",
+        "it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Everyday speech → them.",
+       "ctx": "One roommate to another"
+      },
+      {
+       "type": "choice",
+       "text": "Gosh, Mom, everyone was supposed to bring ___ own food.",
+       "options": [
+        "their",
+        "its"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Everyday speech → their.",
+       "ctx": "A son to his mother"
+      },
+      {
+       "type": "choice",
+       "text": "I believe a teacher needs to work in partnership with ___ students.",
+       "options": [
+        "his or her",
+        "your"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Formal lecture → his or her.",
+       "ctx": "A university lecture"
+      },
+      {
+       "type": "choice",
+       "text": "Each person has ___ own way of understanding a situation.",
+       "options": [
+        "his or her",
+        "our"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Formal writing → his or her.",
+       "ctx": "A magazine article"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8-3",
+   "tag": "8-3",
+   "t": "pres",
+   "title": "The team: it or they?",
+   "full": "Personal Pronouns: Agreement with Collective Nouns",
+   "lesson": {
+    "title": "Learn: it or they for groups",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "compare",
+      "title": "One unit, or people?",
+      "left": {
+       "label": "One unit: it",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "My family is large. It is composed of nine members.",
+         "hl": [
+          [
+           "It",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "The people: they / them",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "My family is loving. They are always ready to help me. I love them very much.",
+         "hl": [
+          [
+           "They",
+           "prog"
+          ],
+          [
+           "them",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Size, numbers, rules → it. Feelings and actions of people → they."
+     },
+     {
+      "type": "learn",
+      "title": "Group words",
+      "lines": [
+       "family, team, class, jury, crowd, committee, faculty."
+      ],
+      "chips": [
+       "The crowd was huge. It exceeded 100,000 people.",
+       "The crowd got excited. They began to shout."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "A basketball team is small. ___ doesn't have many members.",
+      "options": [
+       "It",
+       "They"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The team as one unit (size) → It."
+     },
+     {
+      "type": "choice",
+      "text": "When the team won, ___ ran to the player who had scored.",
+      "options": [
+       "it",
+       "they"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The players, acting → they."
+     },
+     {
+      "type": "learn",
+      "title": "Sometimes both are fine",
+      "lines": [
+       "It's a matter of how you see the group."
+      ],
+      "chips": [
+       "The committee meets once a month. It doesn't have much business.",
+       "…They don't have much business."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "The group as one unit → it. The people in the group → they / them.",
+     "Sometimes both are possible."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "My family is large. It is composed of nine members.",
+      "hl": [
+       [
+        "It",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "My family is loving. They are always ready to help me.",
+      "hl": [
+       [
+        "They",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Whole group or members?",
+     "icon": "👨‍👩‍👧‍👦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I have a wonderful family. I love THEM very much.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You love the people → them.",
+       "ask": "The pronoun in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "I read about the average American family. IT consists of 2.3 children.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A fact about the unit → it.",
+       "ask": "The pronoun in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "The crowd at the soccer game was huge. IT exceeded 100,000 people.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The size of the unit → it.",
+       "ask": "The pronoun in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "The crowd became excited. THEY began to shout and wave flags.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People shout and wave → they.",
+       "ask": "The pronoun in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "When the soccer team won, THEY lifted the player on their shoulders.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Players have shoulders → they.",
+       "ask": "The pronoun in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "A basketball team is relatively small. IT doesn't have many members.",
+       "options": [
+        "The group as one thing",
+        "The people in it"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The size of the unit → it.",
+       "ask": "The pronoun in CAPITALS means…"
+      }
+     ]
+    },
+    {
+     "title": "Jury, class, faculty",
+     "icon": "⚖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A jury has a great deal of power. ___ decides a person's guilt or innocence.",
+       "options": [
+        "It",
+        "They"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The jury as one unit → It."
+      },
+      {
+       "type": "choice",
+       "text": "The jury looked very serious when ___ came back into the courtroom.",
+       "options": [
+        "it",
+        "they"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The people walking in → they."
+      },
+      {
+       "type": "choice",
+       "text": "___ did not make eye contact with the defendant.",
+       "options": [
+        "It",
+        "They"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People make eye contact → They."
+      },
+      {
+       "type": "choice",
+       "text": "The class is planning a party. ___ going to bring many kinds of food.",
+       "options": [
+        "It is",
+        "They are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The students bring food → They are."
+      },
+      {
+       "type": "choice",
+       "text": "They will invite some of their friends to celebrate with ___.",
+       "options": [
+        "it",
+        "them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "With the students → them."
+      },
+      {
+       "type": "choice",
+       "text": "The class is too small. ___ eight students.",
+       "options": [
+        "It only has",
+        "They only have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The size of the unit → It has."
+      },
+      {
+       "type": "choice",
+       "text": "The faculty wants a bigger lunch room. ___ around one small table.",
+       "options": [
+        "It sits",
+        "They sit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The teachers sit → They sit."
+      },
+      {
+       "type": "choice",
+       "text": "The faculty has a weekly meeting. ___ ongoing changes to the curriculum.",
+       "options": [
+        "It makes",
+        "They makes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The faculty as one unit → It makes."
+      }
+     ]
+    },
+    {
+     "title": "Where's Kim? (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I don't know. I haven't seen her this morning.",
+       "ask": "What did you hear?",
+       "options": [
+        "seen her",
+        "seen him",
+        "seen them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In fast speech, her sounds like “er”."
+      },
+      {
+       "type": "listen",
+       "say": "I think she's in the restroom.",
+       "ask": "What did you hear?",
+       "options": [
+        "he's",
+        "she's",
+        "it's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "she's = she is."
+      },
+      {
+       "type": "listen",
+       "say": "Ask her assistant. He'll know.",
+       "ask": "What did you hear?",
+       "options": [
+        "Ask our assistant",
+        "Ask her assistant",
+        "Ask their assistant"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "her assistant = Kim's assistant."
+      },
+      {
+       "type": "listen",
+       "say": "Have you tried looking in her office?",
+       "ask": "What did you hear?",
+       "options": [
+        "in her office",
+        "in his office",
+        "in the office"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "her office = Kim's office."
+      },
+      {
+       "type": "listen",
+       "say": "Does she like motorcycles that much?",
+       "ask": "What did you hear?",
+       "options": [
+        "Does he like",
+        "Do they like",
+        "Does she like"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Does she: the daughter."
+      },
+      {
+       "type": "listen",
+       "say": "That's what the Smiths gave their son.",
+       "ask": "What did you hear?",
+       "options": [
+        "her son",
+        "their son",
+        "the son"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the Smiths = they → their."
+      },
+      {
+       "type": "listen",
+       "say": "I think he's already had an accident.",
+       "ask": "What did you hear?",
+       "options": [
+        "he's",
+        "she's",
+        "they've"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "he's = he has (already had)."
+      },
+      {
+       "type": "listen",
+       "say": "I think it's a wonderful gift! I've had mine for years.",
+       "ask": "What did you hear?",
+       "options": [
+        "I've had mine",
+        "I've had my",
+        "I've had me"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "mine stands alone = my motorcycle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8-4",
+   "tag": "8-4",
+   "t": "state",
+   "title": "Myself, yourself",
+   "full": "Reflexive Pronouns",
+   "lesson": {
+    "title": "Learn: -self pronouns",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Same person twice? Use -self",
+      "lines": [
+       "Subject and object are the same person."
+      ],
+      "visual": [
+       "reflexive"
+      ],
+      "examples": [
+       {
+        "text": "I saw myself in the mirror.",
+        "hl": [
+         [
+          "myself",
+          "state"
+         ]
+        ]
+       },
+       {
+        "text": "Larry was in the theater. I saw him.",
+        "hl": [
+         [
+          "him",
+          "prog"
+         ]
+        ]
+       }
+      ],
+      "tip": "❌ I saw me in the mirror."
+     },
+     {
+      "type": "learn",
+      "title": "The whole set",
+      "lines": [
+       "One person: -self. More than one: -selves."
+      ],
+      "chips": [
+       "I → myself",
+       "you → yourself",
+       "he → himself",
+       "she → herself",
+       "it → itself",
+       "we → ourselves",
+       "you (all) → yourselves",
+       "they → themselves",
+       "one → oneself"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The children took pictures of ___.",
+      "options": [
+       "theirselves",
+       "themselves",
+       "themself"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "they → themselves."
+     },
+     {
+      "type": "learn",
+      "title": "For extra strength",
+      "lines": [
+       "-self can also mean “me, and nobody else”."
+      ],
+      "chips": [
+       "I myself emailed the report.",
+       "I emailed the report myself."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "by myself = alone",
+      "lines": [
+       "by + -self means alone, without help."
+      ],
+      "chips": [
+       "Anna lives by herself.",
+       "I did it by myself."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Mr. and Mrs. Grayson live by ___. They're very independent.",
+      "options": [
+       "theirselves",
+       "themselves"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "by themselves = alone."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Subject = object → myself, yourself, himself, herself, ourselves, themselves.",
+     "by myself = alone. I myself = me, nobody else."
+    ],
+    "timeline": [
+     "reflexive"
+    ],
+    "examples": [
+     {
+      "text": "I saw myself in the mirror.",
+      "hl": [
+       [
+        "myself",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Anna lives by herself.",
+      "hl": [
+       [
+        "by herself",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I emailed the report myself.",
+      "hl": [
+       [
+        "myself",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Selfies",
+     "icon": "🤳",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The basketball coach told the players to believe in ___.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "the players = they → themselves."
+      },
+      {
+       "type": "fill",
+       "text": "After the team captain won, the coach told her to be proud of ___.",
+       "verb": "-self",
+       "accept": [
+        "herself"
+       ],
+       "why": "her → herself."
+      },
+      {
+       "type": "fill",
+       "text": "The coach is 60 and proud of ___ for staying in good shape.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "He → himself."
+      },
+      {
+       "type": "fill",
+       "text": "Rosa took a picture of ___.",
+       "verb": "-self",
+       "accept": [
+        "herself"
+       ],
+       "why": "Rosa = she → herself."
+      },
+      {
+       "type": "fill",
+       "text": "Yusef took a picture of ___.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "Yusef = he → himself."
+      },
+      {
+       "type": "fill",
+       "text": "The children took pictures of ___.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "they → themselves."
+      },
+      {
+       "type": "fill",
+       "text": "We took a picture of ___.",
+       "verb": "-self",
+       "accept": [
+        "ourselves"
+       ],
+       "why": "we → ourselves."
+      },
+      {
+       "type": "fill",
+       "text": "Olga, you took a picture of ___, didn't you?",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "you (one person) → yourself."
+      },
+      {
+       "type": "fill",
+       "text": "All of you took pictures of ___, didn't you?",
+       "verb": "-self",
+       "accept": [
+        "yourselves"
+       ],
+       "why": "you (many people) → yourselves."
+      },
+      {
+       "type": "fill",
+       "text": "When one takes a picture of ___, it is called a selfie.",
+       "verb": "-self",
+       "accept": [
+        "oneself"
+       ],
+       "why": "one → oneself."
+      }
+     ]
+    },
+    {
+     "title": "Conversations",
+     "icon": "💬",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Tommy told a lie. He was ashamed of ___.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "He → himself."
+      },
+      {
+       "type": "fill",
+       "text": "William cut ___ badly while he was chopping down a tree.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "William = he → himself."
+      },
+      {
+       "type": "fill",
+       "text": "My mom did that once after she accidentally cut ___ with a knife.",
+       "verb": "-self",
+       "accept": [
+        "herself"
+       ],
+       "why": "she → herself."
+      },
+      {
+       "type": "fill",
+       "text": "Employees at your company voted to give ___ raises.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "Employees = they → themselves."
+      },
+      {
+       "type": "fill",
+       "text": "But I wanted vacation time. I ___ voted for that.",
+       "verb": "-self",
+       "accept": [
+        "myself"
+       ],
+       "why": "I myself = me, for emphasis."
+      },
+      {
+       "type": "fill",
+       "text": "Mr. and Mrs. Grayson live by ___.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "by themselves = alone."
+      },
+      {
+       "type": "fill",
+       "text": "Only you ___ can make such an important decision, Ann.",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "you yourself = you, nobody else."
+      },
+      {
+       "type": "fill",
+       "text": "Jacob is self-employed. He loves working for ___.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "He → himself."
+      },
+      {
+       "type": "fill",
+       "text": "Yeah. I'd like to work for ___ too.",
+       "verb": "-self",
+       "accept": [
+        "myself"
+       ],
+       "why": "I → myself."
+      }
+     ]
+    },
+    {
+     "title": "Mom's speech and power stances",
+     "icon": "💪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Jason, you should take better care of ___.",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "you (Jason) → yourself."
+      },
+      {
+       "type": "fill",
+       "text": "Your dad takes care of ___.",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "Your dad = he → himself."
+      },
+      {
+       "type": "fill",
+       "text": "And I take care of ___.",
+       "verb": "-self",
+       "accept": [
+        "myself"
+       ],
+       "why": "I → myself."
+      },
+      {
+       "type": "fill",
+       "text": "Your dad and I are healthy because we take good care of ___.",
+       "verb": "-self",
+       "accept": [
+        "ourselves"
+       ],
+       "why": "we → ourselves."
+      },
+      {
+       "type": "fill",
+       "text": "People who take care of ___ have a better chance of staying healthy.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "People = they → themselves."
+      },
+      {
+       "type": "choice",
+       "text": "Body language also affects the way we see OURSELVES.",
+       "options": [
+        "we",
+        "other people",
+        "body language"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ourselves points back to we.",
+       "ask": "Who does the -self word point to?"
+      },
+      {
+       "type": "choice",
+       "text": "When people feel weak, they may close their arms around THEMSELVES.",
+       "options": [
+        "their arms",
+        "people / they",
+        "space"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "themselves points back to they.",
+       "ask": "Who does the -self word point to?"
+      },
+      {
+       "type": "choice",
+       "text": "People send the message that they have confidence in THEMSELVES.",
+       "options": [
+        "the message",
+        "these postures",
+        "people / they"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "themselves points back to people.",
+       "ask": "Who does the -self word point to?"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ in the mirror.",
+       "options": [
+        "saw me",
+        "saw myself"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Same person → myself."
+      },
+      {
+       "type": "choice",
+       "text": "Anna lives by herself. She lives ___.",
+       "options": [
+        "alone",
+        "with her family"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "by herself = alone."
+      }
+     ]
+    },
+    {
+     "title": "Verb + -self",
+     "icon": "🎹",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Karen never took piano lessons. She taught ___ how to play.",
+       "verb": "-self",
+       "accept": [
+        "herself"
+       ],
+       "why": "She → herself."
+      },
+      {
+       "type": "fill",
+       "text": "Did Roberto have a good time at the party? Did he enjoy ___?",
+       "verb": "-self",
+       "accept": [
+        "himself"
+       ],
+       "why": "he → himself."
+      },
+      {
+       "type": "fill",
+       "text": "All of you did a good job. You should be proud of ___.",
+       "verb": "-self",
+       "accept": [
+        "yourselves"
+       ],
+       "why": "All of you (many) → yourselves."
+      },
+      {
+       "type": "fill",
+       "text": "You did a good job, Barbara. You should pat ___ on the back.",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "You (one person) → yourself."
+      },
+      {
+       "type": "fill",
+       "text": "The children played well without adults. They entertained ___ by playing school.",
+       "verb": "-self",
+       "accept": [
+        "themselves"
+       ],
+       "why": "They → themselves."
+      },
+      {
+       "type": "fill",
+       "text": "When I saw Hong Tran at a party, I walked over and introduced ___ to her.",
+       "verb": "-self",
+       "accept": [
+        "myself"
+       ],
+       "why": "I → myself."
+      },
+      {
+       "type": "fill",
+       "text": "You should stop feeling sorry for ___, George, and start doing something.",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "you (George) → yourself."
+      },
+      {
+       "type": "fill",
+       "text": "People might think you're a little crazy, but talking to ___ is one way to practice English.",
+       "verb": "-self",
+       "accept": [
+        "yourself"
+       ],
+       "why": "you (anyone) → yourself."
+      },
+      {
+       "type": "fill",
+       "text": "Sometimes we have to be able to laugh at ___.",
+       "verb": "-self",
+       "accept": [
+        "ourselves"
+       ],
+       "why": "we → ourselves."
+      },
+      {
+       "type": "fill",
+       "text": "Carol has promised ___ to do better work in the future.",
+       "verb": "-self",
+       "accept": [
+        "herself"
+       ],
+       "why": "Carol = she → herself."
+      }
+     ]
+    },
+    {
+     "title": "Finish it (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "We wanted to save money, so we painted our apartment…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "myself",
+        "ourselves",
+        "yourselves"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "we → ourselves."
+      },
+      {
+       "type": "listen",
+       "say": "Fred's car ran out of gas. He is still angry at…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "himself",
+        "itself",
+        "yourself"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "He → himself."
+      },
+      {
+       "type": "listen",
+       "say": "Be careful with that knife! You're going to cut…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "yourself",
+        "myself",
+        "ourselves"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "You → yourself."
+      },
+      {
+       "type": "listen",
+       "say": "I burned my hand. I didn't ask for help. I took care of it…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "ourselves",
+        "themselves",
+        "myself"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "I → myself."
+      },
+      {
+       "type": "listen",
+       "say": "My sister doesn't need a teacher. She is teaching…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "themselves",
+        "himself",
+        "herself"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "She → herself."
+      },
+      {
+       "type": "listen",
+       "say": "The kids made dinner without any help. They did it all by…",
+       "ask": "Which word finishes the sentence?",
+       "options": [
+        "ourselves",
+        "yourselves",
+        "themselves"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "They → themselves."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Selfies: your opinion",
+     "task": "Is it healthy to take lots of pictures of yourself? Tell Claude what you think.",
+     "claudePrompt": "You are my English speaking partner. Give me one statement at a time about selfies and ask if I agree: 'People who take a lot of pictures of themselves like themselves too much.' / 'It's healthy to like yourself.' / 'If you need to take a lot of pictures of yourself, you need a lot of attention.' I answer with my opinion using reflexive pronouns (myself, yourself, themselves, ourselves). Check that the reflexive pronoun matches the subject."
+    },
+    {
+     "title": "Power stances",
+     "task": "How do people in your culture show they feel strong or confident? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Amy Cuddy says that high-power stances (arms up, leaning back) help people feel confident about themselves. Ask me one question at a time: Are these power stances acceptable in your culture? What do people in your culture do to show power? How do you make yourself feel confident before an exam or interview? Check my reflexive pronouns."
+    }
+   ]
+  },
+  {
+   "id": "8-5",
+   "tag": "8-5",
+   "t": "pres",
+   "title": "You = anyone",
+   "full": "Using You, One, and They as Impersonal Pronouns",
+   "lesson": {
+    "title": "Learn: you, one, they for “people”",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "you can mean everybody",
+      "lines": [
+       "You should always be polite. = People should always be polite."
+      ],
+      "chips": [
+       "How do you get to Fifth Avenue? (everyday)",
+       "How does one get to Fifth Avenue? (very formal)"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "one vs. you",
+      "left": {
+       "label": "one: formal",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "One should always be polite.",
+         "hl": [
+          [
+           "One",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "One gets what one pays for.",
+         "hl": [
+          [
+           "One",
+           "pres"
+          ],
+          [
+           "one",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "you: everyday",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "You should always be polite.",
+         "hl": [
+          [
+           "You",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "You get what you pay for.",
+         "hl": [
+          [
+           "You",
+           "prog"
+          ],
+          [
+           "you",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "In academic writing, don't use “you” for people in general."
+     },
+     {
+      "type": "learn",
+      "title": "they = some people out there",
+      "lines": [
+       "They = people in a place or company. We don't say who."
+      ],
+      "chips": [
+       "Iowa is an agricultural state. They grow a lot of corn there. (they = farmers)",
+       "They never give you enough room on airplanes. (they = airlines)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Wool requires special care. If you wash wool in hot water, it will shrink. Who is “you”?",
+      "options": [
+       "People in general",
+       "One specific person"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "It's true for anybody who washes wool."
+     },
+     {
+      "type": "learn",
+      "title": "we for rules",
+      "lines": [
+       "Parents use we to teach children rules."
+      ],
+      "chips": [
+       "Tommy, we do not chew with our mouths open."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Alex, I told you not to wash your sweater in hot water! Who is “you”?",
+      "options": [
+       "People in general",
+       "One specific person"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The speaker is talking to Alex."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "you / one = anyone, people in general. one is formal.",
+     "they = people out there (farmers, airlines, the government)."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "You get what you pay for.",
+      "hl": [
+       [
+        "You",
+        "prog"
+       ],
+       [
+        "you",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "They grow a lot of corn in Iowa.",
+      "hl": [
+       [
+        "They",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Who is “you”?",
+     "icon": "🧶",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Kyung quit his job and went to art school. I think you need to follow your dreams.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Advice for everyone.",
+       "ask": "Who is “you”?"
+      },
+      {
+       "type": "choice",
+       "text": "Jake, if you really want my advice, I think you should find a new job.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The speaker is talking to Jake.",
+       "ask": "Who is “you”?"
+      },
+      {
+       "type": "choice",
+       "text": "You shouldn't throw a wool sweater into a washing machine with your cottons.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True for anybody.",
+       "ask": "Who is “you”?"
+      },
+      {
+       "type": "choice",
+       "text": "Sonya, let's make a deal. If you wash the clothes, I'll fold them.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The speaker is talking to Sonya.",
+       "ask": "Who is “you”?"
+      },
+      {
+       "type": "choice",
+       "text": "Memory is selective. They say you remember only what you want to remember.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True for all people.",
+       "ask": "Who is “you”?"
+      },
+      {
+       "type": "choice",
+       "text": "Memory is selective. THEY say you remember only what you want to remember.",
+       "options": [
+        "People in general",
+        "Two specific friends"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They say = people say.",
+       "ask": "Who is “they”?"
+      },
+      {
+       "type": "choice",
+       "text": "I dislike airplane travel. THEY never give you enough room for your legs.",
+       "options": [
+        "The airlines",
+        "My parents"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They = the airline companies.",
+       "ask": "Who is “they”?"
+      },
+      {
+       "type": "choice",
+       "text": "If the person in front of you puts his seat back, you can barely move.",
+       "options": [
+        "People in general",
+        "One specific person"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any passenger.",
+       "ask": "Who is “you”?"
+      }
+     ]
+    },
+    {
+     "title": "Sayings",
+     "icon": "🐶",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“You can't teach an old dog new tricks.”",
+       "options": [
+        "It's hard for people to change old habits.",
+        "Old dogs are dangerous."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "you = anyone. The dog = a person with old habits.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“You can't win them all.”",
+       "options": [
+        "Nobody succeeds every time.",
+        "You should never play games."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "you = anyone.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“If you want a job well done, do it yourself.”",
+       "options": [
+        "Don't trust others to do it as well as you.",
+        "Never work alone."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "you = anyone.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“You can lead a horse to water, but you can't make it drink.”",
+       "options": [
+        "You can offer help, but you can't force someone to take it.",
+        "Horses don't like water."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "you = anyone.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "___ gets what one pays for. (formal)",
+       "options": [
+        "One",
+        "You"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one … one = formal."
+      },
+      {
+       "type": "choice",
+       "text": "How ___ get to Fifth Avenue from here? (everyday)",
+       "options": [
+        "does one",
+        "do you"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Everyday English → you."
+      },
+      {
+       "type": "choice",
+       "text": "Iowa is an agricultural state. ___ grow a lot of corn there.",
+       "options": [
+        "They",
+        "It"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They = the farmers there."
+      },
+      {
+       "type": "choice",
+       "text": "Tommy, ___ do not chew with our mouths open.",
+       "options": [
+        "we",
+        "one"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Parents use we for rules."
+      }
+     ]
+    },
+    {
+     "title": "Fix the student paper",
+     "icon": "📝",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Teenagers say you can concentrate and still check social media.",
+       "options": [
+        "Teenagers say they can concentrate and still check social media.",
+        "Teenagers say one can concentrates and still check social media."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Keep the same pronoun: Teenagers … they.",
+       "ask": "Choose the academic version"
+      },
+      {
+       "type": "choice",
+       "text": "You need to learn how to initiate and engage in extended conversations.",
+       "options": [
+        "One need to learn how to initiate and engage in extended conversations.",
+        "Children need to learn how to initiate and engage in extended conversations."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Say who: Children need…",
+       "ask": "Choose the academic version"
+      },
+      {
+       "type": "choice",
+       "text": "When you don't have much human contact, you can become isolated.",
+       "options": [
+        "When they don't have much human contact, they can become isolated.",
+        "When you doesn't have much human contact, they can become isolated."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The paragraph is about children → they.",
+       "ask": "Choose the academic version"
+      },
+      {
+       "type": "choice",
+       "text": "Parents can monitor their posts, but you can't control other people's posts.",
+       "options": [
+        "Parents can monitor their posts, but they can't control other people's posts.",
+        "Parents can monitor their posts, but one can't controls other people's posts."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Parents … they.",
+       "ask": "Choose the academic version"
+      },
+      {
+       "type": "choice",
+       "text": "There's a good chance your child will see something before you even know about it.",
+       "options": [
+        "There's a good chance their children will see something before they even know about it.",
+        "There's a good chance your children will see something before one even know about it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Parents → their children … they.",
+       "ask": "Choose the academic version"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Social media: good or bad?",
+     "task": "Give Claude your opinion about social media for children and teens. Don't switch between they and you.",
+     "claudePrompt": "You are my English writing partner. Ask me to write 4-5 sentences about the advantages or disadvantages of social media for children and teenagers. Check one thing especially: I should use 'they / their' for people in general and not switch to impersonal 'you' in the middle (academic style). Show me any place where I switched."
+    }
+   ]
+  },
+  {
+   "id": "8-6",
+   "tag": "8-6",
+   "t": "pastprog",
+   "title": "Another, other, the others",
+   "full": "Forms of Other",
+   "lesson": {
+    "title": "Learn: the other family",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "another = one more",
+      "lines": [
+       "One more of many. Singular."
+      ],
+      "visual": [
+       "other-sg"
+      ],
+      "examples": [
+       {
+        "text": "One subject that interests me is math. Another is psychology.",
+        "hl": [
+         [
+          "Another",
+          "pastprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "the other = the last one",
+      "lines": [
+       "Only one is left."
+      ],
+      "chips": [
+       "two things: one … the other"
+      ],
+      "examples": [
+       {
+        "text": "I'm taking two electives. One is sociology. The other is psychology.",
+        "hl": [
+         [
+          "The other",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Look at your hands. One is your right hand. ___ is your left hand.",
+      "options": [
+       "Another",
+       "The other"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Only two hands. The last one → The other."
+     },
+     {
+      "type": "learn",
+      "title": "others = some more",
+      "lines": [
+       "Plural. Not all of the rest."
+      ],
+      "visual": [
+       "other-pl"
+      ],
+      "examples": [
+       {
+        "text": "Some movies are comedies. Others are dramas.",
+        "hl": [
+         [
+          "Others",
+          "pastprog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "the others = all the rest",
+      "lines": [
+       "Plural. Everything that is left."
+      ],
+      "chips": [
+       "some … the others (nothing else is left)"
+      ],
+      "examples": [
+       {
+        "text": "I found several movies. Some are comedies. The others are dramas.",
+        "hl": [
+         [
+          "The others",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "With a noun: no s",
+      "left": {
+       "label": "Before a noun: other",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "Other movies are dramas.",
+         "hl": [
+          [
+           "Other",
+           "pastprog"
+          ]
+         ]
+        },
+        {
+         "text": "The other movies are dramas.",
+         "hl": [
+          [
+           "The other",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Alone: others",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Others are dramas.",
+         "hl": [
+          [
+           "Others",
+           "plan"
+          ]
+         ]
+        },
+        {
+         "text": "The others are dramas.",
+         "hl": [
+          [
+           "The others",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "❌ others movies. An adjective never takes s."
+     },
+     {
+      "type": "choice",
+      "text": "Some people have red hair. ___ people have brown hair.",
+      "options": [
+       "Others",
+       "Other"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Before a noun (people) → Other, no s."
+     },
+     {
+      "type": "learn",
+      "title": "another + number",
+      "lines": [
+       "another = more, even with a plural."
+      ],
+      "chips": [
+       "another three years",
+       "another five dollars",
+       "another ten miles"
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "another = one more. the other = the last one.",
+     "others = some more. the others = all the rest. Before a noun: other (no s)."
+    ],
+    "timeline": [
+     "other-sg",
+     "other-pl"
+    ],
+    "examples": [
+     {
+      "text": "One is sociology. The other is psychology.",
+      "hl": [
+       [
+        "The other",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Some are comedies. Others are dramas.",
+      "hl": [
+       [
+        "Others",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "I need another five dollars.",
+      "hl": [
+       [
+        "another",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Fingers and phones",
+     "icon": "🖐️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You have five fingers. One is your thumb. ___ is your index finger.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "More fingers are left → Another."
+      },
+      {
+       "type": "choice",
+       "text": "___ is your middle finger.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Still more are left → Another.",
+       "ctx": "thumb, index finger, …"
+      },
+      {
+       "type": "choice",
+       "text": "___ finger is your ring finger.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of several → Another.",
+       "ctx": "thumb, index, middle, …"
+      },
+      {
+       "type": "choice",
+       "text": "And ___ finger (the last of the five) is your little finger.",
+       "options": [
+        "another",
+        "the other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The last one → the other."
+      },
+      {
+       "type": "choice",
+       "text": "Look at your hands. One is your right hand. ___ is your left hand.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only two. The last one → The other."
+      },
+      {
+       "type": "choice",
+       "text": "I have two cell phone chargers. I keep one in the car and ___ next to my bed.",
+       "options": [
+        "another",
+        "the other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two chargers. The last one → the other."
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to buy ___ one and leave it in the kitchen.",
+       "options": [
+        "another",
+        "the other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more → another."
+      },
+      {
+       "type": "choice",
+       "text": "I just got three messages. One is from my father. ___ one is from my sister.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two are left. One more → Another."
+      },
+      {
+       "type": "choice",
+       "text": "___ message is from my girlfriend.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The last of the three → The other.",
+       "ctx": "Three messages: father, sister, …"
+      },
+      {
+       "type": "choice",
+       "text": "I sent Henry a response, but it came back. Does he have ___ email address?",
+       "options": [
+        "another",
+        "the other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more / a different one → another."
+      }
+     ]
+    },
+    {
+     "title": "Hair, cookies and suits",
+     "icon": "🍪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Some people have red hair. ___ have brown hair.",
+       "options": [
+        "Other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Some more people (not all). Alone → Others."
+      },
+      {
+       "type": "choice",
+       "text": "Some people have red hair. ___ people have brown hair.",
+       "options": [
+        "Other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → Other."
+      },
+      {
+       "type": "choice",
+       "text": "I have four children. One of them has red hair. ___ children have brown hair.",
+       "options": [
+        "Other",
+        "The other",
+        "The others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "All the rest + noun → The other children."
+      },
+      {
+       "type": "choice",
+       "text": "I have four children. One of them has red hair. ___ have brown hair.",
+       "options": [
+        "Others",
+        "The other",
+        "The others"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "All the rest, alone → The others."
+      },
+      {
+       "type": "choice",
+       "text": "Helen: “One country I plan to visit is Algeria. Another is Morocco.” Alex: “One is Tunisia. The other is Algeria.”",
+       "options": [
+        "Helen",
+        "Alex"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Another = one more, maybe more after.",
+       "ask": "Who may visit more than two countries?"
+      },
+      {
+       "type": "choice",
+       "text": "Mai: “Purple is one. The others I like are blue and green.” Elaine: “Purple is one. Others I like are blue and green.”",
+       "options": [
+        "Mai",
+        "Elaine"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The others = all the rest. So only three.",
+       "ask": "Who has only three favorite colors?"
+      },
+      {
+       "type": "choice",
+       "text": "Kazuo took a cookie, then took another one. Susie took a cookie, then took the other one.",
+       "options": [
+        "Kazuo's",
+        "Susie's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the other one = the last one.",
+       "ask": "Whose cookie jar had only two cookies?"
+      },
+      {
+       "type": "choice",
+       "text": "Thursday: some men wore blue suits. Others wore black. Friday: some wore blue. The others wore black. Mr. Anton wore gray.",
+       "options": [
+        "Thursday",
+        "Friday"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Others = not all the rest. Gray was possible.",
+       "ask": "Which day did Mr. Anton attend?"
+      },
+      {
+       "type": "choice",
+       "text": "Some of the crows are flying. The others are sitting on a fence.",
+       "options": [
+        "All the rest are on the fence.",
+        "A few more are on the fence, but not all."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The others = all the rest.",
+       "ask": "What does it mean?"
+      }
+     ]
+    },
+    {
+     "title": "Fill in: other (1)",
+     "icon": "👶",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My neighbors have three children. One has graduated. ___ is at Yale University.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of three → Another."
+      },
+      {
+       "type": "choice",
+       "text": "___ is still living at home.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The last child → The other.",
+       "ctx": "Three children: one graduated, another is at Yale."
+      },
+      {
+       "type": "choice",
+       "text": "I would like some more books on this subject. Do you have any ___ that you could lend me?",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Some more, alone, plural → others."
+      },
+      {
+       "type": "choice",
+       "text": "Do you have any ___ books that you could lend me?",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → other."
+      },
+      {
+       "type": "choice",
+       "text": "Mari reads the New York Times every day. She doesn't read any ___ newspapers.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → other."
+      },
+      {
+       "type": "choice",
+       "text": "Some people prefer jazz, but ___ prefer rock music.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Some more people, alone → others."
+      },
+      {
+       "type": "choice",
+       "text": "I'm almost finished. I just need ___ five minutes.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "another + number = five more."
+      },
+      {
+       "type": "choice",
+       "text": "One of the most important inventions was the printing press. ___ was the electric light.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of many → Another."
+      },
+      {
+       "type": "choice",
+       "text": "___ were the telephone, the television, and the computer.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Some more (not all), plural, alone → Others."
+      }
+     ]
+    },
+    {
+     "title": "Fill in: other (2)",
+     "icon": "🚼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Some babies begin talking at six months; ___ don't speak until they are two.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Some more babies, alone → others."
+      },
+      {
+       "type": "choice",
+       "text": "One common preposition is from. ___ common one is in.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of many → Another."
+      },
+      {
+       "type": "choice",
+       "text": "___ are by, for, and of.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Some more, alone → Others."
+      },
+      {
+       "type": "choice",
+       "text": "What are some ___ prepositions?",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → other."
+      },
+      {
+       "type": "choice",
+       "text": "That country has two basic problems. One is inflation, and ___ is the instability of the government.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Two problems. The last one → the other."
+      },
+      {
+       "type": "choice",
+       "text": "I have been in only three cities. One is New York, and ___ are Washington, D.C., and Chicago.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        4
+       ],
+       "why": "All the rest (two cities) → the others."
+      },
+      {
+       "type": "choice",
+       "text": "Toshi shut off his alarm, rolled over, and slept for ___ hour.",
+       "options": [
+        "another",
+        "other",
+        "the other",
+        "others",
+        "the others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more hour → another."
+      },
+      {
+       "type": "choice",
+       "text": "One child might love science. ___ child might be more artistic.",
+       "options": [
+        "Another",
+        "Other",
+        "The other",
+        "Others",
+        "The others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of many children → Another."
+      }
+     ]
+    },
+    {
+     "title": "What does it mean? (with listening)",
+     "icon": "🚌",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I need another hour of sleep, and then I'll feel fine.",
+       "options": [
+        "I need one more hour.",
+        "I need one more hour, maybe more."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "another hour = exactly one more.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "The #8 bus goes to the mall. The others are the #11 and #15.",
+       "options": [
+        "Only three buses go to the mall.",
+        "More than three buses go to the mall."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The others = all the rest.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "We're not ready to leave yet. We need another ten minutes.",
+       "options": [
+        "We need ten more minutes or more.",
+        "We can leave in ten minutes."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "another ten = ten more.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "I'm stuck. Do you have any other ideas for our project?",
+       "options": [
+        "I need just one more idea from you.",
+        "Do you have more ideas?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "other ideas = more ideas.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "listen",
+       "say": "This coffee is delicious. Could I please have another cup?",
+       "ask": "What did you hear?",
+       "options": [
+        "another cup",
+        "the other cup",
+        "other cup"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "another = one more."
+      },
+      {
+       "type": "listen",
+       "say": "The coffee isn't in this grocery bag, so I'll look in the other one.",
+       "ask": "What did you hear?",
+       "options": [
+        "another one",
+        "the other one",
+        "the others"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two bags. The last one → the other one."
+      },
+      {
+       "type": "listen",
+       "say": "I count only five chairs. Where are the others?",
+       "ask": "What did you hear?",
+       "options": [
+        "others",
+        "the other",
+        "the others"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "All the rest → the others."
+      },
+      {
+       "type": "listen",
+       "say": "Bill is a short form for William. Others are Billy and Will.",
+       "ask": "What did you hear?",
+       "options": [
+        "Others are",
+        "Another is",
+        "The other is"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Some more → Others."
+      },
+      {
+       "type": "listen",
+       "say": "The sky is clearing. It's going to be another beautiful day.",
+       "ask": "What did you hear?",
+       "options": [
+        "other beautiful day",
+        "the other beautiful day",
+        "another beautiful day"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "another = one more."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "One… another… the other",
+     "task": "Finish Claude's sentences: “I speak two languages. One is…”",
+     "claudePrompt": "You are my English speaking partner. I am practicing forms of other. Give me one sentence starter at a time: I speak two languages. One is ... / There are three colors that I especially like. One is ... / Some people have brown hair, but ... / Some people need eight hours of sleep, but ... / I have two books. One is ... / Some TV programs are excellent, but ... I complete it using another, the other, others or the others. Check that I choose the right form."
+    }
+   ]
+  },
+  {
+   "id": "8-7",
+   "tag": "8-7",
+   "t": "pastprog",
+   "title": "Each other and friends",
+   "full": "Common Expressions with Other",
+   "lesson": {
+    "title": "Learn: expressions with other",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "each other = both ways",
+      "lines": [
+       "I write to him. He writes to me."
+      ],
+      "chips": [
+       "Mike and I write to each other every week.",
+       "We write to one another every week."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "every other = skip one",
+      "lines": [
+       "✅ ⬜ ✅ ⬜ ✅"
+      ],
+      "chips": [
+       "Please write on every other line.",
+       "every other day",
+       "every other month"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Lisa and Kate talk every other day. They talked today. When will they talk next?",
+      "options": [
+       "Tomorrow",
+       "The day after tomorrow"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "every other day = skip one day."
+     },
+     {
+      "type": "learn",
+      "title": "the other day = not long ago",
+      "lines": [
+       "A few days ago."
+      ],
+      "chips": [
+       "I saw him just the other day.",
+       "the other morning",
+       "the other week"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "one after the other",
+      "lines": [
+       "One, then the next, then the next."
+      ],
+      "chips": [
+       "The ducklings slipped into the water one after the other.",
+       "one after another (same meaning)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "other than = except",
+      "lines": [
+       "After a negative."
+      ],
+      "chips": [
+       "No one knows my secret other than Rosa.",
+       "No one knows my secret except Rosa."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "in other words",
+      "lines": [
+       "Say it again, more simply."
+      ],
+      "chips": [
+       "Fruit and vegetables are full of vitamins. In other words, they are good for you."
+      ],
+      "tip": "❌ in another words"
+     },
+     {
+      "type": "choice",
+      "text": "I'd prefer that you don't tell anyone. ___, I would like to keep this secret.",
+      "options": [
+       "In another words",
+       "In other words"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The expression is In other words."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "each other / one another = both ways. every other = skip one.",
+     "the other day = recently. other than = except. in other words = more simply."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "Mike and I write to each other every week.",
+      "hl": [
+       [
+        "each other",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "I saw him just the other day.",
+      "hl": [
+       [
+        "the other day",
+        "pastprog"
+       ]
+      ]
+     },
+     {
+      "text": "No one knows my secret other than Rosa.",
+      "hl": [
+       [
+        "other than",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Lisa and Kate",
+     "icon": "🦆",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Lisa and Kate talk to each other every other day. → Kate talks to Lisa often.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Every second day is often.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "They talk every other day. → Kate talked to Lisa today. She'll talk to her again tomorrow.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "every other day = skip tomorrow.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "Kate saw Lisa the other day at the park. → Kate last saw Lisa a few weeks ago.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the other day = a few days ago.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "Lisa's children were walking behind her, one after the other. → They were walking in a line.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one after the other = in a line.",
+       "ask": "True or false?"
+      },
+      {
+       "type": "choice",
+       "text": "Please write on every other line.",
+       "options": [
+        "Write on lines 1, 3, 5…",
+        "Write on every line."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every other = skip one.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "No one knows my secret other than Rosa.",
+       "options": [
+        "Rosa doesn't know it.",
+        "Only Rosa knows it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "other than = except.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Mike and I write to each other every week.",
+       "options": [
+        "I write to him and he writes to me.",
+        "We both write to other people."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "each other = both ways.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Fruit and vegetables are full of vitamins. ___, they are good for you.",
+       "options": [
+        "In other words",
+        "Every other",
+        "Other than"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in other words = to say it more simply."
+      }
+     ]
+    },
+    {
+     "title": "Choose the expression (1)",
+     "icon": "🌵",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Two countries border on the United States. One is Canada. ___ is Mexico.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only two. The last one → The other."
+      },
+      {
+       "type": "choice",
+       "text": "One of the countries I would like to visit is Sweden. ___ is Malaysia.",
+       "options": [
+        "Another",
+        "The other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One more of many → Another."
+      },
+      {
+       "type": "choice",
+       "text": "Besides these two, there are many ___ places I would like to see.",
+       "options": [
+        "other",
+        "others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Before a noun → other."
+      },
+      {
+       "type": "choice",
+       "text": "Louis and I have been friends for a long time. We've known ___ since we were children.",
+       "options": [
+        "each other",
+        "the other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Both ways → each other."
+      },
+      {
+       "type": "choice",
+       "text": "I talked to Sam ___ day. — Oh? How is he?",
+       "options": [
+        "every other",
+        "the other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the other day = a few days ago."
+      },
+      {
+       "type": "choice",
+       "text": "This area has no trees and very few plants ___ cactuses.",
+       "options": [
+        "other than",
+        "each other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "other than = except."
+      },
+      {
+       "type": "choice",
+       "text": "It has little or no rainfall. ___, this area is a desert.",
+       "options": [
+        "In other words",
+        "One after the other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Saying it more simply → In other words."
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to go to the party, but I've already made ___ plans.",
+       "options": [
+        "another",
+        "other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a plural noun → other."
+      }
+     ]
+    },
+    {
+     "title": "Choose the expression (2)",
+     "icon": "💑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Some people are tall; ___ are short.",
+       "options": [
+        "others",
+        "other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Alone → others."
+      },
+      {
+       "type": "choice",
+       "text": "Some people are nearsighted; ___ people are farsighted.",
+       "options": [
+        "others",
+        "other"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a noun → other."
+      },
+      {
+       "type": "choice",
+       "text": "Mr. and Mrs. Jay love ___. They are a happily married couple.",
+       "options": [
+        "each other",
+        "every other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Both ways → each other."
+      },
+      {
+       "type": "choice",
+       "text": "How often do you travel to Portland? — Every ___ month I go there.",
+       "options": [
+        "other",
+        "another"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every other month = skip one."
+      },
+      {
+       "type": "choice",
+       "text": "I have nothing to write with ___ this pencil.",
+       "options": [
+        "other than",
+        "each other"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "other than = except."
+      },
+      {
+       "type": "choice",
+       "text": "My niece ate one cookie after ___ until she finished the whole box.",
+       "options": [
+        "another",
+        "others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one after another."
+      },
+      {
+       "type": "choice",
+       "text": "The baby ducks walked in a line behind their mother, one after ___.",
+       "options": [
+        "the other",
+        "the others"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "one after the other."
+      },
+      {
+       "type": "choice",
+       "text": "They support each other. ___, they are a happy couple.",
+       "options": [
+        "In another words",
+        "In other words"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The expression is In other words."
+      }
+     ]
+    },
+    {
+     "title": "Closest meaning (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I spend a lot of time with my grandmother. We enjoy each other's company.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "My grandmother and I like to spend time with others.",
+        "I enjoy spending time with my grandmother."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "each other's company = being together."
+      },
+      {
+       "type": "listen",
+       "say": "Other than Maria, all of the students had the wrong answer.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "All of the students had the wrong answer.",
+        "Some students had the wrong answer, but Maria didn't."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "other than Maria = except Maria."
+      },
+      {
+       "type": "listen",
+       "say": "The Clarks see each other only on weekends.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "The Clarks each see other people on weekends.",
+        "The Clarks spend time together on weekends."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "see each other = they meet."
+      },
+      {
+       "type": "listen",
+       "say": "Susan spoke with him just the other day.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "Susan spoke with him a long time ago.",
+        "Susan spoke with him recently."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the other day = recently."
+      },
+      {
+       "type": "listen",
+       "say": "No one other than Tom, Anna and me knows about the engagement.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "Three people know about the engagement.",
+        "Four people know about the engagement."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "other than = except these three."
+      },
+      {
+       "type": "listen",
+       "say": "Everyone other than Jan knows about the party.",
+       "ask": "Which is closest in meaning?",
+       "options": [
+        "Jan knows about the party.",
+        "Jan doesn't know about the party."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "other than Jan = except Jan."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Some… others…",
+     "task": "Finish Claude's sentences with a form of other: “Some people like coffee while others prefer tea.”",
+     "claudePrompt": "You are my English speaking partner. Give me one pattern at a time to complete with my own ideas: I have two ___. One is ___, and (other) ___ is ___. / Some people like to ___ in their free time. (Other) ___ prefer ___. / There are three ___ that I especially like. One is ___. (Other) ___ is ___. (Other) ___ is ___. Check my use of another, the other, others, the others, each other."
+    },
+    {
+     "title": "Texting in meetings",
+     "task": "Is checking messages in class or in a meeting OK? Give three reasons: First… Another reason… Finally…",
+     "claudePrompt": "You are my English writing partner. Ask me to choose one question (Is checking text messages in class appropriate? / What are three advantages of the Internet? / What is your opinion of selfies?) and write one paragraph with three reasons, using 'First, ...', 'Another reason/problem is ...', 'Finally, ...'. Check my pronouns (they/their consistency, object pronouns) and my use of another / other."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Pronoun Poltergeist",
+  "icon": "👤",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "My friends and I ordered Indian food. I wasn't very hungry, but I ate most of [them].",
+    "options": [
+     "My friends and I ordered Indian food. I wasn't very hungry, but I ate most of it.",
+     "My friends and I ordered Indian food. I wasn't very hungry, but I ate most of its.",
+     "My friends and me ordered Indian food. I wasn't very hungry, but I ate most of them."
+    ],
+    "answer": 0,
+    "why": "food is noncount → it.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "My brother used to play tennis with my sister and [I] every day after school.",
+    "options": [
+     "My brother used to play tennis with my sister and my every day after school.",
+     "My brother used to play tennis with my sister and me every day after school.",
+     "My brother used to play tennis with I and my sister every day after school."
+    ],
+    "answer": 1,
+    "why": "After with → object: me.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "My cousin and her husband moved to [other] city because they don't like cold weather.",
+    "options": [
+     "My cousin and her husband moved to others city because they don't like cold weather.",
+     "My cousin and her husband moved to the others city because they don't like cold weather.",
+     "My cousin and her husband moved to another city because they don't like cold weather."
+    ],
+    "answer": 2,
+    "why": "One different city → another.",
+    "rule": "8-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "If you want to pass your exams, you need to study very hard for [it].",
+    "options": [
+     "If you want to pass your exams, you need to study very hard for them.",
+     "If you want to pass your exams, you need to study very hard for its.",
+     "If you want to pass your exams, you need to study very hard for they."
+    ],
+    "answer": 0,
+    "why": "exams (plural) → them.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "I like to travel because I like to learn about other [country] and [custom].",
+    "options": [
+     "I like to travel because I like to learn about another countries and customs.",
+     "I like to travel because I like to learn about other countries and customs.",
+     "I like to travel because I like to learn about others country and custom."
+    ],
+    "answer": 1,
+    "why": "other + plural nouns.",
+    "rule": "8-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I lost my passport, I had to apply for [other] one.",
+    "options": [
+     "When I lost my passport, I had to apply for another one.",
+     "When I lost my passport, I had to apply for others one.",
+     "When I lost my passport, I had to apply for the others one."
+    ],
+    "answer": 0,
+    "why": "One more → another one.",
+    "rule": "8-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I got to class, all of the [others] students were already in [his] seats.",
+    "options": [
+     "When I got to class, all of the others students were already in their seats.",
+     "When I got to class, all of the other students were already in his seats.",
+     "When I got to class, all of the other students were already in their seats."
+    ],
+    "answer": 2,
+    "why": "other + noun (no s). students → their.",
+    "rule": "8-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "In hot weather, you need to water the plants every other [days].",
+    "options": [
+     "In hot weather, you need to water the plants every others day.",
+     "In hot weather, you need to water the plants every other day.",
+     "In hot weather, you need to water the plants every another day."
+    ],
+    "answer": 1,
+    "why": "every other day (singular).",
+    "rule": "8-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "I live in a two-room apartment. [Its] too small for [mine] family.",
+    "options": [
+     "I live in a two-room apartment. It's too small for my family.",
+     "I live in a two-room apartment. Its too small for my family.",
+     "I live in a two-room apartment. It's too small for mine family."
+    ],
+    "answer": 0,
+    "why": "It is → It's. Before a noun → my.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "A child needs to learn how to get along with [another] people and how to depend on [yourself].",
+    "options": [
+     "A child needs to learn how to get along with others people and how to depend on himself.",
+     "A child needs to learn how to get along with other people and how to depend on himself or herself.",
+     "A child needs to learn how to get along with another people and how to depend on themselves."
+    ],
+    "answer": 1,
+    "why": "other + plural noun. A child → himself or herself.",
+    "rule": "8-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Other from] Tom, everyone has responded to the wedding invitation.",
+    "options": [
+     "Other than Tom, everyone has responded to the wedding invitation.",
+     "Another from Tom, everyone has responded to the wedding invitation.",
+     "Others than Tom, everyone has responded to the wedding invitation."
+    ],
+    "answer": 0,
+    "why": "other than = except.",
+    "rule": "8-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "Mr. Gray asked to speak to Mona and [I]. He explained the policies and asked for [ours] opinions.",
+    "options": [
+     "Mr. Gray asked to speak to Mona and I. He explained the policies and asked for our opinions.",
+     "Mr. Gray asked to speak to Mona and me. He explained the policies and asked for ours opinions.",
+     "Mr. Gray asked to speak to Mona and me. He explained the policies and asked for our opinions."
+    ],
+    "answer": 2,
+    "why": "to … me. our + noun.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "My cousins asked to borrow my car because [their's] was in the garage for repairs.",
+    "options": [
+     "My cousins asked to borrow my car because their was in the garage for repairs.",
+     "My cousins asked to borrow my car because theirs was in the garage for repairs.",
+     "My cousins asked to borrow my car because they's was in the garage for repairs."
+    ],
+    "answer": 1,
+    "why": "Possessive pronouns have no apostrophe: theirs.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "The players were looking at one [anothers], trying to find their weakest opponent.",
+    "options": [
+     "The players were looking at one another, trying to find their weakest opponent.",
+     "The players were looking at one others, trying to find their weakest opponent.",
+     "The players were looking at ones another, trying to find their weakest opponent."
+    ],
+    "answer": 0,
+    "why": "one another. No s.",
+    "rule": "8-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "The manager introduced Manuel and [I] to the other employees in the new branch office.",
+    "options": [
+     "The manager introduced Manuel and my to the other employees in the new branch office.",
+     "The manager introduced I and Manuel to the other employees in the new branch office.",
+     "The manager introduced Manuel and me to the other employees in the new branch office."
+    ],
+    "answer": 2,
+    "why": "Object of introduced → me.",
+    "rule": "8-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "A hippopotamus spends most of [it's] time in the water of rivers and lakes.",
+    "options": [
+     "A hippopotamus spends most of it time in the water of rivers and lakes.",
+     "A hippopotamus spends most of its time in the water of rivers and lakes.",
+     "A hippopotamus spends most of its' time in the water of rivers and lakes."
+    ],
+    "answer": 1,
+    "why": "Belonging to it → its. No apostrophe.",
+    "rule": "8-1"
+   }
+  ]
+ }
+}

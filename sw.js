@@ -1,8 +1,26 @@
 /* Grammar Quest offline cache. The version changes whenever any file changes. */
-const VERSION = "gq-3427fcbd10";
+const VERSION = "gq-7d6252d405";
 const FILES = [
  "chapters/ch01.json",
  "chapters/ch02.json",
+ "chapters/ch03.json",
+ "chapters/ch04.json",
+ "chapters/ch05.json",
+ "chapters/ch06.json",
+ "chapters/ch07.json",
+ "chapters/ch08.json",
+ "chapters/ch09.json",
+ "chapters/ch10.json",
+ "chapters/ch11.json",
+ "chapters/ch12.json",
+ "chapters/ch13.json",
+ "chapters/ch14.json",
+ "chapters/ch15.json",
+ "chapters/ch16.json",
+ "chapters/ch17.json",
+ "chapters/ch18.json",
+ "chapters/ch19.json",
+ "chapters/ch20.json",
  "chapters/index.json",
  "fonts/atkinson-400-italic.woff2",
  "fonts/atkinson-400.woff2",

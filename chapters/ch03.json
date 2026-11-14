@@ -1,0 +1,3685 @@
+{
+ "id": "ch03",
+ "num": 3,
+ "title": "Future Time",
+ "subtitle": "Will, be going to, and more",
+ "icon": "🚀",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "The storm will starts after midnight. It is going to last through the morning.",
+    "answer": "wrong",
+    "why": "will + simple verb: will start.",
+    "fix": "The storm will start after midnight. It is going to last through the morning.",
+    "rule": "3-1"
+   },
+   {
+    "type": "judge",
+    "text": "Wendy is going to apply to an electrical engineering program.",
+    "answer": "correct",
+    "why": "is going to + simple verb.",
+    "rule": "3-1"
+   },
+   {
+    "type": "judge",
+    "text": "Something's wrong. The lights won't turn on.",
+    "answer": "correct",
+    "why": "won't = the thing “refuses” to work.",
+    "rule": "3-2"
+   },
+   {
+    "type": "judge",
+    "text": "As soon as the snow will stop, we will leave.",
+    "answer": "wrong",
+    "why": "After as soon as → simple present: stops.",
+    "fix": "As soon as the snow stops, we will leave.",
+    "rule": "3-3"
+   },
+   {
+    "type": "judge",
+    "text": "The train gets in at midnight tomorrow.",
+    "answer": "correct",
+    "why": "A timetable → simple present.",
+    "rule": "3-4"
+   },
+   {
+    "type": "judge",
+    "text": "When you get home, I will be sleeping.",
+    "answer": "correct",
+    "why": "In progress at a future time.",
+    "rule": "3-5"
+   },
+   {
+    "type": "judge",
+    "text": "By the time Violet retires, she will has worked as a nurse for 40 years.",
+    "answer": "wrong",
+    "why": "will + have, never will has.",
+    "fix": "By the time Violet retires, she will have worked as a nurse for 40 years.",
+    "rule": "3-6"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "3-1",
+   "tag": "3-1",
+   "t": "fut",
+   "title": "Will and going to",
+   "full": "Simple Future: Forms of Will and Be Going To",
+   "lesson": {
+    "title": "Learn: two ways to say the future",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two ways, same idea",
+      "lines": [
+       "will and be going to both talk about the future.",
+       "Here they mean the same."
+      ],
+      "visual": [
+       "will"
+      ],
+      "examples": [
+       {
+        "text": "It will snow tomorrow.",
+        "hl": [
+         [
+          "will snow",
+          "fut"
+         ]
+        ]
+       },
+       {
+        "text": "It is going to snow tomorrow.",
+        "hl": [
+         [
+          "is going to snow",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "will never changes",
+      "lines": [
+       "will + simple verb. That's all.",
+       "No -s. No to."
+      ],
+      "visual": [
+       "will-form"
+      ],
+      "chips": [
+       "✅ The weather will turn cold.",
+       "❌ The weather wills turn cold.",
+       "❌ The weather will turns cold.",
+       "❌ The weather will to turn cold."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The storm ___ after midnight.",
+      "options": [
+       "will starts",
+       "will start",
+       "will to start"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "will + simple verb: will start."
+     },
+     {
+      "type": "learn",
+      "title": "be going to",
+      "lines": [
+       "am / is / are + going to + simple verb.",
+       "In fast speech it sounds like “gonna”."
+      ],
+      "chips": [
+       "I am going to",
+       "he / she / it is going to",
+       "you / we / they are going to"
+      ],
+      "examples": [
+       {
+        "text": "The roads are going to be icy.",
+        "hl": [
+         [
+          "are going to be",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Athena ___ going to go to the beach.",
+      "options": [
+       "is",
+       "are",
+       "will"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Athena = she → is going to."
+     },
+     {
+      "type": "learn",
+      "title": "Not, questions, short forms",
+      "lines": [
+       "will not = won't. Question: Will it…?"
+      ],
+      "chips": [
+       "I'll",
+       "you'll",
+       "she'll",
+       "it'll",
+       "we'll",
+       "they'll",
+       "won't"
+      ],
+      "examples": [
+       {
+        "text": "The snow won't melt soon.",
+        "hl": [
+         [
+          "won't melt",
+          "fut"
+         ]
+        ]
+       },
+       {
+        "text": "Will it be icy tomorrow?",
+        "hl": [
+         [
+          "Will",
+          "fut"
+         ],
+         [
+          "be",
+          "fut"
+         ]
+        ]
+       },
+       {
+        "text": "I'm not going to go out.",
+        "hl": [
+         [
+          "'m not going to go",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ the storm going to be dangerous?",
+      "options": [
+       "Will",
+       "Is",
+       "Does"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "going to needs be: Is the storm going to…?"
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "will + simple verb: It will snow. (No -s, no to.)",
+     "am / is / are going to + simple verb: It is going to snow."
+    ],
+    "timeline": [
+     "will",
+     "will-form"
+    ],
+    "examples": [
+     {
+      "text": "It will snow tomorrow.",
+      "hl": [
+       [
+        "will snow",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "It is going to snow tomorrow.",
+      "hl": [
+       [
+        "is going to snow",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The snow won't melt soon.",
+      "hl": [
+       [
+        "won't melt",
+        "fut"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Beach day",
+     "icon": "🏖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The weather ___ be hot tomorrow.",
+       "options": [
+        "to",
+        "is",
+        "are",
+        "will",
+        "have"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "will + be."
+      },
+      {
+       "type": "choice",
+       "text": "Athena ___ going to go to the beach.",
+       "options": [
+        "to",
+        "is",
+        "are",
+        "will",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Athena = she → is going to."
+      },
+      {
+       "type": "choice",
+       "text": "She will ___ a relaxing day.",
+       "options": [
+        "to",
+        "is",
+        "are",
+        "will",
+        "have"
+       ],
+       "answer": [
+        4
+       ],
+       "why": "will + simple verb: will have."
+      },
+      {
+       "type": "choice",
+       "text": "Sergio and Yanni ___ going to join her in the afternoon.",
+       "options": [
+        "to",
+        "is",
+        "are",
+        "will",
+        "have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Two people = they → are going to."
+      },
+      {
+       "type": "choice",
+       "text": "They are going ___ come home after sunset.",
+       "options": [
+        "to",
+        "is",
+        "are",
+        "will",
+        "have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be going + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "The weather ___ cold tonight.",
+       "options": [
+        "wills turn",
+        "will turns",
+        "will turn"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "will + simple verb. No -s."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ warm up for several days.",
+       "options": [
+        "will not",
+        "will not to",
+        "not will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Negative: will + not + verb."
+      },
+      {
+       "type": "choice",
+       "text": "How ___ here?",
+       "options": [
+        "you will get",
+        "will you get",
+        "will you to get"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Question: will + subject + verb."
+      }
+     ]
+    },
+    {
+     "title": "Future doctors",
+     "icon": "🩺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "John is going to be a heart surgeon. He wants to work with young children.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's his plan, not a guess.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "He is going to be a fantastic doctor.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's the speaker's opinion about the future.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "He'll be kind and patient with the kids.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess about how he will be.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "He is going to graduate from medical school in June.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's on the calendar: a plan.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "John's wife is going to specialize in senior care.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It's her plan.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "She will be fantastic. She is so caring.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The speaker's guess.",
+       "ask": "Prediction or plan?"
+      },
+      {
+       "type": "choice",
+       "text": "I think they're going to have very busy lives.",
+       "options": [
+        "A prediction (a guess)",
+        "A plan or fact"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I think… = a prediction.",
+       "ask": "Prediction or plan?"
+      }
+     ]
+    },
+    {
+     "title": "In the next decade…",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The climate ___ going to get warmer.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The climate = it → is going to."
+      },
+      {
+       "type": "choice",
+       "text": "Cities near the ocean ___ have more flooding.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No going to → will + have."
+      },
+      {
+       "type": "choice",
+       "text": "Smartphones and tablets ___ going to replace computers.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They → are going to."
+      },
+      {
+       "type": "choice",
+       "text": "Electric cars ___ be more common than gas-powered cars.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No going to → will + be."
+      },
+      {
+       "type": "choice",
+       "text": "I don't think so. We ___ going to have flying cars.",
+       "options": [
+        "isn't",
+        "aren't",
+        "won't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "We + going to → aren't."
+      },
+      {
+       "type": "choice",
+       "text": "I don't think so. Computers ___ be the main teachers in classrooms.",
+       "options": [
+        "isn't",
+        "aren't",
+        "won't"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No going to → won't + be."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ learn to speak English fluently.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "will + learn. You will!"
+      },
+      {
+       "type": "choice",
+       "text": "My country ___ going to win the World Cup.",
+       "options": [
+        "is",
+        "are",
+        "will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "My country = it → is going to."
+      }
+     ]
+    },
+    {
+     "title": "Final exam (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "You'll need to turn in all your assignments by tomorrow.",
+       "ask": "What did you hear?",
+       "options": [
+        "You will need",
+        "You need",
+        "You needed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "You'll = You will."
+      },
+      {
+       "type": "listen",
+       "say": "We're going to review for the final exam on Monday.",
+       "ask": "What did you hear?",
+       "options": [
+        "We will review",
+        "We are going to review",
+        "We reviewed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "We're going to = We are going to."
+      },
+      {
+       "type": "listen",
+       "say": "The test'll have 50 questions.",
+       "ask": "What did you hear?",
+       "options": [
+        "The test has",
+        "The test had",
+        "The test will have"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "test'll = test will."
+      },
+      {
+       "type": "listen",
+       "say": "There'll be 50 questions on the exam.",
+       "ask": "What did you hear?",
+       "options": [
+        "There will be",
+        "There are",
+        "There were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "There'll = There will."
+      },
+      {
+       "type": "listen",
+       "say": "You'll have the whole hour to complete the test.",
+       "ask": "What did you hear?",
+       "options": [
+        "You have",
+        "You will have",
+        "You had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You'll = You will."
+      },
+      {
+       "type": "listen",
+       "say": "It's a long exam. Sorry, but nobody's going to finish early.",
+       "ask": "What did you hear?",
+       "options": [
+        "nobody will finish",
+        "nobody finishes",
+        "nobody is going to finish"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "nobody's going to = nobody is going to."
+      },
+      {
+       "type": "listen",
+       "say": "It's going to be a lot of work. Study hard!",
+       "ask": "What did you hear?",
+       "options": [
+        "It is going to be",
+        "It will be",
+        "It is"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's going to = It is going to."
+      },
+      {
+       "type": "listen",
+       "say": "The results'll be available in my office the next day.",
+       "ask": "What did you hear?",
+       "options": [
+        "The results are",
+        "The results will be",
+        "The results were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "results'll = results will."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Life in 2050",
+     "task": "Make 5 predictions about life in 2050. Use will, won't and be going to.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the simple future with will and be going to. Ask me for my predictions about life in 2050, one topic at a time (climate, cars, phones, schools, my country, my own life). I answer with will / won't / am, is, are going to. Check that I use will + simple verb (no -s, no to) and the right form of be with going to."
+    }
+   ]
+  },
+  {
+   "id": "3-2",
+   "tag": "3-2",
+   "t": "plan",
+   "title": "Guess, plan, or offer?",
+   "full": "Will vs. Be Going To",
+   "lesson": {
+    "title": "Learn: will or be going to?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A guess: both are OK",
+      "lines": [
+       "Predicting the future? Use will or be going to."
+      ],
+      "visual": [
+       "will-vs-goingto"
+      ],
+      "examples": [
+       {
+        "text": "It will be cloudy tomorrow.",
+        "hl": [
+         [
+          "will be",
+          "fut"
+         ]
+        ]
+       },
+       {
+        "text": "It is going to be cloudy tomorrow.",
+        "hl": [
+         [
+          "is going to be",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A plan from before: be going to",
+      "lines": [
+       "You decided earlier. Now you tell someone."
+      ],
+      "chips": [
+       "📅 already decided → be going to"
+      ],
+      "examples": [
+       {
+        "text": "Why did you buy this paint?",
+        "hl": []
+       },
+       {
+        "text": "I'm going to paint my bedroom tomorrow.",
+        "hl": [
+         [
+          "'m going to paint",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I bought the tickets last week. We ___ see the concert on Friday.",
+      "options": [
+       "will",
+       "are going to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Decided before → be going to."
+     },
+     {
+      "type": "learn",
+      "title": "Decide right now: will",
+      "lines": [
+       "An offer or a sudden decision? Use will.",
+       "You had no plan before."
+      ],
+      "chips": [
+       "🙋 offer / decide now → will"
+      ],
+      "examples": [
+       {
+        "text": "The phone's ringing.",
+        "hl": []
+       },
+       {
+        "text": "I'll get it.",
+        "hl": [
+         [
+          "'ll get",
+          "fut"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "This box looks heavy. — Here. I ___ carry it.",
+      "options": [
+       "'ll",
+       "'m going to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "An offer made right now → will."
+     },
+     {
+      "type": "learn",
+      "title": "won't = refuses",
+      "lines": [
+       "A person (or a thing!) refuses to do it."
+      ],
+      "chips": [
+       "🙅 refuses → won't"
+      ],
+      "examples": [
+       {
+        "text": "She won't tell me her age.",
+        "hl": [
+         [
+          "won't tell",
+          "fut"
+         ]
+        ]
+       },
+       {
+        "text": "The car won't start.",
+        "hl": [
+         [
+          "won't start",
+          "fut"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Something's wrong. The lights ___ turn on.",
+      "options": [
+       "won't",
+       "aren't going to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A thing that “refuses” to work → won't."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A guess → will or be going to. A plan made before → be going to.",
+     "An offer or decision right now → will. Refusing → won't."
+    ],
+    "timeline": [
+     "will-vs-goingto"
+    ],
+    "examples": [
+     {
+      "text": "I'm going to paint my bedroom tomorrow.",
+      "hl": [
+       [
+        "'m going to paint",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The phone's ringing. — I'll get it.",
+      "hl": [
+       [
+        "'ll get",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "The car won't start.",
+      "hl": [
+       [
+        "won't start",
+        "fut"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Casual conversations",
+     "icon": "💬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I'M GOING TO PAINT the house next week.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Decided before now → a prior plan.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "Here. I'LL CARRY that box. It looks heavy.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "An offer made right now.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "It WILL BE cloudy this weekend.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess about the weather.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "IT'S GOING TO RAIN tomorrow.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess about the weather.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "Sorry, I'M GOING TO BE at my cousin's wedding.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The wedding was planned before.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "Are you busy Saturday night?"
+      },
+      {
+       "type": "choice",
+       "text": "Sure. Give me a minute and I'LL GRAB my coat.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Decided at this moment.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "Do you want to join us for dinner?"
+      },
+      {
+       "type": "choice",
+       "text": "They WON'T ever GET married. They fight too much.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The speaker's guess.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "Sue and David are engaged again!"
+      },
+      {
+       "type": "choice",
+       "text": "Gosh! I forget. I'LL LOOK it up.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Decided at this moment.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "How do you spell “misspell”?"
+      },
+      {
+       "type": "choice",
+       "text": "I'M NOT GOING TO TAKE it after all. I've decided to stay.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I've decided = a plan made before.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "Great news about your new job!"
+      },
+      {
+       "type": "choice",
+       "text": "I know. She'LL BE great as a camp counselor.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess about the future.",
+       "ask": "What does the verb in CAPITALS show?",
+       "ctx": "Sofia is so patient with kids."
+      }
+     ]
+    },
+    {
+     "title": "Chatting before dinner",
+     "icon": "🍲",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Dinner's almost ready. I'LL SET the table.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "An offer made right now.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "I think you'LL LOVE this soup.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I think… = a prediction.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "Don't worry about the spilled coffee. I'LL CLEAN it up.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "An offer made right now.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "Your dad has some vacation time. He IS GOING TO TAKE next week off.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He already decided.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "I burned the rice. Someday, there IS GOING TO BE an alarm to prevent that!",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A guess about the future.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "I'M GOING TO TAKE some soup to my grandmother tomorrow.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Already planned.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "Uh-oh. The refrigerator light is out. I'LL PICK UP one tomorrow.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Decided at this moment.",
+       "ask": "What does the verb in CAPITALS show?"
+      },
+      {
+       "type": "choice",
+       "text": "I'M GOING TO HELP the kids with their homework after dinner.",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Already planned.",
+       "ask": "What does the verb in CAPITALS show?"
+      }
+     ]
+    },
+    {
+     "title": "Plan, offer, or refusal?",
+     "icon": "🧽",
+     "items": [
+      {
+       "type": "fill",
+       "text": "This letter is in French. Can you help me? — Sure. I ___ it for you.",
+       "verb": "translate",
+       "accept": [
+        "will translate"
+       ],
+       "why": "An offer right now → will."
+      },
+      {
+       "type": "fill",
+       "text": "Do you want to go shopping with me? I ___ to the mall downtown.",
+       "verb": "go",
+       "accept": [
+        "am going to go"
+       ],
+       "why": "I already planned it → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "Alice's Restaurant. I ___ you there around six.",
+       "verb": "meet",
+       "accept": [
+        "will meet"
+       ],
+       "why": "Decided right now → will.",
+       "ctx": "How about dinner tonight? You decide where."
+      },
+      {
+       "type": "fill",
+       "text": "Great. I ___ you then.",
+       "verb": "see",
+       "accept": [
+        "will see"
+       ],
+       "why": "Decided right now → will."
+      },
+      {
+       "type": "fill",
+       "text": "Do you have plans for dinner? — Yes. I ___ a co-worker at Alice's Restaurant.",
+       "verb": "meet",
+       "accept": [
+        "am going to meet",
+        "am meeting"
+       ],
+       "why": "A plan made before → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "Who wants to erase the board? — I ___ it!",
+       "verb": "do",
+       "accept": [
+        "will do"
+       ],
+       "why": "A volunteer decides now → will."
+      },
+      {
+       "type": "fill",
+       "text": "Why does he have an eraser in his hand? — He ___ the board.",
+       "verb": "erase",
+       "accept": [
+        "is going to erase"
+       ],
+       "why": "He already planned it → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "Why is that little boy crying? — I don't know. He ___ me.",
+       "verb": "tell, not",
+       "accept": [
+        "won't tell"
+       ],
+       "why": "He refuses → won't."
+      },
+      {
+       "type": "fill",
+       "text": "What's wrong? — The door ___. I think the lock is broken.",
+       "verb": "open, not",
+       "accept": [
+        "won't open"
+       ],
+       "why": "A thing that “refuses” → won't."
+      }
+     ]
+    },
+    {
+     "title": "A plan or an offer to help?",
+     "icon": "🧹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What are you going to do this summer?",
+       "options": [
+        "I'm going to work at a summer resort in the mountains.",
+        "I'll work at a summer resort in the mountains."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Talking about plans → be going to.",
+       "ask": "Choose the expected answer"
+      },
+      {
+       "type": "choice",
+       "text": "Can you help me out? I need to get this check in the mail by noon.",
+       "options": [
+        "Sure. I'm going to drop it off on my way to work.",
+        "Sure. I'll drop it off on my way to work."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An offer made now → will.",
+       "ask": "Choose the expected answer"
+      },
+      {
+       "type": "choice",
+       "text": "Tell me again. Why are you leaving work early?",
+       "options": [
+        "I'm going to attend my cousin's funeral.",
+        "I'll attend my cousin's funeral."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Planned before → be going to.",
+       "ask": "Choose the expected answer"
+      },
+      {
+       "type": "choice",
+       "text": "Darn, this flashlight doesn't work.",
+       "options": [
+        "Here, give it to me. I'm going to fix it for you.",
+        "Here, give it to me. I'll fix it for you."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An offer made now → will.",
+       "ask": "Choose the expected answer"
+      },
+      {
+       "type": "choice",
+       "text": "Here's the broom. What did you want it for?",
+       "options": [
+        "I'm going to sweep the front steps.",
+        "I'll sweep the front steps."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The plan came before asking for the broom.",
+       "ask": "Choose the expected answer"
+      },
+      {
+       "type": "listen",
+       "say": "The Costa family are going to expand their restaurant next month.",
+       "ask": "What does this show?",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is already decided: a plan."
+      },
+      {
+       "type": "listen",
+       "say": "Their son says: Don't worry. I'll help in the kitchen!",
+       "ask": "What does this show?",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "He offers right now."
+      },
+      {
+       "type": "listen",
+       "say": "I think the new restaurant will be very popular.",
+       "ask": "What does this show?",
+       "options": [
+        "prediction",
+        "prior plan",
+        "willingness"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I think… = a prediction."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "A fiasco!",
+     "task": "You are leaving for a wedding in 5 minutes and something goes wrong. Fix it with “We'll…”.",
+     "claudePrompt": "You are my English speaking partner. Role-play: we are leaving for a wedding in five minutes and something goes wrong (for example: the car won't start, there is a stain on my shirt, we lost the gift). You start with 'Oh, no. What are we going to do?' and describe the problem. I must suggest solutions with 'I know. We'll ...' or 'I'll ...'. Then give me a new problem. Check that I use will for decisions made at the moment of speaking."
+    },
+    {
+     "title": "My plans",
+     "task": "Tell Claude 3 things you have already planned for this week. Use be going to.",
+     "claudePrompt": "You are my English speaking partner. Ask me about my plans for this week and this weekend. I answer with be going to for plans I have already made. Sometimes ask me for help with a small thing (for example: 'I can't open this jar') so that I offer with 'I'll ...'. Check that I use be going to for prior plans and will for offers."
+    }
+   ]
+  },
+  {
+   "id": "3-3",
+   "tag": "3-3",
+   "t": "pres",
+   "title": "When + present",
+   "full": "Expressing the Future in Time Clauses",
+   "lesson": {
+    "title": "Learn: future time clauses",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "The time clause stays present",
+      "lines": [
+       "After when, before, after, as soon as, until, while:",
+       "use the simple present, not will."
+      ],
+      "visual": [
+       "time-clause"
+      ],
+      "examples": [
+       {
+        "text": "When Bob comes, we will see him.",
+        "hl": [
+         [
+          "comes",
+          "pres"
+         ],
+         [
+          "will see",
+          "fut"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Time clause starters",
+      "lines": [
+       "These words start a time clause."
+      ],
+      "chips": [
+       "when",
+       "before",
+       "after",
+       "as soon as",
+       "until",
+       "while"
+      ],
+      "examples": [
+       {
+        "text": "Before she leaves, she is going to finish her work.",
+        "hl": [
+         [
+          "leaves",
+          "pres"
+         ],
+         [
+          "is going to finish",
+          "plan"
+         ]
+        ]
+       },
+       {
+        "text": "I'll wait here until they come.",
+        "hl": [
+         [
+          "'ll wait",
+          "fut"
+         ],
+         [
+          "come",
+          "pres"
+         ]
+        ]
+       }
+      ],
+      "tip": "❌ when Bob will come   ✅ when Bob comes"
+     },
+     {
+      "type": "choice",
+      "text": "As soon as the taxi ___, we'll be able to leave for the airport.",
+      "options": [
+       "arrives",
+       "will arrive"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After as soon as → simple present."
+     },
+     {
+      "type": "choice",
+      "text": "After I get home, I ___ dinner.",
+      "options": [
+       "eat",
+       "will eat"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The main part takes will."
+     },
+     {
+      "type": "learn",
+      "title": "Either part can come first",
+      "lines": [
+       "Time clause first? Add a comma."
+      ],
+      "chips": [
+       "When he comes, we'll see him.",
+       "We'll see him when he comes."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "while + -ing, after + have done",
+      "lines": [
+       "while: something in progress → am / is / are + -ing.",
+       "after: have finished = finish."
+      ],
+      "chips": [
+       "while I am traveling",
+       "after I finish = after I have finished"
+      ],
+      "examples": [
+       {
+        "text": "While I am traveling in Europe next year, I'm going to stay in youth hostels.",
+        "hl": [
+         [
+          "am traveling",
+          "prog"
+         ],
+         [
+          "'m going to stay",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I will go to bed after I ___ my work.",
+      "options": [
+       "will finish",
+       "finish"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After after → present, not will."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "After when / before / after / as soon as / until / while → simple present.",
+     "The other part of the sentence takes will or be going to."
+    ],
+    "timeline": [
+     "time-clause"
+    ],
+    "examples": [
+     {
+      "text": "When Bob comes, we will see him.",
+      "hl": [
+       [
+        "comes",
+        "pres"
+       ],
+       [
+        "will see",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "I'll wait here until they come.",
+      "hl": [
+       [
+        "'ll wait",
+        "fut"
+       ],
+       [
+        "come",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Chores",
+     "icon": "🧼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "After the rain ___, I am going to wash the car.",
+       "options": [
+        "stops",
+        "will stop"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After after → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "I'm going to vacuum the inside before I ___.",
+       "options": [
+        "quit",
+        "will quit"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After before → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "Are you going to help me before you ___ to your friend's?",
+       "options": [
+        "go",
+        "will go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After before → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "My dad ___ the garage after he has lunch.",
+       "options": [
+        "cleans",
+        "is going to clean"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "choice",
+       "text": "My dad is going to clean the garage after he ___ lunch.",
+       "options": [
+        "has",
+        "will have"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After after → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "While he ___ the garage later, he is going to listen to podcasts.",
+       "options": [
+        "is cleaning",
+        "will clean"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After while → present (in progress)."
+      },
+      {
+       "type": "choice",
+       "text": "While he is cleaning the garage later, he ___ to podcasts.",
+       "options": [
+        "listens",
+        "is going to listen"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "choice",
+       "text": "The garage ___ great after he finishes tonight.",
+       "options": [
+        "is",
+        "will look"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The main part → will."
+      },
+      {
+       "type": "choice",
+       "text": "The garage will look great after he ___ tonight.",
+       "options": [
+        "finishes",
+        "will finish"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After after → simple present."
+      }
+     ]
+    },
+    {
+     "title": "Big plans",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I ___ to an English language course while I am sleeping tonight.",
+       "verb": "listen",
+       "accept": [
+        "am going to listen"
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "I am going to listen to an English course while I ___ tonight.",
+       "verb": "sleep",
+       "accept": [
+        "am sleeping",
+        "sleep"
+       ],
+       "why": "After while → present, in progress."
+      },
+      {
+       "type": "fill",
+       "text": "Bakir will be here soon. I ___ here until he comes.",
+       "verb": "wait",
+       "accept": [
+        "am going to wait"
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "I am going to wait here until he ___.",
+       "verb": "come",
+       "accept": [
+        "comes"
+       ],
+       "why": "After until → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "As soon as the snow ___, I am going to walk to the store.",
+       "verb": "stop",
+       "accept": [
+        "stops"
+       ],
+       "why": "After as soon as → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "As soon as the snow stops, I ___ to the store and buy some groceries.",
+       "verb": "walk",
+       "accept": [
+        "am going to walk"
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "After Michelle ___ with a B.A. next year, she is going to enter graduate school.",
+       "verb": "graduate",
+       "accept": [
+        "graduates"
+       ],
+       "why": "After after → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "After she graduates, she ___ graduate school and work on an M.A.",
+       "verb": "enter",
+       "accept": [
+        "is going to enter"
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "Then she ___ on for her Ph.D. after she gets her master's degree.",
+       "verb": "go",
+       "accept": [
+        "is going to go"
+       ],
+       "why": "The main part → be going to."
+      },
+      {
+       "type": "fill",
+       "text": "She is going to go on for her Ph.D. after she ___ her master's degree.",
+       "verb": "get",
+       "accept": [
+        "gets"
+       ],
+       "why": "After after → simple present."
+      }
+     ]
+    },
+    {
+     "title": "Interview questions",
+     "icon": "🎙️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "What are you going to do as soon as class ___ today?",
+       "verb": "end",
+       "accept": [
+        "ends"
+       ],
+       "why": "After as soon as → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "Before you ___ to bed tonight, what are you going to do?",
+       "verb": "go",
+       "accept": [
+        "go"
+       ],
+       "why": "After before → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "What are you going to do after you ___ up tomorrow?",
+       "verb": "wake",
+       "accept": [
+        "wake"
+       ],
+       "why": "After after → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "What are you going to do when you ___ free time this weekend?",
+       "verb": "have",
+       "accept": [
+        "have"
+       ],
+       "why": "After when → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "After you ___ this course, what are you going to do?",
+       "verb": "complete",
+       "accept": [
+        "complete"
+       ],
+       "why": "After after → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "They are going to come soon. I'll wait here until they ___.",
+       "verb": "come",
+       "accept": [
+        "come"
+       ],
+       "why": "After until → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "I will go to bed after I ___ my work.",
+       "verb": "finish",
+       "accept": [
+        "finish",
+        "have finished"
+       ],
+       "why": "finish or have finished. Not will."
+      },
+      {
+       "type": "fill",
+       "text": "Linda is going to leave soon. Before she ___, she is going to finish her work.",
+       "verb": "leave",
+       "accept": [
+        "leaves"
+       ],
+       "why": "After before → simple present."
+      }
+     ]
+    },
+    {
+     "title": "Tia's business trip: find the mistakes",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "errorfix",
+       "text": "Tia [need] to leave work early.",
+       "options": [
+        "Tia needing to leave work early.",
+        "Tia needs to leave work early.",
+        "Tia will needs to leave work early."
+       ],
+       "answer": 1,
+       "why": "Tia = she → needs.",
+       "rule": "1-1"
+      },
+      {
+       "type": "errorfix",
+       "text": "She is going to prepare for her business trip when she [will get] home.",
+       "options": [
+        "She is going to prepare for her business trip when she gets home.",
+        "She is going to prepare for her business trip when she is going to get home.",
+        "She is going to prepare for her business trip when she getting home."
+       ],
+       "answer": 0,
+       "why": "After when → simple present: gets.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "After she [is packing] her suitcase, she [rehearse] her presentation.",
+       "options": [
+        "After she will pack her suitcase, she is going to rehearse her presentation.",
+        "After she packs her suitcase, she rehearse her presentation.",
+        "After she packs her suitcase, she is going to rehearse her presentation."
+       ],
+       "answer": 2,
+       "why": "after + present. Main part: is going to.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "Her father is going to watch her presentation after he [is finishing] dinner.",
+       "options": [
+        "Her father is going to watch her presentation after he finishes dinner.",
+        "Her father is going to watch her presentation after he will finish dinner.",
+        "Her father is going to watch her presentation after he finish dinner."
+       ],
+       "answer": 0,
+       "why": "After after → simple present: finishes.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "While he [watch], Tia is going to ask him for honest feedback.",
+       "options": [
+        "While he will watch, Tia is going to ask him for honest feedback.",
+        "While he is watching, Tia is going to ask him for honest feedback.",
+        "While he watching, Tia is going to ask him for honest feedback."
+       ],
+       "answer": 1,
+       "why": "while + in progress → is watching.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "After she [is practicing] several times, she will not feel so nervous.",
+       "options": [
+        "After she will practice several times, she will not feel so nervous.",
+        "After she practice several times, she will not feel so nervous.",
+        "After she practices several times, she will not feel so nervous."
+       ],
+       "answer": 2,
+       "why": "After after → simple present: practices.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "She will [pays] some bills and [sending] a few work emails before she [is going] to bed.",
+       "options": [
+        "She will pay some bills and send a few work emails before she goes to bed.",
+        "She will pay some bills and sending a few work emails before she will go to bed.",
+        "She will pays some bills and send a few work emails before she goes to bed."
+       ],
+       "answer": 0,
+       "why": "will + pay, send. before + goes.",
+       "rule": "3-3"
+      },
+      {
+       "type": "errorfix",
+       "text": "She is going to fall asleep quickly because she [is knowing] that she is very tired.",
+       "options": [
+        "She is going to fall asleep quickly because she will knowing that she is very tired.",
+        "She is going to fall asleep quickly because she knows that she is very tired.",
+        "She is going to fall asleep quickly because she know that she is very tired."
+       ],
+       "answer": 1,
+       "why": "know is a state verb → knows.",
+       "rule": "1-3"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What are you going to do when…?",
+     "task": "Claude interviews you about today and tomorrow. Answer with a time clause.",
+     "claudePrompt": "You are my English speaking partner. I am practicing future time clauses. Ask me questions one at a time, such as: What are you going to do as soon as you finish studying today? What are you going to do before you go to bed tonight? What are you going to do after you wake up tomorrow? What are you going to do when you have free time this weekend? I must answer with a full sentence that repeats the time clause (for example: After I wake up tomorrow, I'm going to ...). Check that I use the simple present in the time clause and never 'will' after when, before, after, as soon as, until."
+    }
+   ]
+  },
+  {
+   "id": "3-4",
+   "tag": "3-4",
+   "t": "prog",
+   "title": "Present for the future",
+   "full": "Using the Present Progressive and the Simple Present to Express Future Time",
+   "lesson": {
+    "title": "Learn: present forms, future meaning",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A plan? Use -ing",
+      "lines": [
+       "am / is / are + -ing can mean the future.",
+       "Only for planned things."
+      ],
+      "visual": [
+       "present-future"
+      ],
+      "examples": [
+       {
+        "text": "She is seeing Dr. North next Tuesday.",
+        "hl": [
+         [
+          "is seeing",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "Sam is leaving at noon tomorrow.",
+        "hl": [
+         [
+          "is leaving",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Look for a future time word",
+      "lines": [
+       "The time word tells you it's the future."
+      ],
+      "chips": [
+       "next Tuesday",
+       "at noon tomorrow",
+       "later tonight",
+       "this afternoon",
+       "next week"
+      ],
+      "examples": [
+       {
+        "text": "After lunch, I am meeting a friend of mine.",
+        "hl": [
+         [
+          "am meeting",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm meeting a friend at the airport later tonight. When?",
+      "options": [
+       "Now",
+       "In the future"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "later tonight = future."
+     },
+     {
+      "type": "learn",
+      "title": "Not for rain",
+      "lines": [
+       "Rain is not a plan.",
+       "So no -ing for the future."
+      ],
+      "chips": [
+       "❌ It is raining tomorrow.",
+       "✅ It is going to rain tomorrow."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A timetable? Simple present",
+      "lines": [
+       "Schedules and timetables use the simple present."
+      ],
+      "visual": [
+       "present-future"
+      ],
+      "chips": [
+       "open",
+       "close",
+       "begin",
+       "end",
+       "start",
+       "finish",
+       "arrive",
+       "leave",
+       "come",
+       "return"
+      ],
+      "examples": [
+       {
+        "text": "The museum opens at 10:00 tomorrow morning.",
+        "hl": [
+         [
+          "opens",
+          "pres"
+         ]
+        ]
+       },
+       {
+        "text": "John's plane arrives at 6:05 P.M. next Monday.",
+        "hl": [
+         [
+          "arrives",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Classes ___ next week.",
+      "options": [
+       "begin",
+       "are begin"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A schedule → simple present."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A planned event → am / is / are + -ing: I'm meeting him tomorrow.",
+     "A timetable → simple present: The plane arrives at 6:05."
+    ],
+    "timeline": [
+     "present-future"
+    ],
+    "examples": [
+     {
+      "text": "Sam is leaving at noon tomorrow.",
+      "hl": [
+       [
+        "is leaving",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "The museum opens at 10:00 tomorrow morning.",
+      "hl": [
+       [
+        "opens",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Now or later?",
+     "icon": "🛫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I'm having dinner at the airport later tonight.",
+       "options": [
+        "present meaning",
+        "future meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "later tonight = future."
+      },
+      {
+       "type": "choice",
+       "text": "I'm meeting a friend there.",
+       "options": [
+        "present meaning",
+        "future meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Still about later tonight.",
+       "ctx": "Later tonight at the airport"
+      },
+      {
+       "type": "choice",
+       "text": "We're taking a flight at midnight.",
+       "options": [
+        "present meaning",
+        "future meaning"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "at midnight (tonight) = future."
+      },
+      {
+       "type": "choice",
+       "text": "My wife has an appointment. She ___ Dr. North next Tuesday.",
+       "options": [
+        "saw",
+        "is seeing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A planned event → is seeing."
+      },
+      {
+       "type": "choice",
+       "text": "The museum ___ at 10:00 tomorrow morning.",
+       "options": [
+        "opens",
+        "opened"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A timetable → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "John's plane ___ at 6:05 P.M. next Monday.",
+       "options": [
+        "arrive",
+        "arrives"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A timetable; plane = it → arrives."
+      },
+      {
+       "type": "choice",
+       "text": "Look at those dark clouds. It ___ tomorrow.",
+       "options": [
+        "is raining",
+        "is going to rain"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Rain is not a plan. No -ing for the future."
+      },
+      {
+       "type": "choice",
+       "text": "What are you going to do this afternoon? — After lunch, I ___ a friend of mine.",
+       "options": [
+        "am meeting",
+        "met"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A planned event → am meeting."
+      }
+     ]
+    },
+    {
+     "title": "Future, now, or habit?",
+     "icon": "🔁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Students usually TAKE four courses each semester.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "usually = a habit.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "Why ARE you only TAKING three?",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "This semester = around now.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "Next semester, I AM TAKING five courses to make up.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Next semester = a future plan.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "What ARE you DOING?",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Right now.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "I'M SENDING an email to my parents. It's their anniversary.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Right now.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "That's how they CELEBRATE every year.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "every year = a habit.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "What? Our train LEAVES in five minutes?",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in five minutes = future timetable.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "Yes, it LEAVES every hour on the hour.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "every hour = a habit.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "My brother's birthday is next week. I'M GIVING him a sweater.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "next week = a future plan.",
+       "ask": "The verb in CAPITALS means…"
+      },
+      {
+       "type": "choice",
+       "text": "That's what I usually GIVE my brother.",
+       "options": [
+        "in the future",
+        "now",
+        "habitually"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "usually = a habit.",
+       "ask": "The verb in CAPITALS means…"
+      }
+     ]
+    },
+    {
+     "title": "My plans and my vacation",
+     "icon": "🌴",
+     "items": [
+      {
+       "type": "fill",
+       "text": "How about a cup of coffee? — I can't. I ___ Jennifer at the library at 5:00.",
+       "verb": "meet",
+       "accept": [
+        "am meeting"
+       ],
+       "why": "A plan with a time → am meeting."
+      },
+      {
+       "type": "fill",
+       "text": "Why are you in such a hurry? — I ___ the four o'clock plane to New York.",
+       "verb": "take",
+       "accept": [
+        "am taking"
+       ],
+       "why": "A plan → am taking."
+      },
+      {
+       "type": "fill",
+       "text": "I began smoking again. But I ___ tomorrow, and this time I mean it.",
+       "verb": "quit",
+       "accept": [
+        "am quitting"
+       ],
+       "why": "A firm intention → am quitting."
+      },
+      {
+       "type": "fill",
+       "text": "Your cough sounds terrible! — I ___ Dr. Na later this afternoon.",
+       "verb": "see",
+       "accept": [
+        "am seeing"
+       ],
+       "why": "An appointment → am seeing."
+      },
+      {
+       "type": "fill",
+       "text": "We're not going to fly to Canada. We ___ so we can enjoy the scenery.",
+       "verb": "drive",
+       "accept": [
+        "are driving"
+       ],
+       "why": "A plan → are driving."
+      },
+      {
+       "type": "fill",
+       "text": "This coming Saturday, I ___ my vacation of a lifetime.",
+       "verb": "begin",
+       "accept": [
+        "am beginning"
+       ],
+       "why": "A plan → am beginning."
+      },
+      {
+       "type": "fill",
+       "text": "My plane ___ at six-thirty Saturday morning.",
+       "verb": "leave",
+       "accept": [
+        "leaves"
+       ],
+       "why": "A timetable → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ at the Nusa Dua Beach Hotel.",
+       "verb": "stay",
+       "accept": [
+        "am staying"
+       ],
+       "why": "A plan (hotel is booked) → am staying."
+      },
+      {
+       "type": "choice",
+       "text": "My plane leaves at six-thirty. Why simple present?",
+       "options": [
+        "It is a timetable.",
+        "It happens every day of my life."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Planes follow a schedule."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My dream vacation",
+     "task": "Your ideal vacation starts next week! Tell Claude your plans with present forms.",
+     "claudePrompt": "You are my English speaking partner. Imagine I am going on my ideal vacation next week. Ask me about my plans one question at a time (When are you leaving? What time does your plane leave? Where are you staying? What are you doing on the first day?). I answer with the present progressive for my plans and the simple present for timetables. Check those two forms."
+    }
+   ]
+  },
+  {
+   "id": "3-5",
+   "tag": "3-5",
+   "t": "fut",
+   "title": "In progress later",
+   "full": "Future Progressive",
+   "lesson": {
+    "title": "Learn: will be + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "In the middle of it, later",
+      "lines": [
+       "will be + verb-ing.",
+       "The activity will be in progress at a future time."
+      ],
+      "visual": [
+       "future-progressive"
+      ],
+      "examples": [
+       {
+        "text": "I will be studying when you come.",
+        "hl": [
+         [
+          "will be studying",
+          "fut"
+         ],
+         [
+          "come",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Same picture, three times",
+      "lines": [
+       "Yesterday, now, tomorrow at this time."
+      ],
+      "chips": [
+       "Yesterday: I was sitting in class.",
+       "Now: I am sitting in class.",
+       "Tomorrow: I will be sitting in class."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Tomorrow at this time, I ___ in class.",
+      "options": [
+       "will sitting",
+       "will be sitting",
+       "will be sit"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "will + be + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "With be going to",
+      "lines": [
+       "am / is / are going to + be + -ing."
+      ],
+      "chips": [
+       "I am going to be studying.",
+       "She is going to be working."
+      ],
+      "examples": [
+       {
+        "text": "Don't call me at nine. I am going to be studying at the library.",
+        "hl": [
+         [
+          "am going to be studying",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "It also sounds softer",
+      "lines": [
+       "will be + -ing can just sound more polite."
+      ],
+      "chips": [
+       "I'll pick Susie up early. (plain)",
+       "I'll be picking Susie up early. (softer)"
+      ],
+      "examples": [
+       {
+        "text": "We'll be contacting you shortly about your inquiry.",
+        "hl": [
+         [
+          "'ll be contacting",
+          "fut"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "When I arrive at the airport, my whole family ___ for me.",
+      "options": [
+       "will be waiting",
+       "will waiting"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "In progress at that moment → will be waiting."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "will be + -ing: in progress at a time in the future.",
+     "It can also sound softer and more polite."
+    ],
+    "timeline": [
+     "future-progressive"
+    ],
+    "examples": [
+     {
+      "text": "I will be studying when you come.",
+      "hl": [
+       [
+        "will be studying",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "I'll be picking Susie up early.",
+      "hl": [
+       [
+        "'ll be picking",
+        "fut"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "This time tomorrow",
+     "icon": "🕘",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Right now I ___ in class.",
+       "options": [
+        "am sitting",
+        "was sitting",
+        "will be sitting"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Right now → am sitting."
+      },
+      {
+       "type": "choice",
+       "text": "Yesterday at this time, I ___ in class.",
+       "options": [
+        "am sitting",
+        "was sitting",
+        "will be sitting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Yesterday at this time → was sitting."
+      },
+      {
+       "type": "choice",
+       "text": "Tomorrow at this time, I ___ in class.",
+       "options": [
+        "am sitting",
+        "was sitting",
+        "will be sitting"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Tomorrow at this time → will be sitting."
+      },
+      {
+       "type": "choice",
+       "text": "I will begin to study at seven. You will come at eight. I ___ when you come.",
+       "options": [
+        "will study",
+        "will be studying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Already in progress at eight → will be studying."
+      },
+      {
+       "type": "choice",
+       "text": "Don't call me at nine because I won't be home. I ___ at the library.",
+       "options": [
+        "am going to be studying",
+        "am going to be study"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be going to + be + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "“We'll be contacting you shortly.” How does it sound?",
+       "options": [
+        "Softer and more polite",
+        "Angry"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will be + -ing can soften the message."
+      }
+     ]
+    },
+    {
+     "title": "Busy evening, busy doctor",
+     "icon": "👩‍⚕️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Please don't call after 9:00 tonight. My husband ___ for a test.",
+       "verb": "study",
+       "accept": [
+        "will be studying",
+        "is going to be studying"
+       ],
+       "why": "In progress after 9:00 → will be studying."
+      },
+      {
+       "type": "fill",
+       "text": "And I ___ a project for work.",
+       "verb": "finish",
+       "accept": [
+        "will be finishing",
+        "am going to be finishing"
+       ],
+       "why": "In progress at that time → will be finishing.",
+       "ctx": "After 9:00 tonight"
+      },
+      {
+       "type": "fill",
+       "text": "From early in the morning until lunch, Dr. Roberts ___ patients at her clinic.",
+       "verb": "see",
+       "accept": [
+        "will be seeing",
+        "is going to be seeing"
+       ],
+       "why": "In progress all morning → will be seeing."
+      },
+      {
+       "type": "fill",
+       "text": "After lunch, she ___ research at the hospital.",
+       "verb": "do",
+       "accept": [
+        "will be doing",
+        "is going to be doing"
+       ],
+       "why": "In progress then → will be doing."
+      },
+      {
+       "type": "fill",
+       "text": "In the evening, she ___ to medical students about rural health care.",
+       "verb": "talk",
+       "accept": [
+        "will be talking",
+        "is going to be talking"
+       ],
+       "why": "In progress then → will be talking."
+      },
+      {
+       "type": "choice",
+       "text": "Jill has some medical tests tomorrow and ___ school.",
+       "options": [
+        "won't be attending",
+        "won't attending"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "won't + be + -ing.",
+       "ctx": "A parent's email to a teacher"
+      },
+      {
+       "type": "choice",
+       "text": "I ___ my other children at 3:00 and can get the assignments then.",
+       "options": [
+        "'ll be pick up",
+        "'ll be picking up"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "will + be + -ing."
+      },
+      {
+       "type": "choice",
+       "text": "Why does the parent write “I'll be picking up”, not “I'll pick up”?",
+       "options": [
+        "It sounds softer and more polite.",
+        "It means right now."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will be + -ing softens the tone."
+      }
+     ]
+    },
+    {
+     "title": "When I arrive…",
+     "icon": "🎿",
+     "items": [
+      {
+       "type": "fill",
+       "text": "When I ___ at the airport, my whole family will be waiting for me.",
+       "verb": "arrive",
+       "accept": [
+        "arrive"
+       ],
+       "why": "After when → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "When I arrive at the airport, my whole family ___ for me.",
+       "verb": "wait",
+       "accept": [
+        "will be waiting"
+       ],
+       "why": "In progress at that moment → will be waiting."
+      },
+      {
+       "type": "fill",
+       "text": "When I ___ up tomorrow morning, the sun will be shining.",
+       "verb": "get",
+       "accept": [
+        "get"
+       ],
+       "why": "After when → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "When I get up tomorrow morning, the sun ___.",
+       "verb": "shine",
+       "accept": [
+        "will be shining"
+       ],
+       "why": "In progress then. shine → shining."
+      },
+      {
+       "type": "fill",
+       "text": "The birds ___.",
+       "verb": "sing",
+       "accept": [
+        "will be singing"
+       ],
+       "why": "In progress then → will be singing.",
+       "ctx": "When I get up tomorrow morning…"
+      },
+      {
+       "type": "fill",
+       "text": "And my roommate ___ in bed fast asleep.",
+       "verb": "lie, still",
+       "accept": [
+        "will still be lying"
+       ],
+       "why": "still goes after will. lie → lying."
+      },
+      {
+       "type": "fill",
+       "text": "Just think! Two days from now I ___ in the mountains in Austria.",
+       "verb": "ski",
+       "accept": [
+        "will be skiing"
+       ],
+       "why": "In progress at that time → will be skiing."
+      },
+      {
+       "type": "fill",
+       "text": "Sounds great! I ___ about you.",
+       "verb": "think",
+       "accept": [
+        "will be thinking"
+       ],
+       "why": "will + be + thinking."
+      },
+      {
+       "type": "fill",
+       "text": "Are you going to be in town next Saturday? — No. I ___ my aunt in Chicago.",
+       "verb": "visit",
+       "accept": [
+        "will be visiting"
+       ],
+       "why": "In progress then → will be visiting."
+      },
+      {
+       "type": "fill",
+       "text": "Where are you going to be this evening? — I ___ on my research paper at the library.",
+       "verb": "work",
+       "accept": [
+        "will be working"
+       ],
+       "why": "In progress this evening → will be working."
+      }
+     ]
+    },
+    {
+     "title": "Emails to a teacher",
+     "icon": "📨",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“Hey Prof! How's it going? I need an extension. Thanx ☺”",
+       "options": [
+        "OK for a professor",
+        "Too informal"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No “Hey”, no “Thanx”, no emoji.",
+       "ask": "Is this email OK?"
+      },
+      {
+       "type": "choice",
+       "text": "“Dear Professor Wilson, I'm sorry, but I won't be in class tomorrow. My mother is having surgery…”",
+       "options": [
+        "Polite and clear",
+        "Too informal"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A greeting, a reason, full sentences.",
+       "ask": "Is this email OK?"
+      },
+      {
+       "type": "choice",
+       "text": "“Hope ur doing OK. Sorry i missed ur class. Please send one ASAP!!!”",
+       "options": [
+        "OK for a teacher",
+        "Too informal"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No texting language like “ur”.",
+       "ask": "Is this email OK?"
+      },
+      {
+       "type": "choice",
+       "text": "Which opening is better for a professor?",
+       "options": [
+        "Hey Prof!",
+        "Dear Professor Wilson,"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Dear + title + family name."
+      },
+      {
+       "type": "choice",
+       "text": "Which subject line is better?",
+       "options": [
+        "Jamal Benson absence tomorrow",
+        "hi"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A subject line must be specific."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence sounds more polite?",
+       "options": [
+        "I'll be taking my mother to the hospital.",
+        "I take my mother to hospital, OK?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will be + -ing sounds softer."
+      },
+      {
+       "type": "choice",
+       "text": "Which ending is better?",
+       "options": [
+        "Later, Rob",
+        "Sincerely, Jamal Benson"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Thank you / Sincerely + full name."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What will you be doing?",
+     "task": "Claude asks about exact times in your future. Answer with “I'll be …-ing”.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the future progressive. Ask me one question at a time about exact future times: What will you be doing at 8:00 tonight? At this time tomorrow? Next Saturday afternoon? One year from now? I answer with 'I'll be + verb-ing'. Check that I use will be + -ing."
+    },
+    {
+     "title": "Write to your teacher",
+     "task": "Write a short, polite email to a teacher: you will be absent for three days.",
+     "claudePrompt": "You are my English writing partner. I will write a short formal email to a teacher explaining why I will be absent for three days (the reason can be invented). Check that it has a specific subject line, 'Dear Professor/Mr./Ms. ...', full sentences, no texting language, a polite ending with my full name, and at least one future form such as 'I won't be in class' or 'I'll be ...-ing'. Tell me what is good and fix mistakes one at a time."
+    }
+   ]
+  },
+  {
+   "id": "3-6",
+   "tag": "3-6",
+   "t": "futperf",
+   "title": "Done by then",
+   "full": "Future Perfect and Future Perfect Progressive",
+   "lesson": {
+    "title": "Learn: will have + past participle",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Finished before a future time",
+      "lines": [
+       "will have + past participle.",
+       "Look back from a point in the future."
+      ],
+      "visual": [
+       "future-perfect"
+      ],
+      "examples": [
+       {
+        "text": "I will graduate in June. I will see you in July.",
+        "hl": []
+       },
+       {
+        "text": "By the time I see you, I will have graduated.",
+        "hl": [
+         [
+          "see",
+          "pres"
+         ],
+         [
+          "will have graduated",
+          "futperf"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "by the time + present",
+      "lines": [
+       "by the time + simple present, … will have + part 3."
+      ],
+      "chips": [
+       "by the time I see you",
+       "by June 29th",
+       "when Leo retires",
+       "by then"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "By the time Violet retires, she ___ as a nurse for 40 years.",
+      "options": [
+       "will has worked",
+       "will have worked",
+       "will worked"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "will + have + past participle."
+     },
+     {
+      "type": "learn",
+      "title": "How long by then?",
+      "lines": [
+       "will have been + -ing shows how long."
+      ],
+      "visual": [
+       "future-perfect-prog"
+      ],
+      "examples": [
+       {
+        "text": "I will have been sleeping for two hours by the time Ed gets home.",
+        "hl": [
+         [
+          "will have been sleeping",
+          "futperf"
+         ],
+         [
+          "gets",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Often both are OK",
+      "lines": [
+       "With for + time, both forms can mean the same."
+      ],
+      "chips": [
+       "he will have taught for 45 years",
+       "he will have been teaching for 45 years"
+      ],
+      "tip": "These two tenses are rare. Just know them when you see them."
+     },
+     {
+      "type": "choice",
+      "text": "When Roger leaves the hospital next week, he ___ there for a week.",
+      "options": [
+       "will stay",
+       "will have stayed"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Looking back from that future moment → will have stayed."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "will have + past participle: finished before a future time.",
+     "will have been + -ing: how long, by a future time."
+    ],
+    "timeline": [
+     "future-perfect",
+     "future-perfect-prog"
+    ],
+    "examples": [
+     {
+      "text": "By the time I see you, I will have graduated.",
+      "hl": [
+       [
+        "will have graduated",
+        "futperf"
+       ]
+      ]
+     },
+     {
+      "text": "I will have been sleeping for two hours by the time Ed gets home.",
+      "hl": [
+       [
+        "will have been sleeping",
+        "futperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Leo retires",
+     "icon": "🎉",
+     "items": [
+      {
+       "type": "order",
+       "text": "Leo will work until December 30th, and then he will retire.",
+       "events": [
+        "Leo retires",
+        "Leo works"
+       ],
+       "first": 1,
+       "why": "First he works, then he retires."
+      },
+      {
+       "type": "order",
+       "text": "When Leo retires, he will have worked at the same company for 30 years.",
+       "events": [
+        "He works at the company",
+        "He retires"
+       ],
+       "first": 0,
+       "why": "will have worked = before he retires."
+      },
+      {
+       "type": "fill",
+       "text": "I will graduate in June. I will see you in July. By the time I see you, I ___.",
+       "verb": "graduate",
+       "accept": [
+        "will have graduated"
+       ],
+       "why": "Finished before July → will have graduated."
+      },
+      {
+       "type": "choice",
+       "text": "I will have been sleeping for two hours by the time Ed ___ home.",
+       "options": [
+        "gets",
+        "will get"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After by the time → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "When Professor Jones retires next month, he ___ for 45 years.",
+       "options": [
+        "will have taught",
+        "will have been teaching",
+        "will teaching"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Both perfect forms are OK here."
+      },
+      {
+       "type": "choice",
+       "text": "When Leo retires, he ___ at the same company for 30 years.",
+       "options": [
+        "will have been working",
+        "will be work"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "How long by then → will have been working."
+      }
+     ]
+    },
+    {
+     "title": "A hospital stay",
+     "icon": "🏥",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Roger will get to the hospital early tomorrow. He ___ there for a week.",
+       "options": [
+        "will stay",
+        "will have stayed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Just a future plan → will stay."
+      },
+      {
+       "type": "choice",
+       "text": "When Roger leaves the hospital, he ___ there a week.",
+       "options": [
+        "will stay",
+        "will have stayed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Looking back from that moment → will have stayed."
+      },
+      {
+       "type": "choice",
+       "text": "After Roger has back surgery, he ___ to the recovery room.",
+       "options": [
+        "will go",
+        "will have gone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The next event → will go."
+      },
+      {
+       "type": "choice",
+       "text": "When Roger wakes up, he ___ asleep for six hours.",
+       "options": [
+        "will be",
+        "will have been"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "How long before he wakes → will have been."
+      },
+      {
+       "type": "choice",
+       "text": "When Roger first walks, he ___ assistance.",
+       "options": [
+        "will need",
+        "will have needed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "At that moment → will need."
+      },
+      {
+       "type": "choice",
+       "text": "By the time Roger can walk unassisted, he ___ many hours of physical therapy.",
+       "options": [
+        "will have",
+        "will have had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before that time → will have had."
+      },
+      {
+       "type": "choice",
+       "text": "Several specialists ___ Roger by the time he goes home.",
+       "options": [
+        "will help",
+        "will have helped"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by the time … → will have helped."
+      }
+     ]
+    },
+    {
+     "title": "Ann and Andy, and the airport",
+     "icon": "💍",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Today is June 15th. They ___ married for two weeks.",
+       "verb": "be",
+       "accept": [
+        "have been"
+       ],
+       "why": "Up to now → have been.",
+       "ctx": "Ann and Andy got married on June 1st."
+      },
+      {
+       "type": "fill",
+       "text": "By June 8th, they ___ married for one week.",
+       "verb": "be",
+       "accept": [
+        "had been"
+       ],
+       "why": "Before a past date → had been.",
+       "ctx": "Today is June 15th. Married on June 1st."
+      },
+      {
+       "type": "fill",
+       "text": "By June 29th, they ___ married for four weeks.",
+       "verb": "be",
+       "accept": [
+        "will have been"
+       ],
+       "why": "Before a future date → will have been.",
+       "ctx": "Today is June 15th. Married on June 1st."
+      },
+      {
+       "type": "fill",
+       "text": "This traffic is terrible. By the time we ___ to the airport, Yuri's plane will have arrived.",
+       "verb": "get",
+       "accept": [
+        "get"
+       ],
+       "why": "After by the time (future) → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "By the time we get to the airport, Yuri's plane ___.",
+       "verb": "arrive, already",
+       "accept": [
+        "will have already arrived",
+        "will already have arrived"
+       ],
+       "why": "Before we get there (future) → will have arrived."
+      },
+      {
+       "type": "fill",
+       "text": "The traffic was terrible. By the time we ___ to the airport, Yuri's plane had arrived.",
+       "verb": "get",
+       "accept": [
+        "got"
+       ],
+       "why": "A past story → simple past: got."
+      },
+      {
+       "type": "fill",
+       "text": "By the time we got to the airport, Yuri's plane ___.",
+       "verb": "arrive, already",
+       "accept": [
+        "had already arrived"
+       ],
+       "why": "Before a past moment → had already arrived."
+      }
+     ]
+    },
+    {
+     "title": "How long by then?",
+     "icon": "🪑",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I came to class at 9:00. Right now it is 10:00. I ___ at this desk for an hour.",
+       "verb": "sit",
+       "accept": [
+        "have been sitting"
+       ],
+       "why": "Up to now → have been sitting."
+      },
+      {
+       "type": "fill",
+       "text": "By 9:30, I ___ here for half an hour.",
+       "verb": "sit",
+       "accept": [
+        "had been sitting"
+       ],
+       "why": "Before a past time → had been sitting.",
+       "ctx": "I came at 9:00. Now it is 10:00."
+      },
+      {
+       "type": "fill",
+       "text": "By 11:00, I ___ here for two hours.",
+       "verb": "sit",
+       "accept": [
+        "will have been sitting"
+       ],
+       "why": "Before a future time → will have been sitting.",
+       "ctx": "I came at 9:00. Now it is 10:00."
+      },
+      {
+       "type": "fill",
+       "text": "The school bus is late. When the bus gets to school, classes ___.",
+       "verb": "begin",
+       "accept": [
+        "will have begun"
+       ],
+       "why": "Before the bus arrives → will have begun."
+      },
+      {
+       "type": "fill",
+       "text": "The teachers ___ since 9:00.",
+       "verb": "teach",
+       "accept": [
+        "will have been teaching"
+       ],
+       "why": "How long by then → will have been teaching.",
+       "ctx": "When the late bus gets to school…"
+      },
+      {
+       "type": "choice",
+       "text": "I'm checking flights right now. By the time you come back from lunch, I ___ our reservation.",
+       "options": [
+        "will have made",
+        "will have been making"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A finished result → will have made."
+      },
+      {
+       "type": "choice",
+       "text": "This is a long car ride. By the time we arrive in Phoenix, we ___ for 20 hours straight.",
+       "options": [
+        "will have driven",
+        "will have been driving"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "How long, non-stop → will have been driving."
+      },
+      {
+       "type": "choice",
+       "text": "Don't worry about this work. By the time you get back, we ___ the project.",
+       "options": [
+        "will have finished",
+        "will have been finishing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "finish = one completed act → will have finished."
+      },
+      {
+       "type": "choice",
+       "text": "By the time the swimmers reach the finish line, they ___ steadily for more than two hours.",
+       "options": [
+        "will have swum",
+        "will have been swimming"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "How long, without stopping → will have been swimming."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "By 2035, I will have…",
+     "task": "Tell Claude 4 things you will have done by 2035.",
+     "claudePrompt": "You are my English speaking partner. I am practicing the future perfect. Ask me one question at a time: What will you have done by the end of this year? By 2030? By 2035? By the time you are 50? I answer with 'I will have + past participle'. Check the form will have + past participle and that I use the simple present after 'by the time'."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Future Phantom",
+  "icon": "👻",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Marnie will [makes] a good project manager. She has strong leadership skills.",
+    "options": [
+     "Marnie will to make a good project manager. She has strong leadership skills.",
+     "Marnie will make a good project manager. She has strong leadership skills.",
+     "Marnie wills make a good project manager. She has strong leadership skills."
+    ],
+    "answer": 1,
+    "why": "will + simple verb: will make.",
+    "rule": "3-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Where [you will] be after the game finishes?",
+    "options": [
+     "Where will you be after the game finishes?",
+     "Where you will be after the game will finish?",
+     "Where will you be after the game will finish?"
+    ],
+    "answer": 0,
+    "why": "Question: will + subject. After after → present.",
+    "rule": "3-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "The car [no will] start. Maybe it has a dead battery.",
+    "options": [
+     "The car will no start. Maybe it has a dead battery.",
+     "The car isn't start. Maybe it has a dead battery.",
+     "The car won't start. Maybe it has a dead battery."
+    ],
+    "answer": 2,
+    "why": "will + not = won't.",
+    "rule": "3-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [going] to look for a new apartment when my roommate [move] out.",
+    "options": [
+     "I am going to look for a new apartment when my roommate moves out.",
+     "I am going to look for a new apartment when my roommate will move out.",
+     "I going to look for a new apartment when my roommate moves out."
+    ],
+    "answer": 0,
+    "why": "am going to. After when → moves.",
+    "rule": "3-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "After the movie [end], we are going to go out for ice cream.",
+    "options": [
+     "After the movie will end, we are going to go out for ice cream.",
+     "After the movie ends, we are going to go out for ice cream.",
+     "After the movie is going to end, we are going to go out for ice cream."
+    ],
+    "answer": 1,
+    "why": "After after → simple present: ends.",
+    "rule": "3-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "By the time I am 60, my daughter will [has finish] medical school.",
+    "options": [
+     "By the time I am 60, my daughter will has finished medical school.",
+     "By the time I am 60, my daughter will have finish medical school.",
+     "By the time I am 60, my daughter will have finished medical school."
+    ],
+    "answer": 2,
+    "why": "will have + past participle.",
+    "rule": "3-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "Don't worry, honey. Your dad will [picking] you up soon.",
+    "options": [
+     "Don't worry, honey. Your dad will be picking you up soon.",
+     "Don't worry, honey. Your dad will picks you up soon.",
+     "Don't worry, honey. Your dad will to pick you up soon."
+    ],
+    "answer": 0,
+    "why": "will + be + -ing.",
+    "rule": "3-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "My appointment is for 10:15 tomorrow. What time will we be [leave] here?",
+    "options": [
+     "My appointment is for 10:15 tomorrow. What time will we be left here?",
+     "My appointment is for 10:15 tomorrow. What time will we be leaving here?",
+     "My appointment is for 10:15 tomorrow. What time will we be leaves here?"
+    ],
+    "answer": 1,
+    "why": "will be + -ing: be leaving.",
+    "rule": "3-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "As soon as the term [will be] over, I [apply] for a part-time job.",
+    "options": [
+     "As soon as the term will be over, I will apply for a part-time job.",
+     "As soon as the term is over, I apply for a part-time job.",
+     "As soon as the term is over, I am going to apply for a part-time job."
+    ],
+    "answer": 2,
+    "why": "as soon as + present. Main part: future.",
+    "rule": "3-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "By their next anniversary, my parents will [have together] for 43 years.",
+    "options": [
+     "By their next anniversary, my parents will have been together for 43 years.",
+     "By their next anniversary, my parents will be together for 43 years.",
+     "By their next anniversary, my parents will has been together for 43 years."
+    ],
+    "answer": 0,
+    "why": "will have + been.",
+    "rule": "3-6"
+   }
+  ]
+ }
+}

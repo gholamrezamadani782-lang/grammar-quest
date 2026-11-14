@@ -1,0 +1,5074 @@
+{
+ "id": "ch19",
+ "num": 19,
+ "title": "Connectives",
+ "subtitle": "therefore, however, so that, otherwise",
+ "icon": "🚪",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "The clinic received complaints about its care, so it began sending out surveys to its patients.",
+    "answer": "correct",
+    "why": "sentence + , so + sentence.",
+    "rule": "19-1"
+   },
+   {
+    "type": "judge",
+    "text": "Because of the roof was leaking, the living room had water on the floor.",
+    "answer": "wrong",
+    "why": "Clause → Because, not Because of.",
+    "fix": "Because the roof was leaking, the living room had water on the floor.",
+    "rule": "19-2"
+   },
+   {
+    "type": "judge",
+    "text": "The restaurant offers delicious Indian food. Consequently, there is often a line out the door.",
+    "answer": "correct",
+    "why": "Period + Consequently + comma.",
+    "rule": "19-3"
+   },
+   {
+    "type": "judge",
+    "text": "Because most large grocery stores have delis we have been cooking less.",
+    "answer": "wrong",
+    "why": "Clause first → comma.",
+    "fix": "Because most large grocery stores have delis, we have been cooking less.",
+    "rule": "19-4"
+   },
+   {
+    "type": "judge",
+    "text": "Liza got a raise at work; therefore, she celebrated with her husband.",
+    "answer": "correct",
+    "why": "Semicolon + therefore + comma.",
+    "rule": "19-4"
+   },
+   {
+    "type": "judge",
+    "text": "The waiter was such helpful that I tipped him extra.",
+    "answer": "wrong",
+    "why": "Adjective only → so.",
+    "fix": "The waiter was so helpful that I tipped him extra.",
+    "rule": "19-5"
+   },
+   {
+    "type": "judge",
+    "text": "The color of your shirt is so bright that I need to put on my sunglasses!",
+    "answer": "correct",
+    "why": "so + adjective + that.",
+    "rule": "19-5"
+   },
+   {
+    "type": "judge",
+    "text": "Jill exercises at 5:00 A.M. every day so that she can fit it into her day.",
+    "answer": "correct",
+    "why": "so that + can.",
+    "rule": "19-6"
+   },
+   {
+    "type": "judge",
+    "text": "The weather was sunny and warm. Nevertheless, we went to the beach.",
+    "answer": "wrong",
+    "why": "Sunny → beach is expected.",
+    "fix": "The weather was sunny and warm. Therefore, we went to the beach.",
+    "rule": "19-7"
+   },
+   {
+    "type": "judge",
+    "text": "Despite that Andreas is a hard worker, he can't seem to keep a job for more than a few months.",
+    "answer": "wrong",
+    "why": "Before a clause: despite the fact that.",
+    "fix": "Despite the fact that Andreas is a hard worker, he can't seem to keep a job for more than a few months.",
+    "rule": "19-7"
+   },
+   {
+    "type": "judge",
+    "text": "Malea is loud and funny; her twin sister, on the other hand, is quiet and reserved.",
+    "answer": "correct",
+    "why": "Opposites + on the other hand.",
+    "rule": "19-8"
+   },
+   {
+    "type": "judge",
+    "text": "We need to hurry. Otherwise, we'll catch our plane.",
+    "answer": "wrong",
+    "why": "If we don't hurry → miss.",
+    "fix": "We need to hurry. Otherwise, we'll miss our plane.",
+    "rule": "19-9"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "19-1",
+   "tag": "19-1",
+   "t": "plan",
+   "title": "Connecting words",
+   "full": "Connectives: Introduction",
+   "lesson": {
+    "title": "Learn: four kinds of connecting words",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three meanings",
+      "lines": [
+       "Connecting words show cause, contrast, or condition."
+      ],
+      "chips": [
+       {
+        "label": "➡️ cause / effect",
+        "words": [
+         "because",
+         "since",
+         "now that",
+         "therefore",
+         "consequently",
+         "so",
+         "because of",
+         "due to"
+        ]
+       },
+       {
+        "label": "↔️ contrast",
+        "words": [
+         "even though",
+         "although",
+         "while",
+         "however",
+         "nevertheless",
+         "on the other hand",
+         "but",
+         "yet",
+         "despite",
+         "in spite of"
+        ]
+       },
+       {
+        "label": "❓ condition",
+        "words": [
+         "if",
+         "unless",
+         "only if",
+         "even if",
+         "in case",
+         "otherwise",
+         "or (else)"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Four kinds",
+      "lines": [
+       "The kind decides the grammar and the punctuation."
+      ],
+      "visual": [
+       "connectives"
+      ],
+      "chips": [
+       "Because Julian felt sick, he left work early. (clause word)",
+       "Julian had a rash. Consequently, the doctor ran tests. (transition)",
+       "Julian wasn't well, so his doctor told him to rest. (conjunction)",
+       "Due to his illness, Julian missed several days of work. (preposition)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“The doctor ran tests. However, she found nothing serious.” However is…",
+      "options": [
+       "a transition",
+       "a preposition"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "It starts a new sentence and has a comma."
+     },
+     {
+      "type": "choice",
+      "text": "“He stayed home from work because of his illness.” because of is…",
+      "options": [
+       "a conjunction",
+       "a preposition"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It is followed by a noun: his illness."
+     },
+     {
+      "type": "choice",
+      "text": "Tracey was afraid to go by herself, ___ she invited a friend.",
+      "options": [
+       "so",
+       "despite"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A result → so."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Meaning: cause/effect, contrast, or condition.",
+     "Kind: clause word (because), transition (therefore), conjunction (so), preposition (because of)."
+    ],
+    "timeline": [
+     "connectives"
+    ],
+    "examples": [
+     {
+      "text": "Because Julian felt sick, he left work early.",
+      "hl": [
+       [
+        "Because",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Julian had a rash and fever. Consequently, the doctor ran tests.",
+      "hl": [
+       [
+        "Consequently,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Due to his illness, Julian missed several days of work.",
+      "hl": [
+       [
+        "Due to",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What kind of word?",
+     "icon": "🧩",
+     "items": [
+      {
+       "type": "sort",
+       "word": "because",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 0,
+       "why": "because + subject + verb."
+      },
+      {
+       "type": "sort",
+       "word": "therefore",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 1,
+       "why": "New sentence + comma."
+      },
+      {
+       "type": "sort",
+       "word": "so",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 2,
+       "why": "It joins two sentences with a comma."
+      },
+      {
+       "type": "sort",
+       "word": "because of",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 3,
+       "why": "because of + noun."
+      },
+      {
+       "type": "sort",
+       "word": "even though",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 0,
+       "why": "even though + subject + verb."
+      },
+      {
+       "type": "sort",
+       "word": "however",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 1,
+       "why": "New sentence + comma."
+      },
+      {
+       "type": "sort",
+       "word": "but",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 2,
+       "why": "It joins two sentences with a comma."
+      },
+      {
+       "type": "sort",
+       "word": "despite",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 3,
+       "why": "despite + noun."
+      },
+      {
+       "type": "sort",
+       "word": "otherwise",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 1,
+       "why": "New sentence + comma."
+      },
+      {
+       "type": "sort",
+       "word": "unless",
+       "buckets": [
+        "Adverb-clause word",
+        "Transition",
+        "Conjunction",
+        "Preposition"
+       ],
+       "answer": 0,
+       "why": "unless + subject + verb."
+      }
+     ]
+    },
+    {
+     "title": "What does it mean?",
+     "icon": "🧭",
+     "items": [
+      {
+       "type": "sort",
+       "word": "consequently",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 0,
+       "why": "= as a result."
+      },
+      {
+       "type": "sort",
+       "word": "nevertheless",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 1,
+       "why": "An unexpected result."
+      },
+      {
+       "type": "sort",
+       "word": "otherwise",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 2,
+       "why": "= if not."
+      },
+      {
+       "type": "sort",
+       "word": "due to",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 0,
+       "why": "= because of."
+      },
+      {
+       "type": "sort",
+       "word": "in spite of",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 1,
+       "why": "= despite."
+      },
+      {
+       "type": "sort",
+       "word": "now that",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 0,
+       "why": "= because now."
+      },
+      {
+       "type": "sort",
+       "word": "on the other hand",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 1,
+       "why": "The opposite side."
+      },
+      {
+       "type": "sort",
+       "word": "or else",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 2,
+       "why": "= if not."
+      },
+      {
+       "type": "sort",
+       "word": "since",
+       "buckets": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": 0,
+       "why": "= because (a known fact)."
+      }
+     ]
+    },
+    {
+     "title": "A distracted driver",
+     "icon": "📵",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Even though Tracey is afraid of heights, she decided to take a ride in a hot-air balloon.",
+       "options": [
+        "Even though",
+        "decided"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It introduces the adverb clause.",
+       "ask": "Which is the connecting word?"
+      },
+      {
+       "type": "choice",
+       "text": "The balloon traveled over mountains; consequently, the passengers had stunning views.",
+       "options": [
+        "over",
+        "consequently"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A transition: as a result.",
+       "ask": "Which is the connecting word?"
+      },
+      {
+       "type": "choice",
+       "text": "Even though Richard was driving the speed limit, he had an accident.",
+       "options": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Careful speed but an accident.",
+       "ask": "Even though shows…"
+      },
+      {
+       "type": "choice",
+       "text": "The weather was clear; nevertheless, he glanced briefly at a text message.",
+       "options": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "nevertheless = an unexpected result.",
+       "ask": "nevertheless shows…"
+      },
+      {
+       "type": "choice",
+       "text": "This is Richard's second accident this year, so he knows his insurance rates will go up.",
+       "options": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so = the result.",
+       "ask": "so shows…"
+      },
+      {
+       "type": "choice",
+       "text": "Now that he's had two accidents, he's upset with himself.",
+       "options": [
+        "because now",
+        "even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "now that = because now.",
+       "ask": "Now that ="
+      },
+      {
+       "type": "choice",
+       "text": "However, he knows his wife will be even more upset.",
+       "options": [
+        "a transition",
+        "a preposition",
+        "a conjunction"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "New sentence + comma.",
+       "ask": "However is…"
+      },
+      {
+       "type": "judge",
+       "text": "The clinic received complaints about its care, so it began sending out surveys to its patients.",
+       "answer": "correct",
+       "why": "sentence + , so + sentence."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-2",
+   "tag": "19-2",
+   "t": "prog",
+   "title": "Because of the rain",
+   "full": "Using Because Of and Due To",
+   "lesson": {
+    "title": "Learn: because + clause, because of + noun",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "because vs. because of",
+      "lines": [
+       "because + subject + verb. because of / due to + noun."
+      ],
+      "visual": [
+       "because-of"
+      ],
+      "chips": [
+       "Because the weather was cold, we stayed home.",
+       "Because of the cold weather, we stayed home.",
+       "Due to the cold weather, we stayed home."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ the roof was leaking, the living room had water on the floor.",
+      "options": [
+       "Because of",
+       "Because"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "the roof was leaking = subject + verb → Because."
+     },
+     {
+      "type": "learn",
+      "title": "due to the fact that + clause",
+      "lines": [
+       "Formal. It lets you keep a subject and verb."
+      ],
+      "chips": [
+       "Due to the fact that the weather was cold, we stayed home."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "First or last",
+      "lines": [
+       "Phrase first → comma. Phrase last → no comma."
+      ],
+      "chips": [
+       "We stayed home because of the cold weather.",
+       "We stayed home due to the cold weather."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We postponed our trip ___ the bad driving conditions.",
+      "options": [
+       "because",
+       "because of"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "the bad driving conditions = a noun."
+     },
+     {
+      "type": "choice",
+      "text": "Jim had to stop jogging ___ his sprained ankle.",
+      "options": [
+       "due to",
+       "because"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "his sprained ankle = a noun → due to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "because + subject + verb.",
+     "because of / due to + noun. due to the fact that + subject + verb."
+    ],
+    "timeline": [
+     "because-of"
+    ],
+    "examples": [
+     {
+      "text": "Because the weather was cold, we stayed home.",
+      "hl": [
+       [
+        "Because",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Because of the cold weather, we stayed home.",
+      "hl": [
+       [
+        "Because of",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "We stayed home due to the cold weather.",
+      "hl": [
+       [
+        "due to",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The holiday; cause and effect",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "judge",
+       "text": "All schools were closed on Monday because it was a holiday.",
+       "answer": "correct",
+       "why": "because + clause."
+      },
+      {
+       "type": "judge",
+       "text": "Because of the holiday, all schools were closed on Monday.",
+       "answer": "correct",
+       "why": "because of + noun."
+      },
+      {
+       "type": "judge",
+       "text": "Due to the holiday, all schools were closed on Monday.",
+       "answer": "correct",
+       "why": "due to + noun."
+      },
+      {
+       "type": "judge",
+       "text": "Due to the fact that it was a holiday, all schools were closed on Monday.",
+       "answer": "correct",
+       "why": "due to the fact that + clause."
+      },
+      {
+       "type": "judge",
+       "text": "Because all schools were closed on Monday, it was a holiday.",
+       "answer": "wrong",
+       "why": "The cause and effect are reversed.",
+       "fix": "Because it was a holiday, all schools were closed on Monday."
+      },
+      {
+       "type": "choice",
+       "text": "My phone and its battery",
+       "options": [
+        "My cell phone doesn't work because the battery is dead.",
+        "Because my cell phone doesn't work, the battery is dead.",
+        "Because the battery is dead, my cell phone doesn't work.",
+        "The battery is dead because my cell phone doesn't work."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "Dead battery = the cause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Pat and the Yukon",
+       "options": [
+        "Because Pat doesn't want to return to the Yukon to live, the winters are too severe.",
+        "Pat doesn't want to return to the Yukon to live because the winters are too severe.",
+        "Because the winters are too severe, Pat doesn't want to return to the Yukon to live.",
+        "The winters are too severe because Pat doesn't want to return to the Yukon to live."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "Severe winters = the cause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "judge",
+       "text": "Because of the roof was leaking, the living room had water on the floor.",
+       "answer": "wrong",
+       "why": "Clause → Because, not Because of.",
+       "fix": "Because the roof was leaking, the living room had water on the floor."
+      }
+     ]
+    },
+    {
+     "title": "Accomplishments and problems",
+     "icon": "🏅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Jon quit smoking. Jon has breathing problems.",
+       "options": [
+        "Because Jon quit smoking, he has breathing problems.",
+        "Because Jon has breathing problems, he quit smoking."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Breathing problems = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Martina feels homesick. Martina moved to a new town.",
+       "options": [
+        "Because Martina moved to a new town, she feels homesick.",
+        "Because Martina feels homesick, she moved to a new town."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Moving = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Vivian worked very hard. Vivian won a scholarship.",
+       "options": [
+        "Because Vivian won a scholarship, she worked very hard.",
+        "Because Vivian worked very hard, she won a scholarship."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Hard work = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Viktor has lost weight. Viktor reduced his sugar intake.",
+       "options": [
+        "Because Viktor reduced his sugar intake, he has lost weight.",
+        "Because Viktor has lost weight, he reduced his sugar intake."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Less sugar = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Sanae increased her department's profits. Sanae was promoted to manager.",
+       "options": [
+        "Because Sanae was promoted to manager, she increased her department's profits.",
+        "Because Sanae increased her department's profits, she was promoted to manager."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "More profits = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Sue's eyes were red ___ she had been swimming in a chlorinated pool.",
+       "options": [
+        "because",
+        "because of"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "she had been swimming = a clause."
+      },
+      {
+       "type": "choice",
+       "text": "We can't visit the museum tomorrow ___ it isn't open.",
+       "options": [
+        "because",
+        "due to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "it isn't open = a clause."
+      },
+      {
+       "type": "choice",
+       "text": "___ heavy fog at the airport, our plane was delayed for several hours.",
+       "options": [
+        "Because",
+        "Because of"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "heavy fog = a noun."
+      },
+      {
+       "type": "choice",
+       "text": "___ the elevator was broken, we had to walk up six flights of stairs.",
+       "options": [
+        "Because",
+        "Due to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the elevator was broken = a clause."
+      },
+      {
+       "type": "choice",
+       "text": "Jim had to stop jogging ___ his sprained ankle.",
+       "options": [
+        "because",
+        "because of"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "his sprained ankle = a noun."
+      }
+     ]
+    },
+    {
+     "title": "News reports",
+     "icon": "📻",
+     "items": [
+      {
+       "type": "choice",
+       "text": "(The traffic was heavy.) Due to ___, alternate routes are advised into the city.",
+       "options": [
+        "heavy traffic",
+        "the traffic was heavy"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "due to + noun."
+      },
+      {
+       "type": "choice",
+       "text": "(Students have the flu.) Many schools in the district have high absentee rates because of ___.",
+       "options": [
+        "students have the flu",
+        "the flu"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "because of + noun."
+      },
+      {
+       "type": "choice",
+       "text": "(There are loud noises at the beach.) Police are investigating reports of illegal fireworks because of ___.",
+       "options": [
+        "loud noises at the beach",
+        "there are loud noises at the beach"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "because of + noun."
+      },
+      {
+       "type": "choice",
+       "text": "(Circumstances are beyond their control.) Due to ___, all City Hall offices are closed today.",
+       "options": [
+        "circumstances are beyond their control",
+        "circumstances beyond their control"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "due to + noun (no verb)."
+      },
+      {
+       "type": "choice",
+       "text": "(The donors are generous.) Due to ___, the food banks have enough food for the holidays.",
+       "options": [
+        "generous donors",
+        "the donors are generous"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "due to + noun."
+      },
+      {
+       "type": "choice",
+       "text": "Due to the fact that ___, alternate routes are advised.",
+       "options": [
+        "heavy traffic",
+        "the traffic is heavy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the fact that + clause."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-3",
+   "tag": "19-3",
+   "t": "plan",
+   "title": "Therefore, so",
+   "full": "Cause and Effect: Using Therefore, Consequently, and So",
+   "lesson": {
+    "title": "Learn: therefore and consequently",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "therefore = as a result",
+      "lines": [
+       "It goes in the SECOND sentence. Period first!"
+      ],
+      "visual": [
+       "therefore"
+      ],
+      "chips": [
+       "Al didn't study. Therefore, he failed the test.",
+       "Al didn't study. Consequently, he failed the test."
+      ],
+      "tip": "Formal. In speaking, people say so."
+     },
+     {
+      "type": "learn",
+      "title": "A transition can move",
+      "lines": [
+       "Commas go around it."
+      ],
+      "chips": [
+       "Al didn't study. Therefore, he failed the test.",
+       "Al didn't study. He, therefore, failed the test.",
+       "Al didn't study. He failed the test, therefore."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "Al didn't study, therefore, he failed the test.",
+       "Al didn't study. Therefore, he failed the test."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Two sentences → a period, not a comma."
+     },
+     {
+      "type": "learn",
+      "title": "so: one sentence, one comma",
+      "lines": [
+       "so is a conjunction."
+      ],
+      "chips": [
+       "Al didn't study, so he failed the test."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The restaurant offers delicious Indian food. ___, there is often a line out the door.",
+      "options": [
+       "Consequently",
+       "Because"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A result in a new sentence → Consequently."
+     },
+     {
+      "type": "choice",
+      "text": "Nadia likes fresh vegetables. Therefore, ___",
+      "options": [
+       "she buys canned vegetables at the store.",
+       "she has a vegetable garden in her yard."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Fresh → her own garden."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Sentence. Therefore, / Consequently, + result. (Or a semicolon: …; therefore, …)",
+     "Sentence, so + result."
+    ],
+    "timeline": [
+     "therefore"
+    ],
+    "examples": [
+     {
+      "text": "Al didn't study. Therefore, he failed the test.",
+      "hl": [
+       [
+        "Therefore,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Al didn't study, so he failed the test.",
+      "hl": [
+       [
+        ", so",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Nadia's vegetables",
+     "icon": "🥕",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Therefore, she has a vegetable garden in her yard.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 0,
+       "why": "Fresh vegetables → a garden."
+      },
+      {
+       "type": "sort",
+       "word": "As a result, she doesn't grow her own vegetables.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 1,
+       "why": "That is the opposite result."
+      },
+      {
+       "type": "sort",
+       "word": "Therefore, she buys canned vegetables at the store.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 1,
+       "why": "Canned is not fresh."
+      },
+      {
+       "type": "sort",
+       "word": "As a result, she buys produce from local farmers.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 0,
+       "why": "Local produce is fresh."
+      },
+      {
+       "type": "sort",
+       "word": "She eats a lot of frozen vegetables, therefore.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 1,
+       "why": "Frozen is not fresh."
+      },
+      {
+       "type": "sort",
+       "word": "Consequently, she eats produce from her garden.",
+       "buckets": [
+        "Logical",
+        "Not logical"
+       ],
+       "answer": 0,
+       "why": "Garden produce is fresh."
+      },
+      {
+       "type": "judge",
+       "text": "The restaurant offers delicious Indian food. Consequently, there is often a line out the door.",
+       "answer": "correct",
+       "why": "Period + Consequently + comma."
+      }
+     ]
+    },
+    {
+     "title": "The runner; the coat",
+     "icon": "🏃",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The runner can compete in races because he wears a special blade attached at his knee. (therefore)",
+       "options": [
+        "The runner wears a special blade attached at his knee. Therefore, he can compete in races.",
+        "The runner can compete in races. Therefore, he wears a special blade attached at his knee."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The blade = the cause, so it comes first.",
+       "ask": "Rewrite"
+      },
+      {
+       "type": "choice",
+       "text": "(consequently)",
+       "options": [
+        "The runner wears a special blade attached at his knee, consequently he can compete in races.",
+        "The runner wears a special blade attached at his knee. Consequently, he can compete in races."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period, then Consequently + comma.",
+       "ask": "Rewrite",
+       "ctx": "The runner can compete in races because he wears a special blade."
+      },
+      {
+       "type": "choice",
+       "text": "(so)",
+       "options": [
+        "The runner wears a special blade attached at his knee, so he can compete in races.",
+        "The runner wears a special blade attached at his knee. So, he can compete in races, so."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "sentence + , so + sentence.",
+       "ask": "Rewrite",
+       "ctx": "The runner can compete in races because he wears a special blade."
+      },
+      {
+       "type": "choice",
+       "text": "Because it was cold she wore a coat.",
+       "options": [
+        "Because it was cold. She wore a coat.",
+        "Because it was cold, she wore a coat."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first → comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "She wore a coat because it was cold.",
+       "options": [
+        "She wore a coat because it was cold.",
+        "She wore a coat, because it was cold."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clause second → no change.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Because of the cold weather she wore a coat.",
+       "options": [
+        "Because of, the cold weather she wore a coat.",
+        "Because of the cold weather, she wore a coat."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Phrase first → comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The weather was cold therefore she wore a coat.",
+       "options": [
+        "The weather was cold. Therefore, she wore a coat.",
+        "The weather was cold, therefore she wore a coat."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + Therefore + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The weather was cold she wore a coat therefore.",
+       "options": [
+        "The weather was cold, she wore a coat therefore.",
+        "The weather was cold. She wore a coat, therefore."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period; comma before therefore.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The weather was cold so she wore a coat.",
+       "options": [
+        "The weather was cold, so she wore a coat.",
+        "The weather was cold. So, she wore, a coat."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma before so.",
+       "ask": "Choose the correct punctuation"
+      }
+     ]
+    },
+    {
+     "title": "A storm",
+     "icon": "🌨️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Freezing rain fell on the city it was unsafe to walk outside because of slippery streets and falling branches.",
+       "options": [
+        "Freezing rain fell on the city, it was unsafe to walk outside, because of slippery streets and falling branches.",
+        "Freezing rain fell on the city. It was unsafe to walk outside because of slippery streets and falling branches."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Due to improvements in weather forecasting people knew about the storm well in advance.",
+       "options": [
+        "Due to improvements in weather forecasting, people knew about the storm well in advance.",
+        "Due to improvements, in weather forecasting people knew about the storm well in advance."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Phrase first → comma after it.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The storm damaged the power lines consequently the town was without electricity.",
+       "options": [
+        "The storm damaged the power lines, consequently the town was without electricity.",
+        "The storm damaged the power lines. Consequently, the town was without electricity."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period + Consequently + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Due to the snowstorm only two students came to class the teacher therefore canceled the class.",
+       "options": [
+        "Due to the snowstorm, only two students came to class. The teacher, therefore, canceled the class.",
+        "Due to the snowstorm only two students came to class, the teacher therefore, canceled the class."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma after the phrase; period; commas around therefore.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "judge",
+       "text": "Al didn't study, therefore, he failed the test.",
+       "answer": "wrong",
+       "why": "Two sentences → period or semicolon.",
+       "fix": "Al didn't study. Therefore, he failed the test."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-4",
+   "tag": "19-4",
+   "t": "plan",
+   "title": "Period, comma, semicolon",
+   "full": "Summary of Patterns and Punctuation",
+   "lesson": {
+    "title": "Learn: one idea, four patterns",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Four patterns",
+      "lines": [
+       "Same meaning. Different punctuation."
+      ],
+      "chips": [
+       "Because it was hot, we went swimming. (clause word)",
+       "Because of the hot weather, we went swimming. (preposition)",
+       "It was hot. Therefore, we went swimming. (transition)",
+       "It was hot, so we went swimming. (conjunction)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "The semicolon ;",
+      "lines": [
+       "It can replace a period between two close sentences. Small letter after it."
+      ],
+      "visual": [
+       "therefore"
+      ],
+      "chips": [
+       "It was hot; therefore, we went swimming.",
+       "Peanuts are not nuts; they are beans."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Liza got a raise at work___ therefore, she celebrated with her husband.",
+      "options": [
+       ";",
+       ","
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Before a transition: period or semicolon."
+     },
+     {
+      "type": "choice",
+      "text": "Because most large grocery stores have delis___ we have been cooking less.",
+      "options": [
+       ",",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Adverb clause first → comma."
+     },
+     {
+      "type": "choice",
+      "text": "Robert got some new business software that didn't work___ so he emailed the company.",
+      "options": [
+       ",",
+       ";"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Before so → a comma."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Clause word / preposition first → comma. Conjunction (so, but) → comma before it.",
+     "Transition → period or semicolon before it, comma after it."
+    ],
+    "timeline": [
+     "therefore"
+    ],
+    "examples": [
+     {
+      "text": "It was hot; therefore, we went swimming.",
+      "hl": [
+       [
+        "; therefore,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "It was hot, so we went swimming.",
+      "hl": [
+       [
+        ", so",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Because of the hot weather, we went swimming.",
+      "hl": [
+       [
+        "Because of the hot weather,",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Yoga and more",
+     "icon": "🧘",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Some doctors recommend yoga for their patients. Because it can lower stress.",
+       "answer": "wrong",
+       "why": "A because-clause can't stand alone.",
+       "fix": "Some doctors recommend yoga for their patients because it can lower stress."
+      },
+      {
+       "type": "judge",
+       "text": "Because yoga can lower stress some doctors recommend it for their patients.",
+       "answer": "wrong",
+       "why": "Clause first → comma.",
+       "fix": "Because yoga can lower stress, some doctors recommend it for their patients."
+      },
+      {
+       "type": "judge",
+       "text": "Yoga can lower stress. Some doctors, therefore, recommend it for their patients.",
+       "answer": "correct",
+       "why": "Period; commas around therefore."
+      },
+      {
+       "type": "judge",
+       "text": "Yoga can lower stress, so some doctors recommend it for their patients.",
+       "answer": "correct",
+       "why": "Comma before so."
+      },
+      {
+       "type": "choice",
+       "text": "Wearing a hat",
+       "options": [
+        "It is important to wear a hat on cold days, since we lose 60% of our body heat through our head.",
+        "Since we lose about 60% of our body heat through our head, it is important to wear a hat on cold days.",
+        "It is important to wear a hat on cold days since we lose about 60% of our body heat through our head."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "Clause first → comma. Clause second → no comma.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Bill's car",
+       "options": [
+        "Bill's car wouldn't start; therefore, he couldn't pick us up after the concert.",
+        "Bill's car wouldn't start. Therefore, he couldn't pick us up after the concert.",
+        "Bill's car wouldn't start, therefore, he couldn't pick us up after the concert."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Semicolon or period, not a comma.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Robert's software",
+       "options": [
+        "Robert got some new business software that didn't work; so he emailed the software company.",
+        "Robert got some new business software that didn't work, so he emailed the software company.",
+        "Robert got some new business software that didn't work so he emailed the software company."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma before so.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "judge",
+       "text": "Because most large grocery stores have delis we have been cooking less.",
+       "answer": "wrong",
+       "why": "Clause first → comma.",
+       "fix": "Because most large grocery stores have delis, we have been cooking less."
+      },
+      {
+       "type": "judge",
+       "text": "Liza got a raise at work; therefore, she celebrated with her husband.",
+       "answer": "correct",
+       "why": "Semicolon + therefore + comma."
+      }
+     ]
+    },
+    {
+     "title": "We postponed our trip",
+     "icon": "🚙",
+     "items": [
+      {
+       "type": "choice",
+       "text": "(therefore)",
+       "options": [
+        "We postponed our trip. Therefore, the weather was bad.",
+        "The weather was bad. Therefore, we postponed our trip."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cause first, then Therefore + result.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      },
+      {
+       "type": "choice",
+       "text": "(since)",
+       "options": [
+        "Since the weather was bad, we postponed our trip.",
+        "Since we postponed our trip, the weather was bad."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "since + the cause.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      },
+      {
+       "type": "choice",
+       "text": "(so)",
+       "options": [
+        "The weather was bad so, we postponed our trip.",
+        "The weather was bad, so we postponed our trip."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma before so.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      },
+      {
+       "type": "choice",
+       "text": "(because of)",
+       "options": [
+        "We postponed our trip because of the bad weather.",
+        "We postponed our trip because of the weather was bad."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "because of + noun.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      },
+      {
+       "type": "choice",
+       "text": "(consequently)",
+       "options": [
+        "The weather was bad, consequently we postponed our trip.",
+        "The weather was bad; consequently, we postponed our trip."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Semicolon (or period) + consequently + comma.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      },
+      {
+       "type": "choice",
+       "text": "(due to the fact that)",
+       "options": [
+        "We postponed our trip due to the fact that the weather was bad.",
+        "We postponed our trip due to the fact that the bad weather."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the fact that + clause.",
+       "ask": "Combine",
+       "ctx": "We postponed our trip. The weather was bad."
+      }
+     ]
+    },
+    {
+     "title": "Did you know…?",
+     "icon": "🐫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A camel can go without water for eight to ten days. It is an ideal animal for desert areas. (due to the fact that)",
+       "options": [
+        "Due to the fact that it is an ideal animal for desert areas, a camel can go without water for eight to ten days.",
+        "Due to the fact that a camel can go without water for eight to ten days, it is an ideal animal for desert areas."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No water needed = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "A tomato is classified as a fruit, but most people consider it a vegetable. It is often eaten in salads. (since)",
+       "options": [
+        "A tomato is classified as a fruit, but most people consider it a vegetable since it is often eaten in salads.",
+        "Since most people consider it a vegetable, a tomato is often eaten in salads with a fruit."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Eaten in salads = the reason.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There is a consumer demand for ivory. Many African elephants are being slaughtered ruthlessly. (due to)",
+       "options": [
+        "Due to there is a consumer demand for ivory, many African elephants are being slaughtered ruthlessly.",
+        "Due to consumer demand for ivory, many African elephants are being slaughtered ruthlessly."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "due to + noun.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Many elephants are being slaughtered. Many people refuse to buy any item made from ivory. (consequently)",
+       "options": [
+        "Many elephants are being slaughtered. Consequently, many people refuse to buy any item made from ivory.",
+        "Many elephants are being slaughtered, consequently, many people refuse to buy any item made from ivory."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + Consequently + comma.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Most 15th-century Europeans believed the world was flat. Many sailors refused to venture forth into unknown waters. (because)",
+       "options": [
+        "Because many sailors refused to venture forth, most 15th-century Europeans believed the world was flat.",
+        "Because most 15th-century Europeans believed the world was flat, many sailors refused to venture forth into unknown waters."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The belief = the cause.",
+       "ask": "Combine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-5",
+   "tag": "19-5",
+   "t": "plan",
+   "title": "So hot that…",
+   "full": "Other Ways of Expressing Cause and Effect: Such … That and So … That",
+   "lesson": {
+    "title": "Learn: so … that / such … that",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "so + adjective, such + noun",
+      "lines": [
+       "Both give a cause. that + the result."
+      ],
+      "visual": [
+       "so-such"
+      ],
+      "chips": [
+       "The weather was so nice that we went to the zoo.",
+       "It was such nice weather that we went to the zoo.",
+       "It was such a foggy day that we couldn't see the road."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The waiter was ___ helpful that I tipped him extra.",
+      "options": [
+       "such",
+       "so"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "helpful = adjective (no noun) → so."
+     },
+     {
+      "type": "learn",
+      "title": "so fast, so many, so little",
+      "lines": [
+       "so + adverb. so + many / few / much / little."
+      ],
+      "chips": [
+       "She speaks so fast that I can't understand her.",
+       "She made so many mistakes that she failed the exam.",
+       "He has so few friends that he is always lonely.",
+       "She has so much money that she can buy whatever she wants.",
+       "He had so little trouble that he left 20 minutes early."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It was ___ an enjoyable party that no one wanted to leave.",
+      "options": [
+       "so",
+       "such"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "an enjoyable party = noun → such."
+     },
+     {
+      "type": "choice",
+      "text": "We had ___ much fun that no one wanted to leave.",
+      "options": [
+       "so",
+       "such"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "so + much."
+     },
+     {
+      "type": "learn",
+      "title": "that can disappear",
+      "lines": [
+       "In speaking, that is often dropped."
+      ],
+      "chips": [
+       "It was such a good book (that) I couldn't put it down.",
+       "I was so hungry (that) I didn't wait for dinner."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "so + adjective / adverb + that. so + many / few / much / little + noun + that.",
+     "such + (a) + adjective + noun + that."
+    ],
+    "timeline": [
+     "so-such"
+    ],
+    "examples": [
+     {
+      "text": "The coffee is so hot that I can't drink it.",
+      "hl": [
+       [
+        "so hot that",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "It was such good coffee that I had another cup.",
+      "hl": [
+       [
+        "such good coffee that",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "She made so many mistakes that she failed the exam.",
+      "hl": [
+       [
+        "so many mistakes that",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Funny sayings",
+     "icon": "🐴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It's such a hot day that I could ___.",
+       "options": [
+        "fry an egg on the sidewalk",
+        "eat a horse",
+        "buy a new boat"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Hot → fry an egg."
+      },
+      {
+       "type": "choice",
+       "text": "I'm so hungry that I could ___.",
+       "options": [
+        "fry an egg on the sidewalk",
+        "eat a horse",
+        "need two beds"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Hungry → eat a horse."
+      },
+      {
+       "type": "choice",
+       "text": "He is such a rich man that he ___.",
+       "options": [
+        "needs two beds",
+        "eats a horse",
+        "buys a new boat when one gets wet"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Rich → a new boat every time."
+      },
+      {
+       "type": "choice",
+       "text": "She is so sick that she ___.",
+       "options": [
+        "needs two beds",
+        "buys a new boat when one gets wet",
+        "fries an egg"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Very sick → two beds."
+      },
+      {
+       "type": "judge",
+       "text": "The waiter was such helpful that I tipped him extra.",
+       "answer": "wrong",
+       "why": "Adjective only → so.",
+       "fix": "The waiter was so helpful that I tipped him extra."
+      },
+      {
+       "type": "judge",
+       "text": "The color of your shirt is so bright that I need to put on my sunglasses!",
+       "answer": "correct",
+       "why": "so + adjective + that."
+      },
+      {
+       "type": "judge",
+       "text": "It was so a foggy day that we couldn't see the road.",
+       "answer": "wrong",
+       "why": "a + adjective + noun → such.",
+       "fix": "It was such a foggy day that we couldn't see the road."
+      }
+     ]
+    },
+    {
+     "title": "so or such?",
+     "icon": "🚂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It was ___ an enjoyable party that no one wanted to leave.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "an enjoyable party = noun."
+      },
+      {
+       "type": "choice",
+       "text": "The party was ___ enjoyable that no one wanted to leave.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "enjoyable = adjective."
+      },
+      {
+       "type": "choice",
+       "text": "Leta is ___ afraid of flying that she traveled by train across Canada.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "afraid = adjective."
+      },
+      {
+       "type": "choice",
+       "text": "She was gone for ___ a long time that she got homesick.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a long time = noun."
+      },
+      {
+       "type": "choice",
+       "text": "People on the train were ___ kind that she will always remember them.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "kind = adjective."
+      },
+      {
+       "type": "choice",
+       "text": "My elderly aunt has ___ few friends that I am beginning to worry about her.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + few."
+      },
+      {
+       "type": "choice",
+       "text": "She spends ___ little money that I'm not sure she's eating right.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + little."
+      },
+      {
+       "type": "choice",
+       "text": "I've wanted to visit ___ many times, but she always says no.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + many."
+      },
+      {
+       "type": "choice",
+       "text": "The movie was ___ scary that none of us could sleep last night.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "scary = adjective."
+      },
+      {
+       "type": "choice",
+       "text": "I was ___ afraid of having bad dreams that I didn't sleep well for a week.",
+       "options": [
+        "so",
+        "such"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "afraid = adjective."
+      }
+     ]
+    },
+    {
+     "title": "Cause + result",
+     "icon": "🌪️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "There are many pine cones on that tree. It is impossible to count them.",
+       "options": [
+        "There are so many pine cones on that tree that it is impossible to count them.",
+        "There are such many pine cones on that tree that it is impossible to count them."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + many.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The radio was too loud. I couldn't hear what Michael was saying.",
+       "options": [
+        "The radio was such loud that I couldn't hear what Michael was saying.",
+        "The radio was so loud that I couldn't hear what Michael was saying."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "so + adjective.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Olga did poor work. She was fired from her job.",
+       "options": [
+        "Olga did such poor work that she was fired from her job.",
+        "Olga did so poor work that she was fired from her job."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "such + adjective + noun.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The food was too hot. It burned my tongue.",
+       "options": [
+        "The food was so hot than it burned my tongue.",
+        "The food was so hot that it burned my tongue."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "so … that, not than.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The wind was strong. It blew my hat off my head.",
+       "options": [
+        "The wind was so strong that it blew my hat off my head.",
+        "The wind was such strong that it blew my hat off my head."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + adjective.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The tornado struck with great force. It lifted cars off the ground.",
+       "options": [
+        "The tornado struck with so great force that it lifted cars off the ground.",
+        "The tornado struck with such great force that it lifted cars off the ground."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "such + adjective + noun.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Few students showed up for class. The teacher postponed the test.",
+       "options": [
+        "So few students showed up for class that the teacher postponed the test.",
+        "Such few students showed up for class that the teacher postponed the test."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so + few.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Charles used too much paper when he wrote his report. The printer ran out of ink.",
+       "options": [
+        "Charles used such much paper when he wrote his report that the printer ran out of ink.",
+        "Charles used so much paper when he wrote his report that the printer ran out of ink."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "so + much.",
+       "ask": "Combine"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Exaggerate!",
+     "task": "“I'm so hungry I could eat a horse.” Make funny, big sentences with Claude.",
+     "claudePrompt": "You are my English speaking partner. Give me one situation at a time and I must exaggerate with so/such ... that: I'm really tired. In fact, I'm ... / I took a very slow bus to town. In fact, it was ... / We watched a very exciting movie. / The weather was really, really hot. / I lost a lot of money. / I saw a shark while I was swimming. Laugh at the good ones and give your own example each time. Check: so + adjective/adverb, such + (a) + adjective + noun, so many/much/few/little."
+    }
+   ]
+  },
+  {
+   "id": "19-6",
+   "tag": "19-6",
+   "t": "pres",
+   "title": "So that I can…",
+   "full": "Expressing Purpose: Using So That",
+   "lesson": {
+    "title": "Learn: so that = in order to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "so that = purpose",
+      "lines": [
+       "It answers “What for?” that is often dropped."
+      ],
+      "visual": [
+       "so-that"
+      ],
+      "chips": [
+       "I turned off the TV in order to enable my roommate to study.",
+       "I turned off the TV so (that) my roommate could study in peace and quiet."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "can now, could in the past",
+      "lines": [
+       "so that + can / will (present, future). so that + could / would (past)."
+      ],
+      "chips": [
+       "I'm going to cash a check so that I can buy my textbooks.",
+       "I cashed a check so that I could buy my textbooks.",
+       "I'll take my umbrella so that I won't get wet.",
+       "Yesterday I took my umbrella so that I wouldn't get wet."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Please turn down your music so that I ___ get to sleep.",
+      "options": [
+       "can",
+       "could"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Present → can."
+     },
+     {
+      "type": "choice",
+      "text": "My wife turned down her music so that I ___ get to sleep.",
+      "options": [
+       "can",
+       "could"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Past → could."
+     },
+     {
+      "type": "compare",
+      "title": "Two kinds of so",
+      "left": {
+       "label": "so (that) = purpose. No comma",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I need a visa so I can travel overseas.",
+         "hl": [
+          [
+           "so I can travel",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": ", so = therefore. Comma",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "I needed a visa, so I went to the embassy.",
+         "hl": [
+          [
+           ", so",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Test: can you add that? Then it is purpose."
+     },
+     {
+      "type": "choice",
+      "text": "Kay got a new job so that ___.",
+      "options": [
+       "she could earn more money",
+       "she is very excited"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A purpose, not a result."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "so (that) + can / will / simple present → now or future purpose.",
+     "so (that) + could / would → past purpose. No comma before it."
+    ],
+    "timeline": [
+     "so-that"
+    ],
+    "examples": [
+     {
+      "text": "I'm going to cash a check so that I can buy my textbooks.",
+      "hl": [
+       [
+        "so that I can buy",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I cashed a check so that I could buy my textbooks.",
+      "hl": [
+       [
+        "so that I could buy",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Kay's new job; now or past",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Kay got a new job so that she could be closer to home.",
+       "answer": "correct",
+       "why": "A purpose with could."
+      },
+      {
+       "type": "judge",
+       "text": "Kay got a new job so that she is very excited.",
+       "answer": "wrong",
+       "why": "Being excited is a result, not a purpose.",
+       "fix": "Kay got a new job, so she is very excited."
+      },
+      {
+       "type": "judge",
+       "text": "Kay got a new job so that she could earn more money.",
+       "answer": "correct",
+       "why": "A purpose with could."
+      },
+      {
+       "type": "judge",
+       "text": "Jill exercises at 5:00 A.M. every day so that she can fit it into her day.",
+       "answer": "correct",
+       "why": "Present → so that + can."
+      },
+      {
+       "type": "fill",
+       "text": "Please be quiet so that I ___ hear what Sharon is saying.",
+       "verb": "can / could",
+       "accept": [
+        "can"
+       ],
+       "why": "Present → can."
+      },
+      {
+       "type": "fill",
+       "text": "I asked the children to be quiet so that I ___ hear what Sharon was saying.",
+       "verb": "can / could",
+       "accept": [
+        "could"
+       ],
+       "why": "Past → could."
+      },
+      {
+       "type": "fill",
+       "text": "Put the milk in the refrigerator so that it ___ spoil.",
+       "verb": "will / would + not",
+       "accept": [
+        "won't",
+        "will not",
+        "doesn't",
+        "does not"
+       ],
+       "why": "Present / future → won't (or doesn't)."
+      },
+      {
+       "type": "fill",
+       "text": "I put the milk in the refrigerator so that it ___ spoil.",
+       "verb": "will / would + not",
+       "accept": [
+        "wouldn't",
+        "would not"
+       ],
+       "why": "Past → wouldn't."
+      },
+      {
+       "type": "fill",
+       "text": "Tonight Ann and Larry are going to hire a babysitter so that they ___ go out with some friends.",
+       "verb": "can / could",
+       "accept": [
+        "can"
+       ],
+       "why": "Future plan → can."
+      },
+      {
+       "type": "fill",
+       "text": "Last week Ann and Larry hired a babysitter so that they ___ go to a dinner party.",
+       "verb": "can / could",
+       "accept": [
+        "could"
+       ],
+       "why": "Past → could."
+      }
+     ]
+    },
+    {
+     "title": "Combine with so that",
+     "icon": "🏧",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I'm going to go to a cash machine. I want to make sure that I have enough money to go to the store.",
+       "options": [
+        "I'm going to go to a cash machine so that I will have enough money to go to the store.",
+        "I'm going to go to a cash machine so that I would have enough money to go to the store."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Future → will (or have).",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I went to a cash machine yesterday. I wanted to make sure that I had enough money to go to the store.",
+       "options": [
+        "I went to a cash machine yesterday so that I will have enough money to go to the store.",
+        "I went to a cash machine yesterday so that I would have enough money to go to the store."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → would.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Yesterday I put the meat in the oven at 5:00. I wanted it to be ready to eat by 6:30.",
+       "options": [
+        "Yesterday I put the meat in the oven at 5:00 so that it would be ready to eat by 6:30.",
+        "Yesterday I put the meat in the oven at 5:00 so that it will be ready to eat by 6:30."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past → would.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Be sure to put the meat in the oven at 5:00. You want it to be ready to eat by 6:30.",
+       "options": [
+        "Be sure to put the meat in the oven at 5:00 so that it would be ready to eat by 6:30.",
+        "Be sure to put the meat in the oven at 5:00 so that it will be ready to eat by 6:30."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Future → will (or is).",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I'm going to leave the party early. I want to be able to get a good night's sleep tonight.",
+       "options": [
+        "I'm going to leave the party early so that I can get a good night's sleep tonight.",
+        "I'm going to leave the party early so that I could got a good night's sleep tonight."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Future → can.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I'm going to turn off my computer before I go to sleep. I want to be sure that my mind is free of distractions.",
+       "options": [
+        "I'm going to turn off my computer before I go to sleep so that my mind would been free of distractions.",
+        "I'm going to turn off my computer before I go to sleep so that my mind will be free of distractions."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Future → will be (or is).",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Tommy pretended to be sick. He wanted to stay home from school.",
+       "options": [
+        "Tommy pretended to be sick so that he could stay home from school.",
+        "Tommy pretended to be sick so that he can stay home from school."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past → could.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "He held a thermometer under hot water. He wanted it to show a high temperature.",
+       "options": [
+        "He held a thermometer under hot water so that it will show a high temperature.",
+        "He held a thermometer under hot water so that it would show a high temperature."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past → would.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "Needs: which so?",
+     "icon": "🛂",
+     "items": [
+      {
+       "type": "sort",
+       "word": "I need to borrow some money so I can pay my rent.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 0,
+       "why": "Purpose: in order to pay."
+      },
+      {
+       "type": "sort",
+       "word": "I didn't have enough money for the movie so I asked my friend to buy my ticket.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 1,
+       "why": "Result: therefore I asked."
+      },
+      {
+       "type": "sort",
+       "word": "I need a visa so I can travel overseas.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 0,
+       "why": "Purpose: in order to travel."
+      },
+      {
+       "type": "sort",
+       "word": "I needed a visa so I went to the embassy to apply for one.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 1,
+       "why": "Result: therefore I went."
+      },
+      {
+       "type": "sort",
+       "word": "Marta is trying to improve her English so she can become a tour guide.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 0,
+       "why": "Purpose."
+      },
+      {
+       "type": "sort",
+       "word": "Olga wants to improve her English so she has hired a tutor.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 1,
+       "why": "Result: therefore she hired one."
+      },
+      {
+       "type": "sort",
+       "word": "Tarek borrowed money from his parents so he could start his own business.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 0,
+       "why": "Purpose with could."
+      },
+      {
+       "type": "sort",
+       "word": "I turned off my phone so I can concentrate on my paperwork.",
+       "buckets": [
+        "so that (purpose)",
+        ", so (therefore)"
+       ],
+       "answer": 0,
+       "why": "Purpose with can."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-7",
+   "tag": "19-7",
+   "t": "plan",
+   "title": "Nevertheless, despite",
+   "full": "Showing Contrast (Unexpected Result)",
+   "lesson": {
+    "title": "Learn: many ways to say “surprise!”",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "One idea, many words",
+      "lines": [
+       "It was cold. I went swimming. (Surprise!)"
+      ],
+      "visual": [
+       "unexpected"
+      ],
+      "chips": [
+       "Even though / Although / Though it was cold, I went swimming.",
+       "It was cold, but I went swimming anyway.",
+       "It was cold, yet I still went swimming.",
+       "It was cold. Nevertheless, I went swimming.",
+       "It was cold; nonetheless, I went swimming.",
+       "It was cold. However, I still went swimming."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It rained; nevertheless, we had our wedding ___.",
+      "options": [
+       "inside",
+       "outside"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "nevertheless → the surprising result: outside."
+     },
+     {
+      "type": "learn",
+      "title": "despite / in spite of + noun",
+      "lines": [
+       "Or: despite the fact that + clause."
+      ],
+      "chips": [
+       "I went swimming despite the cold weather.",
+       "I went swimming in spite of the cold weather.",
+       "I went swimming despite the fact that the weather was cold."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ Andreas is a hard worker, he can't seem to keep a job.",
+      "options": [
+       "Despite that",
+       "Despite the fact that"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Before a clause → despite the fact that."
+     },
+     {
+      "type": "choice",
+      "text": "The weather was sunny and warm. ___, we went to the beach.",
+      "options": [
+       "Nevertheless",
+       "Therefore"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Sunny → beach is expected: Therefore."
+     },
+     {
+      "type": "learn",
+      "title": "Punctuation follows the kind",
+      "lines": [
+       "Clause word: comma. Conjunction: comma. Transition: period or semicolon."
+      ],
+      "chips": [
+       "Even though it was cold, I went swimming.",
+       "It was cold, but I went swimming.",
+       "It was cold. Nevertheless, I went swimming."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "even though / although / though + clause · but … anyway · yet … still · nevertheless / nonetheless / however.",
+     "despite / in spite of + noun · despite the fact that + clause."
+    ],
+    "timeline": [
+     "unexpected"
+    ],
+    "examples": [
+     {
+      "text": "Even though it was cold, I went swimming.",
+      "hl": [
+       [
+        "Even though",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "It was cold. Nevertheless, I went swimming.",
+      "hl": [
+       [
+        "Nevertheless,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I went swimming despite the cold weather.",
+      "hl": [
+       [
+        "despite",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The broken arm",
+     "icon": "🩹",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Ron broke his arm, but he didn't go to the doctor.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 1,
+       "why": "but … didn't go = a surprise."
+      },
+      {
+       "type": "sort",
+       "word": "Joe went to the doctor because he broke his arm.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 0,
+       "why": "because → the normal result."
+      },
+      {
+       "type": "sort",
+       "word": "Sue broke her arm, so she went to the doctor.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 0,
+       "why": "so → the normal result."
+      },
+      {
+       "type": "sort",
+       "word": "Amy broke her arm; nevertheless, she didn't go to the doctor.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 1,
+       "why": "nevertheless = a surprise."
+      },
+      {
+       "type": "sort",
+       "word": "Despite having a broken arm, Rick didn't go to the doctor.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 1,
+       "why": "despite = a surprise."
+      },
+      {
+       "type": "sort",
+       "word": "Jeff broke his arm; therefore, he went to the doctor.",
+       "buckets": [
+        "Expected behavior",
+        "Unexpected behavior"
+       ],
+       "answer": 0,
+       "why": "therefore → the normal result."
+      },
+      {
+       "type": "judge",
+       "text": "The weather was sunny and warm. Nevertheless, we went to the beach.",
+       "answer": "wrong",
+       "why": "Sunny → beach is expected.",
+       "fix": "The weather was sunny and warm. Therefore, we went to the beach."
+      },
+      {
+       "type": "judge",
+       "text": "Despite that Andreas is a hard worker, he can't seem to keep a job for more than a few months.",
+       "answer": "wrong",
+       "why": "Before a clause: despite the fact that.",
+       "fix": "Despite the fact that Andreas is a hard worker, he can't seem to keep a job for more than a few months."
+      }
+     ]
+    },
+    {
+     "title": "The rainy wedding",
+     "icon": "💒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It rained, but we had our wedding ___ anyway.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "but … anyway → the surprise: outside."
+      },
+      {
+       "type": "choice",
+       "text": "It rained, so we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so → the normal result: inside."
+      },
+      {
+       "type": "choice",
+       "text": "It rained; nevertheless, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "nevertheless → outside."
+      },
+      {
+       "type": "choice",
+       "text": "Though it rained, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "though → outside."
+      },
+      {
+       "type": "choice",
+       "text": "Even though it rained, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even though → outside."
+      },
+      {
+       "type": "choice",
+       "text": "Although it rained, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "although → outside."
+      },
+      {
+       "type": "choice",
+       "text": "Despite the fact that it rained, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "despite → outside."
+      },
+      {
+       "type": "choice",
+       "text": "It rained; therefore, we had our wedding ___.",
+       "options": [
+        "inside",
+        "outside"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "therefore → the normal result: inside."
+      }
+     ]
+    },
+    {
+     "title": "Hans and the 24-hour shift",
+     "icon": "🥱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Hans had worked a 24-hour shift; nevertheless, he ___ wide-awake.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A surprise: still awake."
+      },
+      {
+       "type": "choice",
+       "text": "Though he had worked a 24-hour shift, he ___ sleepy.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A surprise: not sleepy."
+      },
+      {
+       "type": "choice",
+       "text": "Even though he had worked a 24-hour shift, he ___ wide-awake.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A surprise: still awake."
+      },
+      {
+       "type": "choice",
+       "text": "Hans ___ wide-awake although he had worked a 24-hour shift.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A surprise: still awake."
+      },
+      {
+       "type": "choice",
+       "text": "He had worked a 24-hour shift, yet he ___ wide-awake.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "yet = but: still awake."
+      },
+      {
+       "type": "choice",
+       "text": "Despite the fact that he had worked a 24-hour shift, Hans ___ sleepy.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A surprise: not sleepy."
+      },
+      {
+       "type": "choice",
+       "text": "In spite of working a 24-hour shift, Hans ___ wide-awake.",
+       "options": [
+        "was",
+        "wasn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A surprise: still awake."
+      }
+     ]
+    },
+    {
+     "title": "but, even though, nevertheless",
+     "icon": "🍽️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Bob ate a large dinner. ___, he is still hungry.",
+       "options": [
+        "But",
+        "Even though",
+        "Nevertheless"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "New sentence + comma → a transition."
+      },
+      {
+       "type": "choice",
+       "text": "Bob ate a large dinner, ___ he is still hungry.",
+       "options": [
+        "but",
+        "even though",
+        "nevertheless"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma + conjunction → but."
+      },
+      {
+       "type": "choice",
+       "text": "Bob is still hungry ___ he ate a large dinner.",
+       "options": [
+        "but",
+        "even though",
+        "nevertheless"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No comma + clause → even though."
+      },
+      {
+       "type": "choice",
+       "text": "I had a lot of studying to do, ___ I went to a movie anyway.",
+       "options": [
+        "but",
+        "even though",
+        "nevertheless"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "but … anyway."
+      },
+      {
+       "type": "choice",
+       "text": "I had a lot of studying to do. ___, I went to a movie.",
+       "options": [
+        "But",
+        "Even though",
+        "Nevertheless"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "New sentence + comma → a transition."
+      },
+      {
+       "type": "choice",
+       "text": "I finished all of my work ___ I was very sleepy.",
+       "options": [
+        "but",
+        "even though",
+        "nevertheless"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No comma + clause → even though."
+      },
+      {
+       "type": "choice",
+       "text": "I was very sleepy, ___ I finished all of my work anyway.",
+       "options": [
+        "but",
+        "even though",
+        "nevertheless"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "but … anyway."
+      },
+      {
+       "type": "choice",
+       "text": "I was very sleepy. ___, I finished all of my work.",
+       "options": [
+        "But",
+        "Even though",
+        "Nevertheless"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "New sentence + comma → a transition."
+      }
+     ]
+    },
+    {
+     "title": "yet, although, however; low grades",
+     "icon": "🧼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I washed my hands. ___, they still looked dirty.",
+       "options": [
+        "Yet",
+        "Although",
+        "However"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "New sentence + comma → However."
+      },
+      {
+       "type": "choice",
+       "text": "I washed my hands, ___ they still looked dirty.",
+       "options": [
+        "yet",
+        "although",
+        "however"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma + conjunction → yet."
+      },
+      {
+       "type": "choice",
+       "text": "___ I washed my hands, they still looked dirty.",
+       "options": [
+        "Yet",
+        "Although",
+        "However"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first + comma → Although."
+      },
+      {
+       "type": "choice",
+       "text": "Diana didn't know how to swim, ___ she jumped into the pool.",
+       "options": [
+        "yet",
+        "although",
+        "however"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma + conjunction → yet."
+      },
+      {
+       "type": "choice",
+       "text": "___ Diana didn't know how to swim, she jumped into the pool.",
+       "options": [
+        "Yet",
+        "Although",
+        "However"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first + comma → Although."
+      },
+      {
+       "type": "choice",
+       "text": "Diana didn't know how to swim. ___, she jumped into the pool.",
+       "options": [
+        "Yet",
+        "Although",
+        "However"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "New sentence + comma → However."
+      },
+      {
+       "type": "choice",
+       "text": "His grades were low. He was admitted to the university. (even though)",
+       "options": [
+        "Even though his grades were low, he was admitted to the university.",
+        "Even though he was admitted to the university, his grades were low anyway."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even though + the fact; then the surprise.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "(but … anyway)",
+       "options": [
+        "His grades were low. But, he was admitted to the university, anyway.",
+        "His grades were low, but he was admitted to the university anyway."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma + but … anyway.",
+       "ask": "Combine",
+       "ctx": "His grades were low. He was admitted to the university."
+      },
+      {
+       "type": "choice",
+       "text": "(despite)",
+       "options": [
+        "He was admitted to the university despite his low grades.",
+        "He was admitted to the university despite his grades were low."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "despite + noun.",
+       "ask": "Combine",
+       "ctx": "His grades were low. He was admitted to the university."
+      },
+      {
+       "type": "choice",
+       "text": "(despite the fact that)",
+       "options": [
+        "He was admitted to the university despite the fact his low grades.",
+        "He was admitted to the university despite the fact that his grades were low."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the fact that + clause.",
+       "ask": "Combine",
+       "ctx": "His grades were low. He was admitted to the university."
+      }
+     ]
+    },
+    {
+     "title": "Anna and Thomas: punctuation",
+     "icon": "✍️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Anna's father gave her some good advice nevertheless she did not follow it.",
+       "options": [
+        "Anna's father gave her some good advice. Nevertheless, she did not follow it.",
+        "Anna's father gave her some good advice, nevertheless she did not follow it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + Nevertheless + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Even though Anna's father gave her some good advice she didn't follow it.",
+       "options": [
+        "Even though Anna's father gave her some good advice. She didn't follow it.",
+        "Even though Anna's father gave her some good advice, she didn't follow it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first → comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Anna's father gave her some good advice she did not follow it however.",
+       "options": [
+        "Anna's father gave her some good advice. She did not follow it, however.",
+        "Anna's father gave her some good advice, she did not follow it however."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period; comma before however.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Thomas has been broke for months I offered him some money he refused it.",
+       "options": [
+        "Thomas has been broke for months, I offered him some money, he refused it.",
+        "Thomas has been broke for months. I offered him some money. He refused it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Three sentences → periods.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Thomas refused the money although he has been broke for months.",
+       "options": [
+        "Thomas refused the money although he has been broke for months.",
+        "Thomas refused the money. Although he has been broke for months."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clause second → no change.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Thomas has been broke for months nevertheless he refused the money that I offered him.",
+       "options": [
+        "Thomas has been broke for months nevertheless, he refused the money that I offered him.",
+        "Thomas has been broke for months. Nevertheless, he refused the money that I offered him."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period + Nevertheless + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Thomas has been broke for months yet he still refused the money that I offered him.",
+       "options": [
+        "Thomas has been broke for months, yet he still refused the money that I offered him.",
+        "Thomas has been broke for months. Yet, he still, refused the money that I offered him."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma before yet.",
+       "ask": "Choose the correct punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "19-8",
+   "tag": "19-8",
+   "t": "plan",
+   "title": "On the other hand",
+   "full": "Showing Direct Contrast",
+   "lesson": {
+    "title": "Learn: while, but, however, on the other hand",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Four ways to show opposites",
+      "lines": [
+       "Mary is rich. John is poor."
+      ],
+      "visual": [
+       "direct-contrast"
+      ],
+      "chips": [
+       "Mary is rich, while John is poor.",
+       "Mary is rich, but John is poor.",
+       "Mary is rich; however, John is poor.",
+       "Mary is rich. John, on the other hand, is poor."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Malea is loud and funny; her twin sister, ___, is quiet and reserved.",
+      "options": [
+       "on the other hand",
+       "therefore"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Opposites → on the other hand."
+     },
+     {
+      "type": "learn",
+      "title": "Transitions can sit in the middle",
+      "lines": [
+       "Put commas around them."
+      ],
+      "chips": [
+       "John is poor; Mary is rich, however.",
+       "John is poor. Mary, on the other hand, is rich."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Hurricanes develop over warm oceans; ___, tornadoes form over land.",
+      "options": [
+       "however",
+       "while"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After a semicolon → a transition."
+     },
+     {
+      "type": "choice",
+      "text": "Hurricanes develop ___ they are traveling over warm ocean water. Is this contrast?",
+      "options": [
+       "Yes",
+       "No. Here while means “during that time.”"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It is a time clause."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A, while B. / A, but B. / A; however, B. / A. B, on the other hand, …",
+     "Use them when A and B are opposites."
+    ],
+    "timeline": [
+     "direct-contrast"
+    ],
+    "examples": [
+     {
+      "text": "Mary is rich, while John is poor.",
+      "hl": [
+       [
+        "while",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Mary is rich; however, John is poor.",
+      "hl": [
+       [
+        "; however,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Mary is rich. John, on the other hand, is poor.",
+      "hl": [
+       [
+        ", on the other hand,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Hurricanes and tornadoes",
+     "icon": "🌀",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Hurricanes develop over warm oceans while tornadoes form over land.",
+       "buckets": [
+        "Direct contrast",
+        "Not contrast"
+       ],
+       "answer": 0,
+       "why": "oceans ↔ land."
+      },
+      {
+       "type": "sort",
+       "word": "Hurricanes develop while they are traveling over warm ocean water.",
+       "buckets": [
+        "Direct contrast",
+        "Not contrast"
+       ],
+       "answer": 1,
+       "why": "while = during that time."
+      },
+      {
+       "type": "sort",
+       "word": "Hurricanes develop over warm oceans, but tornadoes form over land.",
+       "buckets": [
+        "Direct contrast",
+        "Not contrast"
+       ],
+       "answer": 0,
+       "why": "but = contrast."
+      },
+      {
+       "type": "sort",
+       "word": "Hurricanes develop over warm oceans; however, tornadoes form over land.",
+       "buckets": [
+        "Direct contrast",
+        "Not contrast"
+       ],
+       "answer": 0,
+       "why": "however = contrast."
+      },
+      {
+       "type": "sort",
+       "word": "Hurricanes develop over warm oceans; on the other hand, tornadoes form over land.",
+       "buckets": [
+        "Direct contrast",
+        "Not contrast"
+       ],
+       "answer": 0,
+       "why": "on the other hand = contrast."
+      },
+      {
+       "type": "judge",
+       "text": "Malea is loud and funny; her twin sister, on the other hand, is quiet and reserved.",
+       "answer": "correct",
+       "why": "Semicolon; commas around the transition."
+      },
+      {
+       "type": "judge",
+       "text": "Mary is rich, however, John is poor.",
+       "answer": "wrong",
+       "why": "Before however: semicolon or period.",
+       "fix": "Mary is rich; however, John is poor."
+      }
+     ]
+    },
+    {
+     "title": "Grandparents and customs",
+     "icon": "👴",
+     "items": [
+      {
+       "type": "choice",
+       "text": "My grandfather is quite active, while my grandmother is often in bed. (however)",
+       "options": [
+        "My grandfather is quite active, however my grandmother is often in bed.",
+        "My grandfather is quite active; however, my grandmother is often in bed."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Semicolon + however + comma.",
+       "ask": "Rewrite"
+      },
+      {
+       "type": "choice",
+       "text": "My grandfather is quite active, while my grandmother is often in bed. (on the other hand)",
+       "options": [
+        "My grandfather is quite active. My grandmother, on the other hand, is often in bed.",
+        "My grandfather is quite active, my grandmother on the other hand is often in bed."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period; commas around on the other hand.",
+       "ask": "Rewrite"
+      },
+      {
+       "type": "choice",
+       "text": "Elderly people in my country usually live with their children, but the elderly in the United States often live by themselves. (however)",
+       "options": [
+        "Elderly people in my country usually live with their children however, the elderly in the United States often live by themselves.",
+        "Elderly people in my country usually live with their children. However, the elderly in the United States often live by themselves."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period + However + comma.",
+       "ask": "Rewrite"
+      },
+      {
+       "type": "choice",
+       "text": "In some countries, people greet each other by shaking hands, while in other countries ___.",
+       "options": [
+        "people kiss one another on the cheek",
+        "people also shake hands"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A different greeting = a contrast."
+      },
+      {
+       "type": "choice",
+       "text": "In the United States, people drive on the right-hand side of the road, while people in ___.",
+       "options": [
+        "Canada drive on the right too",
+        "Japan drive on the left"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "right ↔ left."
+      },
+      {
+       "type": "choice",
+       "text": "While in Japan people must take off their shoes before entering a house, in some countries ___.",
+       "options": [
+        "people keep their shoes on",
+        "people have shoes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "take off ↔ keep on."
+      },
+      {
+       "type": "choice",
+       "text": "In some cultures, it is considered impolite to look directly at another person, while in others ___.",
+       "options": [
+        "people have eyes",
+        "it is impolite not to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "impolite to look ↔ impolite not to."
+      }
+     ]
+    },
+    {
+     "title": "Extroverts and introverts",
+     "icon": "🎭",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Extroverts like to talk more than listen, ___ introverts like to listen more than talk.",
+       "options": [
+        "therefore",
+        "because",
+        "while"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Opposites → while."
+      },
+      {
+       "type": "choice",
+       "text": "Introverts like to listen more than talk. Extroverts, ___, like to talk more than listen.",
+       "options": [
+        "however",
+        "so",
+        "otherwise"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Opposites → however."
+      },
+      {
+       "type": "choice",
+       "text": "Extroverts like to be the center of attention; introverts, ___, are uncomfortable being the center of attention.",
+       "options": [
+        "consequently",
+        "on the other hand",
+        "for example"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Opposites → on the other hand."
+      },
+      {
+       "type": "choice",
+       "text": "Extroverts enjoy meeting people, ___ introverts are reserved when meeting people.",
+       "options": [
+        "so",
+        "or",
+        "but"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Opposites → but."
+      },
+      {
+       "type": "choice",
+       "text": "Extroverts prefer being active. ___, introverts like to spend time alone.",
+       "options": [
+        "However",
+        "Therefore",
+        "Otherwise"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Opposites → However."
+      },
+      {
+       "type": "choice",
+       "text": "___ extroverts don't mind noise, introverts prefer the quiet.",
+       "options": [
+        "Because",
+        "While",
+        "Unless"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Opposites → While."
+      },
+      {
+       "type": "choice",
+       "text": "Extroverts like crowds; introverts, ___, avoid them.",
+       "options": [
+        "therefore",
+        "so that",
+        "however"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Opposites → however."
+      },
+      {
+       "type": "choice",
+       "text": "Extroverts are energized by being with others, ___ introverts can find it tiring.",
+       "options": [
+        "while",
+        "so",
+        "since"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Opposites → while."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Two countries",
+     "task": "Compare two countries you know: food, meal times, transport, school… “In Iran…, while in…”",
+     "claudePrompt": "You are my English speaking partner. Ask me to compare two countries I know, one topic at a time: size, population, food, time of meals, educational system, language, public transportation, cost of education. I answer with while, but, however, or on the other hand. Check the punctuation I would use (comma before while/but; period or semicolon before however) and that my two ideas are real opposites."
+    },
+    {
+     "title": "Extrovert or introvert?",
+     "task": "Are you an extrovert or an introvert? Compare yourself with someone different from you.",
+     "claudePrompt": "You are my English writing partner. Ask me: Are you more of an extrovert or an introvert? Then ask me to write 4-5 sentences comparing myself to someone I know who is different, using while, however, on the other hand, and but. Check my punctuation with each connecting word and tell me which sentence is the clearest."
+    }
+   ]
+  },
+  {
+   "id": "19-9",
+   "tag": "19-9",
+   "t": "plan",
+   "title": "Otherwise, or else",
+   "full": "Expressing Conditions: Using Otherwise and Or (Else)",
+   "lesson": {
+    "title": "Learn: otherwise = if not",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "otherwise = if not",
+      "lines": [
+       "Do this. If you don't, here is the result."
+      ],
+      "visual": [
+       "otherwise"
+      ],
+      "chips": [
+       "I always eat breakfast. Otherwise, I get hungry during class.",
+       "You'd better hurry. Otherwise, you'll be late.",
+       "Take your umbrella. Otherwise, you'll get wet."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We need to hurry. Otherwise, we'll ___ our plane.",
+      "options": [
+       "catch",
+       "miss"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "If we don't hurry → miss."
+     },
+     {
+      "type": "learn",
+      "title": "or (else): same meaning",
+      "lines": [
+       "A conjunction: comma before it."
+      ],
+      "chips": [
+       "I always eat breakfast, or (else) I get hungry during class.",
+       "You'd better hurry, or (else) you'll be late."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Daniel needs coffee every morning; otherwise, he ___ wake up quickly.",
+      "options": [
+       "can",
+       "can't"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Without coffee → he can't."
+     },
+     {
+      "type": "choice",
+      "text": "If I don't eat breakfast, I get hungry. = I always eat breakfast. ___, I get hungry.",
+      "options": [
+       "Otherwise",
+       "Therefore"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "otherwise = if I don't."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Sentence. Otherwise, + what happens if not.",
+     "Sentence, or (else) + what happens if not."
+    ],
+    "timeline": [
+     "otherwise"
+    ],
+    "examples": [
+     {
+      "text": "You'd better hurry. Otherwise, you'll be late.",
+      "hl": [
+       [
+        "Otherwise,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "You'd better hurry, or else you'll be late.",
+      "hl": [
+       [
+        ", or else",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Daniel's coffee",
+     "icon": "☕",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If Daniel drinks coffee in the morning, he ___ wake up quickly.",
+       "options": [
+        "can",
+        "can't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "With coffee → he can."
+      },
+      {
+       "type": "choice",
+       "text": "Unless Daniel drinks coffee in the morning, he ___ wake up quickly.",
+       "options": [
+        "can",
+        "can't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Without coffee → he can't."
+      },
+      {
+       "type": "choice",
+       "text": "Daniel needs coffee every morning; otherwise, he ___ wake up quickly.",
+       "options": [
+        "can",
+        "can't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "otherwise = if he doesn't have it."
+      },
+      {
+       "type": "choice",
+       "text": "Daniel needs coffee in the morning, or else he ___ wake up quickly.",
+       "options": [
+        "can",
+        "can't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "or else = if not."
+      },
+      {
+       "type": "judge",
+       "text": "We need to hurry. Otherwise, we'll catch our plane.",
+       "answer": "wrong",
+       "why": "If we don't hurry → miss.",
+       "fix": "We need to hurry. Otherwise, we'll miss our plane."
+      },
+      {
+       "type": "judge",
+       "text": "Take your umbrella, or else you'll get wet.",
+       "answer": "correct",
+       "why": "Comma + or else."
+      },
+      {
+       "type": "judge",
+       "text": "You'd better hurry, otherwise, you'll be late.",
+       "answer": "wrong",
+       "why": "Before otherwise: period or semicolon.",
+       "fix": "You'd better hurry. Otherwise, you'll be late."
+      }
+     ]
+    },
+    {
+     "title": "Chores",
+     "icon": "🧺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If I don't clean the fridge, my roommate will start complaining about how messy I am.",
+       "options": [
+        "I need to clean the fridge. Otherwise, my roommate will start complaining about how messy I am.",
+        "I need to clean the fridge. Otherwise, my roommate won't start complaining about how messy I am."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "otherwise + the bad result.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "If I don't wash my clothes tonight, I won't have any clean clothes to wear tomorrow.",
+       "options": [
+        "I shouldn't wash my clothes tonight. Otherwise, I won't have any clean clothes to wear tomorrow.",
+        "I should wash my clothes tonight. Otherwise, I won't have any clean clothes to wear tomorrow."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First the thing to do, then otherwise.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "If we don't start cooking dinner now, it won't be ready in time.",
+       "options": [
+        "We had better start cooking dinner now. Otherwise, it won't be ready in time.",
+        "We had better start cooking dinner now, otherwise it will be ready in time."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + Otherwise + the bad result.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "I won't be able to sleep unless I change my sheets.",
+       "options": [
+        "I have to change my sheets. Otherwise, I will be able to sleep.",
+        "I have to change my sheets. Otherwise, I won't be able to sleep."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "unless I change = if I don't change.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "Only if you help me get ready for the party will I have one.",
+       "options": [
+        "You have to help me get ready for the party. Otherwise, I won't have one.",
+        "You have to help me get ready for the party. Otherwise, I will have one."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No help → no party.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "Unless we clear the snow from the walkway, people could slip and fall.",
+       "options": [
+        "We need to clear the snow from the walkway. Otherwise, people couldn't slip and fall.",
+        "We need to clear the snow from the walkway. Otherwise, people could slip and fall."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No clearing → people could slip.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "I'll get everything done only if I begin as soon as I get home.",
+       "options": [
+        "I have to begin as soon as I get home. Otherwise, I won't get everything done.",
+        "I have to begin as soon as I get home. Otherwise, I'll get everything done."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Late start → not everything done.",
+       "ask": "Say it with otherwise"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't start soon, the weekend will be over!",
+       "options": [
+        "You should start soon. Otherwise, the weekend won't be over!",
+        "You should start soon. Otherwise, the weekend will be over!"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "otherwise + the bad result.",
+       "ask": "Say it with otherwise"
+      }
+     ]
+    },
+    {
+     "title": "Otherwise or or else",
+     "icon": "⏰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I always eat breakfast___ I get hungry during class.",
+       "options": [
+        ". Otherwise,",
+        ", otherwise",
+        "otherwise."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + Otherwise + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "I always eat breakfast___ I get hungry during class.",
+       "options": [
+        ". Or else,",
+        ", or else",
+        "or, else"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma + or else.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "You'd better hurry. Otherwise, ___.",
+       "options": [
+        "you'll be late",
+        "you'll be on time"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If you don't hurry → late."
+      },
+      {
+       "type": "choice",
+       "text": "Take your umbrella, or ___.",
+       "options": [
+        "you'll stay dry",
+        "you'll get wet"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No umbrella → wet."
+      },
+      {
+       "type": "choice",
+       "text": "I must study. Otherwise, ___.",
+       "options": [
+        "I will fail the exam",
+        "I will pass the exam"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No study → fail."
+      },
+      {
+       "type": "choice",
+       "text": "You'd better study, or else ___.",
+       "options": [
+        "you'll pass the exam",
+        "you won't pass the exam"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No study → won't pass."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R19",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Connective mix",
+   "full": "Chapter 19 Review: Study and Pass, the Beach, Yawning, Optimists",
+   "lesson": {
+    "title": "Learn: pick the word, then the punctuation",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Step 1: the meaning",
+      "lines": [
+       "Result? Surprise? Opposite? Condition?"
+      ],
+      "chips": [
+       "I did not study. Therefore, I failed the exam. (result)",
+       "I studied. Nevertheless, I failed the exam. (surprise)",
+       "I must study. Otherwise, I will fail the exam. (condition)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Step 2: the punctuation",
+      "lines": [
+       "Clause word: comma after the clause. Conjunction: comma before. Transition: period or semicolon before."
+      ],
+      "visual": [
+       "therefore"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I did not study___ however, I passed the exam.",
+      "options": [
+       ";",
+       ","
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Before a transition → semicolon or period."
+     },
+     {
+      "type": "choice",
+      "text": "I studied hard, ___ I failed the exam.",
+      "options": [
+       "yet",
+       "so"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A surprise → yet."
+     },
+     {
+      "type": "choice",
+      "text": "___ I study, I will fail the exam.",
+      "options": [
+       "Unless",
+       "Only if"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "= If I don't study, I will fail."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Result: so, therefore, consequently. Surprise: but, yet, nevertheless, even though, despite.",
+     "Opposite: while, however, on the other hand. Condition: if, unless, otherwise, or else."
+    ],
+    "timeline": [
+     "connectives"
+    ],
+    "examples": [
+     {
+      "text": "I did not study; therefore, I failed the exam.",
+      "hl": [
+       [
+        "; therefore,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I studied. Nevertheless, I failed the exam.",
+      "hl": [
+       [
+        "Nevertheless,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I must study. Otherwise, I will fail the exam.",
+      "hl": [
+       [
+        "Otherwise,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Study and pass (1)",
+     "icon": "📝",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Because I did not study, ___",
+       "options": [
+        "I failed the exam.",
+        "I passed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No study → fail (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "I failed the exam because ___",
+       "options": [
+        "I studied.",
+        "I did not study."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The cause of failing."
+      },
+      {
+       "type": "choice",
+       "text": "Although I studied, ___",
+       "options": [
+        "I failed the exam.",
+        "I passed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "although → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "i did not study therefore i failed the exam",
+       "options": [
+        "I did not study, therefore I failed the exam.",
+        "I did not study. Therefore, I failed the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period + Therefore + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "i did not study however i passed the exam",
+       "options": [
+        "I did not study. However, I passed the exam.",
+        "I did not study, however I passed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Period + However + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "I studied. Nevertheless, ___",
+       "options": [
+        "I passed the exam.",
+        "I failed the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "nevertheless → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Even though I did not study, ___",
+       "options": [
+        "I passed the exam.",
+        "I failed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even though → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "i did not study so i failed the exam",
+       "options": [
+        "I did not study. So, I failed, the exam.",
+        "I did not study, so I failed the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma before so.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Since I did not study, ___",
+       "options": [
+        "I failed the exam.",
+        "I passed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "since = because → expected."
+      },
+      {
+       "type": "choice",
+       "text": "If I study for the exam, ___",
+       "options": [
+        "I would have passed it.",
+        "I will pass it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + present → will."
+      }
+     ]
+    },
+    {
+     "title": "Study and pass (2)",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Unless I study for the exam, ___",
+       "options": [
+        "I will fail it.",
+        "I will pass it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless I study = if I don't."
+      },
+      {
+       "type": "choice",
+       "text": "i must study otherwise i will fail the exam",
+       "options": [
+        "I must study, otherwise I will fail the exam.",
+        "I must study. Otherwise, I will fail the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Period + Otherwise + comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Even if I study, ___",
+       "options": [
+        "I will fail the exam.",
+        "I will pass the exam, of course."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even if → studying won't change it."
+      },
+      {
+       "type": "choice",
+       "text": "I did not study. Consequently, ___",
+       "options": [
+        "I passed the exam.",
+        "I failed the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "consequently → the expected result."
+      },
+      {
+       "type": "choice",
+       "text": "I did not study. Nonetheless, ___",
+       "options": [
+        "I passed the exam.",
+        "I failed the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "nonetheless → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "I will probably fail the exam whether ___",
+       "options": [
+        "I studied and passed.",
+        "I study or not."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether … or not."
+      },
+      {
+       "type": "choice",
+       "text": "Only if I study ___",
+       "options": [
+        "will I pass the exam.",
+        "I will pass the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Only if first → will + subject."
+      },
+      {
+       "type": "choice",
+       "text": "I studied hard, yet ___",
+       "options": [
+        "I passed the exam.",
+        "I failed the exam."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "yet → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "You'd better study, or else ___",
+       "options": [
+        "you will fail the exam.",
+        "you will pass the exam."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "or else = if you don't."
+      }
+     ]
+    },
+    {
+     "title": "Listen and finish",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I was exhausted when I got home, but…",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "I didn't take a nap.",
+        "I took a nap."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "but → the surprise."
+      },
+      {
+       "type": "listen",
+       "say": "Because I lift heavy boxes at work, …",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "my back gets sore.",
+        "my back doesn't get sore."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "because → the expected result."
+      },
+      {
+       "type": "listen",
+       "say": "I don't need a new phone since…",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "my old one works fine.",
+        "my old one doesn't work."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "since = because."
+      },
+      {
+       "type": "listen",
+       "say": "I'm always late for work unless…",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "I hurry.",
+        "I don't hurry."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless I hurry = if I don't hurry."
+      },
+      {
+       "type": "listen",
+       "say": "I was late for work even though…",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "I hurried.",
+        "I didn't hurry."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even though → a surprise."
+      },
+      {
+       "type": "listen",
+       "say": "The air conditioning is broken; therefore, …",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "our offices are hot.",
+        "our offices aren't hot."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "therefore → the expected result."
+      },
+      {
+       "type": "listen",
+       "say": "My neighbors are very loud; nevertheless, …",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "the noise bothers me.",
+        "the noise doesn't bother me."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "nevertheless → a surprise."
+      },
+      {
+       "type": "listen",
+       "say": "I was so tired that…",
+       "ask": "Choose the logical ending.",
+       "options": [
+        "I fell asleep during dinner.",
+        "I didn't fall asleep during dinner."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so … that → the result."
+      }
+     ]
+    },
+    {
+     "title": "To the beach or not?",
+     "icon": "🏖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "so … that",
+       "options": [
+        "The weather is so cold that we are going to go to the beach.",
+        "The weather is so cold that we aren't going to go to the beach."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cold → no beach (a result)."
+      },
+      {
+       "type": "choice",
+       "text": "nevertheless",
+       "options": [
+        "The weather is cold. Nevertheless, we are going to go to the beach.",
+        "The weather is cold. Nevertheless, we aren't going to go to the beach."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "nevertheless → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "despite",
+       "options": [
+        "We're going to go to the beach despite the weather is cold.",
+        "We're going to go to the beach despite the cold weather."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "despite + noun."
+      },
+      {
+       "type": "choice",
+       "text": "now that",
+       "options": [
+        "Now that the weather is hot, we're going to go to the beach.",
+        "Now that the weather was hot, we're going to go to the beach."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "now that + present."
+      },
+      {
+       "type": "choice",
+       "text": "because of",
+       "options": [
+        "We aren't going to go to the beach because of the weather is cold.",
+        "We aren't going to go to the beach because of the cold weather."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "because of + noun."
+      },
+      {
+       "type": "choice",
+       "text": "such … that",
+       "options": [
+        "It is such nice weather that we're going to go to the beach.",
+        "It is so nice weather that we're going to go to the beach."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "such + adjective + noun."
+      },
+      {
+       "type": "choice",
+       "text": "unless",
+       "options": [
+        "We're going to go to the beach unless the weather isn't cold.",
+        "We're going to go to the beach unless the weather is cold."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "unless = if … not."
+      },
+      {
+       "type": "choice",
+       "text": "even if",
+       "options": [
+        "We're going to go to the beach even if the weather is cold.",
+        "We aren't going to go to the beach even if the weather is cold, so we'll go."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even if → it doesn't matter."
+      },
+      {
+       "type": "choice",
+       "text": "whether … or not",
+       "options": [
+        "We're going to go to the beach whether or the weather is nice not.",
+        "We're going to go to the beach whether the weather is nice or not."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether … or not."
+      }
+     ]
+    },
+    {
+     "title": "Why we yawn",
+     "icon": "🥱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "One popular idea is that yawning brings more oxygen into the brain ___ people will wake up.",
+       "options": [
+        "however",
+        "so that",
+        "while"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A purpose → so that.",
+       "ctx": "When one person yawns, others often yawn too. Why?"
+      },
+      {
+       "type": "choice",
+       "text": "___, in 2007, researchers came up with a new idea: yawning helps cool the brain.",
+       "options": [
+        "Therefore",
+        "If",
+        "However"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A different idea → However."
+      },
+      {
+       "type": "choice",
+       "text": "Yawning brings cooler air into the body and, ___, cools the brain.",
+       "options": [
+        "therefore",
+        "however",
+        "while"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A result → therefore."
+      },
+      {
+       "type": "choice",
+       "text": "People are more awake when their brains are cooler; ___, contagious yawning helps people be more alert.",
+       "options": [
+        "while",
+        "therefore",
+        "so that"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A result → therefore."
+      },
+      {
+       "type": "choice",
+       "text": "___ they yawned, they could have been signaling to others to stay awake.",
+       "options": [
+        "Therefore",
+        "However",
+        "If"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A condition → If."
+      },
+      {
+       "type": "choice",
+       "text": "___ it can be annoying to have a person yawn when you are talking, perhaps he or she actually wants to stay awake.",
+       "options": [
+        "While",
+        "So that",
+        "Therefore"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A contrast → While."
+      }
+     ]
+    },
+    {
+     "title": "Optimists vs. pessimists",
+     "icon": "🥛",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Optimists think positively about life, while ___",
+       "options": [
+        "pessimists think negatively.",
+        "pessimists also think positively."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "while → the opposite.",
+       "ctx": "Is the glass half empty or half full?"
+      },
+      {
+       "type": "choice",
+       "text": "An optimist may do poorly on a test; nevertheless, ___",
+       "options": [
+        "she feels stupid and stops trying.",
+        "she expects to do better next time."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "nevertheless → a surprise: still positive."
+      },
+      {
+       "type": "choice",
+       "text": "Things sometimes go well for a pessimist; however, ___",
+       "options": [
+        "he thinks he was just lucky.",
+        "he expects to do well again."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "however → a contrast."
+      },
+      {
+       "type": "choice",
+       "text": "Pessimists see themselves as failures; on the other hand, ___",
+       "options": [
+        "optimists do too.",
+        "optimists don't."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The other side."
+      },
+      {
+       "type": "choice",
+       "text": "Optimists see the best in the world; therefore, ___",
+       "options": [
+        "they see a bad event as a single occurrence.",
+        "they expect more bad events."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "therefore → a logical result."
+      },
+      {
+       "type": "choice",
+       "text": "Although people may have been raised as pessimists, ___",
+       "options": [
+        "they can never change.",
+        "they can train themselves to respond more positively."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "although → a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Optimism can be a learned trait; consequently, ___",
+       "options": [
+        "people can develop a more positive outlook.",
+        "nobody can learn it."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "consequently → a result."
+      },
+      {
+       "type": "choice",
+       "text": "If a pessimist wants to change how he reacts, ___",
+       "options": [
+        "he first had become conscious of his behavior.",
+        "he first has to become conscious of his behavior."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + present → present / will."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Optimist or pessimist?",
+     "task": "Are you an optimist, a pessimist, or both? Tell Claude with examples.",
+     "claudePrompt": "You are my English writing partner. Ask me: Are you an optimist, a pessimist, or a combination? Then ask me to write 5-6 sentences about my personality with specific examples, using connecting words from this chapter (because of, therefore, so ... that, even though, nevertheless, on the other hand, otherwise). Check: a period or semicolon (not a comma) before a transition; a noun after because of / despite; so + adjective, such + noun; and tell me if I used too many connecting words."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Logic Gatekeeper",
+  "icon": "🚪",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "The hotel had a mistake on its website. The price was very low [so that] many people wanted rooms.",
+    "options": [
+     "The hotel had a mistake on its website. The price was very low, so many people wanted rooms.",
+     "The hotel had a mistake on its website. The price was very low so that many people want rooms.",
+     "The hotel had a mistake on its website. The price was very low such that many people wanted rooms."
+    ],
+    "answer": 0,
+    "why": "A result, not a purpose → , so.",
+    "rule": "19-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Due to] medical care costs a lot in the U.S., people need to have insurance.",
+    "options": [
+     "Due medical care costs a lot in the U.S., people need to have insurance.",
+     "Because medical care costs a lot in the U.S., people need to have insurance.",
+     "Because of medical care costs a lot in the U.S., people need to have insurance."
+    ],
+    "answer": 1,
+    "why": "Clause → Because.",
+    "rule": "19-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "The dorm room I was assigned to has a broken [heater, therefore,] I have complained to the office.",
+    "options": [
+     "The dorm room I was assigned to has a broken heater therefore I have complained to the office.",
+     "The dorm room I was assigned to has a broken heater, therefore I have complained to the office.",
+     "The dorm room I was assigned to has a broken heater. Therefore, I have complained to the office."
+    ],
+    "answer": 2,
+    "why": "Period before a transition.",
+    "rule": "19-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Because Jamal's visa has expired, he waited too long to renew it.]",
+    "options": [
+     "Because Jamal waited too long to renew it, his visa has expired.",
+     "Because of Jamal's visa has expired, he waited too long to renew it.",
+     "Jamal's visa has expired, so he waited too long to renew it."
+    ],
+    "answer": 0,
+    "why": "Waiting too long = the cause.",
+    "rule": "19-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Jenn had surprisingly low test scores. [However], the college she chose didn't admit her.",
+    "options": [
+     "Jenn had surprisingly low test scores. Nevertheless, the college she chose didn't admit her.",
+     "Jenn had surprisingly low test scores. Therefore, the college she chose didn't admit her.",
+     "Jenn had surprisingly low test scores. Otherwise, the college she chose didn't admit her."
+    ],
+    "answer": 1,
+    "why": "Low scores → not admitted is expected.",
+    "rule": "19-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Despite the weather is freezing] today, I'm going to take a run in the park.",
+    "options": [
+     "Despite of the weather is freezing today, I'm going to take a run in the park.",
+     "Despite the weather freezing is today, I'm going to take a run in the park.",
+     "Despite the freezing weather today, I'm going to take a run in the park."
+    ],
+    "answer": 2,
+    "why": "despite + noun.",
+    "rule": "19-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "We should leave [now, otherwise,] we will get stuck in traffic.",
+    "options": [
+     "We should leave now. Otherwise, we will get stuck in traffic.",
+     "We should leave now otherwise, we will get stuck in traffic.",
+     "We should leave now, otherwise we will get stuck in traffic."
+    ],
+    "answer": 0,
+    "why": "Period before otherwise.",
+    "rule": "19-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "The electric bill was months overdue; [nevertheless], the power company turned off the power to the home.",
+    "options": [
+     "The electric bill was months overdue; however, the power company turned off the power to the home.",
+     "The electric bill was months overdue; consequently, the power company turned off the power to the home.",
+     "The electric bill was months overdue; otherwise, the power company turned off the power to the home."
+    ],
+    "answer": 1,
+    "why": "An expected result → consequently.",
+    "rule": "19-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "Please talk more quietly so that we [could] hear the speaker.",
+    "options": [
+     "Please talk more quietly so that we can hear the speaker.",
+     "Please talk more quietly so that we heard the speaker.",
+     "Please talk more quietly so that we could have heard the speaker."
+    ],
+    "answer": 0,
+    "why": "Present → so that + can.",
+    "rule": "19-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "You should apply for a scholarship soon [unless] you don't want to miss the deadline.",
+    "options": [
+     "You should apply for a scholarship soon unless you want not to miss the deadline.",
+     "You should apply for a scholarship soon even you don't want to miss the deadline.",
+     "You should apply for a scholarship soon if you don't want to miss the deadline."
+    ],
+    "answer": 2,
+    "why": "unless is already negative → if … don't.",
+    "rule": "19-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Since you should change your password, many people know it.]",
+    "options": [
+     "Since you should change your password; many people know it.",
+     "Since many people know it, you should change your password.",
+     "Since of many people know it, you should change your password."
+    ],
+    "answer": 1,
+    "why": "People knowing it = the cause.",
+    "rule": "19-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "My parents bought a house in our neighborhood so that they [are going to] be closer to their grandchildren.",
+    "options": [
+     "My parents bought a house in our neighborhood so that they could be closer to their grandchildren.",
+     "My parents bought a house in our neighborhood so that they being closer to their grandchildren.",
+     "My parents bought a house in our neighborhood such that they are closer to their grandchildren."
+    ],
+    "answer": 0,
+    "why": "Purpose in the past → could.",
+    "rule": "19-6"
+   }
+  ]
+ }
+}

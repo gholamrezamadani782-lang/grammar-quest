@@ -1,0 +1,5988 @@
+{
+ "id": "ch11",
+ "num": 11,
+ "title": "The Passive",
+ "subtitle": "be + past participle, get, -ed / -ing",
+ "icon": "🗿",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "A car accident was occurred in front of my office yesterday.",
+    "answer": "wrong",
+    "why": "occur is never passive.",
+    "fix": "A car accident occurred in front of my office yesterday.",
+    "rule": "11-1"
+   },
+   {
+    "type": "judge",
+    "text": "The tax bill checked by the accountant last week.",
+    "answer": "wrong",
+    "why": "Passive needs be: was checked.",
+    "fix": "The tax bill was checked by the accountant last week.",
+    "rule": "11-1"
+   },
+   {
+    "type": "judge",
+    "text": "A new apartment building is being built next to my house.",
+    "answer": "correct",
+    "why": "is being + built.",
+    "rule": "11-2"
+   },
+   {
+    "type": "judge",
+    "text": "Has the text message been sent already?",
+    "answer": "correct",
+    "why": "has + been + sent.",
+    "rule": "11-2"
+   },
+   {
+    "type": "judge",
+    "text": "Coffee is best grown in wetter climates.",
+    "answer": "correct",
+    "why": "No by-phrase needed.",
+    "rule": "11-3"
+   },
+   {
+    "type": "judge",
+    "text": "The exams will be reading by two different teachers.",
+    "answer": "wrong",
+    "why": "will be + past participle: read.",
+    "fix": "The exams will be read by two different teachers.",
+    "rule": "11-4"
+   },
+   {
+    "type": "judge",
+    "text": "Your homework should have be done before you went to your friend's.",
+    "answer": "wrong",
+    "why": "Past: should have been done.",
+    "fix": "Your homework should have been done before you went to your friend's.",
+    "rule": "11-4"
+   },
+   {
+    "type": "judge",
+    "text": "Sorry, the project isn't quite finish yet.",
+    "answer": "wrong",
+    "why": "be + past participle: finished.",
+    "fix": "Sorry, the project isn't quite finished yet.",
+    "rule": "11-5"
+   },
+   {
+    "type": "judge",
+    "text": "Did you know that Alexa is marry to Khalifa?",
+    "answer": "wrong",
+    "why": "be married to.",
+    "fix": "Did you know that Alexa is married to Khalifa?",
+    "rule": "11-5"
+   },
+   {
+    "type": "judge",
+    "text": "What would you like to be remembered for?",
+    "answer": "correct",
+    "why": "be remembered for.",
+    "rule": "11-6"
+   },
+   {
+    "type": "judge",
+    "text": "Tomas is two hours late. I'm get nervous.",
+    "answer": "wrong",
+    "why": "am + getting.",
+    "fix": "Tomas is two hours late. I'm getting nervous.",
+    "rule": "11-7"
+   },
+   {
+    "type": "judge",
+    "text": "The speaker had a monotone voice. We were really boring.",
+    "answer": "wrong",
+    "why": "We felt it → bored.",
+    "fix": "The speaker had a monotone voice. We were really bored.",
+    "rule": "11-8"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "11-1",
+   "tag": "11-1",
+   "t": "plan",
+   "title": "Who did it?",
+   "full": "Active vs. Passive",
+   "lesson": {
+    "title": "Learn: active and passive",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two ways to say it",
+      "lines": [
+       "Active: the subject does it.",
+       "Passive: the subject receives it."
+      ],
+      "visual": [
+       "passive"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The ball was hit by the girl. Who hit?",
+      "options": [
+       "the girl",
+       "the ball"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "by the girl = she did the action."
+     },
+     {
+      "type": "learn",
+      "title": "Passive = be + past participle",
+      "lines": [
+       "be changes. The past participle stays."
+      ],
+      "chips": [
+       "He is helped by her.",
+       "He was helped by her.",
+       "He will be helped by her."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which sentence is passive?",
+      "options": [
+       "Kate made the salad.",
+       "The rice was made by Jamal.",
+       "Siri was making the dessert."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "was + made (past participle) = passive."
+     },
+     {
+      "type": "learn",
+      "title": "Some verbs are never passive",
+      "lines": [
+       "No object? No passive."
+      ],
+      "chips": [
+       {
+        "label": "🚫 never passive",
+        "words": [
+         "happen",
+         "occur",
+         "arrive",
+         "come",
+         "die",
+         "fall",
+         "seem",
+         "appear",
+         "sleep",
+         "belong"
+        ]
+       }
+      ],
+      "examples": [
+       {
+        "text": "An accident happened.",
+        "hl": [
+         [
+          "happened",
+          "pres"
+         ]
+        ]
+       }
+      ],
+      "tip": "❌ An accident was happened."
+     },
+     {
+      "type": "choice",
+      "text": "A car accident ___ in front of my office yesterday.",
+      "options": [
+       "was occurred",
+       "occurred"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "occur has no object → never passive."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Passive = be + past participle. The doer comes after by.",
+     "No object, no passive: happen, occur, arrive, die, seem."
+    ],
+    "timeline": [
+     "passive"
+    ],
+    "examples": [
+     {
+      "text": "Mary helped the boy.",
+      "hl": [
+       [
+        "helped",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "The boy was helped by Mary.",
+      "hl": [
+       [
+        "was helped",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "An accident happened.",
+      "hl": [
+       [
+        "happened",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "At the movies",
+     "icon": "🎬",
+     "items": [
+      {
+       "type": "sort",
+       "word": "What movie is playing this week?",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "is + -ing = active progressive."
+      },
+      {
+       "type": "sort",
+       "word": "A world premiere movie will be shown tonight.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "will be + shown."
+      },
+      {
+       "type": "sort",
+       "word": "A popular movie was shown last week.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "was + shown."
+      },
+      {
+       "type": "sort",
+       "word": "Tickets are sold at the theater and online.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "are + sold."
+      },
+      {
+       "type": "sort",
+       "word": "Tickets will be available soon.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "available is an adjective, not a past participle."
+      },
+      {
+       "type": "sort",
+       "word": "Discounts are given for advance purchases.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "are + given."
+      },
+      {
+       "type": "sort",
+       "word": "We are giving tickets to our friends.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "are + -ing = active progressive."
+      },
+      {
+       "type": "sort",
+       "word": "The movie will be a blockbuster.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "No past participle."
+      },
+      {
+       "type": "sort",
+       "word": "The last ticket was just sold.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "was + sold."
+      },
+      {
+       "type": "sort",
+       "word": "Tickets for the upcoming movie will be sold online soon.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "will be + sold."
+      }
+     ]
+    },
+    {
+     "title": "The girl and the ball",
+     "icon": "⚾",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The girl hit the ball.",
+       "options": [
+        "The girl did it. The ball flew.",
+        "The ball did it. The girl said “Ouch!”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Active: the subject (the girl) does it.",
+       "ask": "What happened?"
+      },
+      {
+       "type": "choice",
+       "text": "The girl was hit by the ball.",
+       "options": [
+        "The girl did it. The ball flew.",
+        "The ball did it. The girl said “Ouch!”"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Passive: the girl receives the action.",
+       "ask": "What happened?"
+      },
+      {
+       "type": "choice",
+       "text": "The ball was hit by the girl.",
+       "options": [
+        "The girl did it. The ball flew.",
+        "The ball did it. The girl said “Ouch!”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "by the girl = she did it.",
+       "ask": "What happened?"
+      },
+      {
+       "type": "choice",
+       "text": "The girl was hitting the ball.",
+       "options": [
+        "The girl did it. The ball flew.",
+        "The ball did it. The girl said “Ouch!”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was + -ing = active.",
+       "ask": "What happened?"
+      },
+      {
+       "type": "sort",
+       "word": "Andy has made the tea.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "has + made = active present perfect."
+      },
+      {
+       "type": "sort",
+       "word": "On their way over, Anita was stopped by the police.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "was + stopped."
+      },
+      {
+       "type": "sort",
+       "word": "She was upset, but Alex calmed her down.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "Alex did the action."
+      },
+      {
+       "type": "sort",
+       "word": "Dinosaurs existed millions of years ago.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 0,
+       "why": "exist has no object."
+      },
+      {
+       "type": "sort",
+       "word": "The remains of about 14 dinosaurs are discovered every year.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "are + discovered."
+      },
+      {
+       "type": "sort",
+       "word": "The bones will be studied by paleontologists for years.",
+       "buckets": [
+        "Active",
+        "Passive"
+       ],
+       "answer": 1,
+       "why": "will be + studied."
+      }
+     ]
+    },
+    {
+     "title": "Never passive",
+     "icon": "🚫",
+     "items": [
+      {
+       "type": "judge",
+       "text": "A car accident was occurred in front of my office yesterday.",
+       "answer": "wrong",
+       "why": "occur is never passive.",
+       "fix": "A car accident occurred in front of my office yesterday."
+      },
+      {
+       "type": "judge",
+       "text": "The tax bill checked by the accountant last week.",
+       "answer": "wrong",
+       "why": "Passive needs be: was checked.",
+       "fix": "The tax bill was checked by the accountant last week."
+      },
+      {
+       "type": "judge",
+       "text": "A surprising thing happened at the game yesterday.",
+       "answer": "correct",
+       "why": "happen is always active."
+      },
+      {
+       "type": "judge",
+       "text": "A surprising thing was happened at the game yesterday.",
+       "answer": "wrong",
+       "why": "happen is never passive.",
+       "fix": "A surprising thing happened at the game yesterday."
+      },
+      {
+       "type": "judge",
+       "text": "The winning goal was scored by Jackie.",
+       "answer": "correct",
+       "why": "was + scored + by."
+      },
+      {
+       "type": "judge",
+       "text": "The answer to the problem was appeared to me in a dream.",
+       "answer": "wrong",
+       "why": "appear is never passive.",
+       "fix": "The answer to the problem appeared to me in a dream."
+      },
+      {
+       "type": "judge",
+       "text": "People are seemed to be in shock.",
+       "answer": "wrong",
+       "why": "seem is never passive.",
+       "fix": "People seem to be in shock."
+      },
+      {
+       "type": "judge",
+       "text": "My grandmother was fallen down on the icy sidewalk.",
+       "answer": "wrong",
+       "why": "fall is never passive.",
+       "fix": "My grandmother fell down on the icy sidewalk."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11-2",
+   "tag": "11-2",
+   "t": "plan",
+   "title": "Only be changes",
+   "full": "Tense Forms of the Passive",
+   "lesson": {
+    "title": "Learn: the passive in every tense",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Change be, keep the participle",
+      "lines": [
+       "The tense lives in be."
+      ],
+      "visual": [
+       "passive-tenses"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Present and past",
+      "lines": [
+       "Simple: is / was helped.",
+       "Progressive: is being / was being helped."
+      ],
+      "chips": [
+       "Mary helps the boy. → The boy is helped.",
+       "Mary is helping the boy. → The boy is being helped.",
+       "Mary helped the boy. → The boy was helped.",
+       "Mary was helping the boy. → The boy was being helped."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Tom is opening the door. → The door ___ by Tom.",
+      "options": [
+       "is opened",
+       "is being opened",
+       "is opening"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "is opening → is being opened."
+     },
+     {
+      "type": "learn",
+      "title": "Perfect and future",
+      "lines": [
+       "has been / had been / will be / is going to be + helped."
+      ],
+      "chips": [
+       "Mary has helped the boy. → The boy has been helped.",
+       "Mary had helped the boy. → The boy had been helped.",
+       "Mary will help the boy. → The boy will be helped.",
+       "Mary is going to help the boy. → The boy is going to be helped."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Two instructors have scored the tests. → The tests ___ scored by two instructors.",
+      "options": [
+       "are",
+       "were",
+       "have been",
+       "will be"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "have scored → have been scored."
+     },
+     {
+      "type": "learn",
+      "title": "Questions: be goes first",
+      "lines": [
+       "Move the first helping verb."
+      ],
+      "chips": [
+       "Did Mary help the boy? → Was the boy helped by Mary?",
+       "Will Mary help the boy? → Will the boy be helped?",
+       "Has Mary helped the boy? → Has the boy been helped?"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Has the text message ___ sent already?",
+      "options": [
+       "be",
+       "been",
+       "being"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "has + been + past participle."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Keep the tense of the active verb in be. Then add the past participle.",
+     "Progressive: being. Perfect: been."
+    ],
+    "timeline": [
+     "passive-tenses"
+    ],
+    "examples": [
+     {
+      "text": "The door is being opened by Tom.",
+      "hl": [
+       [
+        "is being opened",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The door has been opened by Tom.",
+      "hl": [
+       [
+        "has been opened",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The door will be opened by Tom.",
+      "hl": [
+       [
+        "will be opened",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Scoring the tests",
+     "icon": "📝",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Two instructors will score the tests. → The tests ___ scored by two instructors.",
+       "options": [
+        "are",
+        "were",
+        "have been",
+        "will be"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "will score → will be scored."
+      },
+      {
+       "type": "choice",
+       "text": "Two instructors scored the tests. → The tests ___ scored by two instructors.",
+       "options": [
+        "are",
+        "were",
+        "have been",
+        "will be"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "scored → were scored."
+      },
+      {
+       "type": "choice",
+       "text": "Two instructors score the tests. → The tests ___ scored by two instructors.",
+       "options": [
+        "are",
+        "were",
+        "have been",
+        "will be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "score → are scored."
+      },
+      {
+       "type": "fill",
+       "text": "Tom opens the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "is opened"
+       ],
+       "why": "opens → is opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom is opening the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "is being opened"
+       ],
+       "why": "is opening → is being opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom has opened the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "has been opened"
+       ],
+       "why": "has opened → has been opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom opened the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "was opened"
+       ],
+       "why": "opened → was opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom was opening the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "was being opened"
+       ],
+       "why": "was opening → was being opened."
+      }
+     ]
+    },
+    {
+     "title": "Tom and the door",
+     "icon": "🚪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Tom had opened the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "had been opened"
+       ],
+       "why": "had opened → had been opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom will open the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "will be opened"
+       ],
+       "why": "will open → will be opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom is going to open the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "is going to be opened"
+       ],
+       "why": "is going to open → is going to be opened."
+      },
+      {
+       "type": "fill",
+       "text": "Tom will have opened the door. → The door ___ by Tom.",
+       "verb": "open",
+       "accept": [
+        "will have been opened"
+       ],
+       "why": "will have opened → will have been opened."
+      },
+      {
+       "type": "choice",
+       "text": "Did Tom open the door? → ___ by Tom?",
+       "options": [
+        "Was the door opened",
+        "Did the door opened",
+        "Was the door open"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Did … open → Was … opened."
+      },
+      {
+       "type": "choice",
+       "text": "Will Tom open the door? → ___ by Tom?",
+       "options": [
+        "Will the door opened",
+        "Will the door be opened",
+        "Will be the door opened"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "will + subject + be + opened."
+      },
+      {
+       "type": "choice",
+       "text": "Has Tom opened the door? → ___ by Tom?",
+       "options": [
+        "Has the door opened",
+        "Has been the door opened",
+        "Has the door been opened"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "has + subject + been + opened."
+      },
+      {
+       "type": "judge",
+       "text": "A new apartment building is being built next to my house.",
+       "answer": "correct",
+       "why": "is being + built = in progress now."
+      },
+      {
+       "type": "judge",
+       "text": "Has the text message been sent already?",
+       "answer": "correct",
+       "why": "has + subject + been + sent."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not? (1)",
+     "icon": "🔎",
+     "items": [
+      {
+       "type": "judge",
+       "text": "I am agree with Dr. Ikeda's theory.",
+       "answer": "wrong",
+       "why": "agree is a verb: I agree.",
+       "fix": "I agree with Dr. Ikeda's theory."
+      },
+      {
+       "type": "judge",
+       "text": "That theory was developed by Dr. Ikeda.",
+       "answer": "correct",
+       "why": "was + developed + by."
+      },
+      {
+       "type": "judge",
+       "text": "Professor Quirk was given us a difficult math problem.",
+       "answer": "wrong",
+       "why": "He did it → active: gave.",
+       "fix": "Professor Quirk gave us a difficult math problem."
+      },
+      {
+       "type": "judge",
+       "text": "The answer to the problem appeared to me in a dream.",
+       "answer": "correct",
+       "why": "appear is always active."
+      },
+      {
+       "type": "judge",
+       "text": "The police are going to be arrested the suspect.",
+       "answer": "wrong",
+       "why": "The police do it → active.",
+       "fix": "The police are going to arrest the suspect."
+      },
+      {
+       "type": "judge",
+       "text": "The suspect is going to be arrested by the police.",
+       "answer": "correct",
+       "why": "is going to be + arrested."
+      },
+      {
+       "type": "judge",
+       "text": "The suspect is going to arrest by the police.",
+       "answer": "wrong",
+       "why": "Passive needs be: to be arrested.",
+       "fix": "The suspect is going to be arrested by the police."
+      },
+      {
+       "type": "judge",
+       "text": "Jackie scored the winning goal.",
+       "answer": "correct",
+       "why": "Active: Jackie did it."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not? (2)",
+     "icon": "🌀",
+     "items": [
+      {
+       "type": "judge",
+       "text": "A hurricane has destroyed much of the town.",
+       "answer": "correct",
+       "why": "Active: the hurricane did it."
+      },
+      {
+       "type": "judge",
+       "text": "Much of the town has been destroyed.",
+       "answer": "correct",
+       "why": "has been + destroyed."
+      },
+      {
+       "type": "judge",
+       "text": "What was happened?",
+       "answer": "wrong",
+       "why": "happen is never passive.",
+       "fix": "What happened?"
+      },
+      {
+       "type": "judge",
+       "text": "What occurred?",
+       "answer": "correct",
+       "why": "occur is always active."
+      },
+      {
+       "type": "judge",
+       "text": "What was occurred?",
+       "answer": "wrong",
+       "why": "occur is never passive.",
+       "fix": "What occurred?"
+      },
+      {
+       "type": "judge",
+       "text": "Will our plan be succeed?",
+       "answer": "wrong",
+       "why": "succeed has no object → active.",
+       "fix": "Will our plan succeed?"
+      },
+      {
+       "type": "judge",
+       "text": "Will people agree with it?",
+       "answer": "correct",
+       "why": "agree is active."
+      },
+      {
+       "type": "judge",
+       "text": "Will people be agree with it?",
+       "answer": "wrong",
+       "why": "agree is a verb, not an adjective.",
+       "fix": "Will people agree with it?"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Who did it?",
+     "task": "Claude asks “Who designed the Eiffel Tower?” You answer with the passive.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time in the ACTIVE: Who designed the Eiffel Tower? / Who collects taxes in your country? / Who taught your last English class? / Who has helped you a lot in your life? / Who sings your favorite music? / Who will pay your next bill? / Who is going to decide your future? I must answer with a PASSIVE sentence (The Eiffel Tower was designed by ..., I have been helped by ...). Check that the tense of be matches your question and that I use the past participle."
+    }
+   ]
+  },
+  {
+   "id": "11-3",
+   "tag": "11-3",
+   "t": "plan",
+   "title": "By who? Not important",
+   "full": "Using the Passive",
+   "lesson": {
+    "title": "Learn: when to use the passive",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Usually no by-phrase",
+      "lines": [
+       "We don't know who did it. Or it isn't important."
+      ],
+      "chips": [
+       "Rice is grown in India.",
+       "Our house was built in 1980.",
+       "This olive oil was imported from Crete."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My smartphone was made in China. Why passive?",
+      "options": [
+       "I don't know who made it.",
+       "The phone made something."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The doer is unknown and not important."
+     },
+     {
+      "type": "learn",
+      "title": "You know who? Use active",
+      "lines": [
+       "Known doer → active is more usual."
+      ],
+      "chips": [
+       "✅ My aunt made this rug.",
+       "🤔 This rug was made by my aunt. (only for focus)"
+      ],
+      "examples": [
+       {
+        "text": "My aunt made this rug.",
+        "hl": [
+         [
+          "made",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "by + doer for focus",
+      "lines": [
+       "The topic comes first. The doer is important news."
+      ],
+      "chips": [
+       "This rug was made by my aunt. That rug was made by my mother.",
+       "Huckleberry Finn was written by Mark Twain."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which by-phrase is needed?",
+      "options": [
+       "Rice is grown in India by farmers.",
+       "Hamlet was written by Shakespeare."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "by Shakespeare is important information."
+     },
+     {
+      "type": "choice",
+      "text": "A package ___ to our apartment yesterday.",
+      "options": [
+       "delivered",
+       "was delivered"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The package received the action → passive."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Use the passive when the doer is unknown or not important.",
+     "Add by + doer only when it is important news."
+    ],
+    "timeline": [
+     "passive"
+    ],
+    "examples": [
+     {
+      "text": "Rice is grown in India.",
+      "hl": [
+       [
+        "is grown",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Our house was built in 1980.",
+      "hl": [
+       [
+        "was built",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Huckleberry Finn was written by Mark Twain.",
+      "hl": [
+       [
+        "was written",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Why passive? Same meaning?",
+     "icon": "📱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The first video was taken by Carlos. The second video was taken by Natasha.",
+       "options": [
+        "The focus is on the two videos.",
+        "We don't know who took them."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Topic first; by + doer is the news.",
+       "ask": "Why passive?"
+      },
+      {
+       "type": "choice",
+       "text": "Over 500 websites are created every minute.",
+       "options": [
+        "The doers are not important.",
+        "The websites create something."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Who creates them isn't important.",
+       "ask": "Why passive?"
+      },
+      {
+       "type": "choice",
+       "text": "What new technology will be designed next?",
+       "options": [
+        "Nobody knows who will design it.",
+        "Technology will design something."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The doer is unknown.",
+       "ask": "Why passive?"
+      },
+      {
+       "type": "choice",
+       "text": "The assistant manager interviewed Mr. Evans for the sales job.",
+       "options": [
+        "Mr. Evans was interviewed.",
+        "Someone interviewed Mr. Evans.",
+        "The assistant manager was interviewed."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Mr. Evans received the action.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "The noisy kids were told to leave.",
+       "options": [
+        "The kids told others to leave.",
+        "The kids were told something.",
+        "Someone told the kids to leave."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "The kids received the action.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "A famous architect has been asked to design the new library.",
+       "options": [
+        "An architect has asked someone to design the library.",
+        "Someone would like the architect to design the new library.",
+        "A famous architect would like to design the new library."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Someone asked the architect.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I was ignored by the salesclerk while she talked on the phone.",
+       "options": [
+        "The salesclerk ignored me.",
+        "I ignored the salesclerk.",
+        "Someone ignored me."
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "by the salesclerk = she did it.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "After the speech, the audience will ask the speaker follow-up questions.",
+       "options": [
+        "The speaker will ask questions.",
+        "The audience will be asked questions.",
+        "The speaker will be asked questions."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The speaker receives the questions.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "The staff is planning a retirement party for Dr. Wilson.",
+       "options": [
+        "A party is being planned by Dr. Wilson.",
+        "A party is being planned by the staff.",
+        "The staff is making plans."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "The staff are the doers.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    },
+    {
+     "title": "Early writing, early mirrors",
+     "icon": "📜",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Parchment ___ from the skins of animals, such as sheep and goats.",
+       "verb": "make",
+       "accept": [
+        "was made"
+       ],
+       "why": "Someone made it long ago → was made.",
+       "ctx": "Early writing materials"
+      },
+      {
+       "type": "fill",
+       "text": "After the hair had been removed, the skins ___ and rubbed smooth.",
+       "verb": "stretch",
+       "accept": [
+        "were stretched"
+       ],
+       "why": "Plural skins, past → were stretched."
+      },
+      {
+       "type": "fill",
+       "text": "Paper, the main writing material today, ___ by the Chinese.",
+       "verb": "invent",
+       "accept": [
+        "was invented"
+       ],
+       "why": "by the Chinese = the doer."
+      },
+      {
+       "type": "fill",
+       "text": "Ink ___ for writing and drawing throughout history.",
+       "verb": "use",
+       "accept": [
+        "has been used"
+       ],
+       "why": "throughout history, up to now → present perfect."
+      },
+      {
+       "type": "fill",
+       "text": "The ancient Egyptians and Chinese ___ ink from berries, soot, and tree bark.",
+       "verb": "make",
+       "accept": [
+        "made"
+       ],
+       "why": "They did it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Most ink today ___ from chemicals.",
+       "verb": "make",
+       "accept": [
+        "is made"
+       ],
+       "why": "today → is made."
+      },
+      {
+       "type": "listen",
+       "say": "Mirrors have been used since the stone age.",
+       "ask": "What did you hear?",
+       "options": [
+        "have used",
+        "have been used",
+        "are being used"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have been + used."
+      },
+      {
+       "type": "listen",
+       "say": "The first mirrors were made from rocks.",
+       "ask": "What did you hear?",
+       "options": [
+        "were made",
+        "we made",
+        "are made"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "were + made."
+      },
+      {
+       "type": "listen",
+       "say": "The stone was ground down on one side until it was flat.",
+       "ask": "What did you hear?",
+       "options": [
+        "has ground",
+        "was ground",
+        "was grinding"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "was + ground (grind, ground, ground)."
+      },
+      {
+       "type": "listen",
+       "say": "Then it was polished until it became extremely shiny.",
+       "ask": "What did you hear?",
+       "options": [
+        "was polished",
+        "polished",
+        "is polished"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "was + polished."
+      }
+     ]
+    },
+    {
+     "title": "Yesterday: active or passive? (1)",
+     "icon": "📦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It ___ to the wrong address.",
+       "options": [
+        "sent",
+        "was sent"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The package received the action.",
+       "ctx": "A package was delivered to our apartment."
+      },
+      {
+       "type": "choice",
+       "text": "We ___ it back.",
+       "options": [
+        "sent",
+        "were sent"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "We did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "Maria ___ her son to use the crosswalk for the first time.",
+       "options": [
+        "taught",
+        "was taught"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Maria did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ by her parents when she was six.",
+       "options": [
+        "taught",
+        "was taught"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by her parents → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The pickpocket almost ___ into the crowd.",
+       "options": [
+        "disappeared",
+        "was disappeared"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "disappear is never passive."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ by an alert police officer.",
+       "options": [
+        "caught",
+        "was caught"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by an officer → passive."
+      },
+      {
+       "type": "choice",
+       "text": "Tony ___ a dead tree.",
+       "options": [
+        "cut down",
+        "was cut down"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tony did it → active."
+      },
+      {
+       "type": "choice",
+       "text": "The tree ___ to the ground with a crash.",
+       "options": [
+        "fell",
+        "was fallen"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "fall is never passive."
+      },
+      {
+       "type": "choice",
+       "text": "Fortunately, no one ___.",
+       "options": [
+        "hurt",
+        "was hurt"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "People receive the injury → was hurt."
+      }
+     ]
+    },
+    {
+     "title": "Yesterday: active or passive? (2)",
+     "icon": "🦌",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Something very sad ___ yesterday.",
+       "options": [
+        "happened",
+        "was happened"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "happen is never passive."
+      },
+      {
+       "type": "choice",
+       "text": "A deer ___ by a truck.",
+       "options": [
+        "hit",
+        "was hit"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by a truck → passive."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ instantly.",
+       "options": [
+        "killed",
+        "was killed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The deer received the action."
+      },
+      {
+       "type": "choice",
+       "text": "It ___ instantly. (die)",
+       "options": [
+        "died",
+        "was died"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "die is never passive."
+      },
+      {
+       "type": "fill",
+       "text": "When I was in elementary school, we ___ to wear uniforms.",
+       "verb": "require",
+       "accept": [
+        "were required"
+       ],
+       "why": "The school required us → passive, past."
+      },
+      {
+       "type": "fill",
+       "text": "Later, my high school ___ students to follow a dress code.",
+       "verb": "require",
+       "accept": [
+        "required"
+       ],
+       "why": "The school did it → active."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ with the dress code.",
+       "verb": "agree, not",
+       "accept": [
+        "did not agree",
+        "didn't agree"
+       ],
+       "why": "agree is active: didn't agree."
+      },
+      {
+       "type": "fill",
+       "text": "Now my children ___ to wear uniforms.",
+       "verb": "require",
+       "accept": [
+        "are required"
+       ],
+       "why": "Now → present passive."
+      }
+     ]
+    },
+    {
+     "title": "Headlines and a contest",
+     "icon": "📰",
+     "items": [
+      {
+       "type": "fill",
+       "text": "5 PEOPLE KILLED BY TORNADOES → Five people ___ by tornadoes yesterday.",
+       "verb": "kill",
+       "accept": [
+        "were killed"
+       ],
+       "why": "yesterday → were killed."
+      },
+      {
+       "type": "fill",
+       "text": "DECISION ON TAX INCREASE TO BE ANNOUNCED SOON → A decision on a tax increase ___ soon.",
+       "verb": "announce",
+       "accept": [
+        "will be announced",
+        "is going to be announced"
+       ],
+       "why": "soon → future passive."
+      },
+      {
+       "type": "fill",
+       "text": "MORE THAN 2 BILLION CUPS OF COFFEE CONSUMED WORLDWIDE → More than two billion cups of coffee ___ worldwide each day.",
+       "verb": "consume",
+       "accept": [
+        "are consumed"
+       ],
+       "why": "each day → present passive."
+      },
+      {
+       "type": "fill",
+       "text": "200,000 CARS RECALLED → Two hundred thousand cars ___ for brake defects since last year.",
+       "verb": "recall",
+       "accept": [
+        "have been recalled"
+       ],
+       "why": "since last year → present perfect passive."
+      },
+      {
+       "type": "fill",
+       "text": "NEW HIGH-SPEED COMPUTER CHIPS DELAYED → New high-speed computer chips ___ until next year.",
+       "verb": "delay",
+       "accept": [
+        "have been delayed",
+        "are being delayed",
+        "will be delayed",
+        "were delayed"
+       ],
+       "why": "be + delayed. The tense can vary."
+      },
+      {
+       "type": "fill",
+       "text": "Someone asked me to be a judge for a design contest. → I ___ to be a judge for a design contest.",
+       "verb": "ask",
+       "accept": [
+        "was asked"
+       ],
+       "why": "asked → was asked. No by-phrase needed."
+      },
+      {
+       "type": "fill",
+       "text": "A visiting professor is teaching the introductory class. → The introductory class ___ by a visiting professor.",
+       "verb": "teach",
+       "accept": [
+        "is being taught"
+       ],
+       "why": "is teaching → is being taught."
+      },
+      {
+       "type": "fill",
+       "text": "Someone has asked students to submit their best work. → Students ___ to submit their best work.",
+       "verb": "ask",
+       "accept": [
+        "have been asked"
+       ],
+       "why": "has asked → have been asked."
+      },
+      {
+       "type": "fill",
+       "text": "Judges will judge applicants on originality. → Applicants ___ on originality.",
+       "verb": "judge",
+       "accept": [
+        "will be judged"
+       ],
+       "why": "will judge → will be judged."
+      },
+      {
+       "type": "fill",
+       "text": "Someone will award a scholarship to the winner. → A scholarship ___ to the winner.",
+       "verb": "award",
+       "accept": [
+        "will be awarded"
+       ],
+       "why": "will award → will be awarded."
+      }
+     ]
+    },
+    {
+     "title": "The contest: more",
+     "icon": "🎨",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It is a very popular major.",
+       "options": [
+        "It can't be passive.",
+        "It is been a very popular major."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is + noun. No action, no object.",
+       "ask": "Can it be passive?"
+      },
+      {
+       "type": "choice",
+       "text": "The school offers many different classes in graphic design.",
+       "options": [
+        "Many different classes in graphic design are offered.",
+        "Many different classes in graphic design are offering."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "offers → are offered.",
+       "ask": "Choose the passive"
+      },
+      {
+       "type": "choice",
+       "text": "Someone is going to announce the winner at the end of the term.",
+       "options": [
+        "The winner is going to announce at the end of the term.",
+        "The winner is going to be announced at the end of the term."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is going to be + announced.",
+       "ask": "Choose the passive"
+      },
+      {
+       "type": "choice",
+       "text": "Several top students have already submitted designs.",
+       "options": [
+        "Designs have already been submitted by several top students.",
+        "Designs have already submitted by several top students."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have been + submitted.",
+       "ask": "Choose the passive"
+      },
+      {
+       "type": "judge",
+       "text": "Coffee is best grown in wetter climates.",
+       "answer": "correct",
+       "why": "No by-phrase: the growers aren't important."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Made in…",
+     "task": "Where were your shoes, your shirt and your phone made? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about my things: Where were your shoes made? What is your phone case made of? When was your home built? Where is the food you ate today grown? Then ask the active questions and I answer in the passive: What did your parents expect you to do as a child? (I was expected to...) What frightens you? (I am frightened by...) What often confuses people? Check my passive forms: be + past participle, and by only when needed."
+    }
+   ]
+  },
+  {
+   "id": "R11a",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Fact hunter",
+   "full": "Active and Passive: Facts (Charts 11-1 to 11-3)",
+   "lesson": {
+    "title": "Learn: choose active or passive",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Ask one question",
+      "lines": [
+       "Does the subject DO it, or RECEIVE it?"
+      ],
+      "visual": [
+       "passive"
+      ],
+      "chips": [
+       "Edison invented the light bulb. (does it)",
+       "The light bulb was invented by Edison. (receives it)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The electric light bulb ___ by Thomas Edison.",
+      "options": [
+       "invented",
+       "was invented"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The bulb received the action → passive."
+     },
+     {
+      "type": "choice",
+      "text": "Weather satellites ___ the earth.",
+      "options": [
+       "orbit",
+       "are orbited"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Satellites do the action → active."
+     },
+     {
+      "type": "learn",
+      "title": "Watch the time words",
+      "lines": [
+       "They tell you the tense of be."
+      ],
+      "chips": [
+       "in 1928 → was discovered",
+       "every day → are sent",
+       "since ancient times → have been collected"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Now billions of emails ___ every day.",
+      "options": [
+       "are sent",
+       "were sent",
+       "have sent"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "every day → present passive."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Subject does it → active. Subject receives it → passive.",
+     "Time words choose the tense of be."
+    ],
+    "timeline": [
+     "passive"
+    ],
+    "examples": [
+     {
+      "text": "Penicillin was discovered in 1928.",
+      "hl": [
+       [
+        "was discovered",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Billions of emails are sent every day.",
+      "hl": [
+       [
+        "are sent",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Ray Tomlinson sent the first email.",
+      "hl": [
+       [
+        "sent",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "True facts game",
+     "icon": "🏝️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "An island ___ by water.",
+       "verb": "surround",
+       "accept": [
+        "is surrounded"
+       ],
+       "why": "A fact → present passive."
+      },
+      {
+       "type": "fill",
+       "text": "Some forest fires ___ by lightning.",
+       "verb": "cause",
+       "accept": [
+        "are caused"
+       ],
+       "why": "by lightning → passive."
+      },
+      {
+       "type": "choice",
+       "text": "Is ID theft ___ because of poor smartphone security?",
+       "options": [
+        "growing",
+        "grown",
+        "being grown"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It grows by itself → active."
+      },
+      {
+       "type": "fill",
+       "text": "The -ing form of “sit” ___ with a double “t.”",
+       "verb": "spell",
+       "accept": [
+        "is spelled",
+        "is spelt"
+       ],
+       "why": "A fact → is spelled."
+      },
+      {
+       "type": "fill",
+       "text": "Weather satellites orbit the earth and ___ back images.",
+       "verb": "send",
+       "accept": [
+        "send"
+       ],
+       "why": "Satellites do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Coins were first ___ around 1000 B.C.",
+       "verb": "use",
+       "accept": [
+        "used"
+       ],
+       "why": "were + used."
+      },
+      {
+       "type": "fill",
+       "text": "Will taxes always ___ by governments?",
+       "verb": "collect",
+       "accept": [
+        "be collected"
+       ],
+       "why": "will + be + collected."
+      },
+      {
+       "type": "fill",
+       "text": "Students have long ___ by English grammar.",
+       "verb": "confuse",
+       "accept": [
+        "been confused"
+       ],
+       "why": "have + been + confused."
+      },
+      {
+       "type": "fill",
+       "text": "People with numerophobia ___ by math.",
+       "verb": "frighten",
+       "accept": [
+        "are frightened"
+       ],
+       "why": "by math → passive."
+      },
+      {
+       "type": "fill",
+       "text": "Are wedding rings ___ by more women than men?",
+       "verb": "wear",
+       "accept": [
+        "worn"
+       ],
+       "why": "are + worn (wear, wore, worn)."
+      }
+     ]
+    },
+    {
+     "title": "Did you know? (1)",
+     "icon": "💊",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The first antibiotic, penicillin, ___ by Alexander Fleming in 1928.",
+       "verb": "discover",
+       "accept": [
+        "was discovered"
+       ],
+       "why": "in 1928, by Fleming → was discovered."
+      },
+      {
+       "type": "fill",
+       "text": "Forty percent of the world's oxygen ___ in the Amazon valley.",
+       "verb": "produce",
+       "accept": [
+        "is produced"
+       ],
+       "why": "A fact now → is produced."
+      },
+      {
+       "type": "fill",
+       "text": "Frostbite occurs when a person's skin ___ to extreme cold.",
+       "verb": "expose",
+       "accept": [
+        "is exposed"
+       ],
+       "why": "The skin receives it → is exposed."
+      },
+      {
+       "type": "fill",
+       "text": "It most frequently ___ the skin of the cheeks, chin, ears, and fingers.",
+       "verb": "affect",
+       "accept": [
+        "affects"
+       ],
+       "why": "Frostbite does it → active."
+      },
+      {
+       "type": "fill",
+       "text": "The first cola-flavored drink ___ in 1881.",
+       "verb": "introduce",
+       "accept": [
+        "was introduced"
+       ],
+       "why": "in 1881 → was introduced."
+      },
+      {
+       "type": "fill",
+       "text": "Coca-Cola ___ a few years later, in 1886.",
+       "verb": "invent",
+       "accept": [
+        "was invented"
+       ],
+       "why": "in 1886 → was invented."
+      },
+      {
+       "type": "fill",
+       "text": "Since that time, many other brands of soft drinks ___ and sold around the world.",
+       "verb": "develop",
+       "accept": [
+        "have been developed"
+       ],
+       "why": "since that time → present perfect passive."
+      },
+      {
+       "type": "fill",
+       "text": "The first email message ___ in 1971.",
+       "verb": "send",
+       "accept": [
+        "was sent"
+       ],
+       "why": "in 1971 → was sent."
+      },
+      {
+       "type": "fill",
+       "text": "Computer engineer Ray Tomlinson ___ messages to himself.",
+       "verb": "send",
+       "accept": [
+        "sent"
+       ],
+       "why": "He did it → active."
+      }
+     ]
+    },
+    {
+     "title": "Did you know? (2)",
+     "icon": "🧮",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Now billions of emails ___ every day.",
+       "verb": "send",
+       "accept": [
+        "are sent"
+       ],
+       "why": "every day → are sent."
+      },
+      {
+       "type": "fill",
+       "text": "Taxes ___ since ancient times.",
+       "verb": "collect",
+       "accept": [
+        "have been collected"
+       ],
+       "why": "since ancient times → present perfect passive."
+      },
+      {
+       "type": "fill",
+       "text": "In Mesopotamia, male citizens ___ to pay with a cow or a sheep.",
+       "verb": "require",
+       "accept": [
+        "were required"
+       ],
+       "why": "Past, they received the rule."
+      },
+      {
+       "type": "fill",
+       "text": "Carl Gauss ___ as a mathematical genius when he was just ten years old.",
+       "verb": "recognize",
+       "accept": [
+        "was recognized",
+        "was recognised"
+       ],
+       "why": "People recognized him → passive."
+      },
+      {
+       "type": "fill",
+       "text": "Carl ___ to add up all the numbers from 1 to 100.",
+       "verb": "ask",
+       "accept": [
+        "was asked"
+       ],
+       "why": "The professor asked him → passive."
+      },
+      {
+       "type": "fill",
+       "text": "It ___ him only eight seconds to solve the problem.",
+       "verb": "take",
+       "accept": [
+        "took"
+       ],
+       "why": "It took = active."
+      },
+      {
+       "type": "fill",
+       "text": "He could do it quickly because he ___ that each pair equaled 101.",
+       "verb": "know",
+       "accept": [
+        "knew"
+       ],
+       "why": "He knew = active."
+      },
+      {
+       "type": "fill",
+       "text": "So he ___ 50 times 101 and came up with the answer: 5,050.",
+       "verb": "multiply",
+       "accept": [
+        "multiplied"
+       ],
+       "why": "He did it → active."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11-4",
+   "tag": "11-4",
+   "t": "plan",
+   "title": "It must be done",
+   "full": "The Passive Form of Modals and Phrasal Modals",
+   "lesson": {
+    "title": "Learn: modal + be + past participle",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Modal + be + past participle",
+      "lines": [
+       "be never changes after a modal."
+      ],
+      "visual": [
+       "passive-modal"
+      ],
+      "chips": [
+       "Tom will be invited to the picnic.",
+       "The window can't be opened.",
+       "Children should be taught to respect their elders.",
+       "This book had better be returned before Friday."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Seat belts must ___ during takeoff and landing.",
+      "options": [
+       "wear",
+       "be worn",
+       "be wear"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Seat belts receive the action → be worn."
+     },
+     {
+      "type": "learn",
+      "title": "Phrasal modals too",
+      "lines": [
+       "have to / ought to / be supposed to + be + participle."
+      ],
+      "chips": [
+       "Mia has to be told about our change in plans.",
+       "This letter ought to be sent before June 1st.",
+       "Fred is supposed to be told about the meeting."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Past: modal + have been",
+      "lines": [
+       "modal + have been + past participle."
+      ],
+      "chips": [
+       "The letter should have been sent last week.",
+       "This house must have been built over 200 years ago.",
+       "Eric couldn't have been offered the job."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Your homework should ___ done before you went to your friend's.",
+      "options": [
+       "have be",
+       "have been",
+       "be"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Past → should have been done."
+     },
+     {
+      "type": "choice",
+      "text": "The exams will be ___ by two different teachers.",
+      "options": [
+       "reading",
+       "read"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "will be + past participle: read."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Now / future: modal + be + past participle.",
+     "Past: modal + have been + past participle."
+    ],
+    "timeline": [
+     "passive-modal"
+    ],
+    "examples": [
+     {
+      "text": "The window can't be opened.",
+      "hl": [
+       [
+        "can't be opened",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "James should be told the news.",
+      "hl": [
+       [
+        "should be told",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The letter should have been sent last week.",
+      "hl": [
+       [
+        "should have been sent",
+        "pastperf"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Job requirements",
+     "icon": "🦁",
+     "items": [
+      {
+       "type": "sort",
+       "word": "You must be able to work in all types of weather.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 1,
+       "why": "be able to work = active."
+      },
+      {
+       "type": "sort",
+       "word": "You must be physically strong.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 1,
+       "why": "strong is an adjective."
+      },
+      {
+       "type": "sort",
+       "word": "You will be expected to work some weekends.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 0,
+       "why": "will be + expected."
+      },
+      {
+       "type": "sort",
+       "word": "You may be called in for emergencies.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 0,
+       "why": "may be + called."
+      },
+      {
+       "type": "sort",
+       "word": "Jewelry may not be worn.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 0,
+       "why": "may not be + worn."
+      },
+      {
+       "type": "sort",
+       "word": "The animals must be treated with respect.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 0,
+       "why": "must be + treated."
+      },
+      {
+       "type": "sort",
+       "word": "All safety rules must be strictly observed.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 0,
+       "why": "must be + observed."
+      },
+      {
+       "type": "sort",
+       "word": "You must attend weekly staff meetings.",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 1,
+       "why": "You do it → active."
+      },
+      {
+       "type": "sort",
+       "word": "You have to truly love animals!",
+       "buckets": [
+        "Passive modal",
+        "Not passive"
+       ],
+       "answer": 1,
+       "why": "You do it → active."
+      },
+      {
+       "type": "choice",
+       "text": "What job is this?",
+       "options": [
+        "zookeeper",
+        "bank teller",
+        "pilot"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Animals, weather, the public → a zoo.",
+       "ctx": "Animals must be treated with respect. You will answer questions about the animals."
+      }
+     ]
+    },
+    {
+     "title": "should, must, can't…",
+     "icon": "🧊",
+     "items": [
+      {
+       "type": "fill",
+       "text": "James ___ the news as soon as possible.",
+       "verb": "should + tell",
+       "accept": [
+        "should be told"
+       ],
+       "why": "James receives the news → passive."
+      },
+      {
+       "type": "fill",
+       "text": "Someone ___ James the news immediately.",
+       "verb": "should + tell",
+       "accept": [
+        "should tell"
+       ],
+       "why": "Someone does it → active."
+      },
+      {
+       "type": "fill",
+       "text": "James ___ the news a long time ago.",
+       "verb": "should + tell",
+       "accept": [
+        "should have been told"
+       ],
+       "why": "a long time ago → should have been told."
+      },
+      {
+       "type": "fill",
+       "text": "Meat ___ in a refrigerator or it will spoil.",
+       "verb": "must + keep",
+       "accept": [
+        "must be kept"
+       ],
+       "why": "Meat receives the action."
+      },
+      {
+       "type": "fill",
+       "text": "You ___ meat in a refrigerator or it will spoil.",
+       "verb": "must + keep",
+       "accept": [
+        "must keep"
+       ],
+       "why": "You do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "We're trying, but the window ___. It's painted shut.",
+       "verb": "can't + open",
+       "accept": [
+        "can't be opened",
+        "cannot be opened"
+       ],
+       "why": "The window receives the action."
+      },
+      {
+       "type": "fill",
+       "text": "I'm trying, but I ___ the window.",
+       "verb": "can't + open",
+       "accept": [
+        "can't open",
+        "cannot open"
+       ],
+       "why": "I do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "The class for next semester is too large. It ___ in half.",
+       "verb": "ought to + divide",
+       "accept": [
+        "ought to be divided"
+       ],
+       "why": "Now / future → ought to be divided."
+      },
+      {
+       "type": "fill",
+       "text": "Last semester's class was too large. It ___ in half.",
+       "verb": "ought to + divide",
+       "accept": [
+        "ought to have been divided"
+       ],
+       "why": "Past → ought to have been divided."
+      },
+      {
+       "type": "fill",
+       "text": "These books ___ to the library by tomorrow.",
+       "verb": "have to + return",
+       "accept": [
+        "have to be returned"
+       ],
+       "why": "Books receive the action."
+      }
+     ]
+    },
+    {
+     "title": "Jobs, chores, surprises",
+     "icon": "💼",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Polly ___ these books by next Friday.",
+       "verb": "have to + return",
+       "accept": [
+        "has to return"
+       ],
+       "why": "Polly does it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Good news! I ___ a job soon.",
+       "verb": "may + offer",
+       "accept": [
+        "may be offered"
+       ],
+       "why": "I receive the offer → passive."
+      },
+      {
+       "type": "fill",
+       "text": "The engineering firm ___ Kristina a job soon.",
+       "verb": "may + offer",
+       "accept": [
+        "may offer"
+       ],
+       "why": "The firm does it → active."
+      },
+      {
+       "type": "fill",
+       "text": "She ___ a job by a competing firm before we made our offer.",
+       "verb": "may + already + offer",
+       "accept": [
+        "may already have been offered",
+        "may have already been offered"
+       ],
+       "why": "Past, she received it."
+      },
+      {
+       "type": "fill",
+       "text": "A competing firm ___ Kristina a job before we made our offer.",
+       "verb": "may + already + offer",
+       "accept": [
+        "may already have offered",
+        "may have already offered"
+       ],
+       "why": "Past, the firm did it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Andy, your chores ___ by the time I get home.",
+       "verb": "had better + finish",
+       "accept": [
+        "had better be finished"
+       ],
+       "why": "Chores receive the action."
+      },
+      {
+       "type": "fill",
+       "text": "Andy, you ___ your chores before Mom gets home.",
+       "verb": "had better + finish",
+       "accept": [
+        "had better finish"
+       ],
+       "why": "You do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "This application ___ to the personnel department soon.",
+       "verb": "be supposed to + send",
+       "accept": [
+        "is supposed to be sent"
+       ],
+       "why": "be supposed to + be + sent."
+      },
+      {
+       "type": "fill",
+       "text": "Ann's birthday was on the 5th. Her card ___ a week ago.",
+       "verb": "should + send",
+       "accept": [
+        "should have been sent"
+       ],
+       "why": "a week ago → should have been sent."
+      },
+      {
+       "type": "fill",
+       "text": "Yoko ___ when she saw her boss at the movies. He had called in sick.",
+       "verb": "must + surprise",
+       "accept": [
+        "must have been surprised"
+       ],
+       "why": "A past guess → must have been surprised."
+      }
+     ]
+    },
+    {
+     "title": "With will, can, should, may",
+     "icon": "🚨",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Many lives ___ with the new medical procedure.",
+       "verb": "will / save",
+       "accept": [
+        "will be saved"
+       ],
+       "why": "Lives receive the action."
+      },
+      {
+       "type": "fill",
+       "text": "The procedure ___ many lives.",
+       "verb": "will / save",
+       "accept": [
+        "will save"
+       ],
+       "why": "The procedure does it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Shoppers ___ product information on the Internet every day.",
+       "verb": "can / look for",
+       "accept": [
+        "can look for"
+       ],
+       "why": "Shoppers do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Product information ___ on the Internet.",
+       "verb": "can / find",
+       "accept": [
+        "can be found"
+       ],
+       "why": "Information receives the action."
+      },
+      {
+       "type": "fill",
+       "text": "People ___ smoke alarms once a month.",
+       "verb": "should / test",
+       "accept": [
+        "should test"
+       ],
+       "why": "People do it → active."
+      },
+      {
+       "type": "fill",
+       "text": "Smoke alarms ___ once a month.",
+       "verb": "should / test",
+       "accept": [
+        "should be tested"
+       ],
+       "why": "Alarms receive the action."
+      },
+      {
+       "type": "fill",
+       "text": "The typhoon ___ hundreds of villagers yesterday.",
+       "verb": "may / kill",
+       "accept": [
+        "may have killed"
+       ],
+       "why": "Past, the typhoon did it."
+      },
+      {
+       "type": "fill",
+       "text": "Hundreds of villagers ___ in the typhoon yesterday.",
+       "verb": "may / kill",
+       "accept": [
+        "may have been killed"
+       ],
+       "why": "Past, they received it."
+      },
+      {
+       "type": "fill",
+       "text": "Hundreds of villagers ___ in the typhoon yesterday.",
+       "verb": "may / die",
+       "accept": [
+        "may have died"
+       ],
+       "why": "die is never passive."
+      },
+      {
+       "type": "fill",
+       "text": "Medical supplies ___ soon.",
+       "verb": "had better / deliver",
+       "accept": [
+        "had better be delivered"
+       ],
+       "why": "Supplies receive the action."
+      }
+     ]
+    },
+    {
+     "title": "Renting and lab rules",
+     "icon": "🏠",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A rental application ___.",
+       "options": [
+        "must be filled out",
+        "must fill out",
+        "must be fill out"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "modal + be + past participle."
+      },
+      {
+       "type": "choice",
+       "text": "A first month's deposit ___.",
+       "options": [
+        "may require",
+        "may be required",
+        "may be requiring"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The deposit receives the action."
+      },
+      {
+       "type": "choice",
+       "text": "A lease agreement ___.",
+       "options": [
+        "has to sign",
+        "has to be sign",
+        "has to be signed"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "has to + be + signed."
+      },
+      {
+       "type": "choice",
+       "text": "All terms of the agreement ___ by the renter.",
+       "options": [
+        "should be understood",
+        "should understand",
+        "should be understand"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "understand → understood."
+      },
+      {
+       "type": "choice",
+       "text": "Any problems with the apartment ___ by the manager.",
+       "options": [
+        "must disclose",
+        "must be disclosed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by the manager → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The renter should ask if the lease ___ early.",
+       "options": [
+        "can be broken",
+        "can be broke",
+        "can break"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "break, broke, broken."
+      },
+      {
+       "type": "choice",
+       "text": "Do not bring food into the lab. → Food ___ into the lab.",
+       "options": [
+        "cannot be brought",
+        "cannot bring",
+        "cannot be bring"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "bring → brought."
+      },
+      {
+       "type": "choice",
+       "text": "Turn off cell phones. → Cell phones ___.",
+       "options": [
+        "must turn off",
+        "must be turned off"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Phones receive the action."
+      },
+      {
+       "type": "choice",
+       "text": "Do not play computer games. → Computer games ___.",
+       "options": [
+        "must not be played",
+        "must not played"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "must not + be + played."
+      },
+      {
+       "type": "choice",
+       "text": "Use the printer for schoolwork only. → The printer ___ for schoolwork only.",
+       "options": [
+        "should use",
+        "should be used"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The printer receives the action."
+      }
+     ]
+    },
+    {
+     "title": "The 2004 tsunami",
+     "icon": "🌊",
+     "items": [
+      {
+       "type": "judge",
+       "text": "The Indian Ocean was hit by an earthquake.",
+       "answer": "correct",
+       "why": "was + hit + by."
+      },
+      {
+       "type": "judge",
+       "text": "An earthquake was hit the Indian Ocean.",
+       "answer": "wrong",
+       "why": "The earthquake did it → active.",
+       "fix": "An earthquake hit the Indian Ocean."
+      },
+      {
+       "type": "judge",
+       "text": "Millions of lives changed forever by the earthquake.",
+       "answer": "wrong",
+       "why": "by the earthquake → were changed.",
+       "fix": "Millions of lives were changed forever by the earthquake."
+      },
+      {
+       "type": "judge",
+       "text": "The quake followed by giant tsunami waves.",
+       "answer": "wrong",
+       "why": "Passive needs be: was followed.",
+       "fix": "The quake was followed by giant tsunami waves."
+      },
+      {
+       "type": "judge",
+       "text": "Giant tsunami waves followed the earthquake.",
+       "answer": "correct",
+       "why": "Active: the waves came after."
+      },
+      {
+       "type": "judge",
+       "text": "Thousands of people swept out to sea.",
+       "answer": "wrong",
+       "why": "People received the action → were swept.",
+       "fix": "Thousands of people were swept out to sea."
+      },
+      {
+       "type": "judge",
+       "text": "Nearly 300,000 people were died.",
+       "answer": "wrong",
+       "why": "die is never passive.",
+       "fix": "Nearly 300,000 people died."
+      },
+      {
+       "type": "judge",
+       "text": "The damage could have been lessened by a tsunami early-warning system.",
+       "answer": "correct",
+       "why": "could have been + lessened."
+      },
+      {
+       "type": "judge",
+       "text": "A tsunami early-warning system could have been lessened the damage.",
+       "answer": "wrong",
+       "why": "The system does it → active.",
+       "fix": "A tsunami early-warning system could have lessened the damage."
+      },
+      {
+       "type": "judge",
+       "text": "An early-warning system already is existed for the Pacific Ocean.",
+       "answer": "wrong",
+       "why": "exist is never passive.",
+       "fix": "An early-warning system already exists for the Pacific Ocean."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Out of the ordinary",
+     "task": "An upside-down house! A pyramid in a parking garage! Guess how with passive modals.",
+     "claudePrompt": "You are my English speaking partner. Describe one strange thing at a time: an office with no windows and grey walls, a house that is upside down, a pyramid inside a parking garage, a car on a roof. Ask: Who designed it? How did it get there? I answer with passive modals: It must have been designed by a robot. It might have been built for a movie. It should be moved. Check the form: modal + be / have been + past participle."
+    },
+    {
+     "title": "Rules, rules, rules",
+     "task": "Make rules for a computer lab or for renting a flat: “Phones must be turned off.”",
+     "claudePrompt": "You are my English speaking partner. Give me one situation at a time (a computer lab, a library, a rented apartment, a swimming pool) and ask me for three rules in the passive with modals: Food cannot be brought into the lab. A deposit must be paid. Check the form: modal + be + past participle."
+    }
+   ]
+  },
+  {
+   "id": "11-5",
+   "tag": "11-5",
+   "t": "state",
+   "title": "The door is locked",
+   "full": "Stative (Non-Progressive) Passive",
+   "lesson": {
+    "title": "Learn: a state, not an action",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Past participle = adjective",
+      "lines": [
+       "It tells how something IS now."
+      ],
+      "visual": [
+       "stative-passive"
+      ],
+      "chips": [
+       "The door is old.",
+       "The door is green.",
+       "The door is locked."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "No action, no by",
+      "lines": [
+       "The action happened earlier. Now we see the result."
+      ],
+      "chips": [
+       "I locked the door five minutes ago. → Now the door is locked."
+      ],
+      "examples": [
+       {
+        "text": "Ann broke the window yesterday.",
+        "hl": [
+         [
+          "broke",
+          "past"
+         ]
+        ]
+       },
+       {
+        "text": "Now the window is broken.",
+        "hl": [
+         [
+          "is broken",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Sorry, the project isn't quite ___ yet.",
+      "options": [
+       "finish",
+       "finished",
+       "finishing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be + past participle: finished."
+     },
+     {
+      "type": "learn",
+      "title": "Everyday expressions",
+      "lines": [
+       "Learn these as whole pieces."
+      ],
+      "chips": [
+       "I am lost.",
+       "It is gone.",
+       "I am finished with my work.",
+       "I am done with my work.",
+       "Ann is married to Alex.",
+       "He was born in May."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I have no idea where we are. We ___.",
+      "options": [
+       "lost",
+       "are lost",
+       "are losing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be lost = a state."
+     },
+     {
+      "type": "choice",
+      "text": "Did you know that Alexa is ___ to Khalifa?",
+      "options": [
+       "marry",
+       "married",
+       "marrying"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be married to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "be + past participle can describe a state (how it is now).",
+     "No by-phrase. Other prepositions are possible: married to, done with."
+    ],
+    "timeline": [
+     "stative-passive"
+    ],
+    "examples": [
+     {
+      "text": "The door is locked.",
+      "hl": [
+       [
+        "is locked",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Now the window is broken.",
+      "hl": [
+       [
+        "is broken",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "I am lost.",
+      "hl": [
+       [
+        "am lost",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Problems, problems",
+     "icon": "😩",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The only gas station in town ___ right now.",
+       "verb": "close",
+       "accept": [
+        "is closed"
+       ],
+       "why": "right now → is closed."
+      },
+      {
+       "type": "fill",
+       "text": "The water to the house ___ off yesterday.",
+       "verb": "turn",
+       "accept": [
+        "was turned"
+       ],
+       "why": "yesterday → was turned off."
+      },
+      {
+       "type": "fill",
+       "text": "The room is stifling hot and the window ___.",
+       "verb": "lock",
+       "accept": [
+        "is locked"
+       ],
+       "why": "Now → is locked."
+      },
+      {
+       "type": "fill",
+       "text": "Yesterday it was hot in this room because the window ___.",
+       "verb": "lock",
+       "accept": [
+        "was locked"
+       ],
+       "why": "Yesterday → was locked."
+      },
+      {
+       "type": "fill",
+       "text": "I don't have my final paper. I'm sorry. It ___.",
+       "verb": "finish, not",
+       "accept": [
+        "is not finished",
+        "isn't finished"
+       ],
+       "why": "Now → isn't finished."
+      },
+      {
+       "type": "fill",
+       "text": "Hmmm. My dress ___. I wonder how that happened.",
+       "verb": "tear",
+       "accept": [
+        "is torn"
+       ],
+       "why": "tear, tore, torn."
+      },
+      {
+       "type": "fill",
+       "text": "How can we sit down to dinner? The table ___.",
+       "verb": "set, not",
+       "accept": [
+        "is not set",
+        "isn't set"
+       ],
+       "why": "set, set, set."
+      },
+      {
+       "type": "fill",
+       "text": "The meat and rice ___, and our guests aren't here!",
+       "verb": "do, not",
+       "accept": [
+        "are not done",
+        "aren't done"
+       ],
+       "why": "Plural → aren't done."
+      },
+      {
+       "type": "fill",
+       "text": "I have no idea where we are. We ___.",
+       "verb": "lose",
+       "accept": [
+        "are lost"
+       ],
+       "why": "be lost = a state."
+      },
+      {
+       "type": "fill",
+       "text": "Where's my money? It ___! Did someone take it?",
+       "verb": "go",
+       "accept": [
+        "is gone"
+       ],
+       "why": "be gone = it's not here."
+      }
+     ]
+    },
+    {
+     "title": "Friends and a plumber",
+     "icon": "🔧",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Alison told me one thing and Roger told me another. I ___.",
+       "options": [
+        "am confused",
+        "am divorced",
+        "am married"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two different stories → confused."
+      },
+      {
+       "type": "choice",
+       "text": "They have one child. He ___ a month after the divorce.",
+       "options": [
+        "is married",
+        "was born",
+        "was confused"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be born = come into the world."
+      },
+      {
+       "type": "choice",
+       "text": "I'm lucky. I ___ to a wonderful woman.",
+       "options": [
+        "am married",
+        "am divorced",
+        "was born"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be married to."
+      },
+      {
+       "type": "choice",
+       "text": "The power was out for two days, and now our food ___.",
+       "options": [
+        "is spoiled",
+        "is stuck",
+        "is scheduled"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Warm food goes bad → spoiled."
+      },
+      {
+       "type": "choice",
+       "text": "Our window won't open. The latch ___.",
+       "options": [
+        "is clogged",
+        "is stuck",
+        "is qualified"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It can't move → stuck."
+      },
+      {
+       "type": "choice",
+       "text": "The drain in our sink is very slow. It ___ with grease.",
+       "options": [
+        "is clogged",
+        "is plugged in",
+        "is spoiled"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Blocked → clogged with."
+      },
+      {
+       "type": "choice",
+       "text": "Our neighbor tried to fix it. He was very nice, but he ___ for the job.",
+       "options": [
+        "wasn't scheduled",
+        "wasn't qualified",
+        "wasn't stuck"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No training → not qualified for."
+      },
+      {
+       "type": "choice",
+       "text": "We've called a plumber. He ___ for the day after tomorrow.",
+       "options": [
+        "is scheduled",
+        "is spoiled",
+        "is clogged"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Has a time on the calendar → scheduled."
+      },
+      {
+       "type": "choice",
+       "text": "Our TV wasn't working. It was an easy fix: it ___.",
+       "options": [
+        "wasn't plugged in",
+        "wasn't qualified",
+        "wasn't spoiled"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No power → not plugged in."
+      }
+     ]
+    },
+    {
+     "title": "The Grand Bazaar, washing clothes",
+     "icon": "🕌",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The Grand Bazaar in Istanbul ___ in the Old City.",
+       "verb": "locate",
+       "accept": [
+        "is located"
+       ],
+       "why": "be located in = be in a place."
+      },
+      {
+       "type": "fill",
+       "text": "As many as 400,000 people visit every day. It ___ very crowded.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "be + crowded."
+      },
+      {
+       "type": "fill",
+       "text": "At the end of the day, many shoppers ___.",
+       "verb": "exhaust",
+       "accept": [
+        "are exhausted"
+       ],
+       "why": "Very tired → are exhausted."
+      },
+      {
+       "type": "fill",
+       "text": "The bazaar is like a mall. The streets ___ with domed roofs.",
+       "verb": "cover",
+       "accept": [
+        "are covered"
+       ],
+       "why": "be covered with."
+      },
+      {
+       "type": "choice",
+       "text": "“It can be completed at home.” What is the verb form?",
+       "options": [
+        "a passive modal",
+        "an active modal"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can be + completed.",
+       "ctx": "A study from the 1970s: people read a text with no title."
+      },
+      {
+       "type": "choice",
+       "text": "“First, items are put into different groups.” Who puts them?",
+       "options": [
+        "It doesn't say. It isn't important.",
+        "The items."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No by-phrase: the doer isn't important."
+      },
+      {
+       "type": "choice",
+       "text": "“Once it is taken care of, it won't require your attention until it is finished.” What is the process?",
+       "options": [
+        "washing clothes",
+        "cooking rice",
+        "writing an essay"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Groups, machine, put away → laundry."
+      },
+      {
+       "type": "choice",
+       "text": "“If you were confused, you are not alone.” Here, confused is…",
+       "options": [
+        "like an adjective",
+        "an action by someone"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It describes how you feel."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Look around the room",
+     "task": "Is the door shut? Are the lights turned on? Is anything broken? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about the room I am in: Is the door shut? Are the windows closed? Are the lights turned on? Is anything broken or torn? Is your homework finished? Is your phone plugged in? I answer in full sentences with be + past participle. Check my past participles."
+    }
+   ]
+  },
+  {
+   "id": "11-6",
+   "tag": "11-6",
+   "t": "state",
+   "title": "Interested in…",
+   "full": "Common Stative (Non-Progressive) Passive Verbs + Prepositions",
+   "lesson": {
+    "title": "Learn: which preposition?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Not by. A different word",
+      "lines": [
+       "Learn the participle and its preposition together."
+      ],
+      "chips": [
+       "interested in",
+       "worried about"
+      ],
+      "examples": [
+       {
+        "text": "I'm interested in Greek culture.",
+        "hl": [
+         [
+          "interested in",
+          "state"
+         ]
+        ]
+       },
+       {
+        "text": "He's worried about losing his job.",
+        "hl": [
+         [
+          "worried about",
+          "state"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "to and with",
+      "lines": [
+       "Two big families."
+      ],
+      "chips": [
+       {
+        "label": "➡️ to",
+        "words": [
+         "married to",
+         "engaged to",
+         "related to",
+         "addicted to",
+         "accustomed to",
+         "committed to",
+         "dedicated to",
+         "devoted to",
+         "opposed to",
+         "limited to"
+        ]
+       },
+       {
+        "label": "🤝 with",
+        "words": [
+         "pleased with",
+         "satisfied with",
+         "finished with",
+         "done with",
+         "crowded with",
+         "filled with",
+         "acquainted with",
+         "associated with",
+         "equipped with"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Ann is married ___ Alex.",
+      "options": [
+       "with",
+       "to",
+       "by"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be married to."
+     },
+     {
+      "type": "learn",
+      "title": "about, for, from, in, of",
+      "lines": [
+       "Small families."
+      ],
+      "chips": [
+       {
+        "label": "about",
+        "words": [
+         "excited about",
+         "concerned about",
+         "worried about"
+        ]
+       },
+       {
+        "label": "for",
+        "words": [
+         "known for",
+         "prepared for",
+         "qualified for",
+         "remembered for"
+        ]
+       },
+       {
+        "label": "from",
+        "words": [
+         "divorced from",
+         "exhausted from",
+         "gone from",
+         "protected from"
+        ]
+       },
+       {
+        "label": "in",
+        "words": [
+         "interested in",
+         "dressed in",
+         "located in",
+         "involved in"
+        ]
+       },
+       {
+        "label": "of",
+        "words": [
+         "made of",
+         "composed of",
+         "tired of",
+         "scared of",
+         "terrified of"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "What would you like to be remembered ___?",
+      "options": [
+       "for",
+       "of",
+       "to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "be remembered for."
+     },
+     {
+      "type": "choice",
+      "text": "He is satisfied ___ his job.",
+      "options": [
+       "of",
+       "with",
+       "to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be satisfied with."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Many stative passive verbs take their own preposition (not by).",
+     "Learn them as pairs: interested in, married to, pleased with."
+    ],
+    "timeline": [],
+    "chips": [
+     {
+      "label": "to",
+      "words": [
+       "married to",
+       "related to",
+       "addicted to",
+       "accustomed to",
+       "opposed to"
+      ]
+     },
+     {
+      "label": "with",
+      "words": [
+       "pleased with",
+       "satisfied with",
+       "done with",
+       "finished with"
+      ]
+     },
+     {
+      "label": "others",
+      "words": [
+       "interested in",
+       "excited about",
+       "known for",
+       "made of",
+       "divorced from"
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "text": "I'm interested in Greek culture.",
+      "hl": [
+       [
+        "interested in",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Ann is married to Alex.",
+      "hl": [
+       [
+        "married to",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Maya, a toymaker",
+     "icon": "🧸",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Maya is excited ___ creating toys that children enjoy.",
+       "options": [
+        "about",
+        "of",
+        "to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be excited about."
+      },
+      {
+       "type": "choice",
+       "text": "She is known ___ creating high-quality toys.",
+       "options": [
+        "from",
+        "with",
+        "for"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "be known for."
+      },
+      {
+       "type": "choice",
+       "text": "Her toys are made ___ wood.",
+       "options": [
+        "in",
+        "of",
+        "to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be made of."
+      },
+      {
+       "type": "choice",
+       "text": "She is pleased ___ the response to her toys.",
+       "options": [
+        "with",
+        "to",
+        "about"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be pleased with."
+      },
+      {
+       "type": "choice",
+       "text": "The materials in her toys are limited ___ wood.",
+       "options": [
+        "in",
+        "for",
+        "to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "be limited to."
+      },
+      {
+       "type": "choice",
+       "text": "She is interested ___ how children play with one another.",
+       "options": [
+        "about",
+        "in",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be interested in."
+      },
+      {
+       "type": "choice",
+       "text": "She is disappointed ___ many of the popular toys in stores today.",
+       "options": [
+        "in",
+        "of",
+        "to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be disappointed in / with."
+      },
+      {
+       "type": "choice",
+       "text": "She worries ___ toys that don't encourage children to use their imagination.",
+       "options": [
+        "of",
+        "with",
+        "about"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "worry about."
+      }
+     ]
+    },
+    {
+     "title": "Who am I?",
+     "icon": "🕵️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "He was committed ___ non-violence in the struggle for India's independence.",
+       "options": [
+        "with",
+        "to",
+        "for"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "committed to. (Mahatma Gandhi)"
+      },
+      {
+       "type": "choice",
+       "text": "She was devoted ___ the sick and is known as the founder of modern nursing.",
+       "options": [
+        "to",
+        "for",
+        "with"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "devoted to. (Florence Nightingale)"
+      },
+      {
+       "type": "choice",
+       "text": "He was discriminated ___ because of the color of his skin and fought for freedom.",
+       "options": [
+        "from",
+        "of",
+        "against"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "discriminated against. (Nelson Mandela)"
+      },
+      {
+       "type": "choice",
+       "text": "She was married ___ Romeo in Shakespeare's tragedy.",
+       "options": [
+        "with",
+        "to",
+        "by"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "married to. (Juliet Capulet)"
+      },
+      {
+       "type": "choice",
+       "text": "He was known ___ his comedies.",
+       "options": [
+        "for",
+        "of",
+        "to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "known for. (Robin Williams)"
+      },
+      {
+       "type": "choice",
+       "text": "She was related ___ King Ptolemy.",
+       "options": [
+        "with",
+        "from",
+        "to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "related to. (Cleopatra)"
+      },
+      {
+       "type": "choice",
+       "text": "He was associated ___ technological innovation.",
+       "options": [
+        "to",
+        "with",
+        "in"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "associated with. (Steve Jobs)"
+      },
+      {
+       "type": "choice",
+       "text": "This singer was dressed ___ black so often that he was called “The Man in Black.”",
+       "options": [
+        "in",
+        "with",
+        "of"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "dressed in. (Johnny Cash)"
+      },
+      {
+       "type": "choice",
+       "text": "She was opposed ___ segregation laws and refused to give up her seat on the bus.",
+       "options": [
+        "against",
+        "with",
+        "to"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "opposed to. (Rosa Parks)"
+      },
+      {
+       "type": "choice",
+       "text": "Her life was dedicated ___ science, and she won the Nobel Prize.",
+       "options": [
+        "for",
+        "to",
+        "in"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "dedicated to. (Marie Curie)"
+      }
+     ]
+    },
+    {
+     "title": "With friends",
+     "icon": "🎉",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Derek has come to the party in his work clothes. They ___ grease.",
+       "verb": "cover",
+       "accept": [
+        "are covered in",
+        "are covered with"
+       ],
+       "why": "be covered in / with."
+      },
+      {
+       "type": "fill",
+       "text": "Pat ___ her wedding dress. It's stunning.",
+       "verb": "finish",
+       "accept": [
+        "is finished with"
+       ],
+       "why": "be finished with."
+      },
+      {
+       "type": "fill",
+       "text": "Ann calls herself a “chocoholic.” She says she ___ chocolate.",
+       "verb": "addict",
+       "accept": [
+        "is addicted to"
+       ],
+       "why": "be addicted to."
+      },
+      {
+       "type": "fill",
+       "text": "Leo ___ his new job. He's looking for another.",
+       "verb": "satisfy, not",
+       "accept": [
+        "is not satisfied with",
+        "isn't satisfied with"
+       ],
+       "why": "be satisfied with."
+      },
+      {
+       "type": "fill",
+       "text": "Hashim ___ Fatima.",
+       "verb": "engage",
+       "accept": [
+        "is engaged to"
+       ],
+       "why": "be engaged to."
+      },
+      {
+       "type": "fill",
+       "text": "Elaine ___ Pierre.",
+       "verb": "divorce",
+       "accept": [
+        "is divorced from"
+       ],
+       "why": "be divorced from."
+      },
+      {
+       "type": "fill",
+       "text": "Did you know that Rebecca ___ the president?",
+       "verb": "relate",
+       "accept": [
+        "is related to"
+       ],
+       "why": "be related to."
+      },
+      {
+       "type": "fill",
+       "text": "Robin is a pediatric nurse. She ___ her job.",
+       "verb": "dedicate",
+       "accept": [
+        "is dedicated to"
+       ],
+       "why": "be dedicated to."
+      },
+      {
+       "type": "fill",
+       "text": "What's going on? Miguel ___ a tuxedo! We're just going to a movie.",
+       "verb": "dress",
+       "accept": [
+        "is dressed in"
+       ],
+       "why": "be dressed in."
+      },
+      {
+       "type": "fill",
+       "text": "My best friend ___ improving the water quality of our lakes.",
+       "verb": "commit",
+       "accept": [
+        "is committed to"
+       ],
+       "why": "be committed to."
+      }
+     ]
+    },
+    {
+     "title": "Listen for the preposition",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "Carol is interested in ancient history.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "in",
+        "on",
+        "about"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "interested in."
+      },
+      {
+       "type": "listen",
+       "say": "My brother is married to a doctor.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "with",
+        "to",
+        "by"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "married to."
+      },
+      {
+       "type": "listen",
+       "say": "We are really excited about our trip.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "about",
+        "for",
+        "of"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "excited about."
+      },
+      {
+       "type": "listen",
+       "say": "The bus was crowded with students.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "of",
+        "by",
+        "with"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "crowded with."
+      },
+      {
+       "type": "listen",
+       "say": "I'm tired of this cold weather.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "of",
+        "from",
+        "with"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "tired of."
+      },
+      {
+       "type": "listen",
+       "say": "This town is known for its beautiful beaches.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "for",
+        "from",
+        "about"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "known for."
+      },
+      {
+       "type": "listen",
+       "say": "Are you done with your homework?",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "with",
+        "of",
+        "to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "done with."
+      },
+      {
+       "type": "listen",
+       "say": "I'm not accustomed to hot weather.",
+       "ask": "Which preposition did you hear?",
+       "options": [
+        "with",
+        "to",
+        "at"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "accustomed to."
+      },
+      {
+       "type": "choice",
+       "text": "Are you ___ getting ready for your camping trip?",
+       "options": [
+        "done with",
+        "done of",
+        "done to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be done with."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Modern life",
+     "task": "What changes are you excited about? Opposed to? Addicted to? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about modern life (phones, travel, work, school): What changes are you excited about? concerned about? opposed to? annoyed by? addicted to? not accustomed to? What are you interested in? scared of? I answer in full sentences. Check my prepositions after each past participle."
+    },
+    {
+     "title": "What is it?",
+     "task": "Describe an object without its name: “It is made of metal. It is used to…” Claude guesses.",
+     "claudePrompt": "You are my English writing partner. I will describe an object in 4-6 sentences without saying its name, always using 'it': what it is made of, what it looks like, how it is used (It is made of metal. It is used to make noise.). You guess the object. Then check my passive forms and prepositions, and give me one object to describe next."
+    }
+   ]
+  },
+  {
+   "id": "11-7",
+   "tag": "11-7",
+   "t": "prog",
+   "title": "Getting hungry",
+   "full": "The Passive with Get",
+   "lesson": {
+    "title": "Learn: get = become",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "get + adjective",
+      "lines": [
+       "get = become. It shows a change."
+      ],
+      "visual": [
+       "get-passive"
+      ],
+      "chips": [
+       {
+        "label": "get +",
+        "words": [
+         "angry",
+         "better",
+         "busy",
+         "cold",
+         "dark",
+         "hungry",
+         "late",
+         "nervous",
+         "old",
+         "ready",
+         "sick",
+         "sleepy",
+         "well",
+         "wet",
+         "worse"
+        ]
+       }
+      ],
+      "examples": [
+       {
+        "text": "I'm getting hungry. Let's eat soon.",
+        "hl": [
+         [
+          "getting hungry",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "I stopped working because I got sleepy.",
+        "hl": [
+         [
+          "got sleepy",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Tomas is two hours late. I'm ___ nervous.",
+      "options": [
+       "get",
+       "getting",
+       "got"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "am + getting = it's changing now."
+     },
+     {
+      "type": "learn",
+      "title": "get + past participle",
+      "lines": [
+       "The participle describes the subject."
+      ],
+      "chips": [
+       {
+        "label": "get +",
+        "words": [
+         "married",
+         "dressed",
+         "lost",
+         "hurt",
+         "tired",
+         "invited",
+         "hired",
+         "fired",
+         "paid",
+         "done",
+         "worried",
+         "bored",
+         "confused"
+        ]
+       }
+      ],
+      "examples": [
+       {
+        "text": "I stopped working because I got tired.",
+        "hl": [
+         [
+          "got tired",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "They are getting married next month.",
+        "hl": [
+         [
+          "getting married",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We didn't have a map, so we got ___ on our way to the airport.",
+      "options": [
+       "lose",
+       "lost",
+       "losing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "get + past participle: lost."
+     },
+     {
+      "type": "compare",
+      "title": "Direct or soft?",
+      "left": {
+       "label": "Direct (it sounds like blame)",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "You didn't wash the dishes.",
+         "hl": [
+          [
+           "didn't wash",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Soft, with get",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The dishes didn't get washed.",
+         "hl": [
+          [
+           "didn't get washed",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "get-passive is common in speaking, not in formal writing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "get + adjective / past participle = become.",
+     "The get-passive is for speaking: The dishes didn't get washed."
+    ],
+    "timeline": [
+     "get-passive"
+    ],
+    "examples": [
+     {
+      "text": "I'm getting hungry.",
+      "hl": [
+       [
+        "getting hungry",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "They are getting married next month.",
+      "hl": [
+       [
+        "getting married",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "The dishes didn't get washed.",
+      "hl": [
+       [
+        "didn't get washed",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What did you get?",
+     "icon": "🗺️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Don't go out in the rain without a coat. You'll get ___.",
+       "options": [
+        "wet",
+        "hungry",
+        "fixed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Rain → wet."
+      },
+      {
+       "type": "choice",
+       "text": "I'll be ready to leave as soon as I get ___. I just need a T-shirt and jeans.",
+       "options": [
+        "dressed",
+        "hurt",
+        "lost"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Put on clothes → get dressed."
+      },
+      {
+       "type": "choice",
+       "text": "If I skip breakfast, I always get ___ during my late morning class.",
+       "options": [
+        "dirty",
+        "hungry",
+        "fixed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No food → hungry."
+      },
+      {
+       "type": "choice",
+       "text": "It was a bad accident, but luckily no one got seriously ___.",
+       "options": [
+        "hurt",
+        "dressed",
+        "wet"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Accident → hurt."
+      },
+      {
+       "type": "choice",
+       "text": "The Internet is working again. Somehow it got ___.",
+       "options": [
+        "lost",
+        "fixed",
+        "dirty"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Working again → fixed."
+      },
+      {
+       "type": "choice",
+       "text": "The kids like making clay pots because their hands can get ___.",
+       "options": [
+        "dirty",
+        "dressed",
+        "hungry"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clay → dirty hands."
+      },
+      {
+       "type": "choice",
+       "text": "We didn't have a map or GPS, so we got ___.",
+       "options": [
+        "lost",
+        "wet",
+        "fixed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No map → lost."
+      }
+     ]
+    },
+    {
+     "title": "All that make sense",
+     "icon": "✅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The meeting starts in an hour. I need to get ___ for it.",
+       "options": [
+        "prepare",
+        "prepared",
+        "ready",
+        "readying"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "get + participle / adjective.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I think I'll stop working for the day. I'm getting ___.",
+       "options": [
+        "tire",
+        "tired",
+        "dark",
+        "late"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A person gets tired."
+      },
+      {
+       "type": "choice",
+       "text": "Sonia stopped working because it was getting ___.",
+       "options": [
+        "late",
+        "dark",
+        "tired",
+        "sleepy"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "it gets late / dark. People get tired.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "We can leave as soon as you get ___.",
+       "options": [
+        "pack",
+        "finish",
+        "packed",
+        "finished"
+       ],
+       "answer": [
+        2,
+        3
+       ],
+       "why": "get + past participle.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Sam was supposed to be home an hour ago. I'm getting ___.",
+       "options": [
+        "nervous",
+        "anxious",
+        "worry",
+        "worried"
+       ],
+       "answer": [
+        0,
+        1,
+        3
+       ],
+       "why": "worry is a verb, not an adjective.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "I didn't stay for the end of the movie because I got ___.",
+       "options": [
+        "bore",
+        "bored",
+        "interested",
+        "am bored"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Leaving early → got bored."
+      },
+      {
+       "type": "choice",
+       "text": "Are you going to get ___?",
+       "options": [
+        "marriage",
+        "marry",
+        "married",
+        "engage"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "get married."
+      }
+     ]
+    },
+    {
+     "title": "get + …",
+     "icon": "🌧️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I didn't have an umbrella, so I ___ while I was waiting for the bus yesterday.",
+       "verb": "get + wet",
+       "accept": [
+        "got wet"
+       ],
+       "why": "yesterday → got wet."
+      },
+      {
+       "type": "fill",
+       "text": "Every time I have to give a speech, I ___.",
+       "verb": "get + nervous",
+       "accept": [
+        "get nervous"
+       ],
+       "why": "every time → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "Would you mind turning on the light? It ___ in here.",
+       "verb": "get + dark",
+       "accept": [
+        "is getting dark"
+       ],
+       "why": "Changing now → is getting dark."
+      },
+      {
+       "type": "fill",
+       "text": "Maria's English is improving. It ___.",
+       "verb": "get + better",
+       "accept": [
+        "is getting better"
+       ],
+       "why": "Changing now → is getting better."
+      },
+      {
+       "type": "fill",
+       "text": "My friend was sick, so I sent him a card. It said, “___ soon.”",
+       "verb": "get + well",
+       "accept": [
+        "Get well"
+       ],
+       "why": "An imperative: Get well soon."
+      },
+      {
+       "type": "fill",
+       "text": "How long did it take you to ___ to living here?",
+       "verb": "get + accustom",
+       "accept": [
+        "get accustomed"
+       ],
+       "why": "get accustomed to."
+      },
+      {
+       "type": "fill",
+       "text": "We can leave as soon as I ___ with this work.",
+       "verb": "get + do",
+       "accept": [
+        "get done"
+       ],
+       "why": "get done with = finish."
+      },
+      {
+       "type": "fill",
+       "text": "Chris ___ when she lost her job, so I tried to cheer her up.",
+       "verb": "get + depress",
+       "accept": [
+        "got depressed"
+       ],
+       "why": "Past → got depressed."
+      },
+      {
+       "type": "fill",
+       "text": "After Ed graduated, he ___ by an engineering firm.",
+       "verb": "get + hire",
+       "accept": [
+        "got hired"
+       ],
+       "why": "Past → got hired."
+      },
+      {
+       "type": "fill",
+       "text": "But later he ___ because he didn't do his work.",
+       "verb": "get + fire",
+       "accept": [
+        "got fired"
+       ],
+       "why": "Past → got fired."
+      }
+     ]
+    },
+    {
+     "title": "Ben and Sara; soft complaints",
+     "icon": "💍",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Ben and Sara have had an interesting relationship. First, they ___.",
+       "verb": "get + engage",
+       "accept": [
+        "got engaged"
+       ],
+       "why": "Past → got engaged."
+      },
+      {
+       "type": "fill",
+       "text": "Then, they ___.",
+       "verb": "get + marry",
+       "accept": [
+        "got married"
+       ],
+       "why": "Past → got married."
+      },
+      {
+       "type": "fill",
+       "text": "Later, they ___.",
+       "verb": "get + divorce",
+       "accept": [
+        "got divorced"
+       ],
+       "why": "Past → got divorced."
+      },
+      {
+       "type": "fill",
+       "text": "Finally, they ___. Today they are a happily married couple.",
+       "verb": "get + remarry",
+       "accept": [
+        "got remarried"
+       ],
+       "why": "Past → got remarried."
+      },
+      {
+       "type": "fill",
+       "text": "I ___ on Fridays. I'll give you the money next Friday.",
+       "verb": "get + pay",
+       "accept": [
+        "get paid"
+       ],
+       "why": "A habit → get paid."
+      },
+      {
+       "type": "choice",
+       "text": "I got an invitation. ___ to the party too?",
+       "options": [
+        "Did you get invited",
+        "Did you got invited",
+        "Were you get invited"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "did + get + invited."
+      },
+      {
+       "type": "choice",
+       "text": "The TV's on. You didn't turn it off. → (soft)",
+       "options": [
+        "The TV didn't get turned off.",
+        "The TV didn't got turn off."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "didn't + get + past participle."
+      },
+      {
+       "type": "choice",
+       "text": "The car is still dirty. John didn't wash it. → (soft)",
+       "options": [
+        "The car didn't get washed.",
+        "The car didn't get wash."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "didn't + get + washed."
+      },
+      {
+       "type": "choice",
+       "text": "Your old photos are on the floor. Susie hasn't put them away. → (soft)",
+       "options": [
+        "Your old photos haven't gotten put away.",
+        "Your old photos haven't get put away."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "haven't + gotten + put away."
+      },
+      {
+       "type": "choice",
+       "text": "You're dripping! You're getting the floor all wet. → (soft)",
+       "options": [
+        "The floor is getting all wet.",
+        "The floor is get all wet."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is + getting + wet."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Tell me about a time…",
+     "task": "Claude asks: Have you ever gotten lost? Gotten really scared? What happened?",
+     "claudePrompt": "You are my English speaking partner. Interview me, one question at a time: Tell me about a time you got lost. Do you ever get sleepy during the day? Have you ever gotten really scared? What things in the world are getting better, and what is getting worse? Tell me about a time you got confused. I answer with get + adjective or past participle. Check the form of get and the participle."
+    }
+   ]
+  },
+  {
+   "id": "11-8",
+   "tag": "11-8",
+   "t": "prog",
+   "title": "Boring or bored?",
+   "full": "-ed/-ing Adjectives",
+   "lesson": {
+    "title": "Learn: -ing gives it, -ed feels it",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two adjectives, one verb",
+      "lines": [
+       "-ing: it CAUSES the feeling.",
+       "-ed: someone HAS the feeling."
+      ],
+      "visual": [
+       "ed-ing"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "confusing vs. confused",
+      "left": {
+       "label": "-ing: the thing that does it",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The problem confuses the students. It is a confusing problem.",
+         "hl": [
+          [
+           "confusing",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "-ed: the one who feels it",
+       "t": "state",
+       "examples": [
+        {
+         "text": "The students are confused by the problem. They are confused students.",
+         "hl": [
+          [
+           "confused",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Test: can you add “by something”? Then use -ed."
+     },
+     {
+      "type": "choice",
+      "text": "The speaker had a monotone voice. We were really ___.",
+      "options": [
+       "boring",
+       "bored"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "We had the feeling → bored."
+     },
+     {
+      "type": "choice",
+      "text": "The class bores the students. It is a ___ class.",
+      "options": [
+       "boring",
+       "bored"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The class causes the feeling → boring."
+     },
+     {
+      "type": "learn",
+      "title": "Before a noun too",
+      "lines": [
+       "-ing = it does the action. -ed = it received the action."
+      ],
+      "chips": [
+       "a sleeping dog (it sleeps)",
+       "a growing child (it grows)",
+       "a locked cabinet (someone locked it)",
+       "an injured woman (something injured her)"
+      ],
+      "tip": "No -ing form: delightful (not delighting), scary (not scaring)."
+     },
+     {
+      "type": "choice",
+      "text": "The thief tried to break open the ___ cabinet.",
+      "options": [
+       "locking",
+       "locked"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Someone locked it → locked."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "-ing = active meaning: a confusing problem (it confuses).",
+     "-ed = passive meaning: confused students (they are confused by it)."
+    ],
+    "timeline": [
+     "ed-ing"
+    ],
+    "examples": [
+     {
+      "text": "It is a confusing problem.",
+      "hl": [
+       [
+        "confusing",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "They are confused students.",
+      "hl": [
+       [
+        "confused",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "It was a scary story.",
+      "hl": [
+       [
+        "scary",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Monsters and classes",
+     "icon": "👹",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A monster jumps out. The child screams. The monster is ___.",
+       "options": [
+        "frightening",
+        "frightened"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The monster causes the fear."
+      },
+      {
+       "type": "choice",
+       "text": "A monster jumps out. The child screams. The child is ___.",
+       "options": [
+        "frightening",
+        "frightened"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The child has the fear."
+      },
+      {
+       "type": "fill",
+       "text": "The game excites the people. It is an ___ game.",
+       "verb": "excite",
+       "accept": [
+        "exciting"
+       ],
+       "why": "The game causes it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The people are excited by the game. They are ___ people.",
+       "verb": "excite",
+       "accept": [
+        "excited"
+       ],
+       "why": "They feel it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The news surprised the man. It was ___ news.",
+       "verb": "surprise",
+       "accept": [
+        "surprising"
+       ],
+       "why": "The news causes it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The man was surprised by the news. He was a ___ man.",
+       "verb": "surprise",
+       "accept": [
+        "surprised"
+       ],
+       "why": "He feels it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The child was frightened by the strange noise. The ___ child sought comfort from her father.",
+       "verb": "frighten",
+       "accept": [
+        "frightened"
+       ],
+       "why": "The child feels it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The strange noise frightened the child. It was a ___ sound.",
+       "verb": "frighten",
+       "accept": [
+        "frightening"
+       ],
+       "why": "The sound causes it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The work exhausted the men. It was ___ work.",
+       "verb": "exhaust",
+       "accept": [
+        "exhausting"
+       ],
+       "why": "The work causes it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The men were exhausted. The ___ men sat down to rest under a tree.",
+       "verb": "exhaust",
+       "accept": [
+        "exhausted"
+       ],
+       "why": "The men feel it → -ed."
+      }
+     ]
+    },
+    {
+     "title": "The thing or you?",
+     "icon": "🖼️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A story amazes you. The story is ___.",
+       "options": [
+        "amazing",
+        "amazed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The story causes it."
+      },
+      {
+       "type": "choice",
+       "text": "A story amazes you. You are ___.",
+       "options": [
+        "amazing",
+        "amazed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You feel it."
+      },
+      {
+       "type": "choice",
+       "text": "A story depresses you. You are ___.",
+       "options": [
+        "depressing",
+        "depressed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You feel it."
+      },
+      {
+       "type": "choice",
+       "text": "Some work tires you. The work is ___.",
+       "options": [
+        "tiring",
+        "tired"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The work causes it."
+      },
+      {
+       "type": "choice",
+       "text": "A painting interests you. You are ___.",
+       "options": [
+        "interesting",
+        "interested"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You feel it."
+      },
+      {
+       "type": "choice",
+       "text": "A situation embarrasses you. The situation is ___.",
+       "options": [
+        "embarrassing",
+        "embarrassed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The situation causes it."
+      },
+      {
+       "type": "choice",
+       "text": "A book disappoints you. The book is ___.",
+       "options": [
+        "disappointing",
+        "disappointed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The book causes it."
+      },
+      {
+       "type": "choice",
+       "text": "A person fascinates you. You are ___.",
+       "options": [
+        "fascinating",
+        "fascinated"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You feel it."
+      },
+      {
+       "type": "choice",
+       "text": "An assignment frustrates you. The assignment is ___.",
+       "options": [
+        "frustrating",
+        "frustrated"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The assignment causes it."
+      },
+      {
+       "type": "choice",
+       "text": "A noise annoys you. You are ___.",
+       "options": [
+        "annoying",
+        "annoyed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You feel it."
+      }
+     ]
+    },
+    {
+     "title": "Before a noun (1)",
+     "icon": "🚑",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I found myself in an ___ situation last night.",
+       "verb": "embarrass",
+       "accept": [
+        "embarrassing"
+       ],
+       "why": "The situation causes it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The ___ woman was put into an ambulance.",
+       "verb": "injure",
+       "accept": [
+        "injured"
+       ],
+       "why": "Something injured her → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The teacher gave us a ___ assignment, but we all enjoyed doing it.",
+       "verb": "challenge",
+       "accept": [
+        "challenging"
+       ],
+       "why": "The assignment challenges us → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The ___ event did not occur.",
+       "verb": "expect",
+       "accept": [
+        "expected"
+       ],
+       "why": "People expected it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The invention of the ___ press was one of the most important events in history.",
+       "verb": "print",
+       "accept": [
+        "printing"
+       ],
+       "why": "The press prints → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "___ travelers pack lightly. They carry only the necessities.",
+       "verb": "experience",
+       "accept": [
+        "Experienced"
+       ],
+       "why": "They have experience → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "A ___ child needs a balanced diet.",
+       "verb": "grow",
+       "accept": [
+        "growing"
+       ],
+       "why": "The child grows → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "A growing child needs a ___ diet.",
+       "verb": "balance",
+       "accept": [
+        "balanced"
+       ],
+       "why": "Someone balanced it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "No one appreciates a ___ child.",
+       "verb": "spoil",
+       "accept": [
+        "spoiled",
+        "spoilt"
+       ],
+       "why": "Someone spoiled the child → -ed."
+      }
+     ]
+    },
+    {
+     "title": "Before a noun (2)",
+     "icon": "🐕",
+     "items": [
+      {
+       "type": "fill",
+       "text": "There is an old saying: “Let ___ dogs lie.”",
+       "verb": "sleep",
+       "accept": [
+        "sleeping"
+       ],
+       "why": "The dogs sleep → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We had a ___ but hair-raising experience on our backpacking trip.",
+       "verb": "thrill",
+       "accept": [
+        "thrilling"
+       ],
+       "why": "The experience thrills us → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "The ___ car was towed away by a tow truck.",
+       "verb": "abandon",
+       "accept": [
+        "abandoned"
+       ],
+       "why": "Someone abandoned it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "___ water is not safe for drinking.",
+       "verb": "pollute",
+       "accept": [
+        "Polluted"
+       ],
+       "why": "Something polluted it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "Do you know where I can rent a ___ apartment?",
+       "verb": "furnish",
+       "accept": [
+        "furnished"
+       ],
+       "why": "Someone furnished it → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The equator is the ___ line between the Northern and Southern hemispheres.",
+       "verb": "divide",
+       "accept": [
+        "dividing"
+       ],
+       "why": "The line divides → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "We all expect our ___ officials to be honest.",
+       "verb": "elect",
+       "accept": [
+        "elected"
+       ],
+       "why": "People elected them → -ed."
+      },
+      {
+       "type": "fill",
+       "text": "The psychologist spoke about some ___ coincidences in the lives of twins.",
+       "verb": "amaze",
+       "accept": [
+        "amazing"
+       ],
+       "why": "The coincidences amaze us → -ing."
+      }
+     ]
+    },
+    {
+     "title": "Listen: -ing or -ed?",
+     "icon": "🎢",
+     "items": [
+      {
+       "type": "listen",
+       "say": "We went on an exciting roller coaster ride.",
+       "ask": "What did you hear?",
+       "options": [
+        "excite",
+        "exciting",
+        "excited"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The ride causes it → exciting."
+      },
+      {
+       "type": "listen",
+       "say": "At first I was really frightened.",
+       "ask": "What did you hear?",
+       "options": [
+        "frighten",
+        "frightening",
+        "frightened"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "I felt it → frightened."
+      },
+      {
+       "type": "listen",
+       "say": "The first drop was scary.",
+       "ask": "What did you hear?",
+       "options": [
+        "scare",
+        "scary",
+        "scared"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "scary (there is no “scaring”)."
+      },
+      {
+       "type": "listen",
+       "say": "But by the end, we were thrilled.",
+       "ask": "What did you hear?",
+       "options": [
+        "thrill",
+        "thrilling",
+        "thrilled"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We felt it → thrilled."
+      },
+      {
+       "type": "listen",
+       "say": "I attended a great lecture last night. It was really interesting.",
+       "ask": "It was…",
+       "options": [
+        "fascinating",
+        "fascinated"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The lecture causes it → -ing."
+      },
+      {
+       "type": "listen",
+       "say": "The audience listened carefully to every word of the lecture.",
+       "ask": "They were…",
+       "options": [
+        "fascinating",
+        "fascinated"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The audience felt it → -ed."
+      },
+      {
+       "type": "listen",
+       "say": "The news about the accident was terrible. Nobody expected it.",
+       "ask": "The news was…",
+       "options": [
+        "shocking",
+        "shocked"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The news causes it → shocking."
+      },
+      {
+       "type": "listen",
+       "say": "When my friends heard the news, they couldn't speak.",
+       "ask": "They were…",
+       "options": [
+        "shocking",
+        "shocked"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "They felt it → shocked."
+      },
+      {
+       "type": "listen",
+       "say": "The directions had too many steps. I read them three times.",
+       "ask": "I was…",
+       "options": [
+        "confusing",
+        "confused"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I felt it → confused."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What excites you?",
+     "task": "Claude asks: What are you tired of? What is confusing to students? What do kids get excited about?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What are you worried about in today's world? What are you tired of? What do you get really nervous about? What do you want to be remembered for? What is exciting to you? What is confusing to students? What are you confused by? I answer in full sentences. Check -ed vs -ing adjectives and the prepositions."
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Passive mix",
+   "full": "Chapter 11 Review: Reading and Listening",
+   "lesson": {
+    "title": "Learn: the passive at work",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Passive for a process",
+      "lines": [
+       "How is it made? The maker isn't important."
+      ],
+      "chips": [
+       "Chocolate is made from cocoa beans.",
+       "The seeds are roasted.",
+       "Sugar is added later."
+      ],
+      "tip": "Very common in science and technical writing."
+     },
+     {
+      "type": "learn",
+      "title": "After it has been done…",
+      "lines": [
+       "Two tenses do most of the work."
+      ],
+      "visual": [
+       "passive-tenses"
+      ],
+      "chips": [
+       "present: is pressed · is called · is left",
+       "present perfect: have been roasted · has been done"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "After the seeds ___, the inside of the seed is pressed into a liquid.",
+      "options": [
+       "have roasted",
+       "have been roasted"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Someone roasts the seeds → passive."
+     },
+     {
+      "type": "choice",
+      "text": "The Olympic Games ___ more than 2,000 years ago.",
+      "options": [
+       "began",
+       "were begun by"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The games began = active."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Process writing: is made, is pressed, is added.",
+     "First step finished: After the seeds have been roasted, …"
+    ],
+    "timeline": [
+     "passive-tenses"
+    ],
+    "examples": [
+     {
+      "text": "Chocolate is made from the seeds of roasted cocoa beans.",
+      "hl": [
+       [
+        "is made",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "After this has been done, a solid is left.",
+      "hl": [
+       [
+        "has been done",
+        "plan"
+       ],
+       [
+        "is left",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The early Olympic Games",
+     "icon": "🏛️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The Olympic Games ___ more than 2,000 years ago in Olympia, a small town in Greece.",
+       "verb": "begin",
+       "accept": [
+        "began"
+       ],
+       "why": "The games began → active.",
+       "ctx": "A report (read it; the book's audio isn't here)"
+      },
+      {
+       "type": "fill",
+       "text": "The games ___ for two purposes.",
+       "verb": "establish",
+       "accept": [
+        "were established"
+       ],
+       "why": "People established them → passive."
+      },
+      {
+       "type": "fill",
+       "text": "At that time, only Greek males ___ to compete.",
+       "verb": "allow",
+       "accept": [
+        "were allowed"
+       ],
+       "why": "Someone allowed them → passive."
+      },
+      {
+       "type": "fill",
+       "text": "In fact, women ___ to watch the games.",
+       "verb": "permit, not",
+       "accept": [
+        "were not permitted",
+        "weren't permitted",
+        "were not even permitted"
+       ],
+       "why": "Negative passive, past."
+      },
+      {
+       "type": "fill",
+       "text": "People of other nationalities ___ to participate.",
+       "verb": "invite, not",
+       "accept": [
+        "were not invited",
+        "weren't invited"
+       ],
+       "why": "Negative passive, past."
+      },
+      {
+       "type": "fill",
+       "text": "The winner of each event ___ with a wreath made of olive leaves.",
+       "verb": "crown",
+       "accept": [
+        "was crowned"
+       ],
+       "why": "The winner received it."
+      },
+      {
+       "type": "fill",
+       "text": "Additionally, his statue ___ in Olympia for all to see.",
+       "verb": "place",
+       "accept": [
+        "was placed"
+       ],
+       "why": "Someone placed it → passive."
+      },
+      {
+       "type": "fill",
+       "text": "Winning athletes ___ as heroes when they returned to their cities.",
+       "verb": "treat",
+       "accept": [
+        "were treated"
+       ],
+       "why": "People treated them → passive."
+      },
+      {
+       "type": "choice",
+       "text": "The Olympic Games were established so that men and women could compete against one another.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only Greek males were allowed to compete."
+      },
+      {
+       "type": "choice",
+       "text": "The winning athletes were considered heroes.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "They were treated as heroes."
+      }
+     ]
+    },
+    {
+     "title": "How chocolate is made",
+     "icon": "🍫",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Chocolate ___ from the seeds of roasted cocoa beans.",
+       "verb": "make",
+       "accept": [
+        "is made"
+       ],
+       "why": "A process → present passive."
+      },
+      {
+       "type": "fill",
+       "text": "After the seeds ___, the inside of the seed is pressed into a liquid.",
+       "verb": "roast",
+       "accept": [
+        "have been roasted"
+       ],
+       "why": "First step finished → present perfect passive."
+      },
+      {
+       "type": "fill",
+       "text": "The inside of the seed ___ into a liquid.",
+       "verb": "press",
+       "accept": [
+        "is pressed"
+       ],
+       "why": "A process → is pressed."
+      },
+      {
+       "type": "fill",
+       "text": "This liquid ___ chocolate liquor.",
+       "verb": "call",
+       "accept": [
+        "is called"
+       ],
+       "why": "People call it that → is called."
+      },
+      {
+       "type": "fill",
+       "text": "The liquor ___ fat.",
+       "verb": "contain",
+       "accept": [
+        "contains"
+       ],
+       "why": "contain is active (a state)."
+      },
+      {
+       "type": "fill",
+       "text": "The fat ___ from the liquor.",
+       "verb": "separate",
+       "accept": [
+        "is separated"
+       ],
+       "why": "A process → is separated."
+      },
+      {
+       "type": "fill",
+       "text": "After this has been done, a solid ___.",
+       "verb": "leave",
+       "accept": [
+        "is left"
+       ],
+       "why": "leave, left, left."
+      },
+      {
+       "type": "fill",
+       "text": "This solid, which ___ as cocoa cake, is ground up.",
+       "verb": "know",
+       "accept": [
+        "is known"
+       ],
+       "why": "be known as."
+      },
+      {
+       "type": "fill",
+       "text": "It ___ unsweetened cocoa. This is a very bitter chocolate.",
+       "verb": "become",
+       "accept": [
+        "becomes"
+       ],
+       "why": "become is never passive."
+      },
+      {
+       "type": "fill",
+       "text": "To make it taste better, cocoa butter and sugar ___ later.",
+       "verb": "add",
+       "accept": [
+        "are added"
+       ],
+       "why": "Plural → are added."
+      }
+     ]
+    },
+    {
+     "title": "Quick mix",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I am ___ in his ideas.",
+       "options": [
+        "interesting",
+        "interested"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I have the feeling → -ed.",
+       "rule": "11-8"
+      },
+      {
+       "type": "choice",
+       "text": "The show was so ___ that we fell asleep after an hour.",
+       "options": [
+        "boring",
+        "bored"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The show causes it → -ing.",
+       "rule": "11-8"
+      },
+      {
+       "type": "choice",
+       "text": "The winner of the race hasn't been ___ yet.",
+       "options": [
+        "announcing",
+        "announced"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "has been + past participle.",
+       "rule": "11-2"
+      },
+      {
+       "type": "choice",
+       "text": "It was late, and I was getting very ___ about my mother.",
+       "options": [
+        "worry",
+        "worried"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "get + past participle.",
+       "rule": "11-7"
+      },
+      {
+       "type": "choice",
+       "text": "Many strange things ___ last night.",
+       "options": [
+        "happened",
+        "were happened"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "happen is never passive.",
+       "rule": "11-1"
+      },
+      {
+       "type": "choice",
+       "text": "The students ___ by the teacher's clear explanation.",
+       "options": [
+        "helped",
+        "were helped"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "by the explanation → passive.",
+       "rule": "11-1"
+      },
+      {
+       "type": "choice",
+       "text": "This letter ought to ___ before June 1st.",
+       "options": [
+        "send",
+        "be sent"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ought to + be + sent.",
+       "rule": "11-4"
+      },
+      {
+       "type": "choice",
+       "text": "He is known ___ his comedies.",
+       "options": [
+        "for",
+        "of"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be known for.",
+       "rule": "11-6"
+      },
+      {
+       "type": "choice",
+       "text": "Where's my wallet? It ___!",
+       "options": [
+        "is gone",
+        "is go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be gone.",
+       "rule": "11-5"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "How is it made?",
+     "task": "Explain a process to Claude: how to make tea, bread, a kite… “First, the water is boiled.”",
+     "claudePrompt": "You are my English writing partner. Ask me to describe a process I know (making tea, bread, rice, a kite, a paper plane) in 5-6 sentences, using the passive where it fits: First, the water is boiled. After the tea has been added, ... Then check: a form of be in every passive, correct past participles, no passive with verbs like happen or become, and by only when it is important."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Passive Golem",
+  "icon": "🗿",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "I am [interesting] in his ideas.",
+    "options": [
+     "I am interest in his ideas.",
+     "I am interested in his ideas.",
+     "I am interested of his ideas."
+    ],
+    "answer": 1,
+    "why": "I have the feeling → interested in.",
+    "rule": "11-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "Two people got [hurted] in the accident and were [took] to the hospital by an ambulance.",
+    "options": [
+     "Two people got hurt in the accident and were taken to the hospital by an ambulance.",
+     "Two people got hurt in the accident and were taking to the hospital by an ambulance.",
+     "Two people got hurting in the accident and took to the hospital by an ambulance."
+    ],
+    "answer": 0,
+    "why": "hurt, hurt, hurt. take, took, taken.",
+    "rule": "11-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "The show was so [bored] that we fell asleep after an hour.",
+    "options": [
+     "The show was so bore that we fell asleep after an hour.",
+     "The show was so boring that we fell asleep after an hour.",
+     "The show so bored that we fell asleep after an hour."
+    ],
+    "answer": 1,
+    "why": "The show causes it → boring.",
+    "rule": "11-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "The students [helped] by the clear explanation that the teacher gave.",
+    "options": [
+     "The students were helped by the clear explanation that the teacher gave.",
+     "The students were helping by the clear explanation that the teacher gave.",
+     "The students have helped by the clear explanation that the teacher gave."
+    ],
+    "answer": 0,
+    "why": "by the explanation → were helped.",
+    "rule": "11-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "The winner of the race hasn't been [announcing] yet.",
+    "options": [
+     "The winner of the race hasn't announced yet.",
+     "The winner of the race hasn't being announced yet.",
+     "The winner of the race hasn't been announced yet."
+    ],
+    "answer": 2,
+    "why": "has been + past participle.",
+    "rule": "11-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "When and where [has] the car invented?",
+    "options": [
+     "When and where did the car invented?",
+     "When and where was the car invented?",
+     "When and where has the car invent?"
+    ],
+    "answer": 1,
+    "why": "A finished past event → was invented.",
+    "rule": "11-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "I [am not] agree with you, so let's agree to disagree.",
+    "options": [
+     "I don't agree with you, so let's agree to disagree.",
+     "I am not agreed with you, so let's agree to disagree.",
+     "I not agree with you, so let's agree to disagree."
+    ],
+    "answer": 0,
+    "why": "agree is a verb: don't agree.",
+    "rule": "11-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "It was late, and I was getting very [worry] about my mother.",
+    "options": [
+     "It was late, and I was getting very worrying about my mother.",
+     "It was late, and I was getting very worried about my mother.",
+     "It was late, and I was got very worry about my mother."
+    ],
+    "answer": 1,
+    "why": "get + worried.",
+    "rule": "11-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "Many strange things [were happened] last night.",
+    "options": [
+     "Many strange things happened last night.",
+     "Many strange things have been happened last night.",
+     "Many strange things was happened last night."
+    ],
+    "answer": 0,
+    "why": "happen is never passive.",
+    "rule": "11-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "I didn't go to dinner with them because I had already [been eaten].",
+    "options": [
+     "I didn't go to dinner with them because I had already been eating.",
+     "I didn't go to dinner with them because I was already eaten.",
+     "I didn't go to dinner with them because I had already eaten."
+    ],
+    "answer": 2,
+    "why": "I ate → active: had eaten.",
+    "rule": "11-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "In class yesterday, I was [confusing]. I didn't understand the lesson.",
+    "options": [
+     "In class yesterday, I was confused. I didn't understand the lesson.",
+     "In class yesterday, I was confuse. I didn't understand the lesson.",
+     "In class yesterday, I confused. I didn't understand the lesson."
+    ],
+    "answer": 0,
+    "why": "I had the feeling → confused.",
+    "rule": "11-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My grandmother was walking on an icy sidewalk and [was fallen] down.",
+    "options": [
+     "My grandmother was walking on an icy sidewalk and was fell down.",
+     "My grandmother was walking on an icy sidewalk and fell down.",
+     "My grandmother was walking on an icy sidewalk and has been fallen down."
+    ],
+    "answer": 1,
+    "why": "fall is never passive → fell.",
+    "rule": "11-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "I still get [scare] when I see a caterpillar close to me.",
+    "options": [
+     "I still get scaring when I see a caterpillar close to me.",
+     "I still got scare when I see a caterpillar close to me.",
+     "I still get scared when I see a caterpillar close to me."
+    ],
+    "answer": 2,
+    "why": "get + scared.",
+    "rule": "11-7"
+   }
+  ]
+ }
+}

@@ -26,7 +26,7 @@ body{margin:0;padding-top:env(safe-area-inset-top,0px)}
   --sun:#FFC83D; --sun-edge:#D99E00; --sun-ink:#3A2900;
   --ok:#14995B; --ok-soft:#DCF5E8; --bad:#D93A40; --bad-soft:#FDE3E4;
   --gold:#F5B300; --lock:#B4B9D8;
-  --c-pres:#2F6FEB; --c-prog:#EF7410; --c-past:#0F9C78; --c-pastprog:#8547EE; --c-state:#0B93A6; --c-plan:#D63A8A; --c-perf:#667A00; --c-perfprog:#A1582B; --c-pastperf:#56627F; --c-pastperfprog:#8E3B46;
+  --c-pres:#2F6FEB; --c-prog:#EF7410; --c-past:#0F9C78; --c-pastprog:#8547EE; --c-state:#0B93A6; --c-plan:#D63A8A; --c-perf:#667A00; --c-perfprog:#A1582B; --c-pastperf:#56627F; --c-pastperfprog:#8E3B46; --c-fut:#A21CAF; --c-futperf:#0369A1;
   --f-display:"Lilita One","Arial Rounded MT Bold","Trebuchet MS",system-ui,sans-serif;
   --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -35,14 +35,14 @@ body{margin:0;padding-top:env(safe-area-inset-top,0px)}
   --sun:#FFC83D; --sun-edge:#C48C00; --sun-ink:#2E2100;
   --ok:#3DD68C; --ok-soft:#163A2A; --bad:#FF6B70; --bad-soft:#42202A;
   --gold:#FFC83D; --lock:#4A4F80;
-  --c-pres:#77A4FF; --c-prog:#FF9C45; --c-past:#3BD3A8; --c-pastprog:#B18CFF; --c-state:#39C9DC; --c-plan:#FF6EB5; --c-perf:#C6DB3A; --c-perfprog:#E8A070; --c-pastperf:#B4BEDA; --c-pastperfprog:#E79AA5;
+  --c-pres:#77A4FF; --c-prog:#FF9C45; --c-past:#3BD3A8; --c-pastprog:#B18CFF; --c-state:#39C9DC; --c-plan:#FF6EB5; --c-perf:#C6DB3A; --c-perfprog:#E8A070; --c-pastperf:#B4BEDA; --c-pastperfprog:#E79AA5; --c-fut:#E879F9; --c-futperf:#7DD3FC;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#12142A; --card:#1D2044; --ink:#F1F2FF; --muted:#A9AED6; --line:#2F3368; --edge:#272A58;
   --sun:#FFC83D; --sun-edge:#C48C00; --sun-ink:#2E2100;
   --ok:#3DD68C; --ok-soft:#163A2A; --bad:#FF6B70; --bad-soft:#42202A;
   --gold:#FFC83D; --lock:#4A4F80;
-  --c-pres:#77A4FF; --c-prog:#FF9C45; --c-past:#3BD3A8; --c-pastprog:#B18CFF; --c-state:#39C9DC; --c-plan:#FF6EB5; --c-perf:#C6DB3A; --c-perfprog:#E8A070; --c-pastperf:#B4BEDA; --c-pastperfprog:#E79AA5;
+  --c-pres:#77A4FF; --c-prog:#FF9C45; --c-past:#3BD3A8; --c-pastprog:#B18CFF; --c-state:#39C9DC; --c-plan:#FF6EB5; --c-perf:#C6DB3A; --c-perfprog:#E8A070; --c-pastperf:#B4BEDA; --c-pastperfprog:#E79AA5; --c-fut:#E879F9; --c-futperf:#7DD3FC;
   color-scheme:dark}
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -52,7 +52,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .wrap{max-width:560px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 48px}
 h1,h2,h3,.disp{font-family:var(--f-display);font-weight:400;letter-spacing:.3px;text-wrap:balance;margin:0}
 .muted{color:var(--muted)}
-.t-pres{--tc:var(--c-pres)} .t-prog{--tc:var(--c-prog)} .t-past{--tc:var(--c-past)} .t-pastprog{--tc:var(--c-pastprog)} .t-state{--tc:var(--c-state)} .t-plan{--tc:var(--c-plan)} .t-perf{--tc:var(--c-perf)} .t-perfprog{--tc:var(--c-perfprog)} .t-pastperf{--tc:var(--c-pastperf)} .t-pastperfprog{--tc:var(--c-pastperfprog)}
+.t-pres{--tc:var(--c-pres)} .t-prog{--tc:var(--c-prog)} .t-past{--tc:var(--c-past)} .t-pastprog{--tc:var(--c-pastprog)} .t-state{--tc:var(--c-state)} .t-plan{--tc:var(--c-plan)} .t-perf{--tc:var(--c-perf)} .t-perfprog{--tc:var(--c-perfprog)} .t-pastperf{--tc:var(--c-pastperf)} .t-pastperfprog{--tc:var(--c-pastperfprog)} .t-fut{--tc:var(--c-fut)} .t-futperf{--tc:var(--c-futperf)}
 
 /* Buttons */
 .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:56px;border:0;border-radius:18px;background:var(--sun);color:var(--sun-ink);font-family:var(--f-display);font-size:21px;letter-spacing:.4px;box-shadow:0 5px 0 var(--sun-edge);transition:transform .08s,box-shadow .08s}
@@ -265,7 +265,19 @@ mark{background:none;color:var(--tc);font-weight:700;border-bottom:3px solid var
 .small-note{font-size:15px;color:var(--muted);margin:0}
 .fillin{min-height:64px;touch-action:manipulation}
 .composer textarea{min-height:56px}
+.t-ok{--tc:var(--ok)}
+.summary{text-align:left;margin-top:26px;display:grid;gap:8px}
+.summary .sect{margin-top:8px}
+.revlist{display:grid;gap:8px}
+.rev{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--card);border:2px solid var(--line);border-left:8px solid var(--line);border-radius:14px;padding:10px 12px;font-size:17px;line-height:1.4}
+.rev.ok{border-left-color:var(--ok)} .rev.bad{border-left-color:var(--bad);background:var(--bad-soft)}
+.rev .ri{flex:none;font-weight:700;width:24px;text-align:center}
+.rev.ok .ri{color:var(--ok)} .rev.bad .ri{color:var(--bad)}
+.rev small{display:block;font-size:14px;color:var(--muted);margin-top:3px}
+.sheet .ans.you{color:var(--bad)}
+.sumbtn{margin-top:14px}
 @media (min-width:700px){
+  .rev{font-size:19px} .rev small{font-size:16px}
   body{font-size:20px}
   .wrap{max-width:760px;padding-block:22px 56px}
   .dock>div,.sheet>div{max-width:760px}
@@ -306,7 +318,8 @@ mark{background:none;color:var(--tc);font-weight:700;border-bottom:3px solid var
   .cmp .vs{align-self:center}
   .sheet>div{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;column-gap:30px}
   .sheet .head,.sheet .ans,.sheet .why{grid-column:1}
-  .sheet .row{grid-column:2;grid-row:1 / span 3}
+  .sheet .row{grid-column:2;grid-row:1 / span 4}
+  .summary{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:30px;align-items:start}
 }
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
@@ -318,8 +331,8 @@ mark{background:none;color:var(--tc);font-weight:700;border-bottom:3px solid var
 "use strict";
 const app = document.getElementById("app");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const TNAME = {pres:"Simple present",prog:"Present progressive",past:"Simple past",pastprog:"Past progressive",state:"Stative",plan:"Plans",perf:"Present perfect",perfprog:"Present perfect progressive",pastperf:"Past perfect",pastperfprog:"Past perfect progressive"};
-const APP_VERSION = "2.0";
+const TNAME = {pres:"Simple present",prog:"Present progressive",past:"Simple past",pastprog:"Past progressive",state:"Stative",plan:"Plans",perf:"Present perfect",perfprog:"Present perfect progressive",pastperf:"Past perfect",pastperfprog:"Past perfect progressive",fut:"Future",futperf:"Future perfect"};
+const APP_VERSION = "3.0";
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 /* ---------- state ---------- */
@@ -433,6 +446,7 @@ const X = (x, y, c) => `<path d="M${x-7} ${y-7} L${x+7} ${y+7} M${x+7} ${y-7} L$
 function wave(x1, x2, y, c){ let d = `M${x1} ${y}`; for (let x = x1; x < x2; x += 12) d += " q3 -9 6 0 t6 0"; return `<path d="${d}" fill="none" stroke="var(--c-${c})" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`; }
 const box = (x, y, w, label, c) => `<rect x="${x}" y="${y}" width="${w}" height="30" rx="10" fill="var(--c-${c})" fill-opacity=".16" stroke="var(--c-${c})" stroke-width="2"/><text x="${x+w/2}" y="${y+20}" text-anchor="middle" class="tl-note" fill="var(--c-${c})">${label}</text>`;
 const two = (a, b, w = 104) => [a, b].map((r, i) => box(8, 12 + i * 50, w, r[0], r[1]) + `<text x="${w + 18}" y="${32 + i * 50}" class="tl-lab">${r[2]}</text><text x="312" y="${32 + i * 50}" class="tl-note" fill="var(--c-${r[1]})" text-anchor="end">${r[3]}</text>`).join("");
+const rows3 = (rs, w = 150) => rs.map((r, i) => box(8, 8 + i * 50, w, r[0], r[1]) + `<text x="312" y="${28 + i * 50}" class="tl-note" fill="var(--c-${r[1]})" text-anchor="end">${r[2]}</text>`).join("");
 const TL = {
   "simple-present": {c:"pres", t:"Simple present · always, every day", b: () => AX + [36,62,88,114,140,196,222,248,274].map(x => X(x,62,"pres")).join("")},
   "present-progressive": {c:"prog", t:"Present progressive · in progress now", b: () => AX + wave(122,206,62,"prog") + `<path d="M210 62 H254" stroke="var(--c-prog)" stroke-width="3" stroke-dasharray="4 6" fill="none"/><text x="122" y="86" class="tl-note" fill="var(--c-prog)" text-anchor="middle">start</text><text x="254" y="86" class="tl-note" fill="var(--c-prog)" text-anchor="middle">finish?</text>`},
@@ -464,6 +478,110 @@ const TL = {
   "still-or-over": {c:"perf", t:"Still true, or over?", b: () => two(["has been","perf","still true","still a teacher"], ["was","past","finished","not now"], 96)},
   "s-means": {c:"perf", t:"What does 's mean?", b: () => two(["'s + -ing / adjective","prog","","= is"], ["'s + past participle","perf","","= has"], 176)},
   "d-means": {c:"pastperf", t:"What does 'd mean?", b: () => two(["'d + past participle","pastperf","","= had"], ["'d + simple verb","plan","","= would"], 176)},
+  "will": {c:"fut", t:"Simple future · after now", b: () => AX + X(240,62,"fut") + `<text x="240" y="42" class="tl-note" fill="var(--c-fut)" text-anchor="middle">It will snow tomorrow.</text>`},
+  "will-form": {c:"fut", t:"Two ways to say the future", b: () => two(["will","fut","","will + snow"], ["am / is / are going to","plan","","is going to + snow"], 150)},
+  "will-vs-goingto": {c:"plan", t:"Guess, plan, or offer?", vb:"0 0 320 154", b: () => rows3([["🔮 a guess","fut","will / be going to"], ["📅 planned before","plan","be going to"], ["🙋 decide now, offer","fut","will"]], 164)},
+  "time-clause": {c:"pres", t:"Future sentence, present time clause", vb:"0 0 320 76", b: () => box(4,8,152,"When Bob comes,","pres") + box(164,8,152,"we will see him.","fut") + `<text x="80" y="58" class="tl-lab" text-anchor="middle">when + present</text><text x="240" y="58" class="tl-lab" text-anchor="middle">will / be going to</text>`},
+  "present-future": {c:"prog", t:"Present forms with a future meaning", b: () => two(["is leaving","prog","my plan","at noon tomorrow"], ["opens","pres","timetable","at 10:00 tomorrow"], 96)},
+  "future-progressive": {c:"fut", t:"Future progressive · in progress at a future time", b: () => AX + wave(206,290,62,"fut") + X(248,62,"pres") + `<text x="244" y="24" class="tl-note" fill="var(--c-fut)" text-anchor="middle">will be studying</text><text x="248" y="44" class="tl-note" fill="var(--c-pres)" text-anchor="middle">you come</text>`},
+  "future-perfect": {c:"futperf", t:"Future perfect · finished before a future time", b: () => AX + X(210,62,"futperf") + X(268,62,"fut") + `<text x="230" y="24" class="tl-note" fill="var(--c-futperf)" text-anchor="middle">will have graduated</text><text x="268" y="44" class="tl-note" fill="var(--c-fut)" text-anchor="middle">I see you</text>`},
+  "future-perfect-prog": {c:"futperf", t:"Future perfect progressive · how long by then", b: () => AX + wave(190,256,62,"futperf") + X(266,62,"fut") + `<text x="240" y="24" class="tl-note" fill="var(--c-futperf)" text-anchor="middle">will have been sleeping</text><text x="262" y="44" class="tl-note" fill="var(--c-fut)" text-anchor="middle">Ed gets home</text>`},
+  "sv": {c:"pres", t:"One subject → verb + s", b: () => two(["My friend","pres","","lives in Boston."], ["My friends","prog","","live in Boston."], 120)},
+  "find-subject": {c:"pres", t:"Jump over the middle part", vb:"0 0 320 76", b: () => box(4,8,92,"That book","pres") + `<text x="160" y="28" class="tl-lab" text-anchor="middle" text-decoration="line-through">on political parties</text>` + box(226,8,90,"is …","pres") + `<text x="50" y="58" class="tl-lab" text-anchor="middle">subject</text><text x="160" y="58" class="tl-lab" text-anchor="middle">skip it!</text><text x="271" y="58" class="tl-lab" text-anchor="middle">verb</text>`},
+  "of-noun": {c:"prog", t:"Look at the noun after of", b: () => two(["Some of the book","pres","","is good."], ["Some of the books","prog","","are good."], 170)},
+  "one-of": {c:"pres", t:"Three special ones", vb:"0 0 320 154", b: () => rows3([["One of / Each of my friends","pres","is"], ["The number of students","pres","is"], ["A number of students","prog","are"]], 226)},
+  "there-be": {c:"pres", t:"The subject comes after be", b: () => two(["There is","pres","","a fly."], ["There are","prog","","three windows."], 110)},
+  "count": {c:"pres", t:"Can you count it?", b: () => two(["count: a chair, two chairs","pres","","a / an, -s"], ["noncount: furniture","state","","no a / an, no -s"], 190)},
+  "articles": {c:"prog", t:"a, the, or nothing?", vb:"0 0 320 154", b: () => rows3([["one, not a special one","pres","a / an"], ["we both know which one","prog","the"], ["in general: plural, noncount","state","Ø"]], 216)},
+  "generic": {c:"state", t:"Talking about all of them", vb:"0 0 320 154", b: () => rows3([["A banana is yellow.","pres","a + singular"], ["Bananas are yellow.","state","Ø + plural"], ["Fruit is good for you.","state","Ø + noncount"]], 176)},
+  "second-mention": {c:"prog", t:"First time a, next time the", b: () => two(["I saw a cat.","pres","","1st time: a"], ["The cat was chasing a mouse.","prog","","2nd time: the"], 204)},
+  "pronouns": {c:"pres", t:"Three jobs for pronouns", vb:"0 0 320 154", b: () => rows3([["I · he · she · we · they","pres","subject"], ["me · him · her · us · them","prog","object"], ["my / mine · our / ours","plan","possessive"]], 214)},
+  "reflexive": {c:"state", t:"Same person? Use -self", b: () => two(["I saw him.","prog","","two people"], ["I saw myself.","state","","same person"], 130)},
+  "other-sg": {c:"pastprog", t:"One more, or the last one?", b: () => two(["another","pastprog","","one more of many"], ["the other","plan","","the last one"], 110)},
+  "other-pl": {c:"pastprog", t:"Some more, or all the rest?", b: () => two(["others","pastprog","","some more"], ["the others","plan","","all the rest"], 110)},
+  "modal-form": {c:"pres", t:"Modal + simple verb", b: () => two(["can · should · must · may","pres","","+ do  (no s, no to)"], ["have to · be able to","prog","","+ do"], 178)},
+  "strength": {c:"plan", t:"How strong is it?", vb:"0 0 320 154", b: () => rows3([["must · have to","plan","no choice"], ["had better","prog","or else…"], ["should · ought to","past","good idea"]], 150)},
+  "not-nec": {c:"past", t:"Two very different negatives", b: () => two(["don't have to","past","","not necessary"], ["must not","plan","","DON'T do it"], 140)},
+  "polite": {c:"state", t:"Polite requests", vb:"0 0 320 154", b: () => rows3([["May I · Could I · Can I …?","state","I do it"], ["Would you · Could you …?","prog","you do it"], ["May you …?","plan","never"]], 204)},
+  "mind": {c:"state", t:"Would you mind…?", b: () => two(["…if I opened the window?","state","","I do it"], ["…opening the window?","prog","","you do it"], 196)},
+  "certainty": {c:"pastprog", t:"How sure are you?", vb:"0 0 320 154", b: () => rows3([["He is sick.","pres","100% (a fact)"], ["He must be sick.","plan","95% (good reason)"], ["He may / might / could be sick.","pastprog","50% or less"]], 204)},
+  "certainty-neg": {c:"pastprog", t:"How sure? (negative)", vb:"0 0 320 154", b: () => rows3([["He isn't hungry.","pres","100%"], ["He can't / couldn't be hungry.","plan","99% impossible"], ["He may not / might not be hungry.","pastprog","50% or less"]], 204)},
+  "modal-past": {c:"pastperf", t:"Modal + have + past participle", b: () => two(["should have studied","pastperf","","but I didn't"], ["must have been sick","plan","","I'm almost sure"], 170)},
+  "passive": {c:"plan", t:"Active → passive", vb:"0 0 320 154", b: () => rows3([["Mary helped the boy.","pres","active"], ["The boy was helped by Mary.","plan","passive"], ["be + past participle","past","the form"]], 214)},
+  "passive-tenses": {c:"plan", t:"Only be changes", vb:"0 0 320 154", b: () => rows3([["is helped · is being helped","pres","present"], ["was helped · has been helped","past","past · perfect"], ["will be helped","fut","future"]], 218)},
+  "passive-modal": {c:"plan", t:"Modal + be + past participle", b: () => two(["should be told","pres","","now / future"], ["should have been told","pastperf","","past"], 180)},
+  "stative-passive": {c:"state", t:"Action then, state now", b: () => two(["I locked the door.","past","","the action"], ["The door is locked.","state","","the state now"], 164)},
+  "get-passive": {c:"prog", t:"get = become", b: () => two(["get + hungry","prog","","adjective"], ["get + married","plan","","past participle"], 140)},
+  "ed-ing": {c:"prog", t:"-ing gives the feeling, -ed has it", b: () => two(["The movie is boring.","prog","","it causes it"], ["I am bored.","state","","I feel it"], 176)},
+  "noun-clause": {c:"plan", t:"Question → noun clause", vb:"0 0 320 154", b: () => rows3([["Where does she live?","pres","question"], ["I don't know where she lives.","plan","noun clause"], ["wh + subject + verb","state","no do / did"]], 218)},
+  "if-whether": {c:"plan", t:"Yes/no question → if / whether", b: () => two(["Will she come?","pres","","question"], ["I wonder if she will come.","plan","","if / whether"], 196)},
+  "wh-inf": {c:"plan", t:"Question word + to + verb", b: () => two(["what I should do","pres","","long"], ["what to do","plan","","short, same meaning"], 150)},
+  "that-clause": {c:"plan", t:"Three places for a that-clause", vb:"0 0 320 154", b: () => rows3([["I think that Bob will come.","pres","verb"], ["I'm glad that Bob called.","state","adjective"], ["It's clear that Ann likes it.","plan","It + be"]], 226)},
+  "quote": {c:"past", t:"Exact words → reported words", b: () => two(["She said, “I work.”","pres","","quoted"], ["She said she worked.","past","","reported"], 176)},
+  "backshift": {c:"past", t:"said → one step back", vb:"0 0 320 154", b: () => rows3([["work → worked","past","present → past"], ["have worked → had worked","pastperf","→ past perfect"], ["will · can → would · could","fut","modals"]], 204)},
+  "subjunctive": {c:"plan", t:"Important! Use the simple form", b: () => two(["I insist that he","pres","","pay · be · not go"], ["It is vital that she","plan","","pay · be · not go"], 150)},
+  "adj-clause": {c:"plan", t:"An adjective clause describes a noun", b: () => two(["the woman","pres","","who helped me"], ["the book","prog","","that is on the table"], 110)},
+  "who-which": {c:"plan", t:"Which word?", vb:"0 0 320 154", b: () => rows3([["people","pres","who · that"], ["things","prog","that · which"], ["his / her / their","plan","whose"]], 130)},
+  "obj-drop": {c:"plan", t:"Subject: keep it. Object: you can drop it", b: () => two(["the man who helped me","pres","","keep who"], ["the man (that) I saw","plan","","can drop"], 196)},
+  "prep-clause": {c:"plan", t:"Where does the preposition go?", b: () => two(["the woman I told you about","pres","","everyday"], ["the woman about whom I told you","plan","","formal"], 232)},
+  "whose": {c:"plan", t:"his / her / their → whose", b: () => two(["His bike was stolen.","pres","",""], ["the man whose bike was stolen","plan","",""], 240)},
+  "where-when": {c:"state", t:"Place → where. Time → when", b: () => two(["the building where he lives","state","","place"], ["the day when I met you","past","","time"], 210)},
+  "commas": {c:"plan", t:"Which one? Or extra information?", b: () => two(["The man who teaches it …","pres","","no commas"], ["Mr. Lee, who teaches it, …","plan","","commas"], 204)},
+  "quantity": {c:"plan", t:"most of whom · some of which", b: () => two(["20 students,","pres","","most of whom are from Asia"], ["several reasons,","prog","","a few of which were valid"], 110)},
+  "which-sentence": {c:"plan", t:"which = the whole idea", b: () => two(["Tom was late.","pres","","That surprised me."], ["Tom was late,","plan","","which surprised me."], 130)},
+  "reduce": {c:"plan", t:"Clause → phrase", b: () => two(["The girl who is sitting next to me","pres","","clause"], ["The girl sitting next to me","plan","","phrase"], 236)},
+  "ger-verbs": {c:"prog", t:"Some verbs want -ing, some want to", b: () => two(["enjoy · finish · avoid · mind","prog","","+ playing"], ["hope · plan · decide · want","pres","","+ to play"], 214)},
+  "inf-object": {c:"pres", t:"verb + person + to + verb", b: () => two(["He told me","pres","","to leave."], ["I was told","plan","","to leave."], 120)},
+  "meaning-change": {c:"plan", t:"Same verb, different meaning", vb:"0 0 320 154", b: () => rows3([["remember to lock","pres","a task"], ["remember locking","prog","a memory"], ["stop to talk · stop talking","plan","purpose · quit"]], 200)},
+  "prep-ger": {c:"state", t:"After a preposition: -ing", b: () => two(["interested in","state","","+ learning"], ["look forward to","plan","","+ going"], 150)},
+  "go-ger": {c:"prog", t:"go + -ing for fun activities", b: () => two(["go shopping","pres","","every Saturday"], ["went fishing","past","","yesterday"], 130)},
+  "special-ing": {c:"prog", t:"Special expressions + -ing", vb:"0 0 320 154", b: () => rows3([["have fun · have trouble","prog","+ playing"], ["spend · waste time","prog","+ watching"], ["sit · stand · lie there","prog","+ reading"]], 196)},
+  "it-inf": {c:"pres", t:"Three ways, same meaning", vb:"0 0 320 154", b: () => rows3([["It is difficult to learn English.","pres","common"], ["Learning English is difficult.","prog","common"], ["To learn English is difficult.","state","rare"]], 232)},
+  "purpose": {c:"pres", t:"Why? to + verb · for + noun", b: () => two(["to buy some bread","pres","","to + verb"], ["for some bread","prog","","for + noun"], 170)},
+  "adj-inf": {c:"state", t:"Feeling adjective + to + verb", b: () => two(["sorry · glad · ready","state","","+ to hear"], ["I was surprised","pres","","to see Ted."], 170)},
+  "too-enough": {c:"past", t:"too = can't · enough = can", b: () => two(["too heavy to lift","past","","impossible"], ["strong enough to lift","pres","","possible"], 180)},
+  "passive-inf": {c:"plan", t:"Passive infinitive and gerund", b: () => two(["to be invited","pres","","hope · want · expect"], ["being invited","prog","","enjoy · about · to"], 140)},
+  "past-inf": {c:"pastperf", t:"Earlier than the main verb", vb:"0 0 320 154", b: () => rows3([["to have told","pres","infinitive"], ["having told","prog","gerund"], ["to have been told","plan","passive"]], 190)},
+  "need-ing": {c:"prog", t:"need + -ing = needs to be done", b: () => two(["needs painting","prog","","passive meaning"], ["needs to be painted","plan","","same meaning"], 170)},
+  "perception": {c:"pres", t:"see / hear + simple form or -ing", b: () => two(["I saw her run.","pres","","the whole action"], ["I saw her running.","prog","","in progress"], 150)},
+  "let-help": {c:"pres", t:"let and help: simple form", b: () => two(["let me drive","pres","","never to"], ["help me (to) wash","state","","to is optional"], 170)},
+  "causative": {c:"plan", t:"Three ways to cause it", vb:"0 0 320 154", b: () => rows3([["make him clean","past","no choice"], ["have him clean","pres","ask"], ["get him to clean","plan","persuade"]], 170)},
+  "poss-gerund": {c:"pres", t:"Whose action?", b: () => two(["our coming late","pres","","formal"], ["us coming late","prog","","informal"], 160)},
+  "parallel": {c:"state", t:"Same form on both sides", b: () => two(["old but comfortable","state","","adj + adj"], ["to watch TV or listen","pres","","verb + verb"], 190)},
+  "commas-list": {c:"plan", t:"Two: no comma. Three: commas", vb:"0 0 320 154", b: () => rows3([["Steve and Joe","pres","no comma"], ["Steve, Joe and Rita","prog","comma"], ["Steve, Joe, and Rita","plan","also OK"]], 190)},
+  "clauses-punct": {c:"plan", t:"Two full sentences", vb:"0 0 320 154", b: () => rows3([["It rained. It was windy.","pres","period"], ["It rained, and it was windy.","plan","comma + and"], ["It rained, it was windy.","past","✗ wrong"]], 214)},
+  "paired": {c:"plan", t:"Pairs and their verbs", vb:"0 0 320 154", b: () => rows3([["both A and B","pres","plural verb"], ["either A or B","prog","look at B"], ["neither A nor B","plan","look at B"]], 170)},
+  "adv-clause": {c:"plan", t:"Clause first? Comma", vb:"0 0 320 154", b: () => rows3([["When it rang, I woke up.","plan","comma"], ["I woke up when it rang.","pres","no comma"], ["When it rang.","past","✗ not a sentence"]], 190)},
+  "time-words": {c:"plan", t:"Time words", vb:"0 0 320 154", b: () => rows3([["before · after · when","pres","order"], ["while · as · until · since","prog","how long"], ["as soon as · once · by the time","plan","right then"]], 220)},
+  "cause": {c:"pres", t:"Cause → effect", b: () => two(["Because he was sleepy,","pres","","cause"], ["he went to bed.","plan","","effect"], 180)},
+  "even-though": {c:"plan", t:"Expected or surprising?", b: () => two(["because","pres","","expected result"], ["even though","plan","","surprising result"], 120)},
+  "while-contrast": {c:"plan", t:"while = exact opposite", b: () => two(["Mary is rich,","pres","","while John is poor."], ["John is poor,","prog","","while Mary is rich."], 120)},
+  "if-clause": {c:"prog", t:"If + present, result + will", b: () => two(["If it rains tomorrow,","prog","","present"], ["I will take my umbrella.","fut","","will"], 200)},
+  "if-so": {c:"pres", t:"Short if-clauses", b: () => two(["If so,","pres","","= if yes"], ["If not,","past","","= if no"], 90)},
+  "even-if": {c:"plan", t:"It doesn't matter", b: () => two(["cold or not cold","pres","","doesn't matter"], ["I'm going swimming.","plan","","same result"], 170)},
+  "in-case": {c:"prog", t:"Probably not, but maybe", b: () => two(["in case you need me","prog","","just maybe"], ["I'll be at home","pres","","I'm ready"], 180)},
+  "unless": {c:"plan", t:"unless = if … not", b: () => two(["unless it's cold","plan","","="], ["if it isn't cold","pres","","same meaning"], 150)},
+  "only-if": {c:"plan", t:"Only one condition", b: () => two(["only if it rains","plan","","one condition"], ["Only if it rains will we…","pres","","will + subject"], 200)},
+  "reduce-adv": {c:"plan", t:"Clause → phrase", b: () => two(["While I was walking to class,","pres","","clause"], ["While walking to class,","plan","","phrase"], 220)},
+  "same-subject": {c:"plan", t:"Who is doing it?", b: () => two(["While walking, I saw Ann.","pres","","✓ I"], ["While walking, the phone rang.","past","","✗ the phone?"], 216)},
+  "ing-meaning": {c:"prog", t:"What does -ing mean here?", vb:"0 0 320 154", b: () => rows3([["Walking home, I met Sam.","pres","while"], ["Needing money, I went to an ATM.","prog","because"], ["Having seen it, I stayed home.","pastperf","before"]], 236)},
+  "upon": {c:"plan", t:"upon + -ing = when", b: () => two(["Upon reaching 18,","plan","","= when I reach 18"], ["On reaching 18,","pres","","same"], 150)},
+  "connectives": {c:"plan", t:"Kinds of connecting words", vb:"0 0 320 154", b: () => rows3([["because · even though · if","pres","clause words"], ["therefore · however · otherwise","plan","transitions"], ["because of · due to · despite","prog","+ noun"]], 220)},
+  "because-of": {c:"prog", t:"because + clause · because of + noun", b: () => two(["because it was cold","pres","","+ subject + verb"], ["because of the cold","prog","","+ noun"], 170)},
+  "therefore": {c:"plan", t:"Same idea, three punctuations", vb:"0 0 320 154", b: () => rows3([["It was hot. Therefore, we swam.","plan","period"], ["It was hot; therefore, we swam.","plan","semicolon"], ["It was hot, so we swam.","pres","comma"]], 226)},
+  "so-such": {c:"plan", t:"so + adjective · such + noun", b: () => two(["so hot that …","pres","","so + adjective"], ["such a hot day that …","plan","","such + noun"], 170)},
+  "so-that": {c:"pres", t:"so that = purpose", b: () => two(["so that I can buy","pres","","now / future"], ["so that I could buy","past","","past"], 170)},
+  "unexpected": {c:"plan", t:"Three ways to show surprise", vb:"0 0 320 154", b: () => rows3([["Even though it was cold,","pres","clause"], ["It was cold. Nevertheless,","plan","transition"], ["despite the cold","prog","+ noun"]], 204)},
+  "direct-contrast": {c:"plan", t:"This is the opposite of that", vb:"0 0 320 154", b: () => rows3([["Mary is rich, while John is poor.","pres","while"], ["Mary is rich, but John is poor.","prog","but"], ["Mary is rich; however, John is poor.","plan","however"]], 240)},
+  "otherwise": {c:"plan", t:"otherwise = if not", b: () => two(["Hurry.","pres","","Otherwise, you'll be late."], ["Hurry,","prog","","or (else) you'll be late."], 80)},
+  "cond-real": {c:"pres", t:"Real: maybe true", b: () => two(["If I have time,","pres","","I watch TV. (habit)"], ["If I have time,","prog","","I will watch TV. (future)"], 124)},
+  "cond-unreal": {c:"plan", t:"Unreal: not true", b: () => two(["If I had time,","plan","","I would watch TV."], ["If I had had time,","pastperf","","I would have watched."], 130)},
+  "prog-cond": {c:"plan", t:"Progressive in if-clauses", b: () => two(["If it weren't raining,","plan","","now"], ["If it hadn't been raining,","pastperf","","past"], 210)},
+  "mixed": {c:"plan", t:"Past condition, present result", b: () => two(["If I had eaten breakfast,","pastperf","","past"], ["I would not be hungry now.","plan","","present"], 210)},
+  "omit-if": {c:"plan", t:"No if: verb first", vb:"0 0 320 154", b: () => rows3([["Were I you, …","plan","= If I were you"], ["Had I known, …","pastperf","= If I had known"], ["Should anyone call, …","pres","= If anyone calls"]], 170)},
+  "implied": {c:"plan", t:"The if is hidden", b: () => two(["I would have gone,","pastperf","","but I had to study."], ["She ran; otherwise,","plan","","she'd have missed it."], 150)},
+  "wish": {c:"state", t:"wish: one step back", vb:"0 0 320 154", b: () => rows3([["I wish I knew French.","plan","now"], ["I wish John had come.","pastperf","past"], ["I wish it would stop.","fut","future"]], 200)},
+  "all-tenses": {c:"pres", t:"Past · present · future", vb:"0 0 320 154", b: () => rows3([["yesterday","past","I worked."], ["now / every day","pres","I am working. / I work."], ["tomorrow","fut","I will work."]], 130)},
   "gerund": {c:"plan", t:"Which form comes next?", b: () => box(8,12,104,"want","plan") + `<text x="122" y="32" class="tl-lab">+ to + verb</text><text x="312" y="32" class="tl-note" fill="var(--c-plan)" text-anchor="end">I want to go.</text>` + box(8,62,104,"enjoy","prog") + `<text x="122" y="82" class="tl-lab">+ verb-ing</text><text x="312" y="82" class="tl-note" fill="var(--c-prog)" text-anchor="end">We enjoy going.</text>`},
 };
 function tlFig(key){
@@ -530,7 +648,7 @@ function renderHome(){
   for (const ch of WORLDS){
     const total = ch.levels.reduce((a,lv) => a + lv.missions.length, 0);
     const done = ch.levels.reduce((a,lv) => a + levelCleared(ch, lv), 0);
-    h += `<section class="world"><div class="world-head"><div class="world-icon">${esc(ch.icon||"🗺️")}</div><div><div class="world-num">World ${ch.num} · ${done}/${total} missions</div><h2>${esc(ch.title)}</h2><div class="muted" style="font-size:15px">${esc(ch.subtitle||"")}</div></div></div><div class="path">`;
+    h += `<section class="world"><div class="world-head"><div class="world-icon">${esc(ch.icon||"🗺️")}</div><div><div class="world-num">World ${ch.num} · ${done}/${total} missions</div><h2>${esc(ch.title)}</h2><div class="muted" style="font-size:15px">${esc(ch.subtitle||"")}</div></div></div><button class="btn small ghost sumbtn" data-act="summary" data-ch="${ch.id}">📋 All rules in one place</button><div class="path">`;
     if (ch.scout){ const d = S.cleared[scoutKey(ch)];
       h += `<button class="stone t-state" data-act="scout" data-ch="${ch.id}"><span class="disc">🔍${d ? '<span class="star">★</span>' : ""}</span><span class="meta"><b>${esc(ch.scout.title)}</b><span>Optional pretest · ${ch.scout.items.length} questions${S.best[scoutKey(ch)] != null ? " · best " + S.best[scoutKey(ch)] + "%" : ""}</span></span></button>`; }
     let firstOpenUndone = true;
@@ -570,7 +688,7 @@ function renderLevel(){
   if (lv.lesson){ const lk = mk(ch, lv.id, "learn"), ld = S.cleared[lk];
     h += `<button class="lessonbtn ${ld ? "done" : ""}" data-act="lesson" data-lv="${lv.id}"><span class="mi">📖</span><span><b>${ld ? "Review the lesson" : "Start here: the lesson"}</b><span>${lv.lesson.items.length} short cards with pictures and sound · about 2 min${ld ? " · ✓ done" : ""}</span></span></button>`; }
   h += `<div class="sect">Cheat sheet</div>` + ruleCard(lv);
-  h += `</div><div><div class="sect">Missions</div><div class="mlist">`;
+  h += `<button class="btn small ghost sumbtn" data-act="allsent" data-lv="${lv.id}">📋 All sentences in one place</button></div><div><div class="sect">Missions</div><div class="mlist">`;
   lv.missions.forEach((m, i) => { const k = mk(ch, lv.id, i), best = S.best[k];
     h += `<button class="mcard" data-act="mission" data-lv="${lv.id}" data-i="${i}"><span class="mi">${esc(m.icon||"🎯")}</span><span class="mt"><b>${esc(m.title)}</b><span>${m.items.length} questions · about ${Math.max(1, Math.round(m.items.length*0.3))} min</span></span><span class="ms">${S.cleared[k] ? "★ " + (best ?? 100) + "%" : ""}</span></button>`; });
   h += `</div>`;
@@ -588,7 +706,7 @@ function startPlay(ch, kind, lv, mi){
   const src = kind === "scout" ? ch.scout : kind === "boss" ? ch.boss : kind === "lesson" ? lv.lesson : lv.missions[mi];
   let items = src.items;
   if (kind === "mission") items = [{type:"learn", title:"Quick reminder", lines: lv.rule.lines, visual: lv.rule.timeline, examples: lv.rule.examples}, ...items];
-  P = {ch, kind, lv, mi, title: src.title, items, scored: items.filter(x => !isLearn(x)).length, idx: 0, right: 0, combo: 0, xp: 0, state: null};
+  P = {ch, kind, lv, mi, title: src.title, items, scored: items.filter(x => !isLearn(x)).length, idx: 0, right: 0, combo: 0, xp: 0, state: null, log: []};
   go({name:"play"});
 }
 function itemRuleLevel(it){ const id = it.rule || P.lv?.id; return id ? findLevel(id) : null; }
@@ -603,7 +721,8 @@ function answerText(it){
   }
   return "";
 }
-function fullSentence(it){
+function fullSentence(it){ return _fs(it).replace(/\s*(Ø \(nothing\)|nothing \(Ø\))\s*/g, " ").trim(); }
+function _fs(it){
   if ((it.type === "fill" || it.type === "choice") && it.text.includes("___") && (it.type === "fill" || it.answer.length === 1)) return it.text.replace("___", answerText(it));
   if (it.type === "judge") return it.answer === "correct" ? it.text : it.fix;
   if (it.type === "errorfix") return it.options[it.answer];
@@ -723,6 +842,7 @@ function check(){
     document.querySelectorAll("#step2 .opt").forEach((b, j) => b.classList.add(j === it.answer ? "right" : j === pick ? "wrong" : "dim"));
   }
   st.done = true;
+  st.given = givenText(it, st); P.log.push({it, ok, given: st.given});
   const dock = document.getElementById("dock"); if (dock) dock.remove();
   let gain = 0;
   if (ok){ P.right++; P.combo++; gain = 10; if (P.combo % 3 === 0) gain += 5; P.xp += gain; }
@@ -738,7 +858,7 @@ function showSheet(it, ok, gain){
   const el = document.createElement("div");
   el.className = "sheet " + (ok ? "ok" : "bad"); el.setAttribute("role", "status");
   el.innerHTML = `<div><div class="head"><span>${ok ? praise : "Not quite"}</span>${ok ? `<span class="xp">+${gain} XP${combo}</span>` : ""}</div>
-    ${ok ? "" : `<div class="ans">Answer: <b>${esc(answerText(it))}</b></div>`}
+    ${ok ? "" : `<div class="ans you">✗ You: <s>${esc(P.state.given)}</s></div><div class="ans">✓ Right: <b>${rightHTML(it)}</b></div>`}
     <div class="why">${tag}<span>${esc(it.why)}</span></div>
     <div class="row">${canSpeak ? `<button class="iconbtn" data-say="${esc(fullSentence(it))}" aria-label="Hear the correct sentence">🔊</button>` : ""}${rl ? `<button class="iconbtn" data-act="rule" data-lv="${rl.lv.id}" aria-label="See rule">📖</button>` : ""}<button class="btn" data-act="next" id="nextbtn">Continue</button></div></div>`;
   document.querySelector(".play").appendChild(el);
@@ -796,12 +916,64 @@ function renderResult(){
   const title = boss ? (r.win ? "Monster defeated!" : "The monster survived") : P.kind === "scout" ? "Scouting done!" : lesson ? "Lesson done!" : "Mission clear!";
   const icon = boss ? (r.win ? "🏆" : "👾") : lesson ? "🧠" : r.pct >= 80 ? "🏆" : r.pct >= 50 ? "🎉" : "💪";
   const sub = boss && !r.win ? "You need 70%. Every try still earns XP." : P.kind === "scout" ? "Now you know where to start." : lesson ? "Now let's use it in a mission." : r.pct >= 80 ? "Your grammar brain is warming up." : "Done is better than perfect.";
-  app.innerHTML = `<div class="wrap result"><div class="trophy pop">${icon}</div><h1>${title}</h1><p class="muted" style="margin:0">${esc(P.title)} · ${esc(sub)}</p>
+  app.innerHTML = `<div class="wrap wide result"><div class="trophy pop">${icon}</div><h1>${title}</h1><p class="muted" style="margin:0">${esc(P.title)} · ${esc(sub)}</p>
     <div class="rstats"><div class="stat"><div class="lab">XP earned</div><div class="val" style="color:var(--c-prog)">+${r.gained}</div></div><div class="stat"><div class="lab">Correct</div><div class="val">${P.right}/${P.scored}</div></div><div class="stat"><div class="lab">Streak</div><div class="val">🔥 ${liveStreak()}</div></div></div>
     <div style="display:grid;gap:14px;margin-top:10px">
       ${boss && !r.win ? `<button class="btn" data-act="retry">Try again</button>` : nt ? `<button class="btn" data-act="keepgoing">Keep going → ${esc(nt.title)}</button>` : ""}
       <button class="btn ghost" data-act="stop">${nt || (boss && !r.win) ? "Stop here" : "Back to the map"}</button>
-    </div></div>`;
+    </div>${summaryHTML()}</div>`;
+}
+
+/* ---------- summaries ---------- */
+function givenText(it, st){
+  const pick = [...st.sel][0];
+  switch (it.type){
+    case "fill": return document.getElementById("fillin").value.trim();
+    case "choice": case "listen": return [...st.sel].sort((a, b) => a - b).map(i => it.options[i]).join(" + ");
+    case "judge": return pick === 0 ? "Correct" : "Wrong";
+    case "order": return it.events[pick] + " first";
+    case "sort": return it.buckets[pick];
+    case "errorfix": return it.options[pick];
+  }
+  return "";
+}
+function rightHTML(it){
+  const a = `<mark class="t-ok">${esc(answerText(it))}</mark>`;
+  switch (it.type){
+    case "fill": return esc(it.text).replace("___", () => a);
+    case "choice": return it.text.includes("___") && it.answer.length === 1 ? esc(it.text).replace("___", () => a) : esc(it.text) + " → " + a;
+    case "listen": return esc(it.say) + " → " + a;
+    case "judge": return it.answer === "correct" ? esc(it.text) + " ✓" : `<mark class="t-ok">${esc(it.fix)}</mark>`;
+    case "errorfix": return esc(it.options[it.answer]);
+    case "order": return esc(it.text) + " → first: " + a;
+    case "sort": return esc(it.word) + " → " + a;
+  }
+  return esc(it.text || "");
+}
+function revRow(e){
+  const bad = e.ok === false;
+  return `<button class="rev ${bad ? "bad" : e.ok ? "ok" : ""}" data-say="${esc(fullSentence(e.it))}"><span class="ri">${bad ? "✗" : e.ok ? "✓" : "🔊"}</span><span><span>${rightHTML(e.it)}</span>${bad ? `<small>You: <s>${esc(e.given)}</s> · ${esc(e.it.why)}</small>` : ""}</span></button>`;
+}
+function summaryHTML(){
+  if (!P || !P.log.length) return "";
+  const wrong = P.log.filter(e => !e.ok).length;
+  return `<div class="summary"><div>${P.lv ? `<div class="sect">📋 Summary: the rule</div>${ruleCard(P.lv)}` : ""}</div><div><div class="sect">All sentences${wrong ? ` · ${wrong} to look at again` : " · all correct"}</div><div class="revlist">${P.log.map(revRow).join("")}</div></div></div>`;
+}
+function openAll(id){
+  const f = findLevel(id); if (!f) return;
+  closeOverlay();
+  const o = document.createElement("div"); o.className = "overlay"; o.id = "ov";
+  o.innerHTML = `<div class="wrap wide t-${f.lv.t}"><div class="backrow"><button class="iconbtn" data-act="closeov" aria-label="Close">✕</button><div><div class="eyebrow">All sentences</div><h1>${esc(f.lv.title)}</h1></div></div>
+    <div class="summary" style="margin-top:0"><div><div class="sect">The rule</div>${ruleCard(f.lv)}</div><div>${f.lv.missions.map(m => `<div class="sect">${esc(m.icon || "🎯")} ${esc(m.title)}</div><div class="revlist">${m.items.map(it => revRow({it})).join("")}</div>`).join("")}</div></div></div>`;
+  document.body.appendChild(o);
+}
+function openSummary(chId){
+  const ch = WORLDS.find(c => c.id === chId); if (!ch) return;
+  closeOverlay();
+  const o = document.createElement("div"); o.className = "overlay"; o.id = "ov";
+  o.innerHTML = `<div class="wrap wide"><div class="backrow"><button class="iconbtn" data-act="closeov" aria-label="Close">✕</button><div><div class="eyebrow">World ${ch.num} · all rules</div><h1>${esc(ch.title)}</h1></div></div>
+    <div class="worlds">${ch.levels.map(lv => `<div class="t-${lv.t}"><div class="sect" style="margin-top:6px"><span class="rtag t-${lv.t}"><i class="dot"></i>${esc(lv.tag)}</span> ${esc(lv.title)}</div>${ruleCard(lv)}</div>`).join("")}</div></div>`;
+  document.body.appendChild(o);
 }
 
 /* ---------- rule overlay ---------- */
@@ -961,6 +1133,8 @@ document.addEventListener("click", e => {
     case "lesson": { const f = findLevel(b.dataset.lv); startPlay(f.ch, "lesson", f.lv); break; }
     case "help": openHelp(); break;
     case "settings": openSettings(); break;
+    case "summary": openSummary(b.dataset.ch); break;
+    case "allsent": openAll(b.dataset.lv); break;
     case "hidetip": try { localStorage.setItem("grammar-quest-installtip", "1"); } catch {} b.closest(".install").remove(); break;
     case "testvoice": speak("She has lived here since 2010. Have you ever seen snow?"); break;
     case "export": exportBackup(); break;

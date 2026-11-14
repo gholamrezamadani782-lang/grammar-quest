@@ -1,0 +1,5260 @@
+{
+ "id": "ch17",
+ "num": 17,
+ "title": "Adverb Clauses",
+ "subtitle": "when, because, even though, if, unless",
+ "icon": "🦅",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "The first time I met your parents at the party for Nicholas and his girlfriend.",
+    "answer": "wrong",
+    "why": "Only an adverb clause. No main clause.",
+    "fix": "The first time I met your parents was at the party for Nicholas and his girlfriend.",
+    "rule": "17-1"
+   },
+   {
+    "type": "judge",
+    "text": "After the movie ended. The audience stayed in their seats for a few minutes.",
+    "answer": "wrong",
+    "why": "Join the clause to the main clause.",
+    "fix": "After the movie ended, the audience stayed in their seats for a few minutes.",
+    "rule": "17-1"
+   },
+   {
+    "type": "judge",
+    "text": "Whenever Josh died, his family was very sad.",
+    "answer": "wrong",
+    "why": "It happened once → When.",
+    "fix": "When Josh died, his family was very sad.",
+    "rule": "17-2"
+   },
+   {
+    "type": "judge",
+    "text": "Because Rosa inherited a large amount of money from her parents, she was an only child.",
+    "answer": "wrong",
+    "why": "Cause and effect are reversed.",
+    "fix": "Because Rosa was an only child, she inherited a large amount of money from her parents.",
+    "rule": "17-3"
+   },
+   {
+    "type": "judge",
+    "text": "Now that I graduated, I need to look for a job.",
+    "answer": "wrong",
+    "why": "now that + present perfect.",
+    "fix": "Now that I have graduated, I need to look for a job.",
+    "rule": "17-3"
+   },
+   {
+    "type": "judge",
+    "text": "Even though the movie is very popular, I don't think the theater will be crowded.",
+    "answer": "correct",
+    "why": "An unexpected result.",
+    "rule": "17-4"
+   },
+   {
+    "type": "judge",
+    "text": "While some people enjoy being online a lot, others do.",
+    "answer": "wrong",
+    "why": "Contrast needs the opposite.",
+    "fix": "While some people enjoy being online a lot, others don't.",
+    "rule": "17-5"
+   },
+   {
+    "type": "judge",
+    "text": "If anyone needs me, I'll be in my office.",
+    "answer": "correct",
+    "why": "if + present, will.",
+    "rule": "17-6"
+   },
+   {
+    "type": "judge",
+    "text": "Are you coming with us? If so, could you hurry?",
+    "answer": "correct",
+    "why": "If so = if you are coming.",
+    "rule": "17-7"
+   },
+   {
+    "type": "judge",
+    "text": "Even if he invites me to the party, I will go.",
+    "answer": "wrong",
+    "why": "even if → the result doesn't change.",
+    "fix": "Even if he invites me to the party, I won't go.",
+    "rule": "17-8"
+   },
+   {
+    "type": "judge",
+    "text": "In case you've forgotten anything, I can always send it to you.",
+    "answer": "correct",
+    "why": "in case + clause.",
+    "rule": "17-9"
+   },
+   {
+    "type": "judge",
+    "text": "Unless you get below 70% on the next test, you'll pass the course.",
+    "answer": "correct",
+    "why": "= If you don't get below 70%.",
+    "rule": "17-10"
+   },
+   {
+    "type": "judge",
+    "text": "Only if Abdul's foot is better he can play in the soccer match next month.",
+    "answer": "wrong",
+    "why": "Only if first → can he play.",
+    "fix": "Only if Abdul's foot is better can he play in the soccer match next month.",
+    "rule": "17-11"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "17-1",
+   "tag": "17-1",
+   "t": "plan",
+   "title": "When, because, if…",
+   "full": "Adverb Clauses: Introduction",
+   "lesson": {
+    "title": "Learn: adverb clauses and commas",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "When? Why? If what?",
+      "lines": [
+       "An adverb clause answers these. It can't stand alone."
+      ],
+      "chips": [
+       "when the phone rang (time)",
+       "because he was sleepy (cause)",
+       "although it was crowded (contrast)",
+       "if the weather is bad (condition)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Clause first? Use a comma",
+      "lines": [
+       "Clause second? Usually no comma."
+      ],
+      "visual": [
+       "adv-clause"
+      ],
+      "chips": [
+       "When the phone rang, the baby woke up.",
+       "The baby woke up when the phone rang."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "As soon as the plane landed a blizzard began.",
+       "As soon as the plane landed, a blizzard began."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Adverb clause first → comma."
+     },
+     {
+      "type": "learn",
+      "title": "Never alone",
+      "lines": [
+       "Join it to a main clause."
+      ],
+      "chips": [
+       "❌ When we were in New York. We saw several plays.",
+       "✅ When we were in New York, we saw several plays.",
+       "❌ He went to bed. Because he was sleepy."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“After the movie ended. The audience stayed in their seats.”",
+      "options": [
+       "Correct",
+       "Wrong: the first part is not a sentence."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After the movie ended, the audience stayed…"
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Adverb clause + comma + main clause. / Main clause + adverb clause (no comma).",
+     "An adverb clause can't be a sentence by itself."
+    ],
+    "timeline": [
+     "adv-clause"
+    ],
+    "examples": [
+     {
+      "text": "When the phone rang, the baby woke up.",
+      "hl": [
+       [
+        "When the phone rang,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The baby woke up when the phone rang.",
+      "hl": [
+       [
+        "when the phone rang",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Because he was sleepy, he went to bed.",
+      "hl": [
+       [
+        "Because he was sleepy,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Annoyances",
+     "icon": "🚪",
+     "items": [
+      {
+       "type": "judge",
+       "text": "When the door slammed.",
+       "answer": "wrong",
+       "why": "An adverb clause can't stand alone.",
+       "fix": "I woke up when the door slammed."
+      },
+      {
+       "type": "judge",
+       "text": "I woke up. When the door slammed.",
+       "answer": "wrong",
+       "why": "Join the clause to the main clause.",
+       "fix": "I woke up when the door slammed."
+      },
+      {
+       "type": "judge",
+       "text": "I woke up when the door slammed.",
+       "answer": "correct",
+       "why": "Main clause + adverb clause, no comma."
+      },
+      {
+       "type": "judge",
+       "text": "When the door slammed, I woke up.",
+       "answer": "correct",
+       "why": "Clause first → comma."
+      },
+      {
+       "type": "judge",
+       "text": "The door slammed. I woke up.",
+       "answer": "correct",
+       "why": "Two complete sentences."
+      },
+      {
+       "type": "judge",
+       "text": "After I texted you, my phone died.",
+       "answer": "correct",
+       "why": "Clause first → comma."
+      },
+      {
+       "type": "judge",
+       "text": "The last time I texted you, and you didn't answer.",
+       "answer": "wrong",
+       "why": "No and after an adverb clause.",
+       "fix": "The last time I texted you, you didn't answer."
+      },
+      {
+       "type": "judge",
+       "text": "Every time the phone rings, and no one is there.",
+       "answer": "wrong",
+       "why": "No and after an adverb clause.",
+       "fix": "Every time the phone rings, no one is there."
+      },
+      {
+       "type": "judge",
+       "text": "Whenever the phone rings, no one is there.",
+       "answer": "correct",
+       "why": "Clause + comma + main clause."
+      },
+      {
+       "type": "judge",
+       "text": "As soon as we sit down to dinner, a telemarketer calls.",
+       "answer": "correct",
+       "why": "Clause + comma + main clause."
+      }
+     ]
+    },
+    {
+     "title": "A snowstorm",
+     "icon": "❄️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "When Adolfo came to Chicago he planned to stay with his cousins.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after Chicago."
+      },
+      {
+       "type": "sort",
+       "word": "Adolfo planned to stay with his cousins when he came to Chicago.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 1,
+       "why": "Clause second → no comma."
+      },
+      {
+       "type": "sort",
+       "word": "As soon as the plane landed a blizzard began.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after landed."
+      },
+      {
+       "type": "sort",
+       "word": "A blizzard began as soon as the plane landed.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 1,
+       "why": "Clause second → no comma."
+      },
+      {
+       "type": "sort",
+       "word": "Once the plane landed a blizzard began.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after landed."
+      },
+      {
+       "type": "sort",
+       "word": "Adolfo didn't go outside the airport until it stopped.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 1,
+       "why": "Clause second → no comma."
+      },
+      {
+       "type": "sort",
+       "word": "When it stopped Adolfo went outside.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after stopped."
+      },
+      {
+       "type": "sort",
+       "word": "When he went outside there weren't any taxis.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after outside."
+      },
+      {
+       "type": "sort",
+       "word": "He was stranded at the airport until the roads were cleared.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 1,
+       "why": "Clause second → no comma."
+      },
+      {
+       "type": "sort",
+       "word": "As soon as the roads were cleared he left the airport.",
+       "buckets": [
+        "Comma needed",
+        "No comma"
+       ],
+       "answer": 0,
+       "why": "Clause first → comma after cleared."
+      }
+     ]
+    },
+    {
+     "title": "Three short stories",
+     "icon": "🏀",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Paulo's legs are paralyzed when he plays he moves around the basketball court in a wheelchair",
+       "options": [
+        "Paulo's legs are paralyzed when he plays. He moves around the basketball court in a wheelchair.",
+        "Paulo's legs are paralyzed. When he plays, he moves around the basketball court in a wheelchair."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "When he plays belongs to the second sentence.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Paulo is a member of a championship basketball team he is a wheelchair athlete",
+       "options": [
+        "Paulo is a member of a championship basketball team. He is a wheelchair athlete.",
+        "Paulo is a member of a championship basketball team, he is a wheelchair athlete."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "whenever his owner needs to go downtown Fritz assists him",
+       "options": [
+        "Whenever his owner needs to go downtown. Fritz assists him.",
+        "Whenever his owner needs to go downtown, Fritz assists him."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first → comma.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Fritz can help him cross streets get on buses go down stairs and avoid obstacles",
+       "options": [
+        "Fritz can help him cross streets, get on buses, go down stairs, and avoid obstacles.",
+        "Fritz can help him cross streets get on buses, go down stairs and, avoid obstacles."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A list of four → commas.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "sometimes when people speak to someone who is hard of hearing they shout",
+       "options": [
+        "Sometimes when people speak, to someone who is hard of hearing they shout.",
+        "Sometimes when people speak to someone who is hard of hearing, they shout."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The comma comes at the end of the whole clause.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "shouting is not necessary it is important to face the person and speak clearly",
+       "options": [
+        "Shouting is not necessary. It is important to face the person and speak clearly.",
+        "Shouting is not necessary, it is important to face the person, and speak clearly."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two sentences → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "judge",
+       "text": "The first time I met your parents at the party for Nicholas and his girlfriend.",
+       "answer": "wrong",
+       "why": "Only an adverb clause. No main clause.",
+       "fix": "The first time I met your parents was at the party for Nicholas and his girlfriend."
+      },
+      {
+       "type": "judge",
+       "text": "After the movie ended. The audience stayed in their seats for a few minutes.",
+       "answer": "wrong",
+       "why": "Join the clause to the main clause.",
+       "fix": "After the movie ended, the audience stayed in their seats for a few minutes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-2",
+   "tag": "17-2",
+   "t": "prog",
+   "title": "After, until, by the time",
+   "full": "Using Adverb Clauses to Show Time Relationships",
+   "lesson": {
+    "title": "Learn: time clauses",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Many time words",
+      "lines": [
+       "Each one shows a different time relationship."
+      ],
+      "visual": [
+       "time-words"
+      ],
+      "chips": [
+       "after / before",
+       "when = at that time",
+       "while / as = during that time",
+       "since = from then until now",
+       "until / till = to that time, then stop",
+       "as soon as / once = right after",
+       "whenever / every time",
+       "the first / last / next time"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Future? Use the present",
+      "lines": [
+       "No will in the time clause."
+      ],
+      "visual": [
+       "time-clause"
+      ],
+      "chips": [
+       "After she graduates, she will get a job.",
+       "As soon as it stops raining, we will leave.",
+       "The next time I go to New York, I'm going to see a ballet."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "The next time Paul ___ to New York, he will visit the museum.",
+      "options": [
+       "will fly",
+       "flies"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Time clause about the future → simple present."
+     },
+     {
+      "type": "learn",
+      "title": "by the time, since",
+      "lines": [
+       "by the time → perfect in the main clause. since → present perfect in the main clause."
+      ],
+      "chips": [
+       "By the time he arrived, we had already left.",
+       "By the time he comes, we will have already left.",
+       "I haven't seen him since he left this morning.",
+       "I've known her ever since I was a child."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "By the time you get home, I ___ dinner for you.",
+      "options": [
+       "made",
+       "will have made"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "by the time + present → future perfect."
+     },
+     {
+      "type": "choice",
+      "text": "___ Josh died, his family was very sad.",
+      "options": [
+       "Whenever",
+       "When"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It happened once → when, not whenever."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Time clause about the future: simple present (no will).",
+     "by the time → had done / will have done. since → have done."
+    ],
+    "timeline": [
+     "time-clause"
+    ],
+    "examples": [
+     {
+      "text": "After she graduates, she will get a job.",
+      "hl": [
+       [
+        "graduates",
+        "prog"
+       ],
+       [
+        "will get",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "By the time he arrived, we had already left.",
+      "hl": [
+       [
+        "had already left",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "I've known her ever since I was a child.",
+      "hl": [
+       [
+        "ever since",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Oscar's English; don't worry",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Oscar can't catch the meaning. People speak English too fast. (when)",
+       "options": [
+        "Oscar can't catch the meaning, when people speak English too fast.",
+        "Oscar can't catch the meaning when people speak English too fast."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause second → no comma.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The teacher speaks too fast. Oscar is going to ask her to slow down. (the next time)",
+       "options": [
+        "The next time the teacher speaks too fast, Oscar is going to ask her to slow down.",
+        "The next time the teacher will speak too fast, Oscar is going to ask her to slow down."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No will in a time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Oscar is listening to English. He tries not to translate. (while)",
+       "options": [
+        "While Oscar is listening to English he tries, not to translate from his language.",
+        "While Oscar is listening to English, he tries not to translate from his language."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first → comma after it.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "His teacher encourages students to figure out the meaning. They check their dictionaries. (before)",
+       "options": [
+        "His teacher encourages students to figure out the meaning before they check their dictionaries.",
+        "Before his teacher encourages students to figure out the meaning, they check their dictionaries."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First figure it out, then check.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Oscar began studying English. He has wanted to speak fluently. (ever since)",
+       "options": [
+        "Ever since Oscar has wanted to speak fluently, he began studying English.",
+        "Ever since Oscar began studying English, he has wanted to speak fluently."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ever since + past, main clause present perfect.",
+       "ask": "Combine"
+      },
+      {
+       "type": "fill",
+       "text": "I will call you before I ___ over.",
+       "verb": "come",
+       "accept": [
+        "come"
+       ],
+       "why": "Future time clause → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "I will go to bed after I ___ my homework.",
+       "verb": "finish",
+       "accept": [
+        "finish",
+        "have finished"
+       ],
+       "why": "Future time clause → present."
+      },
+      {
+       "type": "fill",
+       "text": "I did my chores before I ___ to my friend's house.",
+       "verb": "go",
+       "accept": [
+        "went"
+       ],
+       "why": "Past → went."
+      },
+      {
+       "type": "fill",
+       "text": "By the time you get home, I ___ dinner for you.",
+       "verb": "make",
+       "accept": [
+        "will have made"
+       ],
+       "why": "by the time + present → future perfect."
+      }
+     ]
+    },
+    {
+     "title": "Dogs, spiders, passwords; Marco and Anya",
+     "icon": "🕷️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Ever since I was a child, I ___ afraid of dogs.",
+       "verb": "be",
+       "accept": [
+        "have been"
+       ],
+       "why": "ever since → present perfect."
+      },
+      {
+       "type": "fill",
+       "text": "One time a small dog bit me when I ___ it.",
+       "verb": "pet",
+       "accept": [
+        "petted",
+        "was petting"
+       ],
+       "why": "Past → petted."
+      },
+      {
+       "type": "fill",
+       "text": "Whenever I ___ spiders, I scream.",
+       "verb": "see",
+       "accept": [
+        "see"
+       ],
+       "why": "A habit → simple present."
+      },
+      {
+       "type": "fill",
+       "text": "A spider fell out of my shoe as I ___ it on this morning.",
+       "verb": "put",
+       "accept": [
+        "was putting"
+       ],
+       "why": "as = during that time → past progressive."
+      },
+      {
+       "type": "fill",
+       "text": "By the time I stopped screaming, the spider ___.",
+       "verb": "disappear",
+       "accept": [
+        "had disappeared"
+       ],
+       "why": "by the time + past → past perfect."
+      },
+      {
+       "type": "fill",
+       "text": "The last time I ___ overseas, I lost my passport.",
+       "verb": "travel",
+       "accept": [
+        "traveled",
+        "travelled"
+       ],
+       "why": "the last time → past."
+      },
+      {
+       "type": "fill",
+       "text": "The next time I ___, I'm going to bring a photocopy of it.",
+       "verb": "travel",
+       "accept": [
+        "travel"
+       ],
+       "why": "Future time clause → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "The first time Marco was asked, “How's it going?” ___",
+       "options": [
+        "he thought the person was asking about leaving.",
+        "he will think the person asks about leaving."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The first time (past) → past.",
+       "ctx": "Marco and Anya have had some funny misunderstandings in their new country."
+      },
+      {
+       "type": "choice",
+       "text": "At first, every time someone asked Anya how she was, ___",
+       "options": [
+        "she has given a long answer.",
+        "she gave a long answer."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "every time + past → past."
+      },
+      {
+       "type": "choice",
+       "text": "The next time Marco wants to get the server's attention, ___",
+       "options": [
+        "he won't snap his fingers.",
+        "he didn't snap his fingers."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the next time + present → future."
+      }
+     ]
+    },
+    {
+     "title": "On a flight (1)",
+     "icon": "🛫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The baggage will be loaded soon. The plane will take off. (as soon as)",
+       "options": [
+        "As soon as the baggage will be loaded, the plane will take off.",
+        "As soon as the baggage is loaded, the plane will take off."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No will in a time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The passengers got on the plane. The flight attendant closed the door. (after)",
+       "options": [
+        "After the passengers got on the plane, the flight attendant closed the door.",
+        "After the flight attendant closed the door, the passengers got on the plane."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First they got on, then the door closed.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The passengers got on the plane. The flight attendant closed the door. (before)",
+       "options": [
+        "Before the passengers got on the plane, the flight attendant closed the door.",
+        "The passengers got on the plane before the flight attendant closed the door."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Getting on came first.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "Malea feels nervous. She flies. (whenever)",
+       "options": [
+        "Malea feels nervous whenever she flies.",
+        "Malea flies whenever she feels nervous."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whenever she flies = every time she flies.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "The plane was climbing. We hit turbulence. (while)",
+       "options": [
+        "While we hit turbulence, the plane was climbing.",
+        "While the plane was climbing, we hit turbulence."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "while + the longer action.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I was falling asleep. The pilot made an announcement. (just as)",
+       "options": [
+        "Just as I was falling asleep, the pilot made an announcement.",
+        "Just as the pilot was falling asleep, I made an announcement."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "just as = at that same moment.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I fell asleep. He finished. (as soon as)",
+       "options": [
+        "I fell asleep, as soon as he will finish.",
+        "I fell asleep as soon as he finished."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Past + past, no comma.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I stood up to walk to the restroom. The flight attendant told us to fasten our seat belts. (just after)",
+       "options": [
+        "Just after I stood up to walk to the restroom, the flight attendant told us to fasten our seat belts.",
+        "Just after the flight attendant told us to fasten our seat belts, I will stand up."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "just after = immediately after.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "On a flight (2)",
+     "icon": "🛬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We had to stay in our seats. The pilot turned off the seat belt sign. (until)",
+       "options": [
+        "Until we had to stay in our seats, the pilot turned off the seat belt sign.",
+        "We had to stay in our seats until the pilot turned off the seat belt sign."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "until = to that time, then no longer.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We had lunch. The person next to me has been talking non-stop. (since)",
+       "options": [
+        "Since we had lunch, the person next to me has been talking non-stop.",
+        "Since we have had lunch, the person next to me talked non-stop."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "since + past, main clause present perfect.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I fly. I will bring earplugs. (the next time)",
+       "options": [
+        "The next time I will fly, I will bring earplugs.",
+        "The next time I fly, I will bring earplugs."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No will in a time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I will text you. We land. (as soon as)",
+       "options": [
+        "I will text you as soon as we land.",
+        "I will text you as soon as we will land."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No will in a time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I get my bags. I will meet you in the passenger-loading zone. (just as soon as)",
+       "options": [
+        "Just as soon as I got my bags, I will meet you in the passenger-loading zone.",
+        "Just as soon as I get my bags, I will meet you in the passenger-loading zone."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Future → present in the time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I flew this airline. My bags were lost. (the first time)",
+       "options": [
+        "The first time I flew this airline, my bags were lost.",
+        "The first time I fly this airline, my bags were lost."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Past + past.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I will be happy to stretch my legs. We get off the plane. (once)",
+       "options": [
+        "I will be happy to stretch my legs once we will get off the plane.",
+        "I will be happy to stretch my legs once we get off the plane."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No will in a time clause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We land. We will have been on the plane for ten hours. (by the time)",
+       "options": [
+        "By the time we land, we will have been on the plane for ten hours.",
+        "By the time we will land, we were on the plane for ten hours."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "by the time + present → future perfect.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "Best completion",
+     "icon": "🐎",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Before Jennifer won the lottery, she ___ any kind of contest.",
+       "options": [
+        "hasn't entered",
+        "doesn't enter",
+        "wasn't entering",
+        "hadn't entered"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Before a past event → past perfect."
+      },
+      {
+       "type": "choice",
+       "text": "Every time Prakash sees a movie made in India, he ___ homesick.",
+       "options": [
+        "will have felt",
+        "felt",
+        "feels",
+        "is feeling"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A habit → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "Since I left Venezuela six years ago, I ___ to visit friends and family several times.",
+       "options": [
+        "return",
+        "will have returned",
+        "am returning",
+        "have returned"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "since → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "While he was washing his new car, Lawrence ___ some scratches on his front bumper.",
+       "options": [
+        "has discovered",
+        "was discovering",
+        "is discovering",
+        "discovered"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "A short action during a long one → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "Yesterday while I was attending a sales meeting, Matthew ___ on the company's annual report.",
+       "options": [
+        "was working",
+        "had been working",
+        "has worked",
+        "works"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two actions in progress → past progressive."
+      },
+      {
+       "type": "choice",
+       "text": "Tony ___ to have children until his little daughter was born.",
+       "options": [
+        "doesn't want",
+        "hadn't wanted",
+        "wasn't wanting",
+        "hasn't wanted"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a past event → past perfect."
+      },
+      {
+       "type": "choice",
+       "text": "“I ___ on another horse as long as I live.”",
+       "options": [
+        "never ride",
+        "have never ridden",
+        "will never ride",
+        "do not ride"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A promise about the future → will."
+      },
+      {
+       "type": "choice",
+       "text": "The next time Paul ___ to New York, he will visit the Metropolitan Museum of Art.",
+       "options": [
+        "will fly",
+        "flies",
+        "has flown",
+        "will have flown"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Future time clause → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "Ever since Maurice arrived, he ___ quietly in the corner. Is something wrong?",
+       "options": [
+        "sat",
+        "has been sitting",
+        "had been sitting",
+        "will have sat"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "ever since … until now → present perfect progressive."
+      },
+      {
+       "type": "choice",
+       "text": "After Nela ___ for 20 minutes, she began to feel tired.",
+       "options": [
+        "jogging",
+        "had been jogging",
+        "has been jogging",
+        "has jogged"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Before a past event → past perfect progressive."
+      }
+     ]
+    },
+    {
+     "title": "Judy's bad afternoon",
+     "icon": "🚓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Peter, ___ since you got home from football practice?",
+       "options": [
+        "have you eaten",
+        "will you eat",
+        "are you eating",
+        "do you eat"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "since → present perfect."
+      },
+      {
+       "type": "choice",
+       "text": "The last time I ___ in Athens, the weather was hot and humid.",
+       "options": [
+        "had been",
+        "was",
+        "am",
+        "will have been"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the last time → simple past."
+      },
+      {
+       "type": "choice",
+       "text": "By the time the young birds ___ the nest for good, they will have learned how to fly.",
+       "options": [
+        "will leave",
+        "will have left",
+        "are leaving",
+        "leave"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Future time clause → simple present."
+      },
+      {
+       "type": "choice",
+       "text": "Just after ___",
+       "options": [
+        "a thief broke into her car, Judy parked it.",
+        "Judy parked her car, a thief broke into it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "4:00 parked → 4:03 thief.",
+       "ctx": "4:00 Judy parked at the mall. 4:03 A thief broke into her car. 4:30 Judy returned. 4:31 She called the police. 4:35 The police arrived. 4:35 Judy began crying."
+      },
+      {
+       "type": "choice",
+       "text": "Just as ___",
+       "options": [
+        "the police arrived, Judy began crying.",
+        "Judy parked her car, the police arrived."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Both at 4:35 → just as.",
+       "ctx": "4:31 She called the police. 4:35 The police arrived. 4:35 Judy began crying."
+      },
+      {
+       "type": "choice",
+       "text": "While ___",
+       "options": [
+        "Judy called the police, a thief was breaking into her car.",
+        "Judy was buying jeans, a thief broke into her car."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The thief came during her shopping.",
+       "ctx": "4:00 Judy went to buy jeans. 4:03 A thief broke into her car. 4:30 Judy returned."
+      },
+      {
+       "type": "choice",
+       "text": "By the time ___",
+       "options": [
+        "Judy returned to her car, a thief had stolen her radio.",
+        "Judy returned to her car, a thief stole her radio at 4:30."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It was finished before she returned → past perfect.",
+       "ctx": "4:03 A thief stole her radio. 4:30 Judy returned."
+      },
+      {
+       "type": "choice",
+       "text": "As soon as ___",
+       "options": [
+        "Judy called the police, she returned to her car.",
+        "Judy returned to her car, she called the police."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "4:30 returned → 4:31 called.",
+       "ctx": "4:30 Judy returned. 4:31 She called the police."
+      },
+      {
+       "type": "judge",
+       "text": "Whenever Josh died, his family was very sad.",
+       "answer": "wrong",
+       "why": "It happened once → When.",
+       "fix": "When Josh died, his family was very sad."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "About me",
+     "task": "Finish Claude's sentences: “As soon as I get up tomorrow, …”, “Ever since I was a child, …”",
+     "claudePrompt": "You are my English speaking partner. Give me one sentence beginning at a time and I finish it: After I leave class today, ... / Before I go to bed tonight, ... / As soon as I get up tomorrow, ... / Whenever I feel nervous, ... / The first time I spoke English with a stranger, ... / Ever since I was a child, ... / As long as I live, ... / Just as I was falling asleep last night, .... Check my verb tenses: present (not will) in future time clauses, present perfect after ever since, past after the first time."
+    },
+    {
+     "title": "A cultural misunderstanding",
+     "task": "Tell Claude about a time when language or culture caused a funny misunderstanding.",
+     "claudePrompt": "You are my English writing partner. Ask me to write a short paragraph (5-6 sentences) about a cultural or language misunderstanding I have had or seen. I should use time clauses (the first time, when, until, since, whenever). Then check: commas after adverb clauses that come first, correct tenses in time clauses, and no adverb clause standing alone as a sentence."
+    }
+   ]
+  },
+  {
+   "id": "17-3",
+   "tag": "17-3",
+   "t": "pres",
+   "title": "Because, now that, since",
+   "full": "Using Adverb Clauses to Show Cause and Effect",
+   "lesson": {
+    "title": "Learn: three ways to say “because”",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "because + the cause",
+      "lines": [
+       "The other clause is the effect."
+      ],
+      "visual": [
+       "cause"
+      ],
+      "chips": [
+       "Because he was sleepy, he went to bed.",
+       "He went to bed because he was sleepy.",
+       "❌ Because he went to bed, he was sleepy."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is logical?",
+      "options": [
+       "Because Rosa inherited a large amount of money, she was an only child.",
+       "Because Rosa was an only child, she inherited a large amount of money."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Only child = the cause. Money = the effect."
+     },
+     {
+      "type": "learn",
+      "title": "now that = because now",
+      "lines": [
+       "Use present, present perfect, or future. Not simple past."
+      ],
+      "chips": [
+       "Now that I've finished the semester, I'm going to rest a few days.",
+       "Now that he's unemployed, he can't pay his bills."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Now that I ___, I need to look for a job.",
+      "options": [
+       "graduated",
+       "have graduated"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "now that + present perfect."
+     },
+     {
+      "type": "learn",
+      "title": "since = because (a known fact)",
+      "lines": [
+       "since can also mean time. Check the meaning."
+      ],
+      "chips": [
+       "Since Monday is a holiday, we don't have to go to work. (because)",
+       "Since I came here, I have met many people. (time)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“Since I was young, I have been artistic.” Here, since means…",
+      "options": [
+       "because",
+       "from that time until now"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "since + past, have been → time."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "because / since / now that + cause, + effect.",
+     "now that = because now (present time). since can also mean time."
+    ],
+    "timeline": [
+     "cause"
+    ],
+    "examples": [
+     {
+      "text": "Because he was sleepy, he went to bed.",
+      "hl": [
+       [
+        "Because",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Now that I've finished the semester, I'm going to rest.",
+      "hl": [
+       [
+        "Now that",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Since Monday is a holiday, we don't have to go to work.",
+      "hl": [
+       [
+        "Since",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which since?",
+     "icon": "🎨",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Now that I've finished art school, I can focus on finding work as an illustrator.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 0,
+       "why": "now that = because now."
+      },
+      {
+       "type": "sort",
+       "word": "Since I was young, I have been artistic.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 1,
+       "why": "From childhood until now."
+      },
+      {
+       "type": "sort",
+       "word": "Since I've had formal training, maybe I can illustrate books.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 0,
+       "why": "Given that fact → because."
+      },
+      {
+       "type": "sort",
+       "word": "Since Monday is a holiday, we don't have to go to work.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 0,
+       "why": "A known fact → because."
+      },
+      {
+       "type": "sort",
+       "word": "Since I came here, I have met many people.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 1,
+       "why": "From that time until now."
+      },
+      {
+       "type": "sort",
+       "word": "Since you're a good cook and I'm not, you should cook the dinner.",
+       "buckets": [
+        "because",
+        "time (from then until now)"
+       ],
+       "answer": 0,
+       "why": "A known fact → because."
+      },
+      {
+       "type": "judge",
+       "text": "Because Rosa inherited a large amount of money from her parents, she was an only child.",
+       "answer": "wrong",
+       "why": "The cause and effect are reversed.",
+       "fix": "Because Rosa was an only child, she inherited a large amount of money from her parents."
+      },
+      {
+       "type": "judge",
+       "text": "Now that I graduated, I need to look for a job.",
+       "answer": "wrong",
+       "why": "now that + present perfect.",
+       "fix": "Now that I have graduated, I need to look for a job."
+      }
+     ]
+    },
+    {
+     "title": "Travel",
+     "icon": "🧳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We have a lot of frequent-flier miles. We can visit several countries. (now that)",
+       "options": [
+        "Now that we have a lot of frequent-flier miles, we can visit several countries.",
+        "Now that we can visit several countries, we have a lot of frequent-flier miles."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Miles = cause. Visiting = effect.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We can compare hotel prices. They are posted online. (since)",
+       "options": [
+        "Since we can compare hotel prices, they are posted online.",
+        "Since hotel prices are posted online, we can compare them."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Posted online = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We have read the online hotel reviews. We can choose our hotel. (now that)",
+       "options": [
+        "Now that we have read the online hotel reviews, we can choose our hotel.",
+        "Now that we can choose our hotel, we have read the online hotel reviews."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Reading the reviews = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "There is little chance we will get lost. We have GPS on our phones. (because)",
+       "options": [
+        "We have GPS on our phones because there is little chance we will get lost.",
+        "There is little chance we will get lost because we have GPS on our phones."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "GPS = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "People post online reviews instantly. Customer service has improved. (since)",
+       "options": [
+        "Since people post online reviews instantly, customer service has improved.",
+        "Since customer service has improved, people post online reviews instantly."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Instant reviews = the cause.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "We won't get so homesick. We can video chat with our families. (because)",
+       "options": [
+        "We can video chat with our families because we won't get so homesick.",
+        "We won't get so homesick because we can video chat with our families."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Video chat = the cause.",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "My grandmother",
+     "icon": "👵",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Because my grandfather has died, my mom would like my grandmother to move in with us.",
+       "buckets": [
+        "now that is OK",
+        "now that is NOT OK"
+       ],
+       "answer": 0,
+       "why": "Present perfect: true now."
+      },
+      {
+       "type": "sort",
+       "word": "Because my grandmother lives alone, I visit her more often.",
+       "buckets": [
+        "now that is OK",
+        "now that is NOT OK"
+       ],
+       "answer": 0,
+       "why": "Present: true now."
+      },
+      {
+       "type": "sort",
+       "word": "Because my grandmother was a nurse, she took good care of her health.",
+       "buckets": [
+        "now that is OK",
+        "now that is NOT OK"
+       ],
+       "answer": 1,
+       "why": "Simple past → not now that."
+      },
+      {
+       "type": "sort",
+       "word": "Because my grandparents saved for their retirement, she doesn't need to worry about finances.",
+       "buckets": [
+        "now that is OK",
+        "now that is NOT OK"
+       ],
+       "answer": 1,
+       "why": "Simple past → not now that."
+      },
+      {
+       "type": "sort",
+       "word": "Because she is 90, I have asked her a few times if she should continue driving.",
+       "buckets": [
+        "now that is OK",
+        "now that is NOT OK"
+       ],
+       "answer": 0,
+       "why": "Present: true now."
+      },
+      {
+       "type": "choice",
+       "text": "Because my grandmother lives alone, I visit her more often. →",
+       "options": [
+        "Now that my grandmother lives alone, I visit her more often.",
+        "Now that my grandmother lived alone, I visit her more often."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "now that + present.",
+       "ask": "Rewrite"
+      },
+      {
+       "type": "choice",
+       "text": "Because she is 90, I have asked her if she should continue driving. →",
+       "options": [
+        "Now that she was 90, I have asked her if she should continue driving.",
+        "Now that she is 90, I have asked her if she should continue driving."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "now that + present.",
+       "ask": "Rewrite"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-4",
+   "tag": "17-4",
+   "t": "plan",
+   "title": "Even though…",
+   "full": "Expressing Contrast (Unexpected Result): Using Even Though",
+   "lesson": {
+    "title": "Learn: a surprising result",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "because vs. even though",
+      "lines": [
+       "because → the result you expect.",
+       "even though → a surprise."
+      ],
+      "visual": [
+       "even-though"
+      ],
+      "chips": [
+       "Because the weather was cold, I didn't go swimming.",
+       "Even though the weather was cold, I went swimming."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Even though I was very tired, I ___.",
+      "options": [
+       "went to bed early",
+       "stayed up late"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Tired, but stayed up = a surprise."
+     },
+     {
+      "type": "learn",
+      "title": "Same commas as because",
+      "lines": [
+       "Clause first → comma."
+      ],
+      "chips": [
+       "Even though I wasn't tired, I went to bed.",
+       "I went to bed even though I wasn't tired."
+      ],
+      "tip": "although and though mean the same."
+     },
+     {
+      "type": "choice",
+      "text": "Tim's in good shape physically ___ he doesn't get much exercise.",
+      "options": [
+       "because",
+       "even though"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No exercise but good shape = a surprise."
+     },
+     {
+      "type": "choice",
+      "text": "Even though the movie is very popular, I ___ the theater will be crowded.",
+      "options": [
+       "think",
+       "don't think"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Popular but not crowded = a surprise."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "because + cause → expected result.",
+     "even though + fact → unexpected result."
+    ],
+    "timeline": [
+     "even-though"
+    ],
+    "examples": [
+     {
+      "text": "Because the weather was cold, I didn't go swimming.",
+      "hl": [
+       [
+        "Because",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Even though the weather was cold, I went swimming.",
+      "hl": [
+       [
+        "Even though",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Expected or not?",
+     "icon": "🕶️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Because it was a dark, cloudy day, ___.",
+       "options": [
+        "I didn't put on my sunglasses",
+        "I put on my sunglasses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Cloudy → no sunglasses (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "Even though it was a dark, cloudy day, ___.",
+       "options": [
+        "I put on my sunglasses",
+        "I didn't put on my sunglasses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Cloudy but sunglasses = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Even though Mira was cold, ___.",
+       "options": [
+        "she wore a heavy coat outside",
+        "she wore a light sweater outside"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cold but a light sweater = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Because Mira enjoys the outdoors, ___.",
+       "options": [
+        "she goes for walks rain or shine",
+        "she doesn't go for walks in bad weather"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Loves outdoors → walks in any weather."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence expresses an unexpected result?",
+       "options": [
+        "Because I was very tired, I went to bed early.",
+        "Even though I was very tired, I stayed up late."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Tired but stayed up."
+      },
+      {
+       "type": "judge",
+       "text": "Even though the movie is very popular, I don't think the theater will be crowded.",
+       "answer": "correct",
+       "why": "Popular but not crowded = unexpected."
+      },
+      {
+       "type": "judge",
+       "text": "Even though I studied hard, I passed the test.",
+       "answer": "wrong",
+       "why": "Studying → passing is expected: use because.",
+       "fix": "Because I studied hard, I passed the test."
+      }
+     ]
+    },
+    {
+     "title": "even though or because?",
+     "icon": "🌊",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Barry's in good shape physically ___ he gets a lot of exercise.",
+       "options": [
+        "because",
+        "even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Exercise → good shape (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "___ Yoko has a job, she is able to pay her rent and feed her family.",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A job → she can pay (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "___ Melissa has a job, she doesn't make enough money to support her four children.",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A job but not enough money = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Joe speaks Spanish well ___ he lived in Mexico for a year.",
+       "options": [
+        "because",
+        "even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Lived there → speaks well (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "Sherry didn't learn Spanish ___ she lived in Mexico for a year.",
+       "options": [
+        "because",
+        "even though"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Lived there but didn't learn = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "Jin jumped into the river to rescue a little girl ___ he wasn't a good swimmer.",
+       "options": [
+        "because",
+        "even though"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not a good swimmer but jumped = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "___ she was rescued right away, the girl survived.",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Rescued → survived (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "___ the flood washed away the bridge, the campers were able to cross the river…",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No bridge but they crossed = a surprise."
+      },
+      {
+       "type": "choice",
+       "text": "…the campers were able to cross the river ___ they had a boat.",
+       "options": [
+        "because",
+        "even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A boat → they could cross (expected)."
+      },
+      {
+       "type": "choice",
+       "text": "___ the bridge was out of service for several months, people had to find alternate ways to get across.",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No bridge → other ways (expected)."
+      }
+     ]
+    },
+    {
+     "title": "Small talk",
+     "icon": "💬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It was raining. Did you go to the zoo anyway?",
+       "options": [
+        "Yes. Even though it was raining, I went to the zoo.",
+        "No. Even though it was raining, I didn't go to the zoo."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Rain but went = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "You studied hard. Did you pass the test?",
+       "options": [
+        "Yes. Even though I studied hard, I passed the test.",
+        "No. Even though I studied hard, I didn't pass the test."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Studied but failed = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "You stayed up all night. Did you go to work?",
+       "options": [
+        "Yes. Even though I stayed up all night, I went to work.",
+        "No. Even though I stayed up all night, I didn't go to work."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No sleep but worked = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "The food was terrible. Did you eat it anyway?",
+       "options": [
+        "No. Even though the food was terrible, I didn't eat it.",
+        "Yes. Even though the food was terrible, I ate it."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Terrible but ate it = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "You didn't study. Did you pass the test anyway?",
+       "options": [
+        "Yes. Even though I didn't study, I passed the test.",
+        "No. Even though I didn't study, I didn't pass the test."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No study but passed = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "You fell down the stairs. Did you get hurt?",
+       "options": [
+        "Yes. Even though I fell down the stairs, I got hurt.",
+        "No. Even though I fell down the stairs, I didn't get hurt."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Fell but not hurt = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "You bought a brand-new air conditioner. Does it work?",
+       "options": [
+        "No. Even though I bought a brand-new air conditioner, it doesn't work.",
+        "Yes. Even though I bought a brand-new air conditioner, it works."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "New but broken = the surprise.",
+       "ask": "Answer with even though"
+      },
+      {
+       "type": "choice",
+       "text": "Your grandfather is 100 years old. Is he still young at heart?",
+       "options": [
+        "No. Even though my grandfather is 100 years old, he isn't young at heart.",
+        "Yes. Even though my grandfather is 100 years old, he is still young at heart."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "100 but young at heart = the surprise.",
+       "ask": "Answer with even though"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Yes, even though…",
+     "task": "Claude asks: “The weather is terrible. Did you stay home?” Answer with “Even though…”",
+     "claudePrompt": "You are my English speaking partner. Ask me one short question at a time like these: The weather is terrible today. Did you stay home? / You changed your password. Did your account still get hacked? / You didn't understand the joke. Did you laugh anyway? / You rehearsed your speech several times. Were you nervous? / You told the truth, but did anyone believe you? I answer with Yes/No + Even though ... (an unexpected result). Check that my result really is unexpected, and check the comma after the even though clause."
+    }
+   ]
+  },
+  {
+   "id": "17-5",
+   "tag": "17-5",
+   "t": "plan",
+   "title": "While John is poor…",
+   "full": "Showing Direct Contrast: While",
+   "lesson": {
+    "title": "Learn: while = the exact opposite",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "while for opposites",
+      "lines": [
+       "“This” is the opposite of “that.”"
+      ],
+      "visual": [
+       "while-contrast"
+      ],
+      "chips": [
+       "Mary is rich, while John is poor.",
+       "While Mary is rich, John is poor.",
+       "While John is poor, Mary is rich."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Comma, even in the middle",
+      "lines": [
+       "With contrast-while, a comma is common before it."
+      ],
+      "chips": [
+       "Mary is rich, while John is poor."
+      ],
+      "tip": "whereas means the same but is formal."
+     },
+     {
+      "type": "choice",
+      "text": "Some people are tall, while others are ___.",
+      "options": [
+       "intelligent",
+       "thin",
+       "short",
+       "large"
+      ],
+      "answer": [
+       2
+      ],
+      "why": "The opposite of tall → short."
+     },
+     {
+      "type": "compare",
+      "title": "Two kinds of while",
+      "left": {
+       "label": "Contrast: the opposite",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "I am a vegetarian, while my husband is a meat-eater.",
+         "hl": [
+          [
+           "while",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Time: during that time",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The phone rang while I was studying.",
+         "hl": [
+          [
+           "while",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "type": "choice",
+      "text": "While some people enjoy being online a lot, others ___.",
+      "options": [
+       "do",
+       "don't"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The opposite of enjoy → don't."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A, while B. = While A, B. (A and B are opposites.)",
+     "while can also mean “during that time.”"
+    ],
+    "timeline": [
+     "while-contrast"
+    ],
+    "examples": [
+     {
+      "text": "Mary is rich, while John is poor.",
+      "hl": [
+       [
+        "while",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "While Mary is rich, John is poor.",
+      "hl": [
+       [
+        "While",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The phone rang while I was studying.",
+      "hl": [
+       [
+        "while",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Contrast or time?",
+     "icon": "🥦",
+     "items": [
+      {
+       "type": "sort",
+       "word": "I am a vegetarian, while my husband is a meat-eater.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 0,
+       "why": "Vegetarian ↔ meat-eater."
+      },
+      {
+       "type": "sort",
+       "word": "While I was buying vegetables, I remembered that we had leftovers in the fridge.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 1,
+       "why": "During the shopping."
+      },
+      {
+       "type": "sort",
+       "word": "While many vegetarians eat eggs, I don't because they come from chickens.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 0,
+       "why": "They do ↔ I don't."
+      },
+      {
+       "type": "sort",
+       "word": "The phone rang while I was studying.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 1,
+       "why": "During the studying."
+      },
+      {
+       "type": "sort",
+       "word": "Mary is rich, while John is poor.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 0,
+       "why": "rich ↔ poor."
+      },
+      {
+       "type": "sort",
+       "word": "While I was walking home, it began to rain.",
+       "buckets": [
+        "Contrast (opposite)",
+        "Time (during)"
+       ],
+       "answer": 1,
+       "why": "During the walk."
+      },
+      {
+       "type": "judge",
+       "text": "While some people enjoy being online a lot, others do.",
+       "answer": "wrong",
+       "why": "Contrast needs the opposite: don't.",
+       "fix": "While some people enjoy being online a lot, others don't."
+      }
+     ]
+    },
+    {
+     "title": "Best completion",
+     "icon": "☕",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A box is square, while ___.",
+       "options": [
+        "a rectangle has four sides",
+        "my village has a town square in the center",
+        "we use envelopes for letters",
+        "a circle is round"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "square ↔ round."
+      },
+      {
+       "type": "choice",
+       "text": "While some parts of the world get an abundance of rain, others ___.",
+       "options": [
+        "are warm and humid",
+        "are cold and wet",
+        "get little or none",
+        "get a lot"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "a lot of rain ↔ little or none."
+      },
+      {
+       "type": "choice",
+       "text": "In some nations the favorite beverage is coffee, while ___.",
+       "options": [
+        "I like tea",
+        "it has caffeine",
+        "in others it is tea",
+        "they drink tea"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "in some nations ↔ in others."
+      },
+      {
+       "type": "choice",
+       "text": "Some people like cream and sugar in their coffee, while ___.",
+       "options": [
+        "others like it black",
+        "others drink hot coffee",
+        "milk is good in coffee too",
+        "sugar can cause cavities"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "cream and sugar ↔ black."
+      },
+      {
+       "type": "choice",
+       "text": "Steve is an interesting storyteller and conversationalist, while his brother ___.",
+       "options": [
+        "is a newspaper reporter",
+        "bores other people by talking about himself all the time",
+        "has four children",
+        "knows a lot of stories too"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "interesting ↔ boring."
+      },
+      {
+       "type": "choice",
+       "text": "Some people are tall, while others are ___.",
+       "options": [
+        "intelligent",
+        "thin",
+        "short",
+        "large"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "tall ↔ short."
+      }
+     ]
+    },
+    {
+     "title": "Compare them",
+     "icon": "🐊",
+     "items": [
+      {
+       "type": "choice",
+       "text": "alligators / crocodiles",
+       "options": [
+        "A crocodile has a V-shaped snout, while an alligator has a rounded snout.",
+        "A crocodile has a V-shaped snout, while an alligator can swim."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "V-shaped ↔ rounded: a real contrast."
+      },
+      {
+       "type": "choice",
+       "text": "an island / a peninsula",
+       "options": [
+        "An island is surrounded by water, while a peninsula is also beautiful.",
+        "An island is surrounded by water, while a peninsula is connected to land on one side."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "surrounded ↔ connected."
+      },
+      {
+       "type": "choice",
+       "text": "tap water / filtered water",
+       "options": [
+        "Tap water comes straight from the pipe, while filtered water has been cleaned again.",
+        "Tap water comes straight from the pipe, while I am thirsty."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two kinds of water, contrasted."
+      },
+      {
+       "type": "choice",
+       "text": "a passport / a visa",
+       "options": [
+        "A passport shows your citizenship, while a visa is a document.",
+        "A passport shows your citizenship, while a visa gives permission to enter a country."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "citizenship ↔ permission to enter."
+      },
+      {
+       "type": "choice",
+       "text": "the word affect / the word effect",
+       "options": [
+        "Affect is usually a verb, while effect is usually a noun.",
+        "Affect is usually a verb, while effect has six letters."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "verb ↔ noun."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct punctuation.",
+       "options": [
+        "Mary is rich while, John is poor.",
+        "Mary is rich, while John is poor."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The comma goes before while."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What's the difference?",
+     "task": "Explain two things to Claude with while: “A college…, while a university…”",
+     "claudePrompt": "You are my English speaking partner. Give me one pair at a time and ask me to contrast them with while: a college / a university, an island / a peninsula, an immigrant / a refugee, a passport / a visa, cats / dogs, my country / another country I know, city life / village life. Check that my two ideas are real opposites and that I use a comma (X is ..., while Y is ...)."
+    }
+   ]
+  },
+  {
+   "id": "17-6",
+   "tag": "17-6",
+   "t": "prog",
+   "title": "If it rains…",
+   "full": "Expressing Conditions in Adverb Clauses: If-Clauses",
+   "lesson": {
+    "title": "Learn: if + present, will",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "if = a possible condition",
+      "lines": [
+       "The main clause gives the result."
+      ],
+      "visual": [
+       "if-clause"
+      ],
+      "examples": [
+       {
+        "text": "If it rains tomorrow, I will take my umbrella.",
+        "hl": [
+         [
+          "rains",
+          "prog"
+         ],
+         [
+          "will take",
+          "fut"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "No will after if",
+      "lines": [
+       "Use the present, even for the future."
+      ],
+      "chips": [
+       "✅ If I need help, I will ask you.",
+       "❌ If I will need help, I will ask you."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If anyone ___ me, I'll be in my office.",
+      "options": [
+       "will need",
+       "needs"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "if + simple present."
+     },
+     {
+      "type": "learn",
+      "title": "The condition family",
+      "lines": [
+       "All of these start a condition clause."
+      ],
+      "chips": [
+       "if",
+       "whether or not",
+       "even if",
+       "in case",
+       "unless",
+       "only if"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We can't go on a picnic if it ___ cold tomorrow.",
+      "options": [
+       "is",
+       "will be"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "if + present."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "if + simple present, main clause + will / can / be going to.",
+     "Clause first → comma. Clause second → no comma."
+    ],
+    "timeline": [
+     "if-clause"
+    ],
+    "examples": [
+     {
+      "text": "If it rains tomorrow, I will take my umbrella.",
+      "hl": [
+       [
+        "rains",
+        "prog"
+       ],
+       [
+        "will take",
+        "fut"
+       ]
+      ]
+     },
+     {
+      "text": "I will ask you if I need help.",
+      "hl": [
+       [
+        "need",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "If I need help",
+     "icon": "☔",
+     "items": [
+      {
+       "type": "judge",
+       "text": "If I will need help, I will ask you.",
+       "answer": "wrong",
+       "why": "No will after if.",
+       "fix": "If I need help, I will ask you."
+      },
+      {
+       "type": "judge",
+       "text": "If I need help, I will ask you.",
+       "answer": "correct",
+       "why": "if + present, will."
+      },
+      {
+       "type": "judge",
+       "text": "If I will need help, I ask you.",
+       "answer": "wrong",
+       "why": "The tenses are reversed.",
+       "fix": "If I need help, I will ask you."
+      },
+      {
+       "type": "judge",
+       "text": "If anyone needs me, I'll be in my office.",
+       "answer": "correct",
+       "why": "if + present, will."
+      },
+      {
+       "type": "choice",
+       "text": "It may be cold tomorrow.",
+       "options": [
+        "If it's cold tomorrow, I'm going to stay home.",
+        "If it will be cold tomorrow, I'm going to stay home."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + present.",
+       "ask": "Make a sentence with if"
+      },
+      {
+       "type": "choice",
+       "text": "I may be sick tomorrow.",
+       "options": [
+        "If I'll be sick tomorrow, I don't go to class.",
+        "If I'm sick tomorrow, I won't go to class."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + present, will.",
+       "ask": "Make a sentence with if"
+      },
+      {
+       "type": "choice",
+       "text": "The power may be out for 24 hours.",
+       "options": [
+        "If the power is out for 24 hours, the food in the fridge will spoil.",
+        "If the power will be out for 24 hours, the food in the fridge spoils."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + present, will.",
+       "ask": "Make a sentence with if"
+      },
+      {
+       "type": "choice",
+       "text": "The government might put a 20% tax on snack food.",
+       "options": [
+        "If the government will put a 20% tax on snack food, people buy less.",
+        "If the government puts a 20% tax on snack food, people will buy less."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + present (puts), will.",
+       "ask": "Make a sentence with if"
+      }
+     ]
+    },
+    {
+     "title": "Forms of address",
+     "icon": "🎓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "At the college level, many teachers actually prefer to use first names, because it feels friendlier.",
+       "options": [
+        "…prefer to use first names because it feels friendlier.",
+        "…prefer to use first names. Because it feels friendlier."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clause second → no comma, no period.",
+       "ask": "Fix the punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "While many teachers prefer first names some would rather use titles.",
+       "options": [
+        "While many teachers prefer first names. Some would rather use titles.",
+        "While many teachers prefer first names, some would rather use titles."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Clause first → comma.",
+       "ask": "Fix the punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "Even though many graduate students teach college courses. They are not professors.",
+       "options": [
+        "Even though many graduate students teach college courses, they are not professors.",
+        "Even though many graduate students teach college courses they, are not professors."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An adverb clause can't stand alone.",
+       "ask": "Fix the punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "If you use a title, should it be Dr. or Professor?",
+       "options": [
+        "If you use a title",
+        "should it be Dr. or Professor"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It begins with if.",
+       "ask": "Which part is the adverb clause?"
+      },
+      {
+       "type": "choice",
+       "text": "Professor is more appropriate, as long as the teacher has the following job title.",
+       "options": [
+        "Professor is more appropriate",
+        "as long as the teacher has the following job title"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It begins with as long as.",
+       "ask": "Which part is the adverb clause?"
+      },
+      {
+       "type": "choice",
+       "text": "But most prefer first names, since they are still technically students.",
+       "options": [
+        "because",
+        "from that time"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A known reason → because.",
+       "ask": "Here, since means…"
+      }
+     ]
+    },
+    {
+     "title": "Finish the condition",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "fill",
+       "text": "If it ___ tomorrow, I will take my umbrella.",
+       "verb": "rain",
+       "accept": [
+        "rains"
+       ],
+       "why": "if + simple present."
+      },
+      {
+       "type": "fill",
+       "text": "If I ___ up all night, I will be exhausted tomorrow.",
+       "verb": "stay",
+       "accept": [
+        "stay"
+       ],
+       "why": "if + simple present."
+      },
+      {
+       "type": "fill",
+       "text": "If I wake up tomorrow and speak English fluently, I ___ very surprised.",
+       "verb": "be",
+       "accept": [
+        "will be",
+        "am going to be"
+       ],
+       "why": "Result → will."
+      },
+      {
+       "type": "fill",
+       "text": "We can't go on a picnic if it ___ cold tomorrow.",
+       "verb": "be",
+       "accept": [
+        "is"
+       ],
+       "why": "if + simple present."
+      },
+      {
+       "type": "fill",
+       "text": "If you ___ a title, should it be Dr. or Professor?",
+       "verb": "use",
+       "accept": [
+        "use"
+       ],
+       "why": "if + simple present."
+      },
+      {
+       "type": "fill",
+       "text": "If anyone ___ me, I'll be in my office.",
+       "verb": "need",
+       "accept": [
+        "needs"
+       ],
+       "why": "anyone → needs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-7",
+   "tag": "17-7",
+   "t": "pres",
+   "title": "If so, if not",
+   "full": "Shortened If-Clauses",
+   "lesson": {
+    "title": "Learn: If so / If not / If you do",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Don't repeat the idea",
+      "lines": [
+       "If so = if yes. If not = if no."
+      ],
+      "visual": [
+       "if-so"
+      ],
+      "chips": [
+       "Are you a student? If so, the ticket is half-price.",
+       "If not, the ticket is full price."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Or use the helping verb",
+      "lines": [
+       "Match the verb in the question."
+      ],
+      "chips": [
+       "Are you a student? If you are, … / If you aren't, …",
+       "Do you have a ticket? If you do, … / If you don't, …"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Do you have your cell phone with you? ___, could I use it?",
+      "options": [
+       "If you are",
+       "If you do"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Do you…? → If you do."
+     },
+     {
+      "type": "choice",
+      "text": "Are you coming with us? ___, could you hurry?",
+      "options": [
+       "If so",
+       "If not"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "If so = if you are coming."
+     },
+     {
+      "type": "choice",
+      "text": "Did you use a spell-check? If you ___, it didn't catch all the errors.",
+      "options": [
+       "do",
+       "did"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Did you…? → If you did."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "If so = if the answer is yes. If not = if the answer is no.",
+     "Or: If you are / do / did / can…, If you aren't / don't / can't…"
+    ],
+    "timeline": [
+     "if-so"
+    ],
+    "examples": [
+     {
+      "text": "Are you a student? If so, the ticket is half-price.",
+      "hl": [
+       [
+        "If so",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Do you have a ticket? If you don't, you're out of luck.",
+      "hl": [
+       [
+        "If you don't",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Do you have your phone?",
+     "icon": "📱",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Do you have your cell phone with you? If you do, could I use it?",
+       "answer": "correct",
+       "why": "Do you…? → If you do."
+      },
+      {
+       "type": "judge",
+       "text": "Do you have your cell phone with you? If so, could I use it?",
+       "answer": "correct",
+       "why": "If so = if you have it."
+      },
+      {
+       "type": "judge",
+       "text": "Do you have your cell phone with you? If not, I can use someone else's.",
+       "answer": "correct",
+       "why": "If not = if you don't have it."
+      },
+      {
+       "type": "judge",
+       "text": "Do you have your cell phone with you? If you don't, I can use someone else's.",
+       "answer": "correct",
+       "why": "Do you…? → If you don't."
+      },
+      {
+       "type": "judge",
+       "text": "Do you have your cell phone with you? If you are, could I use it?",
+       "answer": "wrong",
+       "why": "Do you…? needs do, not are.",
+       "fix": "Do you have your cell phone with you? If you do, could I use it?"
+      },
+      {
+       "type": "judge",
+       "text": "Are you coming with us? If so, could you hurry?",
+       "answer": "correct",
+       "why": "If so = if you are coming."
+      }
+     ]
+    },
+    {
+     "title": "so, not, or a verb",
+     "icon": "🍚",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Are you free this weekend? If ___, do you want to go to a movie?",
+       "verb": "so / not",
+       "accept": [
+        "so"
+       ],
+       "why": "If so = if you are free."
+      },
+      {
+       "type": "fill",
+       "text": "Are you free this weekend? If you ___, do you want to go to a movie?",
+       "verb": "verb",
+       "accept": [
+        "are"
+       ],
+       "why": "Are you…? → If you are."
+      },
+      {
+       "type": "fill",
+       "text": "Do you have a ride to the theater? If ___, would you like to ride with us?",
+       "verb": "so / not",
+       "accept": [
+        "not"
+       ],
+       "why": "If not = if you don't have a ride."
+      },
+      {
+       "type": "fill",
+       "text": "Do you have a ride to the theater? If you ___, would you like to ride with us?",
+       "verb": "verb",
+       "accept": [
+        "do not",
+        "don't"
+       ],
+       "why": "Do you…? → If you don't."
+      },
+      {
+       "type": "fill",
+       "text": "Are you coming to the meeting? If ___, I'll see you there.",
+       "verb": "so / not",
+       "accept": [
+        "so"
+       ],
+       "why": "If so = if you are coming."
+      },
+      {
+       "type": "fill",
+       "text": "Are you coming to the meeting? If you ___, I'll see you there.",
+       "verb": "verb",
+       "accept": [
+        "are"
+       ],
+       "why": "Are you…? → If you are."
+      },
+      {
+       "type": "fill",
+       "text": "Did you use a spell-check on your email to me? If ___, it didn't catch all the spelling errors.",
+       "verb": "so / not",
+       "accept": [
+        "so"
+       ],
+       "why": "If so = if you used it."
+      },
+      {
+       "type": "fill",
+       "text": "Did you use a spell-check on your email to me? If you ___, it didn't catch all the spelling errors.",
+       "verb": "verb",
+       "accept": [
+        "did"
+       ],
+       "why": "Did you…? → If you did."
+      },
+      {
+       "type": "fill",
+       "text": "We need some rice. Can you stop at the store on your way home today? If ___, I'll do it.",
+       "verb": "so / not",
+       "accept": [
+        "not"
+       ],
+       "why": "If not = if you can't."
+      },
+      {
+       "type": "fill",
+       "text": "Can you stop at the store on your way home today? If you ___, I'll do it.",
+       "verb": "verb",
+       "accept": [
+        "cannot",
+        "can't"
+       ],
+       "why": "Can you…? → If you can't."
+      }
+     ]
+    },
+    {
+     "title": "What is the full meaning?",
+     "icon": "🍽️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Does Lisa want to go out to dinner with us? If so, tell her to meet us at 8:00.",
+       "options": [
+        "if Lisa wants to go out to dinner with us",
+        "if Lisa doesn't want to go out to dinner"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If so = if yes.",
+       "ask": "If so ="
+      },
+      {
+       "type": "choice",
+       "text": "Are you a student? If not, the ticket is full price.",
+       "options": [
+        "if you are a student",
+        "if you aren't a student"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "If not = if no.",
+       "ask": "If not ="
+      },
+      {
+       "type": "choice",
+       "text": "It's a popular concert. Do you have a ticket? If you do, you're lucky.",
+       "options": [
+        "if you have a ticket",
+        "if you don't have a ticket"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If you do = if you have one.",
+       "ask": "If you do ="
+      },
+      {
+       "type": "choice",
+       "text": "The weather may get worse. I may not be able to make it home tonight. If not, ___",
+       "options": [
+        "I'll stay at a hotel in town.",
+        "I'll drive home early."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If not = if I can't get home."
+      },
+      {
+       "type": "choice",
+       "text": "I may stay in town tonight. If so, ___",
+       "options": [
+        "I'll call you from the hotel.",
+        "I'll see you at home at six."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If so = if I stay in town."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-8",
+   "tag": "17-8",
+   "t": "plan",
+   "title": "Whether or not, even if",
+   "full": "Adverb Clauses of Condition: Using Whether Or Not and Even If",
+   "lesson": {
+    "title": "Learn: it doesn't matter",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "whether or not",
+      "lines": [
+       "This condition or that one: the result is the same."
+      ],
+      "visual": [
+       "even-if"
+      ],
+      "chips": [
+       "I'm going to go swimming tomorrow whether or not it is cold.",
+       "I'm going to go swimming tomorrow whether it is cold or not."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "even if",
+      "lines": [
+       "One condition doesn't matter. The result won't change."
+      ],
+      "chips": [
+       "Even if the weather is cold, I'm going to go swimming."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Even if I get an invitation to the reception, I'm not going to go. =",
+      "options": [
+       "I won't go without an invitation.",
+       "I don't care if I get an invitation. I'm not going."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "even if = it doesn't matter."
+     },
+     {
+      "type": "choice",
+      "text": "Even if he invites me to the party, I ___.",
+      "options": [
+       "will go",
+       "won't go"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "even if needs a result that doesn't change: won't go."
+     },
+     {
+      "type": "choice",
+      "text": "David will be happy ___ he gets married.",
+      "options": [
+       "whether or not",
+       "unless"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Married or not: happy."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "whether or not / whether … or not = both possibilities, same result.",
+     "even if = this condition doesn't change the result."
+    ],
+    "timeline": [
+     "even-if"
+    ],
+    "examples": [
+     {
+      "text": "I'm going swimming tomorrow whether or not it is cold.",
+      "hl": [
+       [
+        "whether or not",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Even if the weather is cold, I'm going to go swimming.",
+      "hl": [
+       [
+        "Even if",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "David's future",
+     "icon": "💒",
+     "items": [
+      {
+       "type": "judge",
+       "text": "David will be happy if he doesn't get married.",
+       "answer": "correct",
+       "why": "He will be happy either way."
+      },
+      {
+       "type": "judge",
+       "text": "If he gets married, David won't be happy.",
+       "answer": "wrong",
+       "why": "He will be happy either way.",
+       "fix": "If he gets married, David will be happy."
+      },
+      {
+       "type": "judge",
+       "text": "Even if David gets married, he won't be happy.",
+       "answer": "wrong",
+       "why": "He will be happy either way.",
+       "fix": "Even if David gets married, he will be happy."
+      },
+      {
+       "type": "judge",
+       "text": "Even if David doesn't get married, he will be happy.",
+       "answer": "correct",
+       "why": "No marriage, still happy."
+      },
+      {
+       "type": "judge",
+       "text": "David will be happy whether or not he gets married.",
+       "answer": "correct",
+       "why": "Both ways → happy."
+      },
+      {
+       "type": "judge",
+       "text": "Whether or not David gets married, he will be happy.",
+       "answer": "correct",
+       "why": "Clause first → comma."
+      },
+      {
+       "type": "judge",
+       "text": "Even if he invites me to the party, I will go.",
+       "answer": "wrong",
+       "why": "even if → the result doesn't change: won't.",
+       "fix": "Even if he invites me to the party, I won't go."
+      }
+     ]
+    },
+    {
+     "title": "Same meaning",
+     "icon": "🏖️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Even if the weather improves, I won't go to the beach.",
+       "options": [
+        "I'm going to the beach if the weather improves.",
+        "I don't care if the weather improves. I'm not going to the beach."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even if = it doesn't matter.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "Whether or not you want help, I plan to be at your house at 9:00.",
+       "options": [
+        "I'm going to help you because I think you need help.",
+        "I'm going to help you because you want me to."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Your wish doesn't matter.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I won't tell even if someone pays me.",
+       "options": [
+        "I won't tell whether or not someone gives me money.",
+        "If someone pays me enough money, I will tell."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Money doesn't change the result.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "I have to go to work tomorrow whether I feel better or not.",
+       "options": [
+        "Whether I go to work or not depends on how I feel.",
+        "I'm going to work tomorrow no matter how I feel."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Feeling better or not: I go.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "Even if John apologizes, I won't forgive him!",
+       "options": [
+        "John needs to apologize for me to forgive him.",
+        "I don't care if John apologizes. It doesn't matter."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An apology won't change it.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "Even if I get an invitation to the reception, I'm not going to go.",
+       "options": [
+        "I won't go to the reception without an invitation.",
+        "I don't care if I get an invitation. I'm not going."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The invitation doesn't matter.",
+       "ask": "Same meaning?"
+      }
+     ]
+    },
+    {
+     "title": "It doesn't matter",
+     "icon": "🧥",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ed has a good job waiting in his father's business. → Ed will get a good job whether or not ___.",
+       "options": [
+        "he will graduate",
+        "he graduates"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Present, not will.",
+       "ctx": "Maybe he will graduate, maybe not."
+      },
+      {
+       "type": "choice",
+       "text": "Ed will get a good job even if ___.",
+       "options": [
+        "he doesn't graduate",
+        "he graduates not"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "even if + the surprising condition."
+      },
+      {
+       "type": "choice",
+       "text": "Cindy's uncle tells a lot of jokes. Cindy laughs at the jokes whether ___ or not.",
+       "options": [
+        "are they funny",
+        "they're funny"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether + subject + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Cindy laughs at the jokes even if ___.",
+       "options": [
+        "they aren't funny",
+        "they are funny"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Not funny, but she laughs."
+      },
+      {
+       "type": "choice",
+       "text": "The time is up. You have to hand in your examination paper even if ___.",
+       "options": [
+        "you are finished",
+        "you aren't finished"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not finished, but hand it in."
+      },
+      {
+       "type": "choice",
+       "text": "Max has saved money and has a part-time job. Max can go to school even if ___.",
+       "options": [
+        "he doesn't get a scholarship",
+        "he gets a scholarship"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No scholarship, but he can go."
+      },
+      {
+       "type": "choice",
+       "text": "My grandfather always wears his gray sweater even if ___.",
+       "options": [
+        "the weather is cold",
+        "the weather is hot"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Hot, but still a sweater."
+      },
+      {
+       "type": "choice",
+       "text": "Your approval doesn't matter to me. I'm going to marry Harry whether ___ or not.",
+       "options": [
+        "you approve",
+        "do you approve"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whether + subject + verb."
+      },
+      {
+       "type": "choice",
+       "text": "We don't want to camp in the snow, but we're going to go camping in the mountains even if ___.",
+       "options": [
+        "it will snow",
+        "it snows"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even if + present."
+      },
+      {
+       "type": "choice",
+       "text": "We're going to go camping in the mountains whether ___ or not.",
+       "options": [
+        "it snows",
+        "it snowed"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Future meaning → present."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-9",
+   "tag": "17-9",
+   "t": "prog",
+   "title": "In case you need me",
+   "full": "Adverb Clauses of Condition: Using In Case",
+   "lesson": {
+    "title": "Learn: in case = if by chance",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Probably not, but maybe",
+      "lines": [
+       "in case = if by chance this happens."
+      ],
+      "visual": [
+       "in-case"
+      ],
+      "chips": [
+       "I'll take an umbrella in case it rains."
+      ],
+      "examples": [
+       {
+        "text": "I'll be at my uncle's house in case you need to reach me.",
+        "hl": [
+         [
+          "in case",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "in case + should",
+      "lines": [
+       "should makes it even less likely."
+      ],
+      "chips": [
+       "I'll be at my uncle's house in case you should need to reach me."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "If by chance you have a problem, you can reach me at this number. =",
+      "options": [
+       "In case you have a problem, you can reach me at this number.",
+       "When you have a problem, you can reach me at this number."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "in case = if by chance."
+     },
+     {
+      "type": "choice",
+      "text": "___ you've forgotten anything, I can always send it to you.",
+      "options": [
+       "In case",
+       "In the case"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The expression is in case (no the)."
+     },
+     {
+      "type": "choice",
+      "text": "I packed a change of clothes today in case ___.",
+      "options": [
+       "I have to stay in town tonight",
+       "I will stay in town tonight"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "in case + present."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "in case + present = if by chance it happens (I'm getting ready).",
+     "in case you should need… = even less likely."
+    ],
+    "timeline": [
+     "in-case"
+    ],
+    "examples": [
+     {
+      "text": "I'll be at my uncle's house in case you need to reach me.",
+      "hl": [
+       [
+        "in case",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "In case you need more information, you can call me.",
+      "hl": [
+       [
+        "In case",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "I'm just letting you know…",
+     "icon": "📇",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You probably won't need to get in touch with me, but maybe you will. If so, I'll give you my cell number.",
+       "options": [
+        "In case you will need to get in touch with me, I'll give you my cell number.",
+        "In case you need to get in touch with me, I'll give you my cell number."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case + present.",
+       "ask": "Begin with In case"
+      },
+      {
+       "type": "choice",
+       "text": "You probably won't need to see me, but maybe you will. If so, I'll be in my office tomorrow morning around ten.",
+       "options": [
+        "In case you need to see me, I'll be in my office tomorrow morning around ten.",
+        "In case I'll be in my office tomorrow morning, you need to see me."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "in case + the “maybe” part.",
+       "ask": "Begin with In case"
+      },
+      {
+       "type": "choice",
+       "text": "I don't think you need any more information, but maybe you do. If so, you can call me.",
+       "options": [
+        "In the case you need any more information, you can call me.",
+        "In case you need any more information, you can call me."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case, not in the case.",
+       "ask": "Begin with In case"
+      },
+      {
+       "type": "choice",
+       "text": "You probably don't have any more questions, but maybe you do. If so, ask Dr. Smith.",
+       "options": [
+        "In case you have any more questions, ask Dr. Smith.",
+        "In case you have any more questions. Ask Dr. Smith."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Clause first → comma.",
+       "ask": "Begin with In case"
+      },
+      {
+       "type": "choice",
+       "text": "The dentist probably won't call, but maybe she will. If so, come get me. I'll be outside.",
+       "options": [
+        "In case the dentist will call, come get me.",
+        "In case the dentist calls, come get me."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case + present.",
+       "ask": "Begin with In case"
+      },
+      {
+       "type": "choice",
+       "text": "I hope you're happy with your present, but maybe it won't work. If not, you can return it to the store.",
+       "options": [
+        "In case it doesn't work, you can return it to the store.",
+        "In case it works, you can return it to the store."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The “maybe” part = it doesn't work.",
+       "ask": "Begin with In case"
+      }
+     ]
+    },
+    {
+     "title": "Bad weather",
+     "icon": "🌨️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Our boss doesn't accept bad weather as an excuse. We have to go to work even if ___.",
+       "options": [
+        "the roads will be icy",
+        "the roads are icy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even if + present."
+      },
+      {
+       "type": "choice",
+       "text": "The weather is getting worse. I may not be able to make it home tonight. If not, ___.",
+       "options": [
+        "I'll stay with a friend in town",
+        "I stay with a friend in town yesterday"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If not + a future result."
+      },
+      {
+       "type": "choice",
+       "text": "The trains might not be running. I'd better check the schedule in case ___.",
+       "options": [
+        "they will canceled",
+        "they are canceled"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case + present."
+      },
+      {
+       "type": "choice",
+       "text": "I may stay in town tonight. If so, ___.",
+       "options": [
+        "I'll text you",
+        "I texted you"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "If so + a future result."
+      },
+      {
+       "type": "choice",
+       "text": "I packed a change of clothes today in case ___.",
+       "options": [
+        "I couldn't to get home",
+        "I can't get home"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case + present."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "🧾",
+     "items": [
+      {
+       "type": "judge",
+       "text": "In case you've forgotten anything, I can always send it to you.",
+       "answer": "correct",
+       "why": "in case + clause, comma."
+      },
+      {
+       "type": "judge",
+       "text": "In the case there is an emergency, call the number on this paper.",
+       "answer": "wrong",
+       "why": "in case, not in the case.",
+       "fix": "In case there is an emergency, call the number on this paper."
+      },
+      {
+       "type": "judge",
+       "text": "I'll be at my uncle's house in case you should need to reach me.",
+       "answer": "correct",
+       "why": "in case + should = less likely."
+      },
+      {
+       "type": "judge",
+       "text": "In case it will rain, take an umbrella.",
+       "answer": "wrong",
+       "why": "in case + present.",
+       "fix": "In case it rains, take an umbrella."
+      },
+      {
+       "type": "choice",
+       "text": "“I'll take an umbrella in case it rains.” Is the speaker sure it will rain?",
+       "options": [
+        "Yes",
+        "No. It probably won't, but it might."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case = if by chance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-10",
+   "tag": "17-10",
+   "t": "plan",
+   "title": "Unless…",
+   "full": "Adverb Clauses of Condition: Using Unless",
+   "lesson": {
+    "title": "Learn: unless = if … not",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "unless = if … not",
+      "lines": [
+       "Two ways, one meaning."
+      ],
+      "visual": [
+       "unless"
+      ],
+      "chips": [
+       "I'll go swimming tomorrow unless it's cold.",
+       "I'll go swimming tomorrow if it isn't cold."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'll be at the meeting on time unless there ___ a lot of traffic.",
+      "options": [
+       "is",
+       "isn't"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "unless there is = if there isn't."
+     },
+     {
+      "type": "choice",
+      "text": "I'll be at the meeting on time if there ___ a lot of traffic.",
+      "options": [
+       "is",
+       "isn't"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "On time if there isn't traffic."
+     },
+     {
+      "type": "learn",
+      "title": "Don't add a second not",
+      "lines": [
+       "unless is already negative."
+      ],
+      "chips": [
+       "✅ Unless you buy your ticket today, you won't get one.",
+       "❌ Unless you don't buy your ticket today, you won't get one."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Unless you get below 70% on the next test, you ___ the course.",
+      "options": [
+       "will pass",
+       "won't pass"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "= If you don't get below 70%, you'll pass."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "unless + positive verb = if + negative verb.",
+     "Unless you hurry, you'll be late. = If you don't hurry, you'll be late."
+    ],
+    "timeline": [
+     "unless"
+    ],
+    "examples": [
+     {
+      "text": "I'll go swimming tomorrow unless it's cold.",
+      "hl": [
+       [
+        "unless it's cold",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I'll go swimming tomorrow if it isn't cold.",
+      "hl": [
+       [
+        "if it isn't cold",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Traffic and the manager",
+     "icon": "🚗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I'll be at the meeting on time if there ___ a lot of traffic.",
+       "options": [
+        "is",
+        "isn't"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No traffic → on time."
+      },
+      {
+       "type": "choice",
+       "text": "I'll be at the meeting on time unless there ___ a lot of traffic.",
+       "options": [
+        "is",
+        "isn't"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless there is = if there isn't."
+      },
+      {
+       "type": "choice",
+       "text": "My manager won't be coming unless she feels ___.",
+       "options": [
+        "better",
+        "worse"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "= if she doesn't feel better."
+      },
+      {
+       "type": "choice",
+       "text": "My manager won't be coming if she feels ___.",
+       "options": [
+        "better",
+        "worse"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Worse → she won't come."
+      },
+      {
+       "type": "judge",
+       "text": "Unless you get below 70% on the next test, you'll pass the course.",
+       "answer": "correct",
+       "why": "= If you don't get below 70%."
+      },
+      {
+       "type": "judge",
+       "text": "Unless you have a doctor's note, you can take sick time from work.",
+       "answer": "wrong",
+       "why": "No note → you can't.",
+       "fix": "Unless you have a doctor's note, you can't take sick time from work."
+      },
+      {
+       "type": "judge",
+       "text": "I'll go swimming tomorrow unless it isn't cold.",
+       "answer": "wrong",
+       "why": "unless is already negative.",
+       "fix": "I'll go swimming tomorrow unless it's cold."
+      }
+     ]
+    },
+    {
+     "title": "FYI",
+     "icon": "🎫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If you don't buy your ticket today, you won't get one.",
+       "options": [
+        "Unless you buy your ticket today, you won't get one.",
+        "Unless you don't buy your ticket today, you won't get one."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless + positive verb.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "You can't travel to that country if you don't have a visa.",
+       "options": [
+        "You can travel to that country unless you have a visa.",
+        "You can't travel to that country unless you have a visa."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep the main clause the same.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't sign up for the test by Monday, you can't take it next month.",
+       "options": [
+        "Unless you sign up for the test by Monday, you can't take it next month.",
+        "Unless you will sign up for the test by Monday, you can't take it next month."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless + present.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "It's difficult to return a product to that store if you don't have a receipt.",
+       "options": [
+        "It's difficult to return a product to that store unless you haven't a receipt.",
+        "It's difficult to return a product to that store unless you have a receipt."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "unless + positive verb.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "You can't get a motorcycle license if you haven't passed a special training course.",
+       "options": [
+        "You can't get a motorcycle license unless you have passed a special training course.",
+        "You can't get a motorcycle license unless you haven't passed a special training course."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "haven't passed → unless you have passed.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "The store won't accept your credit card if you don't have ID with you.",
+       "options": [
+        "The store will accept your credit card unless you have ID with you.",
+        "The store won't accept your credit card unless you have ID with you."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep won't.",
+       "ask": "Say it with unless"
+      },
+      {
+       "type": "choice",
+       "text": "Traffic fines increase if you don't pay them right away.",
+       "options": [
+        "Traffic fines increase unless you pay them right away.",
+        "Traffic fines increase unless you don't pay them right away."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless + positive verb.",
+       "ask": "Say it with unless"
+      }
+     ]
+    },
+    {
+     "title": "Sorry, but…",
+     "icon": "🙅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You can't speak to the manager unless ___.",
+       "options": [
+        "you don't have an appointment",
+        "you have an appointment"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "= if you don't have one."
+      },
+      {
+       "type": "choice",
+       "text": "You can't pay with a check unless ___.",
+       "options": [
+        "you show your ID",
+        "you will show your ID"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless + present."
+      },
+      {
+       "type": "choice",
+       "text": "Some students won't be able to pass unless ___.",
+       "options": [
+        "they don't study harder",
+        "they study harder"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "= if they don't study harder."
+      },
+      {
+       "type": "choice",
+       "text": "___ unless you save more money.",
+       "options": [
+        "You won't be able to buy a house",
+        "You will be able to buy a house"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No savings → no house."
+      },
+      {
+       "type": "choice",
+       "text": "Unless you spend more time with your kids, ___.",
+       "options": [
+        "they won't feel lonely",
+        "they will feel lonely"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No time together → lonely."
+      },
+      {
+       "type": "choice",
+       "text": "Some stores will close permanently unless ___.",
+       "options": [
+        "business improves",
+        "business doesn't improve"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "= if business doesn't improve."
+      },
+      {
+       "type": "choice",
+       "text": "Interest and penalties on your bill will continue to increase unless ___.",
+       "options": [
+        "you paid it",
+        "you pay it"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "unless + present."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "17-11",
+   "tag": "17-11",
+   "t": "plan",
+   "title": "Only if…",
+   "full": "Adverb Clauses of Condition: Using Only If",
+   "lesson": {
+    "title": "Learn: one condition only",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "only if = one condition",
+      "lines": [
+       "Nothing else causes the result."
+      ],
+      "visual": [
+       "only-if"
+      ],
+      "chips": [
+       "The picnic will be canceled only if it rains.",
+       "If it's windy, cold, or foggy, we'll still go."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Scott closes his bedroom window at night only if it's raining hard. Does he close it if it's windy?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Only heavy rain makes him close it."
+     },
+     {
+      "type": "learn",
+      "title": "Only if first? Flip the main clause",
+      "lines": [
+       "helping verb + subject. No comma."
+      ],
+      "chips": [
+       "Only if it rains will the picnic be canceled.",
+       "Only if you study hard will you pass the exam.",
+       "❌ Only if it rains the picnic will be canceled."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Only if Abdul's foot is better ___ in the soccer match next month.",
+      "options": [
+       "he can play",
+       "can he play"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Only if first → can + subject."
+     },
+     {
+      "type": "choice",
+      "text": "You can go to the party only if ___.",
+      "options": [
+       "you have an invitation",
+       "do you have an invitation"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The only-if clause itself has normal order."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "only if = this is the one condition for the result.",
+     "Only if + clause + helping verb + subject: Only if it rains will the picnic be canceled."
+    ],
+    "timeline": [
+     "only-if"
+    ],
+    "examples": [
+     {
+      "text": "The picnic will be canceled only if it rains.",
+      "hl": [
+       [
+        "only if it rains",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Only if it rains will the picnic be canceled.",
+      "hl": [
+       [
+        "will the picnic be",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Scott's window; Saturday off",
+     "icon": "🪟",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Does Scott close his bedroom window if the temperature is below freezing?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only hard rain.",
+       "ctx": "Scott closes his bedroom window at night only if it's raining hard."
+      },
+      {
+       "type": "choice",
+       "text": "Does Scott close his bedroom window if it's windy outside?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only hard rain.",
+       "ctx": "Scott closes his bedroom window at night only if it's raining hard."
+      },
+      {
+       "type": "choice",
+       "text": "Does Scott close his bedroom window if there's a light rain?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Light rain is not hard rain.",
+       "ctx": "Scott closes his bedroom window at night only if it's raining hard."
+      },
+      {
+       "type": "choice",
+       "text": "Does Scott close his bedroom window if there is a heavy rain?",
+       "options": [
+        "Yes",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Heavy rain = the one condition.",
+       "ctx": "Scott closes his bedroom window at night only if it's raining hard."
+      },
+      {
+       "type": "sort",
+       "word": "You must work Thursday if you want Saturday off.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 0,
+       "why": "Thursday is the one condition."
+      },
+      {
+       "type": "sort",
+       "word": "You can take Saturday off if you work another day of your choice.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 1,
+       "why": "Only Thursday counts."
+      },
+      {
+       "type": "sort",
+       "word": "If you work Thursday, you don't have to work Saturday.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 0,
+       "why": "That is the deal."
+      },
+      {
+       "type": "sort",
+       "word": "You can work Thursday, but it's not a requirement if you want Saturday off.",
+       "buckets": [
+        "True",
+        "Not true"
+       ],
+       "answer": 1,
+       "why": "It IS a requirement."
+      }
+     ]
+    },
+    {
+     "title": "The one condition",
+     "icon": "🎟️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "John must take an additional science class in order to graduate. → He can graduate only if ___.",
+       "options": [
+        "he takes an additional science class",
+        "does he take an additional science class"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Normal order inside the clause."
+      },
+      {
+       "type": "choice",
+       "text": "You have to have an invitation in order to go to the party. → You can go to the party only if ___.",
+       "options": [
+        "you will have an invitation",
+        "you have an invitation"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "only if + present."
+      },
+      {
+       "type": "choice",
+       "text": "You have to have a student visa in order to study here. → You can attend this school only if ___.",
+       "options": [
+        "you have a student visa",
+        "you don't have a student visa"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The visa is the condition."
+      },
+      {
+       "type": "choice",
+       "text": "Jimmy's mother doesn't want him to chew gum. → Jimmy ___ only if he's sure his mother won't find out.",
+       "options": [
+        "doesn't chew gum",
+        "chews gum"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He does it in that one case."
+      },
+      {
+       "type": "choice",
+       "text": "The temperature has to reach 0°C before water will freeze. → Water will freeze only if ___.",
+       "options": [
+        "the temperature reaches 0°C",
+        "the temperature will reach 0°C"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "only if + present."
+      },
+      {
+       "type": "choice",
+       "text": "You must study hard. Then you will pass the exam. → Only if you study hard ___.",
+       "options": [
+        "you will pass the exam",
+        "will you pass the exam"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only if first → will + subject."
+      },
+      {
+       "type": "choice",
+       "text": "You have to have a ticket. → Only if you have a ticket ___.",
+       "options": [
+        "can you get into the soccer stadium",
+        "you can get into the soccer stadium"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Only if first → can + subject."
+      },
+      {
+       "type": "choice",
+       "text": "His parents make Joseph finish his homework first. → Only if Joseph finishes his homework ___.",
+       "options": [
+        "he can have screen time",
+        "can he have screen time"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only if first → can + subject."
+      },
+      {
+       "type": "choice",
+       "text": "I have to get a job. Then I will have enough money. → Only if I get a job ___.",
+       "options": [
+        "will I have enough money to go to school",
+        "I will have enough money to go to school"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Only if first → will + subject."
+      }
+     ]
+    },
+    {
+     "title": "An illness",
+     "icon": "🤒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If you don't stay in bed and rest, you won't recover quickly from the virus.",
+       "options": [
+        "You will recover quickly from the virus only if you don't stay in bed and rest.",
+        "You will recover quickly from the virus only if you stay in bed and rest."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "only if + the needed condition.",
+       "ask": "Same meaning with only if"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't stay in bed and rest, you won't recover quickly from the virus.",
+       "options": [
+        "You won't recover quickly from the virus unless you stay in bed and rest.",
+        "You will recover quickly from the virus unless you stay in bed and rest."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "won't … unless + positive.",
+       "ask": "Same meaning with unless"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't see the doctor in person, she won't give you a prescription.",
+       "options": [
+        "The doctor won't give you a prescription only if you see her in person.",
+        "The doctor will give you a prescription only if you see her in person."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "will … only if.",
+       "ask": "Same meaning with only if"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't have a fever, you can go back to work.",
+       "options": [
+        "You can go back to work unless you have a fever.",
+        "You can't go back to work unless you don't have a fever."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if you don't = unless you do.",
+       "ask": "Same meaning with unless"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't have a doctor's note, you can't take sick time.",
+       "options": [
+        "You can take sick time only if you don't have a doctor's note.",
+        "You can take sick time only if you have a doctor's note."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The note is the one condition.",
+       "ask": "Same meaning with only if"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't call the pharmacy now, your prescription won't be ready on time.",
+       "options": [
+        "Your prescription won't be ready on time unless you call the pharmacy now.",
+        "Your prescription will be ready on time unless you call the pharmacy now."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "won't … unless + positive.",
+       "ask": "Same meaning with unless"
+      },
+      {
+       "type": "choice",
+       "text": "If you don't take your medicine, you won't get well quickly.",
+       "options": [
+        "You will get well quickly only if you won't take your medicine.",
+        "You will get well quickly only if you take your medicine."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "only if + present.",
+       "ask": "Same meaning with only if"
+      },
+      {
+       "type": "judge",
+       "text": "Only if Abdul's foot is better he can play in the soccer match next month.",
+       "answer": "wrong",
+       "why": "Only if first → can he play.",
+       "fix": "Only if Abdul's foot is better can he play in the soccer match next month."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R17",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Clause mix",
+   "full": "Chapter 17 Review: The Party, How People Learn",
+   "lesson": {
+    "title": "Learn: choose the right connector",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Four jobs",
+      "lines": [
+       "Time, cause, contrast, condition."
+      ],
+      "chips": [
+       {
+        "label": "⏰ time",
+        "words": [
+         "when",
+         "while",
+         "before",
+         "after",
+         "until",
+         "since",
+         "as soon as",
+         "by the time"
+        ]
+       },
+       {
+        "label": "➡️ cause",
+        "words": [
+         "because",
+         "since",
+         "now that"
+        ]
+       },
+       {
+        "label": "↔️ contrast",
+        "words": [
+         "even though",
+         "although",
+         "while"
+        ]
+       },
+       {
+        "label": "❓ condition",
+        "words": [
+         "if",
+         "unless",
+         "only if",
+         "even if",
+         "whether or not",
+         "in case"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It may or may not rain. ___ it rains, the party will be held outdoors.",
+      "options": [
+       "Unless",
+       "Only if"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Unless it rains = if it doesn't rain → outdoors."
+     },
+     {
+      "type": "learn",
+      "title": "Move the clause around",
+      "lines": [
+       "Good writers don't always start with the adverb clause."
+      ],
+      "chips": [
+       "When I am involved, I learn best.",
+       "I learn best when I am involved."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I often forget the meanings of new words ___ I use them right away.",
+      "options": [
+       "unless",
+       "only if"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "= if I don't use them."
+     },
+     {
+      "type": "choice",
+      "text": "I remember new words best ___ I write them in a sentence.",
+      "options": [
+       "when",
+       "unless"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A time / condition that helps → when."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Pick the connector by meaning: time, cause, contrast, or condition.",
+     "Clause first → comma. Present tense (not will) for future time and conditions."
+    ],
+    "timeline": [
+     "adv-clause"
+    ],
+    "examples": [
+     {
+      "text": "Unless it rains, the party will be held outdoors.",
+      "hl": [
+       [
+        "Unless it rains,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "The party will be held indoors only if it rains.",
+      "hl": [
+       [
+        "only if it rains",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The party: rain or no rain",
+     "icon": "🎉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "If ___",
+       "options": [
+        "it rains, the party will be held indoors.",
+        "it will rain, the party will be held indoors."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + present.",
+       "ctx": "It may or may not rain. The party will be held indoors or outdoors."
+      },
+      {
+       "type": "choice",
+       "text": "Even if ___",
+       "options": [
+        "it rains, the party will be held indoors.",
+        "it rains, the party will be held outdoors."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even if = rain won't change the plan."
+      },
+      {
+       "type": "choice",
+       "text": "Whether or not ___",
+       "options": [
+        "it rains, the party will be held outdoors.",
+        "it rains, the party will be canceled if it's sunny."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Rain or not: the same result."
+      },
+      {
+       "type": "choice",
+       "text": "In case ___",
+       "options": [
+        "it will rain, the party is held indoors yesterday.",
+        "it rains, the party will be held indoors."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "in case = if by chance."
+      },
+      {
+       "type": "choice",
+       "text": "Unless ___",
+       "options": [
+        "it rains, the party will be held outdoors.",
+        "it rains, the party will be held indoors."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unless it rains = if it doesn't rain."
+      },
+      {
+       "type": "choice",
+       "text": "Only if ___",
+       "options": [
+        "it rains the party will be held indoors.",
+        "it rains will the party be held indoors."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only if first → will + subject."
+      }
+     ]
+    },
+    {
+     "title": "How do people learn best?",
+     "icon": "✈️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "There is not one answer since much depends on individual learning styles.",
+       "options": [
+        "because",
+        "from that time"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A reason → because.",
+       "ask": "Here, since means…",
+       "ctx": "“Tell me and I forget. Teach me and I remember. Involve me and I learn.” — Benjamin Franklin"
+      },
+      {
+       "type": "choice",
+       "text": "Before you ever pick up a piece of paper, the person says the following…",
+       "options": [
+        "simple present",
+        "future with will"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Time clause → present.",
+       "ask": "What tense is in the adverb clause?"
+      },
+      {
+       "type": "choice",
+       "text": "How well are you going to learn so long as the instructor continues in this manner?",
+       "options": [
+        "during all that time",
+        "because"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "so long as = as long as.",
+       "ask": "so long as ="
+      },
+      {
+       "type": "choice",
+       "text": "Your instructor gives the directions while she folds the paper herself.",
+       "options": [
+        "during that time",
+        "the exact opposite"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "while = at the same time.",
+       "ask": "Here, while means…"
+      },
+      {
+       "type": "choice",
+       "text": "Every time she gives you instructions, both you and she fold your own papers.",
+       "options": [
+        "whenever",
+        "only once"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "every time = whenever.",
+       "ask": "Every time ="
+      },
+      {
+       "type": "choice",
+       "text": "Which method involves the learner most?",
+       "options": [
+        "Only listening to the steps.",
+        "Watching the instructor fold.",
+        "Folding your own paper at each step."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "“Involve me and I learn.”"
+      }
+     ]
+    },
+    {
+     "title": "Quick mix",
+     "icon": "⚡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ we pay our bills, we'll have little money left over for the holidays.",
+       "options": [
+        "Once",
+        "Unless"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After we pay → once.",
+       "rule": "17-2"
+      },
+      {
+       "type": "choice",
+       "text": "___ I get a promotion to manager, I won't relocate to another city.",
+       "options": [
+        "Even",
+        "Even if"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "even needs if before a clause.",
+       "rule": "17-8"
+      },
+      {
+       "type": "choice",
+       "text": "I care about you ___ you believe me.",
+       "options": [
+        "if or not",
+        "whether or not"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether or not.",
+       "rule": "17-8"
+      },
+      {
+       "type": "choice",
+       "text": "If tenants ___ any questions about the apartment, they need to contact the manager.",
+       "options": [
+        "will have",
+        "have"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + present.",
+       "rule": "17-6"
+      },
+      {
+       "type": "choice",
+       "text": "___ I've finished the semester, I'm going to rest a few days.",
+       "options": [
+        "Now that",
+        "Unless"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "because now → now that.",
+       "rule": "17-3"
+      },
+      {
+       "type": "choice",
+       "text": "Mary is rich, ___ John is poor.",
+       "options": [
+        "while",
+        "because"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Opposites → while.",
+       "rule": "17-5"
+      },
+      {
+       "type": "choice",
+       "text": "___ the weather was cold, I went swimming.",
+       "options": [
+        "Because",
+        "Even though"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A surprising result → even though.",
+       "rule": "17-4"
+      },
+      {
+       "type": "choice",
+       "text": "I'll go swimming tomorrow ___ it's cold.",
+       "options": [
+        "unless",
+        "in case"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "= if it isn't cold.",
+       "rule": "17-10"
+      },
+      {
+       "type": "choice",
+       "text": "We'll have been on the plane for ten hours ___ we land.",
+       "options": [
+        "by the time",
+        "since"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Finished before that moment → by the time.",
+       "rule": "17-2"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "How I learn best",
+     "task": "Finish Claude's sentences about learning vocabulary: “I remember new words best when…”",
+     "claudePrompt": "You are my English writing partner. Give me one sentence beginning at a time about learning English vocabulary and I complete it: I remember new words best when ... / I often forget the meanings of new words unless ... / Even if I ... / I ... only if ... / If students want to increase their vocabulary, ... / Although ... / When I am involved in my learning, I feel .... Then ask me to join three of my sentences into a short paragraph. Check: comma after an adverb clause that comes first, even if (not even), and inversion after Only if at the start."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Condition Chimera",
+  "icon": "🦅",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Once we [will pay] our bills, we'll have little money left over for the holidays.",
+    "options": [
+     "Once we pay our bills, we'll have little money left over for the holidays.",
+     "Once we paid our bills, we'll have little money left over for the holidays.",
+     "Once we are pay our bills, we'll have little money left over for the holidays."
+    ],
+    "answer": 0,
+    "why": "No will in a time clause.",
+    "rule": "17-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "[In the case] there is an emergency, call the number on this paper.",
+    "options": [
+     "In case of there is an emergency, call the number on this paper.",
+     "In case there is an emergency, call the number on this paper.",
+     "In the case that is an emergency, call the number on this paper."
+    ],
+    "answer": 1,
+    "why": "in case + clause.",
+    "rule": "17-9"
+   },
+   {
+    "type": "errorfix",
+    "text": "Unless you have a doctor's note, you [can] take sick time from work.",
+    "options": [
+     "Unless you have a doctor's note, you could take sick time from work.",
+     "Unless you have a doctor's note, you can to take sick time from work.",
+     "Unless you have a doctor's note, you can't take sick time from work."
+    ],
+    "answer": 2,
+    "why": "No note → you can't.",
+    "rule": "17-10"
+   },
+   {
+    "type": "errorfix",
+    "text": "If tenants [will have] any questions about the apartment, they need to contact the manager.",
+    "options": [
+     "If tenants have any questions about the apartment, they need to contact the manager.",
+     "If tenants had any questions about the apartment, they need to contact the manager.",
+     "If tenants are having any questions about the apartment, they need to contact the manager."
+    ],
+    "answer": 0,
+    "why": "if + simple present.",
+    "rule": "17-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "Only if you help me [I will] clean the apartment.",
+    "options": [
+     "Only if you help me, I will clean the apartment.",
+     "Only if you help me will I clean the apartment.",
+     "Only if you help me I clean will the apartment."
+    ],
+    "answer": 1,
+    "why": "Only if first → will + subject.",
+    "rule": "17-11"
+   },
+   {
+    "type": "errorfix",
+    "text": "[When Yusef finished] medical school at the age of 21.",
+    "options": [
+     "When Yusef finishing medical school at the age of 21.",
+     "When Yusef had finished medical school at the age of 21.",
+     "Yusef finished medical school at the age of 21."
+    ],
+    "answer": 2,
+    "why": "A when-clause alone is not a sentence.",
+    "rule": "17-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Even I get] a promotion to manager, I won't relocate to another city.",
+    "options": [
+     "Even if I get a promotion to manager, I won't relocate to another city.",
+     "Even I will get a promotion to manager, I won't relocate to another city.",
+     "Even though if I get a promotion to manager, I won't relocate to another city."
+    ],
+    "answer": 0,
+    "why": "even if + clause.",
+    "rule": "17-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "I care about you [if or not] you believe me.",
+    "options": [
+     "I care about you if not you believe me.",
+     "I care about you whether or not you believe me.",
+     "I care about you even or not you believe me."
+    ],
+    "answer": 1,
+    "why": "whether or not.",
+    "rule": "17-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Whenever] Josh died, his family was very sad.",
+    "options": [
+     "Every time Josh died, his family was very sad.",
+     "Until Josh died, his family was very sad.",
+     "When Josh died, his family was very sad."
+    ],
+    "answer": 2,
+    "why": "It happened once → when.",
+    "rule": "17-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Now that I [graduated], I need to look for a job.",
+    "options": [
+     "Now that I have graduated, I need to look for a job.",
+     "Now that I had graduated, I need to look for a job.",
+     "Now that I was graduating, I need to look for a job."
+    ],
+    "answer": 0,
+    "why": "now that + present perfect.",
+    "rule": "17-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "While some people enjoy being online a lot, others [do].",
+    "options": [
+     "While some people enjoy being online a lot, others are.",
+     "While some people enjoy being online a lot, others don't.",
+     "While some people enjoy being online a lot, others do too."
+    ],
+    "answer": 1,
+    "why": "Contrast → the opposite.",
+    "rule": "17-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "Even if he invites me to the party, I [will] go.",
+    "options": [
+     "Even if he invites me to the party, I would go.",
+     "Even if he invites me to the party, I am going.",
+     "Even if he invites me to the party, I won't go."
+    ],
+    "answer": 2,
+    "why": "even if → the result doesn't change.",
+    "rule": "17-8"
+   }
+  ]
+ }
+}

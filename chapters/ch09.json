@@ -1,0 +1,4657 @@
+{
+ "id": "ch09",
+ "num": 9,
+ "title": "Modals, Part 1",
+ "subtitle": "Must, should, can, may, would you…?",
+ "icon": "🎛️",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Applicants must to fill in the forms in ink.",
+    "answer": "wrong",
+    "why": "must + simple verb. No to.",
+    "fix": "Applicants must fill in the forms in ink.",
+    "rule": "9-1"
+   },
+   {
+    "type": "judge",
+    "text": "We got to finish this project before we go home tonight.",
+    "answer": "wrong",
+    "why": "Keep have: We've got to.",
+    "fix": "We've got to finish this project before we go home tonight.",
+    "rule": "9-2"
+   },
+   {
+    "type": "judge",
+    "text": "The bus doesn't come for a half hour. We don't need to hurry. We must not run.",
+    "answer": "wrong",
+    "why": "Not necessary → don't have to run.",
+    "fix": "The bus doesn't come for a half hour. We don't need to hurry. We don't have to run.",
+    "rule": "9-3"
+   },
+   {
+    "type": "judge",
+    "text": "I should leave now, and you ought to begin your homework.",
+    "answer": "correct",
+    "why": "should + verb. ought to + verb.",
+    "rule": "9-4"
+   },
+   {
+    "type": "judge",
+    "text": "What time we supposed to be at the train station tomorrow?",
+    "answer": "wrong",
+    "why": "Question: are we supposed to.",
+    "fix": "What time are we supposed to be at the train station tomorrow?",
+    "rule": "9-5"
+   },
+   {
+    "type": "judge",
+    "text": "The teacher should be back any minute. She just needed to get supplies.",
+    "answer": "correct",
+    "why": "should = I expect it.",
+    "rule": "9-5"
+   },
+   {
+    "type": "judge",
+    "text": "Are you able to read my handwriting?",
+    "answer": "correct",
+    "why": "be able to = can.",
+    "rule": "9-6"
+   },
+   {
+    "type": "judge",
+    "text": "It can snow tomorrow night. There is a 50% chance.",
+    "answer": "wrong",
+    "why": "One future chance → may / might.",
+    "fix": "It might snow tomorrow night. There is a 50% chance.",
+    "rule": "9-7"
+   },
+   {
+    "type": "judge",
+    "text": "You may pay the bill online if you prefer.",
+    "answer": "correct",
+    "why": "may = you have permission.",
+    "rule": "9-8"
+   },
+   {
+    "type": "judge",
+    "text": "May you help me?",
+    "answer": "wrong",
+    "why": "May is only for I / we.",
+    "fix": "Could you help me?",
+    "rule": "9-8"
+   },
+   {
+    "type": "judge",
+    "text": "Would you mind turn up the heat?",
+    "answer": "wrong",
+    "why": "Would you mind + -ing.",
+    "fix": "Would you mind turning up the heat?",
+    "rule": "9-9"
+   },
+   {
+    "type": "judge",
+    "text": "Let's not stay home tonight. Shall we go to a movie?",
+    "answer": "correct",
+    "why": "Let's not + verb. Shall we + verb.",
+    "rule": "9-10"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "9-1",
+   "tag": "9-1",
+   "t": "pres",
+   "title": "Meet the modals",
+   "full": "Basic Modal Introduction",
+   "lesson": {
+    "title": "Learn: how modals work",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Modals add an attitude",
+      "lines": [
+       "They show: necessary, a good idea, possible, allowed."
+      ],
+      "chips": [
+       "can",
+       "could",
+       "may",
+       "might",
+       "must",
+       "should",
+       "ought to",
+       "had better",
+       "will",
+       "would",
+       "shall"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Two iron rules",
+      "lines": [
+       "No s, ever. Then the simple verb. No to."
+      ],
+      "visual": [
+       "modal-form"
+      ],
+      "chips": [
+       "✅ She can do it.",
+       "❌ She cans do it.",
+       "❌ She can to do it.",
+       "❌ She can does it.",
+       "❌ She can did it."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Applicants ___ the forms in ink.",
+      "options": [
+       "must to fill in",
+       "must fill in",
+       "musts fill in"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "modal + simple verb. No to, no s."
+     },
+     {
+      "type": "learn",
+      "title": "One exception: ought to",
+      "lines": [
+       "ought always keeps its to."
+      ],
+      "chips": [
+       "He ought to go to the meeting."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Phrasal modals",
+      "lines": [
+       "Longer cousins with the same meaning. They use to."
+      ],
+      "chips": [
+       "be able to = can",
+       "be going to = will",
+       "have to = must",
+       "have got to = must",
+       "be supposed to"
+      ],
+      "tip": "These DO change: she has to, he is able to, they are supposed to."
+     },
+     {
+      "type": "choice",
+      "text": "A teacher ___ give homework.",
+      "options": [
+       "doesn't has to",
+       "doesn't have to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "After doesn't → simple form: have to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Modal + simple verb. No -s, no to: She can do it.",
+     "Exception: ought to. Phrasal modals: have to, be able to, be supposed to."
+    ],
+    "timeline": [
+     "modal-form"
+    ],
+    "examples": [
+     {
+      "text": "She can do it.",
+      "hl": [
+       [
+        "can do",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "He ought to go to the meeting.",
+      "hl": [
+       [
+        "ought to go",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "School can be stressful.",
+      "hl": [
+       [
+        "can be",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "School opinions: correct form?",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "judge",
+       "text": "School can be stressful.",
+       "answer": "correct",
+       "why": "can + simple verb be."
+      },
+      {
+       "type": "judge",
+       "text": "Too much work may be harm a student's health.",
+       "answer": "wrong",
+       "why": "may + one simple verb: may harm.",
+       "fix": "Too much work may harm a student's health."
+      },
+      {
+       "type": "judge",
+       "text": "A teacher doesn't has to give homework.",
+       "answer": "wrong",
+       "why": "After doesn't → have to.",
+       "fix": "A teacher doesn't have to give homework."
+      },
+      {
+       "type": "judge",
+       "text": "Science and math might be the two most important skills for the future.",
+       "answer": "correct",
+       "why": "might + simple verb be."
+      },
+      {
+       "type": "judge",
+       "text": "Schools should get rid of grades.",
+       "answer": "correct",
+       "why": "should + simple verb get."
+      },
+      {
+       "type": "judge",
+       "text": "Colleges ought to eliminate entrance exams.",
+       "answer": "correct",
+       "why": "ought + to + simple verb."
+      },
+      {
+       "type": "judge",
+       "text": "She cans do it.",
+       "answer": "wrong",
+       "why": "Modals never take s.",
+       "fix": "She can do it."
+      },
+      {
+       "type": "judge",
+       "text": "She can to do it.",
+       "answer": "wrong",
+       "why": "No to after can.",
+       "fix": "She can do it."
+      }
+     ]
+    },
+    {
+     "title": "An all-nighter: to or nothing?",
+     "icon": "🌙",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I just pulled an all-nighter. I've got ___ turn in my college applications today.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have got to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Applying for college shouldn't ___ be so much work!",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "should + simple verb. No to."
+      },
+      {
+       "type": "choice",
+       "text": "Three right now. I may ___ do a few later.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "may + simple verb. No to."
+      },
+      {
+       "type": "choice",
+       "text": "I don't graduate until next year, but I might ___ apply early.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "might + simple verb. No to."
+      },
+      {
+       "type": "choice",
+       "text": "You really ought ___. It's stressful waiting until the last minute!",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ought always takes to."
+      },
+      {
+       "type": "choice",
+       "text": "I am able ___ help you now.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be able to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "We are supposed ___ bring our books to class.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "be supposed to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "You must ___ be 18 to apply.",
+       "options": [
+        "to",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "must + simple verb. No to."
+      }
+     ]
+    },
+    {
+     "title": "Modal or phrasal modal?",
+     "icon": "🔀",
+     "items": [
+      {
+       "type": "sort",
+       "word": "can",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 0,
+       "why": "can is a modal: she can."
+      },
+      {
+       "type": "sort",
+       "word": "be able to",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 1,
+       "why": "It changes: she is able to."
+      },
+      {
+       "type": "sort",
+       "word": "must",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 0,
+       "why": "must is a modal: he must."
+      },
+      {
+       "type": "sort",
+       "word": "have to",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 1,
+       "why": "It changes: he has to."
+      },
+      {
+       "type": "sort",
+       "word": "should",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 0,
+       "why": "should is a modal."
+      },
+      {
+       "type": "sort",
+       "word": "be supposed to",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 1,
+       "why": "It changes: we are supposed to."
+      },
+      {
+       "type": "sort",
+       "word": "might",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 0,
+       "why": "might is a modal."
+      },
+      {
+       "type": "sort",
+       "word": "have got to",
+       "buckets": [
+        "Modal (never changes)",
+        "Phrasal modal (uses to)"
+       ],
+       "answer": 1,
+       "why": "It changes: she has got to."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9-2",
+   "tag": "9-2",
+   "t": "plan",
+   "title": "No choice",
+   "full": "Expressing Necessity: Must, Have To, Have Got To",
+   "lesson": {
+    "title": "Learn: must and have to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "It is necessary",
+      "lines": [
+       "must = have to = have got to.",
+       "There is no other choice."
+      ],
+      "visual": [
+       "strength"
+      ],
+      "examples": [
+       {
+        "text": "All applicants must take an entrance exam.",
+        "hl": [
+         [
+          "must take",
+          "plan"
+         ]
+        ]
+       },
+       {
+        "text": "All applicants have to take an entrance exam.",
+        "hl": [
+         [
+          "have to take",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Which one, where?",
+      "left": {
+       "label": "must: rules, signs, strong",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "Cell phones must be in your backpacks during class.",
+         "hl": [
+          [
+           "must be",
+           "plan"
+          ]
+         ]
+        },
+        {
+         "text": "Johnny, you must stay away from the stove.",
+         "hl": [
+          [
+           "must stay",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "have to: everyday life",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "I have to go to a business meeting at 1:00.",
+         "hl": [
+          [
+           "have to go",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "He has to go to a meeting tonight.",
+         "hl": [
+          [
+           "has to go",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "In conversation, people say have to much more than must."
+     },
+     {
+      "type": "choice",
+      "text": "Sorry. Julie and I ___ leave the party early. (two friends talking)",
+      "options": [
+       "must",
+       "have to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Everyday talk → have to."
+     },
+     {
+      "type": "learn",
+      "title": "have got to = gotta",
+      "lines": [
+       "Informal, spoken. Same meaning."
+      ],
+      "chips": [
+       "I have got to go now.",
+       "I've gotta go.",
+       "🗣️ I gotta go."
+      ],
+      "tip": "In writing, keep have: I've got to go. Not: I got to go."
+     },
+     {
+      "type": "learn",
+      "title": "Questions use have to",
+      "lines": [
+       "Do you have to…? Does she have to…?"
+      ],
+      "chips": [
+       "Do you have to leave?",
+       "Does Vicki have to work tomorrow?"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ work tomorrow?",
+      "options": [
+       "Must Vicki to",
+       "Does Vicki have to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Questions → Does + have to."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "must / have to / have got to = necessary. No choice.",
+     "must: rules and signs. have to: everyday. Questions: Do you have to…?"
+    ],
+    "timeline": [
+     "strength"
+    ],
+    "examples": [
+     {
+      "text": "All applicants must take an entrance exam.",
+      "hl": [
+       [
+        "must take",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I have to go to a meeting at 1:00.",
+      "hl": [
+       [
+        "have to go",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I've got to go now.",
+      "hl": [
+       [
+        "'ve got to go",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Chat or rule book?",
+     "icon": "📜",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Oh, gosh. Look at the time. I've got to go. I have class in five minutes!",
+       "options": [
+        "Everyday conversation",
+        "Formal writing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have got to is informal.",
+       "ask": "Where would you find it?"
+      },
+      {
+       "type": "choice",
+       "text": "All applicants must be 18 years of age and must have a valid driver's license.",
+       "options": [
+        "Everyday conversation",
+        "Formal writing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "must = rules and legal information.",
+       "ask": "Where would you find it?"
+      },
+      {
+       "type": "choice",
+       "text": "We have to prepare a research paper in Dr. Chen's seminar this term.",
+       "options": [
+        "Everyday conversation",
+        "Formal writing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have to is the everyday choice.",
+       "ask": "Where would you find it?"
+      },
+      {
+       "type": "choice",
+       "text": "A rule about documents",
+       "options": [
+        "Your signature on the document has to be legible.",
+        "Your signature on the document must be legible."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Rules and documents → must.",
+       "ask": "Which is more common?"
+      },
+      {
+       "type": "choice",
+       "text": "Friends going to a movie",
+       "options": [
+        "We've got to hurry. The movie starts in ten minutes.",
+        "We must hurry. The movie starts in ten minutes."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Friends talking → have got to.",
+       "ask": "Which is more common?"
+      },
+      {
+       "type": "choice",
+       "text": "Talking about friends on the road",
+       "options": [
+        "They have to stop for gas.",
+        "They must stop for gas."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Everyday talk → have to.",
+       "ask": "Which is more common?"
+      },
+      {
+       "type": "choice",
+       "text": "A driving rule",
+       "options": [
+        "Drivers have got to renew their licenses in person.",
+        "Drivers must renew their licenses in person."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A legal rule → must.",
+       "ask": "Which is more common?"
+      }
+     ]
+    },
+    {
+     "title": "must or have to?",
+     "icon": "🛂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "All passengers ___ show their passports to the customs officer.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A rule → must is best."
+      },
+      {
+       "type": "choice",
+       "text": "Mai ___ get up early tomorrow.",
+       "options": [
+        "must",
+        "has to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Everyday life → has to."
+      },
+      {
+       "type": "choice",
+       "text": "Sorry. Julie and I ___ leave the party early.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Everyday talk → have to."
+      },
+      {
+       "type": "choice",
+       "text": "Before an operation, all patients ___ sign a consent form.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A hospital rule → must."
+      },
+      {
+       "type": "choice",
+       "text": "I'll be home a little late. I ___ pick up groceries after work.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Everyday life → have to."
+      },
+      {
+       "type": "choice",
+       "text": "___ work tomorrow?",
+       "options": [
+        "Must Vicki",
+        "Does Vicki have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Questions → have to."
+      },
+      {
+       "type": "choice",
+       "text": "Drivers ___ pull over when they see a police car's flashing lights.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A law → must."
+      },
+      {
+       "type": "choice",
+       "text": "___ play his music so loud every night?",
+       "options": [
+        "Does our neighbor have to",
+        "Must our neighbor to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Questions → Does … have to."
+      },
+      {
+       "type": "choice",
+       "text": "Susie, you ___ put your toys away before you go outside.",
+       "options": [
+        "must",
+        "have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An adult giving a child a rule → must."
+      },
+      {
+       "type": "choice",
+       "text": "___ buy our tickets in advance?",
+       "options": [
+        "Do we have to",
+        "Must we to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Questions → Do we have to."
+      }
+     ]
+    },
+    {
+     "title": "Ask and say it fast",
+     "icon": "🗣️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What ___ after class today?",
+       "options": [
+        "do you have to do",
+        "must you to do",
+        "you have to do"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Question: do + you + have to."
+      },
+      {
+       "type": "choice",
+       "text": "What ___ first thing in the morning?",
+       "options": [
+        "you have to do",
+        "do you have to do",
+        "have you to do"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Question: do + you + have to."
+      },
+      {
+       "type": "choice",
+       "text": "What time ___ in your first class?",
+       "options": [
+        "do you have to be",
+        "you must be",
+        "do you must be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Question: do + you + have to."
+      },
+      {
+       "type": "choice",
+       "text": "What are some rules that students ___ follow?",
+       "options": [
+        "must to",
+        "must",
+        "musts"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "must + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "People say “I hafta be home by eight.” They mean…",
+       "options": [
+        "I have to be home by eight.",
+        "I had to be home by eight."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hafta = have to."
+      },
+      {
+       "type": "choice",
+       "text": "People say “I gotta go.” In writing, it is…",
+       "options": [
+        "I got to go.",
+        "I've got to go."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Keep have in writing: I've got to go."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ go to a meeting tonight.",
+       "options": [
+        "have to",
+        "has to",
+        "must to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He → has to."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What do you have to do?",
+     "task": "Claude asks about your duties today and the rules at your school or job.",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What do you have to do after class or work today? What do you have to do first thing in the morning? What time do you have to be at your first class or at work? What are some rules that students or employees must follow? I answer with have to / have got to for my everyday duties and must for rules. Check the forms (has to with he/she, no 'to' after must)."
+    }
+   ]
+  },
+  {
+   "id": "9-3",
+   "tag": "9-3",
+   "t": "past",
+   "title": "Not needed vs. forbidden",
+   "full": "Lack of Necessity (Not Have To) and Prohibition (Must Not)",
+   "lesson": {
+    "title": "Learn: don't have to vs. must not",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Same meaning, opposite negatives",
+      "lines": [
+       "must = have to.",
+       "But must not ≠ don't have to!"
+      ],
+      "visual": [
+       "not-nec"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Relax, or stop?",
+      "left": {
+       "label": "don't have to = not necessary 😌",
+       "t": "past",
+       "examples": [
+        {
+         "text": "Tomorrow is a holiday. We don't have to go to class.",
+         "hl": [
+          [
+           "don't have to go",
+           "past"
+          ]
+         ]
+        },
+        {
+         "text": "I can hear you. You don't have to shout.",
+         "hl": [
+          [
+           "don't have to shout",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "must not = DON'T 🚫",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "You must not tell anyone my secret.",
+         "hl": [
+          [
+           "must not tell",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "don't have to: you can if you want. must not: no choice. It's forbidden."
+     },
+     {
+      "type": "choice",
+      "text": "The meeting starts in an hour. We have plenty of time. We ___ hurry.",
+      "options": [
+       "must not",
+       "don't have to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No need to hurry → don't have to."
+     },
+     {
+      "type": "choice",
+      "text": "Patients ___ leave the hospital without their doctor's permission.",
+      "options": [
+       "must not",
+       "don't have to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "It is forbidden → must not."
+     },
+     {
+      "type": "learn",
+      "title": "Softer ways to forbid",
+      "lines": [
+       "must not is very strong. People often say:"
+      ],
+      "chips": [
+       "Don't tell anyone my secret.",
+       "You can't tell anyone my secret.",
+       "You'd better not tell anyone my secret."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "don't have to = not necessary (you can if you want).",
+     "must not = forbidden. Don't do it!"
+    ],
+    "timeline": [
+     "not-nec"
+    ],
+    "examples": [
+     {
+      "text": "We don't have to go to class tomorrow.",
+      "hl": [
+       [
+        "don't have to go",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "You must not tell anyone my secret.",
+      "hl": [
+       [
+        "must not tell",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Forbidden or not needed?",
+     "icon": "🐻",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The meeting starts in an hour. We have plenty of time.",
+       "options": [
+        "We must not hurry.",
+        "We don't have to hurry.",
+        "We don't need to hurry."
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "No need → don't have to / don't need to.",
+       "ask": "Tick the answers that make sense"
+      },
+      {
+       "type": "choice",
+       "text": "You ___ skip class. Unexcused absences will lower your grade.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's against the rules → must not."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ contact my professor. I found the information I was looking for.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary now → don't have to."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ go to the doctor. I'm feeling much better.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → don't have to."
+      },
+      {
+       "type": "choice",
+       "text": "Patients ___ leave the hospital without their doctor's permission.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Forbidden → must not."
+      },
+      {
+       "type": "choice",
+       "text": "You ___ introduce me to your doctor. We've already met.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → don't have to."
+      },
+      {
+       "type": "choice",
+       "text": "Park visitors ___ approach the bears. They can be dangerous.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Forbidden and dangerous → must not."
+      },
+      {
+       "type": "choice",
+       "text": "If you encounter a bear, you ___ run. Instead, back away slowly.",
+       "options": [
+        "must not",
+        "don't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Don't do it! → must not."
+      },
+      {
+       "type": "choice",
+       "text": "A person ___ get married in order to lead a happy life.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → doesn't have to."
+      },
+      {
+       "type": "choice",
+       "text": "A person ___ become rich and famous in order to live a successful life.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → doesn't have to."
+      }
+     ]
+    },
+    {
+     "title": "Make it negative",
+     "icon": "➖",
+     "items": [
+      {
+       "type": "fill",
+       "text": "We've got to buy groceries on the way home. → We ___ groceries on the way home.",
+       "verb": "not necessary",
+       "accept": [
+        "don't have to buy"
+       ],
+       "why": "Negative of have (got) to → don't have to."
+      },
+      {
+       "type": "fill",
+       "text": "You have to wait for Martha. → You ___ for Martha.",
+       "verb": "not necessary",
+       "accept": [
+        "don't have to wait"
+       ],
+       "why": "you → don't have to."
+      },
+      {
+       "type": "fill",
+       "text": "The city has got to offer more public transportation. → The city ___ more options.",
+       "verb": "not necessary",
+       "accept": [
+        "doesn't have to offer"
+       ],
+       "why": "The city = it → doesn't have to."
+      },
+      {
+       "type": "fill",
+       "text": "You must fill out the form by tomorrow. → You ___ the form by tomorrow.",
+       "verb": "not necessary",
+       "accept": [
+        "don't have to fill out"
+       ],
+       "why": "Not necessary → don't have to (not must not)."
+      },
+      {
+       "type": "fill",
+       "text": "Jin has to work overtime this weekend. → Jin ___ overtime this weekend.",
+       "verb": "not necessary",
+       "accept": [
+        "doesn't have to work"
+       ],
+       "why": "Jin = he → doesn't have to."
+      },
+      {
+       "type": "choice",
+       "text": "An effective leader ___ use his or her power for personal financial gain.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "That is wrong and forbidden → must not."
+      },
+      {
+       "type": "choice",
+       "text": "An effective leader ___ ignore the wishes of the majority of the people.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A leader should never do it → must not."
+      },
+      {
+       "type": "choice",
+       "text": "An effective leader ___ be wealthy.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → doesn't have to."
+      },
+      {
+       "type": "choice",
+       "text": "An effective leader ___ be male.",
+       "options": [
+        "must not",
+        "doesn't have to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not necessary → doesn't have to."
+      }
+     ]
+    },
+    {
+     "title": "Traveling",
+     "icon": "🧳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Don't carry large sums of money with you.",
+       "options": [
+        "You don't have to carry large sums of money.",
+        "You must not carry large sums of money."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Don't! = must not.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "The guide said it's not necessary to rent a car. There is a bus.",
+       "options": [
+        "You don't have to rent a car.",
+        "You must not rent a car."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Not necessary = don't have to.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "To apply for a visa, proof of citizenship is necessary.",
+       "options": [
+        "You must show proof of citizenship.",
+        "You have to show proof of citizenship.",
+        "You should show proof of citizenship."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Necessary = must / have to.",
+       "ask": "Tick all with the same meaning"
+      },
+      {
+       "type": "choice",
+       "text": "It will be a good idea to arrive at the train station early tomorrow.",
+       "options": [
+        "You ought to arrive early.",
+        "You should arrive early.",
+        "You must arrive early."
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A good idea = should / ought to.",
+       "ask": "Tick all with the same meaning"
+      },
+      {
+       "type": "choice",
+       "text": "Only airline passengers with boarding passes can go to the gate.",
+       "options": [
+        "To go to the gate, passengers should have boarding passes.",
+        "To go to the gate, passengers must have boarding passes."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A requirement = must.",
+       "ask": "Same meaning?"
+      },
+      {
+       "type": "choice",
+       "text": "“You'd better not tell anyone my secret.”",
+       "options": [
+        "It's not necessary to tell.",
+        "Don't tell! (a warning)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "had better not = a strong “don't”.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“You can't tell anyone my secret.”",
+       "options": [
+        "Telling is forbidden.",
+        "Telling is not necessary."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can't here = it is not allowed.",
+       "ask": "What does it mean?"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "A good leader",
+     "task": "What must a good leader do, and what doesn't a leader have to be? Tell Claude.",
+     "claudePrompt": "You are my English speaking partner. Ask me about an effective leader of a country, one quality at a time: be well educated / be flexible and open to new ideas / be wealthy / have a family / have a military background / use power for personal financial gain / ignore the wishes of the majority / be a good public speaker. For each, I say: An effective leader must ..., must not ..., has to ..., or doesn't have to ..., and give a short reason. Check that I use must not for prohibition and doesn't have to for lack of necessity."
+    }
+   ]
+  },
+  {
+   "id": "9-4",
+   "tag": "9-4",
+   "t": "prog",
+   "title": "Good advice",
+   "full": "Advisability/Suggestions: Should, Ought To, Had Better, Could",
+   "lesson": {
+    "title": "Learn: should, ought to, had better, could",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "should = ought to",
+      "lines": [
+       "This is a good idea. This is my advice."
+      ],
+      "visual": [
+       "strength"
+      ],
+      "examples": [
+       {
+        "text": "You should study harder.",
+        "hl": [
+         [
+          "should study",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "You ought to study harder.",
+        "hl": [
+         [
+          "ought to study",
+          "prog"
+         ]
+        ]
+       }
+      ],
+      "tip": "Negative: shouldn't. (ought to is rare in the negative.)"
+     },
+     {
+      "type": "learn",
+      "title": "had better = or else!",
+      "lines": [
+       "Stronger. A warning about a bad result."
+      ],
+      "chips": [
+       "We had better stop at the next gas station. (or we'll run out of gas)",
+       "You'd better take care of that cut.",
+       "You'd better not be late."
+      ],
+      "tip": "Form: had better + simple verb. It talks about now or the future, not the past."
+     },
+     {
+      "type": "choice",
+      "text": "The gas tank is almost empty. We ___ stop at the next gas station.",
+      "options": [
+       "had better",
+       "had better to",
+       "have better"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "had better + simple verb. No to."
+     },
+     {
+      "type": "compare",
+      "title": "should vs. could",
+      "left": {
+       "label": "should: I recommend this",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "You should talk to your teacher.",
+         "hl": [
+          [
+           "should talk",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "could: here are some options",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "You could talk to your teacher.",
+         "hl": [
+          [
+           "could talk",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "Or you could ask Ann to help you.",
+         "hl": [
+          [
+           "could ask",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Softer still: Maybe you should… / You might want to… / I would…"
+     },
+     {
+      "type": "choice",
+      "text": "“He could call his doctor. Or he could postpone his trip.” The speaker is…",
+      "options": [
+       "giving one strong recommendation",
+       "listing possible ideas"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "could = possibilities, not one firm answer."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "should / ought to = a good idea. had better = a warning (or else…).",
+     "could = one possible idea. had better + simple verb, no to."
+    ],
+    "timeline": [
+     "strength"
+    ],
+    "examples": [
+     {
+      "text": "You should study harder.",
+      "hl": [
+       [
+        "should study",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "We had better stop at the next gas station.",
+      "hl": [
+       [
+        "had better stop",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "You could talk to your teacher.",
+      "hl": [
+       [
+        "could talk",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Best advice",
+     "icon": "🦷",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Amir has a bad toothache.",
+       "options": [
+        "He should see a dentist.",
+        "He should get a friend to pull the tooth right away.",
+        "He should call an ambulance."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A dentist is the sensible advice.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "The shoes I bought last week don't fit. I've only worn them indoors.",
+       "options": [
+        "You should take them back to the store.",
+        "You had better wear them every day.",
+        "You shouldn't tell anyone."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Unworn outdoors → return them.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "Flights fill up fast near the holidays. I haven't gotten my ticket yet.",
+       "options": [
+        "You could wait a few more months.",
+        "You'd better buy your ticket soon.",
+        "You shouldn't fly."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A warning: or there will be no seats.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "Yikes! My class starts in five minutes.",
+       "options": [
+        "You'd better hurry.",
+        "You ought to take a nap.",
+        "You could eat lunch first."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Or you will be late → You'd better hurry.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "I have the hiccups.",
+       "options": [
+        "You must call the police.",
+        "You could drink a glass of water.",
+        "You had better not breathe."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "could = one possible idea.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "I bought these expensive apples, and all of them are rotten inside.",
+       "options": [
+        "You should eat them anyway.",
+        "You ought to take them back and ask for a refund.",
+        "You'd better buy more."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A good idea → ought to take them back.",
+       "ask": "Choose the best advice"
+      },
+      {
+       "type": "choice",
+       "text": "I have six months to improve my English.",
+       "options": [
+        "You should practice a little every day.",
+        "You shouldn't speak English.",
+        "You had better stop studying."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A good idea → should practice.",
+       "ask": "Choose the best advice"
+      }
+     ]
+    },
+    {
+     "title": "How strong is the advice?",
+     "icon": "💪",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Ted feels sick and has a flight tomorrow. “He should go to urgent care right now.”",
+       "options": [
+        "A definite recommendation",
+        "One of several possible ideas"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should = this is what I recommend.",
+       "ask": "The speaker is giving…"
+      },
+      {
+       "type": "choice",
+       "text": "“Well, he could call his doctor for advice. Or he could postpone his trip.”",
+       "options": [
+        "A definite recommendation",
+        "Possible ideas"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "could = possibilities.",
+       "ask": "The speaker is giving…"
+      },
+      {
+       "type": "choice",
+       "text": "“You should take the airport shuttle. It's cheaper than a taxi.”",
+       "options": [
+        "A definite recommendation",
+        "Possible ideas"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should = my recommendation.",
+       "ask": "The speaker is giving…"
+      },
+      {
+       "type": "choice",
+       "text": "“You could take the shuttle. Maybe you could ask Matt to drive you.”",
+       "options": [
+        "A definite recommendation",
+        "Possible ideas"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "could = possibilities.",
+       "ask": "The speaker is giving…"
+      },
+      {
+       "type": "choice",
+       "text": "You ___ take care of that cut on your hand soon, or it will get infected.",
+       "options": [
+        "could",
+        "had better"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A bad result is coming → had better."
+      },
+      {
+       "type": "choice",
+       "text": "You'd better ___ late.",
+       "options": [
+        "not be",
+        "don't be",
+        "not to be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had better + not + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "I ___ study tonight, but I think I'll watch TV instead.",
+       "options": [
+        "ought to",
+        "ought",
+        "oughts to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ought + to + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "You ___ leave your keys in the car.",
+       "options": [
+        "shouldn't",
+        "shouldn't to",
+        "don't should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should + not = shouldn't + verb."
+      }
+     ]
+    },
+    {
+     "title": "should or have to?",
+     "icon": "🍚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A person ___ eat in order to live.",
+       "options": [
+        "has to",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is necessary to stay alive → has to."
+      },
+      {
+       "type": "choice",
+       "text": "A person ___ eat a balanced diet.",
+       "options": [
+        "has to",
+        "should"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A good idea → should."
+      },
+      {
+       "type": "choice",
+       "text": "The weather is so gloomy. Maybe we ___ go somewhere warm for our vacation.",
+       "options": [
+        "have to",
+        "should"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Maybe + a good idea → should."
+      },
+      {
+       "type": "choice",
+       "text": "An incoming freshman ___ have four years of high school English. Three is not enough.",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A requirement → must."
+      },
+      {
+       "type": "choice",
+       "text": "If you want to become a doctor, you ___ go to medical school for many years.",
+       "options": [
+        "have to",
+        "could"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "There is no other way → have to."
+      },
+      {
+       "type": "choice",
+       "text": "I don't have enough money to take the bus, so I ___ walk home.",
+       "options": [
+        "have to",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No choice → have to."
+      },
+      {
+       "type": "choice",
+       "text": "If you want to get more exercise, you ___ walk to and from work.",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A good idea → should."
+      },
+      {
+       "type": "choice",
+       "text": "Rice ___ have water in order to grow.",
+       "options": [
+        "must",
+        "should"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is necessary → must."
+      }
+     ]
+    },
+    {
+     "title": "Aunt Kate's advice",
+     "icon": "💌",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“I think you should be more direct.”",
+       "options": [
+        "This is my recommendation.",
+        "This is the law."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should = advice.",
+       "ask": "What does Aunt Kate mean?",
+       "ctx": "Lillian's roommate is very messy."
+      },
+      {
+       "type": "choice",
+       "text": "“There are a few ways you could handle this.”",
+       "options": [
+        "You must do all of them.",
+        "Here are some possible ideas."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "could = options.",
+       "ask": "What does Aunt Kate mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“You might want to sit down with her and say…”",
+       "options": [
+        "A soft, gentle suggestion",
+        "A strong warning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "might want to = a soft suggestion.",
+       "ask": "What does Aunt Kate mean?"
+      },
+      {
+       "type": "choice",
+       "text": "“You could tell her that all her stuff has to be on her side of the line.”",
+       "options": [
+        "It is necessary: a rule",
+        "It is a nice idea"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has to = necessary.",
+       "ask": "What does “has to” mean here?"
+      },
+      {
+       "type": "choice",
+       "text": "“If she won't make any changes, I would talk to a dorm advisor.”",
+       "options": [
+        "If I were you, I'd do this.",
+        "I talked to an advisor last year."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I would… = advice: if I were you.",
+       "ask": "What does Aunt Kate mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Which is the softest advice?",
+       "options": [
+        "You had better talk to her.",
+        "You should talk to her.",
+        "Maybe you could talk to her."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Maybe + could = the softest."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Dear Claude, I need advice",
+     "task": "Invent a small problem. Claude gives advice. Then you give advice for Claude's problem.",
+     "claudePrompt": "You are my English speaking partner. First ask me to describe a small personal problem (real or invented), like a messy roommate. Give me short advice using should, could and had better. Then tell me one problem of your own and ask for my advice. I must use should / ought to / had better / could. Check the forms (had better + simple verb, no 'to' after should)."
+    },
+    {
+     "title": "Oops!",
+     "task": "Claude has little accidents. Tell Claude what to do: “You'd better…”, “You could…”.",
+     "claudePrompt": "You are my English speaking partner. Tell me one small problem at a time: Oops! I spilled coffee on my shirt. / My boss is coming for dinner and I'm a terrible cook. / I've been studying for three days straight. / My apartment is a mess and my mother is coming tomorrow. I answer with advice using You'd better ..., You should ..., or Maybe you could .... Check the forms."
+    }
+   ]
+  },
+  {
+   "id": "9-5",
+   "tag": "9-5",
+   "t": "prog",
+   "title": "What people expect",
+   "full": "Expectation: Be Supposed To/Should",
+   "lesson": {
+    "title": "Learn: be supposed to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Someone expects it",
+      "lines": [
+       "am / is / are supposed to + verb.",
+       "A plan, a rule, or good manners."
+      ],
+      "chips": [
+       "The game is supposed to begin at 10:00. (schedule)",
+       "The committee is supposed to vote by secret ballot. (correct way)",
+       "The children are supposed to put away their toys. (behavior)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "We ___ bring our books to class every day.",
+      "options": [
+       "supposed to",
+       "are supposed to",
+       "are suppose to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be + supposed (with d) + to."
+     },
+     {
+      "type": "learn",
+      "title": "I am supposed to ≠ I suppose",
+      "lines": [
+       "I am supposed to go = people expect me to go.",
+       "I suppose = I guess."
+      ],
+      "chips": [
+       "I am supposed to go to the meeting. My boss wants me there.",
+       "I suppose you're right."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "should = I expect it soon",
+      "lines": [
+       "should can mean “I think it will happen”."
+      ],
+      "chips": [
+       "The mail should be here soon.",
+       "Amy should be back any minute."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "It's 10:00. I expect the movie is over now. = The movie ___ over now.",
+      "options": [
+       "should be",
+       "should is"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "should + simple verb be."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "be supposed to = someone expects it (schedule, rule, manners).",
+     "should can also mean: I expect it to happen."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "The game is supposed to begin at 10:00.",
+      "hl": [
+       [
+        "is supposed to begin",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Amy should be back any minute.",
+      "hl": [
+       [
+        "should be",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "What are you supposed to do?",
+     "icon": "🚦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "In my country, students ___ stand up when a teacher enters the room.",
+       "options": [
+        "are supposed to",
+        "supposed to",
+        "is supposed to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "students = they → are supposed to."
+      },
+      {
+       "type": "choice",
+       "text": "If a traffic light turns red, you ___ come to a complete stop.",
+       "options": [
+        "are suppose to",
+        "are supposed to",
+        "supposed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "be + supposed + to."
+      },
+      {
+       "type": "choice",
+       "text": "The game ___ begin at 10:00.",
+       "options": [
+        "is supposed to",
+        "are supposed to",
+        "supposes to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The game = it → is supposed to."
+      },
+      {
+       "type": "choice",
+       "text": "What time ___ be at the train station tomorrow?",
+       "options": [
+        "we supposed to",
+        "are we supposed to",
+        "do we supposed to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Question: are + we + supposed to."
+      },
+      {
+       "type": "choice",
+       "text": "The janitor ___ unlock the building doors.",
+       "options": [
+        "supposed to",
+        "is supposed to",
+        "is supposing to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The janitor = he → is supposed to."
+      },
+      {
+       "type": "choice",
+       "text": "I am supposed to go to the meeting.",
+       "options": [
+        "I guess I will go.",
+        "Someone expects me to go."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "am supposed to = am expected to.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Athletes in training ___ stay up all night.",
+       "options": [
+        "aren't supposed to",
+        "don't supposed to",
+        "aren't suppose to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Negative: be + not + supposed to."
+      }
+     ]
+    },
+    {
+     "title": "I expect… → should",
+     "icon": "📬",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I expect the movie is over now. → The movie ___ over now.",
+       "verb": "be",
+       "accept": [
+        "should be"
+       ],
+       "why": "should + simple verb be.",
+       "ctx": "It's 10:00."
+      },
+      {
+       "type": "fill",
+       "text": "I expect Aja will hear about the job offer soon. → Aja ___ about the job offer soon.",
+       "verb": "hear",
+       "accept": [
+        "should hear"
+       ],
+       "why": "should + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I expect your advisor will have a solution for you. → Your advisor ___ a solution for you.",
+       "verb": "have",
+       "accept": [
+        "should have"
+       ],
+       "why": "should + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I expect our flight will take off on time. → Our flight ___ on time.",
+       "verb": "take off",
+       "accept": [
+        "should take off"
+       ],
+       "why": "should + simple verb."
+      },
+      {
+       "type": "fill",
+       "text": "I expect the mail will be here soon. → The mail ___ here soon.",
+       "verb": "be",
+       "accept": [
+        "should be"
+       ],
+       "why": "should + simple verb be."
+      },
+      {
+       "type": "choice",
+       "text": "The teacher should be back any minute. She just needed to get supplies.",
+       "options": [
+        "I expect she will be back very soon.",
+        "She has a duty to come back."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Here should = I expect it.",
+       "ask": "What does it mean?"
+      }
+     ]
+    },
+    {
+     "title": "Which is stronger?",
+     "icon": "🏋️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Seat belt (1)",
+       "options": [
+        "You had better wear a seat belt.",
+        "You have to wear a seat belt."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have to = no choice.",
+       "ask": "Which sentence is stronger?"
+      },
+      {
+       "type": "choice",
+       "text": "Seat belt (2)",
+       "options": [
+        "You must wear a seat belt.",
+        "You had better wear a seat belt."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "must = no choice.",
+       "ask": "Which sentence is stronger?"
+      },
+      {
+       "type": "choice",
+       "text": "Seat belt (3)",
+       "options": [
+        "You have to wear a seat belt.",
+        "You are supposed to wear a seat belt."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have to is stronger than an expectation.",
+       "ask": "Which sentence is stronger?"
+      },
+      {
+       "type": "choice",
+       "text": "ID (1)",
+       "options": [
+        "We are supposed to bring ID.",
+        "We have to bring ID."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have to = necessary.",
+       "ask": "Which sentence is stronger?"
+      },
+      {
+       "type": "choice",
+       "text": "ID (2)",
+       "options": [
+        "We ought to bring ID.",
+        "We have got to bring ID."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "have got to = necessary.",
+       "ask": "Which sentence is stronger?"
+      },
+      {
+       "type": "choice",
+       "text": "ID (3)",
+       "options": [
+        "We should bring ID.",
+        "We could bring ID."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should (advice) is stronger than could (an idea).",
+       "ask": "Which sentence is stronger?"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Jobs and duties",
+     "task": "What should a nurse, a taxi driver or a tour guide do? What must they not do?",
+     "claudePrompt": "You are my English speaking partner. Name one job at a time (a tour guide, an artist, an engineer, a nurse, a taxi driver, a salesclerk, a plumber, a vet). I make two or three sentences about it using should, have to, be supposed to, must, must not, doesn't have to, had better not (for example: A vet should be very gentle with animals.). Check my modal forms."
+    },
+    {
+     "title": "Customs in my country",
+     "task": "What are people supposed to do in your country (shoes, greetings, classrooms)?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about customs in my country: Are people supposed to take off their shoes before they enter a home? Are students supposed to stand up when a teacher enters? How are children supposed to address adults? What are you supposed to do if you are involved in a traffic accident? I answer with be (not) supposed to. Check the form: am/is/are + supposed + to."
+    }
+   ]
+  },
+  {
+   "id": "9-6",
+   "tag": "9-6",
+   "t": "pres",
+   "title": "I can do it",
+   "full": "Ability: Can, Know How To, and Be Able To",
+   "lesson": {
+    "title": "Learn: can, know how to, be able to",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "can = ability",
+      "lines": [
+       "Body power, or the five senses."
+      ],
+      "chips": [
+       "Tom is strong. He can lift that heavy box.",
+       "I can see Central Park from my apartment.",
+       "can't = cannot"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Learned skills: know how to",
+      "lines": [
+       "You learned it? Both work."
+      ],
+      "chips": [
+       "Maria can play the piano.",
+       "Maria knows how to play the piano."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Larry ___ start a fire without matches. He learned it at camp.",
+      "options": [
+       "knows how to",
+       "know how to",
+       "knows how"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "He → knows + how to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "be able to = can",
+      "lines": [
+       "Same meaning. It changes with the subject."
+      ],
+      "chips": [
+       "I am able to help you now.",
+       "Are you able to help me?",
+       "Sorry, I'm not able to help you.",
+       "Sorry, I'm unable to help you."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ___ help you. I don't have training in this area.",
+      "options": [
+       "not able",
+       "am not able to",
+       "am not able"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "be + not + able + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Hearing can and can't",
+      "lines": [
+       "can is weak and fast: “kn”. can't is strong and clear."
+      ],
+      "chips": [
+       "The secretary can help you.",
+       "My mother can't speak English well."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "can = ability. can / know how to = a learned skill.",
+     "be able to = can: I am able to help. I'm not able to help."
+    ],
+    "timeline": [
+     "modal-form"
+    ],
+    "examples": [
+     {
+      "text": "He can lift that heavy box.",
+      "hl": [
+       [
+        "can lift",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Maria knows how to play the piano.",
+      "hl": [
+       [
+        "knows how to play",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "I am able to help you now.",
+      "hl": [
+       [
+        "am able to help",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Ability or skill?",
+     "icon": "♟️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Isabel knows how to play chess.",
+       "options": [
+        "A physical ability",
+        "A learned skill"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Chess is something you learn.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "Jonathan can run really fast. He's a natural.",
+       "options": [
+        "A physical ability",
+        "A learned skill"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A natural = body ability.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "Theodore knows how to use sign language. His mother taught him.",
+       "options": [
+        "A physical ability",
+        "A learned skill"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She taught him → learned.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "I won't be able to go swimming on our trip. I have an ear infection.",
+       "options": [
+        "A physical ability",
+        "A learned skill"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The body can't do it now.",
+       "ask": "This sentence is about…"
+      },
+      {
+       "type": "choice",
+       "text": "Tom is strong. He ___ that heavy box.",
+       "options": [
+        "can lift",
+        "can lifts",
+        "cans lift"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "My husband ___ awake past 10:00.",
+       "options": [
+        "cannot stay",
+        "cannot to stay",
+        "not can stay"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "cannot + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Maria ___ the piano. She's been taking lessons for years.",
+       "options": [
+        "know how to play",
+        "knows how to play",
+        "knows how play"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She → knows how to play."
+      },
+      {
+       "type": "choice",
+       "text": "Sorry, I'm ___ help you. It's too heavy.",
+       "options": [
+        "unable to",
+        "unable",
+        "not able"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "unable to = not able to."
+      }
+     ]
+    },
+    {
+     "title": "Say it with be able to",
+     "icon": "🔥",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Larry can start a fire without matches. → Larry ___ a fire without matches.",
+       "verb": "be able to",
+       "accept": [
+        "is able to start"
+       ],
+       "why": "Larry = he → is able to."
+      },
+      {
+       "type": "fill",
+       "text": "I can't send a text. I left my phone at home. → I ___ a text.",
+       "verb": "be able to",
+       "accept": [
+        "am not able to send",
+        "am unable to send"
+       ],
+       "why": "I → am not able to."
+      },
+      {
+       "type": "fill",
+       "text": "Can you read the doctor's handwriting? → ___ the doctor's handwriting?",
+       "verb": "be able to",
+       "accept": [
+        "Are you able to read"
+       ],
+       "why": "Question: Are you able to…?"
+      },
+      {
+       "type": "fill",
+       "text": "Thomas can't drive without glasses. → Thomas ___ without glasses.",
+       "verb": "be able to",
+       "accept": [
+        "isn't able to drive",
+        "is unable to drive"
+       ],
+       "why": "Thomas = he → isn't able to."
+      },
+      {
+       "type": "fill",
+       "text": "I can't remove the stain on your white shirt. → I ___ the stain.",
+       "verb": "be able to",
+       "accept": [
+        "am not able to remove",
+        "am unable to remove"
+       ],
+       "why": "I → am not able to."
+      },
+      {
+       "type": "fill",
+       "text": "Every employee can do CPR. → Every employee ___ CPR.",
+       "verb": "be able to",
+       "accept": [
+        "is able to do"
+       ],
+       "why": "Every employee → is able to."
+      }
+     ]
+    },
+    {
+     "title": "Skills and sounds (with listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Larry can start a fire without matches.",
+       "options": [
+        "Yes: Larry knows how to start a fire.",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A learned skill → know how to works.",
+       "ask": "Can you say it with know how to?"
+      },
+      {
+       "type": "choice",
+       "text": "I can't send a text. I left my phone at home.",
+       "options": [
+        "Yes",
+        "No: it's not about a skill."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The problem is the phone, not the skill.",
+       "ask": "Can you say it with know how to?"
+      },
+      {
+       "type": "choice",
+       "text": "Every employee can do CPR.",
+       "options": [
+        "Yes: Every employee knows how to do CPR.",
+        "No"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "CPR is a learned skill.",
+       "ask": "Can you say it with know how to?"
+      },
+      {
+       "type": "listen",
+       "say": "We can come to the meeting.",
+       "ask": "What did you hear?",
+       "options": [
+        "can come",
+        "can't come"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can is weak and fast."
+      },
+      {
+       "type": "listen",
+       "say": "Our two-year-old can count to fifty.",
+       "ask": "What did you hear?",
+       "options": [
+        "can count",
+        "can't count"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can is weak and fast."
+      },
+      {
+       "type": "listen",
+       "say": "You can't take that course next term.",
+       "ask": "What did you hear?",
+       "options": [
+        "can take",
+        "can't take"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't is strong and clear."
+      },
+      {
+       "type": "listen",
+       "say": "I can't cook complicated dishes.",
+       "ask": "What did you hear?",
+       "options": [
+        "can cook",
+        "can't cook"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't is strong and clear."
+      },
+      {
+       "type": "listen",
+       "say": "Can you come with us?",
+       "ask": "What did you hear?",
+       "options": [
+        "Can you come",
+        "Can't you come"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A normal question with can."
+      },
+      {
+       "type": "listen",
+       "say": "I can't drive a semi-truck.",
+       "ask": "What did you hear?",
+       "options": [
+        "can drive",
+        "can't drive"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't is strong and clear."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Sleep habits",
+     "task": "Claude asks about your sleep: Are you able to fall asleep easily? Can you sleep on airplanes?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about my sleep habits: In general, are you able to fall asleep easily? How many hours can you sleep before waking up? Are you able to function well with less sleep? Are you able to sleep with noise? Can you sleep on airplanes? Do you know how to recover from jet lag quickly? I answer in full sentences with can / can't / am (not) able to / know how to. Check the forms."
+    }
+   ]
+  },
+  {
+   "id": "9-7",
+   "tag": "9-7",
+   "t": "pastprog",
+   "title": "Maybe",
+   "full": "Possibility: Can, May, Might",
+   "lesson": {
+    "title": "Learn: can vs. may / might",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "compare",
+      "title": "Two kinds of “possible”",
+      "left": {
+       "label": "can: it happens in general",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Spices can be expensive.",
+         "hl": [
+          [
+           "can be",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "You can learn a lot by watching cooking shows.",
+         "hl": [
+          [
+           "can learn",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "may / might: a chance, this time",
+       "t": "pastprog",
+       "examples": [
+        {
+         "text": "Spices may be more expensive at that store.",
+         "hl": [
+          [
+           "may be",
+           "pastprog"
+          ]
+         ]
+        },
+        {
+         "text": "Liza might need your help in the kitchen.",
+         "hl": [
+          [
+           "might need",
+           "pastprog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "may = might here. Both mean: there is a chance."
+     },
+     {
+      "type": "choice",
+      "text": "Pepper ___ make people sneeze. (a general fact)",
+      "options": [
+       "can",
+       "might to"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A general possibility → can."
+     },
+     {
+      "type": "learn",
+      "title": "Not can for one chance",
+      "lines": [
+       "One real situation, now or tomorrow? Use may / might."
+      ],
+      "chips": [
+       "✅ It may snow tomorrow night.",
+       "✅ It might snow tomorrow night.",
+       "❌ It can snow tomorrow night."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "There is a 50% chance. It ___ snow tomorrow night.",
+      "options": [
+       "can",
+       "might"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "One future chance → might / may."
+     },
+     {
+      "type": "choice",
+      "text": "This apartment sounds nice, but it ___ be too far away from my job.",
+      "options": [
+       "can",
+       "may"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "One specific apartment → may."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "can = generally possible: Spices can be expensive.",
+     "may / might = there is a chance now or later: It might snow."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "Spices can be expensive.",
+      "hl": [
+       [
+        "can be",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "It might snow tomorrow night.",
+      "hl": [
+       [
+        "might snow",
+        "pastprog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "General, or one chance?",
+     "icon": "🌶️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "This soup may need salt and pepper.",
+       "options": [
+        "Generally possible (it happens)",
+        "A chance now or in the future"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "This soup, right now → a chance.",
+       "ask": "What kind of possibility?"
+      },
+      {
+       "type": "choice",
+       "text": "Pepper can make people sneeze.",
+       "options": [
+        "Generally possible (it happens)",
+        "A chance now or in the future"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True in general.",
+       "ask": "What kind of possibility?"
+      },
+      {
+       "type": "choice",
+       "text": "Spices can make food taste better.",
+       "options": [
+        "Generally possible (it happens)",
+        "A chance now or in the future"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True in general.",
+       "ask": "What kind of possibility?"
+      },
+      {
+       "type": "choice",
+       "text": "My cooking tonight might be too spicy for you.",
+       "options": [
+        "Generally possible (it happens)",
+        "A chance now or in the future"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Tonight only → a chance.",
+       "ask": "What kind of possibility?"
+      },
+      {
+       "type": "judge",
+       "text": "Physical exercise can improve your mental state.",
+       "answer": "correct",
+       "why": "A general possibility → can is fine."
+      },
+      {
+       "type": "judge",
+       "text": "The weather may be breezy tomorrow.",
+       "answer": "correct",
+       "why": "One future chance → may."
+      },
+      {
+       "type": "judge",
+       "text": "The weather can be breezy tomorrow.",
+       "answer": "wrong",
+       "why": "One future chance → may / might, not can.",
+       "fix": "The weather may be breezy tomorrow."
+      },
+      {
+       "type": "judge",
+       "text": "Eating out every day can be expensive.",
+       "answer": "correct",
+       "why": "True in general → can."
+      },
+      {
+       "type": "judge",
+       "text": "The apartment sounds nice, but it can be too far away from my job.",
+       "answer": "wrong",
+       "why": "One specific case → may / might.",
+       "fix": "The apartment sounds nice, but it may be too far away from my job."
+      },
+      {
+       "type": "judge",
+       "text": "Eating out every day might be expensive for you.",
+       "answer": "correct",
+       "why": "A chance for one person → might."
+      }
+     ]
+    },
+    {
+     "title": "A challenge for freshmen",
+     "icon": "🎒",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Freshman year CAN turn out to be the most challenging time in college.",
+       "options": [
+        "It is generally possible.",
+        "It is necessary."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can = a general possibility.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "One of the biggest differences is the amount of freedom you MUST learn to manage.",
+       "options": [
+        "It is necessary.",
+        "There is a small chance."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "must = necessary.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "In high school, you generally CAN'T choose how you spend your day.",
+       "options": [
+        "It is not possible / not allowed.",
+        "It is not necessary."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can't = not possible.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "The class schedule MIGHT NOT be the same every day.",
+       "options": [
+        "There is a chance it isn't.",
+        "It is forbidden."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "might not = maybe not.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "You can sleep in one morning and HAVE TO be up early the next.",
+       "options": [
+        "It is necessary.",
+        "It is a good idea."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have to = necessary.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "College professors DON'T HAVE TO take attendance.",
+       "options": [
+        "It is forbidden.",
+        "It is not necessary."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "don't have to = not necessary.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Your grades MAY suffer if you can't manage time well.",
+       "options": [
+        "There is a chance.",
+        "It is certain."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "may = there is a chance.",
+       "ask": "What does the modal mean?"
+      },
+      {
+       "type": "choice",
+       "text": "With an understanding of the challenges ahead, you CAN prepare in advance.",
+       "options": [
+        "You are able to.",
+        "You are expected to."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can = it is possible for you.",
+       "ask": "What does the modal mean?"
+      }
+     ]
+    },
+    {
+     "title": "can or might?",
+     "icon": "📚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Online courses ___ be convenient for busy people.",
+       "options": [
+        "can",
+        "must not"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True in general → can."
+      },
+      {
+       "type": "choice",
+       "text": "Take an umbrella. It ___ rain this afternoon.",
+       "options": [
+        "can",
+        "might"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One future chance → might."
+      },
+      {
+       "type": "choice",
+       "text": "People ___ learn a lot about life from traveling.",
+       "options": [
+        "can",
+        "may to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True in general → can."
+      },
+      {
+       "type": "choice",
+       "text": "I'm not sure where Liza is. She ___ be in the kitchen.",
+       "options": [
+        "can",
+        "may"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A chance right now → may."
+      },
+      {
+       "type": "choice",
+       "text": "Music ___ help you feel calmer tonight. Try it.",
+       "options": [
+        "might",
+        "cans"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A chance, this time → might."
+      },
+      {
+       "type": "choice",
+       "text": "Too much sun ___ be dangerous.",
+       "options": [
+        "can",
+        "might to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True in general → can."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "It can… / It might…",
+     "task": "Finish Claude's sentences: “Online courses can be…”, “Music might help us feel…”.",
+     "claudePrompt": "You are my English speaking partner. Give me one sentence starter at a time and ask me to finish it: Students may learn best ... / Online courses can be ... / Studying all classes online might be ... / People can learn a lot about life from ... / Music might help us feel ... / Literature may help us ... Check that I use can for general possibility and may/might for a chance."
+    },
+    {
+     "title": "Managing your time",
+     "task": "What should a student do to manage time better? Give Claude 4 tips.",
+     "claudePrompt": "You are my English speaking partner. Ask me: What are some major distractions for students today? Has time management ever been a problem for you? Then ask me for four recommendations for a student who needs to manage time better. I must use should / should not / ought to / had better. Check the forms."
+    }
+   ]
+  },
+  {
+   "id": "9-8",
+   "tag": "9-8",
+   "t": "state",
+   "title": "Asking nicely",
+   "full": "Requests and Responses with Modals",
+   "lesson": {
+    "title": "Learn: polite requests",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two kinds of request",
+      "lines": [
+       "May I…? = I want to do something.",
+       "Would you…? = I want YOU to do something."
+      ],
+      "visual": [
+       "polite"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "I + May / Could / Can",
+      "lines": [
+       "May I is the most formal. Can I is the most relaxed."
+      ],
+      "chips": [
+       "May I borrow your pen, please?",
+       "Could I please borrow your pen?",
+       "Can I borrow your pen?"
+      ],
+      "tip": "Could I…? is about now, not the past."
+     },
+     {
+      "type": "learn",
+      "title": "Asking you to do it",
+      "lines": [
+       "Would you and Could you are the most polite."
+      ],
+      "chips": [
+       "Would you pass the salt, please?",
+       "Could you pass the salt?",
+       "Will you please pass the salt?",
+       "Can you pass the salt? (informal)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ you help me?",
+      "options": [
+       "May",
+       "Could"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "May is only for I / we. → Could you…?"
+     },
+     {
+      "type": "learn",
+      "title": "How to answer",
+      "lines": [
+       "Say yes kindly. Saying no? Start with “I'd like to, but…”"
+      ],
+      "chips": [
+       "Certainly.",
+       "Of course.",
+       "Sure. (informal)",
+       "I'd be happy to.",
+       "I'd like to, but I can't reach it."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Hello. ___ I help you?",
+      "options": [
+       "Would",
+       "May"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "With I → May / Could / Can. Not Would."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "I do it: May I / Could I / Can I…? You do it: Would you / Could you / Will you / Can you…?",
+     "Never: May you…?"
+    ],
+    "timeline": [
+     "polite"
+    ],
+    "examples": [
+     {
+      "text": "May I borrow your pen, please?",
+      "hl": [
+       [
+        "May I",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Would you pass the salt, please?",
+      "hl": [
+       [
+        "Would you",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Which words fit?",
+     "icon": "🧂",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Excuse me, ___ I look at that book?",
+       "options": [
+        "Can",
+        "Could",
+        "Would",
+        "May",
+        "Will"
+       ],
+       "answer": [
+        0,
+        1,
+        3
+       ],
+       "why": "With I → Can, Could, May.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "___ you hand me that book, please?",
+       "options": [
+        "Can",
+        "Could",
+        "Would",
+        "May",
+        "Will"
+       ],
+       "answer": [
+        0,
+        1,
+        2,
+        4
+       ],
+       "why": "With you → not May.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "___ you pass the salt, please?",
+       "options": [
+        "Can",
+        "Could",
+        "May",
+        "Would"
+       ],
+       "answer": [
+        0,
+        1,
+        3
+       ],
+       "why": "With you → not May.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "choice",
+       "text": "Hello. ___ I help you?",
+       "options": [
+        "Can",
+        "Would",
+        "May",
+        "Could"
+       ],
+       "answer": [
+        0,
+        2,
+        3
+       ],
+       "why": "With I → not Would.",
+       "ask": "Tick all that fit"
+      },
+      {
+       "type": "judge",
+       "text": "May you help me?",
+       "answer": "wrong",
+       "why": "May is only for I / we.",
+       "fix": "Could you help me?"
+      },
+      {
+       "type": "judge",
+       "text": "Could I please borrow your pen?",
+       "answer": "correct",
+       "why": "Could I = a polite request now."
+      },
+      {
+       "type": "judge",
+       "text": "Would I leave a few minutes early today?",
+       "answer": "wrong",
+       "why": "With I → May / Could.",
+       "fix": "May I leave a few minutes early today?"
+      },
+      {
+       "type": "judge",
+       "text": "You may pay the bill online if you prefer.",
+       "answer": "correct",
+       "why": "may = you have permission."
+      }
+     ]
+    },
+    {
+     "title": "Who will do it?",
+     "icon": "🙋",
+     "items": [
+      {
+       "type": "choice",
+       "text": "May I borrow your pen?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "May I = I want to do it.",
+       "ask": "Who does the action?"
+      },
+      {
+       "type": "choice",
+       "text": "Would you pass the salt?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Would you = you do it.",
+       "ask": "Who does the action?"
+      },
+      {
+       "type": "choice",
+       "text": "Could I use your phone?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Could I = I want to do it.",
+       "ask": "Who does the action?"
+      },
+      {
+       "type": "choice",
+       "text": "Could you hold the door open?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Could you = you do it.",
+       "ask": "Who does the action?"
+      },
+      {
+       "type": "choice",
+       "text": "Can I come in?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Can I = I want to do it.",
+       "ask": "Who does the action?"
+      },
+      {
+       "type": "choice",
+       "text": "Will you please close the window?",
+       "options": [
+        "I do it (asking permission)",
+        "You do it (asking for help)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Will you = you do it.",
+       "ask": "Who does the action?"
+      }
+     ]
+    },
+    {
+     "title": "Say it right",
+     "icon": "📞",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We're co-workers at lunch. You want the pepper.",
+       "options": [
+        "Would you please pass me the pepper?",
+        "May you pass me the pepper?",
+        "Pass the pepper."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Polite + you → Would you…?",
+       "ask": "Choose the best request"
+      },
+      {
+       "type": "choice",
+       "text": "We're good friends in my apartment. You want to use the phone.",
+       "options": [
+        "May you use the phone?",
+        "Can I use your phone?",
+        "Would I use your phone?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Friends + I → Can I…?",
+       "ask": "Choose the best request"
+      },
+      {
+       "type": "choice",
+       "text": "I'm your instructor. You want to leave class early.",
+       "options": [
+        "Will I leave early?",
+        "Can you leave early?",
+        "May I leave class a little early today?"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Formal + I → May I…?",
+       "ask": "Choose the best request"
+      },
+      {
+       "type": "choice",
+       "text": "I'm your supervisor. You knock on my half-open office door.",
+       "options": [
+        "May I come in?",
+        "Would I come in?",
+        "May you come in?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Formal + I → May I…?",
+       "ask": "Choose the best request"
+      },
+      {
+       "type": "choice",
+       "text": "You're running toward the elevator. I'm inside.",
+       "options": [
+        "May you hold the door?",
+        "Could you hold the door, please?",
+        "Would I hold the door?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You do it → Could you…?",
+       "ask": "Choose the best request"
+      },
+      {
+       "type": "choice",
+       "text": "“Would you pass the salt, please?”",
+       "options": [
+        "Yes, I pass.",
+        "I'd be happy to. Here you are.",
+        "Yes, I would mind."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A kind yes: I'd be happy to.",
+       "ask": "Choose the best answer"
+      },
+      {
+       "type": "choice",
+       "text": "You can't reach the salt. What do you say?",
+       "options": [
+        "No.",
+        "I'd like to, but I can't reach it.",
+        "I don't."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A polite no starts with I'd like to, but…",
+       "ask": "Choose the best answer"
+      },
+      {
+       "type": "choice",
+       "text": "Which is the most formal?",
+       "options": [
+        "Can I borrow your pen?",
+        "May I borrow your pen?",
+        "Could I borrow your pen?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "May I is the most formal."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Polite requests",
+     "task": "Claude gives a situation. You make the request: to a friend, a teacher, a boss.",
+     "claudePrompt": "You are my English speaking partner. Give me one situation at a time and play the other person: We're good friends and I want to use your phone. / You're my instructor and I want to leave class early. / You're my supervisor and I want to come into your office. / You're a doctor's assistant and I want an appointment. / You're in the elevator and I want you to hold the door. I make a polite request with May I / Could I / Can I or Would you / Could you. You answer naturally. Check that I never say 'May you' and that my level of politeness fits the situation."
+    }
+   ]
+  },
+  {
+   "id": "9-9",
+   "tag": "9-9",
+   "t": "state",
+   "title": "Would you mind?",
+   "full": "Polite Requests with Would You Mind",
+   "lesson": {
+    "title": "Learn: would you mind…?",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Two patterns",
+      "lines": [
+       "…if I + past = I want to do it.",
+       "…+ -ing = I want YOU to do it."
+      ],
+      "visual": [
+       "mind"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Who turns up the heat?",
+      "left": {
+       "label": "I do it: if I + simple past",
+       "t": "state",
+       "examples": [
+        {
+         "text": "Would you mind if I turned up the heat?",
+         "hl": [
+          [
+           "if I turned",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "You do it: verb-ing",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Would you mind turning up the heat?",
+         "hl": [
+          [
+           "turning",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "The past form here is not past time. It just sounds polite."
+     },
+     {
+      "type": "choice",
+      "text": "This car is like an oven! Would you mind ___ on the air-conditioning? (you do it)",
+      "options": [
+       "turning",
+       "if I turned",
+       "turn"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "You do it → -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Careful: “No” means OK!",
+      "lines": [
+       "mind = be bothered. “No” = it doesn't bother me."
+      ],
+      "chips": [
+       "No, not at all.",
+       "No, of course not.",
+       "No, I'd be happy to.",
+       "Sure. / OK. (informal, also = yes)"
+      ],
+      "tip": "“Yes” means: Yes, I mind. Please don't!"
+     },
+     {
+      "type": "choice",
+      "text": "“Would you mind if I opened the door?” Which answer means GO AHEAD?",
+      "options": [
+       "Yes.",
+       "No, of course not."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No = I don't mind. Go ahead."
+     },
+     {
+      "type": "learn",
+      "title": "Short form",
+      "lines": [
+       "In casual speech: Mind if I…?"
+      ],
+      "chips": [
+       "Mind if I close the door?",
+       "Would you mind if I close the door? (informal: present)"
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Would you mind if I + past…? = may I? Would you mind + -ing…? = please do it.",
+     "“No, not at all” = OK, go ahead."
+    ],
+    "timeline": [
+     "mind"
+    ],
+    "examples": [
+     {
+      "text": "Would you mind if I opened the window?",
+      "hl": [
+       [
+        "if I opened",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "Would you mind opening the window?",
+      "hl": [
+       [
+        "opening",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Who does it?",
+     "icon": "🌡️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“This car is like an oven! Would you mind turning on the air-conditioning?”",
+       "options": [
+        "The speaker",
+        "The listener"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "-ing = the listener does it.",
+       "ask": "Who will turn it on?"
+      },
+      {
+       "type": "choice",
+       "text": "“This car is like an oven! Would you mind if I turned on the air-conditioning?”",
+       "options": [
+        "The speaker",
+        "The listener"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if I + past = the speaker does it.",
+       "ask": "Who will turn it on?"
+      },
+      {
+       "type": "choice",
+       "text": "I want to leave early.",
+       "options": [
+        "Would you mind if I left early?",
+        "Would you mind leaving early?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "I do it → if I left.",
+       "ask": "Choose the request"
+      },
+      {
+       "type": "choice",
+       "text": "I want you to leave early.",
+       "options": [
+        "Would you mind if I left early?",
+        "Would you mind leaving early?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "You do it → leaving.",
+       "ask": "Choose the request"
+      },
+      {
+       "type": "choice",
+       "text": "I want you to talk to Andrew.",
+       "options": [
+        "Would you mind talking to Andrew?",
+        "Would you mind if I talked to Andrew?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "You do it → talking.",
+       "ask": "Choose the request"
+      },
+      {
+       "type": "choice",
+       "text": "I want to talk to Andrew.",
+       "options": [
+        "Would you mind talking to Andrew?",
+        "Would you mind if I talked to Andrew?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I do it → if I talked.",
+       "ask": "Choose the request"
+      }
+     ]
+    },
+    {
+     "title": "if I… or -ing?",
+     "icon": "🪟",
+     "items": [
+      {
+       "type": "fill",
+       "text": "I'm very tired. Would you mind ___ to bed?",
+       "verb": "I / go",
+       "accept": [
+        "if I went"
+       ],
+       "why": "I do it → if I + past: went."
+      },
+      {
+       "type": "fill",
+       "text": "I'm sorry. I didn't understand. Would you mind ___ that?",
+       "verb": "you / repeat",
+       "accept": [
+        "repeating"
+       ],
+       "why": "You do it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I'm not feeling very good. Would you mind ___ home?",
+       "verb": "I / stay",
+       "accept": [
+        "if I stayed"
+       ],
+       "why": "I do it → if I stayed."
+      },
+      {
+       "type": "fill",
+       "text": "It's getting hot in here. Would you mind ___ the window?",
+       "verb": "you / open",
+       "accept": [
+        "opening"
+       ],
+       "why": "You do it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "This is none of my business, but would you mind ___ you a personal question?",
+       "verb": "I / ask",
+       "accept": [
+        "if I asked"
+       ],
+       "why": "I do it → if I asked."
+      },
+      {
+       "type": "fill",
+       "text": "Would you mind not ___?",
+       "verb": "you / smoke",
+       "accept": [
+        "smoking"
+       ],
+       "why": "smoke → smoking (drop the e)."
+      },
+      {
+       "type": "fill",
+       "text": "Excuse me. Would you mind ___ a little more slowly?",
+       "verb": "you / speak",
+       "accept": [
+        "speaking"
+       ],
+       "why": "You do it → -ing."
+      },
+      {
+       "type": "fill",
+       "text": "I don't like this TV program. Would you mind ___ the channel?",
+       "verb": "you / change",
+       "accept": [
+        "changing"
+       ],
+       "why": "change → changing (drop the e)."
+      }
+     ]
+    },
+    {
+     "title": "The expected answer (listening)",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "This room is stuffy. Would you mind if I opened the door?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "No, of course not.",
+        "Yes."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No = I don't mind. Go ahead."
+      },
+      {
+       "type": "listen",
+       "say": "Would you mind if I sat here?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "Yes.",
+        "Not at all."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Not at all = go ahead."
+      },
+      {
+       "type": "listen",
+       "say": "Would you mind if I used your pen for a minute?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "Yes.",
+        "No, that would be fine."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No = it's fine."
+      },
+      {
+       "type": "listen",
+       "say": "Would you mind helping me carry these boxes?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "Yes.",
+        "No, I'd be happy to."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No, I'd be happy to = I'll help."
+      },
+      {
+       "type": "listen",
+       "say": "Would you mind if I turned down the music?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "Yes.",
+        "No, that's fine."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No = it's fine."
+      },
+      {
+       "type": "listen",
+       "say": "Would you mind closing the window?",
+       "ask": "Choose the friendly answer",
+       "options": [
+        "Yes.",
+        "No problem."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No problem = I'll do it."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Would you mind…?",
+     "task": "Role-play: a police officer, a waiter, a mechanic… Make polite requests.",
+     "claudePrompt": "You are my English speaking partner. Give me one situation at a time and play the other person: I'm a customer and the waiter (you) asks if I'm ready to order, but I need more time. / My co-worker (you) is driving to a meeting and I need a ride. / I can't meet you on Tuesday and want to change the day. / My car's brakes are bad and you are the mechanic. / A tall man is sitting in front of me at the movies. I make a polite request with Would you mind if I ...? / Would you mind ...-ing? / Could you ...? / May I ...? You answer naturally. Check: if I + past for my action, -ing for your action."
+    }
+   ]
+  },
+  {
+   "id": "9-10",
+   "tag": "9-10",
+   "t": "past",
+   "title": "Let's!",
+   "full": "Making Suggestions: Let's, Why Don't, Shall I / We",
+   "lesson": {
+    "title": "Learn: making suggestions",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Let's = let us",
+      "lines": [
+       "Let's + simple verb. An idea for you and me."
+      ],
+      "chips": [
+       "Let's go to a movie.",
+       "Let's not go to a movie. Let's stay home instead."
+      ],
+      "tip": "Negative: Let's not + verb. ❌ Let's don't go."
+     },
+     {
+      "type": "choice",
+      "text": "___ home tonight. Shall we go to a movie?",
+      "options": [
+       "Let's not stay",
+       "Let's don't stay",
+       "Let's not to stay"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Let's + not + simple verb."
+     },
+     {
+      "type": "learn",
+      "title": "Why don't…? = a friendly idea",
+      "lines": [
+       "It's a suggestion, not a real “why”."
+      ],
+      "chips": [
+       "Why don't we go to a movie? (= Let's go.)",
+       "Why don't you come around seven? (= I suggest you come.)",
+       "Why don't I give Mary a call? (= Should I call her?)"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Shall I / we…?",
+      "lines": [
+       "A polite offer or idea. A bit formal."
+      ],
+      "chips": [
+       "Shall I open the window?",
+       "Shall we leave at two?",
+       "Let's go, shall we?",
+       "Let's go, OK?"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“Why don't I give Mary a call?” means…",
+      "options": [
+       "Should I call Mary? Do you agree?",
+       "Tell me the reason I never call Mary."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Why don't I…? = an offer."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Let's (not) + simple verb. Why don't we / you / I + verb?",
+     "Shall I / we…? = a polite offer or suggestion."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "Let's go to a movie.",
+      "hl": [
+       [
+        "Let's go",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "Why don't we go to a movie?",
+      "hl": [
+       [
+        "Why don't we go",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "Shall we leave at two?",
+      "hl": [
+       [
+        "Shall we leave",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A free Tuesday",
+     "icon": "🎬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ to a movie.",
+       "options": [
+        "Let's go",
+        "Let's going",
+        "Let's to go"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Let's + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ shopping.",
+       "options": [
+        "Let's to go",
+        "Let's go",
+        "Let go us"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Let's + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Why don't we ___ video games?",
+       "options": [
+        "playing",
+        "to play",
+        "play"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Why don't we + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ clean and do the laundry?",
+       "options": [
+        "Why don't we",
+        "Why we don't",
+        "Why not we"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Why + don't + we + verb."
+      },
+      {
+       "type": "choice",
+       "text": "___ go to a movie. Let's stay home instead.",
+       "options": [
+        "Let's don't",
+        "Let's not",
+        "Not let's"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Negative: Let's not."
+      },
+      {
+       "type": "choice",
+       "text": "___ you come around seven?",
+       "options": [
+        "Why don't",
+        "Why doesn't",
+        "Why not do"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "you → Why don't you…?"
+      },
+      {
+       "type": "choice",
+       "text": "___ I open the window? Is that OK with you?",
+       "options": [
+        "Shall",
+        "Would",
+        "Let's"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Shall I…? = an offer."
+      },
+      {
+       "type": "choice",
+       "text": "Let's go, ___?",
+       "options": [
+        "do we",
+        "shall we",
+        "will you"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Tag after Let's → shall we?"
+      }
+     ]
+    },
+    {
+     "title": "Making plans",
+     "icon": "🍣",
+     "items": [
+      {
+       "type": "choice",
+       "text": "A new Japanese restaurant just opened downtown. Let's ___ there tonight.",
+       "options": [
+        "eat",
+        "to eat",
+        "eating"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Let's + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Great idea! Why don't ___ and make a reservation?",
+       "options": [
+        "you call",
+        "you calling",
+        "call you"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Why don't + you + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "No, let's ___ it for 8:00. I'll be working until 7:30.",
+       "options": [
+        "making",
+        "make",
+        "to make"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "let's + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "I don't feel like staying home today. — Neither do I. Why don't ___ to the beach?",
+       "options": [
+        "we go",
+        "we going",
+        "go we"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Why don't + we + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Hey, that's a great idea! What time shall ___?",
+       "options": [
+        "leave we",
+        "we leave",
+        "we to leave"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "shall + we + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Shall ___ a movie or have dinner first?",
+       "options": [
+        "we see",
+        "we seeing",
+        "see we"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Shall + we + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Let's go camping over the weekend. — Sleeping in a tent is too uncomfortable. ___ a cabin.",
+       "options": [
+        "Let's rent",
+        "Let's renting",
+        "Why don't rent"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Let's + simple verb."
+      },
+      {
+       "type": "choice",
+       "text": "Let's ___ in an hour.",
+       "options": [
+        "leave",
+        "leaving",
+        "to leave"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Let's + simple verb."
+      }
+     ]
+    },
+    {
+     "title": "What does it mean?",
+     "icon": "💡",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Why don't we go to a movie?",
+       "options": [
+        "Let's go to a movie.",
+        "Explain why we never go to movies."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A friendly suggestion.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Why don't you come around seven?",
+       "options": [
+        "I suggest that you come around seven.",
+        "Why are you always late?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A suggestion for you.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Shall we leave at two? Is that OK?",
+       "options": [
+        "I'm suggesting it and asking if you agree.",
+        "I'm telling you a rule."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Shall we…? = a suggestion.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Shall I open the window?",
+       "options": [
+        "Do you want me to open it?",
+        "Will the window open?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Shall I…? = an offer.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "judge",
+       "text": "Let's not stay home tonight. Shall we go to a movie?",
+       "answer": "correct",
+       "why": "Let's not + verb. Shall we + verb."
+      },
+      {
+       "type": "judge",
+       "text": "Let's to study grammar all day.",
+       "answer": "wrong",
+       "why": "Let's + simple verb. No to.",
+       "fix": "Let's study grammar all day."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Weekend plans",
+     "task": "Plan a free day with Claude: “Let's…”, “Why don't we…?”, “Shall we…?”",
+     "claudePrompt": "You are my English speaking partner. Imagine next Tuesday is a holiday and we are planning the day together. Make one suggestion and ask for mine. I must use Let's ..., Let's not ..., Why don't we ...?, or Shall we ...? to suggest things (where to go, what time to leave, where to eat). Agree or politely disagree and keep planning. Check that I use the simple verb after Let's and Why don't we."
+    },
+    {
+     "title": "New in town",
+     "task": "You are a tour guide, a café manager or a lab teacher. Tell new people the rules.",
+     "claudePrompt": "You are my English speaking partner. Ask me to choose a role: a tour guide explaining local customs, a cafe manager talking to new employees, or a computer lab instructor explaining lab rules. You play the new person and ask me questions (What do we have to do? Is there anything we must not do?). I answer using should, be supposed to, have to, must, must not, don't have to, had better (not). Check my modal forms and meanings."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Modal Minotaur",
+  "icon": "🐂",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "If you have a car, you can [traveling] around the United States.",
+    "options": [
+     "If you have a car, you can to travel around the United States.",
+     "If you have a car, you can travel around the United States.",
+     "If you have a car, you can travels around the United States."
+    ],
+    "answer": 1,
+    "why": "can + simple verb.",
+    "rule": "9-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "A film director must [has] control over every aspect of a movie.",
+    "options": [
+     "A film director must have control over every aspect of a movie.",
+     "A film director must to have control over every aspect of a movie.",
+     "A film director musts have control over every aspect of a movie."
+    ],
+    "answer": 0,
+    "why": "must + simple verb: have.",
+    "rule": "9-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "I'm sorry. I don't have training in this area. I [not able help] you.",
+    "options": [
+     "I'm sorry. I don't have training in this area. I not able to help you.",
+     "I'm sorry. I don't have training in this area. I am not able help you.",
+     "I'm sorry. I don't have training in this area. I am not able to help you."
+    ],
+    "answer": 2,
+    "why": "be + not + able + to + verb.",
+    "rule": "9-6"
+   },
+   {
+    "type": "errorfix",
+    "text": "You [don't have to] have your cell phone on during the test. If you do, you will fail.",
+    "options": [
+     "You must not have your cell phone on during the test. If you do, you will fail.",
+     "You don't must have your cell phone on during the test. If you do, you will fail.",
+     "You haven't to have your cell phone on during the test. If you do, you will fail."
+    ],
+    "answer": 0,
+    "why": "It is forbidden → must not.",
+    "rule": "9-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "We [supposed] to bring our books to class every day.",
+    "options": [
+     "We suppose to bring our books to class every day.",
+     "We are supposed to bring our books to class every day.",
+     "We are suppose bring our books to class every day."
+    ],
+    "answer": 1,
+    "why": "be + supposed + to.",
+    "rule": "9-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "You can [having] a very good time as a tourist in my country.",
+    "options": [
+     "You can have a very good time as a tourist in my country.",
+     "You can to have a very good time as a tourist in my country.",
+     "You can has a very good time as a tourist in my country."
+    ],
+    "answer": 0,
+    "why": "can + simple verb.",
+    "rule": "9-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "My country has many different climates, so you [have] better plan ahead before you [came].",
+    "options": [
+     "My country has many different climates, so you have better to plan ahead before you come.",
+     "My country has many different climates, so you had better plan ahead before you come.",
+     "My country has many different climates, so you had better planning ahead before you came."
+    ],
+    "answer": 1,
+    "why": "had better + verb. before you come (present).",
+    "rule": "9-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "[May] you please help me with this?",
+    "options": [
+     "Could you please help me with this?",
+     "Might you please help me with this?",
+     "Shall you please help me with this?"
+    ],
+    "answer": 0,
+    "why": "With you → Could / Would.",
+    "rule": "9-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "The janitor [supposed] to unlock the building doors.",
+    "options": [
+     "The janitor suppose to unlock the building doors.",
+     "The janitor is supposing to unlock the building doors.",
+     "The janitor is supposed to unlock the building doors."
+    ],
+    "answer": 2,
+    "why": "be + supposed + to.",
+    "rule": "9-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "During class the students must [to sit] quietly.",
+    "options": [
+     "During class the students must sitting quietly.",
+     "During class the students must sit quietly.",
+     "During class the students musts to sit quietly."
+    ],
+    "answer": 1,
+    "why": "must + simple verb. No to.",
+    "rule": "9-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Would] I leave a few minutes early today? I have a doctor's appointment.",
+    "options": [
+     "May I leave a few minutes early today? I have a doctor's appointment.",
+     "Will I leave a few minutes early today? I have a doctor's appointment.",
+     "Would I to leave a few minutes early today? I have a doctor's appointment."
+    ],
+    "answer": 0,
+    "why": "Asking permission with I → May / Could.",
+    "rule": "9-8"
+   }
+  ]
+ }
+}

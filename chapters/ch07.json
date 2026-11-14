@@ -1,0 +1,4239 @@
+{
+ "id": "ch07",
+ "num": 7,
+ "title": "Articles",
+ "subtitle": "A, an, the, or nothing",
+ "icon": "🅰️",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "Here's some coffee. Watch out. It's hot.",
+    "answer": "correct",
+    "why": "some + noncount, not special.",
+    "rule": "7-1"
+   },
+   {
+    "type": "judge",
+    "text": "Price of rice and flour is increasing.",
+    "answer": "wrong",
+    "why": "the price of … = a specific price.",
+    "fix": "The price of rice and flour is increasing.",
+    "rule": "7-1"
+   },
+   {
+    "type": "judge",
+    "text": "A dolphin is extremely intelligent.",
+    "answer": "correct",
+    "why": "A dolphin = dolphins in general.",
+    "rule": "7-2"
+   },
+   {
+    "type": "judge",
+    "text": "Carrots and tomatoes are rich in vitamin A.",
+    "answer": "correct",
+    "why": "In general + plural → no article.",
+    "rule": "7-2"
+   },
+   {
+    "type": "judge",
+    "text": "Is the wallet on the desk yours?",
+    "answer": "correct",
+    "why": "The one on the desk = specific.",
+    "rule": "7-3"
+   },
+   {
+    "type": "judge",
+    "text": "An assistant in my office is also a part-time flight instructor.",
+    "answer": "correct",
+    "why": "One of several assistants → An.",
+    "rule": "7-3"
+   },
+   {
+    "type": "judge",
+    "text": "Sun sets around 7:00 P.M. tonight.",
+    "answer": "wrong",
+    "why": "Only one sun → The sun.",
+    "fix": "The sun sets around 7:00 P.M. tonight.",
+    "rule": "7-4"
+   },
+   {
+    "type": "judge",
+    "text": "There's a surprise waiting for you in the kitchen!",
+    "answer": "correct",
+    "why": "a = new. the kitchen = we know which.",
+    "rule": "7-4"
+   },
+   {
+    "type": "judge",
+    "text": "Who is going to clean windows?",
+    "answer": "wrong",
+    "why": "The windows of this house → the.",
+    "fix": "Who is going to clean the windows?",
+    "rule": "7-4"
+   },
+   {
+    "type": "judge",
+    "text": "How far is Australia from New Zealand?",
+    "answer": "correct",
+    "why": "Countries and continents → no the.",
+    "rule": "7-5"
+   },
+   {
+    "type": "judge",
+    "text": "Nile River flows through several countries.",
+    "answer": "wrong",
+    "why": "A river → The Nile River.",
+    "fix": "The Nile River flows through several countries.",
+    "rule": "7-5"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "7-1",
+   "tag": "7-1",
+   "t": "pres",
+   "title": "A, an, or the?",
+   "full": "Articles (A, An, The) with Indefinite and Definite Nouns",
+   "lesson": {
+    "title": "Learn: a / an and the",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three choices",
+      "lines": [
+       "a / an = one, not a special one.",
+       "the = you and I both know which one."
+      ],
+      "visual": [
+       "articles"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Which banana?",
+      "left": {
+       "label": "Not a special one: a / an / some / Ø",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "I had a banana for a snack.",
+         "hl": [
+          [
+           "a banana",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "I had some fruit for a snack.",
+         "hl": [
+          [
+           "some fruit",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "I had bananas for a snack.",
+         "hl": [
+          [
+           "bananas",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "We both know which: the",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "Thank you for the banana.",
+         "hl": [
+          [
+           "the banana",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Thank you for the bananas.",
+         "hl": [
+          [
+           "the bananas",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "Thank you for the fruit.",
+         "hl": [
+          [
+           "the fruit",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "a / an means one. So never a + plural, never a + noncount."
+     },
+     {
+      "type": "choice",
+      "text": "I received ___ Valentine's gift. (one gift, not special)",
+      "options": [
+       "a",
+       "the"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "One gift, not a specific one → a."
+     },
+     {
+      "type": "choice",
+      "text": "___ gift was very thoughtful. (the gift you gave me)",
+      "options": [
+       "A",
+       "The"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "We both know which gift → The."
+     },
+     {
+      "type": "learn",
+      "title": "a or an? Listen to the sound",
+      "lines": [
+       "an before a vowel sound: a, e, i, o, u."
+      ],
+      "chips": [
+       "a banana",
+       "a toy",
+       "an apple",
+       "an onion",
+       "an idea",
+       "an hour",
+       "a university"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "some = a for many",
+      "lines": [
+       "some + plural or noncount, when it's not special."
+      ],
+      "chips": [
+       "some bananas",
+       "some fruit",
+       "some bills",
+       "some coffee"
+      ],
+      "examples": [
+       {
+        "text": "We have some bills to pay.",
+        "hl": [
+         [
+          "some bills",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I need ___ onion for dinner.",
+      "options": [
+       "a",
+       "an",
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "One onion, vowel sound → an."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "a / an: one, not a special one. the: we both know which one.",
+     "Plural and noncount: Ø or some (not special), the (special)."
+    ],
+    "timeline": [
+     "articles"
+    ],
+    "examples": [
+     {
+      "text": "I had a banana for a snack.",
+      "hl": [
+       [
+        "a banana",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Thank you for the banana.",
+      "hl": [
+       [
+        "the banana",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I had some fruit for a snack.",
+      "hl": [
+       [
+        "some fruit",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Gifts and nicknames",
+     "icon": "🎁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I received a Valentine's gift.",
+       "options": [
+        "gifts in general",
+        "a specific gift",
+        "one gift, but not specific"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "a = one, not a special one.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "The gift was very thoughtful.",
+       "options": [
+        "gifts in general",
+        "a specific gift",
+        "one gift, but not specific"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the = we know which gift.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "Is it better to give or receive gifts?",
+       "options": [
+        "gifts in general",
+        "a specific gift",
+        "one gift, but not specific"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No article + plural = in general.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "NICKNAMES are common in my culture.",
+       "options": [
+        "definite",
+        "indefinite"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No article: not special ones.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "My husband has A NICKNAME.",
+       "options": [
+        "definite",
+        "indefinite"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a = one, new to the listener.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "It's “Cowboy.” He doesn't like THE NAME.",
+       "options": [
+        "definite",
+        "indefinite"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the = the name we just talked about.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Sometimes CITIES have nicknames.",
+       "options": [
+        "definite",
+        "indefinite"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No article: cities in general.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Chicago is called THE WINDY CITY.",
+       "options": [
+        "definite",
+        "indefinite"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the = one specific, known name.",
+       "ask": "The noun in CAPITALS is…"
+      }
+     ]
+    },
+    {
+     "title": "To-do list: add some?",
+     "icon": "🧾",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We have BILLS to pay.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Plural, not special → some bills.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "Here's a BILL from the electrician.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It already has a. One bill.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "Do you have TIME to pay them?",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Noncount, not special → some time.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "Look at the FLOORS. They're really dirty.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the floors = special ones. No some.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "There's spilled COFFEE under the chair.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Noncount, not special → some spilled coffee.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "Where's the grocery LIST?",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the list = a special one.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "I have THINGS to add.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Plural, not special → some things.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "Please make your LUNCH for tomorrow.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "your lunch already has your.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      },
+      {
+       "type": "choice",
+       "text": "There are LEFTOVERS in the fridge.",
+       "options": [
+        "Yes: some",
+        "No change"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Plural, not special → some leftovers.",
+       "ask": "Can you add some before the noun in CAPITALS?"
+      }
+     ]
+    },
+    {
+     "title": "Definite or indefinite?",
+     "icon": "🧅",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Where is ___ phone? (not special. Any phone.)",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any phone → a."
+      },
+      {
+       "type": "choice",
+       "text": "Please pick up ___ toys on the floor.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We both see which toys → the."
+      },
+      {
+       "type": "choice",
+       "text": "Please pick up ___ toy at the store for Sue's baby.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One toy, not special → a."
+      },
+      {
+       "type": "choice",
+       "text": "Sue's baby plays with ___ toys.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Plural, not special → no article."
+      },
+      {
+       "type": "choice",
+       "text": "I need ___ onion for dinner.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One onion, vowel sound → an."
+      },
+      {
+       "type": "choice",
+       "text": "___ onions I just cut are making me cry.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The ones I just cut = special → The."
+      },
+      {
+       "type": "choice",
+       "text": "___ onion looks spoiled. (this one here)",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We both see which onion → The."
+      },
+      {
+       "type": "choice",
+       "text": "I need ___ onions for tonight's dinner.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Plural, not special → no article (or some)."
+      },
+      {
+       "type": "choice",
+       "text": "I smell ___ smoke.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "Noncount, not special → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ smoke from the fire is bothering my eyes.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "This smoke, from the fire = special → The."
+      }
+     ]
+    },
+    {
+     "title": "Correct or not?",
+     "icon": "🥗",
+     "items": [
+      {
+       "type": "judge",
+       "text": "We're having a vegetables for dinner.",
+       "answer": "wrong",
+       "why": "vegetables is plural. No a.",
+       "fix": "We're having vegetables for dinner."
+      },
+      {
+       "type": "judge",
+       "text": "Flowers make a nice gift.",
+       "answer": "correct",
+       "why": "Flowers in general. a + one gift."
+      },
+      {
+       "type": "judge",
+       "text": "My favorite fruits are an apples and oranges.",
+       "answer": "wrong",
+       "why": "apples is plural. No an.",
+       "fix": "My favorite fruits are apples and oranges."
+      },
+      {
+       "type": "judge",
+       "text": "Do all living things need an oxygen?",
+       "answer": "wrong",
+       "why": "oxygen is noncount. No an.",
+       "fix": "Do all living things need oxygen?"
+      },
+      {
+       "type": "judge",
+       "text": "Rice is a popular dish in my country.",
+       "answer": "correct",
+       "why": "Rice in general. a + one dish."
+      },
+      {
+       "type": "judge",
+       "text": "I need some coin for the bus fare.",
+       "answer": "wrong",
+       "why": "some + plural: some coins.",
+       "fix": "I need some coins for the bus fare."
+      }
+     ]
+    },
+    {
+     "title": "Small sounds (listening)",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "listen",
+       "say": "That's an excellent idea.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "an before a vowel sound: an excellent idea."
+      },
+      {
+       "type": "listen",
+       "say": "I had a banana for a snack.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a + one banana."
+      },
+      {
+       "type": "listen",
+       "say": "She bought bananas at the market.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Plural, not special → no article."
+      },
+      {
+       "type": "listen",
+       "say": "We need an answer by tomorrow.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "an before a vowel sound: an answer."
+      },
+      {
+       "type": "listen",
+       "say": "He gave me advice about my job.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "advice is noncount → no article."
+      },
+      {
+       "type": "listen",
+       "say": "There's a problem with my phone.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a + one problem."
+      },
+      {
+       "type": "listen",
+       "say": "I'll be there in an hour.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hour starts with a vowel sound → an."
+      },
+      {
+       "type": "listen",
+       "say": "Kids love toys.",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Plural, in general → no article."
+      },
+      {
+       "type": "listen",
+       "say": "Is there a bank near here?",
+       "ask": "What did you hear before the noun?",
+       "options": [
+        "a",
+        "an",
+        "nothing"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "a + one bank, not special."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "My grandfather's store",
+     "task": "Memory game: “I went to my grandfather's store and bought an apple, some bread, a camel…”",
+     "claudePrompt": "You are my partner in the memory game 'My Grandfather's Store'. We take turns. Each turn repeats the whole list and adds one new thing in alphabetical order (A, then B, then C...), using a, an or some: 'I went to my grandfather's store and bought an apple.' / '... an apple and some bread.' / '... an apple, some bread, and a camel.' You start with A. Check that I use a/an with singular count nouns and some with plural or noncount nouns."
+    }
+   ]
+  },
+  {
+   "id": "7-2",
+   "tag": "7-2",
+   "t": "state",
+   "title": "In general",
+   "full": "Articles: Generic Nouns",
+   "lesson": {
+    "title": "Learn: talking about all of them",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Three ways to say “all”",
+      "lines": [
+       "a + singular. No article + plural or noncount."
+      ],
+      "visual": [
+       "generic"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ are yellow. (all bananas)",
+      "options": [
+       "The bananas",
+       "Bananas",
+       "A bananas"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "In general + plural → no article."
+     },
+     {
+      "type": "choice",
+      "text": "___ is good for you. (in general)",
+      "options": [
+       "Fruit",
+       "The fruit",
+       "A fruit"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "In general + noncount → no article."
+     },
+     {
+      "type": "learn",
+      "title": "Sometimes the = all",
+      "lines": [
+       "Animals, inventions, musical instruments."
+      ],
+      "chips": [
+       {
+        "label": "🐋 Animal kinds",
+        "words": [
+         "The blue whale is the largest mammal."
+        ]
+       },
+       {
+        "label": "💡 Inventions",
+        "words": [
+         "Who invented the wheel?",
+         "the telephone",
+         "the airplane"
+        ]
+       },
+       {
+        "label": "🎹 Instruments",
+        "words": [
+         "play the piano",
+         "play the guitar"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "the + adjective = those people",
+      "lines": [
+       "the elderly = old people. Plural."
+      ],
+      "chips": [
+       "the elderly",
+       "the poor",
+       "the wealthy",
+       "the sick",
+       "the unemployed"
+      ],
+      "examples": [
+       {
+        "text": "Janice works with the elderly.",
+        "hl": [
+         [
+          "the elderly",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "General or specific?",
+      "left": {
+       "label": "General: no the",
+       "t": "state",
+       "examples": [
+        {
+         "text": "Water is becoming scarce.",
+         "hl": [
+          [
+           "Water",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "Eggs have cholesterol.",
+         "hl": [
+          [
+           "Eggs",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Specific: the",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The water in the river isn't drinkable.",
+         "hl": [
+          [
+           "The water",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "The eggs are fresh.",
+         "hl": [
+          [
+           "The eggs",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Which water? “in the river” → the. Water as an idea → no the."
+     },
+     {
+      "type": "choice",
+      "text": "Do you play ___ guitar?",
+      "options": [
+       "a",
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Musical instruments → play the guitar."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "In general: A banana is yellow. Bananas are yellow. Fruit is good.",
+     "the for animal kinds, inventions, instruments, and the elderly / the poor."
+    ],
+    "timeline": [
+     "generic"
+    ],
+    "examples": [
+     {
+      "text": "Bananas are yellow.",
+      "hl": [
+       [
+        "Bananas",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "The blue whale is the largest mammal on earth.",
+      "hl": [
+       [
+        "The blue whale",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Do you play the guitar?",
+      "hl": [
+       [
+        "the guitar",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Eggs and doctors",
+     "icon": "🥚",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The eggs are fresh.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the eggs = these eggs here.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Eggs have cholesterol.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No article + plural = all eggs.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "An egg has a lot of protein.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An egg = any egg.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Are the eggs safe to eat?",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the eggs = these eggs.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Doctors treat the sick.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Doctors in general. the sick = sick people.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "A doctor treats sick people.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A doctor = any doctor.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "The doctors are waiting outside.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The doctors = specific ones.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Pianos have 52 white keys and 36 black keys.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No article + plural = all pianos.",
+       "ask": "General or specific?"
+      }
+     ]
+    },
+    {
+     "title": "Water and lions",
+     "icon": "🦁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "We need water to survive.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Water as an idea → general.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Water is becoming scarce in some parts of the world.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No the → water in general.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "The water in the river isn't drinkable.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the … in the river = specific water.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Water is expensive in some countries.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No the → water in general.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Don't go in the water. It's not safe for swimming.",
+       "options": [
+        "General: all of them",
+        "Specific: these ones"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the water = this water here.",
+       "ask": "General or specific?"
+      },
+      {
+       "type": "choice",
+       "text": "Lions are magnificent animals.",
+       "options": [
+        "All lions are magnificent.",
+        "Some lions are magnificent."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No article + plural = all of them.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "A lion is fierce.",
+       "options": [
+        "One lion is fierce.",
+        "All lions are fierce."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A lion = any lion = all lions.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "I saw a lion at the zoo.",
+       "options": [
+        "I saw all lions.",
+        "I saw one lion."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Here a = one real lion.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "The lion that we saw looked fierce.",
+       "options": [
+        "One lion looked fierce.",
+        "Several lions looked fierce."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The lion = one specific lion.",
+       "ask": "What does it mean?"
+      },
+      {
+       "type": "choice",
+       "text": "A lion has a loud roar.",
+       "options": [
+        "All lions have a loud roar.",
+        "One lion has a loud roar."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A lion = lions in general.",
+       "ask": "What does it mean?"
+      }
+     ]
+    },
+    {
+     "title": "True for all (1)",
+     "icon": "🐦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ has wings.",
+       "options": [
+        "Bird",
+        "A bird",
+        "The birds"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "In general, singular → A bird."
+      },
+      {
+       "type": "choice",
+       "text": "___ contains important vitamins and minerals.",
+       "options": [
+        "Food",
+        "A food",
+        "The foods"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "In general, noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ is composed of oxygen and hydrogen.",
+       "options": [
+        "A water",
+        "The waters",
+        "Water"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "In general, noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ is a sport.",
+       "options": [
+        "Tennis",
+        "A tennis",
+        "The tennis"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Sports are noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ need to practice long hours.",
+       "options": [
+        "A tennis players",
+        "Tennis players",
+        "Tennis player"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "In general, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ needs to have a strong arm.",
+       "options": [
+        "Tennis player",
+        "Tennis players",
+        "A tennis player"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "needs → singular → A tennis player."
+      },
+      {
+       "type": "choice",
+       "text": "___ is a piece of land surrounded by water.",
+       "options": [
+        "Island",
+        "An island",
+        "Islands"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is + a piece → An island."
+      },
+      {
+       "type": "choice",
+       "text": "___ are land surrounded by water.",
+       "options": [
+        "Islands",
+        "An island",
+        "The island"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "are → plural, in general → Islands."
+      }
+     ]
+    },
+    {
+     "title": "True for all (2)",
+     "icon": "🌉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ is an expensive metal.",
+       "options": [
+        "A gold",
+        "Gold",
+        "The golds"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A material is noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ is a structure that is over a river.",
+       "options": [
+        "Bridge",
+        "Bridges",
+        "A bridge"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "In general, singular → A bridge."
+      },
+      {
+       "type": "choice",
+       "text": "___ is one of the most important things in life.",
+       "options": [
+        "Health",
+        "A health",
+        "The healths"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An idea is noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ describe nouns.",
+       "options": [
+        "An adjectives",
+        "Adjective",
+        "Adjectives"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "In general, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ usually contain a subject and a verb.",
+       "options": [
+        "Sentences",
+        "A sentence",
+        "Sentence"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "contain → plural → Sentences."
+      },
+      {
+       "type": "choice",
+       "text": "___ needs punctuation.",
+       "options": [
+        "Sentences",
+        "A sentence",
+        "Sentence"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "needs → singular → A sentence."
+      },
+      {
+       "type": "choice",
+       "text": "___ can be red, green, or yellow.",
+       "options": [
+        "Apple",
+        "An apple",
+        "A apple"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Any apple, vowel sound → An apple."
+      },
+      {
+       "type": "choice",
+       "text": "___ blue whale is the largest mammal on earth.",
+       "options": [
+        "A",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A kind of animal → The blue whale."
+      },
+      {
+       "type": "choice",
+       "text": "Who invented ___ wheel?",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An invention → the wheel."
+      },
+      {
+       "type": "choice",
+       "text": "Janice works with ___ elderly.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the + adjective = a group of people."
+      }
+     ]
+    },
+    {
+     "title": "What am I?",
+     "icon": "❓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I am the biggest bird in the world. I eat ___ stones, glass, and keys.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Plural, in general → no article."
+      },
+      {
+       "type": "choice",
+       "text": "I can kill ___ person with one kick.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One person, any person → a."
+      },
+      {
+       "type": "choice",
+       "text": "I am the biggest bird in the world. What bird am I?",
+       "options": [
+        "An eagle",
+        "An ostrich",
+        "A penguin"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The ostrich is the biggest bird."
+      },
+      {
+       "type": "choice",
+       "text": "I produce ___ oxygen and keep the air clean.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "oxygen is noncount, in general → no article."
+      },
+      {
+       "type": "choice",
+       "text": "I am ___ source of lifesaving medicines.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One source of many → a."
+      },
+      {
+       "type": "choice",
+       "text": "___ people can use products from me to build houses and make paper.",
+       "options": [
+        "A",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "People in general → no article."
+      },
+      {
+       "type": "choice",
+       "text": "I produce oxygen. People make paper from me. What am I?",
+       "options": [
+        "A tree",
+        "A river",
+        "A cloud"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Trees give oxygen, wood and paper."
+      },
+      {
+       "type": "choice",
+       "text": "About 98% of me contains ___ water.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "water is noncount, in general → no article."
+      },
+      {
+       "type": "choice",
+       "text": "You will see me most often on ___ person's face.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any one person → a."
+      },
+      {
+       "type": "choice",
+       "text": "I am mostly water. I protect the eye from dust. What am I?",
+       "options": [
+        "A tear",
+        "A raindrop",
+        "A lake"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Tears protect your eyes."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "General statements",
+     "task": "Make general statements about wild animals (a/an), inventions (plural), and the rich or the elderly.",
+     "claudePrompt": "You are my English speaking partner. I am practicing generic nouns. Ask me for: (1) three general statements about wild animals using a/an (A giraffe has a long neck.), (2) three general statements about inventions using the plural (Smartphones are useful.), (3) three general statements about the rich, the poor or the elderly. Check that I do not use 'the' with plural or noncount nouns when I generalize."
+    }
+   ]
+  },
+  {
+   "id": "7-3",
+   "tag": "7-3",
+   "t": "prog",
+   "title": "Extra words don't decide",
+   "full": "Descriptive Information with Definite and Indefinite Nouns",
+   "lesson": {
+    "title": "Learn: description is not enough",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A long description can still be a",
+      "lines": [
+       "More words don't make a noun special.",
+       "Ask: one of many, or the only one we mean?"
+      ],
+      "chips": [
+       "a cup of coffee from the cafe next door (one of many cups)",
+       "the cup of coffee I got (that one)"
+      ]
+     },
+     {
+      "type": "compare",
+      "title": "Same words, different article",
+      "left": {
+       "label": "One of many: a / Ø",
+       "t": "pres",
+       "examples": [
+        {
+         "text": "Do you have a pen with red ink?",
+         "hl": [
+          [
+           "a pen",
+           "pres"
+          ]
+         ]
+        },
+        {
+         "text": "A manager who trains workers has a lot of responsibility.",
+         "hl": [
+          [
+           "A manager",
+           "pres"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "The one we mean: the",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "The pen in my bag is leaking.",
+         "hl": [
+          [
+           "The pen",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "The manager who trained me got a promotion.",
+         "hl": [
+          [
+           "The manager",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Adjectives don't decide either: a real estate office / the real estate office."
+     },
+     {
+      "type": "choice",
+      "text": "I hope you have ___ excuse for your absence.",
+      "options": [
+       "an",
+       "the"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Any excuse, not one we know → an."
+     },
+     {
+      "type": "choice",
+      "text": "Was ___ excuse Mike gave for his absence believable?",
+      "options": [
+       "an",
+       "the"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The one Mike gave = specific → the."
+     },
+     {
+      "type": "learn",
+      "title": "There is / are: usually new",
+      "lines": [
+       "After there is, the noun is usually new → a / Ø.",
+       "Already known? Then the."
+      ],
+      "chips": [
+       "There is a piece of the puzzle.",
+       "There is the piece you were looking for.",
+       "There are pieces on the floor."
+      ]
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Description doesn't make a noun specific.",
+     "One of many → a / Ø. The one we both mean → the."
+    ],
+    "timeline": [
+     "articles"
+    ],
+    "examples": [
+     {
+      "text": "Do you have a pen with red ink?",
+      "hl": [
+       [
+        "a pen",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "The pen in my bag is leaking.",
+      "hl": [
+       [
+        "The pen",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Specific or one of many?",
+     "icon": "🐬",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I was listening to THE NEWS.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the news = today's news, known to all.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "I heard A SAD STORY.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a = one story, new to you.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "DOLPHINS that are free in nature live around 40 years.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No article: any free dolphins.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Activists want more awareness of THE SITUATION of captive dolphins.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the situation of … = that one situation.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Have you had time to think about THE NEW PROGRAM that Jackie presented?",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The one Jackie presented.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "William is developing A NEW COMPUTER PROGRAM for his company.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a = one of many programs.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "Here's A TICKET for the new movie.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a = one of many tickets.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "THE TICKET that James got for speeding is really expensive.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The one James got.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "A DETAIL that the witness told police was very helpful.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A = one detail of several.",
+       "ask": "The noun in CAPITALS is…"
+      },
+      {
+       "type": "choice",
+       "text": "My son is teaching himself A NEW SPORT: paddle boarding.",
+       "options": [
+        "A specific one",
+        "Not specific: one of many"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "a = one of many sports.",
+       "ask": "The noun in CAPITALS is…"
+      }
+     ]
+    },
+    {
+     "title": "Specific or general?",
+     "icon": "⚽",
+     "items": [
+      {
+       "type": "choice",
+       "text": "SPECIFIC: ___ secretary at my school",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Specific → the."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ secretary at my school",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of several, singular → a."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ secretaries at my school",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "General, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ fruit in the bowl",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "General, noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "SPECIFIC: ___ fruit in the bowl",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Specific → the."
+      },
+      {
+       "type": "choice",
+       "text": "SPECIFIC: ___ company that makes hats",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Specific → the."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ company that makes hats",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any one company, singular → a."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ companies that make hats",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "General, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "GENERAL: ___ workers who are sick",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "General, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "SPECIFIC: ___ workers who are sick",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Specific → the."
+      }
+     ]
+    },
+    {
+     "title": "Do you agree?",
+     "icon": "📱",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Everyone needs to have ___ cell phone.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One phone each, not special → a."
+      },
+      {
+       "type": "choice",
+       "text": "If you have a cell phone, you don't need to wear ___ watch.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any watch → a."
+      },
+      {
+       "type": "choice",
+       "text": "___ cell phones are replacing watches.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "One key to ___ healthy life is daily physical exercise.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One kind of life, not special → a."
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to read a book about ___ life and art of Pablo Picasso.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The life of Picasso = specific → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ jewelry looks good on both men and women.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "English is ___ easy language to learn.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One language, vowel sound → an."
+      },
+      {
+       "type": "choice",
+       "text": "Listening to ___ loud rock music is fun.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "music is noncount, in general → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ music I like best is rock 'n roll.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The music I like best = specific → The."
+      },
+      {
+       "type": "choice",
+       "text": "___ vocabulary in this exercise is easy.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "in this exercise = specific → The."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7-4",
+   "tag": "7-4",
+   "t": "prog",
+   "title": "The four guidelines",
+   "full": "General Guidelines for Article Usage",
+   "lesson": {
+    "title": "Learn: four article rules",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "1. We both know it → the",
+      "lines": [
+       "Only one, or clear from the place."
+      ],
+      "chips": [
+       "The sun is bright today.",
+       "Please open the door.",
+       "Omar is in the kitchen.",
+       "Give this to the teacher."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "2. Second time → the",
+      "lines": [
+       "First mention: a / some. After that: the."
+      ],
+      "visual": [
+       "second-mention"
+      ],
+      "examples": [
+       {
+        "text": "Yesterday I saw some dogs. The dogs were chasing a cat.",
+        "hl": [
+         [
+          "some dogs",
+          "pres"
+         ],
+         [
+          "The dogs",
+          "prog"
+         ]
+        ]
+       },
+       {
+        "text": "The cat was chasing a mouse. The mouse ran into a hole.",
+        "hl": [
+         [
+          "The cat",
+          "prog"
+         ],
+         [
+          "The mouse",
+          "prog"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I ran into a parked car. Did you damage ___ car?",
+      "options": [
+       "a",
+       "the"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Second mention → the car."
+     },
+     {
+      "type": "learn",
+      "title": "3. In general → no the",
+      "lines": [
+       "Plural and noncount generalizations: no the."
+      ],
+      "chips": [
+       "✅ Apples are my favorite fruit.",
+       "❌ The apples are my favorite fruit.",
+       "✅ Gold is a metal.",
+       "❌ The gold is a metal."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "4. One count noun needs a helper",
+      "lines": [
+       "a singular count noun can't stand alone."
+      ],
+      "chips": [
+       "✅ I drove a car.",
+       "✅ I drove the car.",
+       "✅ I drove that car.",
+       "✅ I drove his car.",
+       "❌ I drove car.",
+       "❌ I drove a his car."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm on ___ diet, so I don't enjoy shopping right now.",
+      "options": [
+       "a",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "diet is a singular count noun → needs a."
+     },
+     {
+      "type": "choice",
+      "text": "I always like to have ___ rice in my cupboard.",
+      "options": [
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Rice in general → no the."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "the: we both know it, or it's the second mention.",
+     "No the for generalizations. A singular count noun needs a / the / this / my."
+    ],
+    "timeline": [
+     "second-mention"
+    ],
+    "examples": [
+     {
+      "text": "The sun is bright today.",
+      "hl": [
+       [
+        "The sun",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "I saw a cat. The cat was chasing a mouse.",
+      "hl": [
+       [
+        "a cat",
+        "pres"
+       ],
+       [
+        "The cat",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Apples are my favorite fruit.",
+      "hl": [
+       [
+        "Apples",
+        "state"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Picnic and laundry",
+     "icon": "🧺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Which conversation is correct?",
+       "options": [
+        "A moon is very bright tonight. — Stars are beautiful too.",
+        "The moon is very bright tonight. — The stars are beautiful too."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Only one moon. We all know it → the."
+      },
+      {
+       "type": "choice",
+       "text": "Did you have fun at ___ picnic yesterday?",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We both know which picnic → the."
+      },
+      {
+       "type": "choice",
+       "text": "Where's my blue shirt? — It's in ___ washing machine.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The one in our home → the."
+      },
+      {
+       "type": "choice",
+       "text": "That's OK. I can wear ___ different shirt.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any other shirt → a."
+      },
+      {
+       "type": "choice",
+       "text": "I wish we had ___ washing machine.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "We don't have one. Any machine → a."
+      },
+      {
+       "type": "choice",
+       "text": "It would make ___ my life a lot easier.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "my is already there. No article."
+      },
+      {
+       "type": "choice",
+       "text": "Have you seen my boots? — They're in ___ closet.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The closet in our home → the."
+      },
+      {
+       "type": "choice",
+       "text": "They're in the closet in ___ front hallway.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Our front hallway → the."
+      },
+      {
+       "type": "choice",
+       "text": "Wait! Please hold ___ elevator for me.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The one right here → the."
+      },
+      {
+       "type": "choice",
+       "text": "Hurry. ___ door is closing.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The elevator's door → The."
+      }
+     ]
+    },
+    {
+     "title": "A mishap",
+     "icon": "🚲",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What happened to your bike? ___ front wheel is bent.",
+       "options": [
+        "A",
+        "An",
+        "The"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Your bike's front wheel → The."
+      },
+      {
+       "type": "choice",
+       "text": "I ran into ___ parked car.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention, one car → a."
+      },
+      {
+       "type": "choice",
+       "text": "I swerved to avoid ___ big pothole.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention → a."
+      },
+      {
+       "type": "choice",
+       "text": "Did you damage ___ car?",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Second mention → the."
+      },
+      {
+       "type": "choice",
+       "text": "I left ___ note.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention → a."
+      },
+      {
+       "type": "choice",
+       "text": "I left a note for ___ owner of the car.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The car has one owner → the."
+      },
+      {
+       "type": "choice",
+       "text": "What did you write on ___ note?",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Second mention → the."
+      },
+      {
+       "type": "choice",
+       "text": "I also wrote ___ apology.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First mention, vowel sound → an."
+      }
+     ]
+    },
+    {
+     "title": "Groceries and a shark",
+     "icon": "🦈",
+     "items": [
+      {
+       "type": "errorfix",
+       "text": "I always like to have [the] rice in my cupboard. I eat it every day.",
+       "options": [
+        "I always like to have a rice in my cupboard. I eat it every day.",
+        "I always like to have rice in my cupboard. I eat it every day.",
+        "I always like to have the rices in my cupboard. I eat it every day."
+       ],
+       "answer": 1,
+       "why": "Rice in general → no the.",
+       "rule": "7-4"
+      },
+      {
+       "type": "errorfix",
+       "text": "I buy [the] junk food. I know it's not healthy, but I buy it anyway.",
+       "options": [
+        "I buy junk food. I know it's not healthy, but I buy it anyway.",
+        "I buy a junk food. I know it's not healthy, but I buy it anyway.",
+        "I buy the junk foods. I know it's not healthy, but I buy it anyway."
+       ],
+       "answer": 0,
+       "why": "Junk food in general → no the.",
+       "rule": "7-4"
+      },
+      {
+       "type": "errorfix",
+       "text": "My [a] favorite food is [the] fruit. I have [apple] or [orange] every day.",
+       "options": [
+        "My favorite food is the fruit. I have an apple or an orange every day.",
+        "My a favorite food is fruit. I have apple or orange every day.",
+        "My favorite food is fruit. I have an apple or an orange every day."
+       ],
+       "answer": 2,
+       "why": "my = no a. Fruit in general. One apple → an.",
+       "rule": "7-4"
+      },
+      {
+       "type": "errorfix",
+       "text": "I'm [on diet], so I don't really enjoy shopping right now!",
+       "options": [
+        "I'm on a diet, so I don't really enjoy shopping right now!",
+        "I'm on the diets, so I don't really enjoy shopping right now!",
+        "I'm on diets, so I don't really enjoy shopping right now!"
+       ],
+       "answer": 0,
+       "why": "A singular count noun needs a.",
+       "rule": "7-4"
+      },
+      {
+       "type": "errorfix",
+       "text": "That's [interesting question]. I have [sweet tooth].",
+       "options": [
+        "That's a interesting question. I have a sweet tooth.",
+        "That's an interesting question. I have a sweet tooth.",
+        "That's interesting question. I have the sweet tooth."
+       ],
+       "answer": 1,
+       "why": "an + vowel sound. a sweet tooth.",
+       "rule": "7-4"
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence comes FIRST in the story?",
+       "options": [
+        "The man was swimming off the coast of New Zealand.",
+        "I read an article about a long-distance swimmer."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First mention: a swimmer. Later: the man."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence comes FIRST?",
+       "options": [
+        "He looked down and saw a shark swimming under him.",
+        "The shark didn't fight them and left."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First a shark, then the shark."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence comes FIRST?",
+       "options": [
+        "The dolphins made a protective circle around the swimmer.",
+        "Fortunately, ten dolphins were swimming nearby."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First ten dolphins, then the dolphins."
+      }
+     ]
+    },
+    {
+     "title": "Caps and beef",
+     "icon": "🧢",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Bradley is wearing ___ baseball cap today.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One cap, not special → a."
+      },
+      {
+       "type": "choice",
+       "text": "Bradley likes to wear ___ caps.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ cap is a piece of clothing.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Any cap, in general → A."
+      },
+      {
+       "type": "choice",
+       "text": "___ caps are pieces of clothing.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, plural → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ brown cap on the chair belongs to Sam.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "That one on the chair → The."
+      },
+      {
+       "type": "choice",
+       "text": "___ beef is a kind of meat.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, noncount → no article."
+      },
+      {
+       "type": "choice",
+       "text": "___ beef we had for dinner last night was excellent.",
+       "options": [
+        "A",
+        "An",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The beef we had = specific → The."
+      },
+      {
+       "type": "choice",
+       "text": "Vegetarians do not eat ___ beef.",
+       "options": [
+        "a",
+        "an",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        3
+       ],
+       "why": "In general, noncount → no article."
+      }
+     ]
+    },
+    {
+     "title": "The Brooklyn Bridge",
+     "icon": "🌉",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ engineer designed the Brooklyn Bridge in New York City.",
+       "options": [
+        "A",
+        "An",
+        "The"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First mention, vowel sound → An."
+      },
+      {
+       "type": "choice",
+       "text": "John Roebling is ___ name of the engineer.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "the name of … = one specific name."
+      },
+      {
+       "type": "choice",
+       "text": "John Roebling is the name of ___ engineer who designed the bridge.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Second mention → the engineer."
+      },
+      {
+       "type": "choice",
+       "text": "He died in 1869 from ___ infection.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First mention, vowel sound → an."
+      },
+      {
+       "type": "choice",
+       "text": "His son took over the construction of ___ bridge after his father died.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "We know which bridge → the."
+      },
+      {
+       "type": "choice",
+       "text": "His wife, Emily, supervised the completion of ___ bridge.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Same bridge → the."
+      },
+      {
+       "type": "choice",
+       "text": "She had studied as ___ engineer.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A job, one of many, vowel sound → an."
+      }
+     ]
+    },
+    {
+     "title": "Computer bugs",
+     "icon": "🐛",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When there is ___ problem with a computer…",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "After there is: new → a."
+      },
+      {
+       "type": "choice",
+       "text": "…we often say we have ___ “computer bug.”",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention → a."
+      },
+      {
+       "type": "choice",
+       "text": "Of course, it's not ___ real insect.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Not a special one → a."
+      },
+      {
+       "type": "choice",
+       "text": "___ expression actually goes back to Thomas Edison.",
+       "options": [
+        "A",
+        "An",
+        "The"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "The expression we just named → The."
+      },
+      {
+       "type": "choice",
+       "text": "Edison was ___ famous inventor.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One of many inventors → a."
+      },
+      {
+       "type": "choice",
+       "text": "He had a lot of problems. He blamed ___ problems on a bug.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Second mention → the problems."
+      },
+      {
+       "type": "choice",
+       "text": "He blamed them on ___ imaginary insect.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "First mention, vowel sound → an."
+      },
+      {
+       "type": "choice",
+       "text": "It had hidden inside ___ machine.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "His phonograph, already named → the."
+      },
+      {
+       "type": "choice",
+       "text": "He was quoted in ___ newspaper.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One newspaper, not special → a."
+      },
+      {
+       "type": "choice",
+       "text": "It is ___ first recorded use of the word bug in this way.",
+       "options": [
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "the first = only one."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Interview",
+     "task": "Claude asks: Do you have a pet? What is the name of your pet? Answer in full sentences.",
+     "claudePrompt": "You are my English speaking partner. Ask me these pairs of questions one pair at a time: Do you have siblings? What are the names of your brothers and sisters? / Do you have a pet? What is the name of your pet? / What is your favorite restaurant? Where is the restaurant? / Think of a color. What is the color you first thought of? / Where is a fun place to go on weekends? / How is the weather in your hometown this time of year? I answer in complete sentences. Check my articles: a/an for first mention, the for second mention and things we both know."
+    },
+    {
+     "title": "What happened to the…?",
+     "task": "Something got broken and it isn't yours! Tell Claude what happened.",
+     "claudePrompt": "You are my English speaking partner. Role-play: you notice that something of mine is damaged (a phone screen, a bike, a laptop). Start with 'What happened to the ...? The ... is broken.' I explain what happened ('I dropped it. Even worse, it doesn't belong to me. It is my brother's.'). Ask 'What are you going to do?' Check my use of a/an for new things and the for things already mentioned."
+    }
+   ]
+  },
+  {
+   "id": "7-5",
+   "tag": "7-5",
+   "t": "prog",
+   "title": "Places and titles",
+   "full": "Using The or Ø with Titles and Geographic Names",
+   "lesson": {
+    "title": "Learn: the with names",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Most names: no the",
+      "lines": [
+       "People with titles, continents, most countries, cities."
+      ],
+      "chips": [
+       "Mr. Harper",
+       "Doctor Shue",
+       "President Costa",
+       "Africa",
+       "Australia",
+       "Singapore",
+       "Canada",
+       "Tokyo"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A few countries take the",
+      "lines": [
+       "Names with States, Republic, Emirates, or a plural s."
+      ],
+      "chips": [
+       "the United States",
+       "the United Arab Emirates",
+       "the Czech Republic",
+       "the Netherlands",
+       "the Philippines",
+       "the Dominican Republic"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "She's from ___ United Arab Emirates.",
+      "options": [
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Emirates (plural name) → the."
+     },
+     {
+      "type": "compare",
+      "title": "Water names",
+      "left": {
+       "label": "the: oceans, seas, rivers, canals",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "the Atlantic Ocean",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "the North Sea",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "the Amazon River",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Ø: lakes",
+       "t": "state",
+       "examples": [
+        {
+         "text": "Lake Baikal",
+         "hl": [
+          [
+           "Lake Baikal",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "Lake Tanganyika",
+         "hl": [
+          [
+           "Lake Tanganyika",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Rivers and seas flow: the. Lakes sit still: no the."
+     },
+     {
+      "type": "compare",
+      "title": "One or a group?",
+      "left": {
+       "label": "the: groups (ranges, island groups)",
+       "t": "prog",
+       "examples": [
+        {
+         "text": "the Rocky Mountains",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "the Alps",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        },
+        {
+         "text": "the Hawaiian Islands",
+         "hl": [
+          [
+           "the",
+           "prog"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "Ø: just one",
+       "t": "state",
+       "examples": [
+        {
+         "text": "Mount Everest",
+         "hl": [
+          [
+           "Mount Everest",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "Tahiti",
+         "hl": [
+          [
+           "Tahiti",
+           "state"
+          ]
+         ]
+        },
+        {
+         "text": "Vancouver Island",
+         "hl": [
+          [
+           "Vancouver Island",
+           "state"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "Plural name = a group → the. One mountain or one island → no the."
+     },
+     {
+      "type": "choice",
+      "text": "We climbed ___ Mount Kilimanjaro.",
+      "options": [
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "One mountain → no the."
+     },
+     {
+      "type": "choice",
+      "text": "We hiked in ___ Rocky Mountains.",
+      "options": [
+       "the",
+       "Ø (nothing)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A mountain range (group) → the."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "No the: titles + names, continents, most countries, cities, lakes, one mountain, one island.",
+     "the: oceans, seas, rivers, mountain ranges, island groups, the United States."
+    ],
+    "timeline": [],
+    "examples": [
+     {
+      "text": "They crossed the Atlantic Ocean.",
+      "hl": [
+       [
+        "the Atlantic Ocean",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "We climbed Mount Kilimanjaro.",
+      "hl": [
+       [
+        "Mount Kilimanjaro",
+        "state"
+       ]
+      ]
+     },
+     {
+      "text": "The Alps are in Europe.",
+      "hl": [
+       [
+        "The Alps",
+        "prog"
+       ]
+      ]
+     }
+    ],
+    "chips": [
+     {
+      "label": "the",
+      "words": [
+       "the Amazon River",
+       "the North Sea",
+       "the Alps",
+       "the Canary Islands",
+       "the Philippines"
+      ]
+     },
+     {
+      "label": "no the",
+      "words": [
+       "Lake Baikal",
+       "Mount Everest",
+       "Tahiti",
+       "Africa",
+       "Tokyo",
+       "Dr. Kato"
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "the or nothing?",
+     "icon": "🗺️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Mr. Harper",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "Title + name → no the."
+      },
+      {
+       "type": "sort",
+       "word": "Africa",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "A continent → no the."
+      },
+      {
+       "type": "sort",
+       "word": "Singapore",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "Most countries → no the."
+      },
+      {
+       "type": "sort",
+       "word": "United Arab Emirates",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 0,
+       "why": "Emirates (plural name) → the."
+      },
+      {
+       "type": "sort",
+       "word": "Tokyo",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "A city → no the."
+      },
+      {
+       "type": "sort",
+       "word": "Amazon River",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 0,
+       "why": "A river → the."
+      },
+      {
+       "type": "sort",
+       "word": "Lake Baikal",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "A lake → no the."
+      },
+      {
+       "type": "sort",
+       "word": "Rocky Mountains",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 0,
+       "why": "A mountain range → the."
+      },
+      {
+       "type": "sort",
+       "word": "Mount Everest",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 1,
+       "why": "One mountain → no the."
+      },
+      {
+       "type": "sort",
+       "word": "Hawaiian Islands",
+       "buckets": [
+        "the",
+        "no article"
+       ],
+       "answer": 0,
+       "why": "A group of islands → the."
+      }
+     ]
+    },
+    {
+     "title": "Geography trivia",
+     "icon": "🌍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ border Switzerland, Italy, and France.",
+       "options": [
+        "The French Alps",
+        "French Alps",
+        "The Antarctica"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A mountain range → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ is on the Indian Ocean.",
+       "options": [
+        "The India",
+        "India",
+        "The Italy"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Most countries → no the."
+      },
+      {
+       "type": "choice",
+       "text": "___ is the third longest river in the world.",
+       "options": [
+        "Yangtze River",
+        "The Lake Tanganyika",
+        "The Yangtze River"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A river → the."
+      },
+      {
+       "type": "choice",
+       "text": "Ten countries border ___.",
+       "options": [
+        "Brazil",
+        "the Brazil",
+        "the Kuwait"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Most countries → no the."
+      },
+      {
+       "type": "choice",
+       "text": "___ is the biggest salt-water lake in the world.",
+       "options": [
+        "Caspian Sea",
+        "The Caspian Sea",
+        "The Lake Tanganyika"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A sea → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ shares a border with Germany.",
+       "options": [
+        "Czech Republic",
+        "The Australia",
+        "The Czech Republic"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Republic in the name → the."
+      },
+      {
+       "type": "choice",
+       "text": "Dubai is part of ___.",
+       "options": [
+        "the United Arab Emirates",
+        "United Arab Emirates",
+        "the Kuwait"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Emirates (plural name) → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ is the driest continent.",
+       "options": [
+        "The Antarctica",
+        "Antarctica",
+        "The Canary Islands"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A continent → no the."
+      }
+     ]
+    },
+    {
+     "title": "Where would you travel?",
+     "icon": "🧳",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I've been looking at brochures of ___ Tahiti.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One island → no the."
+      },
+      {
+       "type": "choice",
+       "text": "___ Himalayas are stunning.",
+       "options": [
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A mountain range → The."
+      },
+      {
+       "type": "choice",
+       "text": "I'd love to see ___ Mount Everest.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One mountain → no the."
+      },
+      {
+       "type": "choice",
+       "text": "I also want to see ___ Crater Lake in Oregon.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A lake → no the."
+      },
+      {
+       "type": "choice",
+       "text": "I travel to major cities like ___ Paris, Shanghai, and Mumbai.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cities → no the."
+      },
+      {
+       "type": "choice",
+       "text": "I would like to see the beaches in ___ Thailand.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Most countries → no the."
+      },
+      {
+       "type": "choice",
+       "text": "My husband dreams of sailing in ___ Mediterranean Sea.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A sea → the."
+      },
+      {
+       "type": "choice",
+       "text": "I've never been to ___ Eastern Europe.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A part of a continent → no the."
+      },
+      {
+       "type": "choice",
+       "text": "___ Hungary and Poland interest me.",
+       "options": [
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Most countries → no the."
+      },
+      {
+       "type": "choice",
+       "text": "My Japanese teacher, ___ Dr. Kato, says Kyoto is beautiful.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Title + name → no the."
+      }
+     ]
+    },
+    {
+     "title": "Around Vancouver",
+     "icon": "🏔️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "___ and the Gulf Islands are west of Vancouver.",
+       "options": [
+        "The Vancouver Island",
+        "Vancouver Island"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One island → no the."
+      },
+      {
+       "type": "choice",
+       "text": "Vancouver Island and ___ are west of Vancouver.",
+       "options": [
+        "the Gulf Islands",
+        "Gulf Islands"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A group of islands → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ are in Alberta and British Columbia.",
+       "options": [
+        "The Canadian Rockies",
+        "Canadian Rockies"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A mountain range → the."
+      },
+      {
+       "type": "choice",
+       "text": "___ is in the Canadian Rockies.",
+       "options": [
+        "The Mount Robson",
+        "Mount Robson"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One mountain → no the."
+      },
+      {
+       "type": "choice",
+       "text": "Mount Rainier is the tallest mountain in ___.",
+       "options": [
+        "the Cascades",
+        "Cascades"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A mountain range → the."
+      },
+      {
+       "type": "choice",
+       "text": "They crossed ___ Atlantic Ocean.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "An ocean → the."
+      },
+      {
+       "type": "choice",
+       "text": "Ari is from ___ Tahiti.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One island → no the."
+      },
+      {
+       "type": "choice",
+       "text": "Have you ever visited ___ Philippines?",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A plural country name → the."
+      },
+      {
+       "type": "choice",
+       "text": "He works in ___ Tokyo.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A city → no the."
+      },
+      {
+       "type": "choice",
+       "text": "We met ___ President Costa.",
+       "options": [
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Title + name → no the."
+      }
+     ]
+    },
+    {
+     "title": "Toys in the sea",
+     "icon": "🧸",
+     "items": [
+      {
+       "type": "choice",
+       "text": "In 1997, ___ container ship was traveling from Holland to New York.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention → a.",
+       "rule": "7-4"
+      },
+      {
+       "type": "choice",
+       "text": "As it passed the British coastline, ___ freak wave hit the boat.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First mention → a.",
+       "rule": "7-4"
+      },
+      {
+       "type": "choice",
+       "text": "A freak wave hit ___ boat.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The ship we already know → the.",
+       "rule": "7-4"
+      },
+      {
+       "type": "choice",
+       "text": "Sixty-two containers went crashing into ___ Atlantic Ocean.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "An ocean → the.",
+       "rule": "7-5"
+      },
+      {
+       "type": "choice",
+       "text": "Millions of toys went to ___ bottom of the sea.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The sea has one bottom → the.",
+       "rule": "7-4"
+      },
+      {
+       "type": "choice",
+       "text": "Some pieces have traveled as far as ___ Australia.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "A continent / country → no the.",
+       "rule": "7-5"
+      },
+      {
+       "type": "choice",
+       "text": "They are ___ problem for wildlife.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One problem of many → a.",
+       "rule": "7-1"
+      },
+      {
+       "type": "choice",
+       "text": "___ plastic never goes away.",
+       "options": [
+        "A",
+        "The",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Plastic in general, noncount → no article.",
+       "rule": "7-2"
+      },
+      {
+       "type": "choice",
+       "text": "It can get smaller until it's ___ size of a molecule.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the size of … = one specific size.",
+       "rule": "7-3"
+      },
+      {
+       "type": "choice",
+       "text": "Eventually it reaches ___ human food chain.",
+       "options": [
+        "a",
+        "the",
+        "Ø (nothing)"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "There is only one → the.",
+       "rule": "7-4"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Travel brochure",
+     "task": "Pick a place people should visit. Tell Claude its points of interest and one thing not to miss.",
+     "claudePrompt": "You are my English writing partner. Ask me to choose a city or region tourists would enjoy and write a mini travel brochure: three points of interest, two interesting facts, and a 4-5 sentence description of one place 'not to be missed'. Check my articles with geographic names (no 'the' with cities, countries, lakes and single mountains; 'the' with rivers, seas, oceans, mountain ranges and island groups)."
+    },
+    {
+     "title": "My “aha” moment",
+     "task": "Tell Claude about learning English: what helps you most? Have you had an “aha” moment?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time about my language learning: How much English do you speak and read outside class? Do you listen to the radio or podcasts in English? Is using English outside class important for you? What technique has helped you most? Have you had an 'aha' moment when something suddenly became clear? Check my article usage (a/an, the, or no article)."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: Article Imp",
+  "icon": "😈",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "[The] Bali is [very] interesting island.",
+    "options": [
+     "Bali is a very interesting island.",
+     "The Bali is a very interesting island.",
+     "Bali is very interesting island."
+    ],
+    "answer": 0,
+    "why": "One island: no the. is + a … island.",
+    "rule": "7-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "I want to live [in warm] place after I graduate from college.",
+    "options": [
+     "I want to live in the warm place after I graduate from college.",
+     "I want to live in a warm place after I graduate from college.",
+     "I want to live in warm places after I graduate from the college."
+    ],
+    "answer": 1,
+    "why": "A singular count noun needs a.",
+    "rule": "7-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "When I was [high] school student, I took my first airplane ride overseas.",
+    "options": [
+     "When I was a high school student, I took my first airplane ride overseas.",
+     "When I was the high school student, I took my first airplane ride overseas.",
+     "When I was high school a student, I took my first airplane ride overseas."
+    ],
+    "answer": 0,
+    "why": "One student of many → a.",
+    "rule": "7-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Seoul is [capital] city of South Korea.",
+    "options": [
+     "Seoul is a capital city of South Korea.",
+     "The Seoul is capital city of South Korea.",
+     "Seoul is the capital city of South Korea."
+    ],
+    "answer": 2,
+    "why": "A country has one capital → the.",
+    "rule": "7-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "I had [very] strange experience at a party last night.",
+    "options": [
+     "I had the very strange experience at a party last night.",
+     "I had a very strange experience at a party last night.",
+     "I had very strange experiences at party last night."
+    ],
+    "answer": 1,
+    "why": "One experience, new to you → a.",
+    "rule": "7-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Is it [good] idea to put plastic in [microwave] oven?",
+    "options": [
+     "Is it a good idea to put plastic in a microwave oven?",
+     "Is it good idea to put the plastic in microwave oven?",
+     "Is it the good idea to put plastic in microwave oven?"
+    ],
+    "answer": 0,
+    "why": "Singular count nouns need a.",
+    "rule": "7-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "At the store, [salesperson] ignored me. I bought my clothes elsewhere.",
+    "options": [
+     "At the store, salespersons ignored me. I bought my clothes elsewhere.",
+     "At the store, a salesperson ignored me. I bought my clothes elsewhere.",
+     "At store, salesperson ignored me. I bought my clothes elsewhere."
+    ],
+    "answer": 1,
+    "why": "One salesperson, first mention → a.",
+    "rule": "7-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "What are some differences between [the] men and [the] women?",
+    "options": [
+     "What are some differences between a men and a women?",
+     "What are the some differences between the men and the women?",
+     "What are some differences between men and women?"
+    ],
+    "answer": 2,
+    "why": "Men and women in general → no the.",
+    "rule": "7-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Is [cost] of living very high in your country?",
+    "options": [
+     "Is the cost of living very high in your country?",
+     "Is a cost of living very high in your country?",
+     "Is cost of the living very high in your country?"
+    ],
+    "answer": 0,
+    "why": "the cost of … = one specific cost.",
+    "rule": "7-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "I need to tell you about [very] important problem in society today.",
+    "options": [
+     "I need to tell you about the very important problem in the society today.",
+     "I need to tell you about a very important problem in society today.",
+     "I need to tell you about very important problems in a society today."
+    ],
+    "answer": 1,
+    "why": "One problem, new to you → a.",
+    "rule": "7-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Photos] you took are [a] very beautiful.",
+    "options": [
+     "A photos you took are very beautiful.",
+     "Photos you took are the very beautiful.",
+     "The photos you took are very beautiful."
+    ],
+    "answer": 2,
+    "why": "The ones you took → The. No a before an adjective alone.",
+    "rule": "7-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "[The] orange juice is on sale at the store.",
+    "options": [
+     "Orange juice is on sale at the store.",
+     "An orange juice is on sale at the store.",
+     "The orange juices is on sale at the store."
+    ],
+    "answer": 0,
+    "why": "Juice in general, noncount → no the.",
+    "rule": "7-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "Everyone seeks [the] happiness in [the] life.",
+    "options": [
+     "Everyone seeks a happiness in a life.",
+     "Everyone seeks happiness in life.",
+     "Everyone seeks the happiness in life."
+    ],
+    "answer": 1,
+    "why": "Ideas in general → no the.",
+    "rule": "7-2"
+   }
+  ]
+ }
+}

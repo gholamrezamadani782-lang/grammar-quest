@@ -1,0 +1,2818 @@
+{
+ "id": "ch18",
+ "num": 18,
+ "title": "Reduction of Adverb Clauses",
+ "subtitle": "While walking…, Having seen…, Upon arriving…",
+ "icon": "🕸️",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "While checking text messages at the bus stop, Janice dropped her phone in a mud puddle.",
+    "answer": "correct",
+    "why": "Janice did both things.",
+    "rule": "18-1"
+   },
+   {
+    "type": "judge",
+    "text": "Before accepting the job, the company offered Joseph additional vacation days.",
+    "answer": "wrong",
+    "why": "Joseph accepted the job, not the company.",
+    "fix": "Before Joseph accepted the job, the company offered him additional vacation days.",
+    "rule": "18-1"
+   },
+   {
+    "type": "judge",
+    "text": "After having completed two years of medical training, Marisa was ready to begin life as a paramedic.",
+    "answer": "correct",
+    "why": "After having completed = After completing.",
+    "rule": "18-2"
+   },
+   {
+    "type": "judge",
+    "text": "Since came to this country, I have experienced some interesting cultural traditions.",
+    "answer": "wrong",
+    "why": "since + -ing.",
+    "fix": "Since coming to this country, I have experienced some interesting cultural traditions.",
+    "rule": "18-2"
+   },
+   {
+    "type": "judge",
+    "text": "Sitting outdoors in the sun, Jenn realized she had forgotten to put on sunscreen.",
+    "answer": "correct",
+    "why": "Jenn was sitting.",
+    "rule": "18-3"
+   },
+   {
+    "type": "judge",
+    "text": "While hotel guests were checking in, they were told about holiday specials.",
+    "answer": "correct",
+    "why": "A full clause is always OK.",
+    "rule": "18-3"
+   },
+   {
+    "type": "judge",
+    "text": "Not have spent much time with her grandparents when she was younger, Lauren was happy about their summer visit.",
+    "answer": "wrong",
+    "why": "Not having spent.",
+    "fix": "Not having spent much time with her grandparents when she was younger, Lauren was happy about their summer visit.",
+    "rule": "18-4"
+   },
+   {
+    "type": "judge",
+    "text": "Needed the package by the weekend, Barry paid for express delivery.",
+    "answer": "wrong",
+    "why": "Because he needed it → Needing.",
+    "fix": "Needing the package by the weekend, Barry paid for express delivery.",
+    "rule": "18-4"
+   },
+   {
+    "type": "judge",
+    "text": "Upon hearing about the promotion of her assistant, Nela sat down at her desk in surprise.",
+    "answer": "correct",
+    "why": "upon + -ing = when she heard.",
+    "rule": "18-5"
+   },
+   {
+    "type": "judge",
+    "text": "On learning about genetics and eye color, Sofia began looking more closely at the eye color of her friends and their parents.",
+    "answer": "correct",
+    "why": "on + -ing = when she learned.",
+    "rule": "18-5"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "18-1",
+   "tag": "18-1",
+   "t": "plan",
+   "title": "While walking…",
+   "full": "Reduction of Adverb Clauses: Introduction",
+   "lesson": {
+    "title": "Learn: make an adverb clause shorter",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Clause → phrase",
+      "lines": [
+       "Cut the subject and be. Or cut the subject and use -ing."
+      ],
+      "visual": [
+       "reduce-adv"
+      ],
+      "chips": [
+       "While I was walking to class, I ran into an old friend. → While walking to class, I ran into an old friend.",
+       "Before I left for work, I ate breakfast. → Before leaving for work, I ate breakfast."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Before I left for work, I ate breakfast. → Before ___ for work, I ate breakfast.",
+      "options": [
+       "left",
+       "leaving",
+       "leave"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No be → verb + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Same subject only",
+      "lines": [
+       "The phrase describes the subject of the main clause."
+      ],
+      "visual": [
+       "same-subject"
+      ],
+      "chips": [
+       "✅ While sitting in class, Ann fell asleep. (Ann was sitting)",
+       "❌ While watching TV last night, the phone rang. (The phone was watching TV?)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "While the teacher was lecturing to the class, I fell asleep. Can you shorten it?",
+      "options": [
+       "Yes: While lecturing to the class, I fell asleep.",
+       "No. The subjects are different."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "the teacher ≠ I."
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "While sitting at my computer, the fire alarm went off.",
+       "While sitting at my computer, I heard the fire alarm go off."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "I was sitting, not the fire alarm."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Same subject in both clauses → you can shorten: While walking to class, I…",
+     "Different subjects → no change. (No “dangling” phrases!)"
+    ],
+    "timeline": [
+     "same-subject"
+    ],
+    "examples": [
+     {
+      "text": "While walking to class, I ran into an old friend.",
+      "hl": [
+       [
+        "While walking to class,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Before leaving for work, I ate breakfast.",
+      "hl": [
+       [
+        "Before leaving for work,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The elevator; which is right?",
+     "icon": "🛗",
+     "items": [
+      {
+       "type": "judge",
+       "text": "While riding the elevator, Zac heard a strange noise.",
+       "answer": "correct",
+       "why": "Zac was riding. Same subject."
+      },
+      {
+       "type": "judge",
+       "text": "While Zac was riding the elevator, it suddenly stopped.",
+       "answer": "correct",
+       "why": "A full clause is always OK."
+      },
+      {
+       "type": "judge",
+       "text": "While riding the elevator, it suddenly stopped.",
+       "answer": "wrong",
+       "why": "The elevator wasn't riding the elevator.",
+       "fix": "While Zac was riding the elevator, it suddenly stopped."
+      },
+      {
+       "type": "judge",
+       "text": "While ride the elevator, it suddenly stopped.",
+       "answer": "wrong",
+       "why": "Wrong form and wrong subject.",
+       "fix": "While Zac was riding the elevator, it suddenly stopped."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "While standing on the top floor of the building, the crowd below looked like ants.",
+        "While standing on the top floor of the building and looking down, Patrick suddenly felt dizzy."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Patrick was standing there."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "Before getting up, Mary likes to lie in her warm bed and plan her day.",
+        "Before getting up, Mary's alarm clock went off three times by accident."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Mary gets up, not the clock."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "While working on his new novel, William found himself telling the story of his childhood.",
+        "After finishing his novel, many of William's childhood friends contacted him."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "William was working on it."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "After standing in line for hours to buy tickets, the manager told us the concert was sold out.",
+        "After standing in line for hours to buy tickets, we were told the concert was sold out."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "We stood in line."
+      },
+      {
+       "type": "choice",
+       "text": "Choose the correct sentence.",
+       "options": [
+        "Before turning in your essay, it is important to check the grammar and spelling.",
+        "Before you turn in your essay, it is important to check the grammar and spelling."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "it can't turn in an essay → keep the clause."
+      }
+     ]
+    },
+    {
+     "title": "Who is doing it?",
+     "icon": "🧑‍🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "While sitting in class, Ann fell asleep.",
+       "options": [
+        "Ann",
+        "the teacher"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The phrase describes the subject: Ann.",
+       "ask": "Who was sitting in class?"
+      },
+      {
+       "type": "choice",
+       "text": "While lecturing to the class, I fell asleep.",
+       "options": [
+        "the teacher",
+        "I"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is I → I was lecturing!",
+       "ask": "Who was lecturing?"
+      },
+      {
+       "type": "choice",
+       "text": "While the teacher was lecturing to the class, I fell asleep.",
+       "options": [
+        "the teacher",
+        "I"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A full clause names its own subject.",
+       "ask": "Who was lecturing?"
+      },
+      {
+       "type": "choice",
+       "text": "Before leaving for work, I ate breakfast.",
+       "options": [
+        "I",
+        "someone else"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Same subject: I.",
+       "ask": "Who left for work?"
+      },
+      {
+       "type": "choice",
+       "text": "While walking to class, I ran into an old friend.",
+       "options": [
+        "my old friend",
+        "I"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is I.",
+       "ask": "Who was walking to class?"
+      },
+      {
+       "type": "choice",
+       "text": "While checking text messages at the bus stop, Janice dropped her phone in a mud puddle.",
+       "options": [
+        "Janice",
+        "the bus driver"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is Janice.",
+       "ask": "Who was checking text messages?"
+      }
+     ]
+    },
+    {
+     "title": "Dangling or OK?",
+     "icon": "🪝",
+     "items": [
+      {
+       "type": "judge",
+       "text": "While checking text messages at the bus stop, Janice dropped her phone in a mud puddle.",
+       "answer": "correct",
+       "why": "Janice did both things."
+      },
+      {
+       "type": "judge",
+       "text": "Before accepting the job, the company offered Joseph additional vacation days.",
+       "answer": "wrong",
+       "why": "Joseph accepted the job, not the company.",
+       "fix": "Before Joseph accepted the job, the company offered him additional vacation days."
+      },
+      {
+       "type": "judge",
+       "text": "While watching TV last night, the phone rang.",
+       "answer": "wrong",
+       "why": "The phone wasn't watching TV.",
+       "fix": "While I was watching TV last night, the phone rang."
+      },
+      {
+       "type": "judge",
+       "text": "While sitting in class, I fell asleep.",
+       "answer": "correct",
+       "why": "I did both things."
+      },
+      {
+       "type": "judge",
+       "text": "Before leaving for work, breakfast was eaten quickly.",
+       "answer": "wrong",
+       "why": "Breakfast didn't leave for work.",
+       "fix": "Before leaving for work, I ate breakfast quickly."
+      },
+      {
+       "type": "judge",
+       "text": "While walking to class, I ran into an old friend.",
+       "answer": "correct",
+       "why": "I did both things."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "18-2",
+   "tag": "18-2",
+   "t": "plan",
+   "title": "After finishing…",
+   "full": "Changing Time Clauses to Modifying Adverbial Phrases",
+   "lesson": {
+    "title": "Learn: after, before, when, while, since + -ing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Five time words",
+      "lines": [
+       "after / before / when / while / since + -ing."
+      ],
+      "chips": [
+       "Since coming to this country, Maria has made many friends.",
+       "When cooking, Tyrell uses a lot of spices.",
+       "After finishing his homework, Peter went to bed."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Since Maria came to this country, she has made many friends. → Since ___ to this country, Maria has made many friends.",
+      "options": [
+       "came",
+       "coming"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "since + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Put the name in the main clause",
+      "lines": [
+       "The phrase has no subject, so the main clause needs the noun."
+      ],
+      "chips": [
+       "When Tyrell cooks, he uses a lot of spices. → When cooking, Tyrell uses a lot of spices."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "After finishing = After having finished",
+      "lines": [
+       "No difference in meaning. The phrase can also come last."
+      ],
+      "chips": [
+       "After finishing his homework, Peter went to bed.",
+       "After having finished his homework, Peter went to bed.",
+       "Peter went to bed after finishing his homework."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ to this country, I have experienced some interesting cultural traditions.",
+      "options": [
+       "Since came",
+       "Since coming"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "since + -ing."
+     },
+     {
+      "type": "choice",
+      "text": "After Karl had been climbing for several hours, his muscles began to ache. Can you shorten it?",
+      "options": [
+       "Yes",
+       "No. Karl ≠ his muscles."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Different subjects → no change."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "after / before / when / while / since + verb-ing (same subject).",
+     "After finishing = After having finished. The phrase can come first or last."
+    ],
+    "timeline": [
+     "reduce-adv"
+    ],
+    "examples": [
+     {
+      "text": "Since coming to this country, Maria has made many friends.",
+      "hl": [
+       [
+        "Since coming",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "When cooking, Tyrell uses a lot of spices.",
+      "hl": [
+       [
+        "When cooking",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Peter went to bed after finishing his homework.",
+      "hl": [
+       [
+        "after finishing",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Can you shorten it? (1)",
+     "icon": "☕",
+     "items": [
+      {
+       "type": "sort",
+       "word": "While Joe was driving to school yesterday, he had an accident.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "Joe = he."
+      },
+      {
+       "type": "sort",
+       "word": "Before I came to class, I stopped in a cafe for a cup of coffee.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "I = I."
+      },
+      {
+       "type": "sort",
+       "word": "Since Alberto moved here, he has been taking business classes.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "Alberto = he."
+      },
+      {
+       "type": "sort",
+       "word": "Omar's wife drove Omar to his downtown office after he had finished breakfast.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Omar's wife ≠ he (Omar)."
+      },
+      {
+       "type": "sort",
+       "word": "When the waiter took my order, I forgot to order a beverage.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "the waiter ≠ I."
+      },
+      {
+       "type": "sort",
+       "word": "You should always read a contract carefully before you sign your name.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "you = you."
+      },
+      {
+       "type": "sort",
+       "word": "After Karl had been climbing for several hours, his muscles began to ache.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Karl ≠ his muscles."
+      }
+     ]
+    },
+    {
+     "title": "Can you shorten it? (2)",
+     "icon": "🧗",
+     "items": [
+      {
+       "type": "sort",
+       "word": "While Joe was talking to his insurance company, the police arrived.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Joe ≠ the police."
+      },
+      {
+       "type": "sort",
+       "word": "Before the students came to class, they met at a cafe for lunch.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "the students = they."
+      },
+      {
+       "type": "sort",
+       "word": "Since Alberto opened his new business, his family hasn't seen much of him.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Alberto ≠ his family."
+      },
+      {
+       "type": "sort",
+       "word": "Omar walked up ten flights of stairs to his office after he had entered the building.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "Omar = he."
+      },
+      {
+       "type": "sort",
+       "word": "When I order coffee, I always ask for extra cream and sugar.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "I = I."
+      },
+      {
+       "type": "sort",
+       "word": "Before I signed my name, I had a lawyer look over the contract.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "I = I."
+      },
+      {
+       "type": "sort",
+       "word": "After Karl slipped and lost his footing, he held onto the ledge with all his strength.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 0,
+       "why": "Karl = he."
+      }
+     ]
+    },
+    {
+     "title": "Make it shorter",
+     "icon": "✂️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "While Joe was driving to school yesterday, he had an accident.",
+       "options": [
+        "While driving to school yesterday, he had an accident Joe.",
+        "While driving to school yesterday, Joe had an accident."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Cut Joe was; put Joe in the main clause.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Before I came to class, I stopped in a cafe for a cup of coffee.",
+       "options": [
+        "Before coming to class, I stopped in a cafe for a cup of coffee.",
+        "Before came to class, I stopped in a cafe for a cup of coffee."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "before + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Since Alberto moved here, he has been taking business classes.",
+       "options": [
+        "Since moved here, Alberto has been taking business classes.",
+        "Since moving here, Alberto has been taking business classes."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "since + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Omar walked up ten flights of stairs to his office after he had entered the building.",
+       "options": [
+        "Omar walked up ten flights of stairs to his office after entering the building.",
+        "Omar walked up ten flights of stairs to his office after entered the building."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "after + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "When I order coffee, I always ask for extra cream and sugar.",
+       "options": [
+        "When order coffee, I always ask for extra cream and sugar.",
+        "When ordering coffee, I always ask for extra cream and sugar."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "when + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "You should always read a contract carefully before you sign your name.",
+       "options": [
+        "You should always read a contract carefully before signing your name.",
+        "You should always read a contract carefully before sign your name."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "before + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "After Karl slipped and lost his footing, he held onto the ledge with all his strength.",
+       "options": [
+        "After slipping and lost his footing, Karl held onto the ledge with all his strength.",
+        "After slipping and losing his footing, Karl held onto the ledge with all his strength."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Both verbs → -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "judge",
+       "text": "After having completed two years of medical training, Marisa was ready to begin life as a paramedic.",
+       "answer": "correct",
+       "why": "After having completed = After completing."
+      },
+      {
+       "type": "judge",
+       "text": "Since came to this country, I have experienced some interesting cultural traditions.",
+       "answer": "wrong",
+       "why": "since + -ing.",
+       "fix": "Since coming to this country, I have experienced some interesting cultural traditions."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Before going to bed…",
+     "task": "Claude asks: What do you do before going to bed? After waking up? While sitting in class?",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What do you do before going to bed? after waking up? after arriving at school or work? while sitting in class? before leaving for the day? while preparing for a difficult exam? I answer in complete sentences that reuse the phrase (Before going to bed, I always ...). Check that I use -ing after before/after/while and that the subject of my main clause is the person doing both actions."
+    }
+   ]
+  },
+  {
+   "id": "18-3",
+   "tag": "18-3",
+   "t": "pres",
+   "title": "Walking down the street…",
+   "full": "Expressing the Idea of “During the Same Time” in Modifying Adverbial Phrases",
+   "lesson": {
+    "title": "Learn: -ing with no while",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "You can drop while",
+      "lines": [
+       "An -ing phrase at the start can mean “during that time.”"
+      ],
+      "visual": [
+       "ing-meaning"
+      ],
+      "chips": [
+       "While I was walking down the street, I ran into an old friend.",
+       "While walking down the street, I ran into an old friend.",
+       "Walking down the street, I ran into an old friend."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Hiking through the woods yesterday, Alan saw a bear. Who was hiking?",
+      "options": [
+       "Alan",
+       "the bear"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "The phrase describes the subject: Alan."
+     },
+     {
+      "type": "choice",
+      "text": "Walking through the woods, a bear spotted Alan. Who was walking?",
+      "options": [
+       "Alan",
+       "the bear"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The subject is a bear → the bear was walking."
+     },
+     {
+      "type": "learn",
+      "title": "The subject rule still works",
+      "lines": [
+       "The -ing phrase always describes the subject after the comma."
+      ],
+      "chips": [
+       "Sitting outdoors in the sun, Jenn realized she had forgotten sunscreen. (Jenn was sitting)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ down the street, I ran into an old friend.",
+      "options": [
+       "Walking",
+       "Walked"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "-ing phrase = while I was walking."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "-ing phrase + comma + subject: Walking down the street, I ran into an old friend.",
+     "Meaning: while (during the same time). The phrase describes the subject."
+    ],
+    "timeline": [
+     "ing-meaning"
+    ],
+    "examples": [
+     {
+      "text": "Walking down the street, I ran into an old friend.",
+      "hl": [
+       [
+        "Walking down the street,",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "Hiking through the woods yesterday, Alan saw a bear.",
+      "hl": [
+       [
+        "Hiking through the woods yesterday,",
+        "pres"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Who was doing it?",
+     "icon": "🐻",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Hiking through the woods yesterday, Alan saw a bear.",
+       "options": [
+        "Alan",
+        "the bear"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is Alan.",
+       "ask": "Who was hiking?"
+      },
+      {
+       "type": "choice",
+       "text": "Walking through the woods, a bear spotted Alan.",
+       "options": [
+        "Alan",
+        "the bear"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is a bear.",
+       "ask": "Who was walking?"
+      },
+      {
+       "type": "choice",
+       "text": "Driving to my grandparents' house last night, I saw a young woman who was selling flowers.",
+       "options": [
+        "I",
+        "the young woman"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is I.",
+       "ask": "Who was driving?"
+      },
+      {
+       "type": "choice",
+       "text": "Tapping her fingers loudly on the tray table, the woman next to me talked about her fear of flying.",
+       "options": [
+        "I",
+        "the woman next to me"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is the woman.",
+       "ask": "Who was tapping?"
+      },
+      {
+       "type": "choice",
+       "text": "Sitting outdoors in the sun, Jenn realized she had forgotten to put on sunscreen.",
+       "options": [
+        "Jenn",
+        "the sun"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is Jenn.",
+       "ask": "Who was sitting?"
+      },
+      {
+       "type": "choice",
+       "text": "Walking down the icy steps without using the handrail, Elena slipped and fell.",
+       "options": [
+        "Elena",
+        "someone else"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The subject is Elena.",
+       "ask": "Who was walking?"
+      }
+     ]
+    },
+    {
+     "title": "while or because?",
+     "icon": "🛩️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "DRIVING TO MY GRANDPARENTS' HOUSE LAST NIGHT, I saw a young woman who was selling flowers.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 0,
+       "why": "During the drive."
+      },
+      {
+       "type": "sort",
+       "word": "BEING A YOUNG WIDOW WITH THREE CHILDREN, my grandmother had no choice but to go to work.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 1,
+       "why": "Being… gives the reason."
+      },
+      {
+       "type": "sort",
+       "word": "SITTING ON THE AIRPLANE AND WATCHING THE CLOUDS, I let my thoughts wander.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 0,
+       "why": "During the flight."
+      },
+      {
+       "type": "sort",
+       "word": "TAPPING HER FINGERS LOUDLY ON THE TRAY TABLE, the woman next to me talked about her fear of flying.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 0,
+       "why": "At the same time."
+      },
+      {
+       "type": "sort",
+       "word": "HAVING GUESSED AT THE ANSWERS FOR MOST OF THE TEST, I did not expect to get a high score.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 1,
+       "why": "Having + participle = because (and before)."
+      },
+      {
+       "type": "sort",
+       "word": "REALIZING THAT I DIDN'T KNOW MUCH, I began to panic.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 1,
+       "why": "The reason for the panic."
+      },
+      {
+       "type": "sort",
+       "word": "WALKING DOWN THE ICY STEPS WITHOUT USING THE HANDRAIL, Elena slipped and fell.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 0,
+       "why": "During the walk (and maybe the reason too)."
+      },
+      {
+       "type": "sort",
+       "word": "HAVING BROKEN HER ARM IN THE FALL, Elena had to learn to write with her left hand.",
+       "buckets": [
+        "while (during that time)",
+        "because"
+       ],
+       "answer": 1,
+       "why": "The reason, and it happened before."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "☀️",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Sitting outdoors in the sun, Jenn realized she had forgotten to put on sunscreen.",
+       "answer": "correct",
+       "why": "Jenn was sitting."
+      },
+      {
+       "type": "judge",
+       "text": "While hotel guests were checking in, they were told about holiday specials.",
+       "answer": "correct",
+       "why": "A full clause is always OK."
+      },
+      {
+       "type": "judge",
+       "text": "Walking down the street, I ran into an old friend.",
+       "answer": "correct",
+       "why": "I was walking."
+      },
+      {
+       "type": "judge",
+       "text": "Walking down the street, my hat blew off.",
+       "answer": "wrong",
+       "why": "My hat wasn't walking.",
+       "fix": "Walking down the street, I lost my hat in the wind."
+      },
+      {
+       "type": "judge",
+       "text": "Watching TV last night, the phone rang.",
+       "answer": "wrong",
+       "why": "The phone wasn't watching TV.",
+       "fix": "While I was watching TV last night, the phone rang."
+      },
+      {
+       "type": "judge",
+       "text": "Checking in at the hotel, the guests were told about holiday specials.",
+       "answer": "correct",
+       "why": "The guests were checking in."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "18-4",
+   "tag": "18-4",
+   "t": "prog",
+   "title": "Needing money…",
+   "full": "Expressing Cause and Effect in Modifying Adverbial Phrases",
+   "lesson": {
+    "title": "Learn: -ing can mean because",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "-ing = because",
+      "lines": [
+       "Drop because and the subject. Use -ing."
+      ],
+      "visual": [
+       "ing-meaning"
+      ],
+      "chips": [
+       "Because she needed some money to buy a book, Sue went to a cash machine. → Needing some money to buy a book, Sue went to a cash machine."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Because he lacked the necessary qualifications, he was not considered for the job. → ___ the necessary qualifications, he was not considered for the job.",
+      "options": [
+       "Lacking",
+       "Because lacking",
+       "Lacked"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "No because in the phrase. Use -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Having + participle = because + before",
+      "lines": [
+       "It happened earlier."
+      ],
+      "chips": [
+       "Having seen that movie before, I don't want to go again.",
+       "Not having tasted the soup, she didn't realize how bad it was."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "be → Being (or nothing)",
+      "lines": [
+       "Being makes the reason clear."
+      ],
+      "chips": [
+       "Because he is a doctor, Oskar often gets calls at night. → Being a doctor, Oskar often gets calls at night.",
+       "Being unable to afford a car, she bought a bike.",
+       "Unable to afford a car, she bought a bike."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ the package by the weekend, Barry paid for express delivery.",
+      "options": [
+       "Needed",
+       "Needing"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Because he needed it → Needing."
+     },
+     {
+      "type": "choice",
+      "text": "___ much time with her grandparents when she was younger, Lauren was happy about their visit.",
+      "options": [
+       "Not have spent",
+       "Not having spent"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Negative + earlier → Not having spent."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Because + clause → -ing phrase (no because): Needing money, Sue went to a cash machine.",
+     "Earlier: Having seen… Negative: Not wanting… / Not having seen… be → Being…"
+    ],
+    "timeline": [
+     "ing-meaning"
+    ],
+    "examples": [
+     {
+      "text": "Needing some money to buy a book, Sue went to a cash machine.",
+      "hl": [
+       [
+        "Needing some money to buy a book,",
+        "prog"
+       ]
+      ]
+     },
+     {
+      "text": "Having seen that movie before, I don't want to go again.",
+      "hl": [
+       [
+        "Having seen that movie before,",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "Being a doctor, Oskar often gets calls in the middle of the night.",
+      "hl": [
+       [
+        "Being a doctor,",
+        "prog"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "David and the salty soup",
+     "icon": "🍲",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Because David didn't want to hurt her feelings, he ate his girlfriend's salty soup.",
+       "options": [
+        "Not wanting to hurt her feelings, David ate his girlfriend's salty soup.",
+        "Because not wanting to hurt her feelings, David ate his girlfriend's salty soup."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No because. not + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Because his girlfriend hadn't tasted the soup, she didn't realize how bad it was.",
+       "options": [
+        "Not tasted the soup, his girlfriend didn't realize how bad it was.",
+        "Not having tasted the soup, his girlfriend didn't realize how bad it was."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "hadn't tasted → Not having tasted.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Because David thinks that honesty can be hurtful, he doesn't tell her how he really feels.",
+       "options": [
+        "Thinking that honesty can be hurtful, David doesn't tell her how he really feels.",
+        "Thinks that honesty can be hurtful, David doesn't tell her how he really feels."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "thinks → Thinking.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Because David is a better cook, he does most of the cooking for them.",
+       "options": [
+        "Is a better cook, David does most of the cooking for them.",
+        "Being a better cook, David does most of the cooking for them."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is → Being.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Because she was unable to afford a car, she bought a bike.",
+       "options": [
+        "Unable to afford a car, she bought a bike.",
+        "Was unable to afford a car, she bought a bike."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Being can be dropped too.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "judge",
+       "text": "Not have spent much time with her grandparents when she was younger, Lauren was happy about their summer visit.",
+       "answer": "wrong",
+       "why": "Not having spent.",
+       "fix": "Not having spent much time with her grandparents when she was younger, Lauren was happy about their summer visit."
+      },
+      {
+       "type": "judge",
+       "text": "Needed the package by the weekend, Barry paid for express delivery.",
+       "answer": "wrong",
+       "why": "Because he needed it → Needing.",
+       "fix": "Needing the package by the weekend, Barry paid for express delivery."
+      }
+     ]
+    },
+    {
+     "title": "All the possible answers",
+     "icon": "🍁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Before ___ to you, I had never understood that formula.",
+       "options": [
+        "talked",
+        "talking",
+        "I talked"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "before + -ing, or a full clause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "After ___ the chapter four times, I finally understood the author's theory.",
+       "options": [
+        "I read",
+        "read",
+        "reading"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "A full clause, or after + -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Since ___ his bachelor's degree, he has had three jobs, each one better than the last.",
+       "options": [
+        "he completed",
+        "completing",
+        "completed"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "A full clause, or since + -ing.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "___ across Canada, I could not help being impressed by the great differences in terrain.",
+       "options": [
+        "Traveling",
+        "While I was traveling",
+        "While traveling"
+       ],
+       "answer": [
+        0,
+        1,
+        2
+       ],
+       "why": "All three mean “during that time.”",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "___ national fame, the union leader had been an electrician in a small town.",
+       "options": [
+        "Before gaining",
+        "He had gained",
+        "Before he gained"
+       ],
+       "answer": [
+        0,
+        2
+       ],
+       "why": "before + -ing, or a full clause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "___ in an airplane before, the little girl was surprised when her ears popped.",
+       "options": [
+        "Had never flown",
+        "Having never flown",
+        "Because she had never flown"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "Having + participle, or a because clause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "Before ___ vice president of marketing and sales, Peter McKay worked as a sales representative.",
+       "options": [
+        "became",
+        "becoming",
+        "he became"
+       ],
+       "answer": [
+        1,
+        2
+       ],
+       "why": "before + -ing, or a full clause.",
+       "ask": "Tap ALL the correct ones"
+      },
+      {
+       "type": "choice",
+       "text": "___ the cool evening breeze and listening to the sounds of nature, we lost track of time.",
+       "options": [
+        "Because enjoying",
+        "Enjoying",
+        "We were enjoying"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No because in a phrase."
+      },
+      {
+       "type": "choice",
+       "text": "___ to spend any more money this month, Jim decided against going to a cafe for lunch.",
+       "options": [
+        "Not wanting",
+        "Because he didn't want",
+        "Because not wanting"
+       ],
+       "answer": [
+        0,
+        1
+       ],
+       "why": "Phrase without because, or a full clause.",
+       "ask": "Tap ALL the correct ones"
+      }
+     ]
+    },
+    {
+     "title": "A visit home (1)",
+     "icon": "🏠",
+     "items": [
+      {
+       "type": "sort",
+       "word": "I am a college student. My family doesn't see me so often now.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "I ≠ my family."
+      },
+      {
+       "type": "choice",
+       "text": "I am a freshman in college. I spend most weekends in my dorm room doing homework.",
+       "options": [
+        "Am a freshman in college, I spend most weekends in my dorm room doing homework.",
+        "Being a freshman in college, I spend most weekends in my dorm room doing homework."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "am → Being.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "My younger siblings had made a “Welcome Home” sign. They were excited to see me.",
+       "options": [
+        "Having made a “Welcome Home” sign, my younger siblings were excited to see me.",
+        "Had made a “Welcome Home” sign, my younger siblings were excited to see me."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had made → Having made.",
+       "ask": "Combine"
+      },
+      {
+       "type": "sort",
+       "word": "The kids were excited. I offered to play with them right away.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "The kids ≠ I."
+      },
+      {
+       "type": "choice",
+       "text": "My mom lives a long distance from her job. She has to leave early every morning.",
+       "options": [
+        "Lives a long distance from her job, my mom has to leave early every morning.",
+        "Living a long distance from her job, my mom has to leave early every morning."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "lives → Living.",
+       "ask": "Combine"
+      },
+      {
+       "type": "sort",
+       "word": "My mom spends four hours a day commuting. Her job needs to change.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "My mom ≠ her job."
+      }
+     ]
+    },
+    {
+     "title": "A visit home (2)",
+     "icon": "🫐",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I heard that my cousin was in the hospital. I called my aunt to find out how she was doing.",
+       "options": [
+        "Hearing that my cousin was in the hospital, I called my aunt to find out how she was doing.",
+        "Heard that my cousin was in the hospital, I called my aunt to find out how she was doing."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "heard → Hearing.",
+       "ask": "Combine"
+      },
+      {
+       "type": "sort",
+       "word": "We decided to visit my cousin. A nurse told us she was resting.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "We ≠ a nurse."
+      },
+      {
+       "type": "sort",
+       "word": "My brother was picking blackberries in the garden. A bee stung him.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "My brother ≠ a bee."
+      },
+      {
+       "type": "choice",
+       "text": "My brother didn't want to yell. He began taking deep breaths.",
+       "options": [
+        "Not wanted to yell, my brother began taking deep breaths.",
+        "Not wanting to yell, my brother began taking deep breaths."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "didn't want → Not wanting.",
+       "ask": "Combine"
+      },
+      {
+       "type": "choice",
+       "text": "I recognized my neighbor, but I had forgotten his name. I just smiled and said, “Hi.”",
+       "options": [
+        "Recognizing my neighbor but having forgotten his name, I just smiled and said, “Hi.”",
+        "Recognized my neighbor but forgot his name, I just smiled and said, “Hi.”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Recognizing… having forgotten…",
+       "ask": "Combine"
+      },
+      {
+       "type": "sort",
+       "word": "He remembered my name as well as my girlfriend's. I felt pretty embarrassed.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "He ≠ I."
+      },
+      {
+       "type": "sort",
+       "word": "My little sister was convinced she couldn't learn math. I helped her with some lessons.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "My little sister ≠ I."
+      },
+      {
+       "type": "choice",
+       "text": "I was convinced that she had the ability. I encouraged her to keep trying and not give up.",
+       "options": [
+        "Was convinced that she had the ability, I encouraged her to keep trying and not give up.",
+        "Convinced that she had the ability, I encouraged her to keep trying and not give up."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "(Being) convinced…",
+       "ask": "Combine"
+      }
+     ]
+    },
+    {
+     "title": "Match the ideas",
+     "icon": "🐘",
+     "items": [
+      {
+       "type": "choice",
+       "text": "They give birth only every five years.",
+       "options": [
+        "Giving birth only every five years, female elephants do not have many offspring.",
+        "Giving birth only every five years, mice can hide in almost any part of a house."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Elephants: few babies.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "She has done very well in her studies.",
+       "options": [
+        "Having done very well in her studies, Monique needed special care for the first few weeks of her life.",
+        "Having done very well in her studies, Nancy expects to be hired by a top company after graduation."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Good grades → a top job.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "She was born two months early.",
+       "options": [
+        "Having been born two months early, Monique needed special care for the first few weeks of her life.",
+        "Having been born two months early, Marta didn't know what to expect at the restaurant."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Born early → special care.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "He had done everything he could for the patient.",
+       "options": [
+        "Having done everything he could for the patient, Sayid was forced to work out the problem by himself.",
+        "Having done everything he could for the patient, the doctor left to attend other people."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The doctor did all he could.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "She had never eaten Thai food before.",
+       "options": [
+        "Having never eaten Thai food before, Marta didn't know what to expect when she went to the restaurant.",
+        "Having never eaten Thai food before, diamonds are used to cut other hard minerals."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "New food → didn't know what to expect.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "He had no one to turn to for help.",
+       "options": [
+        "Having no one to turn to for help, the doctor left to attend other people.",
+        "Having no one to turn to for help, Sayid was forced to work out the problem by himself."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No help → by himself.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "They are extremely hard and nearly indestructible.",
+       "options": [
+        "Being extremely hard and nearly indestructible, diamonds are used extensively in industry.",
+        "Being extremely hard and nearly indestructible, female elephants do not have many offspring."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Diamonds are hard.",
+       "ask": "Combine with the logical ending"
+      },
+      {
+       "type": "choice",
+       "text": "They are able to crawl into very small places.",
+       "options": [
+        "Being able to crawl into very small places, Nancy expects to be hired by a top company.",
+        "Being able to crawl into very small places, mice can hide in almost any part of a house."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Mice are small.",
+       "ask": "Combine with the logical ending"
+      }
+     ]
+    },
+    {
+     "title": "Out and about",
+     "icon": "🚑",
+     "items": [
+      {
+       "type": "judge",
+       "text": "After leaving the theater, Tom's car wouldn't start, so we had to take a taxi home.",
+       "answer": "wrong",
+       "why": "Tom's car didn't leave the theater.",
+       "fix": "After we left the theater, Tom's car wouldn't start, so we had to take a taxi home."
+      },
+      {
+       "type": "judge",
+       "text": "After leaving work late, we stopped at a coffee shop for a late-night snack.",
+       "answer": "correct",
+       "why": "We did both things."
+      },
+      {
+       "type": "judge",
+       "text": "While walking across the street at a busy intersection, a truck nearly hit me.",
+       "answer": "wrong",
+       "why": "The truck wasn't walking.",
+       "fix": "While I was walking across the street at a busy intersection, a truck nearly hit me."
+      },
+      {
+       "type": "judge",
+       "text": "Not wanting to miss the last bus, I yelled for it to wait as I ran along the sidewalk.",
+       "answer": "correct",
+       "why": "I didn't want to miss it."
+      },
+      {
+       "type": "judge",
+       "text": "After arriving at a picnic with my cousins, it began to rain quite hard.",
+       "answer": "wrong",
+       "why": "it didn't arrive at a picnic.",
+       "fix": "After I arrived at a picnic with my cousins, it began to rain quite hard."
+      },
+      {
+       "type": "judge",
+       "text": "While waiting for my husband at the mall, a friend from high school called out my name.",
+       "answer": "wrong",
+       "why": "The friend wasn't waiting for my husband.",
+       "fix": "While I was waiting for my husband at the mall, a friend from high school called out my name."
+      },
+      {
+       "type": "judge",
+       "text": "When asked for directions by a pair of tourists, I stopped to help them.",
+       "answer": "correct",
+       "why": "I was asked."
+      },
+      {
+       "type": "judge",
+       "text": "Being from out of town, two streets that had the exact same name confused visitors.",
+       "answer": "wrong",
+       "why": "The streets aren't from out of town.",
+       "fix": "Being from out of town, visitors were confused by two streets that had the exact same name."
+      },
+      {
+       "type": "judge",
+       "text": "Hearing the siren, drivers pulled over and stopped to let the ambulance pass.",
+       "answer": "correct",
+       "why": "The drivers heard it."
+      },
+      {
+       "type": "judge",
+       "text": "Honking the horn, the ambulance driver carefully entered each intersection.",
+       "answer": "correct",
+       "why": "The driver honked."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "18-5",
+   "tag": "18-5",
+   "t": "plan",
+   "title": "Upon arriving…",
+   "full": "Using Upon + -ing in Modifying Adverbial Phrases",
+   "lesson": {
+    "title": "Learn: upon / on + -ing = when",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "upon + -ing = when",
+      "lines": [
+       "One thing happens, then right away another."
+      ],
+      "visual": [
+       "upon"
+      ],
+      "chips": [
+       "When I reach the age of 18, I can get my driver's license.",
+       "Upon reaching the age of 18, I can get my driver's license.",
+       "On reaching the age of 18, I can get my driver's license."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "When Sharon heard the news, she began to cry. = ___ the news, Sharon began to cry.",
+      "options": [
+       "Upon hearing",
+       "Upon heard",
+       "Upon she heard"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "upon + -ing."
+     },
+     {
+      "type": "learn",
+      "title": "Same subject, again",
+      "lines": [
+       "Different subjects → keep the when-clause."
+      ],
+      "chips": [
+       "✅ Upon finishing the exam, I decided to check all my answers.",
+       "❌ Upon bringing the bill, Sam found a math error. (the waiter brought it)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Sam found that the waiter had made a math error when he brought the bill. Can you use upon?",
+      "options": [
+       "Yes",
+       "No. Sam ≠ the waiter."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Different subjects → no change."
+     },
+     {
+      "type": "choice",
+      "text": "On ___ about genetics and eye color, Sofia began looking more closely at her friends' eyes.",
+      "options": [
+       "learning",
+       "learned"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "on + -ing = upon + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "upon + -ing = on + -ing = when (same subject).",
+     "Upon hearing the news, Sharon began to cry."
+    ],
+    "timeline": [
+     "upon"
+    ],
+    "examples": [
+     {
+      "text": "Upon reaching the age of 18, I can get my driver's license.",
+      "hl": [
+       [
+        "Upon reaching",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "On reaching the age of 18, I can get my driver's license.",
+      "hl": [
+       [
+        "On reaching",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Same meaning",
+     "icon": "📰",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When Sharon heard the news of her friend's death, she began to cry. / Upon hearing the news of her friend's death, Sharon began to cry.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "upon + -ing = when."
+      },
+      {
+       "type": "choice",
+       "text": "Upon hearing the news, Sharon began to cry. / On hearing the news, Sharon began to cry.",
+       "options": [
+        "Same meaning",
+        "Different meaning"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "on = upon."
+      },
+      {
+       "type": "judge",
+       "text": "Upon hearing about the promotion of her assistant, Nela sat down at her desk in surprise.",
+       "answer": "correct",
+       "why": "Nela heard; Nela sat down."
+      },
+      {
+       "type": "judge",
+       "text": "On learning about genetics and eye color, Sofia began looking more closely at the eye color of her friends and their parents.",
+       "answer": "correct",
+       "why": "on + -ing = when she learned."
+      },
+      {
+       "type": "judge",
+       "text": "Upon heard the news, Sharon began to cry.",
+       "answer": "wrong",
+       "why": "upon + -ing.",
+       "fix": "Upon hearing the news, Sharon began to cry."
+      },
+      {
+       "type": "judge",
+       "text": "Upon arriving at the airport, the taxi was waiting for us.",
+       "answer": "wrong",
+       "why": "The taxi didn't arrive at the airport with us.",
+       "fix": "When we arrived at the airport, the taxi was waiting for us."
+      }
+     ]
+    },
+    {
+     "title": "Upon, where possible",
+     "icon": "🏁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "When Carl saw his wife cross the marathon finish line, he broke into a big smile.",
+       "options": [
+        "Upon seeing his wife cross the marathon finish line, Carl broke into a big smile.",
+        "Upon saw his wife cross the marathon finish line, Carl broke into a big smile."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "upon + -ing; Carl in the main clause.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "When Tina crossed the marathon finish line, she collapsed in exhaustion.",
+       "options": [
+        "Upon crossing the marathon finish line, she collapsed Tina in exhaustion.",
+        "Upon crossing the marathon finish line, Tina collapsed in exhaustion."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "upon + -ing; Tina becomes the subject.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "When I looked in my wallet, I saw I didn't have enough money to pay my restaurant bill.",
+       "options": [
+        "Upon looking in my wallet, I saw I didn't have enough money to pay my restaurant bill.",
+        "Upon I looked in my wallet, I saw I didn't have enough money to pay my restaurant bill."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No subject in the phrase.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "sort",
+       "word": "Sam found that the waiter had made a math error when he brought the bill.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Sam ≠ he (the waiter)."
+      },
+      {
+       "type": "choice",
+       "text": "When you finish the examination, bring your paper to the front of the room.",
+       "options": [
+        "Upon finish the examination, bring your paper to the front of the room.",
+        "Upon finishing the examination, bring your paper to the front of the room."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "upon + -ing. (You is understood.)",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "When I finished the exam, I decided to check all my answers again.",
+       "options": [
+        "Upon finishing the exam, I decided to check all my answers again.",
+        "Upon finished the exam, I decided to check all my answers again."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "upon + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "When the kids heard the good news, they jumped up and down with joy.",
+       "options": [
+        "Upon hearing the good news, they jumped the kids up and down with joy.",
+        "Upon hearing the good news, the kids jumped up and down with joy."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "the kids becomes the subject.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "sort",
+       "word": "The kids couldn't contain their excitement when their mom announced the news.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "The kids ≠ their mom."
+      }
+     ]
+    },
+    {
+     "title": "Fill it in",
+     "icon": "🪪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Upon ___ the age of 18, I can get my driver's license.",
+       "verb": "reach",
+       "accept": [
+        "reaching"
+       ],
+       "why": "upon + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "On ___ the room for the exam, we showed the teacher our ID.",
+       "verb": "enter",
+       "accept": [
+        "entering"
+       ],
+       "why": "on + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Upon ___ that I had left my wallet in the car, I told my friends to order without me.",
+       "verb": "discover",
+       "accept": [
+        "discovering"
+       ],
+       "why": "upon + -ing."
+      },
+      {
+       "type": "fill",
+       "text": "Upon ___ at the airport, go straight to the check-in desk.",
+       "verb": "arrive",
+       "accept": [
+        "arriving"
+       ],
+       "why": "upon + -ing. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "Upon ___ what had happened, Watson and Bell knew that the invention was successful.",
+       "verb": "realize",
+       "accept": [
+        "realizing",
+        "realising"
+       ],
+       "why": "upon + -ing. Drop the e."
+      },
+      {
+       "type": "fill",
+       "text": "On ___ the news of her friend's death, Sharon began to cry.",
+       "verb": "hear",
+       "accept": [
+        "hearing"
+       ],
+       "why": "on + -ing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R18",
+   "tag": "Mix",
+   "t": "plan",
+   "title": "Phrase mix",
+   "full": "Chapter 18 Review: Butterflies, Study Tips, the Telephone",
+   "lesson": {
+    "title": "Learn: short phrases for clear writing",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Why use phrases?",
+      "lines": [
+       "They say the same thing in fewer words."
+      ],
+      "chips": [
+       "While he was running a test, Bell spilled acid on his coat. → While running a test, Bell spilled acid on his coat."
+      ],
+      "tip": "Don't shorten every sentence. A mix is more interesting."
+     },
+     {
+      "type": "learn",
+      "title": "Three checks",
+      "lines": [
+       "1. Same subject? 2. -ing form? 3. Comma after the phrase?"
+      ],
+      "visual": [
+       "same-subject"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "When the butterfly emerged from the cocoon, the children became very quiet. Can you shorten it?",
+      "options": [
+       "Yes",
+       "No. The butterfly ≠ the children."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Different subjects → no change."
+     },
+     {
+      "type": "choice",
+      "text": "Because I was unprepared for the test, I didn't do well. → ___ for the test, I didn't do well.",
+      "options": [
+       "Unprepared",
+       "Was unprepared"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "(Being) unprepared…"
+     },
+     {
+      "type": "choice",
+      "text": "___ a passage, try to recall the key points from memory.",
+      "options": [
+       "After reading",
+       "After read"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "after + -ing."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Time: After / Before / While / Since / When / Upon + -ing. Cause: -ing, Having + participle, Being…",
+     "The phrase must describe the subject of the main clause."
+    ],
+    "timeline": [
+     "reduce-adv"
+    ],
+    "examples": [
+     {
+      "text": "While running a test, Bell spilled acid on his coat.",
+      "hl": [
+       [
+        "While running a test,",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Upon realizing what had happened, Watson and Bell knew that the invention was successful.",
+      "hl": [
+       [
+        "Upon realizing what had happened,",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Change it if you can",
+     "icon": "🦋",
+     "items": [
+      {
+       "type": "choice",
+       "text": "After it spends some time in a cocoon, a caterpillar will emerge as a butterfly.",
+       "options": [
+        "After spending some time in a cocoon, a caterpillar will emerge as a butterfly.",
+        "After spends some time in a cocoon, a caterpillar will emerge as a butterfly."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "after + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "sort",
+       "word": "When the butterfly emerged from the cocoon, the children became very quiet.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "The butterfly ≠ the children."
+      },
+      {
+       "type": "choice",
+       "text": "When we entered the room for the exam, we showed the teacher our ID.",
+       "options": [
+        "Upon entered the room for the exam, we showed the teacher our ID.",
+        "Upon entering the room for the exam, we showed the teacher our ID."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "upon + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "sort",
+       "word": "Jane's family has only received a few text messages since she arrived in Kenya two weeks ago.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "Jane's family ≠ she (Jane)."
+      },
+      {
+       "type": "choice",
+       "text": "Before Jane left on her trip, she worked two jobs to earn enough money for a three-week stay.",
+       "options": [
+        "Before leaving on her trip, Jane worked two jobs to earn enough money for a three-week stay.",
+        "Before left on her trip, Jane worked two jobs to earn enough money for a three-week stay."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "before + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "My parents reluctantly agreed to let me attend the concert after they talked it over.",
+       "options": [
+        "My parents reluctantly agreed to let me attend the concert after talked it over.",
+        "My parents reluctantly agreed to let me attend the concert after talking it over."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "after + -ing.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "Because I hadn't checked if I had my ticket with me, I arrived at the concert empty-handed.",
+       "options": [
+        "Not having checked if I had my ticket with me, I arrived at the concert empty-handed.",
+        "Not checked if I had my ticket with me, I arrived at the concert empty-handed."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "hadn't checked → Not having checked.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "sort",
+       "word": "Because the forest area is so dry this summer, it is prohibited to light campfires.",
+       "buckets": [
+        "Can be shortened",
+        "No change possible"
+       ],
+       "answer": 1,
+       "why": "the forest area ≠ it."
+      },
+      {
+       "type": "choice",
+       "text": "Because the forest campsites are very popular, they are often all taken by mid-morning.",
+       "options": [
+        "Are very popular, the forest campsites are often all taken by mid-morning.",
+        "Being very popular, the forest campsites are often all taken by mid-morning."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are → Being.",
+       "ask": "Choose the correct short form"
+      },
+      {
+       "type": "choice",
+       "text": "After we had to wait for more than half an hour, we were finally seated at the restaurant.",
+       "options": [
+        "After having to wait for more than half an hour, we were finally seated at the restaurant.",
+        "After had to wait for more than half an hour, we were finally seated at the restaurant."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "had to → having to.",
+       "ask": "Choose the correct short form"
+      }
+     ]
+    },
+    {
+     "title": "Learning strategies",
+     "icon": "🧠",
+     "items": [
+      {
+       "type": "choice",
+       "text": "While reading them, ask yourself if these strategies would be helpful to you.",
+       "options": [
+        "While they are reading them",
+        "While you are reading them"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The hidden subject is you.",
+       "ask": "Make it a full clause",
+       "ctx": "A blog about how students can learn better."
+      },
+      {
+       "type": "choice",
+       "text": "When deciding whether to cram for a test or spread the review out, you will benefit more by doing the latter.",
+       "options": [
+        "When you are deciding",
+        "When you deciding"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Add you are.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "Before beginning to learn new material, test your existing knowledge.",
+       "options": [
+        "Before you beginning to learn new material",
+        "Before you begin to learn new material"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "beginning → you begin.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "After reading a passage, try to recall the key points from memory.",
+       "options": [
+        "After you read a passage",
+        "After you reading a passage"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "reading → you read.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "When writing out notes in longhand, students have to think more.",
+       "options": [
+        "When you write out notes in longhand",
+        "When they write out notes in longhand"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The subject is students → they.",
+       "ask": "Make it a full clause"
+      },
+      {
+       "type": "choice",
+       "text": "Which is better for long-term memory?",
+       "options": [
+        "Cramming the night before the test.",
+        "Spacing your practice over days or weeks."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Spaced practice uses long-term memory."
+      },
+      {
+       "type": "choice",
+       "text": "What do pretests do, according to many scientists?",
+       "options": [
+        "They help prepare the brain for new information.",
+        "They only show your grade."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Even wrong answers help."
+      }
+     ]
+    },
+    {
+     "title": "Listen to the conversations",
+     "icon": "🎹",
+     "items": [
+      {
+       "type": "listen",
+       "say": "William, don't forget to pick up some groceries after work. — Oh yeah, thanks. That's the first thing I'll do when I leave the office.",
+       "ask": "Same meaning?",
+       "options": [
+        "After leaving work, William will stop at the grocery store.",
+        "Before leaving work, William will pick up some groceries."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "First he leaves, then he shops."
+      },
+      {
+       "type": "listen",
+       "say": "Rose, will you play the piano for us at the family gathering? — Oh no. Everyone will laugh at me.",
+       "ask": "Same meaning?",
+       "options": [
+        "Fearing people will laugh at her, Rose doesn't want to play at the family gathering.",
+        "Knowing she plays beautifully, Rose is happy to play at the family gathering."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "She is afraid → Fearing…"
+      },
+      {
+       "type": "listen",
+       "say": "Jan, are you going to talk to Thomas about coming to work late? — Yes, this afternoon. I really hope he will change.",
+       "ask": "Same meaning?",
+       "options": [
+        "Not wanting to upset him, Jan isn't going to talk to Thomas this afternoon.",
+        "Hoping to change Thomas's work behavior, Jan is going to talk to him this afternoon."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She hopes he will change."
+      },
+      {
+       "type": "listen",
+       "say": "Susan, you look so happy! — I found my wedding ring! I thought it was gone forever.",
+       "ask": "Same meaning?",
+       "options": [
+        "Upon finding her wedding ring, Susan hid it in a box.",
+        "On finding her wedding ring, Susan felt relieved."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "She is happy → relieved."
+      },
+      {
+       "type": "listen",
+       "say": "Sam, did you vote? — Yes. I read about every candidate for weeks before I chose one.",
+       "ask": "Same meaning?",
+       "options": [
+        "Never having voted in an election, Sam is taking it very seriously.",
+        "Having done a lot of research before choosing a candidate, Sam voted in the election."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "He researched, then voted."
+      }
+     ]
+    },
+    {
+     "title": "The first telephone; QWERTY",
+     "icon": "☎️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "One day in 1875, while he was running a test, Bell accidentally spilled acid on his coat.",
+       "options": [
+        "While running a test, Bell spilled acid on his coat.",
+        "While running a test, acid spilled on Bell's coat."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Bell was running the test.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "When he heard words coming from the machine, Watson immediately realized that their experiments had been successful.",
+       "options": [
+        "Upon hearing words coming from the machine, the experiments were successful.",
+        "Upon hearing words coming from the machine, Watson realized the experiments had been successful."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Watson heard the words.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "After he successfully tested the new machine again and again, Bell confidently announced his invention.",
+       "options": [
+        "Bell told the world about his discovery after testing the machine multiple times.",
+        "Bell told the world about his discovery after tested the machine multiple times."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "after + -ing.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Most people believed the telephone was a toy, and they paid little attention.",
+       "options": [
+        "The general public, believed the phone was more of a toy, paid little attention.",
+        "The general public, believing the phone was more of a toy, paid little attention."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "believing… = because they believed.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Sholes wanted to create a logical design. He first placed the letters in alphabetical order.",
+       "options": [
+        "Wanting to create a logical design, Sholes first placed the letters in alphabetical order.",
+        "Wanting to create a logical design, the letters were first placed in alphabetical order."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Sholes wanted it → Sholes is the subject.",
+       "ask": "Choose the best summary sentence",
+       "ctx": "Christopher Sholes invented the typewriter keyboard in the 1860s."
+      },
+      {
+       "type": "choice",
+       "text": "He made a list of letters commonly used together. Then he put them on opposite sides of the keyboard.",
+       "options": [
+        "After made a list of letters commonly used together, he put them on opposite sides of the keyboard.",
+        "After making a list of letters commonly used together, he put them on opposite sides of the keyboard."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "after + -ing.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Since it has survived since the 1860s, QWERTY has demonstrated its longevity.",
+       "options": [
+        "Having survived since the 1860s, QWERTY has demonstrated its longevity.",
+        "Survived since the 1860s, QWERTY has demonstrated its longevity."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Having + participle = because + before.",
+       "ask": "Choose the best summary sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Why did Sholes move letters like “q” and “u” far apart?",
+       "options": [
+        "So the keys would not hit each other and get stuck.",
+        "So people would type more slowly for fun."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The typebars crashed into one another."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Advice before going abroad",
+     "task": "Your friend has never traveled abroad. Give advice: “Before leaving on your trip, …”",
+     "claudePrompt": "You are my English speaking partner. A friend of mine is traveling to a foreign country for the first time. Give me one sentence beginning at a time and I finish it with advice: Before leaving on your trip, ... / Upon arriving at the airport, ... / After getting to your destination, ... / When talking with the local people, ... / While visiting tourist sites, ... / Before leaving for home, .... Check that the subject of my main clause is 'you' (or an imperative), so the phrase is not dangling."
+    },
+    {
+     "title": "Write a summary",
+     "task": "Summarize a short story (like the QWERTY keyboard) in 4-5 sentences with short -ing phrases.",
+     "claudePrompt": "You are my English writing partner. Give me a short factual passage of 6-8 simple sentences (an invention, a discovery, an animal). I write a 4-5 sentence summary that includes at least three modifying phrases (While ...ing, After ...ing, Upon ...ing, Having ..., ...ing). Check: only essential information; the phrase and the main clause have the same subject; a comma after a phrase that comes first; not every sentence is reduced."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Dangling Spider",
+  "icon": "🕸️",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "[While ride] the elevator, Zac heard a strange noise.",
+    "options": [
+     "While riding the elevator, Zac heard a strange noise.",
+     "While rode the elevator, Zac heard a strange noise.",
+     "While to ride the elevator, Zac heard a strange noise."
+    ],
+    "answer": 0,
+    "why": "while + -ing.",
+    "rule": "18-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "Before accepting the job, [the company offered Joseph] additional vacation days.",
+    "options": [
+     "Before accepting the job, the company was offered by Joseph additional vacation days.",
+     "Before accepting the job, Joseph was offered additional vacation days.",
+     "Before accepting the job, additional vacation days were offered to Joseph."
+    ],
+    "answer": 1,
+    "why": "Joseph accepted → Joseph is the subject.",
+    "rule": "18-1"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Since came] to this country, I have experienced some interesting cultural traditions.",
+    "options": [
+     "Since come to this country, I have experienced some interesting cultural traditions.",
+     "Since having come to this country, I experienced some interesting cultural traditions.",
+     "Since coming to this country, I have experienced some interesting cultural traditions."
+    ],
+    "answer": 2,
+    "why": "since + -ing.",
+    "rule": "18-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Not have spent] much time with her grandparents when she was younger, Lauren was happy about their visit.",
+    "options": [
+     "Not having spent much time with her grandparents when she was younger, Lauren was happy about their visit.",
+     "Having not spend much time with her grandparents when she was younger, Lauren was happy about their visit.",
+     "Not spent much time with her grandparents when she was younger, Lauren was happy about their visit."
+    ],
+    "answer": 0,
+    "why": "Not + having + past participle.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "[Needed] the package by the weekend, Barry paid for express delivery.",
+    "options": [
+     "Need the package by the weekend, Barry paid for express delivery.",
+     "Needing the package by the weekend, Barry paid for express delivery.",
+     "Because needing the package by the weekend, Barry paid for express delivery."
+    ],
+    "answer": 1,
+    "why": "Cause → -ing, no because.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "After leaving the theater, [Tom's car wouldn't start], so we had to take a taxi home.",
+    "options": [
+     "After leaving the theater, Tom's car didn't start, so we had to take a taxi home.",
+     "After leaving the theater, the car of Tom wouldn't start, so we had to take a taxi home.",
+     "After leaving the theater, we found that Tom's car wouldn't start, so we had to take a taxi home."
+    ],
+    "answer": 2,
+    "why": "We left the theater → we is the subject.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "While walking across the street at a busy intersection, [a truck nearly hit me].",
+    "options": [
+     "While walking across the street at a busy intersection, I was nearly hit by a truck.",
+     "While walking across the street at a busy intersection, a truck had nearly hit me.",
+     "While walking across the street at a busy intersection, me was nearly hit by a truck."
+    ],
+    "answer": 0,
+    "why": "I was walking → I is the subject.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "[After arriving] at a picnic with my cousins, it began to rain quite hard.",
+    "options": [
+     "After arrived at a picnic with my cousins, it began to rain quite hard.",
+     "After I arrived at a picnic with my cousins, it began to rain quite hard.",
+     "After having arrived at a picnic with my cousins, it began to rain quite hard."
+    ],
+    "answer": 1,
+    "why": "Different subjects → keep the clause.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "While waiting for my husband at the mall, [a friend from high school called out my name].",
+    "options": [
+     "While waiting for my husband at the mall, a friend from high school was calling out my name.",
+     "While waiting for my husband at the mall, my name was called out by a friend from high school.",
+     "While waiting for my husband at the mall, I heard a friend from high school call out my name."
+    ],
+    "answer": 2,
+    "why": "I was waiting → I is the subject.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "Being from out of town, [two streets that had the exact same name confused visitors].",
+    "options": [
+     "Being from out of town, visitors were confused by two streets that had the exact same name.",
+     "Being from out of town, two streets with the exact same name were confusing visitors.",
+     "Being from out of town, there were two streets that confused visitors."
+    ],
+    "answer": 0,
+    "why": "Visitors are from out of town.",
+    "rule": "18-4"
+   },
+   {
+    "type": "errorfix",
+    "text": "While sitting at my computer, [the fire alarm went off].",
+    "options": [
+     "While sitting at my computer, the fire alarm was going off.",
+     "While sitting at my computer, I heard the fire alarm go off.",
+     "While sitting at my computer, there was a fire alarm."
+    ],
+    "answer": 1,
+    "why": "I was sitting → I is the subject.",
+    "rule": "18-1"
+   }
+  ]
+ }
+}

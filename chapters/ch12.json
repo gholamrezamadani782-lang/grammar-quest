@@ -1,0 +1,4605 @@
+{
+ "id": "ch12",
+ "num": 12,
+ "title": "Noun Clauses",
+ "subtitle": "I don't know where…, reported speech",
+ "icon": "🦁",
+ "scout": {
+  "title": "Scout mission",
+  "icon": "🔍",
+  "items": [
+   {
+    "type": "judge",
+    "text": "At the hotel on the lake where we went for our summer vacation.",
+    "answer": "wrong",
+    "why": "No main subject and verb.",
+    "fix": "We stayed at the hotel on the lake where we went for our summer vacation.",
+    "rule": "12-1"
+   },
+   {
+    "type": "judge",
+    "text": "I don't know where does she go after work.",
+    "answer": "wrong",
+    "why": "No does in a noun clause.",
+    "fix": "I don't know where she goes after work.",
+    "rule": "12-2"
+   },
+   {
+    "type": "judge",
+    "text": "He didn't understand at all what I did say.",
+    "answer": "wrong",
+    "why": "No did in a noun clause.",
+    "fix": "He didn't understand at all what I said.",
+    "rule": "12-2"
+   },
+   {
+    "type": "judge",
+    "text": "Can you ask them whether they need help or not?",
+    "answer": "correct",
+    "why": "whether … or not.",
+    "rule": "12-3"
+   },
+   {
+    "type": "judge",
+    "text": "Please remind me again how to turn on this machine.",
+    "answer": "correct",
+    "why": "how + to + verb.",
+    "rule": "12-4"
+   },
+   {
+    "type": "judge",
+    "text": "I wasn't sure where do I look for the information.",
+    "answer": "wrong",
+    "why": "where to look / where I should look.",
+    "fix": "I wasn't sure where to look for the information.",
+    "rule": "12-4"
+   },
+   {
+    "type": "judge",
+    "text": "It's interesting that some identical twins can have such different personalities.",
+    "answer": "correct",
+    "why": "It + be + adjective + that.",
+    "rule": "12-5"
+   },
+   {
+    "type": "judge",
+    "text": "That Ricardo needs to change jobs is clear.",
+    "answer": "correct",
+    "why": "A that-clause as the subject.",
+    "rule": "12-5"
+   },
+   {
+    "type": "judge",
+    "text": "No cell phone use during class, our teacher said.",
+    "answer": "wrong",
+    "why": "Exact words need quotation marks.",
+    "fix": "“No cell phone use during class,” our teacher said.",
+    "rule": "12-6"
+   },
+   {
+    "type": "judge",
+    "text": "I asked Elias what he was doing. He told me he is waiting for me.",
+    "answer": "wrong",
+    "why": "told (past) → was waiting.",
+    "fix": "I asked Elias what he was doing. He told me he was waiting for me.",
+    "rule": "12-7"
+   },
+   {
+    "type": "judge",
+    "text": "Roberta said she must have to work late last night.",
+    "answer": "wrong",
+    "why": "must → had to.",
+    "fix": "Roberta said she had to work late last night.",
+    "rule": "12-8"
+   },
+   {
+    "type": "judge",
+    "text": "It is critical that you be here on time tomorrow.",
+    "answer": "correct",
+    "why": "It is critical that → be.",
+    "rule": "12-9"
+   }
+  ]
+ },
+ "levels": [
+  {
+   "id": "12-1",
+   "tag": "12-1",
+   "t": "plan",
+   "title": "Clause detective",
+   "full": "Noun Clauses: Introduction",
+   "lesson": {
+    "title": "Learn: phrases and clauses",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Phrase or clause?",
+      "lines": [
+       "Clause = it has a subject + verb.",
+       "Phrase = it doesn't."
+      ],
+      "chips": [
+       "in the park (phrase)",
+       "on a rainy day (phrase)",
+       "He went running in the park. (clause)"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“her grandparents in Turkey”",
+      "options": [
+       "a phrase",
+       "a clause"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "No verb → a phrase."
+     },
+     {
+      "type": "learn",
+      "title": "Can it stand alone?",
+      "lines": [
+       "Independent clause: yes. Dependent clause: no."
+      ],
+      "chips": [
+       "✅ Sue lives in Tokyo.",
+       "✅ Where does Sue live?",
+       "❌ where Sue lives"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A noun clause works like a noun",
+      "lines": [
+       "It can be the object of a verb."
+      ],
+      "visual": [
+       "noun-clause"
+      ],
+      "examples": [
+       {
+        "text": "We don't know where Sue lives.",
+        "hl": [
+         [
+          "where Sue lives",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which one is a complete sentence?",
+      "options": [
+       "how old they are",
+       "I don't know how old they are."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "It has a main subject and verb: I don't know."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "A clause has a subject + verb. A dependent clause can't stand alone.",
+     "A noun clause is a dependent clause used like a noun."
+    ],
+    "timeline": [
+     "noun-clause"
+    ],
+    "examples": [
+     {
+      "text": "Sue lives in Tokyo.",
+      "hl": [
+       [
+        "Sue lives",
+        "pres"
+       ]
+      ]
+     },
+     {
+      "text": "We don't know where Sue lives.",
+      "hl": [
+       [
+        "where Sue lives",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "The triplets",
+     "icon": "👶",
+     "items": [
+      {
+       "type": "sort",
+       "word": "Are they triplets?",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 0,
+       "why": "A question is a complete sentence."
+      },
+      {
+       "type": "sort",
+       "word": "They look almost identical.",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 0,
+       "why": "Subject + verb, stands alone."
+      },
+      {
+       "type": "sort",
+       "word": "I don't know.",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 0,
+       "why": "Subject + verb, stands alone."
+      },
+      {
+       "type": "sort",
+       "word": "How old you think they are?",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 1,
+       "why": "A question needs do: How old do you think…?"
+      },
+      {
+       "type": "sort",
+       "word": "How old are they?",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 0,
+       "why": "A correct question."
+      },
+      {
+       "type": "sort",
+       "word": "I don't know how old they are.",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 0,
+       "why": "Main clause + noun clause."
+      },
+      {
+       "type": "sort",
+       "word": "how old they are",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 1,
+       "why": "A dependent clause can't stand alone."
+      },
+      {
+       "type": "sort",
+       "word": "At the hotel on the lake where we went for our summer vacation.",
+       "buckets": [
+        "Complete sentence",
+        "Not a sentence"
+       ],
+       "answer": 1,
+       "why": "No main subject and verb."
+      }
+     ]
+    },
+    {
+     "title": "Count the clauses",
+     "icon": "🔢",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I couldn't hear what you said.",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I couldn't hear + what you said.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "What did you say?",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One subject + verb: you say.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "No one knows where Tom went.",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No one knows + where Tom went.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "Where did Tom go?",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "One subject + verb: Tom go.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "I'd like to know where Tom went.",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "I'd like to know + where Tom went.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "How do you know where Tom went?",
+       "options": [
+        "1 clause",
+        "2 clauses"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "How do you know + where Tom went.",
+       "ask": "How many clauses?"
+      },
+      {
+       "type": "choice",
+       "text": "No one knows where Tom went.",
+       "options": [
+        "No one knows",
+        "where Tom went"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "It is the object of knows.",
+       "ask": "Which part is the noun clause?"
+      },
+      {
+       "type": "choice",
+       "text": "I couldn't hear what you said.",
+       "options": [
+        "what you said",
+        "I couldn't hear"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is the object of hear.",
+       "ask": "Which part is the noun clause?"
+      }
+     ]
+    },
+    {
+     "title": "Period or question mark?",
+     "icon": "❓",
+     "items": [
+      {
+       "type": "choice",
+       "text": "where did Sara go did she go home",
+       "options": [
+        "Where did Sara go did she go home?",
+        "Where did Sara go? Did she go home?",
+        "Where did Sara go. Did she go home."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Two questions → two question marks.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "I don't know where Sara went",
+       "options": [
+        "I don't know where Sara went.",
+        "I don't know where Sara went?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A statement with a noun clause → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "what does Alex need do you know",
+       "options": [
+        "What does Alex need? Do you know?",
+        "What does Alex need do you know?",
+        "What does Alex need. Do you know?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two questions.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "do you know what Alex needs",
+       "options": [
+        "Do you know? What Alex needs.",
+        "Do you know what Alex needs?",
+        "Do you know what Alex needs."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One question with a noun clause inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "we talked about what Alex needs",
+       "options": [
+        "We talked about what Alex needs?",
+        "We talked about what Alex needs."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A statement → period.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "what do you need did you talk to your parents about what you need",
+       "options": [
+        "What do you need? Did you talk to your parents about what you need?",
+        "What do you need. Did you talk to your parents about what you need?",
+        "What do you need? Did you talk to your parents? About what you need."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Two questions; the noun clause stays inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "my parents know what I need",
+       "options": [
+        "My parents know what I need?",
+        "My parents know what I need."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A statement → period.",
+       "ask": "Choose the correct punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12-2",
+   "tag": "12-2",
+   "t": "plan",
+   "title": "I don't know where…",
+   "full": "Noun Clauses with Question Words",
+   "lesson": {
+    "title": "Learn: wh-word + subject + verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Subject before verb",
+      "lines": [
+       "In a noun clause: no question word order.",
+       "No do, does, did."
+      ],
+      "visual": [
+       "noun-clause"
+      ],
+      "chips": [
+       "Where does she live? → I don't know where she lives.",
+       "What did he say? → I couldn't hear what he said.",
+       "When do they go? → Do you know when they go?"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Where does Brad live? — I'm not sure ___.",
+      "options": [
+       "where does he live",
+       "where he lives"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "Noun clause: subject + verb, no does."
+     },
+     {
+      "type": "learn",
+      "title": "be goes to the end",
+      "lines": [
+       "Question: be + subject. Noun clause: subject + be."
+      ],
+      "chips": [
+       "Who are those men? → I don't know who those men are.",
+       "Where is Brad? → Could you tell me where Brad is?"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "I'm looking for Brad. Could you tell me ___?",
+      "options": [
+       "where is Brad",
+       "where Brad is"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "subject (Brad) + be (is)."
+     },
+     {
+      "type": "learn",
+      "title": "who = the subject",
+      "lines": [
+       "Then the order doesn't change."
+      ],
+      "chips": [
+       "Who lives there? → I don't know who lives there.",
+       "Who is at the door? → I wonder who is at the door.",
+       "What happened? → I don't know what happened."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "A noun clause can be the subject",
+      "lines": [
+       "Then the main verb is singular."
+      ],
+      "chips": [
+       "What she said surprised me.",
+       "What they will do is obvious."
+      ],
+      "examples": [
+       {
+        "text": "What she said surprised me.",
+        "hl": [
+         [
+          "What she said",
+          "plan"
+         ]
+        ]
+       },
+       {
+        "text": "What they will do is obvious.",
+        "hl": [
+         [
+          "What they will do",
+          "plan"
+         ],
+         [
+          "is",
+          "pres"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "He didn't understand at all what I ___.",
+      "options": [
+       "did say",
+       "said"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No did in a noun clause → said."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Noun clause: question word + subject + verb.",
+     "No do / does / did. be comes after the subject."
+    ],
+    "timeline": [
+     "noun-clause"
+    ],
+    "examples": [
+     {
+      "text": "I don't know where she lives.",
+      "hl": [
+       [
+        "where she lives",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I don't know who those men are.",
+      "hl": [
+       [
+        "who those men are",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "What she said surprised me.",
+      "hl": [
+       [
+        "What she said",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Questions from parents",
+     "icon": "👪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "How old is your friend Paul? — I don't know ___.",
+       "verb": "how old…",
+       "accept": [
+        "how old he is"
+       ],
+       "why": "subject (he) + be (is)."
+      },
+      {
+       "type": "fill",
+       "text": "Where does he live? — I'm not sure ___.",
+       "verb": "where…",
+       "accept": [
+        "where he lives"
+       ],
+       "why": "No does. Add -s: lives."
+      },
+      {
+       "type": "fill",
+       "text": "When does the party start? — I'll check ___.",
+       "verb": "when…",
+       "accept": [
+        "when the party starts"
+       ],
+       "why": "No does. Add -s: starts."
+      },
+      {
+       "type": "choice",
+       "text": "What time are you leaving? — I need to ask my roommate ___.",
+       "options": [
+        "what time we are leaving",
+        "what time are we leaving"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject (we) + are."
+      },
+      {
+       "type": "choice",
+       "text": "Whose phone numbers are those? — Uh, I'm not sure ___.",
+       "options": [
+        "whose phone numbers are those",
+        "whose phone numbers those are"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (those) + are."
+      },
+      {
+       "type": "fill",
+       "text": "Who left the stove on? — I wasn't the one ___.",
+       "verb": "who…",
+       "accept": [
+        "who left the stove on"
+       ],
+       "why": "who is the subject → no change."
+      },
+      {
+       "type": "fill",
+       "text": "Who are those people? — I don't know ___.",
+       "verb": "who…",
+       "accept": [
+        "who those people are"
+       ],
+       "why": "subject (those people) + are."
+      },
+      {
+       "type": "fill",
+       "text": "What happened? — I don't know ___.",
+       "verb": "what…",
+       "accept": [
+        "what happened"
+       ],
+       "why": "what is the subject → no change."
+      },
+      {
+       "type": "choice",
+       "text": "Why did Anna break off her engagement with Thomas? — ___ is a mystery.",
+       "options": [
+        "Why Anna broke off her engagement with Thomas",
+        "Why did Anna break off her engagement with Thomas"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did → broke."
+      },
+      {
+       "type": "fill",
+       "text": "Where did the car keys go? — I don't have any idea ___.",
+       "verb": "where…",
+       "accept": [
+        "where the car keys went"
+       ],
+       "why": "No did → went."
+      }
+     ]
+    },
+    {
+     "title": "Can you tell me…?",
+     "icon": "🏫",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What does this mean? → Can you tell me ___?",
+       "options": [
+        "what does this mean",
+        "what this mean",
+        "what this means"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "No does. Add -s: means."
+      },
+      {
+       "type": "choice",
+       "text": "What was my grade? → Can you tell me ___?",
+       "options": [
+        "what my grade was",
+        "what was my grade"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject (my grade) + was."
+      },
+      {
+       "type": "choice",
+       "text": "Who am I supposed to talk to? → Can you tell me ___?",
+       "options": [
+        "who am I supposed to talk to",
+        "who I am supposed to talk to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (I) + am."
+      },
+      {
+       "type": "choice",
+       "text": "When is our next assignment due? → Can you tell me ___?",
+       "options": [
+        "when our next assignment is due",
+        "when is our next assignment due"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject + is."
+      },
+      {
+       "type": "choice",
+       "text": "How much time do we have for the test? → Can you tell me ___?",
+       "options": [
+        "how much time do we have for the test",
+        "how much time we have for the test"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No do."
+      },
+      {
+       "type": "choice",
+       "text": "When do classes end for the year? → Can you tell me ___?",
+       "options": [
+        "when classes end for the year",
+        "when do classes end for the year"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No do."
+      },
+      {
+       "type": "choice",
+       "text": "Where is our class going to meet? → Can you tell me ___?",
+       "options": [
+        "where is our class going to meet",
+        "where our class is going to meet"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject + is going to."
+      },
+      {
+       "type": "choice",
+       "text": "What time does the computer lab close? → Can you tell me ___?",
+       "options": [
+        "what time the computer lab closes",
+        "what time does the computer lab close",
+        "what time the computer lab close"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No does. Add -s: closes."
+      },
+      {
+       "type": "choice",
+       "text": "How is this word pronounced? → Can you tell me ___?",
+       "options": [
+        "how is this word pronounced",
+        "how this word is pronounced"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject + is pronounced."
+      }
+     ]
+    },
+    {
+     "title": "A friend's visit",
+     "icon": "✈️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "He is coming (because he wants to visit his college friends). → Please tell me ___.",
+       "options": [
+        "why he is coming",
+        "why is he coming"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "why + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "He'll be on flight (645, not flight 742). → Could you tell me ___?",
+       "options": [
+        "which flight will he be on",
+        "which flight he will be on"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject + will."
+      },
+      {
+       "type": "choice",
+       "text": "(Jim Hunter) is going to meet him at the airport. → Do you know ___?",
+       "options": [
+        "who is going to meet him at the airport",
+        "who he is going to meet at the airport"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "who is the subject here."
+      },
+      {
+       "type": "choice",
+       "text": "Jim Hunter is (his former college roommate). → Please tell me ___.",
+       "options": [
+        "who is Jim Hunter",
+        "who Jim Hunter is"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (Jim Hunter) + is."
+      },
+      {
+       "type": "choice",
+       "text": "He lives (on Riverside Road near the airport). → I'd like to know ___.",
+       "options": [
+        "where he lives",
+        "where does he live",
+        "where he live"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No does. Add -s: lives."
+      },
+      {
+       "type": "choice",
+       "text": "Tom is (in Chicago) right now. → Please tell me ___.",
+       "options": [
+        "where is Tom right now",
+        "where Tom is right now"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (Tom) + is."
+      },
+      {
+       "type": "choice",
+       "text": "He is there (for a conference). → Do you know ___?",
+       "options": [
+        "why he is there",
+        "why is he there"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "why + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "He works for (a technology company). → Could you tell me ___?",
+       "options": [
+        "who he works for",
+        "who does he work for",
+        "who works he for"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No does. Add -s: works."
+      },
+      {
+       "type": "choice",
+       "text": "He has worked for them (for ten years). → Do you know ___?",
+       "options": [
+        "how long he has worked for them",
+        "how long has he worked for them"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject + has."
+      }
+     ]
+    },
+    {
+     "title": "Question or noun clause?",
+     "icon": "🧽",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Where ___? She's not in her room.",
+       "verb": "Ruth, go",
+       "accept": [
+        "did Ruth go"
+       ],
+       "why": "A real question → did + subject + verb."
+      },
+      {
+       "type": "fill",
+       "text": "Ask her friend Tina. She might know where ___.",
+       "verb": "Ruth, go",
+       "accept": [
+        "Ruth went"
+       ],
+       "why": "Noun clause → subject + went."
+      },
+      {
+       "type": "fill",
+       "text": "Oops! I made a mistake. Where ___? Didn't I lend it to you?",
+       "verb": "my eraser, be",
+       "accept": [
+        "is my eraser"
+       ],
+       "why": "A real question → be + subject."
+      },
+      {
+       "type": "fill",
+       "text": "I don't have it. Ask Sally where ___.",
+       "verb": "it, be",
+       "accept": [
+        "it is"
+       ],
+       "why": "Noun clause → subject + be."
+      },
+      {
+       "type": "fill",
+       "text": "The door isn't locked! Why ___ it before he left?",
+       "verb": "Franco, lock, not",
+       "accept": [
+        "didn't Franco lock",
+        "did Franco not lock"
+       ],
+       "why": "A real question → didn't + subject."
+      },
+      {
+       "type": "fill",
+       "text": "That doesn't sound like Franco. I don't know why ___ it.",
+       "verb": "he, lock, not",
+       "accept": [
+        "he didn't lock",
+        "he did not lock"
+       ],
+       "why": "Noun clause → subject + didn't lock."
+      },
+      {
+       "type": "fill",
+       "text": "Mr. Lee is a recent immigrant, isn't he? How long ___ in this country?",
+       "verb": "he, be",
+       "accept": [
+        "has he been"
+       ],
+       "why": "A real question → has + subject."
+      },
+      {
+       "type": "fill",
+       "text": "Would you like me to ask him how long ___ here?",
+       "verb": "he, be",
+       "accept": [
+        "he has been"
+       ],
+       "why": "Noun clause → subject + has been."
+      },
+      {
+       "type": "fill",
+       "text": "Which road ___ to take? It's not on the GPS.",
+       "verb": "we, be supposed",
+       "accept": [
+        "are we supposed"
+       ],
+       "why": "A real question → are + subject."
+      },
+      {
+       "type": "fill",
+       "text": "I've never been here before. I don't know which road ___ to take.",
+       "verb": "we, be supposed",
+       "accept": [
+        "we are supposed"
+       ],
+       "why": "Noun clause → subject + are."
+      }
+     ]
+    },
+    {
+     "title": "Subjects and trivia",
+     "icon": "🌍",
+     "items": [
+      {
+       "type": "choice",
+       "text": "What my family thinks of me ___ very important to me.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A noun clause subject is singular."
+      },
+      {
+       "type": "choice",
+       "text": "Where we live ___ exciting.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A noun clause subject is singular."
+      },
+      {
+       "type": "choice",
+       "text": "I usually don't believe what I read in advertisements.",
+       "options": [
+        "what I read in advertisements",
+        "I usually don't believe"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is the object of believe.",
+       "ask": "Which part is the noun clause?"
+      },
+      {
+       "type": "choice",
+       "text": "What are you doing in class? — It's not clear yet ___.",
+       "options": [
+        "what are we doing in class",
+        "what we are doing in class"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (we) + are."
+      },
+      {
+       "type": "choice",
+       "text": "Do you understand what Mom and I said? — No, I'm sorry, but ___ is still not clear.",
+       "options": [
+        "what you and Dad said",
+        "what did you and Dad say"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did → said."
+      },
+      {
+       "type": "choice",
+       "text": "Do you know ___? (the number of minutes in 24 hours)",
+       "options": [
+        "how many minutes are there in 24 hours",
+        "how many minutes there are in 24 hours"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "there + are, not are + there."
+      },
+      {
+       "type": "choice",
+       "text": "Do you know ___? (the place Buddha was born)",
+       "options": [
+        "where Buddha was born",
+        "where was Buddha born"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject (Buddha) + was born."
+      },
+      {
+       "type": "choice",
+       "text": "Do you know ___? (the distance from the earth to the sun)",
+       "options": [
+        "how far is it from the earth to the sun",
+        "how far it is from the earth to the sun"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (it) + is."
+      },
+      {
+       "type": "choice",
+       "text": "Do you know ___? (the year the first man walked on the moon)",
+       "options": [
+        "when the first man walked on the moon",
+        "when did the first man walk on the moon"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did → walked."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "I wonder…",
+     "task": "Claude asks you questions. If you don't know, say “I don't know where…” or “I wonder why…”",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time that I probably can't answer: Where does the president live? What time does the nearest library close? How far is it to the airport from here? Who won the Nobel Peace Prize last year? How long does it take the moon to go around the earth? I answer with a noun clause: I don't know where ... / I wonder how far ... Check my word order: question word + subject + verb, no do/does/did."
+    }
+   ]
+  },
+  {
+   "id": "12-3",
+   "tag": "12-3",
+   "t": "plan",
+   "title": "I wonder if…",
+   "full": "Noun Clauses with Whether or If",
+   "lesson": {
+    "title": "Learn: yes/no questions inside a sentence",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Yes/no question → if / whether",
+      "lines": [
+       "Then: subject + verb."
+      ],
+      "visual": [
+       "if-whether"
+      ],
+      "chips": [
+       "Will she come? → I don't know whether she will come.",
+       "Does he need help? → I wonder if he needs help."
+      ],
+      "tip": "whether: more in writing. if: more in speaking."
+     },
+     {
+      "type": "choice",
+      "text": "Is the copy machine working? → Please check whether ___.",
+      "options": [
+       "is the copy machine working",
+       "the copy machine is working"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "whether + subject + verb."
+     },
+     {
+      "type": "learn",
+      "title": "Where does “or not” go?",
+      "lines": [
+       "Three correct places."
+      ],
+      "chips": [
+       "I wonder whether or not she will come.",
+       "I wonder whether she will come or not.",
+       "I wonder if she will come or not.",
+       "❌ I wonder if or not she will come."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Can you ask them ___ they need help or not?",
+      "options": [
+       "whether",
+       "that"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A yes/no question inside → whether / if."
+     },
+     {
+      "type": "learn",
+      "title": "Whether… as the subject",
+      "lines": [
+       "Use whether, not if, at the start."
+      ],
+      "chips": [
+       "Whether she comes or not is unimportant to me."
+      ],
+      "examples": [
+       {
+        "text": "Whether she comes or not is unimportant to me.",
+        "hl": [
+         [
+          "Whether she comes or not",
+          "plan"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Did they get my message? → Please check whether they ___ my message.",
+      "options": [
+       "did get",
+       "got"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "No did → got."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Yes/no question → if / whether + subject + verb.",
+     "or not: whether or not… / whether… or not / if… or not."
+    ],
+    "timeline": [
+     "if-whether"
+    ],
+    "examples": [
+     {
+      "text": "I wonder if he needs help.",
+      "hl": [
+       [
+        "if he needs help",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I don't know whether she will come or not.",
+      "hl": [
+       [
+        "whether she will come or not",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "At the office: Let me know if…",
+     "icon": "🖨️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Is the financial report ready? → Let me know if ___.",
+       "options": [
+        "is the financial report ready",
+        "the financial report is ready"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + subject + be."
+      },
+      {
+       "type": "fill",
+       "text": "Will it be ready tomorrow? → Let me know if ___.",
+       "verb": "it…",
+       "accept": [
+        "it will be ready tomorrow"
+       ],
+       "why": "if + subject + will."
+      },
+      {
+       "type": "choice",
+       "text": "Does the copy machine need paper? → Let me know if ___.",
+       "options": [
+        "the copy machine needs paper",
+        "does the copy machine need paper",
+        "the copy machine need paper"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No does. Add -s: needs."
+      },
+      {
+       "type": "fill",
+       "text": "Is someone waiting for me? → Let me know if ___.",
+       "verb": "someone…",
+       "accept": [
+        "someone is waiting for me"
+       ],
+       "why": "if + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "Do we need anything for the meeting? → Let me know if ___.",
+       "options": [
+        "do we need anything for the meeting",
+        "we need anything for the meeting"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No do."
+      },
+      {
+       "type": "fill",
+       "text": "Are you going to be there? → Let me know if ___.",
+       "verb": "you…",
+       "accept": [
+        "you are going to be there"
+       ],
+       "why": "if + subject + are."
+      }
+     ]
+    },
+    {
+     "title": "At the office: Please check whether…",
+     "icon": "📠",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Did they get my message? → Please check whether ___.",
+       "verb": "they…",
+       "accept": [
+        "they got my message"
+       ],
+       "why": "No did → got."
+      },
+      {
+       "type": "choice",
+       "text": "Is the copy machine working? → Please check whether ___.",
+       "options": [
+        "the copy machine is working",
+        "is the copy machine working"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whether + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "Is there any paper left? → Please check whether ___.",
+       "options": [
+        "is there any paper left",
+        "there is any paper left"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "there + is, not is + there."
+      },
+      {
+       "type": "choice",
+       "text": "Is this information correct? → Please check whether ___.",
+       "options": [
+        "this information is correct",
+        "is this information correct"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whether + subject + be."
+      },
+      {
+       "type": "fill",
+       "text": "Did the fax come in? → Please check whether ___.",
+       "verb": "the fax…",
+       "accept": [
+        "the fax came in"
+       ],
+       "why": "No did → came."
+      },
+      {
+       "type": "choice",
+       "text": "Are we going to have Monday off? → Please check whether ___.",
+       "options": [
+        "are we going to have Monday off",
+        "we are going to have Monday off"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether + subject + are."
+      }
+     ]
+    },
+    {
+     "title": "Tourists, keys, a new neighbor",
+     "icon": "🚌",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Where is the bus station? → Let's ask ___.",
+       "options": [
+        "where the bus station is",
+        "where is the bus station"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject + is.",
+       "ctx": "You're at a tourist center."
+      },
+      {
+       "type": "choice",
+       "text": "How much does the city bus cost? → Let's ask ___.",
+       "options": [
+        "how much does the city bus cost",
+        "how much the city bus costs"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No does. Add -s: costs."
+      },
+      {
+       "type": "choice",
+       "text": "Is there a bike rack on the bus? → Let's ask ___.",
+       "options": [
+        "is there a bike rack on the bus",
+        "if is there a bike rack on the bus",
+        "if there is a bike rack on the bus"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Yes/no question → if + there is."
+      },
+      {
+       "type": "choice",
+       "text": "Is this bus schedule correct? → Let's ask ___.",
+       "options": [
+        "whether is this bus schedule correct",
+        "whether this bus schedule is correct"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "How far is it from here to town? → We need to figure out ___.",
+       "options": [
+        "how far it is from here to town",
+        "how far is it from here to town"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject (it) + is."
+      },
+      {
+       "type": "choice",
+       "text": "Is there free Wi-Fi anywhere? → We need to figure out ___.",
+       "options": [
+        "if is there free Wi-Fi anywhere",
+        "if there is free Wi-Fi anywhere"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + there is."
+      },
+      {
+       "type": "choice",
+       "text": "Where did I leave my keys? → I don't know ___.",
+       "options": [
+        "where I left my keys",
+        "where did I leave my keys"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did → left.",
+       "ctx": "You're late for work."
+      },
+      {
+       "type": "choice",
+       "text": "Are my keys in my bag? → I don't know ___.",
+       "options": [
+        "are my keys in my bag",
+        "if my keys are in my bag"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Yes/no question → if + subject + are."
+      },
+      {
+       "type": "choice",
+       "text": "Is he single or married? → I'll find out ___.",
+       "options": [
+        "whether he is single or married",
+        "whether is he single or married"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whether + subject + be.",
+       "ctx": "You have a new neighbor."
+      },
+      {
+       "type": "choice",
+       "text": "Would he like to come to dinner? → I'll find out ___.",
+       "options": [
+        "if would he like to come to dinner",
+        "if he would like to come to dinner"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "if + subject + would."
+      }
+     ]
+    },
+    {
+     "title": "What would you say?",
+     "icon": "🧥",
+     "items": [
+      {
+       "type": "choice",
+       "text": "You see a restaurant. You can't tell if it's open yet. You ask a man outside:",
+       "options": [
+        "Do you know if this restaurant is open yet?",
+        "Do you know is this restaurant open yet?"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "if + subject + be."
+      },
+      {
+       "type": "choice",
+       "text": "You were absent yesterday. You ask another student:",
+       "options": [
+        "Can you tell me what is the homework?",
+        "Can you tell me what the homework is?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "subject (the homework) + is."
+      },
+      {
+       "type": "choice",
+       "text": "Someone asks you the date. You don't know:",
+       "options": [
+        "I'll find out what the date is.",
+        "I'll find out what is the date."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "subject (the date) + is."
+      },
+      {
+       "type": "choice",
+       "text": "You're buying a coat. You ask the salesperson:",
+       "options": [
+        "Could you tell me how many days do I have to return it?",
+        "Could you tell me how many days I have to return it?"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No do."
+      },
+      {
+       "type": "choice",
+       "text": "A movie at the theater or at home? Both sound good:",
+       "options": [
+        "I don't care whether we go to a movie or watch one at home.",
+        "I don't care do we go to a movie or watch one at home."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "whether … or …"
+      },
+      {
+       "type": "choice",
+       "text": "You have a late fee on your bill. You call the company:",
+       "options": [
+        "I'd like to know why do I have a late fee.",
+        "I'd like to know why I have a late fee."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No do."
+      },
+      {
+       "type": "judge",
+       "text": "I wonder if or not the mail has arrived.",
+       "answer": "wrong",
+       "why": "or not can't come right after if.",
+       "fix": "I wonder whether or not the mail has arrived."
+      },
+      {
+       "type": "judge",
+       "text": "I wonder whether the mail has arrived or not.",
+       "answer": "correct",
+       "why": "whether … or not."
+      },
+      {
+       "type": "judge",
+       "text": "Can you ask them whether they need help or not?",
+       "answer": "correct",
+       "why": "whether + subject + verb + or not."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Can you tell me if…?",
+     "task": "Interview Claude politely: “Can you tell me if you have ever…?”",
+     "claudePrompt": "You are my English speaking partner. I will interview you with polite questions that begin with Can/Could you tell me if/whether ... (Could you tell me if you have ever won a prize? Can you tell me whether you like music?). Answer each briefly as a friendly AI, then ask me the same thing back so I answer. If my word order is wrong (question order after if/whether), correct it in one line."
+    }
+   ]
+  },
+  {
+   "id": "12-4",
+   "tag": "12-4",
+   "t": "plan",
+   "title": "What to do?",
+   "full": "Question Words Followed by Infinitives",
+   "lesson": {
+    "title": "Learn: wh-word + to + verb",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "A shorter way",
+      "lines": [
+       "question word + to + verb."
+      ],
+      "visual": [
+       "wh-inf"
+      ],
+      "chips": [
+       "I don't know what I should do. = I don't know what to do.",
+       "Please tell me how I can get to the bus station. = Please tell me how to get to the bus station."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Susan doesn't know what she should do. = Susan doesn't know what ___.",
+      "options": [
+       "to do",
+       "do",
+       "doing"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "what + to + verb."
+     },
+     {
+      "type": "learn",
+      "title": "It means should or can",
+      "lines": [
+       "The infinitive hides should / can / could."
+      ],
+      "chips": [
+       "where to find it = where we could find it",
+       "whether to go or stay = whether she should go or stay",
+       "which one to buy = which one I should buy"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Jim told us where to find it. =",
+      "options": [
+       "Jim told us where we could find it.",
+       "Jim told us where did we find it."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "to find = we could find."
+     },
+     {
+      "type": "choice",
+      "text": "I wasn't sure where ___ for the information.",
+      "options": [
+       "do I look",
+       "to look"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "where + to + verb."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "Question word (or whether) + to + verb.",
+     "Meaning: should or can / could."
+    ],
+    "timeline": [
+     "wh-inf"
+    ],
+    "examples": [
+     {
+      "text": "I don't know what to do.",
+      "hl": [
+       [
+        "what to do",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Please tell me how to get to the bus station.",
+      "hl": [
+       [
+        "how to get",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "Pam can't decide whether to go or stay home.",
+      "hl": [
+       [
+        "whether to go",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Make it shorter",
+     "icon": "✂️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "Susan doesn't know what she should do. → Susan doesn't know what ___.",
+       "verb": "do",
+       "accept": [
+        "to do"
+       ],
+       "why": "what + to do."
+      },
+      {
+       "type": "fill",
+       "text": "She needs to figure out how she will get home. → She needs to figure out how ___ home.",
+       "verb": "get",
+       "accept": [
+        "to get"
+       ],
+       "why": "how + to get."
+      },
+      {
+       "type": "fill",
+       "text": "Sally told me when I should come. → Sally told me when ___.",
+       "verb": "come",
+       "accept": [
+        "to come"
+       ],
+       "why": "when + to come."
+      },
+      {
+       "type": "fill",
+       "text": "The plumber told me how I could fix the leak. → The plumber told me how ___ the leak.",
+       "verb": "fix",
+       "accept": [
+        "to fix"
+       ],
+       "why": "how + to fix."
+      },
+      {
+       "type": "fill",
+       "text": "Please tell me where I should meet you. → Please tell me where ___ you.",
+       "verb": "meet",
+       "accept": [
+        "to meet"
+       ],
+       "why": "where + to meet."
+      },
+      {
+       "type": "fill",
+       "text": "Sandy didn't know whether she should believe him or not. → Sandy didn't know whether ___ him or not.",
+       "verb": "believe",
+       "accept": [
+        "to believe"
+       ],
+       "why": "whether + to believe."
+      },
+      {
+       "type": "fill",
+       "text": "Jim wasn't sure which one he should buy. → Jim wasn't sure which one ___.",
+       "verb": "buy",
+       "accept": [
+        "to buy"
+       ],
+       "why": "which one + to buy."
+      },
+      {
+       "type": "fill",
+       "text": "I don't know what else I can do. → I don't know what else ___.",
+       "verb": "do",
+       "accept": [
+        "to do"
+       ],
+       "why": "what else + to do."
+      }
+     ]
+    },
+    {
+     "title": "Finish the idea",
+     "icon": "🎁",
+     "items": [
+      {
+       "type": "choice",
+       "text": "I can't decide what ___ to the reception. — How about your green suit?",
+       "options": [
+        "wear",
+        "to wear",
+        "wearing"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "what + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Do you know how ___ chess? — No, but I'd like to learn.",
+       "options": [
+        "play",
+        "playing",
+        "to play"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "how + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I don't know what ___ my mom for her birthday.",
+       "options": [
+        "to get",
+        "getting",
+        "I get"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "what + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I can't decide whether ___ her a book or flowers.",
+       "options": [
+        "giving",
+        "to give",
+        "give"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "whether + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Read this tour book. It tells you where ___.",
+       "options": [
+        "staying",
+        "stay",
+        "to stay"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "where + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "It also tells you what ___ cheaply.",
+       "options": [
+        "to eat",
+        "eating",
+        "eat"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "what + to + verb."
+      }
+     ]
+    },
+    {
+     "title": "Right or wrong?",
+     "icon": "🔧",
+     "items": [
+      {
+       "type": "judge",
+       "text": "Please remind me again how to turn on this machine.",
+       "answer": "correct",
+       "why": "how + to + verb."
+      },
+      {
+       "type": "judge",
+       "text": "I wasn't sure where do I look for the information.",
+       "answer": "wrong",
+       "why": "No question order: where to look.",
+       "fix": "I wasn't sure where to look for the information."
+      },
+      {
+       "type": "judge",
+       "text": "I don't know what should I do.",
+       "answer": "wrong",
+       "why": "Noun clause: what I should do / what to do.",
+       "fix": "I don't know what to do."
+      },
+      {
+       "type": "judge",
+       "text": "Please tell me how can I get to the bus station.",
+       "answer": "wrong",
+       "why": "how I can get / how to get.",
+       "fix": "Please tell me how to get to the bus station."
+      },
+      {
+       "type": "judge",
+       "text": "Pam can't decide whether to go or stay home.",
+       "answer": "correct",
+       "why": "whether + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "Pam can't decide whether to go or stay home. =",
+       "options": [
+        "Pam can't decide whether she should go or stay home.",
+        "Pam can't decide whether did she go or stay home."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to go = she should go."
+      },
+      {
+       "type": "choice",
+       "text": "I don't know what to do. =",
+       "options": [
+        "I don't know what I should do.",
+        "I don't know what do I do."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "to do = I should do."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12-5",
+   "tag": "12-5",
+   "t": "plan",
+   "title": "I think that…",
+   "full": "Noun Clauses with That",
+   "lesson": {
+    "title": "Learn: that-clauses",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "After a verb",
+      "lines": [
+       "think / know / hope / say + that + sentence.",
+       "In speaking, that is often dropped."
+      ],
+      "visual": [
+       "that-clause"
+      ],
+      "chips": [
+       "I think that Bob will come.",
+       "I think Bob will come."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "After an adjective",
+      "lines": [
+       "Person + be + adjective + that…",
+       "It + be + adjective + that…"
+      ],
+      "chips": [
+       "Jan is happy (that) Bob called.",
+       "I'm afraid that I can't come.",
+       "It is clear (that) Ann likes her new job.",
+       "It's amazing that …",
+       "It's true that …"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ clear that the planets revolve around the sun.",
+      "options": [
+       "Is",
+       "It is"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The sentence needs a subject: It."
+     },
+     {
+      "type": "learn",
+      "title": "That-clause as the subject",
+      "lines": [
+       "Possible, but not common. Keep that!"
+      ],
+      "chips": [
+       "That Ann likes her new job is clear.",
+       "The fact that Ann likes her new job is clear.",
+       "It is a fact that Ann likes her new job."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "___ Ricardo needs to change jobs is clear.",
+      "options": [
+       "That",
+       "(nothing)"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "As a subject, that can't be dropped."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "verb / adjective + (that) + subject + verb.",
+     "It is clear that… = That … is clear. = The fact that … is clear."
+    ],
+    "timeline": [
+     "that-clause"
+    ],
+    "examples": [
+     {
+      "text": "I think that Bob will come.",
+      "hl": [
+       [
+        "that Bob will come",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "It is clear that Ann likes her new job.",
+      "hl": [
+       [
+        "that Ann likes her new job",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "That Ann likes her new job is clear.",
+      "hl": [
+       [
+        "That Ann likes her new job",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Correct or not?",
+     "icon": "🪐",
+     "items": [
+      {
+       "type": "judge",
+       "text": "We know that the planets revolve around the sun.",
+       "answer": "correct",
+       "why": "know + that-clause."
+      },
+      {
+       "type": "judge",
+       "text": "Centuries ago, people weren't aware that the planets revolved around the sun.",
+       "answer": "correct",
+       "why": "aware + that-clause."
+      },
+      {
+       "type": "judge",
+       "text": "That the planets revolve around the sun is now a well-known fact.",
+       "answer": "correct",
+       "why": "A that-clause can be the subject."
+      },
+      {
+       "type": "judge",
+       "text": "Is clear that the planets revolve around the sun.",
+       "answer": "wrong",
+       "why": "The sentence needs It.",
+       "fix": "It is clear that the planets revolve around the sun."
+      },
+      {
+       "type": "judge",
+       "text": "It's interesting that some identical twins can have such different personalities.",
+       "answer": "correct",
+       "why": "It + be + adjective + that."
+      },
+      {
+       "type": "judge",
+       "text": "That Ricardo needs to change jobs is clear.",
+       "answer": "correct",
+       "why": "That-clause as subject + is."
+      },
+      {
+       "type": "judge",
+       "text": "Ann likes her new job is clear.",
+       "answer": "wrong",
+       "why": "As a subject, keep that.",
+       "fix": "That Ann likes her new job is clear."
+      },
+      {
+       "type": "judge",
+       "text": "I think Bob will come.",
+       "answer": "correct",
+       "why": "that is dropped in speaking."
+      }
+     ]
+    },
+    {
+     "title": "It is… that / That… is",
+     "icon": "🌎",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The world is round.",
+       "options": [
+        "It is a fact that the world is round.",
+        "Is a fact that the world is round."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It + is + a fact + that.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "The world is round.",
+       "options": [
+        "That the world is round it is a fact.",
+        "That the world is round is a fact."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "No extra it after the that-clause.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Tim hasn't been able to make any friends.",
+       "options": [
+        "It is too bad that Tim hasn't been able to make any friends.",
+        "It too bad that Tim hasn't been able to make any friends."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It + is + too bad + that.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "The earth revolves around the sun.",
+       "options": [
+        "The earth revolves around the sun is a well-known fact.",
+        "That the earth revolves around the sun is a well-known fact."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A subject clause needs that.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Exercise can reduce heart disease.",
+       "options": [
+        "It is true that exercise can reduce heart disease.",
+        "It is true exercise can reduce heart disease is."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is true + that + sentence.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Drug abuse can ruin one's health.",
+       "options": [
+        "That drug abuse can ruin one's health are obvious.",
+        "That drug abuse can ruin one's health is obvious."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A clause subject is singular: is.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Some women do not earn equal pay for equal work.",
+       "options": [
+        "It is unfair that some women do not earn equal pay for equal work.",
+        "Is unfair that some women do not earn equal pay for equal work."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The sentence needs It.",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "Irene, who is an excellent student, failed her entrance examination.",
+       "options": [
+        "It is surprising that Irene failing her entrance examination.",
+        "It is surprising that Irene failed her entrance examination."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "that + subject + verb (failed).",
+       "ask": "Choose the correct sentence"
+      },
+      {
+       "type": "choice",
+       "text": "English is the principal language of business in much of the world.",
+       "options": [
+        "It is a fact that English is the principal language of business in much of the world.",
+        "It is a fact English the principal language of business in much of the world."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The clause needs its verb: is.",
+       "ask": "Choose the correct sentence"
+      }
+     ]
+    },
+    {
+     "title": "Fact game",
+     "icon": "🕷️",
+     "items": [
+      {
+       "type": "sort",
+       "word": "most spiders have eight eyes.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 0,
+       "why": "True: most spiders have eight eyes."
+      },
+      {
+       "type": "sort",
+       "word": "some spiders have twelve legs.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 1,
+       "why": "All spiders have eight legs."
+      },
+      {
+       "type": "sort",
+       "word": "more men than women are colorblind.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 0,
+       "why": "True: it is more common in men."
+      },
+      {
+       "type": "sort",
+       "word": "25% of the human body is water.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 1,
+       "why": "It is about 60%."
+      },
+      {
+       "type": "sort",
+       "word": "people's main source of vitamin D is fruit.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 1,
+       "why": "The main source is sunlight."
+      },
+      {
+       "type": "sort",
+       "word": "a substance called chlorophyll makes plant leaves green.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 0,
+       "why": "True: chlorophyll is green."
+      },
+      {
+       "type": "sort",
+       "word": "the World Wide Web went online in 2000.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 1,
+       "why": "It went online in 1991."
+      },
+      {
+       "type": "sort",
+       "word": "elephants have the longest pregnancy of any land animal.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 0,
+       "why": "True: about 22 months."
+      },
+      {
+       "type": "sort",
+       "word": "the first wheels were made out of stone.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 1,
+       "why": "They were made of wood."
+      },
+      {
+       "type": "sort",
+       "word": "a diamond is the hardest substance found in nature.",
+       "buckets": [
+        "It's a fact that…",
+        "It isn't true that…"
+       ],
+       "answer": 0,
+       "why": "True."
+      }
+     ]
+    },
+    {
+     "title": "The fact that…",
+     "icon": "🚦",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It's understandable that you feel frustrated. →",
+       "options": [
+        "The fact that you feel frustrated it is understandable.",
+        "The fact that you feel frustrated is understandable."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The fact that … + is. No extra it."
+      },
+      {
+       "type": "choice",
+       "text": "It's undeniable that traffic is getting worse every year. →",
+       "options": [
+        "The fact that traffic is getting worse every year is undeniable.",
+        "The fact traffic is getting worse every year undeniable."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The fact that … + is undeniable."
+      },
+      {
+       "type": "choice",
+       "text": "It's unfortunate that the city has no funds for the project. →",
+       "options": [
+        "The fact that the city has no funds for the project are unfortunate.",
+        "The fact that the city has no funds for the project is unfortunate."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "A clause subject is singular: is."
+      },
+      {
+       "type": "choice",
+       "text": "It's obvious that the two leaders don't respect each other. →",
+       "options": [
+        "The fact that the two leaders don't respect each other is obvious.",
+        "That fact the two leaders don't respect each other is obvious."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The fact that …"
+      },
+      {
+       "type": "choice",
+       "text": "It's a miracle that there were no injuries from the car accident. →",
+       "options": [
+        "The fact that were no injuries from the car accident is a miracle.",
+        "The fact that there were no injuries from the car accident is a miracle."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "that + there were."
+      },
+      {
+       "type": "choice",
+       "text": "The Great Wall of China took more than 1,000 years to build.",
+       "options": [
+        "It's a fact that the Great Wall of China took more than 1,000 years to build.",
+        "It's a fact that the Great Wall of China taking more than 1,000 years to build."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "True, and the clause needs a verb: took.",
+       "ask": "Choose the correct sentence"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "I'm glad that…",
+     "task": "Claude asks: What amazes you about nature? What are you sure of? Answer with “I'm … that …”",
+     "claudePrompt": "You are my English speaking partner. Ask me one question at a time: What is something in your life that you're glad about? What disappointed you in the past? What about nature amazes you? What are you afraid will happen in the future? What about your future are you sure of? What have you recently heard on the news? I answer with: I'm + adjective + that-clause, or I heard / I think that .... Check that my that-clause has a subject and a verb."
+    }
+   ]
+  },
+  {
+   "id": "12-6",
+   "tag": "12-6",
+   "t": "past",
+   "title": "“Exact words”",
+   "full": "Quoted Speech",
+   "lesson": {
+    "title": "Learn: quotation marks",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Quote = the exact words",
+      "lines": [
+       "Put them inside quotation marks “ … ”."
+      ],
+      "visual": [
+       "quote"
+      ],
+      "chips": [
+       "She said, “My brother is a student.”",
+       "“My brother is a student,” she said.",
+       "“My brother,” she said, “is a student.”"
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Commas and capitals",
+      "lines": [
+       "Comma after she said. Capital letter to start the quote.",
+       "Quote first? End it with a comma, not a period."
+      ],
+      "chips": [
+       "She said, “My brother is a student.”",
+       "“My brother is a student,” she said."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "“Watch out”! Mrs. Brooks said.",
+       "“Watch out!” Mrs. Brooks said."
+      ],
+      "answer": [
+       1
+      ],
+      "why": "! and ? go inside the quotation marks."
+     },
+     {
+      "type": "learn",
+      "title": "Questions and two sentences",
+      "lines": [
+       "? and ! go inside. No comma after them."
+      ],
+      "chips": [
+       "She asked, “When will you be here?”",
+       "“When will you be here?” she asked.",
+       "“My brother is a student,” she said. “He is attending a university.”"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "Which is correct?",
+      "options": [
+       "“No cell phone use during class,” our teacher said.",
+       "No cell phone use during class, our teacher said."
+      ],
+      "answer": [
+       0
+      ],
+      "why": "Exact words need quotation marks."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "She said, “Capital letter … period inside.”",
+     "“Quote first,” she said. Question marks go inside: “…?” she asked."
+    ],
+    "timeline": [
+     "quote"
+    ],
+    "examples": [
+     {
+      "text": "She said, “My brother is a student.”",
+      "hl": [
+       [
+        "“My brother is a student.”",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "“When will you be here?” she asked.",
+      "hl": [
+       [
+        "“When will you be here?”",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "A phone call for you",
+     "icon": "📞",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Henry said there is a phone call for you",
+       "options": [
+        "Henry said “there is a phone call for you”.",
+        "Henry said, “There is a phone call for you.”",
+        "Henry said, “there is a phone call for you”."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma, capital, period inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "there is a phone call for you he said",
+       "options": [
+        "“There is a phone call for you.” he said.",
+        "“There is a phone call for you”, He said.",
+        "“There is a phone call for you,” he said."
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Quote first → comma inside the marks.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "there is said Henry a phone call for you",
+       "options": [
+        "“There is,” said Henry, “a phone call for you.”",
+        "“There is,” said Henry, “A phone call for you.”",
+        "“There is” said Henry “a phone call for you.”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A divided quote: two commas, no new capital.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "there is a phone call for you it's your sister said Henry",
+       "options": [
+        "“There is a phone call for you.” “It's your sister,” said Henry.",
+        "“There is a phone call for you. It's your sister,” said Henry.",
+        "“There is a phone call for you, it's your sister” said Henry."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "One pair of marks around both sentences.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "there is a phone call for you he said it's your sister",
+       "options": [
+        "“There is a phone call for you,” he said, “it's your sister.”",
+        "“There is a phone call for you” he said. It's your sister.",
+        "“There is a phone call for you,” he said. “It's your sister.”"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Two sentences → new marks, capital letter.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "I asked him where is the phone",
+       "options": [
+        "I asked him, “Where is the phone?”",
+        "I asked him, “where is the phone”?",
+        "I asked him “Where is the phone.”"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The question mark goes inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "where is the phone she asked",
+       "options": [
+        "“Where is the phone?,” she asked.",
+        "“Where is the phone?” she asked.",
+        "“Where is the phone”? she asked."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "After ? there is no comma.",
+       "ask": "Choose the correct punctuation"
+      }
+     ]
+    },
+    {
+     "title": "The grasshopper and the ant",
+     "icon": "🐜",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The grasshopper visited the ant.",
+       "options": [
+        "“It's such a nice day.” he said. “Come out and play with me.”",
+        "“It's such a nice day,” he said. Come out and play with me.",
+        "“It's such a nice day,” he said. “Come out and play with me.”"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Comma before he said; new marks for sentence two.",
+       "ask": "Choose the correct punctuation",
+       "ctx": "A fable: a lazy grasshopper and a hard-working ant."
+      },
+      {
+       "type": "choice",
+       "text": "The ant shook his head.",
+       "options": [
+        "“I can't,” he replied. “I have too much work to do.”",
+        "“I can't” he replied, “I have too much work to do.”",
+        "“I can't,” He replied. “I have too much work to do”."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Comma inside; period inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "The grasshopper laughed.",
+       "options": [
+        "The grasshopper laughed and said “I have plenty of food”.",
+        "The grasshopper laughed and said, “I have plenty of food.”",
+        "The grasshopper laughed and said, “i have plenty of food.”"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Comma after said; capital I; period inside.",
+       "ask": "Choose the correct punctuation"
+      },
+      {
+       "type": "choice",
+       "text": "“I need to get ready for the winter,” he added. Why is there a comma after winter?",
+       "options": [
+        "The quote comes before he added.",
+        "It is a question."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Quote first → comma, not period."
+      },
+      {
+       "type": "choice",
+       "text": "Winter came. The ant was snug in his nest, and the grasshopper was starving. What is the moral?",
+       "options": [
+        "Prepare today for what you will need tomorrow.",
+        "Never work in the summer."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The ant prepared. The grasshopper didn't."
+      },
+      {
+       "type": "choice",
+       "text": "Which verb can also introduce a quote?",
+       "options": [
+        "replied",
+        "seemed",
+        "happened"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Quote verbs: say, ask, reply, add, whisper…"
+      }
+     ]
+    },
+    {
+     "title": "Spot the mistake",
+     "icon": "🔍",
+     "items": [
+      {
+       "type": "judge",
+       "text": "No cell phone use during class, our teacher said.",
+       "answer": "wrong",
+       "why": "Exact words need quotation marks.",
+       "fix": "“No cell phone use during class,” our teacher said."
+      },
+      {
+       "type": "judge",
+       "text": "She asked, “When will you be here?”",
+       "answer": "correct",
+       "why": "Comma, capital, ? inside."
+      },
+      {
+       "type": "judge",
+       "text": "“When will you be here?,” she asked.",
+       "answer": "wrong",
+       "why": "No comma after a question mark.",
+       "fix": "“When will you be here?” she asked."
+      },
+      {
+       "type": "judge",
+       "text": "She said, “Watch out!”",
+       "answer": "correct",
+       "why": "! goes inside the marks."
+      },
+      {
+       "type": "judge",
+       "text": "“My brother,” she said, “Is a student.”",
+       "answer": "wrong",
+       "why": "A divided quote: no new capital.",
+       "fix": "“My brother,” she said, “is a student.”"
+      },
+      {
+       "type": "judge",
+       "text": "“Let's leave,” whispered Dave.",
+       "answer": "correct",
+       "why": "A noun subject can follow the verb."
+      },
+      {
+       "type": "judge",
+       "text": "She said “My brother is a student”.",
+       "answer": "wrong",
+       "why": "Comma after said; period inside.",
+       "fix": "She said, “My brother is a student.”"
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Write a fable",
+     "task": "Tell Claude a short story from your country with two characters who talk. Use “…” for their words.",
+     "claudePrompt": "You are my English writing partner. Ask me to write a short fable or folk story from my country (5-7 sentences) in which two characters speak, using quoted speech. Then check only the quotation punctuation: comma after said, capital letter at the start of the quote, period/question mark inside the marks, comma (not period) when the quote comes first. Show me each fix in one line and tell me what you liked about the story."
+    }
+   ]
+  },
+  {
+   "id": "12-7",
+   "tag": "12-7",
+   "t": "past",
+   "title": "She said that…",
+   "full": "Reported Speech",
+   "lesson": {
+    "title": "Learn: reporting what people said",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "No quotation marks",
+      "lines": [
+       "Use a noun clause. Pronouns change."
+      ],
+      "visual": [
+       "quote"
+      ],
+      "chips": [
+       "“I work at night.” → He said (that) he worked at night."
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "said → one step back",
+      "lines": [
+       "Past reporting verb → past verb in the clause."
+      ],
+      "visual": [
+       "backshift"
+      ],
+      "chips": [
+       "“I am working.” → He said he was working.",
+       "“I worked.” → He said he worked / had worked.",
+       "“I have worked.” → He said he had worked."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“I work at night.” → He said he ___ at night.",
+      "options": [
+       "works",
+       "worked"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "said (past) → worked."
+     },
+     {
+      "type": "learn",
+      "title": "When nothing changes",
+      "lines": [
+       "says / has said / will say → no change.",
+       "A general truth → no change. Reporting right away → no change."
+      ],
+      "chips": [
+       "He says he works at night.",
+       "She said that the world is round.",
+       "(just now) He said he wants us to read Chapter 6."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“There are 1,440 minutes in a day.” → Someone said there ___ 1,440 minutes in a day.",
+      "options": [
+       "are",
+       "had been"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "A general truth stays in the present."
+     },
+     {
+      "type": "compare",
+      "title": "say or tell?",
+      "left": {
+       "label": "say + (that)…",
+       "t": "past",
+       "examples": [
+        {
+         "text": "He said he was late.",
+         "hl": [
+          [
+           "said",
+           "past"
+          ]
+         ]
+        }
+       ]
+      },
+      "right": {
+       "label": "tell + person + (that)…",
+       "t": "plan",
+       "examples": [
+        {
+         "text": "He told me he was late.",
+         "hl": [
+          [
+           "told me",
+           "plan"
+          ]
+         ]
+        }
+       ]
+      },
+      "tip": "An order: “Leave.” → She told me to leave."
+     },
+     {
+      "type": "choice",
+      "text": "She ___ him to do a longer series on the topic.",
+      "options": [
+       "said",
+       "told"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "tell + person + to + verb."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "said / told (past) → the verb in the noun clause moves one step back.",
+     "say (that)… / tell + person (that)… / tell + person + to + verb."
+    ],
+    "timeline": [
+     "backshift"
+    ],
+    "examples": [
+     {
+      "text": "He said he worked at night.",
+      "hl": [
+       [
+        "worked",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "He said he had worked.",
+      "hl": [
+       [
+        "had worked",
+        "pastperf"
+       ]
+      ]
+     },
+     {
+      "text": "She told me to leave.",
+      "hl": [
+       [
+        "told me to leave",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "Overheard in the elevator",
+     "icon": "🛗",
+     "items": [
+      {
+       "type": "choice",
+       "text": "LARRY: “Jason and Liz are engaged.” → Larry says Jason and Liz ___ engaged.",
+       "options": [
+        "are",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "says (present) → no change."
+      },
+      {
+       "type": "choice",
+       "text": "→ Larry has said Jason and Liz ___ engaged.",
+       "options": [
+        "are",
+        "were"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "has said → no change.",
+       "ctx": "LARRY: “Jason and Liz are engaged.”"
+      },
+      {
+       "type": "choice",
+       "text": "→ Larry said Jason and Liz ___ engaged.",
+       "options": [
+        "are",
+        "were"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "said (past) → were.",
+       "ctx": "LARRY: “Jason and Liz are engaged.”"
+      },
+      {
+       "type": "choice",
+       "text": "“Not many in the class have a passing grade.” → The teaching assistant said not many in the class ___ a passing grade.",
+       "options": [
+        "have",
+        "had"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "said (past) → had."
+      },
+      {
+       "type": "choice",
+       "text": "→ The teaching assistant says not many in the class ___ a passing grade.",
+       "options": [
+        "have",
+        "had"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "says → no change.",
+       "ctx": "“Not many in the class have a passing grade.”"
+      },
+      {
+       "type": "choice",
+       "text": "→ The teaching assistant will say not many in the class ___ a passing grade.",
+       "options": [
+        "have",
+        "had"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "will say → no change.",
+       "ctx": "“Not many in the class have a passing grade.”"
+      },
+      {
+       "type": "choice",
+       "text": "“There are 1,440 minutes in a day.” → Someone said there ___ 1,440 minutes in a day.",
+       "options": [
+        "are",
+        "had been"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A general truth → no change."
+      },
+      {
+       "type": "choice",
+       "text": "“A strong storm is coming.” → She said yesterday that a strong storm ___ coming.",
+       "options": [
+        "is",
+        "was"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Reported later, said → was."
+      }
+     ]
+    },
+    {
+     "title": "At a restaurant",
+     "icon": "🍽️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "“Your order is ready,” said the waiter. → The waiter said our order ___ ready.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "is → was."
+      },
+      {
+       "type": "fill",
+       "text": "“I'm having the special,” Mustafa said. → Mustafa said he ___ the special.",
+       "verb": "have",
+       "accept": [
+        "was having"
+       ],
+       "why": "am having → was having."
+      },
+      {
+       "type": "fill",
+       "text": "“We went there for our anniversary.” → My parents said they ___ there for their anniversary.",
+       "verb": "go",
+       "accept": [
+        "had gone",
+        "went"
+       ],
+       "why": "went → had gone (or no change)."
+      },
+      {
+       "type": "fill",
+       "text": "“I went to school with the chef.” → My dad said he ___ to school with the chef.",
+       "verb": "go",
+       "accept": [
+        "had gone",
+        "went"
+       ],
+       "why": "went → had gone (or no change)."
+      },
+      {
+       "type": "fill",
+       "text": "I talked to Noor yesterday. “I'm going to join you for lunch.” → She said she ___ to join us for lunch.",
+       "verb": "be going",
+       "accept": [
+        "was going"
+       ],
+       "why": "Later reporting: am going → was going."
+      },
+      {
+       "type": "fill",
+       "text": "I just talked to Noor. “I'm going to join you for lunch.” → She said she ___ to join us for lunch.",
+       "verb": "be going",
+       "accept": [
+        "is going",
+        "was going"
+       ],
+       "why": "Reporting right away → no change needed."
+      },
+      {
+       "type": "fill",
+       "text": "“I have never tasted such a delicious dessert.” → Mustafa said he ___ such a delicious dessert.",
+       "verb": "never taste",
+       "accept": [
+        "had never tasted"
+       ],
+       "why": "have tasted → had tasted."
+      },
+      {
+       "type": "fill",
+       "text": "“There is a mistake on our bill.” → A customer said there ___ a mistake on their bill.",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "is → was."
+      }
+     ]
+    },
+    {
+     "title": "At a meeting",
+     "icon": "🗂️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "Talal asked Leo, “Do you want to begin?” → Talal asked Leo ___.",
+       "options": [
+        "if did he want to begin",
+        "that he wanted to begin",
+        "if he wanted to begin"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "Yes/no question → if + past."
+      },
+      {
+       "type": "choice",
+       "text": "Maria asked us, “Have you seen my notes?” → Maria asked us ___.",
+       "options": [
+        "if we had seen her notes",
+        "if had we seen her notes",
+        "if we have seen my notes"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have seen → had seen; my → her."
+      },
+      {
+       "type": "choice",
+       "text": "Oscar asked me, “What are you talking about?” → Oscar asked me ___.",
+       "options": [
+        "what was I talking about",
+        "what I was talking about",
+        "what I am talking about"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are talking → was talking."
+      },
+      {
+       "type": "choice",
+       "text": "“Does the decision need to be made today?” asked David. → David asked ___.",
+       "options": [
+        "whether the decision needed to be made today",
+        "whether did the decision need to be made today"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did → needed."
+      },
+      {
+       "type": "choice",
+       "text": "Lillian asked, “Is everyone sure this is the right decision?” → Lillian asked ___.",
+       "options": [
+        "if was everyone sure this is the right decision",
+        "if everyone was sure this was the right decision"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "is → was (twice)."
+      },
+      {
+       "type": "choice",
+       "text": "Ricardo asked me, “Is what you are saying true?” → Ricardo asked me ___.",
+       "options": [
+        "if what I was saying was true",
+        "if what was I saying is true"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "are saying → was saying; is → was."
+      },
+      {
+       "type": "choice",
+       "text": "“Leave.” → She told me ___.",
+       "options": [
+        "leave",
+        "that leave",
+        "to leave"
+       ],
+       "answer": [
+        2
+       ],
+       "why": "An order → tell + person + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "“Don't be late.” → He told us ___.",
+       "options": [
+        "not to be late",
+        "to not late",
+        "don't be late"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Negative order → not to + verb."
+      }
+     ]
+    },
+    {
+     "title": "said or told?",
+     "icon": "📺",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The owner ___ that he wanted a more interesting newscast.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No person after the verb → said."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ the TV ratings were dropping.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No person after the verb → said."
+      },
+      {
+       "type": "choice",
+       "text": "He ___ the director needed to work hard to improve the ratings.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "the director is the clause subject → said."
+      },
+      {
+       "type": "choice",
+       "text": "The director ___ him that she felt the newscast needed more investigative reporting.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "him = a person → told."
+      },
+      {
+       "type": "choice",
+       "text": "A reporter ___ he had just finished a report on government corruption.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No person after the verb → said."
+      },
+      {
+       "type": "choice",
+       "text": "She ___ him to do a longer series on the topic.",
+       "options": [
+        "said",
+        "told"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "tell + person + to + verb."
+      },
+      {
+       "type": "choice",
+       "text": "I asked Elias what he was doing. He told me he ___ waiting for me.",
+       "options": [
+        "is",
+        "was"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "told (past) → was waiting."
+      },
+      {
+       "type": "judge",
+       "text": "He said me he was late.",
+       "answer": "wrong",
+       "why": "say has no person object → told me.",
+       "fix": "He told me he was late."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12-8",
+   "tag": "12-8",
+   "t": "past",
+   "title": "She said she could",
+   "full": "Reported Speech: Modal Verbs in Noun Clauses",
+   "lesson": {
+    "title": "Learn: modals one step back",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "These change",
+      "lines": [
+       "After said / told:"
+      ],
+      "visual": [
+       "backshift"
+      ],
+      "chips": [
+       "can → could",
+       "may → may / might",
+       "must → had to",
+       "have to → had to",
+       "will → would",
+       "am / is / are going to → was / were going to"
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“I can go.” → She said she ___ go.",
+      "options": [
+       "can",
+       "could"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "can → could."
+     },
+     {
+      "type": "learn",
+      "title": "These don't change",
+      "lines": [
+       "should, ought to, might stay the same."
+      ],
+      "chips": [
+       "“I should go.” → She said she should go.",
+       "“I ought to go.” → She said she ought to go.",
+       "“I might go.” → She said she might go."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "“I must go.” → She said she ___ go.",
+      "options": [
+       "must have to",
+       "had to"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "must → had to."
+     },
+     {
+      "type": "choice",
+      "text": "“I should go.” → She said she ___ go.",
+      "options": [
+       "should",
+       "should have"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "should doesn't change."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "can → could · will → would · must / have to → had to · may → might.",
+     "No change: should, ought to, might."
+    ],
+    "timeline": [
+     "backshift"
+    ],
+    "examples": [
+     {
+      "text": "She said she could go.",
+      "hl": [
+       [
+        "could go",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "She said she would go.",
+      "hl": [
+       [
+        "would go",
+        "past"
+       ]
+      ]
+     },
+     {
+      "text": "She said she had to go.",
+      "hl": [
+       [
+        "had to go",
+        "past"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "One step back",
+     "icon": "↩️",
+     "items": [
+      {
+       "type": "choice",
+       "text": "“I can go.” → She said she ___ go.",
+       "options": [
+        "could",
+        "can to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "can → could."
+      },
+      {
+       "type": "choice",
+       "text": "“I may go.” → She said she ___ go.",
+       "options": [
+        "might",
+        "may to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "may → might (or may)."
+      },
+      {
+       "type": "choice",
+       "text": "“I must go.” → She said she ___ go.",
+       "options": [
+        "musted",
+        "had to"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "must → had to."
+      },
+      {
+       "type": "choice",
+       "text": "“I have to go.” → She said she ___ go.",
+       "options": [
+        "had to",
+        "has had to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "have to → had to."
+      },
+      {
+       "type": "choice",
+       "text": "“I will go.” → She said she ___ go.",
+       "options": [
+        "will",
+        "would"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "will → would."
+      },
+      {
+       "type": "choice",
+       "text": "“I am going to go.” → She said she ___ go.",
+       "options": [
+        "was going to",
+        "is going"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "am going to → was going to."
+      },
+      {
+       "type": "choice",
+       "text": "“I should go.” → She said she ___ go.",
+       "options": [
+        "should",
+        "shoulded"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "should doesn't change."
+      },
+      {
+       "type": "choice",
+       "text": "“I ought to go.” → She said she ___ go.",
+       "options": [
+        "ought to",
+        "oughted to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "ought to doesn't change."
+      },
+      {
+       "type": "choice",
+       "text": "“I might go.” → She said she ___ go.",
+       "options": [
+        "might",
+        "might have to"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "might doesn't change."
+      },
+      {
+       "type": "judge",
+       "text": "Roberta said she must have to work late last night.",
+       "answer": "wrong",
+       "why": "must → had to.",
+       "fix": "Roberta said she had to work late last night."
+      }
+     ]
+    },
+    {
+     "title": "That's not what I heard",
+     "icon": "👂",
+     "items": [
+      {
+       "type": "fill",
+       "text": "“I can't find my glasses.” → Alicia said she ___ find her glasses.",
+       "verb": "can't",
+       "accept": [
+        "couldn't",
+        "could not"
+       ],
+       "why": "can't → couldn't."
+      },
+      {
+       "type": "fill",
+       "text": "“I have to leave.” → Alicia said that she ___ leave.",
+       "verb": "have to",
+       "accept": [
+        "had to"
+       ],
+       "why": "have to → had to."
+      },
+      {
+       "type": "fill",
+       "text": "The test is scheduled for Monday. — Really? I heard it ___ for Tuesday.",
+       "verb": "schedule",
+       "accept": [
+        "was scheduled"
+       ],
+       "why": "is scheduled → was scheduled."
+      },
+      {
+       "type": "fill",
+       "text": "Mikhail can't come tonight. — Are you sure? I heard he ___ come tonight.",
+       "verb": "can",
+       "accept": [
+        "could"
+       ],
+       "why": "can → could."
+      },
+      {
+       "type": "fill",
+       "text": "It's raining outside. — Really? I thought it ___.",
+       "verb": "snow",
+       "accept": [
+        "was snowing"
+       ],
+       "why": "is snowing → was snowing."
+      },
+      {
+       "type": "fill",
+       "text": "Tony has to get a passport. — Are you sure? I heard he ___ to get a visa.",
+       "verb": "has",
+       "accept": [
+        "had"
+       ],
+       "why": "has to → had to."
+      },
+      {
+       "type": "fill",
+       "text": "Marita hasn't applied for a job yet. — I heard she ___ for work at her uncle's company.",
+       "verb": "apply",
+       "accept": [
+        "had applied",
+        "applied"
+       ],
+       "why": "has applied → had applied."
+      },
+      {
+       "type": "fill",
+       "text": "Ms. Alvarez is going to retire. — Really? I thought she ___ in her sales position for another year.",
+       "verb": "continue",
+       "accept": [
+        "was going to continue",
+        "would continue"
+       ],
+       "why": "is going to → was going to."
+      }
+     ]
+    },
+    {
+     "title": "Listen and report",
+     "icon": "🎧",
+     "items": [
+      {
+       "type": "listen",
+       "say": "I'm not going to the personnel meeting because I have to finish a report.",
+       "ask": "The speaker said that she…",
+       "options": [
+        "wasn't going to the meeting because she had to finish a report.",
+        "isn't going to the meeting because she must finished a report."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "am not going → wasn't going; have to → had to."
+      },
+      {
+       "type": "listen",
+       "say": "I can't lend Marta any money because my wallet is in my coat pocket back at home.",
+       "ask": "The speaker said that he…",
+       "options": [
+        "can't lent Marta any money because his wallet is at home.",
+        "couldn't lend Marta any money because his wallet was at home."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "can't → couldn't; is → was."
+      },
+      {
+       "type": "listen",
+       "say": "Someone in this room is wearing very strong perfume, and it's giving me a headache.",
+       "ask": "The speaker said that someone…",
+       "options": [
+        "was wearing very strong perfume and it was giving her a headache.",
+        "wore very strong perfume and it gives her a headache."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "is wearing → was wearing; is giving → was giving."
+      },
+      {
+       "type": "listen",
+       "say": "I'll meet Emma at the coffee shop at nine. I promise not to be late.",
+       "ask": "The speaker said that he…",
+       "options": [
+        "will met Emma at nine and promises not be late.",
+        "would meet Emma at nine. He promised not to be late."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "will → would; promise → promised."
+      },
+      {
+       "type": "listen",
+       "say": "I'm considering looking for a new job. What do you think I should do?",
+       "ask": "The speaker said she was considering a new job and asked her friend…",
+       "options": [
+        "what he thought she should do.",
+        "what did he think she should do."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "No did; think → thought; should stays."
+      },
+      {
+       "type": "listen",
+       "say": "We're going to be late for the concert because my wife has to attend a business function after work.",
+       "ask": "The speaker said that they…",
+       "options": [
+        "are going to be late because his wife had attend a function.",
+        "were going to be late because his wife had to attend a function."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "are going to → were going to; has to → had to."
+      }
+     ]
+    },
+    {
+     "title": "said that… and that…",
+     "icon": "🛣️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "“I'm excited about my new job.” → My sister said that she ___ excited about her new job…",
+       "verb": "be",
+       "accept": [
+        "was"
+       ],
+       "why": "am → was."
+      },
+      {
+       "type": "fill",
+       "text": "“I've found a nice apartment.” → …and that she ___ a nice apartment.",
+       "verb": "find",
+       "accept": [
+        "had found"
+       ],
+       "why": "have found → had found."
+      },
+      {
+       "type": "fill",
+       "text": "“I expect you to be in class every day.” → Our professor said that he ___ us to be in class every day…",
+       "verb": "expect",
+       "accept": [
+        "expected"
+       ],
+       "why": "expect → expected."
+      },
+      {
+       "type": "fill",
+       "text": "“Unexcused absences may affect your grades.” → …and that unexcused absences ___ affect our grades.",
+       "verb": "may",
+       "accept": [
+        "might",
+        "may"
+       ],
+       "why": "may → might (or may)."
+      },
+      {
+       "type": "fill",
+       "text": "“Highway 66 will be closed for two months.” → The newspaper said that Highway 66 ___ closed for two months…",
+       "verb": "will be",
+       "accept": [
+        "would be"
+       ],
+       "why": "will → would."
+      },
+      {
+       "type": "fill",
+       "text": "“Commuters should seek alternate routes.” → …and that commuters ___ seek alternate routes.",
+       "verb": "should",
+       "accept": [
+        "should"
+       ],
+       "why": "should doesn't change."
+      },
+      {
+       "type": "fill",
+       "text": "“Every obstacle is a steppingstone to success.” → My father often told me that every obstacle ___ a steppingstone to success…",
+       "verb": "be",
+       "accept": [
+        "is",
+        "was"
+       ],
+       "why": "A general truth can stay present."
+      },
+      {
+       "type": "fill",
+       "text": "“You should view problems as opportunities.” → …and that I ___ view problems as opportunities.",
+       "verb": "should",
+       "accept": [
+        "should"
+       ],
+       "why": "should doesn't change."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "What did they say?",
+     "task": "Claude shows a short chat between two people. You report it: “Jack told Tom that he couldn't…”",
+     "claudePrompt": "You are my English writing partner. Show me one very short conversation at a time (2-4 lines), for example: ALEX: What are you doing? LEA: I'm drawing a picture. / ASAKO: Do you want to go to a movie Sunday night? MARTA: I'd like to, but I have to study. / JOHNNY: How old are you, Mrs. Robinson? MRS. ROBINSON: It's not polite to ask people their age. I write a report in reported speech (Alex asked Lea what she was doing, and she said she was drawing a picture). Check: noun-clause word order, verbs one step back, said vs told, pronouns."
+    },
+    {
+     "title": "Reporter",
+     "task": "Ask Claude questions. Then report its answers: “Claude said it could…”",
+     "claudePrompt": "You are my English speaking partner. I ask you a simple question (Can you speak Arabic? Where will you be tomorrow? What should I study next?). You answer in one short sentence. Then you ask me: 'What did you ask? What did I say?' and I report both in reported speech (I asked if you could speak Arabic. You said that you could ...). Check my modal changes: can→could, will→would, must→had to; should stays."
+    }
+   ]
+  },
+  {
+   "id": "12-9",
+   "tag": "12-9",
+   "t": "plan",
+   "title": "It is vital that he be…",
+   "full": "The Subjunctive in Noun Clauses",
+   "lesson": {
+    "title": "Learn: the simple form after “important” words",
+    "icon": "📖",
+    "items": [
+     {
+      "type": "learn",
+      "title": "Urgent? Use the simple form",
+      "lines": [
+       "No -s, no past, no will. Just the simple form."
+      ],
+      "visual": [
+       "subjunctive"
+      ],
+      "chips": [
+       "The teacher demands that we be on time.",
+       "I insisted that he pay me the money."
+      ]
+     },
+     {
+      "type": "choice",
+      "text": "My brother insists that he ___ at our wedding dinner.",
+      "options": [
+       "speak",
+       "speaks"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "After insist that → simple form."
+     },
+     {
+      "type": "learn",
+      "title": "Which words need it?",
+      "lines": [
+       "Verbs of asking + It is important that…"
+      ],
+      "chips": [
+       {
+        "label": "verbs",
+        "words": [
+         "advise",
+         "ask",
+         "demand",
+         "insist",
+         "propose",
+         "recommend",
+         "request",
+         "suggest"
+        ]
+       },
+       {
+        "label": "It is…",
+        "words": [
+         "critical",
+         "essential",
+         "imperative",
+         "important",
+         "necessary",
+         "vital"
+        ]
+       }
+      ]
+     },
+     {
+      "type": "learn",
+      "title": "Negative and passive",
+      "lines": [
+       "Negative: not + simple form.",
+       "Passive: be + past participle."
+      ],
+      "chips": [
+       "I recommended that she not go to the concert.",
+       "It is important that they be told the truth."
+      ],
+      "tip": "After suggest / recommend, should is OK too: that she should see a doctor."
+     },
+     {
+      "type": "choice",
+      "text": "It's important that we ___ on time to our own wedding!",
+      "options": [
+       "be",
+       "are"
+      ],
+      "answer": [
+       0
+      ],
+      "why": "It is important that → be."
+     },
+     {
+      "type": "choice",
+      "text": "The grandparents insisted that the baby ___ a traditional name.",
+      "options": [
+       "give",
+       "be given"
+      ],
+      "answer": [
+       1
+      ],
+      "why": "The baby receives the name → be given."
+     }
+    ]
+   },
+   "rule": {
+    "lines": [
+     "demand / insist / suggest / recommend / It is important that + simple form.",
+     "Negative: not go. Passive: be told."
+    ],
+    "timeline": [
+     "subjunctive"
+    ],
+    "examples": [
+     {
+      "text": "I insisted that he pay me the money.",
+      "hl": [
+       [
+        "pay",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "I recommended that she not go to the concert.",
+      "hl": [
+       [
+        "not go",
+        "plan"
+       ]
+      ]
+     },
+     {
+      "text": "It is important that they be told the truth.",
+      "hl": [
+       [
+        "be told",
+        "plan"
+       ]
+      ]
+     }
+    ]
+   },
+   "missions": [
+    {
+     "title": "In a courtroom",
+     "icon": "⚖️",
+     "items": [
+      {
+       "type": "fill",
+       "text": "The court clerk has advised that everyone ___ when the judge enters the room.",
+       "verb": "stand up",
+       "accept": [
+        "stand up"
+       ],
+       "why": "advise that → simple form."
+      },
+      {
+       "type": "fill",
+       "text": "It is essential that people ___ their cell phones.",
+       "verb": "turn off",
+       "accept": [
+        "turn off"
+       ],
+       "why": "It is essential that → simple form."
+      },
+      {
+       "type": "fill",
+       "text": "It is important that everyone ___ appropriately for court.",
+       "verb": "dress",
+       "accept": [
+        "dress"
+       ],
+       "why": "No -s: everyone dress."
+      },
+      {
+       "type": "fill",
+       "text": "The clerk has asked that the witness ___ the truth and nothing but the truth.",
+       "verb": "tell",
+       "accept": [
+        "tell"
+       ],
+       "why": "No -s: the witness tell."
+      },
+      {
+       "type": "fill",
+       "text": "The jury has asked that the judge ___ the instructions one more time.",
+       "verb": "explain",
+       "accept": [
+        "explain"
+       ],
+       "why": "No -s: the judge explain."
+      },
+      {
+       "type": "fill",
+       "text": "The judge insisted that everyone ___ quiet when the verdict was read.",
+       "verb": "be",
+       "accept": [
+        "be"
+       ],
+       "why": "Not was: everyone be quiet."
+      },
+      {
+       "type": "choice",
+       "text": "It's important that we ___ on time to our own wedding!",
+       "options": [
+        "be",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It's important that → be."
+      },
+      {
+       "type": "choice",
+       "text": "My brother insists that he ___ at our wedding dinner.",
+       "options": [
+        "speak",
+        "speaks"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "insist that → simple form."
+      }
+     ]
+    },
+    {
+     "title": "Naming a baby",
+     "icon": "🍼",
+     "items": [
+      {
+       "type": "choice",
+       "text": "The hospital requested that the parents ___ a name for the birth certificate.",
+       "options": [
+        "provide",
+        "be provided"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The parents do it → active."
+      },
+      {
+       "type": "choice",
+       "text": "The grandparents insisted that the baby ___ a traditional name.",
+       "options": [
+        "give",
+        "be given"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The baby receives it → be given."
+      },
+      {
+       "type": "choice",
+       "text": "A sibling asked that the parents ___ a popular name.",
+       "options": [
+        "choose",
+        "be chosen"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "The parents do it → active."
+      },
+      {
+       "type": "choice",
+       "text": "A cousin suggested that the baby ___ after a great-grandmother.",
+       "options": [
+        "name",
+        "be named"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "The baby receives it → be named."
+      },
+      {
+       "type": "choice",
+       "text": "The parents requested that they ___ to choose a name without any outside help.",
+       "options": [
+        "allow",
+        "be allowed"
+       ],
+       "answer": [
+        1
+       ],
+       "why": "Others allow them → be allowed."
+      },
+      {
+       "type": "judge",
+       "text": "It is critical that you be here on time tomorrow.",
+       "answer": "correct",
+       "why": "It is critical that → be."
+      },
+      {
+       "type": "judge",
+       "text": "I insisted that he pays me the money.",
+       "answer": "wrong",
+       "why": "Simple form: pay.",
+       "fix": "I insisted that he pay me the money."
+      },
+      {
+       "type": "judge",
+       "text": "I recommended that she not go to the concert.",
+       "answer": "correct",
+       "why": "Negative: not + simple form."
+      }
+     ]
+    },
+    {
+     "title": "Work rules",
+     "icon": "🪪",
+     "items": [
+      {
+       "type": "fill",
+       "text": "It is important that everyone ___ for work on time.",
+       "verb": "show up",
+       "accept": [
+        "show up"
+       ],
+       "why": "Simple form, no -s."
+      },
+      {
+       "type": "fill",
+       "text": "It is critical that everyone ___ an ID badge while at work.",
+       "verb": "wear",
+       "accept": [
+        "wear"
+       ],
+       "why": "Simple form, no -s."
+      },
+      {
+       "type": "fill",
+       "text": "It is vital that employees not ___ computer passwords with other employees.",
+       "verb": "share",
+       "accept": [
+        "share"
+       ],
+       "why": "Negative: not + simple form."
+      },
+      {
+       "type": "fill",
+       "text": "It is vital that computer passwords not ___ by employees.",
+       "verb": "share",
+       "accept": [
+        "be shared"
+       ],
+       "why": "Passive: be + past participle."
+      },
+      {
+       "type": "fill",
+       "text": "It is important that the heat in offices ___ at the end of the day.",
+       "verb": "turn off",
+       "accept": [
+        "be turned off"
+       ],
+       "why": "The heat receives the action → be turned off."
+      },
+      {
+       "type": "fill",
+       "text": "It is imperative that the last person out of the office ___ the door.",
+       "verb": "lock",
+       "accept": [
+        "lock"
+       ],
+       "why": "Simple form, no -s."
+      },
+      {
+       "type": "fill",
+       "text": "Management has requested that employees not ___ social media for personal purposes during work hours.",
+       "verb": "use",
+       "accept": [
+        "use"
+       ],
+       "why": "Negative: not + simple form."
+      }
+     ]
+    },
+    {
+     "title": "Plagiarism",
+     "icon": "📑",
+     "items": [
+      {
+       "type": "choice",
+       "text": "It is essential that every student ___ the school policy regarding plagiarism.",
+       "options": [
+        "know",
+        "knows"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is essential that → simple form.",
+       "ctx": "Simon pastes a paragraph from the Internet into his paper."
+      },
+      {
+       "type": "choice",
+       "text": "Simon is pleased that the information ___ very clear.",
+       "options": [
+        "is",
+        "be"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "pleased that is not an “urgent” word → normal verb."
+      },
+      {
+       "type": "choice",
+       "text": "What Simon has just done ___ commit plagiarism.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "A noun clause subject is singular."
+      },
+      {
+       "type": "choice",
+       "text": "Which sentence has a subjunctive verb?",
+       "options": [
+        "Simon is pleased that the information is very clear.",
+        "It is essential that every student know the school policy."
+       ],
+       "answer": [
+        1
+       ],
+       "why": "know, not knows."
+      },
+      {
+       "type": "choice",
+       "text": "What is plagiarism?",
+       "options": [
+        "copying someone's work without citing the source",
+        "reading many sources for a paper"
+       ],
+       "answer": [
+        0
+       ],
+       "why": "It is like stealing ideas."
+      },
+      {
+       "type": "choice",
+       "text": "A good paraphrase…",
+       "options": [
+        "uses your own words and your own sentence structure.",
+        "keeps the same sentences and just changes some words."
+       ],
+       "answer": [
+        0
+       ],
+       "why": "Only new words, same structure = too similar."
+      }
+     ]
+    }
+   ],
+   "talk": [
+    {
+     "title": "Say it in your own words",
+     "task": "Claude gives you 2-3 sentences. You paraphrase them. Then give advice with “I suggest that…”",
+     "claudePrompt": "You are my English writing partner. Give me a simple 2-3 sentence paragraph about a general topic (sleep, phones, exercise). I paraphrase it in my own words and my own sentence structure. Tell me if my paraphrase is too close to the original. Then ask me to write two pieces of advice about the topic using the subjunctive: It is important that everyone ..., I recommend that a student .... Check that I use the simple form of the verb (no -s, be not is)."
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "title": "Boss: The Clause Sphinx",
+  "icon": "🦁",
+  "items": [
+   {
+    "type": "errorfix",
+    "text": "Tell the taxi driver where [do you want] to go.",
+    "options": [
+     "Tell the taxi driver where you want to go.",
+     "Tell the taxi driver where want you to go.",
+     "Tell the taxi driver where you do want to go."
+    ],
+    "answer": 0,
+    "why": "Noun clause: where + subject + verb.",
+    "rule": "12-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "My roommate came into the room and asked me why [aren't you] in class.",
+    "options": [
+     "My roommate came into the room and asked me why wasn't I in class.",
+     "My roommate came into the room and asked me why I wasn't in class.",
+     "My roommate came into the room and asked me why I am not in class?"
+    ],
+    "answer": 1,
+    "why": "Reported question: subject + verb, past.",
+    "rule": "12-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "It was my first day at the university. I wondered who else [will be] in the class.",
+    "options": [
+     "It was my first day at the university. I wondered who else would be in the class.",
+     "It was my first day at the university. I wondered who else will been in the class.",
+     "It was my first day at the university. I wondered who else is being in the class."
+    ],
+    "answer": 0,
+    "why": "Past → will becomes would.",
+    "rule": "12-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "My professor asked me [that what did I intend] to do after I graduated.",
+    "options": [
+     "My professor asked me that what I intended to do after I graduated.",
+     "My professor asked me what did I intend to do after I graduated.",
+     "My professor asked me what I intended to do after I graduated."
+    ],
+    "answer": 2,
+    "why": "No that, no did: what I intended.",
+    "rule": "12-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "What [does a patient tell a doctor it] is confidential.",
+    "options": [
+     "What a patient tells a doctor is confidential.",
+     "What a patient tells a doctor it is confidential.",
+     "What does a patient tell a doctor is confidential."
+    ],
+    "answer": 0,
+    "why": "Noun clause subject: no does, no extra it.",
+    "rule": "12-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "What my friend and I did [it] was our secret. We didn't even tell our parents what [did we do].",
+    "options": [
+     "What my friend and I did was our secret. We didn't even tell our parents what did we do.",
+     "What my friend and I did was our secret. We didn't even tell our parents what we did.",
+     "What my friend and I did it was our secret. We didn't even tell our parents what we did."
+    ],
+    "answer": 1,
+    "why": "No extra it. No did in a noun clause.",
+    "rule": "12-2"
+   },
+   {
+    "type": "errorfix",
+    "text": "The doctor asked [that] I felt OK. I told him that I [don't] feel well.",
+    "options": [
+     "The doctor asked that I felt OK. I told him that I didn't feel well.",
+     "The doctor asked if I felt OK. I told him that I don't felt well.",
+     "The doctor asked if I felt OK. I told him that I didn't feel well."
+    ],
+    "answer": 2,
+    "why": "Yes/no question → if. told → didn't.",
+    "rule": "12-3"
+   },
+   {
+    "type": "errorfix",
+    "text": "I asked him what kind of movies [does he like].",
+    "options": [
+     "I asked him what kind of movies he liked.",
+     "I asked him what kind of movies did he like.",
+     "I asked him what kind of movies he does like."
+    ],
+    "answer": 0,
+    "why": "No does; asked → liked.",
+    "rule": "12-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "[It is a fact that] I almost drowned makes me very careful about water safety.",
+    "options": [
+     "That a fact I almost drowned makes me very careful about water safety.",
+     "The fact that I almost drowned makes me very careful about water safety.",
+     "It is the fact I almost drowned makes me very careful about water safety."
+    ],
+    "answer": 1,
+    "why": "Subject = The fact that …",
+    "rule": "12-5"
+   },
+   {
+    "type": "errorfix",
+    "text": "I asked the driver where [is the science museum]. She said she [will] tell me when to get off.",
+    "options": [
+     "I asked the driver where the science museum was. She said she would tell me when to get off.",
+     "I asked the driver where was the science museum. She said she would tell me when to get off.",
+     "I asked the driver where the science museum is. She said she will told me when to get off."
+    ],
+    "answer": 0,
+    "why": "subject + was; will → would.",
+    "rule": "12-8"
+   },
+   {
+    "type": "errorfix",
+    "text": "When other children asked me where [was my mother], I told them she [is] going to come very soon.",
+    "options": [
+     "When other children asked me where was my mother, I told them she was going to come very soon.",
+     "When other children asked me where my mother was, I told them she was going to come very soon.",
+     "When other children asked me where my mother is, I told them she is going come very soon."
+    ],
+    "answer": 1,
+    "why": "subject + was; is going to → was going to.",
+    "rule": "12-7"
+   },
+   {
+    "type": "errorfix",
+    "text": "My parents told me [is essential] to know English if I want to study at an American university.",
+    "options": [
+     "My parents told me it essential to know English if I want to study at an American university.",
+     "My parents told me is it essential to know English if I want to study at an American university.",
+     "My parents told me it is essential to know English if I want to study at an American university."
+    ],
+    "answer": 2,
+    "why": "The clause needs a subject: it.",
+    "rule": "12-5"
+   }
+  ]
+ }
+}
